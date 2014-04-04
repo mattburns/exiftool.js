@@ -14,19 +14,20 @@
     var totalFiles = 0; // count of all jpeg files
     var totalSupportedTags = 0; // count of all tag values that were identical
     var totalUnsupportedTags = 0; // count of all tag values that were not identical
+    var totalSupportedTagsByModel = {};
+    var totalUnsupportedTagsByModel = {};
 
     /**
      * Write a summary html file (report/index.html) which summarises the exiftool support and links to the other html files
      */
     var writeSummary = function() {
-        var html = "<h1>exiftool.js support summary</h1>";
-        html += "<p>"+totalFiles+ " total files</p>";
+        var html = "<p>"+totalFiles+ " total files</p>";
         html += "<p>"+totalSupportedTags+ " total supported tags</p>";
         html += "<p>"+totalUnsupportedTags+ " total unsupported tags</p>";
         html += "<ul>";
         
         for (var key in reportFiles) {
-            html += "<li><a href='"+reportFiles[key]+"'>"+reportFiles[key]+"</a></li>";
+            html += "<li><a href='"+reportFiles[key]+"'>"+reportFiles[key]+"</a> Supported: "+totalSupportedTagsByModel[reportFiles[key]]+", Unsupported: "+totalUnsupportedTagsByModel[reportFiles[key]]+"</li>";
         }
         html += "</ul>";
 
@@ -66,8 +67,16 @@
                     });
 
             var supportedTags = "";
-            var html = "";
+            var html = "<table class='table table-bordered'>"
+                        + "<thead><tr>"
+                        + "<th>image</th>"
+                        + "<th>supported tags</th>"
+                        + "<th>unsupported tags (perl output, followed by js output)</th>"
+                        + "</tr></thead><tbody>";
 
+            var totalSupportedByThisModel = 0;
+            var totalUnsupportedByThisModel = 0;
+            
             for (var i = 0; i < results.length; i++) {
 
                 totalFiles++;
@@ -77,27 +86,25 @@
                     if (results[i].exifJS[key] == results[i].exifPerl[key]) {
                         supportedTags.push(key);
                         totalSupportedTags++;
+                        totalSupportedByThisModel++;
                     } else {
                         unsupportedTags.push(key + " : "
                                 + results[i].exifPerl[key] + "<br>" + key
                                 + " : " + results[i].exifJS[key] + "<br>");
                         totalUnsupportedTags++;
+                        totalUnsupportedByThisModel++;
                     }
                 }
-                var rowHtml = "<h1>exiftool.js support</h1>"
-                        + "<table class='table table-bordered'>"
-                        + "<thead><tr>"
-                        + "<th>image</th>"
-                        + "<th>supported tags</th>"
-                        + "<th>unsupported tags (perl output, followed by js output)</th>"
-                        + "</tr></thead><tbody><tr>";
+                var rowHtml = "<tr>";
                 rowHtml += "<td>" + results[i].img + "</td>";
                 rowHtml += "<td>" + supportedTags.join("<br>") + "</td>";
                 rowHtml += "<td>" + unsupportedTags.join("<br>") + "</td>";
-                rowHtml += "</tr></tbody></table>";
+                rowHtml += "</tr>";
 
                 html += rowHtml;
             }
+            html += "</tbody></table>";
+            
 
             fs.readFile('report/template.html', 'utf8', function(err, data) {
                 if (err) {
@@ -112,6 +119,8 @@
                     } else {
                         console.log(reportFile + " written\n");
                         reportFiles.push(pathString + '.html');
+                        totalSupportedTagsByModel[pathString + '.html'] = totalSupportedByThisModel;
+                        totalUnsupportedTagsByModel[pathString + '.html'] = totalUnsupportedByThisModel;
                         writeSummary();
                     }
                 });
@@ -120,8 +129,7 @@
     }
 
     options = {
-        followLinks : false,
-        filters : [ "Temp", "_Temp" ]
+        followLinks : false
     };
 
     walker = walk.walk("sampleImages", options);
