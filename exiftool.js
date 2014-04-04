@@ -248,13 +248,6 @@
 
     }());
 
-    document.write("<script type='text/vbscript'>\r\n"
-            + "Function IEBinary_getByteAt(strBinary, iOffset)\r\n"
-            + "	IEBinary_getByteAt = AscB(MidB(strBinary,iOffset+1,1))\r\n"
-            + "End Function\r\n" + "Function IEBinary_getLength(strBinary)\r\n"
-            + "	IEBinary_getLength = LenB(strBinary)\r\n" + "End Function\r\n"
-            + "</script>\r\n");
-
     var EXIF = {};
 
     (function() {
@@ -278,7 +271,7 @@
 
             // user information
             0x927C : "MakerNote", // Any desired information written by the
-                                    // manufacturer
+            // manufacturer
             0x9286 : "UserComment", // Comments by user
 
             // related file
@@ -286,14 +279,14 @@
 
             // date and time
             0x9003 : "DateTimeOriginal", // Date and time when the original
-                                            // image was generated
+            // image was generated
             0x9004 : "DateTimeDigitized", // Date and time when the image was
-                                            // stored digitally
+            // stored digitally
             0x9290 : "SubsecTime", // Fractions of seconds for DateTime
             0x9291 : "SubsecTimeOriginal", // Fractions of seconds for
-                                            // DateTimeOriginal
+            // DateTimeOriginal
             0x9292 : "SubsecTimeDigitized", // Fractions of seconds for
-                                            // DateTimeDigitized
+            // DateTimeDigitized
 
             // picture-taking conditions
             0x829A : "ExposureTime", // Exposure time (in seconds)
@@ -316,14 +309,14 @@
             0xA20B : "FlashEnergy", // Strobe energy in BCPS
             0xA20C : "SpatialFrequencyResponse", // 
             0xA20E : "FocalPlaneXResolution", // Number of pixels in width
-                                                // direction per
-                                                // FocalPlaneResolutionUnit
+            // direction per
+            // FocalPlaneResolutionUnit
             0xA20F : "FocalPlaneYResolution", // Number of pixels in height
-                                                // direction per
-                                                // FocalPlaneResolutionUnit
+            // direction per
+            // FocalPlaneResolutionUnit
             0xA210 : "FocalPlaneResolutionUnit", // Unit for measuring
-                                                    // FocalPlaneXResolution and
-                                                    // FocalPlaneYResolution
+            // FocalPlaneXResolution and
+            // FocalPlaneYResolution
             0xA214 : "SubjectLocation", // Location of subject in image
             0xA215 : "ExposureIndex", // Exposure index selected on camera
             0xA217 : "SensingMethod", // Image sensor type
@@ -335,23 +328,23 @@
             0xA403 : "WhiteBalance", // 1 = auto white balance, 2 = manual
             0xA404 : "DigitalZoomRation", // Digital zoom ratio
             0xA405 : "FocalLengthIn35mmFilm", // Equivalent foacl length
-                                                // assuming 35mm film camera (in
-                                                // mm)
+            // assuming 35mm film camera (in
+            // mm)
             0xA406 : "SceneCaptureType", // Type of scene
             0xA407 : "GainControl", // Degree of overall image gain adjustment
             0xA408 : "Contrast", // Direction of contrast processing applied
-                                    // by camera
+            // by camera
             0xA409 : "Saturation", // Direction of saturation processing
-                                    // applied by camera
+            // applied by camera
             0xA40A : "Sharpness", // Direction of sharpness processing applied
-                                    // by camera
+            // by camera
             0xA40B : "DeviceSettingDescription", // 
             0xA40C : "SubjectDistanceRange", // Distance to subject
 
             // other tags
             0xA005 : "InteroperabilityIFDPointer",
             0xA420 : "ImageUniqueID" // Identifier assigned uniquely to each
-                                        // image
+        // image
         };
 
         EXIF.TiffTags = {
@@ -582,6 +575,26 @@
                     fncCallback();
             })
         }
+        
+        function getExifFromLocalFileUsingNodeFs(fs, url, onComplete) {
+            fs.open(url, 'r', function(status, fd) {
+                if (status) {
+                    console.log(status.message);
+                    return;
+                }
+                var buffer = new Buffer(100000);
+                fs.read(fd, buffer, 0, 100000, 0, function(err, num) {
+                    var binaryResponse = new BinaryFile(buffer
+                            .toString('binary'), 0, 1000000);
+
+                    var oEXIF = findEXIFinJPEG(binaryResponse);
+                    if (onComplete)
+                        onComplete((oEXIF || {}), url);
+
+                    fs.close(fd);
+                });
+            });
+        }
 
         function findEXIFinJPEG(oFile) {
             var aMarkers = [];
@@ -699,7 +712,7 @@
                 }
                 break;
             case 5: // rational = two long values, first is numerator, second is
-                    // denominator
+                // denominator
                 if (iNumValues == 1) {
                     return oFile.getLongAt(iValueOffset, bBigEnd)
                             / oFile.getLongAt(iValueOffset + 4, bBigEnd);
@@ -727,7 +740,7 @@
                 }
                 break;
             case 10: // signed rational, two slongs, first is numerator,
-                        // second is denominator
+                // second is denominator
                 if (iNumValues == 1) {
                     return oFile.getSLongAt(iValueOffset, bBigEnd)
                             / oFile.getSLongAt(iValueOffset + 4, bBigEnd);
@@ -912,39 +925,46 @@
             }
         }
 
-        // automatically load exif data for all images with exif=true when doc
-        // is ready
-        jQuery(document).ready(loadAllImages);
-
-        // load data for images manually
-        jQuery.fn.exifLoad = function(fncCallback) {
-            return this.each(function() {
-                EXIF.getData(this, fncCallback)
-            });
+        if (typeof (exports) !== 'undefined') {
+            exports.getExifFromLocalFileUsingNodeFs = getExifFromLocalFileUsingNodeFs;
         }
 
-        jQuery.fn.exif = function(strTag) {
-            var aStrings = [];
-            this.each(function() {
-                aStrings.push(EXIF.getTag(this, strTag));
-            });
-            return aStrings;
-        }
+        if (typeof (jQuery) !== 'undefined') {
 
-        jQuery.fn.exifAll = function() {
-            var aStrings = [];
-            this.each(function() {
-                aStrings.push(EXIF.getAllTags(this));
-            });
-            return aStrings;
-        }
+            // automatically load exif data for all images with exif=true when doc
+            // is ready
+            jQuery(document).ready(loadAllImages);
 
-        jQuery.fn.exifPretty = function() {
-            var aStrings = [];
-            this.each(function() {
-                aStrings.push(EXIF.pretty(this));
-            });
-            return aStrings;
+            // load data for images manually
+            jQuery.fn.exifLoad = function(fncCallback) {
+                return this.each(function() {
+                    EXIF.getData(this, fncCallback)
+                });
+            }
+
+            jQuery.fn.exif = function(strTag) {
+                var aStrings = [];
+                this.each(function() {
+                    aStrings.push(EXIF.getTag(this, strTag));
+                });
+                return aStrings;
+            }
+
+            jQuery.fn.exifAll = function() {
+                var aStrings = [];
+                this.each(function() {
+                    aStrings.push(EXIF.getAllTags(this));
+                });
+                return aStrings;
+            }
+
+            jQuery.fn.exifPretty = function() {
+                var aStrings = [];
+                this.each(function() {
+                    aStrings.push(EXIF.pretty(this));
+                });
+                return aStrings;
+            }
         }
 
     })();
