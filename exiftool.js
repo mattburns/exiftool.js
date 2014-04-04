@@ -1,7 +1,8 @@
-/*
- * Javascript EXIF Reader - jQuery plugin 0.1.3
+﻿/*
+ * Javascript EXIF Reader - exiftool.js
  * Copyright (c) 2008 Jacob Seidelin, cupboy@gmail.com, http://blog.nihilogic.dk/
  * Licensed under the MPL License [http://www.nihilogic.dk/licenses/mpl-license.txt]
+ * 
  */
 
 (function() {
@@ -90,10 +91,10 @@
             return String.fromCharCode(this.getByteAt(iOffset));
         }
         this.toBase64 = function() {
-            return window.btoa(data);
+            return btoa(data);
         }
         this.fromBase64 = function(strBase64) {
-            data = window.atob(strBase64);
+            data = atob(strBase64);
         }
     }
 
@@ -101,7 +102,7 @@
 
         function createRequest() {
             var oHTTP = null;
-            if (window.XMLHttpRequest) {
+            if (XMLHttpRequest) {
                 oHTTP = new XMLHttpRequest();
             } else if (window.ActiveXObject) {
                 oHTTP = new ActiveXObject("Microsoft.XMLHTTP");
@@ -147,6 +148,7 @@
 
         function sendRequest(strURL, fncCallback, fncError, aRange,
                 bAcceptRanges, iFileSize) {
+
             var oHTTP = createRequest();
             if (oHTTP) {
 
@@ -162,7 +164,6 @@
                 if (fncCallback) {
                     if (typeof (oHTTP.onload) != "undefined") {
                         oHTTP.onload = function() {
-
                             if (oHTTP.status == "200" || oHTTP.status == "206"
                                     || oHTTP.status == "0") {
                                 this.binaryResponse = new BinaryFile(
@@ -211,8 +212,10 @@
                             + aRange[1]);
                 }
 
-                oHTTP.setRequestHeader("If-Modified-Since",
-                        "Sat, 1 Jan 1970 00:00:00 GMT");
+                // This is causing problems GETting some images
+                // (http://www.acbc.com.au/deploycontrol/images/upload/News_NAT_CND_2012_PM_J_Gillard_1_l.jpg)
+                //
+                // oHTTP.setRequestHeader("If-Modified-Since", "Sat, 1 Jan 1970 00:00:00 GMT");
 
                 oHTTP.send(null);
             } else {
@@ -252,7 +255,109 @@
 
     (function() {
 
-        var bDebug = false;
+        EXIF.MakeInfo = {
+            "Canon" : {
+                MakerNoteTags : {
+                    0x000c : "SerialNumber",
+                    0xa431 : "SerialNumber",
+                    0x0096 : "InternalSerialInfo",
+                    0x0015 : "SerialNumberFormat",
+                    0x0028 : "ImageUniqueID"
+                }
+            },
+            "EASTMAN KODAK COMPANY" : {
+                SerialFoundAtStartOfMakerNotes : true,
+                InvalidSerialStart : "KDK",
+                MinimumBelievableLength : 12
+            },
+            "FUJIFILM" : {
+                MakerNoteTags : {
+                    0x0010 : "InternalSerialNumber"
+                },
+                MakerNoteByteAlign : 0x4949, // always use intel byte align
+                HeaderSize : {
+                    "FUJIFILM" : 12
+                },
+                UseMakernoteOffsetAsBase : {
+                    "FUJIFILM" : true
+                },
+                MinimumBelievableLength : 34
+            },
+            "NIKON CORPORATION" : {
+                MakerNoteTags : {
+                    0x001d : "SerialNumber",
+                    0x00a0 : "SerialNumber"
+                },
+                HeaderSize : {
+                    "Nikon" : 18
+                },
+                MakerNoteByteAlignHeaderOffset : 10, // header looks like
+                // "Nikon.....MM.*...."
+                UseMakernoteOffsetAsBase : {
+                    "Nikon" : true
+                },
+                AdjustOffsetBase : {
+                    "Nikon" : 10
+                }
+            },
+            "OLYMPUS IMAGING CORP." : {
+                MakerNoteTags : {
+                    0x2010 : "EquipmentIFDPointer"
+                },
+                HeaderSize : {
+                    "OLYMP" : 8,
+                    "OLYMPUS" : 12
+                },
+                MakerNoteByteAlignHeaderOffset : 8, // offset from start of header in which
+                // to find the byte align code
+                // (0x4949 or 0x4D4D)
+                UseMakernoteOffsetAsBase : {
+                    "OLYMP" : false,
+                    "OLYMPUS" : true
+                },
+                AdjustOffsetBase : {
+                    "OLYMP" : 0,
+                    "OLYMPUS" : 0
+                },
+
+                SerialWithinIFD : "EquipmentIFDPointer",
+                SerialWithinIFDHeaderSize : 0,
+                SerialWithinIFDTags : {
+                    0x0101 : "SerialNumber"
+                }
+            },
+            "Panasonic" : {
+                MakerNoteTags : {
+                    0x0025 : "InternalSerialNumber"
+                },
+                MakerNoteByteAlign : 0x4949, // always use intel byte align
+                HeaderSize : {
+                    "Panasoni" : 12
+                }
+            },
+            "PENTAX Corporation" : {
+                MakerNoteTags : {
+                    0x0215 : "CameraInfo",
+                    0x0229 : "SerialNumber"
+                },
+                InternalSerialWithinIFDArray : "CameraInfo",
+                InternalSerialWithinIFDArrayElement : 4,
+                DefaultHeaderSize : 6,
+                MakerNoteByteAlignHeaderOffset : 4,
+                FixMakernotesOffset : true
+            },
+            "PENTAX" : {
+                MakerNoteTags : {
+                    0x0215 : "CameraInfo",
+                    0x0229 : "SerialNumber"
+                },
+                InternalSerialWithinIFDArray : "CameraInfo",
+                InternalSerialWithinIFDArrayElement : 4,
+                DefaultHeaderSize : 6,
+                MakerNoteByteAlignHeaderOffset : 4,
+                FixMakernotesOffset : true
+            }
+        }
 
         EXIF.Tags = {
 
@@ -270,23 +375,18 @@
             0x9102 : "CompressedBitsPerPixel", // Compressed bits per pixel
 
             // user information
-            0x927C : "MakerNote", // Any desired information written by the
-            // manufacturer
+            0x927C : "MakerNoteIFDPointer", // Any desired information written by the manufacturer
             0x9286 : "UserComment", // Comments by user
 
             // related file
             0xA004 : "RelatedSoundFile", // Name of related sound file
 
             // date and time
-            0x9003 : "DateTimeOriginal", // Date and time when the original
-            // image was generated
-            0x9004 : "DateTimeDigitized", // Date and time when the image was
-            // stored digitally
+            0x9003 : "DateTimeOriginal", // Date and time when the original image was generated
+            0x9004 : "DateTimeDigitized", // Date and time when the image was stored digitally
             0x9290 : "SubsecTime", // Fractions of seconds for DateTime
-            0x9291 : "SubsecTimeOriginal", // Fractions of seconds for
-            // DateTimeOriginal
-            0x9292 : "SubsecTimeDigitized", // Fractions of seconds for
-            // DateTimeDigitized
+            0x9291 : "SubsecTimeOriginal", // Fractions of seconds for DateTimeOriginal
+            0x9292 : "SubsecTimeDigitized", // Fractions of seconds for DateTimeDigitized
 
             // picture-taking conditions
             0x829A : "ExposureTime", // Exposure time (in seconds)
@@ -308,15 +408,9 @@
             0x920A : "FocalLength", // Focal length of the lens in mm
             0xA20B : "FlashEnergy", // Strobe energy in BCPS
             0xA20C : "SpatialFrequencyResponse", // 
-            0xA20E : "FocalPlaneXResolution", // Number of pixels in width
-            // direction per
-            // FocalPlaneResolutionUnit
-            0xA20F : "FocalPlaneYResolution", // Number of pixels in height
-            // direction per
-            // FocalPlaneResolutionUnit
-            0xA210 : "FocalPlaneResolutionUnit", // Unit for measuring
-            // FocalPlaneXResolution and
-            // FocalPlaneYResolution
+            0xA20E : "FocalPlaneXResolution", // Number of pixels in width direction per FocalPlaneResolutionUnit
+            0xA20F : "FocalPlaneYResolution", // Number of pixels in height direction per FocalPlaneResolutionUnit
+            0xA210 : "FocalPlaneResolutionUnit", // Unit for measuring FocalPlaneXResolution and FocalPlaneYResolution
             0xA214 : "SubjectLocation", // Location of subject in image
             0xA215 : "ExposureIndex", // Exposure index selected on camera
             0xA217 : "SensingMethod", // Image sensor type
@@ -327,24 +421,23 @@
             0xA402 : "ExposureMode", // Exposure mode
             0xA403 : "WhiteBalance", // 1 = auto white balance, 2 = manual
             0xA404 : "DigitalZoomRation", // Digital zoom ratio
-            0xA405 : "FocalLengthIn35mmFilm", // Equivalent foacl length
-            // assuming 35mm film camera (in
-            // mm)
+            0xA405 : "FocalLengthIn35mmFilm", // Equivalent focal length assuming 35mm film camera (in mm)
             0xA406 : "SceneCaptureType", // Type of scene
             0xA407 : "GainControl", // Degree of overall image gain adjustment
-            0xA408 : "Contrast", // Direction of contrast processing applied
-            // by camera
-            0xA409 : "Saturation", // Direction of saturation processing
-            // applied by camera
-            0xA40A : "Sharpness", // Direction of sharpness processing applied
-            // by camera
+            0xA408 : "Contrast", // Direction of contrast processing applied by camera
+            0xA409 : "Saturation", // Direction of saturation processing applied by camera
+            0xA40A : "Sharpness", // Direction of sharpness processing applied by camera
             0xA40B : "DeviceSettingDescription", // 
             0xA40C : "SubjectDistanceRange", // Distance to subject
 
             // other tags
             0xA005 : "InteroperabilityIFDPointer",
-            0xA420 : "ImageUniqueID" // Identifier assigned uniquely to each
-        // image
+            0xA420 : "ImageUniqueID", // Identifier assigned uniquely to each image
+
+            0xA431 : "SerialNumber", // for when SerialNumber is in EXIF directly (BodySerialNumber in EXIF spec)
+            0xA435 : "LensSerialNumber", // for when LensSerialNumber is in EXIF directly
+
+            0xEA1D : "OffsetSchema"
         };
 
         EXIF.TiffTags = {
@@ -380,7 +473,9 @@
             0x0110 : "Model",
             0x0131 : "Software",
             0x013B : "Artist",
-            0x8298 : "Copyright"
+            0x8298 : "Copyright",
+            0xA431 : "SerialNumber", // for when SerialNumber is in IFD0 directly (BodySerialNumber in EXIF spec)
+            0xA435 : "LensSerialNumber" // for when LensSerialNumber is in IFD0 directly
         }
 
         EXIF.GPSTags = {
@@ -567,15 +662,20 @@
             return !!(oImg.exifdata);
         }
 
+        function imageHasBeenScanned(oImg) {
+            return !!(oImg.imageScanned);
+        }
+
         function getImageData(oImg, fncCallback) {
             BinaryAjax(oImg.src, function(oHTTP) {
                 var oEXIF = findEXIFinJPEG(oHTTP.binaryResponse);
                 oImg.exifdata = oEXIF || {};
+                oImg.imageScanned = true;
                 if (fncCallback)
                     fncCallback();
             })
         }
-        
+
         function getExifFromLocalFileUsingNodeFs(fs, url, onComplete) {
             fs.open(url, 'r', function(status, fd) {
                 if (status) {
@@ -584,6 +684,7 @@
                 }
                 var buffer = new Buffer(100000);
                 fs.read(fd, buffer, 0, 100000, 0, function(err, num) {
+
                     var binaryResponse = new BinaryFile(buffer
                             .toString('binary'), 0, 1000000);
 
@@ -596,75 +697,255 @@
             });
         }
 
+        function getExifFromUrl(url, onComplete) {
+            BinaryAjax(url,
+
+            (function(theUrl) { // I absolutely hate this closure syntax, hurts
+                // my head. Must try harder!
+                return function(oHttp) {
+                    var oEXIF = findEXIFinJPEG(oHttp.binaryResponse);
+                    if (onComplete)
+                        onComplete((oEXIF || {}), theUrl);
+                }
+            })(url))
+        }
+
         function findEXIFinJPEG(oFile) {
             var aMarkers = [];
 
             if (oFile.getByteAt(0) != 0xFF || oFile.getByteAt(1) != 0xD8) {
                 return false; // not a valid jpeg
             }
-
             var iOffset = 2;
             var iLength = oFile.getLength();
+
+            var oExifData = {};
+            var oXmpData = {};
+
             while (iOffset < iLength) {
                 if (oFile.getByteAt(iOffset) != 0xFF) {
-                    if (bDebug)
-                        console.log("Not a valid marker at offset " + iOffset
-                                + ", found: " + oFile.getByteAt(iOffset));
-                    return false; // not a valid marker, something is wrong
+                    // return false; // not a valid marker, something is wrong
+                    return oExifData;
                 }
 
                 var iMarker = oFile.getByteAt(iOffset + 1);
 
                 // we could implement handling for other markers here,
-                // but we're only looking for 0xFFE1 for EXIF data
+                // but we're only looking for 0xFFE1 for EXIF and XMP data
 
                 if (iMarker == 22400) {
-                    if (bDebug)
-                        console.log("Found 0xFFE1 marker");
                     return readEXIFData(oFile, iOffset + 4, oFile.getShortAt(
                             iOffset + 2, true) - 2);
                     iOffset += 2 + oFile.getShortAt(iOffset + 2, true);
 
                 } else if (iMarker == 225) {
                     // 0xE1 = Application-specific 1 (for EXIF)
-                    if (bDebug)
-                        console.log("Found 0xFFE1 marker");
-                    return readEXIFData(oFile, iOffset + 4, oFile.getShortAt(
-                            iOffset + 2, true) - 2);
 
+                    var headerAsString = oFile.getStringAt(iOffset + 4, 28);
+                    if (headerAsString.indexOf("http://ns.adobe.com/xap/1.0/") != -1) {
+                        var sXmpData = oFile.getStringAt(iOffset + 33, oFile
+                                .getShortAt(iOffset + 2, true) - 31);
+
+                        var xmlDoc;
+                        try {
+                            sXmpData = sXmpData.trim();
+                            sXmpData = sXmpData.substr(sXmpData.indexOf("<"),
+                                    sXmpData.lastIndexOf(">") + 1);
+                            xmlDoc = $.parseXML(sXmpData);
+                        } catch (e) {
+                            // error parsing xml
+                        }
+
+                        if (xmlDoc != null) {
+                            $([ "SerialNumber", "ImageUniqueID" ])
+                                    .each(
+                                            function(index, tagName) {
+                                                var tagVal = $(xmlDoc).find(
+                                                        tagName);
+                                                var tagValue = tagVal.text();
+
+                                                $([ "aux", "exif" ])
+                                                        .each(
+                                                                function(index,
+                                                                        namespacePrefix) {
+                                                                    if (typeof tagValue === "undefined"
+                                                                            || tagValue.length == 0) {
+                                                                        // 2 backslash to escape colon
+                                                                        $(
+                                                                                xmlDoc)
+                                                                                .find(
+                                                                                        "["
+                                                                                                + namespacePrefix
+                                                                                                + "\\:"
+                                                                                                + tagName
+                                                                                                + "]")
+                                                                                .each(
+                                                                                        function() {
+                                                                                            // but only 1 backslash needed here:
+                                                                                            tagValue = $(
+                                                                                                    this)
+                                                                                                    .attr(
+                                                                                                            namespacePrefix
+                                                                                                                    + "\:"
+                                                                                                                    + tagName);
+                                                                                            // #whyDoIDoThisJob?
+                                                                                        });
+                                                                    }
+                                                                });
+
+                                                if (typeof tagValue != "undefined"
+                                                        && tagValue.length > 0) {
+                                                    tagValue = tidyString(tagValue);
+                                                    oXmpData[tagName] = tagValue;
+                                                    if (typeof oExifData[tagName] === "undefined"
+                                                            || tidyString(oExifData[tagName]).length == 0) {
+                                                        oExifData[tagName] = tagValue;
+                                                    }
+                                                }
+                                            });
+                            oExifData = sortArrayByKeys(oExifData);
+                        }
+                    } else {
+                        oExifData = readEXIFData(oFile, iOffset + 4, oFile
+                                .getShortAt(iOffset + 2, true) - 2);
+                    }
+
+                    iOffset += 2 + oFile.getShortAt(iOffset + 2, true);
                 } else {
                     iOffset += 2 + oFile.getShortAt(iOffset + 2, true);
                 }
-
             }
-
+            return oExifData;
         }
 
-        function readTags(oFile, iTIFFStart, iDirStart, oStrings, bBigEnd) {
-            var iEntries = oFile.getShortAt(iDirStart, bBigEnd);
-            var oTags = {};
+        function logInt(i, name) {
+            console.log(name + ": " + i + " (hex: " + (i).toString(16) + ")");
+        }
+
+        function calculateOffsetBase(oFile, iTIFFStart, iDirStart, oStrings,
+                bBigEnd, iHeaderSize, iOffsetBase) {
+            if (!iHeaderSize) {
+                iHeaderSize = 0;
+            }
+            if (!iOffsetBase) {
+                iOffsetBase = 0;
+            }
+            if (typeof iDirStart === 'undefined') {
+                return {};
+            }
+
+            var iTIFFStartHex = (iTIFFStart).toString(16);
+            var iDirStartHex = (iDirStart).toString(16);
+            var iOffsetBaseHex = (iOffsetBase).toString(16);
+            var diffHex = (iEntriesPosition - iTIFFStart).toString(16);
+
+            var iEntriesPosition = iDirStart + iHeaderSize;
+            var iEntriesPositionHex = (iEntriesPosition).toString(16);
+
+            var iEntries = oFile.getShortAt(iTIFFStart + iEntriesPosition,
+                    bBigEnd);
+
+            var expectedFirstIFDValueLocation = iEntriesPosition + 2
+                    + (iEntries * 12);
+            var nextIFDvalue = oFile.getLongAt(expectedFirstIFDValueLocation
+                    + iTIFFStart, bBigEnd);
+            var nextIFDvalueHex = (nextIFDvalue).toString(16);
+            if (nextIFDvalue == 0x00000000) { // if next IFD pointer is blank,
+                // jump over it
+                expectedFirstIFDValueLocation += 4;
+            }
+            var expectedFirstIFDValueLocationHex = (expectedFirstIFDValueLocation)
+                    .toString(16);
+
             for (var i = 0; i < iEntries; i++) {
-                var iEntryOffset = iDirStart + i * 12 + 2;
-                var strTag = oStrings[oFile.getShortAt(iEntryOffset, bBigEnd)];
-                if (!strTag && bDebug)
-                    console.log("Unknown tag: "
-                            + oFile.getShortAt(iEntryOffset, bBigEnd));
-                oTags[strTag] = readTagValue(oFile, iEntryOffset, iTIFFStart,
-                        iDirStart, bBigEnd);
+                var iEntryOffset = iTIFFStart + iEntriesPosition + i * 12 + 2;
+                var type = oFile.getShortAt(iEntryOffset + 2, bBigEnd);
+                var dataSize = oFile.getLongAt(iEntryOffset + 4, bBigEnd);
+
+                if ((type == 1 && dataSize > 4) || (type == 2 && dataSize > 4)
+                        || (type == 3 && dataSize > 2)
+                        || (type == 4 && dataSize > 1)
+                        || (type == 5 && dataSize > 1)
+                        || (type == 7 && dataSize > 4)
+                        || (type == 9 && dataSize > 1)
+                        || (type == 10 && dataSize > 1)
+                        || (type == 13 && dataSize > 1)) { // i.e., if more
+                    // than 8 bytes,
+                    // this must be a
+                    // pointer
+                    var ifdPointer = oFile.getLongAt(iEntryOffset + 8, bBigEnd);
+                    var ifdPointerHex = (ifdPointer).toString(16);
+
+                    var differenceBetweenExpectedAndActual = expectedFirstIFDValueLocation
+                            - ifdPointer;
+                    var differenceBetweenExpectedAndActualHex = (differenceBetweenExpectedAndActual)
+                            .toString(16);
+                    return differenceBetweenExpectedAndActual;
+                }
+            }
+            return 0; // default to no offset
+        }
+
+        function readTags(oFile, iTIFFStart, iDirStart, oStrings, bBigEnd,
+                iHeaderSize, iOffsetBase) {
+            if (!iHeaderSize) {
+                iHeaderSize = 0;
+            }
+            if (!iOffsetBase) {
+                iOffsetBase = 0;
+            }
+            if (typeof iDirStart === 'undefined') {
+                return {};
+            }
+
+            var iTIFFStartHex = (iTIFFStart).toString(16);
+            var iDirStartHex = (iDirStart).toString(16);
+            var iOffsetBaseHex = (iOffsetBase).toString(16);
+            var diffHex = (iEntriesPosition - iTIFFStart).toString(16);
+
+            var iEntriesPosition = iDirStart + iHeaderSize;
+            var iEntriesPositionHex = (iEntriesPosition).toString(16);
+
+            var iEntries = oFile.getShortAt(iTIFFStart + iEntriesPosition,
+                    bBigEnd);
+            var oTags = {};
+
+            for (var i = 0; i < iEntries; i++) {
+                var iEntryOffset = iTIFFStart + iEntriesPosition + i * 12 + 2;
+                var iEntryOffsetHex = (iEntryOffset).toString(16);
+                var localAddress = oFile.getShortAt(iEntryOffset, bBigEnd);
+
+                var strTag = oStrings[localAddress];
+                if (!strTag) {
+                    continue;
+                }
+
+                var tmp = readTagValue(oFile, iEntryOffset, iTIFFStart,
+                        iDirStart, bBigEnd, iHeaderSize, iOffsetBase, strTag);
+                oTags[strTag] = tmp;
+
+                if (iEntries > 1000) {
+                    return oTags;
+                }
             }
             return oTags;
         }
 
         function readTagValue(oFile, iEntryOffset, iTIFFStart, iDirStart,
-                bBigEnd) {
+                bBigEnd, iHeaderSize, iOffsetBase, strTag) {
+            var iTIFFStartHex = (iTIFFStart).toString(16);
+            var iDirStartHex = (iDirStart).toString(16);
+            var iEntryOffsetHex = (iEntryOffset).toString(16);
+            var iOffsetBaseHex = (iOffsetBase).toString(16);
+
             var iType = oFile.getShortAt(iEntryOffset + 2, bBigEnd);
             var iNumValues = oFile.getLongAt(iEntryOffset + 4, bBigEnd);
             var iValueOffset = oFile.getLongAt(iEntryOffset + 8, bBigEnd)
-                    + iTIFFStart;
+                    + iTIFFStart + iOffsetBase;
+            var iValueOffsetHex = (iValueOffset).toString(16);
 
             switch (iType) {
             case 1: // byte, 8-bit unsigned int
-            case 7: // undefined, 8-bit byte, value depending on field
                 if (iNumValues == 1) {
                     return oFile.getByteAt(iEntryOffset + 8, bBigEnd);
                 } else {
@@ -681,6 +962,18 @@
             case 2: // ascii, 8-bit byte
                 var iStringOffset = iNumValues > 4 ? iValueOffset
                         : (iEntryOffset + 8);
+                var iStringOffsetHex = (iStringOffset).toString(16);
+                var iActualOffsetHex = (iStringOffset - iTIFFStart)
+                        .toString(16);
+
+                if (strTag == 'SerialNumber'
+                        || strTag == 'InternalSerialNumber') { // TODO: needed
+                    // for Fujifilm
+                    // FinePix E900
+                    // but I'm not
+                    // sure why...
+                    iNumValues++;
+                }
                 return oFile.getStringAt(iStringOffset, iNumValues - 1);
                 break;
 
@@ -727,6 +1020,23 @@
                     return aVals;
                 }
                 break;
+            // case 7: // undefined, 8-bit byte, value depending on field
+            case 7: // IFDPointer
+                if (iNumValues == 1) {
+                    return oFile.getByteAt(iEntryOffset + 8, bBigEnd);
+                } else if (iNumValues > 20) { // lets assume it's a IFD
+                    // pointer?
+                    return oFile.getLongAt(iEntryOffset + 8, bBigEnd);
+                } else {
+                    var iValOffset = iNumValues > 4 ? iValueOffset
+                            : (iEntryOffset + 8);
+                    var aVals = [];
+                    for (var n = 0; n < iNumValues; n++) {
+                        aVals[n] = oFile.getByteAt(iValOffset + n);
+                    }
+                    return aVals;
+                }
+                break;
             case 9: // slong, 32 bit signed int
                 if (iNumValues == 1) {
                     return oFile.getSLongAt(iEntryOffset + 8, bBigEnd);
@@ -755,14 +1065,14 @@
                     return aVals;
                 }
                 break;
+            case 13: // IFDPointer
+                return oFile.getLongAt(iEntryOffset + 8, bBigEnd) + iDirStart;
+                break;
             }
         }
 
         function readEXIFData(oFile, iStart, iLength) {
             if (oFile.getStringAt(iStart, 4) != "Exif") {
-                if (bDebug)
-                    console.log("Not valid EXIF data! "
-                            + oFile.getStringAt(iStart, 4));
                 return false;
             }
 
@@ -776,30 +1086,22 @@
             } else if (oFile.getShortAt(iTIFFOffset) == 0x4D4D) {
                 bBigEnd = true;
             } else {
-                if (bDebug)
-                    console.log("Not valid TIFF data! (no 0x4949 or 0x4D4D)");
                 return false;
             }
 
             if (oFile.getShortAt(iTIFFOffset + 2, bBigEnd) != 0x002A) {
-                if (bDebug)
-                    console.log("Not valid TIFF data! (no 0x002A)");
                 return false;
             }
 
             if (oFile.getLongAt(iTIFFOffset + 4, bBigEnd) != 0x00000008) {
-                if (bDebug)
-                    console.log("Not valid TIFF data! (First offset not 8)",
-                            oFile.getShortAt(iTIFFOffset + 4, bBigEnd));
                 return false;
             }
 
-            var oTags = readTags(oFile, iTIFFOffset, iTIFFOffset + 8,
-                    EXIF.TiffTags, bBigEnd);
+            var oTags = readTags(oFile, iTIFFOffset, 8, EXIF.TiffTags, bBigEnd);
 
             if (oTags.ExifIFDPointer) {
-                var oEXIFTags = readTags(oFile, iTIFFOffset, iTIFFOffset
-                        + oTags.ExifIFDPointer, EXIF.Tags, bBigEnd);
+                var oEXIFTags = readTags(oFile, iTIFFOffset,
+                        oTags.ExifIFDPointer, EXIF.Tags, bBigEnd);
                 for ( var strTag in oEXIFTags) {
                     switch (strTag) {
                     case "LightSource":
@@ -819,14 +1121,12 @@
                     case "FileSource":
                         oEXIFTags[strTag] = EXIF.StringValues[strTag][oEXIFTags[strTag]];
                         break;
-
                     case "ExifVersion":
                     case "FlashpixVersion":
                         oEXIFTags[strTag] = String.fromCharCode(
                                 oEXIFTags[strTag][0], oEXIFTags[strTag][1],
                                 oEXIFTags[strTag][2], oEXIFTags[strTag][3]);
                         break;
-
                     case "ComponentsConfiguration":
                         oEXIFTags[strTag] = EXIF.StringValues.Components[oEXIFTags[strTag][0]]
                                 + EXIF.StringValues.Components[oEXIFTags[strTag][1]]
@@ -839,8 +1139,8 @@
             }
 
             if (oTags.GPSInfoIFDPointer) {
-                var oGPSTags = readTags(oFile, iTIFFOffset, iTIFFOffset
-                        + oTags.GPSInfoIFDPointer, EXIF.GPSTags, bBigEnd);
+                var oGPSTags = readTags(oFile, iTIFFOffset,
+                        oTags.GPSInfoIFDPointer, EXIF.GPSTags, bBigEnd);
                 for ( var strTag in oGPSTags) {
                     switch (strTag) {
                     case "GPSVersionID":
@@ -854,7 +1154,266 @@
                 }
             }
 
-            return oTags;
+            if (oTags.Make) {
+                oTags.Make = oTags.Make.trim();
+            }
+
+            if (oTags.MakerNoteIFDPointer && EXIF.MakeInfo[oTags.Make]) {
+                var oMakeInfo = EXIF.MakeInfo[oTags.Make];
+
+                var bMakerNoteEndianess = bBigEnd;
+                if (oMakeInfo.MakerNoteByteAlignHeaderOffset) {
+                    var iBigEndPointer = iTIFFOffset
+                            + oTags.MakerNoteIFDPointer
+                            + oMakeInfo.MakerNoteByteAlignHeaderOffset;
+                    var iByteAlign = oFile.getShortAt(iBigEndPointer);
+                    if (iByteAlign == 0x4949) {
+                        bMakerNoteEndianess = false;
+                    } else if (iByteAlign == 0x4D4D) {
+                        bMakerNoteEndianess = true;
+                    } else {
+                        console
+                                .log("Failed to find legal endianess in makernotes. Using default");
+                        // fall through to use default for TIFF
+                    }
+                }
+
+                if (oMakeInfo.MakerNoteByteAlign) {
+                    if (oMakeInfo.MakerNoteByteAlign == 0x4949) {
+                        bMakerNoteEndianess = false;
+                    } else if (oMakeInfo.MakerNoteByteAlign == 0x4D4D) {
+                        bMakerNoteEndianess = true;
+                    }
+                }
+
+                var headerString = tidyString(oFile.getStringAt(iTIFFOffset
+                        + oTags.MakerNoteIFDPointer, 8));
+
+                var iMakerNoteHeaderSize = 0;
+                if (oMakeInfo.DefaultHeaderSize) {
+                    iMakerNoteHeaderSize = oMakeInfo.DefaultHeaderSize;
+                }
+                if (oMakeInfo.HeaderSize && oMakeInfo.HeaderSize[headerString]) {
+                    iMakerNoteHeaderSize = oMakeInfo.HeaderSize[headerString];
+                }
+
+                var iOffsetBase = 0;
+                if (oMakeInfo.FixMakernotesOffset || oTags.OffsetSchema) {
+                    iOffsetBase = calculateOffsetBase(oFile, iTIFFOffset,
+                            oTags.MakerNoteIFDPointer, oMakeInfo.MakerNoteTags,
+                            bMakerNoteEndianess, iMakerNoteHeaderSize,
+                            iOffsetBase);
+                }
+                // if (oTags.OffsetSchema) {
+                // FIXME: implement this in "calculateOffsetBase()" then ignore
+                // this broken microsoft tag "OffsetSchema"\
+                // iOffsetBase = oTags.OffsetSchema;
+                // }
+
+                if (oMakeInfo.UseMakernoteOffsetAsBase) { // then we need to
+                    // add makernote
+                    // location as an
+                    // offset
+                    if (oMakeInfo.UseMakernoteOffsetAsBase[headerString]) {
+                        iOffsetBase = oTags.MakerNoteIFDPointer;
+                    }
+                }
+
+                if (oMakeInfo.AdjustOffsetBase) {
+                    if (oMakeInfo.AdjustOffsetBase[headerString]) {
+                        iOffsetBase += oMakeInfo.AdjustOffsetBase[headerString];
+                    }
+                }
+
+                // now read MakerNotes...
+                var oMakerNoteTags = {};
+
+                if (oMakeInfo.SerialFoundAtStartOfMakerNotes) {
+                    var serialNumber = tidyString(oFile.getStringAt(iTIFFOffset
+                            + oTags.MakerNoteIFDPointer, 16));
+                    if (oMakeInfo.InvalidSerialStart) {
+                        var startOfSerial = serialNumber.substr(0,
+                                oMakeInfo.InvalidSerialStart.length);
+                        if (startOfSerial != oMakeInfo.InvalidSerialStart) {
+                            oMakerNoteTags.SerialNumber = serialNumber;
+                        }
+                    } else {
+                        oMakerNoteTags.SerialNumber = serialNumber;
+                    }
+                } else {
+                    oMakerNoteTags = readTags(oFile, iTIFFOffset,
+                            oTags.MakerNoteIFDPointer, oMakeInfo.MakerNoteTags,
+                            bMakerNoteEndianess, iMakerNoteHeaderSize,
+                            iOffsetBase);
+                }
+
+                if (oMakeInfo.SerialWithinIFD) {
+                    var parent = oMakeInfo.SerialWithinIFD;
+                    var oParentIFDTags = readTags(oFile, iTIFFOffset,
+                            oMakerNoteTags[parent],
+                            oMakeInfo.SerialWithinIFDTags, bMakerNoteEndianess,
+                            oMakeInfo.SerialWithinIFDHeaderSize, iOffsetBase);
+                    oMakerNoteTags = oParentIFDTags;
+                }
+                if (oMakeInfo.InternalSerialWithinIFDArray) {
+                    IFDArray = oMakerNoteTags[oMakeInfo.InternalSerialWithinIFDArray];
+                    if (IFDArray) {
+                        internalSerialNumber = IFDArray[oMakeInfo.InternalSerialWithinIFDArrayElement];
+                        // if (serialNumber) {
+                        oTags.InternalSerialNumber = internalSerialNumber;
+                        // }
+                    }
+                }
+                for ( var strTag in oMakerNoteTags) {
+                    oTags[strTag] = oMakerNoteTags[strTag];
+                }
+
+                for (tag in {
+                    "SerialNumber" : null,
+                    "InternalSerialNumber" : null
+                }) {
+                    if (oTags[tag]) {
+                        oTags[tag] = formatSerialNumber(oTags, oTags[tag]);
+
+                        if (oMakeInfo.MinimumBelievableLength) {
+                            if (oTags[tag].length < oMakeInfo.MinimumBelievableLength) {
+                                oTags[tag] = null;
+                            }
+                        }
+                        if (isBlank(oTags[tag])) {
+                            delete oTags[tag];
+                        }
+                    }
+                }
+
+                if (oTags.ImageUniqueID) {
+                    oTags.ImageUniqueID = intArrayToHexString(oTags.ImageUniqueID);
+                }
+            }
+            oTags = tidyExifValues(oTags);
+            return sortArrayByKeys(oTags);
+        }
+
+        function tidyExifValues(tags) {
+            var tidyData = {};
+            // $.each(tags, function(key, value) {
+            for ( var key in tags) {
+                tidyData[key] = tidyString(tags[key]);
+            }
+            return tidyData;
+        }
+
+        function isBlank(str) {
+            return (!str || /^\s*$/.test(str));
+        }
+
+        function sortArrayByKeys(inputarray) {
+            var arraykeys = [];
+            for ( var k in inputarray) {
+                arraykeys.push(k);
+            }
+            arraykeys.sort();
+
+            var outputarray = {};
+            for (var i = 0; i < arraykeys.length; i++) {
+                outputarray[arraykeys[i]] = inputarray[arraykeys[i]];
+            }
+            return outputarray;
+        }
+
+        function formatSerialNumber(tags, serial) {
+
+            var returnSerial = tidyString(serial);
+
+            switch (tags.Make) {
+            case "Canon":
+                // if (tags.SerialNumberFormat == 0xa0000000) {
+                if (returnSerial.length > 6) {
+                    returnSerial = pad(returnSerial, "0", 10);
+                } else {
+                    returnSerial = pad(returnSerial, "0", 6);
+                }
+                break;
+            case "FUJIFILM":
+                var startOf12CharBlock = returnSerial.lastIndexOf(" ") + 1;
+                if (startOf12CharBlock == -1) {
+                    returnSerial + "";
+                    break;
+                }
+                var iDateIndex = startOf12CharBlock + 12;
+                var year = returnSerial.substr(iDateIndex, 2);
+                if (year > 80) {
+                    year = "19" + year;
+                } else {
+                    year = "20" + year;
+                }
+                var month = returnSerial.substr(iDateIndex + 2, 2);
+                var date = returnSerial.substr(iDateIndex + 4, 2);
+                var lastChunk = returnSerial.substr(iDateIndex + 6, 12);
+                var returnSerial = returnSerial.substr(0, iDateIndex) + " "
+                        + year + ":" + month + ":" + date + " " + lastChunk;
+                if (lastChunk.length < 12) {
+                    returnSerial = "";
+                }
+
+                break;
+            case "Panasonic":
+                var year = String.fromCharCode(serial[3])
+                        + String.fromCharCode(serial[4]);
+                var month = String.fromCharCode(serial[5])
+                        + String.fromCharCode(serial[6]);
+                var date = String.fromCharCode(serial[7])
+                        + String.fromCharCode(serial[8]);
+
+                var iYear = parseInt(year, 10);
+                var iMonth = parseInt(month, 10);
+                var iDate = parseInt(date, 10);
+
+                returnSerial = "";
+
+                if (isNaN(iYear) || isNaN(iMonth) || isNaN(iDate) || iYear < 0
+                        || iYear > 99 || iMonth < 1 || iMonth > 12 || iDate < 1
+                        || iDate > 31) {
+                    // error
+                } else {
+                    returnSerial = "(" + String.fromCharCode(serial[0])
+                            + String.fromCharCode(serial[1])
+                            + String.fromCharCode(serial[2]) + ")";
+                    returnSerial += " 20" + year; // year
+                    returnSerial += ":" + month; // month
+                    returnSerial += ":" + date; // date
+                    returnSerial += " no. " + String.fromCharCode(serial[9])
+                            + String.fromCharCode(serial[10])
+                            + String.fromCharCode(serial[11])
+                            + String.fromCharCode(serial[12]); // id
+                }
+                break;
+            case "Pentax":
+                if (returnSerial.length != 7) {
+                    returnSerial = "";
+                }
+                break;
+
+            }
+
+            returnSerial = returnSerial.trim();
+            return returnSerial;
+        }
+
+        function pad(input, chr, len) {
+            var returnString = input;
+            while (returnString.length < len) {
+                returnString = chr + returnString;
+            }
+            return returnString;
+        }
+
+        function intArrayToHexString(arrayOfInts) {
+            var response = '';
+            for ( var i in arrayOfInts) {
+                response += pad(arrayOfInts[i].toString(16), '0', 2);
+            }
+            return response;
         }
 
         EXIF.getData = function(oImg, fncCallback) {
@@ -913,7 +1472,9 @@
         function loadAllImages() {
             var aImages = document.getElementsByTagName("img");
             for (var i = 0; i < aImages.length; i++) {
-                if (aImages[i].getAttribute("exif") == "true") {
+                var filename = aImages[i].src.toLowerCase()
+                if (filename.substr(-3) === "jpg"
+                        || filename.substr(-4) === "jpeg") {
                     if (!aImages[i].complete) {
                         addEvent(aImages[i], "load", function() {
                             EXIF.getData(this);
@@ -925,15 +1486,44 @@
             }
         }
 
+        function tidyString(str) {
+            if (typeof str === "undefined") {
+                str = "";
+            }
+            str = str + "";
+
+            str = str.replace(/[^a-z0-9 \-\/\.\(\)\:\;\,\©\@\\]/gi, '');
+            str = str.replace(/^\s+|\s+$/g, ''); // trim
+            if (str.toLowerCase() == "undefined"
+                    || str.toLowerCase() == "unknown") {
+                str = "";
+            }
+            return str;
+        }
+
+        function allImagesLoaded() {
+            var aImages = document.getElementsByTagName("img");
+            for (var i = 0; i < aImages.length; i++) {
+                var filename = aImages[i].src.toLowerCase()
+                if (filename.substr(-3) === "jpg"
+                        || filename.substr(-4) === "jpeg") {
+                    if (!aImages[i].imageScanned) {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
         if (typeof (exports) !== 'undefined') {
             exports.getExifFromLocalFileUsingNodeFs = getExifFromLocalFileUsingNodeFs;
         }
 
         if (typeof (jQuery) !== 'undefined') {
-
-            // automatically load exif data for all images with exif=true when doc
-            // is ready
-            jQuery(document).ready(loadAllImages);
+            jQuery.fn.loadAllImages = loadAllImages;
+            jQuery.fn.allImagesLoaded = allImagesLoaded;
+            jQuery.fn.getExifFromUrl = getExifFromUrl;
+            jQuery.fn.tidyString = tidyString;
 
             // load data for images manually
             jQuery.fn.exifLoad = function(fncCallback) {
@@ -942,12 +1532,24 @@
                 });
             }
 
+            jQuery.fn.findEXIFinJPEG = function(oFileText) {
+                return findEXIFinJPEG(new BinaryFile(oFileText));
+            }
+
             jQuery.fn.exif = function(strTag) {
                 var aStrings = [];
                 this.each(function() {
                     aStrings.push(EXIF.getTag(this, strTag));
                 });
                 return aStrings;
+            }
+
+            jQuery.fn.exifString = function(strTag) {
+                var aStrings = [];
+                this.each(function() {
+                    aStrings.push(EXIF.getTag(this, strTag));
+                });
+                return aStrings[0];
             }
 
             jQuery.fn.exifAll = function() {
@@ -966,7 +1568,6 @@
                 return aStrings;
             }
         }
-
     })();
 
 })();
