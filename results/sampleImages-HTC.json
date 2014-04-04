@@ -21,8 +21,6 @@
 			"FileName": "HTC_XdaOrbit.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "511 bytes",
-			"FileModifyDate": "2010:09:23 12:48:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -52,7 +50,7 @@
 		"img": "sampleImages/HTC/HTC_X7510.jpg",
 		"exifJS": {
 			"Artist": "Lavr",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"DateTime": "2010:10:06 19:51:54",
 			"DateTimeOriginal": "2010:10:06 19:51:54",
 			"ExifIFDPointer": "161",
@@ -73,8 +71,6 @@
 			"FileName": "HTC_X7510.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "609 bytes",
-			"FileModifyDate": "2010:12:13 16:19:56+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -110,7 +106,7 @@
 		"img": "sampleImages/HTC/HTC_X7500.jpg",
 		"exifJS": {
 			"Artist": "",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"DateTime": "2010:03:15 14:24:18",
 			"DateTimeDigitized": "2010:03:15 14:24:18",
 			"DateTimeOriginal": "2010:03:15 14:24:18",
@@ -132,8 +128,6 @@
 			"FileName": "HTC_X7500.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "651 bytes",
-			"FileModifyDate": "2010:09:23 12:48:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -169,7 +163,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_WildfireS_A510e.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2011:05:27 01:06:39",
 			"DateTimeOriginal": "2011:05:27 01:06:39",
@@ -206,8 +200,6 @@
 			"FileName": "HTC_WildfireS_A510e.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2011:06:07 16:36:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -261,7 +253,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Wildfire.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:09:19 11:01:51",
 			"DateTimeOriginal": "2010:09:19 11:01:51",
@@ -285,8 +277,6 @@
 			"FileName": "HTC_Wildfire.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "30 kB",
-			"FileModifyDate": "2010:09:22 12:50:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -325,7 +315,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_VOGU100.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:08:29 18:00:44",
 			"DateTimeDigitized": "2010:08:29 18:00:44",
 			"DateTimeOriginal": "2010:08:29 18:00:44",
@@ -347,8 +337,6 @@
 			"FileName": "HTC_VOGU100.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "574 bytes",
-			"FileModifyDate": "2010:09:23 12:48:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -400,8 +388,6 @@
 			"FileName": "HTC_Universal.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "11 kB",
-			"FileModifyDate": "2007:04:12 21:08:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -435,7 +421,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TyTN_II.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:06:02 18:55:09",
 			"DateTimeOriginal": "2010:06:02 18:55:09",
@@ -460,8 +446,6 @@
 			"FileName": "HTC_TyTN_II.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -499,7 +483,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Trinity.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2007:04:07 09:23:59",
 			"DateTimeDigitized": "2007:04:07 09:23:59",
 			"DateTimeOriginal": "2007:04:07 09:23:59",
@@ -521,8 +505,6 @@
 			"FileName": "HTC_Trinity.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "621 bytes",
-			"FileModifyDate": "2007:04:12 21:08:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -557,7 +539,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchVivaT2223.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:04:25 16:57:02",
 			"DateTimeDigitized": "2010:04:25 16:57:02",
 			"DateTimeOriginal": "2010:04:25 16:57:02",
@@ -578,8 +560,6 @@
 			"FileName": "HTC_TouchVivaT2223.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -613,7 +593,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchProT7272.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:06:06 20:27:53",
 			"DateTimeDigitized": "2010:06:06 20:27:53",
@@ -645,8 +625,6 @@
 			"FileName": "HTC_TouchProT7272.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "113 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -693,7 +671,7 @@
 		"img": "sampleImages/HTC/HTC_TouchPro2T7373.jpg",
 		"exifJS": {
 			"ApertureValue": "2.55",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2010:05:29 15:16:01",
@@ -735,8 +713,6 @@
 			"FileName": "HTC_TouchPro2T7373.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "107 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -797,7 +773,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchHD_T8282.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:06:02 15:25:27",
 			"DateTimeDigitized": "2010:06:02 15:25:27",
@@ -829,8 +805,6 @@
 			"FileName": "HTC_TouchHD_T8282.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "168 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -877,7 +851,7 @@
 		"img": "sampleImages/HTC/HTC_TouchElf.jpg",
 		"exifJS": {
 			"Artist": "slavutich",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:05:31 23:39:15",
 			"DateTimeDigitized": "2010:05:31 23:39:15",
 			"DateTimeOriginal": "2010:05:31 23:39:15",
@@ -899,8 +873,6 @@
 			"FileName": "HTC_TouchElf.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -936,7 +908,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchDual.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:06:03 16:52:18",
 			"DateTimeOriginal": "2010:06:03 16:52:18",
@@ -963,8 +935,6 @@
 			"FileName": "HTC_TouchDual.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "51 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1005,7 +975,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchDiamondP3700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:06:06 23:20:45",
 			"DateTimeOriginal": "2010:06:06 23:20:45",
@@ -1036,8 +1006,6 @@
 			"FileName": "HTC_TouchDiamondP3700.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "123 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1084,7 +1052,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchDiamondP370.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2011:03:22 11:04:33",
 			"DateTimeDigitized": "2011:03:22 11:04:33",
@@ -1112,8 +1080,6 @@
 			"FileName": "HTC_TouchDiamondP370.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "8.2 kB",
-			"FileModifyDate": "2011:07:26 16:31:36+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1163,7 +1129,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchDiamond2T5353.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:06:08 14:09:39",
 			"DateTimeDigitized": "2010:06:08 14:09:39",
@@ -1194,8 +1160,6 @@
 			"FileName": "HTC_TouchDiamond2T5353.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "222 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1244,7 +1208,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_TouchCruiseT4242.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:06:06 23:18:46",
 			"DateTimeOriginal": "2010:06:06 23:18:46",
@@ -1271,8 +1235,6 @@
 			"FileName": "HTC_TouchCruiseT4242.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1313,7 +1275,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Touch3G_T3232.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:05:23 12:06:28",
 			"DateTimeOriginal": "2010:05:23 12:06:28",
@@ -1341,8 +1303,6 @@
 			"FileName": "HTC_Touch3G_T3232.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "97 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1384,7 +1344,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Touch2T3333.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:06:04 17:29:43",
 			"DateTimeDigitized": "2010:06:04 17:29:43",
@@ -1415,8 +1375,6 @@
 			"FileName": "HTC_Touch2T3333.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1462,7 +1420,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Tattoo.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:05:25 21:06",
 			"DateTimeOriginal": "2010:05:25 21:06",
@@ -1491,8 +1449,6 @@
 			"FileName": "HTC_Tattoo.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "53 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1535,7 +1491,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_T-Mobile_myTouch3G.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2009:07:22 12:38:45",
 			"DateTimeOriginal": "2009:07:22 12:38:45",
@@ -1563,8 +1519,6 @@
 			"FileName": "HTC_T-Mobile_myTouch3G.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "36 kB",
-			"FileModifyDate": "2010:08:09 17:14:24+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1634,7 +1588,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_T-MobileG1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2008:11:30 15:58:01",
 			"DateTimeOriginal": "2008:11:30 15:58:01",
@@ -1674,8 +1628,6 @@
 			"FileName": "HTC_T-MobileG1.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "23 kB",
-			"FileModifyDate": "2008:12:01 20:43:30+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1731,7 +1683,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_SnapS521.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:12:07 13:06:22",
 			"DateTimeDigitized": "2010:12:07 13:06:22",
@@ -1762,8 +1714,6 @@
 			"FileName": "HTC_SnapS521.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "49 kB",
-			"FileModifyDate": "2010:12:13 16:19:56+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1808,7 +1758,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_SensationZ710e.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2011/07/07 21:24:48",
 			"DateTimeOriginal": "2011/07/07 21:24:48",
@@ -1833,8 +1783,6 @@
 			"FileName": "HTC_SensationZ710e.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "247 kB",
-			"FileModifyDate": "2011:07:26 16:29:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1894,8 +1842,6 @@
 			"FileName": "HTC_STAR100.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "511 bytes",
-			"FileModifyDate": "2008:12:05 18:36:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1924,7 +1870,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_S740.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:04:13 17:23:32",
 			"DateTimeOriginal": "2010:04:13 17:23:32",
@@ -1952,8 +1898,6 @@
 			"FileName": "HTC_S740.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "31 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1995,7 +1939,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_S710.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:05:01 17:04:59",
 			"DateTimeDigitized": "2010:05:01 17:04:59",
 			"DateTimeOriginal": "2010:05:01 17:04:59",
@@ -2016,8 +1960,6 @@
 			"FileName": "HTC_S710.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "8.3 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2051,7 +1993,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_S621.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2009:11:16 14:10:24",
 			"DateTimeDigitized": "2009:11:16 14:10:24",
 			"DateTimeOriginal": "2009:11:16 14:10:24",
@@ -2072,8 +2014,6 @@
 			"FileName": "HTC_S621.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "555 bytes",
-			"FileModifyDate": "2010:09:23 12:48:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2104,7 +2044,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_PC36100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:05:29 11:50:07",
 			"DateTimeOriginal": "2010:05:29 11:50:07",
@@ -2128,8 +2068,6 @@
 			"FileName": "HTC_PC36100.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "198 kB",
-			"FileModifyDate": "2011:03:01 17:45:08+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2164,7 +2102,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_P4600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:07:13 20:52:41",
 			"DateTimeDigitized": "2009:07:13 20:52:41",
@@ -2196,8 +2134,6 @@
 			"FileName": "HTC_P4600.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "7.7 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2243,7 +2179,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_P4350.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2009:10:02 18:43:01",
 			"DateTimeDigitized": "2009:10:02 18:43:01",
 			"DateTimeOriginal": "2009:10:02 18:43:01",
@@ -2264,8 +2200,6 @@
 			"FileName": "HTC_P4350.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "8.4 kB",
-			"FileModifyDate": "2010:09:23 12:48:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2300,7 +2234,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3650.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2009:10:02 14:48:40",
 			"DateTimeOriginal": "2009:10:02 14:48:40",
@@ -2327,8 +2261,6 @@
 			"FileName": "HTC_P3650.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "27 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2369,7 +2301,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3600i.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2009:05:23 01:30:48",
 			"DateTimeDigitized": "2009:05:23 01:30:48",
 			"DateTimeOriginal": "2009:05:23 01:30:48",
@@ -2391,8 +2323,6 @@
 			"FileName": "HTC_P3600i.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "603 bytes",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2427,7 +2357,7 @@
 		"img": "sampleImages/HTC/HTC_P3600.jpg",
 		"exifJS": {
 			"Artist": "Shatra",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:05:25 13:50:31",
 			"DateTimeOriginal": "2010:05:25 12:47:04",
 			"ExifIFDPointer": "261",
@@ -2452,8 +2382,6 @@
 			"FileName": "HTC_P3600.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "678 bytes",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2490,7 +2418,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3470.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:06:01 20:53:34",
 			"DateTimeDigitized": "2010:06:01 20:53:34",
 			"DateTimeOriginal": "2010:06:01 20:53:34",
@@ -2512,8 +2440,6 @@
 			"FileName": "HTC_P3470.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2549,7 +2475,7 @@
 		"img": "sampleImages/HTC/HTC_P3452.jpg",
 		"exifJS": {
 			"Artist": "Alex",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:03:10 18:12:01",
 			"DateTimeDigitized": "2010:03:10 18:12:01",
 			"DateTimeOriginal": "2010:03:10 18:12:01",
@@ -2571,8 +2497,6 @@
 			"FileName": "HTC_P3452.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "31 kB",
-			"FileModifyDate": "2010:09:22 12:50:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2609,7 +2533,7 @@
 		"img": "sampleImages/HTC/HTC_P3450.jpg",
 		"exifJS": {
 			"Artist": "",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:02:02 13:46:05",
 			"DateTimeDigitized": "2010:02:02 13:46:05",
 			"DateTimeOriginal": "2010:02:02 13:46:05",
@@ -2630,8 +2554,6 @@
 			"FileName": "HTC_P3450.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "3.4 kB",
-			"FileModifyDate": "2010:06:10 14:19:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2667,7 +2589,7 @@
 		"img": "sampleImages/HTC/HTC_P3400.jpg",
 		"exifJS": {
 			"Artist": "Gagandeep Singh Sodhi",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2007:09:05 14:43:37",
 			"DateTimeDigitized": "2007:09:05 14:43:37",
 			"DateTimeOriginal": "2007:09:05 14:43:37",
@@ -2688,8 +2610,6 @@
 			"FileName": "HTC_P3400.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "587 bytes",
-			"FileModifyDate": "2009:01:08 17:40:08+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2721,7 +2641,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_P3350.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:07:11 09:54:01",
 			"DateTimeDigitized": "2010:07:11 09:54:01",
 			"DateTimeOriginal": "2010:07:11 09:54:01",
@@ -2742,8 +2662,6 @@
 			"FileName": "HTC_P3350.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "555 bytes",
-			"FileModifyDate": "2010:09:23 12:48:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2775,7 +2693,7 @@
 		"img": "sampleImages/HTC/HTC_P3300.jpg",
 		"exifJS": {
 			"Artist": "Nick",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:12:12 13:19:12",
 			"DateTimeDigitized": "2010:12:12 13:19:12",
 			"DateTimeOriginal": "2010:12:12 13:19:12",
@@ -2796,8 +2714,6 @@
 			"FileName": "HTC_P3300.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "573 bytes",
-			"FileModifyDate": "2010:12:13 16:17:24+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2830,7 +2746,7 @@
 		"img": "sampleImages/HTC/HTC_P3050.jpg",
 		"exifJS": {
 			"Artist": "Natalia Senkevich",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2008:04:23 19:49:24",
 			"DateTimeDigitized": "2008:04:23 19:49:24",
 			"DateTimeOriginal": "2008:04:23 19:49:24",
@@ -2851,8 +2767,6 @@
 			"FileName": "HTC_P3050.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "21 kB",
-			"FileModifyDate": "2010:09:23 12:48:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2907,8 +2821,6 @@
 			"FileName": "HTC_Oxygen.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "507 bytes",
-			"FileModifyDate": "2010:09:23 12:48:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2939,7 +2851,7 @@
 		"exifJS": {
 			"ApertureValue": "2",
 			"BrightnessValue": "9.099503",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.7021689967105265",
 			"Contrast": "Normal",
@@ -2998,8 +2910,6 @@
 			"FileName": "HTC_One_mini.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "50 kB",
-			"FileModifyDate": "2013:09:27 16:10:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3086,7 +2996,7 @@
 		"exifJS": {
 			"ApertureValue": "2",
 			"BrightnessValue": "6.665079",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -3136,8 +3046,6 @@
 			"FileName": "HTC_One_M8.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "36 kB",
-			"FileModifyDate": "2014:04:03 13:15:45+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3209,7 +3117,7 @@
 		"exifJS": {
 			"ApertureValue": "2",
 			"BrightnessValue": "2.906857",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.366104714912281",
 			"Contrast": "Normal",
@@ -3258,8 +3166,6 @@
 			"FileName": "HTC_One.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2013:06:04 12:31:04+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3332,7 +3238,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_NexusOne.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2009:12:06 06:31:05",
 			"DateTimeOriginal": "2009:12:06 06:31:05",
@@ -3357,8 +3263,6 @@
 			"FileName": "HTC_NexusOne.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "6.4 kB",
-			"FileModifyDate": "2010:08:09 17:18:18+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3400,7 +3304,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Magic.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:05:19 14:08:57",
 			"DateTimeOriginal": "2010:05:19 14:08:57",
@@ -3423,8 +3327,6 @@
 			"FileName": "HTC_Magic.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3461,7 +3363,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_MAX4G.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:05:02 09:21:36",
 			"DateTimeDigitized": "2010:05:02 09:21:36",
@@ -3493,8 +3395,6 @@
 			"FileName": "HTC_MAX4G.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "173 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3540,7 +3440,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_IncredibleS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2011:06:05 18:13:51",
 			"DateTimeOriginal": "2011:06:05 18:13:51",
@@ -3577,8 +3477,6 @@
 			"FileName": "HTC_IncredibleS.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "150 kB",
-			"FileModifyDate": "2011:06:07 16:36:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3628,7 +3526,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Hero.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:05:25 20:48:36",
 			"DateTimeOriginal": "2010:05:25 20:48:36",
@@ -3656,8 +3554,6 @@
 			"FileName": "HTC_Hero.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "79 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3723,8 +3619,6 @@
 			"FileName": "HTC_Hermes.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "509 bytes",
-			"FileModifyDate": "2007:04:12 21:08:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3753,7 +3647,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_HD_T8282.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:09:14 13:52:14",
 			"DateTimeDigitized": "2010:09:14 13:52:14",
@@ -3785,8 +3679,6 @@
 			"FileName": "HTC_HD_T8282.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "203 kB",
-			"FileModifyDate": "2010:09:22 12:50:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3833,7 +3725,7 @@
 		"img": "sampleImages/HTC/HTC_HD7.jpg",
 		"exifJS": {
 			"Artist": "Hello from Seattle",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:11:24 19:12:30",
 			"DateTimeDigitized": "2010:11:24 19:12:30",
@@ -3870,8 +3762,6 @@
 			"FileName": "HTC_HD7.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "32 kB",
-			"FileModifyDate": "2011:02:28 15:11:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3922,7 +3812,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_HD2T8585.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"DateTime": "2010:05:28 11:16:57",
@@ -3961,8 +3851,6 @@
 			"FileName": "HTC_HD2T8585.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "27 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4016,7 +3904,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_HD2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2011:07:06 23:37:59",
 			"DateTimeOriginal": "2011:07:06 23:37:59",
@@ -4041,8 +3929,6 @@
 			"FileName": "HTC_HD2.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "226 kB",
-			"FileModifyDate": "2011:07:26 16:29:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4083,7 +3969,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_GratiaA6380.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:12:25 13:59:15",
 			"DateTimeOriginal": "2010:12:25 13:59:15",
@@ -4108,8 +3994,6 @@
 			"FileName": "HTC_GratiaA6380.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "142 kB",
-			"FileModifyDate": "2011:01:28 15:07:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4150,7 +4034,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Elf100.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2009:03:25 13:56:06",
 			"DateTimeDigitized": "2009:03:25 13:56:06",
 			"DateTimeOriginal": "2009:03:25 13:56:06",
@@ -4171,8 +4055,6 @@
 			"FileName": "HTC_Elf100.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "3.6 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4212,8 +4094,6 @@
 			"FileName": "HTC_Dream.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "269 bytes",
-			"FileModifyDate": "2010:08:09 17:21:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4233,7 +4113,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_DesireS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2011:05:29 10:31:54",
 			"DateTimeOriginal": "2011:05:29 10:31:54",
@@ -4270,8 +4150,6 @@
 			"FileName": "HTC_DesireS.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "285 kB",
-			"FileModifyDate": "2011:06:07 16:36:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4325,7 +4203,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_DesireHD.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:12:04 20:46:38",
 			"DateTimeOriginal": "2010:12:04 20:46:38",
@@ -4361,8 +4239,6 @@
 			"FileName": "HTC_DesireHD.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "135 kB",
-			"FileModifyDate": "2010:12:13 16:21:28+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4414,7 +4290,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_Desire.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:06:06 13:07:51",
 			"DateTimeOriginal": "2010:06:06 13:07:51",
@@ -4438,8 +4314,6 @@
 			"FileName": "HTC_Desire.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "321 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4478,7 +4352,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_DL_DesireZv34final.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2011:06:24 18:49:49",
 			"DateTimeOriginal": "2011:06:24 18:49:49",
@@ -4503,8 +4377,6 @@
 			"FileName": "HTC_DL_DesireZv34final.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "261 kB",
-			"FileModifyDate": "2011:07:26 16:29:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4568,8 +4440,6 @@
 			"FileName": "HTC_Breeze.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "568 bytes",
-			"FileModifyDate": "2010:06:10 14:19:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4603,7 +4473,7 @@
 		"img": "sampleImages/HTC/HTC_Artemis.jpg",
 		"exifJS": {
 			"Artist": "SyMPDA",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2010:07:10 20:39:40",
 			"DateTimeDigitized": "2010:07:10 20:39:40",
 			"DateTimeOriginal": "2010:07:10 20:39:40",
@@ -4625,8 +4495,6 @@
 			"FileName": "HTC_Artemis.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "583 bytes",
-			"FileModifyDate": "2010:09:23 12:48:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4659,7 +4527,7 @@
 	{
 		"img": "sampleImages/HTC/HTC_8900.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:06:01 16:08:35",
 			"DateTimeOriginal": "2010:06:01 16:08:35",
@@ -4684,8 +4552,6 @@
 			"FileName": "HTC_8900.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "24 kB",
-			"FileModifyDate": "2010:06:10 14:19:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4724,7 +4590,7 @@
 		"img": "sampleImages/HTC/HTC_7Trophy.jpg",
 		"exifJS": {
 			"Artist": "",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2011:08:15 14:29:32",
 			"DateTimeDigitized": "2011:08:15 14:29:32",
@@ -4761,8 +4627,6 @@
 			"FileName": "HTC_7Trophy.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "22 kB",
-			"FileModifyDate": "2011:08:31 15:37:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4814,7 +4678,7 @@
 		"img": "sampleImages/HTC/HTC_7ProT7576.jpg",
 		"exifJS": {
 			"Artist": "",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2013:05:30 17:40:21",
 			"DateTimeDigitized": "2013:05:30 17:40:21",
@@ -4851,8 +4715,6 @@
 			"FileName": "HTC_7ProT7576.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2013:06:12 12:33:02+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4898,7 +4760,7 @@
 		"img": "sampleImages/HTC/HTC_7Mozart.jpg",
 		"exifJS": {
 			"Artist": "",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2011:05:03 21:03:33",
 			"DateTimeDigitized": "2011:05:03 21:03:33",
@@ -4924,8 +4786,6 @@
 			"FileName": "HTC_7Mozart.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2011:06:07 16:36:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4966,7 +4826,7 @@
 	{
 		"img": "sampleImages/HTC/HTC-S620.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"DateTime": "2008:01:15 13:35:26",
 			"DateTimeDigitized": "2008:01:15 13:35:26",
 			"DateTimeOriginal": "2008:01:15 13:35:26",
@@ -4987,8 +4847,6 @@
 			"FileName": "HTC-S620.jpg",
 			"Directory": "sampleImages/HTC",
 			"FileSize": "555 bytes",
-			"FileModifyDate": "2009:06:11 13:44:08+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:14+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

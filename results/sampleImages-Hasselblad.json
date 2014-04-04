@@ -3,7 +3,7 @@
 		"img": "sampleImages/Hasselblad/HasselbladStellar.jpg",
 		"exifJS": {
 			"BrightnessValue": "11.415625",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3",
 			"Compression": "1",
@@ -59,8 +59,6 @@
 			"FileName": "HasselbladStellar.jpg",
 			"Directory": "sampleImages/Hasselblad",
 			"FileSize": "33 kB",
-			"FileModifyDate": "2014:02:07 12:53:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:15+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamUltra_Zoom.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:06:22 05:14:34",
@@ -43,8 +43,6 @@
 			"FileName": "ImpressCamUltra_Zoom.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "31 kB",
-			"FileModifyDate": "2006:02:08 14:44:05+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -103,7 +101,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamTravel_DXG.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2003:05:30 06:26:57",
@@ -144,8 +142,6 @@
 			"FileName": "ImpressCamTravel_DXG.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:02:08 14:44:05+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -205,7 +201,7 @@
 		"img": "sampleImages/ImpressCam/ImpressCamQ-63.jpg",
 		"exifJS": {
 			"ApertureValue": "5.5",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -256,8 +252,6 @@
 			"FileName": "ImpressCamQ-63.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2006:02:08 14:44:05+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -326,7 +320,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamMini_Cam.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2004:01:03 05:40:47",
@@ -367,8 +361,6 @@
 			"FileName": "ImpressCamMini_Cam.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:02:08 14:44:05+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -428,7 +420,7 @@
 		"img": "sampleImages/ImpressCam/ImpressCamIdeal_DSC_33.jpg",
 		"exifJS": {
 			"ApertureValue": "4.3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1.9",
 			"DateTimeDigitized": "2005/05/04 19:19:21",
@@ -459,8 +451,6 @@
 			"FileName": "ImpressCamIdeal_DSC_33.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "56 kB",
-			"FileModifyDate": "2009:09:08 18:09:21+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -510,7 +500,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamElite_DSC_13.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2004:11:10 12:33:26",
@@ -551,8 +541,6 @@
 			"FileName": "ImpressCamElite_DSC_13.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2006:02:08 14:44:05+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -612,7 +600,7 @@
 		"img": "sampleImages/ImpressCam/ImpressCamElite_DSC_11.jpg",
 		"exifJS": {
 			"ApertureValue": "4.7",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.2",
 			"DateTimeDigitized": "2004/09/09 11:32:37",
@@ -643,8 +631,6 @@
 			"FileName": "ImpressCamElite_DSC_11.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "56 kB",
-			"FileModifyDate": "2009:09:08 18:09:21+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -694,7 +680,7 @@
 	{
 		"img": "sampleImages/ImpressCam/ImpressCamC630.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:04:22 14:36:41",
@@ -735,8 +721,6 @@
 			"FileName": "ImpressCamC630.jpg",
 			"Directory": "sampleImages/ImpressCam",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2006:02:08 14:44:04+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

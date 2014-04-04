@@ -158,7 +158,7 @@
         sys.print(imgFile + '\n');
 
         exif.getExifFromLocalFileUsingNodeFs(fs, imgFile, function(exifFromJS) {
-            child = exec("exiftool -q -q -F -j --FileAccessDate " + imgFile, function(error,
+            child = exec("exiftool -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate " + imgFile, function(error,
                     stdout, stderr) {
                 if (error !== null) {
                     console.log('exec error with ' + imgFile + ': ' + error);

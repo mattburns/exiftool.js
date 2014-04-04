@@ -513,6 +513,9 @@
         }
 
         EXIF.StringValues = {
+            ColorSpace : {
+                1 : "sRGB"
+            },
             ExposureProgram : {
                 0 : "Not defined",
                 1 : "Manual",
@@ -1104,6 +1107,7 @@
                         oTags.ExifIFDPointer, EXIF.Tags, bBigEnd);
                 for ( var strTag in oEXIFTags) {
                     switch (strTag) {
+                    case "ColorSpace":
                     case "LightSource":
                     case "Flash":
                     case "MeteringMode":

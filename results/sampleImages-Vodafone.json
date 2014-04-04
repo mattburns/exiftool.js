@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV903T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2008:06:24 18:21:02",
 			"DateTimeDigitized": "2008:06:24 18:21:02",
@@ -28,8 +28,6 @@
 			"FileName": "VodafoneV903T.jpg",
 			"Directory": "sampleImages/Vodafone",
 			"FileSize": "14 kB",
-			"FileModifyDate": "2010:06:10 15:05:05+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:38+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -69,7 +67,7 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV902T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2006:12:20 11:46:51",
 			"DateTimeDigitized": "2006:12:20 11:46:51",
@@ -94,8 +92,6 @@
 			"FileName": "VodafoneV902T.jpg",
 			"Directory": "sampleImages/Vodafone",
 			"FileSize": "617 bytes",
-			"FileModifyDate": "2007:10:18 14:45:01+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:38+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -131,7 +127,7 @@
 		"img": "sampleImages/Vodafone/VodafoneV810.jpg",
 		"exifJS": {
 			"BrightnessValue": "0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Custom process",
@@ -167,8 +163,6 @@
 			"FileName": "VodafoneV810.jpg",
 			"Directory": "sampleImages/Vodafone",
 			"FileSize": "14 kB",
-			"FileModifyDate": "2010:06:10 15:05:05+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:38+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -219,7 +213,7 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV803T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2007:01:03 15:07:04",
 			"DateTimeDigitized": "2005:12:14 10:14:44",
@@ -244,8 +238,6 @@
 			"FileName": "VodafoneV803T.jpg",
 			"Directory": "sampleImages/Vodafone",
 			"FileSize": "599 bytes",
-			"FileModifyDate": "2011:08:31 18:24:11+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:38+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -280,7 +272,7 @@
 		"img": "sampleImages/Vodafone/VodafoneV720.jpg",
 		"exifJS": {
 			"BrightnessValue": "0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Custom process",
@@ -316,8 +308,6 @@
 			"FileName": "VodafoneV720.jpg",
 			"Directory": "sampleImages/Vodafone",
 			"FileSize": "16 kB",
-			"FileModifyDate": "2010:06:10 15:05:05+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:38+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -368,7 +358,7 @@
 	{
 		"img": "sampleImages/Vodafone/VodafoneV602SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:08:05 13:47:00",
 			"DateTimeDigitized": "2005:08:05 13:47:00",
@@ -394,8 +384,6 @@
 			"FileName": "VodafoneV602SH.jpg",
 			"Directory": "sampleImages/Vodafone",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2007:10:18 14:45:01+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:38+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -436,7 +424,7 @@
 	{
 		"img": "sampleImages/Vodafone/Vodafone845.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2002:12:08 12:00:00",
 			"DateTimeOriginal": "2011:01:05 12:11:20",
@@ -463,8 +451,6 @@
 			"FileName": "Vodafone845.jpg",
 			"Directory": "sampleImages/Vodafone",
 			"FileSize": "3.5 kB",
-			"FileModifyDate": "2011:01:28 17:49:56+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:38+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -505,7 +491,7 @@
 	{
 		"img": "sampleImages/Vodafone/Vodafone715.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2008:11:22 20:47:19",
 			"DateTimeOriginal": "2008:11:22 20:47:19",
@@ -532,8 +518,6 @@
 			"FileName": "Vodafone715.jpg",
 			"Directory": "sampleImages/Vodafone",
 			"FileSize": "639 bytes",
-			"FileModifyDate": "2010:06:12 14:31:29+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:38+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -569,7 +553,7 @@
 	{
 		"img": "sampleImages/Vodafone/Vodafone710.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2008:08:27 14:50:03",
 			"DateTimeOriginal": "2008:08:27 14:50:03",
@@ -600,8 +584,6 @@
 			"FileName": "Vodafone710.jpg",
 			"Directory": "sampleImages/Vodafone",
 			"FileSize": "4.2 kB",
-			"FileModifyDate": "2008:12:09 12:54:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:38+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

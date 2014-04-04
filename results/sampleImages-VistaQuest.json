@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/VistaQuest/VistaQuestVQ2110.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.638716666666667",
 			"DateTime": "2003:04:15 21:23:06",
@@ -40,8 +40,6 @@
 			"FileName": "VistaQuestVQ2110.jpg",
 			"Directory": "sampleImages/VistaQuest",
 			"FileSize": "16 kB",
-			"FileModifyDate": "2010:12:14 19:36:51+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:34+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -104,8 +102,6 @@
 			"FileName": "VistaQuestVQ1015.jpg",
 			"Directory": "sampleImages/VistaQuest",
 			"FileSize": "3.3 kB",
-			"FileModifyDate": "2010:07:26 12:55:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:34+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

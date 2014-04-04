@@ -8,8 +8,6 @@
 			"FileName": "NintendoWii.jpg",
 			"Directory": "sampleImages/Nintendo",
 			"FileSize": "251 bytes",
-			"FileModifyDate": "2010:06:29 22:39:25+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -25,7 +23,7 @@
 	{
 		"img": "sampleImages/Nintendo/NintendoDSi.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:03:05 01:35:56",
 			"DateTimeDigitized": "2010:03:05 01:35:56",
@@ -51,8 +49,6 @@
 			"FileName": "NintendoDSi.jpg",
 			"Directory": "sampleImages/Nintendo",
 			"FileSize": "3.9 kB",
-			"FileModifyDate": "2010:03:05 12:19:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -92,7 +88,7 @@
 	{
 		"img": "sampleImages/Nintendo/Nintendo3DS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2013:06:29 13:07:25",
 			"DateTimeDigitized": "2013:06:29 13:07:25",
@@ -118,8 +114,6 @@
 			"FileName": "Nintendo3DS.jpg",
 			"Directory": "sampleImages/Nintendo",
 			"FileSize": "4.9 kB",
-			"FileModifyDate": "2014:03:25 16:02:57+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

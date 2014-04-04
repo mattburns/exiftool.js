@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/Casio/CasioYC-400.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.5005144032921811",
 			"Contrast": "Normal",
@@ -50,8 +50,6 @@
 			"FileName": "CasioYC-400.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2011:02:28 14:03:54+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -143,7 +141,7 @@
 	{
 		"img": "sampleImages/Casio/CasioXV-3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.6455026455026456",
 			"DateTime": "2004:07:20 19:37:47",
@@ -180,8 +178,6 @@
 			"FileName": "CasioXV-3.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "5.4 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -246,7 +242,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R62.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.029333333333333",
 			"Contrast": "Normal",
@@ -294,8 +290,6 @@
 			"FileName": "CasioQV-R62.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -391,7 +385,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R61.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.168044077134986",
 			"Contrast": "Normal",
@@ -439,8 +433,6 @@
 			"FileName": "CasioQV-R61.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "31 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -539,7 +531,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R52.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.38333333333333336",
 			"Contrast": "Normal",
@@ -587,8 +579,6 @@
 			"FileName": "CasioQV-R52.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -682,7 +672,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R51.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.400390625",
 			"Contrast": "Normal",
@@ -730,8 +720,6 @@
 			"FileName": "CasioQV-R51.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -825,7 +813,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R41.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.4666666666666667",
 			"Contrast": "Normal",
@@ -873,8 +861,6 @@
 			"FileName": "CasioQV-R41.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -968,7 +954,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R40.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.37866666666666665",
 			"Contrast": "Normal",
@@ -1016,8 +1002,6 @@
 			"FileName": "CasioQV-R40.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1109,7 +1093,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R4.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.37866666666666665",
 			"Contrast": "Normal",
@@ -1157,8 +1141,6 @@
 			"FileName": "CasioQV-R4.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1249,7 +1231,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-R3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.20833333333333334",
 			"Contrast": "Normal",
@@ -1297,8 +1279,6 @@
 			"FileName": "CasioQV-R3.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1391,7 +1371,7 @@
 		"img": "sampleImages/Casio/CasioQV-R200.jpg",
 		"exifJS": {
 			"ApertureValue": "3.263",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -1445,8 +1425,6 @@
 			"FileName": "CasioQV-R200.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2012:08:23 13:41:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1524,7 +1502,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-8000SX.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.4",
 			"DateTime": "1999:11:05 14:56:10",
@@ -1561,8 +1539,6 @@
 			"FileName": "CasioQV-8000SX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "8.4 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1634,8 +1610,6 @@
 			"FileName": "CasioQV-7000SX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "407 bytes",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1660,7 +1634,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-5700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.8666666666666667",
 			"Contrast": "Normal",
@@ -1708,8 +1682,6 @@
 			"FileName": "CasioQV-5700.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "11 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1798,8 +1770,6 @@
 			"FileName": "CasioQV-5000SX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "816 bytes",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1830,7 +1800,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-4000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.012406462585034",
 			"DateTime": "2002:09:28 15:57:06",
@@ -1867,8 +1837,6 @@
 			"FileName": "CasioQV-4000.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "8.9 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1936,7 +1904,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-3EX.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.7037037037037037",
 			"DateTime": "2004:02:27 15:44:45",
@@ -1973,8 +1941,6 @@
 			"FileName": "CasioQV-3EX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:06:14 13:27:04+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2042,7 +2008,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-3500EX.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.6458333333333335",
 			"DateTime": "2004:12:25 09:18:35",
@@ -2079,8 +2045,6 @@
 			"FileName": "CasioQV-3500EX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "5.5 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2152,7 +2116,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-3000EX.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.6458333333333335",
 			"DateTime": "2000:03:31 10:28:24",
@@ -2189,8 +2153,6 @@
 			"FileName": "CasioQV-3000EX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "9.4 kB",
-			"FileModifyDate": "2006:06:14 13:58:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2256,7 +2218,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2900UX.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.4133333333333336",
 			"DateTime": "2003:02:23 10:26:30",
@@ -2293,8 +2255,6 @@
 			"FileName": "CasioQV-2900UX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "6.7 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2366,7 +2326,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2800UX.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.6266666666666665",
 			"DateTime": "2005:05:05 16:48:17",
@@ -2403,8 +2363,6 @@
 			"FileName": "CasioQV-2800UX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "6.1 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2475,7 +2433,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2400UX.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.4133334159851074",
 			"DateTime": "2004:06:12 11:17:33",
@@ -2513,8 +2471,6 @@
 			"FileName": "CasioQV-2400UX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2587,7 +2543,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2300UX.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.048",
 			"DateTime": "2000:01:01 00:59:44",
@@ -2624,8 +2580,6 @@
 			"FileName": "CasioQV-2300UX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "8.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2695,7 +2649,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.4694166666666666",
 			"DateTime": "2003:02:18 12:47:06",
@@ -2733,8 +2687,6 @@
 			"FileName": "CasioQV-2100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2006:05:09 14:43:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2797,7 +2749,7 @@
 	{
 		"img": "sampleImages/Casio/CasioQV-2000UX.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.56",
 			"DateTime": "1999:01:01 00:42:10",
@@ -2834,8 +2786,6 @@
 			"FileName": "CasioQV-2000UX.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "8.8 kB",
-			"FileModifyDate": "2006:06:14 13:57:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2907,8 +2857,6 @@
 			"FileName": "CasioQV-100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "1775 bytes",
-			"FileModifyDate": "2006:08:25 22:56:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2929,7 +2877,7 @@
 	{
 		"img": "sampleImages/Casio/CasioKX-850.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.793388429752066",
 			"Contrast": "Normal",
@@ -2978,8 +2926,6 @@
 			"FileName": "CasioKX-850.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2008:01:22 13:35:53+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3079,7 +3025,7 @@
 		"img": "sampleImages/Casio/CasioGV-20.jpg",
 		"exifJS": {
 			"ApertureValue": "2.97",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.22691510416666666",
 			"DateTime": "2004:06:04 14:02:21",
@@ -3123,8 +3069,6 @@
 			"FileName": "CasioGV-20.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3196,7 +3140,7 @@
 		"img": "sampleImages/Casio/CasioGV-10.jpg",
 		"exifJS": {
 			"ApertureValue": "2.97",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.246123046875",
 			"DateTime": "2002:05:08 16:52:29",
@@ -3240,8 +3184,6 @@
 			"FileName": "CasioGV-10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "10 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3313,7 +3255,7 @@
 		"img": "sampleImages/Casio/CasioEX-ZS5.jpg",
 		"exifJS": {
 			"ApertureValue": "4.274",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "NaN",
 			"Contrast": "Normal",
@@ -3362,8 +3304,6 @@
 			"FileName": "CasioEX-ZS5.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2011:11:07 18:54:02+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3466,7 +3406,7 @@
 		"img": "sampleImages/Casio/CasioEX-ZS20.jpg",
 		"exifJS": {
 			"ApertureValue": "3.775",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "NaN",
 			"Contrast": "Normal",
@@ -3515,8 +3455,6 @@
 			"FileName": "CasioEX-ZS20.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2012:08:23 13:41:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3634,7 +3572,7 @@
 		"img": "sampleImages/Casio/CasioEX-ZS150.jpg",
 		"exifJS": {
 			"ApertureValue": "3.5",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -3683,8 +3621,6 @@
 			"FileName": "CasioEX-ZS150.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "23 kB",
-			"FileModifyDate": "2012:08:23 13:41:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3804,7 +3740,7 @@
 		"img": "sampleImages/Casio/CasioEX-ZS12.jpg",
 		"exifJS": {
 			"ApertureValue": "3.695",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "NaN",
 			"Contrast": "Normal",
@@ -3853,8 +3789,6 @@
 			"FileName": "CasioEX-ZS12.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "16 kB",
-			"FileModifyDate": "2012:08:23 13:41:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3957,7 +3891,7 @@
 		"img": "sampleImages/Casio/CasioEX-ZS100.jpg",
 		"exifJS": {
 			"ApertureValue": "3.5",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -4006,8 +3940,6 @@
 			"FileName": "CasioEX-ZS100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "16 kB",
-			"FileModifyDate": "2011:11:07 18:54:02+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4110,7 +4042,7 @@
 		"img": "sampleImages/Casio/CasioEX-ZS10.jpg",
 		"exifJS": {
 			"ApertureValue": "4.812",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "NaN",
 			"Contrast": "Normal",
@@ -4159,8 +4091,6 @@
 			"FileName": "CasioEX-ZS10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2011:11:07 18:54:02+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4262,7 +4192,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.5092592592592595",
 			"Contrast": "Normal",
@@ -4312,8 +4242,6 @@
 			"FileName": "CasioEX-ZR300.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2012:05:30 12:38:58+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4426,7 +4354,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.5092592592592595",
 			"Contrast": "Normal",
@@ -4476,8 +4404,6 @@
 			"FileName": "CasioEX-ZR200.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "21 kB",
-			"FileModifyDate": "2011:11:28 18:14:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4589,7 +4515,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR20.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -4639,8 +4565,6 @@
 			"FileName": "CasioEX-ZR20.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "21 kB",
-			"FileModifyDate": "2012:03:16 11:10:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4753,7 +4677,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR15.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.5092592592592595",
 			"Contrast": "Normal",
@@ -4803,8 +4727,6 @@
 			"FileName": "CasioEX-ZR15.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2011:11:07 18:49:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4919,7 +4841,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR1000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.5092592592592595",
 			"Contrast": "Normal",
@@ -4969,8 +4891,6 @@
 			"FileName": "CasioEX-ZR1000.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "25 kB",
-			"FileModifyDate": "2012:10:31 13:07:26+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5097,7 +5017,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -5147,8 +5067,6 @@
 			"FileName": "CasioEX-ZR100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2011:03:03 13:01:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5260,7 +5178,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-ZR10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -5310,8 +5228,6 @@
 			"FileName": "CasioEX-ZR10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "24 kB",
-			"FileModifyDate": "2010:12:21 17:33:08+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5429,7 +5345,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z90.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -5478,8 +5394,6 @@
 			"FileName": "CasioEX-Z90.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2009:10:08 15:55:10+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5593,7 +5507,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z9.jpg",
 		"exifJS": {
 			"ApertureValue": "4.14",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.919931636870435",
 			"Contrast": "Normal",
@@ -5642,8 +5556,6 @@
 			"FileName": "CasioEX-Z9.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "128 kB",
-			"FileModifyDate": "2008:06:12 14:12:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5736,7 +5648,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z850.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.921184159938485",
 			"Contrast": "Normal",
@@ -5784,8 +5696,6 @@
 			"FileName": "CasioEX-Z850.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2006:03:13 17:06:28+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5881,7 +5791,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z85.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.176040237768633",
 			"Contrast": "Normal",
@@ -5930,8 +5840,6 @@
 			"FileName": "CasioEX-Z85.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2008:09:08 16:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6033,7 +5941,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.4489254686785555",
 			"Contrast": "Normal",
@@ -6082,8 +5990,6 @@
 			"FileName": "CasioEX-Z800.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2011:01:19 17:40:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6195,7 +6101,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z80.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.705882352941177",
 			"Contrast": "Normal",
@@ -6244,8 +6150,6 @@
 			"FileName": "CasioEX-Z80.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "44 kB",
-			"FileModifyDate": "2008:03:04 13:58:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6345,7 +6249,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z8.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.705882352941177",
 			"Contrast": "Normal",
@@ -6394,8 +6298,6 @@
 			"FileName": "CasioEX-Z8.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2007:09:28 14:07:11+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6493,7 +6395,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z77.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.673611111111111",
 			"Contrast": "Normal",
@@ -6542,8 +6444,6 @@
 			"FileName": "CasioEX-Z77.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2007:08:28 17:14:35+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6642,7 +6542,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z750.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.066666666666666",
 			"Contrast": "Normal",
@@ -6690,8 +6590,6 @@
 			"FileName": "CasioEX-Z750.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2006:06:14 13:57:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6787,7 +6685,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z75.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -6836,8 +6734,6 @@
 			"FileName": "CasioEX-Z75.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2007:03:12 12:10:07+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6934,7 +6830,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -6982,8 +6878,6 @@
 			"FileName": "CasioEX-Z700.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2006:08:25 21:45:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7079,7 +6973,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z70.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -7127,8 +7021,6 @@
 			"FileName": "CasioEX-Z70.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2006:08:25 21:45:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7224,7 +7116,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z7.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.7777777777777777",
 			"Contrast": "Normal",
@@ -7272,8 +7164,6 @@
 			"FileName": "CasioEX-Z7.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2010:06:10 14:31:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7369,7 +7259,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z65.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Soft",
@@ -7418,8 +7308,6 @@
 			"FileName": "CasioEX-Z65.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "23 kB",
-			"FileModifyDate": "2007:05:15 15:16:21+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7517,7 +7405,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -7565,8 +7453,6 @@
 			"FileName": "CasioEX-Z600.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2006:03:13 17:06:28+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7662,7 +7548,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z60.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -7710,8 +7596,6 @@
 			"FileName": "CasioEX-Z60.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2006:05:31 13:57:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7808,7 +7692,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z6.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.7548209366391183",
 			"Contrast": "Normal",
@@ -7856,8 +7740,6 @@
 			"FileName": "CasioEX-Z6.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "33 kB",
-			"FileModifyDate": "2007:04:05 12:57:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7954,7 +7836,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z57.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.6666666666666665",
 			"Contrast": "Normal",
@@ -8002,8 +7884,6 @@
 			"FileName": "CasioEX-Z57.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2006:06:13 20:30:08+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8098,7 +7978,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z550.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.4489254686785555",
 			"Contrast": "Normal",
@@ -8147,8 +8027,6 @@
 			"FileName": "CasioEX-Z550.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2010:05:10 13:44:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8260,7 +8138,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z55.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.066666666666666",
 			"Contrast": "Normal",
@@ -8308,8 +8186,6 @@
 			"FileName": "CasioEX-Z55.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "36 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8405,7 +8281,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.328",
 			"Contrast": "Normal",
@@ -8453,8 +8329,6 @@
 			"FileName": "CasioEX-Z500.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "26 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8551,7 +8425,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z50.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.6666666666666665",
 			"Contrast": "Soft",
@@ -8599,8 +8473,6 @@
 			"FileName": "CasioEX-Z50.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8696,7 +8568,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z5.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.3333333333333335",
 			"Contrast": "Hard",
@@ -8744,8 +8616,6 @@
 			"FileName": "CasioEX-Z5.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2007:04:05 12:53:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8845,7 +8715,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z450.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -8894,8 +8764,6 @@
 			"FileName": "CasioEX-Z450.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2009:10:08 15:39:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9007,7 +8875,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z400.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -9056,8 +8924,6 @@
 			"FileName": "CasioEX-Z400.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "46 kB",
-			"FileModifyDate": "2009:02:05 18:12:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9158,7 +9024,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z40.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.1481481481481484",
 			"Contrast": "Normal",
@@ -9206,8 +9072,6 @@
 			"FileName": "CasioEX-Z40.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "33 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9302,7 +9166,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z4.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.38333333333333336",
 			"Contrast": "Normal",
@@ -9350,8 +9214,6 @@
 			"FileName": "CasioEX-Z4.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9445,7 +9307,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z37.jpg",
 		"exifJS": {
 			"ApertureValue": "3.53",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.596738683127572",
 			"Contrast": "Normal",
@@ -9494,8 +9356,6 @@
 			"FileName": "CasioEX-Z37.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2011:01:10 17:37:06+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9598,7 +9458,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z350.jpg",
 		"exifJS": {
 			"ApertureValue": "4.208",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.36984672021419",
 			"Contrast": "Normal",
@@ -9647,8 +9507,6 @@
 			"FileName": "CasioEX-Z350.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "14 kB",
-			"FileModifyDate": "2011:01:10 17:40:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9750,7 +9608,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z35.jpg",
 		"exifJS": {
 			"ApertureValue": "3.53",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.659386666666667",
 			"Contrast": "Normal",
@@ -9799,8 +9657,6 @@
 			"FileName": "CasioEX-Z35.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2011:03:29 13:23:10+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9901,7 +9757,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z330.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -9950,8 +9806,6 @@
 			"FileName": "CasioEX-Z330.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2010:01:27 13:41:39+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10064,7 +9918,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z33.jpg",
 		"exifJS": {
 			"ApertureValue": "4.97",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "6.559522320970555",
 			"Contrast": "Normal",
@@ -10113,8 +9967,6 @@
 			"FileName": "CasioEX-Z33.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2009:10:08 15:56:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10206,7 +10058,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z3000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.2552083333333335",
 			"Contrast": "Normal",
@@ -10256,8 +10108,6 @@
 			"FileName": "CasioEX-Z3000.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "21 kB",
-			"FileModifyDate": "2011:06:21 13:41:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10370,7 +10220,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -10419,8 +10269,6 @@
 			"FileName": "CasioEX-Z300.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "47 kB",
-			"FileModifyDate": "2008:09:08 16:52:02+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10521,7 +10369,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z30.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.066666666666667",
 			"Contrast": "Normal",
@@ -10569,8 +10417,6 @@
 			"FileName": "CasioEX-Z30.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10666,7 +10512,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.533203125",
 			"Contrast": "Normal",
@@ -10714,8 +10560,6 @@
 			"FileName": "CasioEX-Z3.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2006:06:13 20:27:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10807,7 +10651,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z29.jpg",
 		"exifJS": {
 			"ApertureValue": "3.852",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.2872686788242538",
 			"Contrast": "Normal",
@@ -10856,8 +10700,6 @@
 			"FileName": "CasioEX-Z29.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2009:10:08 15:54:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10949,7 +10791,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z280.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -10998,8 +10840,6 @@
 			"FileName": "CasioEX-Z280.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "47 kB",
-			"FileModifyDate": "2009:10:08 15:55:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11102,7 +10942,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z270.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -11151,8 +10991,6 @@
 			"FileName": "CasioEX-Z270.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "45 kB",
-			"FileModifyDate": "2010:01:27 18:33:26+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11255,7 +11093,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z250.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.176040237768633",
 			"Contrast": "Normal",
@@ -11304,8 +11142,6 @@
 			"FileName": "CasioEX-Z250.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2008:09:08 16:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11407,7 +11243,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z2300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.208333333333333",
 			"Contrast": "Normal",
@@ -11456,8 +11292,6 @@
 			"FileName": "CasioEX-Z2300.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2010:09:09 13:51:18+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11570,7 +11404,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z22.jpg",
 		"exifJS": {
 			"ApertureValue": "3.53",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.995199795667581",
 			"Contrast": "Normal",
@@ -11619,8 +11453,6 @@
 			"FileName": "CasioEX-Z22.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "128 kB",
-			"FileModifyDate": "2010:06:10 14:31:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11713,7 +11545,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z21.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.066666666666666",
 			"Contrast": "Hard",
@@ -11762,8 +11594,6 @@
 			"FileName": "CasioEX-Z21.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2010:06:10 14:31:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11865,7 +11695,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z2000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.4489254686785555",
 			"Contrast": "Normal",
@@ -11914,8 +11744,6 @@
 			"FileName": "CasioEX-Z2000.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2010:05:18 19:22:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12027,7 +11855,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -12076,8 +11904,6 @@
 			"FileName": "CasioEX-Z200.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "44 kB",
-			"FileModifyDate": "2008:04:01 17:44:10+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12177,7 +12003,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z20.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.705882352941177",
 			"Contrast": "Normal",
@@ -12226,8 +12052,6 @@
 			"FileName": "CasioEX-Z20.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "44 kB",
-			"FileModifyDate": "2008:06:12 14:12:15+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12328,7 +12152,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z2.jpg",
 		"exifJS": {
 			"ApertureValue": "4.7",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.756432",
 			"Contrast": "Normal",
@@ -12377,8 +12201,6 @@
 			"FileName": "CasioEX-Z2.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2009:05:26 14:00:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12471,7 +12293,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z19.jpg",
 		"exifJS": {
 			"ApertureValue": "3.852",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.77478334333562",
 			"Contrast": "Normal",
@@ -12520,8 +12342,6 @@
 			"FileName": "CasioEX-Z19.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "128 kB",
-			"FileModifyDate": "2008:09:08 16:54:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12614,7 +12434,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z18.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.5221068819684738",
 			"DateTime": "2010:03:17 13:13:16",
@@ -12651,8 +12471,6 @@
 			"FileName": "CasioEX-Z18.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2010:06:10 14:31:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12749,7 +12567,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z16.jpg",
 		"exifJS": {
 			"ApertureValue": "3.444",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "NaN",
 			"Contrast": "Normal",
@@ -12798,8 +12616,6 @@
 			"FileName": "CasioEX-Z16.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2011:01:10 17:40:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12902,7 +12718,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z155.jpg",
 		"exifJS": {
 			"ApertureValue": "2.756",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.241518686723055",
 			"Contrast": "Normal",
@@ -12951,8 +12767,6 @@
 			"FileName": "CasioEX-Z155.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2010:06:10 14:31:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13046,7 +12860,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z150.jpg",
 		"exifJS": {
 			"ApertureValue": "2.97",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.0890593306288032",
 			"Contrast": "Normal",
@@ -13095,8 +12909,6 @@
 			"FileName": "CasioEX-Z150.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2008:08:25 19:34:20+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13189,7 +13001,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z15.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.7",
 			"DateTime": "2009:12:25 18:58:21",
@@ -13226,8 +13038,6 @@
 			"FileName": "CasioEX-Z15.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2010:06:10 14:31:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13323,7 +13133,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z1200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -13372,8 +13182,6 @@
 			"FileName": "CasioEX-Z1200.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2007:06:08 14:42:59+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13471,7 +13279,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z120.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.3333333333333335",
 			"Contrast": "Normal",
@@ -13519,8 +13327,6 @@
 			"FileName": "CasioEX-Z120.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13617,7 +13423,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z12.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.673611111111111",
 			"Contrast": "Normal",
@@ -13666,8 +13472,6 @@
 			"FileName": "CasioEX-Z12.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "33 kB",
-			"FileModifyDate": "2010:06:12 11:46:02+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13766,7 +13570,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z110.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -13814,8 +13618,6 @@
 			"FileName": "CasioEX-Z110.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13912,7 +13714,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z11.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -13961,8 +13763,6 @@
 			"FileName": "CasioEX-Z11.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2010:06:10 14:31:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14059,7 +13859,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z1080.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -14108,8 +13908,6 @@
 			"FileName": "CasioEX-Z1080.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2007:09:28 14:07:11+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14208,7 +14006,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z1050.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -14257,8 +14055,6 @@
 			"FileName": "CasioEX-Z1050.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2007:03:15 11:46:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14357,7 +14153,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z1000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.4472145275469375",
 			"Contrast": "Normal",
@@ -14405,8 +14201,6 @@
 			"FileName": "CasioEX-Z1000.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "43 kB",
-			"FileModifyDate": "2006:05:04 20:35:58+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14502,7 +14296,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -14551,8 +14345,6 @@
 			"FileName": "CasioEX-Z100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "45 kB",
-			"FileModifyDate": "2008:03:04 13:53:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14652,7 +14444,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-Z10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -14700,8 +14492,6 @@
 			"FileName": "CasioEX-Z10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14799,7 +14589,7 @@
 		"img": "sampleImages/Casio/CasioEX-Z1.jpg",
 		"exifJS": {
 			"ApertureValue": "3.53",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.8473127949625527",
 			"Contrast": "Normal",
@@ -14848,8 +14638,6 @@
 			"FileName": "CasioEX-Z1.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "69 kB",
-			"FileModifyDate": "2009:03:20 16:19:30+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14982,7 +14770,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-V8.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.705882352941177",
 			"Contrast": "Normal",
@@ -15031,8 +14819,6 @@
 			"FileName": "CasioEX-V8.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2007:09:28 14:07:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15131,7 +14917,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-V7.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.976851851851852",
 			"Contrast": "Normal",
@@ -15180,8 +14966,6 @@
 			"FileName": "CasioEX-V7.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2007:03:30 18:40:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15280,7 +15064,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-TR150.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.8194133333333333",
 			"Contrast": "Normal",
@@ -15330,8 +15114,6 @@
 			"FileName": "CasioEX-TR150.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2012:08:23 13:41:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15447,7 +15229,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-TR100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.8194133333333333",
 			"Contrast": "Normal",
@@ -15497,8 +15279,6 @@
 			"FileName": "CasioEX-TR100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2011:05:09 13:25:10+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15611,7 +15391,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S880.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.705882352941177",
 			"Contrast": "Normal",
@@ -15660,8 +15440,6 @@
 			"FileName": "CasioEX-S880.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "24 kB",
-			"FileModifyDate": "2007:09:28 14:07:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15760,7 +15538,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S770.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -15808,8 +15586,6 @@
 			"FileName": "CasioEX-S770.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2006:09:17 17:57:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15905,7 +15681,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S7.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -15954,8 +15730,6 @@
 			"FileName": "CasioEX-S7.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2010:04:07 16:45:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16067,7 +15841,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.168044077134986",
 			"Contrast": "Normal",
@@ -16115,8 +15889,6 @@
 			"FileName": "CasioEX-S600.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "26 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16212,7 +15984,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.270833333333333",
 			"Contrast": "Normal",
@@ -16260,8 +16032,6 @@
 			"FileName": "CasioEX-S500.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16359,7 +16129,7 @@
 		"img": "sampleImages/Casio/CasioEX-S5.jpg",
 		"exifJS": {
 			"ApertureValue": "4.97",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.9855388196368113",
 			"Contrast": "Normal",
@@ -16408,8 +16178,6 @@
 			"FileName": "CasioEX-S5.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2011:03:29 13:19:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16501,7 +16269,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.38333333333333336",
 			"Contrast": "Normal",
@@ -16549,8 +16317,6 @@
 			"FileName": "CasioEX-S3.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16637,7 +16403,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.4489254686785555",
 			"Contrast": "Normal",
@@ -16686,8 +16452,6 @@
 			"FileName": "CasioEX-S200.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2010:09:07 13:59:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16800,7 +16564,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S20.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.37866666666666665",
 			"Contrast": "Normal",
@@ -16848,8 +16612,6 @@
 			"FileName": "CasioEX-S20.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16943,7 +16705,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.48",
 			"Contrast": "Normal",
@@ -16991,8 +16753,6 @@
 			"FileName": "CasioEX-S2.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17082,7 +16842,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S12.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -17131,8 +16891,6 @@
 			"FileName": "CasioEX-S12.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "46 kB",
-			"FileModifyDate": "2009:02:27 14:30:08+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17234,7 +16992,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.48",
 			"Contrast": "Normal",
@@ -17282,8 +17040,6 @@
 			"FileName": "CasioEX-S100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17379,7 +17135,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -17428,8 +17184,6 @@
 			"FileName": "CasioEX-S10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "45 kB",
-			"FileModifyDate": "2008:03:04 13:52:24+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17529,7 +17283,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-S1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.3",
 			"Contrast": "Normal",
@@ -17577,8 +17331,6 @@
 			"FileName": "CasioEX-S1.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17667,7 +17419,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-P700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.092592592592593",
 			"Contrast": "Normal",
@@ -17715,8 +17467,6 @@
 			"FileName": "CasioEX-P700.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17811,7 +17561,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-P600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.132231404958677",
 			"Contrast": "Soft",
@@ -17859,8 +17609,6 @@
 			"FileName": "CasioEX-P600.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17956,7 +17704,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-P505.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.066666666666666",
 			"Contrast": "Normal",
@@ -18004,8 +17752,6 @@
 			"FileName": "CasioEX-P505.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2006:06:14 13:57:18+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18101,7 +17847,7 @@
 		"img": "sampleImages/Casio/CasioEX-N20.jpg",
 		"exifJS": {
 			"ApertureValue": "3.695",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "NaN",
 			"Contrast": "Normal",
@@ -18150,8 +17896,6 @@
 			"FileName": "CasioEX-N20.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "21 kB",
-			"FileModifyDate": "2012:08:23 13:41:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18269,7 +18013,7 @@
 		"img": "sampleImages/Casio/CasioEX-N10.jpg",
 		"exifJS": {
 			"ApertureValue": "3.695",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "NaN",
 			"Contrast": "Normal",
@@ -18318,8 +18062,6 @@
 			"FileName": "CasioEX-N10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2012:08:23 13:37:06+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18422,7 +18164,7 @@
 		"img": "sampleImages/Casio/CasioEX-N1.jpg",
 		"exifJS": {
 			"ApertureValue": "3.357",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "NaN",
 			"Contrast": "Normal",
@@ -18471,8 +18213,6 @@
 			"FileName": "CasioEX-N1.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2012:08:23 13:41:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18574,7 +18314,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-M20.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.56",
 			"Contrast": "Normal",
@@ -18622,8 +18362,6 @@
 			"FileName": "CasioEX-M20.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18716,7 +18454,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-M2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.4666666666666667",
 			"Contrast": "Normal",
@@ -18764,8 +18502,6 @@
 			"FileName": "CasioEX-M2.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18855,7 +18591,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-M1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.6333333333333333",
 			"Contrast": "Normal",
@@ -18903,8 +18639,6 @@
 			"FileName": "CasioEX-M1.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18994,7 +18728,7 @@
 		"img": "sampleImages/Casio/CasioEX-JE10.jpg",
 		"exifJS": {
 			"ApertureValue": "3.695",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "NaN",
 			"Contrast": "Normal",
@@ -19043,8 +18777,6 @@
 			"FileName": "CasioEX-JE10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2012:08:23 13:36:36+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19147,7 +18879,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H5.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -19196,8 +18928,6 @@
 			"FileName": "CasioEX-H5.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2010:11:10 13:54:28+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19311,7 +19041,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H30.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.5092592592592595",
 			"Contrast": "Normal",
@@ -19361,8 +19091,6 @@
 			"FileName": "CasioEX-H30.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2011:05:22 22:23:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19475,7 +19203,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H20G.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.4489254686785555",
 			"Contrast": "Normal",
@@ -19545,8 +19273,6 @@
 			"FileName": "CasioEX-H20G.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2010:12:13 14:13:04+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19682,7 +19408,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H15.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.4489254686785555",
 			"Contrast": "Normal",
@@ -19731,8 +19457,6 @@
 			"FileName": "CasioEX-H15.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2010:04:29 12:48:18+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19844,7 +19568,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-H10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -19893,8 +19617,6 @@
 			"FileName": "CasioEX-H10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "45 kB",
-			"FileModifyDate": "2009:07:13 20:27:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19996,7 +19718,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-G1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -20045,8 +19767,6 @@
 			"FileName": "CasioEX-G1.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2010:01:27 13:43:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20158,7 +19878,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FS10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.176040237768633",
 			"Contrast": "Normal",
@@ -20207,8 +19927,6 @@
 			"FileName": "CasioEX-FS10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "50 kB",
-			"FileModifyDate": "2009:04:06 20:01:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20310,7 +20028,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FH25.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -20359,8 +20077,6 @@
 			"FileName": "CasioEX-FH25.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2010:01:18 18:19:15+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20471,7 +20187,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FH20.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.176040237768633",
 			"Contrast": "Normal",
@@ -20520,8 +20236,6 @@
 			"FileName": "CasioEX-FH20.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "57 kB",
-			"FileModifyDate": "2008:09:17 12:59:59+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20623,7 +20337,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FH100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -20672,8 +20386,6 @@
 			"FileName": "CasioEX-FH100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2010:04:06 14:22:24+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20785,7 +20497,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FC150.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.252898327690572",
 			"Contrast": "Normal",
@@ -20834,8 +20546,6 @@
 			"FileName": "CasioEX-FC150.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2010:01:04 14:25:06+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20947,7 +20657,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-FC100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.176040237768633",
 			"Contrast": "Normal",
@@ -20996,8 +20706,6 @@
 			"FileName": "CasioEX-FC100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "50 kB",
-			"FileModifyDate": "2009:02:20 18:40:04+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -21098,7 +20806,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-F1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.793388429752066",
 			"Contrast": "Normal",
@@ -21147,8 +20855,6 @@
 			"FileName": "CasioEX-F1.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "45 kB",
-			"FileModifyDate": "2008:04:01 17:41:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -21248,7 +20954,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5.372586666666667",
 			"Contrast": "Normal",
@@ -21298,8 +21004,6 @@
 			"FileName": "CasioEX-100.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "26 kB",
-			"FileModifyDate": "2014:03:25 18:53:57+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -21426,7 +21130,7 @@
 	{
 		"img": "sampleImages/Casio/CasioEX-10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.3074133333333333",
 			"Contrast": "Soft",
@@ -21476,8 +21180,6 @@
 			"FileName": "CasioEX-10.jpg",
 			"Directory": "sampleImages/Casio",
 			"FileSize": "21 kB",
-			"FileModifyDate": "2014:01:02 17:25:16+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:53+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

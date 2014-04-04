@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO905iCS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"CustomRendered": "Normal process",
@@ -46,8 +46,6 @@
 			"FileName": "DoCoMoSO905iCS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "5.0 kB",
-			"FileModifyDate": "2010:06:12 11:35:36+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -150,7 +148,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO903i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"CustomRendered": "Normal process",
@@ -194,8 +192,6 @@
 			"FileName": "DoCoMoSO903i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "933 bytes",
-			"FileModifyDate": "2010:12:14 19:16:13+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -253,7 +249,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO506iC.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:11:14 03:03:23",
 			"DateTimeDigitized": "2004:11:14 03:03:23",
@@ -283,8 +279,6 @@
 			"FileName": "DoCoMoSO506iC.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "5.7 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -337,7 +331,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO506i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2005:04:28 14:52:12",
@@ -375,8 +369,6 @@
 			"FileName": "DoCoMoSO506i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "8.9 kB",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -432,7 +424,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO505iS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2005:05:01 12:46:03",
@@ -469,8 +461,6 @@
 			"FileName": "DoCoMoSO505iS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "8.1 kB",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -524,7 +514,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSO505i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2004:03:31 10:46:09",
@@ -561,8 +551,6 @@
 			"FileName": "DoCoMoSO505i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "11 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -617,7 +605,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH905i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:03:05 14:16:32",
 			"DateTimeDigitized": "2009:03:05 14:18:06",
@@ -645,8 +633,6 @@
 			"FileName": "DoCoMoSH905i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "710 bytes",
-			"FileModifyDate": "2010:06:12 11:49:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -686,7 +672,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoSH904i.jpg",
 		"exifJS": {
 			"ApertureValue": "3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"CustomRendered": "Normal process",
@@ -728,8 +714,6 @@
 			"FileName": "DoCoMoSH904i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "972 bytes",
-			"FileModifyDate": "2010:12:14 19:16:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -786,7 +770,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH903iTV.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2007:07:09 22:21:32",
 			"DateTimeDigitized": "2007:07:09 11:45:18",
@@ -813,8 +797,6 @@
 			"FileName": "DoCoMoSH903iTV.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "672 bytes",
-			"FileModifyDate": "2010:12:14 19:16:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -852,7 +834,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoSH903i.jpg",
 		"exifJS": {
 			"ApertureValue": "3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"CustomRendered": "Normal process",
@@ -894,8 +876,6 @@
 			"FileName": "DoCoMoSH903i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "990 bytes",
-			"FileModifyDate": "2008:12:08 14:32:41+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -959,8 +939,6 @@
 			"FileName": "DoCoMoSH902i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "9.1 kB",
-			"FileModifyDate": "2010:12:14 19:16:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1049,7 +1027,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoSH901iC.jpg",
 		"exifJS": {
 			"ApertureValue": "3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"CustomRendered": "Normal process",
@@ -1092,8 +1070,6 @@
 			"FileName": "DoCoMoSH901iC.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "6.0 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1156,7 +1132,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH900i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:06:04 23:15:03",
 			"DateTimeDigitized": "2005:06:04 12:16:17",
@@ -1183,8 +1159,6 @@
 			"FileName": "DoCoMoSH900i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "8.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1227,7 +1201,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH703i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:12:07 16:52:42",
 			"DateTimeDigitized": "2009:12:07 16:47:37",
@@ -1254,8 +1228,6 @@
 			"FileName": "DoCoMoSH703i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "694 bytes",
-			"FileModifyDate": "2011:06:07 17:55:00+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1294,7 +1266,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoSH702iD.jpg",
 		"exifJS": {
 			"ApertureValue": "3.5",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"CustomRendered": "Normal process",
@@ -1337,8 +1309,6 @@
 			"FileName": "DoCoMoSH702iD.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "7.1 kB",
-			"FileModifyDate": "2007:04:05 18:16:43+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1404,7 +1374,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH700i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:05:01 08:56:59",
 			"DateTimeDigitized": "2005:05:01 08:46:14",
@@ -1431,8 +1401,6 @@
 			"FileName": "DoCoMoSH700i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "5.7 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1475,7 +1443,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoSH506iC.jpg",
 		"exifJS": {
 			"ApertureValue": "3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2004:08:05 11:04:06",
@@ -1515,8 +1483,6 @@
 			"FileName": "DoCoMoSH506iC.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "11 kB",
-			"FileModifyDate": "2006:01:31 13:50:34+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1576,7 +1542,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH505iS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:08:29 16:09:38",
 			"DateTimeDigitized": "2004:08:29 15:57:14",
@@ -1603,8 +1569,6 @@
 			"FileName": "DoCoMoSH505iS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "7.6 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1646,7 +1610,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH505i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:02:05 18:28:23",
 			"DateTimeDigitized": "2005:02:05 18:28:10",
@@ -1673,8 +1637,6 @@
 			"FileName": "DoCoMoSH505i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "9.8 kB",
-			"FileModifyDate": "2006:05:09 14:32:40+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1715,7 +1677,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoSH06A.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:01:29 14:56:03",
 			"DateTimeDigitized": "2010:01:29 11:42:48",
@@ -1742,8 +1704,6 @@
 			"FileName": "DoCoMoSH06A.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "673 bytes",
-			"FileModifyDate": "2010:12:13 18:33:07+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1781,7 +1741,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoSH03A.jpg",
 		"exifJS": {
 			"ApertureValue": "3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"DateTime": "2009:11:07 14:47:29",
@@ -1816,8 +1776,6 @@
 			"FileName": "DoCoMoSH03A.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "7.1 kB",
-			"FileModifyDate": "2010:06:12 11:49:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1920,7 +1878,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoSH01A.jpg",
 		"exifJS": {
 			"ApertureValue": "3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"CustomRendered": "Normal process",
@@ -1962,8 +1920,6 @@
 			"FileName": "DoCoMoSH01A.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "975 bytes",
-			"FileModifyDate": "2010:12:14 19:16:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2020,7 +1976,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP905i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2008:07:26 13:02:06",
 			"DateTimeDigitized": "2008:05:18 17:22:00",
@@ -2048,8 +2004,6 @@
 			"FileName": "DoCoMoP905i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "6.6 kB",
-			"FileModifyDate": "2010:12:14 19:16:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2094,7 +2048,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP903i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"DateTime": "2008:10:07 22:35:00",
@@ -2123,8 +2077,6 @@
 			"FileName": "DoCoMoP903i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "5.1 kB",
-			"FileModifyDate": "2010:06:10 14:26:51+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2169,7 +2121,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoP901i.jpg",
 		"exifJS": {
 			"ApertureValue": "4",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"Copyright": "",
@@ -2211,8 +2163,6 @@
 			"FileName": "DoCoMoP901i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.5 kB",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2272,7 +2222,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP900iV.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2005:02:06 13:37:00",
 			"DateTimeOriginal": "2005:02:06 13:37:00",
@@ -2295,8 +2245,6 @@
 			"FileName": "DoCoMoP900iV.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.8 kB",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2333,7 +2281,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP900i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2004:03:24 10:44:00",
 			"DateTimeOriginal": "2004:03:24 10:44:00",
@@ -2356,8 +2304,6 @@
 			"FileName": "DoCoMoP900i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.6 kB",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2394,7 +2340,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP705i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"DateTime": "2009:04:29 11:20:00",
@@ -2423,8 +2369,6 @@
 			"FileName": "DoCoMoP705i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "5.1 kB",
-			"FileModifyDate": "2010:12:14 19:16:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2469,7 +2413,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoP700i.jpg",
 		"exifJS": {
 			"ApertureValue": "4",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"Copyright": "",
@@ -2511,8 +2455,6 @@
 			"FileName": "DoCoMoP700i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.2 kB",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2572,7 +2514,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP506iC.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:03:26 15:08:16",
 			"DateTimeDigitized": "2005:03:26 15:08:16",
@@ -2597,8 +2539,6 @@
 			"FileName": "DoCoMoP506iC.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "5.3 kB",
-			"FileModifyDate": "2006:01:31 13:50:34+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2640,7 +2580,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP505iS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:09:17 21:48:43",
 			"DateTimeDigitized": "2004:09:17 21:48:43",
@@ -2665,8 +2605,6 @@
 			"FileName": "DoCoMoP505iS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "6.0 kB",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2707,7 +2645,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP505i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:03:19 17:03:28",
 			"DateTimeDigitized": "2005:03:19 17:03:28",
@@ -2732,8 +2670,6 @@
 			"FileName": "DoCoMoP505i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.1 kB",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2774,7 +2710,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP253i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:03:26 18:47:06",
 			"DateTimeDigitized": "2005:03:26 18:47:06",
@@ -2799,8 +2735,6 @@
 			"FileName": "DoCoMoP253i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.6 kB",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2841,7 +2775,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP252iS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:03:05 20:21:34",
 			"DateTimeDigitized": "2005:03:05 20:21:34",
@@ -2866,8 +2800,6 @@
 			"FileName": "DoCoMoP252iS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.2 kB",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2908,7 +2840,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP252i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:03:24 14:49:31",
 			"DateTimeDigitized": "2005:03:24 14:49:31",
@@ -2933,8 +2865,6 @@
 			"FileName": "DoCoMoP252i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "5.1 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2975,7 +2905,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoP2102V.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2005:12:03 18:22:00",
 			"DateTimeOriginal": "2005:12:03 18:22:00",
@@ -2998,8 +2928,6 @@
 			"FileName": "DoCoMoP2102V.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "11 kB",
-			"FileModifyDate": "2006:01:31 13:50:34+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3037,7 +2965,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN906imyu.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"DateTime": "2011:02:16 11:36:00",
@@ -3065,8 +2993,6 @@
 			"FileName": "DoCoMoN906imyu.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "799 bytes",
-			"FileModifyDate": "2011:06:07 16:47:48+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3106,7 +3032,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN904i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"Copyright": "",
@@ -3146,8 +3072,6 @@
 			"FileName": "DoCoMoN904i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "937 bytes",
-			"FileModifyDate": "2010:06:10 14:26:51+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3200,7 +3124,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN901iC.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"Copyright": "",
@@ -3240,8 +3164,6 @@
 			"FileName": "DoCoMoN901iC.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.0 kB",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3299,7 +3221,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN900iS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -3333,8 +3255,6 @@
 			"FileName": "DoCoMoN900iS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.5 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3385,7 +3305,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN900i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -3419,8 +3339,6 @@
 			"FileName": "DoCoMoN900i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.3 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3470,7 +3388,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN703iD.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"DateTime": "2008:04:05 23:09:00",
@@ -3499,8 +3417,6 @@
 			"FileName": "DoCoMoN703iD.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "787 bytes",
-			"FileModifyDate": "2010:12:14 19:16:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3539,7 +3455,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN700i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"Copyright": "",
@@ -3579,8 +3495,6 @@
 			"FileName": "DoCoMoN700i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.2 kB",
-			"FileModifyDate": "2006:05:09 14:32:40+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3638,7 +3552,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN506iS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -3672,8 +3586,6 @@
 			"FileName": "DoCoMoN506iS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.3 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3723,7 +3635,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN506i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -3757,8 +3669,6 @@
 			"FileName": "DoCoMoN506i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.3 kB",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3808,7 +3718,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN505iS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:04:24 19:47:00",
 			"DateTimeDigitized": "2005:04:24 11:06:00",
@@ -3834,8 +3744,6 @@
 			"FileName": "DoCoMoN505iS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.4 kB",
-			"FileModifyDate": "2006:05:09 14:34:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3875,7 +3783,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN505i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2003:08:10 18:07:00",
 			"DateTimeDigitized": "2003:08:10 18:07:00",
@@ -3900,8 +3808,6 @@
 			"FileName": "DoCoMoN505i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "597 bytes",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3935,7 +3841,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoN01A.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"Copyright": "",
@@ -3975,8 +3881,6 @@
 			"FileName": "DoCoMoN01A.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "947 bytes",
-			"FileModifyDate": "2010:12:14 19:16:11+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4030,7 +3934,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoM702iG.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"DateTime": "2009:11:18 18:44:59",
@@ -4063,8 +3967,6 @@
 			"FileName": "DoCoMoM702iG.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "3.5 kB",
-			"FileModifyDate": "2010:12:14 17:27:40+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4118,7 +4020,7 @@
 		"exifJS": {
 			"ApertureValue": "2.9708251953125",
 			"BrightnessValue": "-1.0155029296875",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.46380208333333334",
 			"Contrast": "Normal",
@@ -4177,8 +4079,6 @@
 			"FileName": "DoCoMoF905i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "3.7 kB",
-			"FileModifyDate": "2010:06:10 14:26:51+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4262,7 +4162,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF901iC.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:04:20 19:15:37",
 			"DateTimeDigitized": "",
@@ -4289,8 +4189,6 @@
 			"FileName": "DoCoMoF901iC.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "3.0 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4333,7 +4231,7 @@
 		"exifJS": {
 			"ApertureValue": "3.696",
 			"BrightnessValue": "1.7",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"Copyright": "",
@@ -4388,8 +4286,6 @@
 			"FileName": "DoCoMoF900iT.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "1121 bytes",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4466,7 +4362,7 @@
 		"exifJS": {
 			"ApertureValue": "3.696",
 			"BrightnessValue": "5.2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.1871875",
 			"Copyright": "",
@@ -4510,8 +4406,6 @@
 			"FileName": "DoCoMoF900iC.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "1121 bytes",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4587,7 +4481,7 @@
 		"exifJS": {
 			"ApertureValue": "3.696",
 			"BrightnessValue": "4.2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"Copyright": "",
@@ -4642,8 +4536,6 @@
 			"FileName": "DoCoMoF900i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "1117 bytes",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4720,7 +4612,7 @@
 		"exifJS": {
 			"ApertureValue": "6",
 			"BrightnessValue": "4",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.1303661616161618",
 			"DateTime": "2005:04:08 15:45:00",
@@ -4763,8 +4655,6 @@
 			"FileName": "DoCoMoF506i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.5 kB",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4844,7 +4734,7 @@
 		"exifJS": {
 			"ApertureValue": "3.696",
 			"BrightnessValue": "10.7",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1.7340593434343434",
 			"DateTime": "2005:04:23 12:04:00",
@@ -4887,8 +4777,6 @@
 			"FileName": "DoCoMoF505iGPS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.1 kB",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4967,7 +4855,7 @@
 		"exifJS": {
 			"ApertureValue": "3.696",
 			"BrightnessValue": "2.2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.358229166666667",
 			"Contrast": "Normal",
@@ -5022,8 +4910,6 @@
 			"FileName": "DoCoMoF505i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.6 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5102,7 +4988,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoF2102V.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:04:27 11:29:34",
 			"DateTimeDigitized": "",
@@ -5127,8 +5013,6 @@
 			"FileName": "DoCoMoF2102V.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "605 bytes",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5162,7 +5046,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoEggy.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2003:11:13 08:41:07",
 			"DateTimeDigitized": "2003:11:13 08:41:07",
@@ -5192,8 +5076,6 @@
 			"FileName": "DoCoMoEggy.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "3.4 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5239,7 +5121,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoD905i.jpg",
 		"exifJS": {
 			"ApertureValue": "3.5",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.05914306640625",
 			"Contrast": "Normal",
@@ -5297,8 +5179,6 @@
 			"FileName": "DoCoMoD905i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.7 kB",
-			"FileModifyDate": "2010:06:10 14:26:51+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5380,7 +5260,7 @@
 		"img": "sampleImages/DoCoMo/DoCoMoD904i.jpg",
 		"exifJS": {
 			"ApertureValue": "3.5",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1.5836666666666666",
 			"Contrast": "Normal",
@@ -5438,8 +5318,6 @@
 			"FileName": "DoCoMoD904i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "1313 bytes",
-			"FileModifyDate": "2010:06:10 14:26:51+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5518,7 +5396,7 @@
 		"exifJS": {
 			"ApertureValue": "3.7",
 			"BrightnessValue": "7.94",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.46453125",
 			"Copyright": "",
@@ -5564,8 +5442,6 @@
 			"FileName": "DoCoMoD901i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "3.8 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5645,7 +5521,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD900i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:03:19 02:09:00",
 			"DateTimeDigitized": "2005:03:19 02:09:00",
@@ -5672,8 +5548,6 @@
 			"FileName": "DoCoMoD900i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.1 kB",
-			"FileModifyDate": "2006:05:09 14:32:48+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5714,7 +5588,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD506i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2005:04:11 15:37:15",
@@ -5747,8 +5621,6 @@
 			"FileName": "DoCoMoD506i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "5.1 kB",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5796,7 +5668,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD505iS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2004:07:13 14:34:47",
@@ -5829,8 +5701,6 @@
 			"FileName": "DoCoMoD505iS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.8 kB",
-			"FileModifyDate": "2006:05:09 14:32:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5878,7 +5748,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD505i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:04:07 20:51:45",
 			"DateTimeDigitized": "2005:04:07 20:51:45",
@@ -5905,8 +5775,6 @@
 			"FileName": "DoCoMoD505i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.6 kB",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5946,7 +5814,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD253iWM.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2005:01:05 12:54:58",
@@ -5979,8 +5847,6 @@
 			"FileName": "DoCoMoD253iWM.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.6 kB",
-			"FileModifyDate": "2006:05:09 14:32:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6028,7 +5894,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD252i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:03:14 18:12:18",
 			"DateTimeDigitized": "2005:03:14 18:12:18",
@@ -6055,8 +5921,6 @@
 			"FileName": "DoCoMoD252i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.3 kB",
-			"FileModifyDate": "2006:05:09 14:32:48+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6096,7 +5960,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD251iS.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2004:07:24 14:04:47",
 			"DateTimeOriginal": "2004:07:24 14:04:47",
@@ -6118,8 +5982,6 @@
 			"FileName": "DoCoMoD251iS.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "557 bytes",
-			"FileModifyDate": "2006:05:09 14:32:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6150,7 +6012,7 @@
 	{
 		"img": "sampleImages/DoCoMo/DoCoMoD251i.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": ":  :     :  :",
 			"DateTimeOriginal": ":  :     :  :",
@@ -6172,8 +6034,6 @@
 			"FileName": "DoCoMoD251i.jpg",
 			"Directory": "sampleImages/DoCoMo",
 			"FileSize": "4.6 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

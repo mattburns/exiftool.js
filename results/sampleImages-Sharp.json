@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpWX-T91.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2008:07:19 17:38:00",
 			"DateTimeDigitized": "2008:07:19 17:38:00",
@@ -28,8 +28,6 @@
 			"FileName": "SharpWX-T91.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2010:12:14 19:19:32+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -70,7 +68,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVN-EZ5.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:01:06 01:26:52",
 			"DateTimeDigitized": "2005:01:06 01:26:52",
@@ -100,8 +98,6 @@
 			"FileName": "SharpVN-EZ5.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.4 kB",
-			"FileModifyDate": "2006:05:11 14:56:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -145,7 +141,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVN-EZ1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2002:05:28 14:44:43",
 			"DateTimeDigitized": "2002:05:28 14:44:43",
@@ -176,8 +172,6 @@
 			"FileName": "SharpVN-EZ1.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.4 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -223,7 +217,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z961.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"CustomRendered": "Normal process",
@@ -271,8 +265,6 @@
 			"FileName": "SharpVL-Z961.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.8 kB",
-			"FileModifyDate": "2006:05:11 14:56:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -339,7 +331,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z950.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"CustomRendered": "Normal process",
@@ -387,8 +379,6 @@
 			"FileName": "SharpVL-Z950.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.0 kB",
-			"FileModifyDate": "2006:05:11 14:56:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -455,7 +445,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"CustomRendered": "Normal process",
@@ -503,8 +493,6 @@
 			"FileName": "SharpVL-Z800.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.6 kB",
-			"FileModifyDate": "2010:06:10 14:02:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -571,7 +559,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z8.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:03:09 22:42:00",
@@ -614,8 +602,6 @@
 			"FileName": "SharpVL-Z8.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.9 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -681,7 +667,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"CustomRendered": "Normal process",
@@ -729,8 +715,6 @@
 			"FileName": "SharpVL-Z700.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.7 kB",
-			"FileModifyDate": "2010:06:12 11:41:47+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -797,7 +781,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z7.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"CustomRendered": "Normal process",
@@ -845,8 +829,6 @@
 			"FileName": "SharpVL-Z7.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.7 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -914,7 +896,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"CustomRendered": "Normal process",
@@ -962,8 +944,6 @@
 			"FileName": "SharpVL-Z500.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.6 kB",
-			"FileModifyDate": "2010:06:10 14:02:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1030,7 +1010,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z5.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"CustomRendered": "Normal process",
@@ -1078,8 +1058,6 @@
 			"FileName": "SharpVL-Z5.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.9 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1147,7 +1125,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z301.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"CustomRendered": "Normal process",
@@ -1195,8 +1173,6 @@
 			"FileName": "SharpVL-Z301.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.7 kB",
-			"FileModifyDate": "2006:05:11 14:56:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1263,7 +1239,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-Z3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"CustomRendered": "Normal process",
@@ -1311,8 +1287,6 @@
 			"FileName": "SharpVL-Z3.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.6 kB",
-			"FileModifyDate": "2006:05:08 14:25:36+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1380,7 +1354,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-WD650.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:01:26 12:45:08",
 			"DateTimeDigitized": "",
@@ -1412,8 +1386,6 @@
 			"FileName": "SharpVL-WD650.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.9 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1460,7 +1432,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-WD450.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2002:10:27 20:21:00",
 			"DateTimeDigitized": "2002:10:27 20:21:09",
@@ -1491,8 +1463,6 @@
 			"FileName": "SharpVL-WD450.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.5 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1538,7 +1508,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-WD255.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:01:29 09:24:00",
 			"DateTimeDigitized": "2005:01:29 09:24:19",
@@ -1569,8 +1539,6 @@
 			"FileName": "SharpVL-WD255.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.7 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1615,7 +1583,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-PD7.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:07:09 12:55:00",
 			"DateTimeDigitized": "2004:07:09 12:55:00",
@@ -1646,8 +1614,6 @@
 			"FileName": "SharpVL-PD7.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.1 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1693,7 +1659,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ80.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2002:11:10 17:48:00",
 			"DateTimeDigitized": "2002:11:10 17:48:00",
@@ -1726,8 +1692,6 @@
 			"FileName": "SharpVL-NZ80.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.2 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1774,7 +1738,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ8.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2002:02:04 20:19:00",
 			"DateTimeDigitized": "2002:02:04 20:19:00",
@@ -1807,8 +1771,6 @@
 			"FileName": "SharpVL-NZ8.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.4 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1855,7 +1817,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ50.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "",
 			"DateTime": "2004:08:30 17:24:00",
@@ -1897,8 +1859,6 @@
 			"FileName": "SharpVL-NZ50.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "1219 bytes",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1954,7 +1914,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ150.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2003:07:12 13:39:00",
@@ -1998,8 +1958,6 @@
 			"FileName": "SharpVL-NZ150.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.9 kB",
-			"FileModifyDate": "2006:08:25 23:03:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2061,7 +2019,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ105.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2004:08:01 14:33:00",
@@ -2105,8 +2063,6 @@
 			"FileName": "SharpVL-NZ105.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.0 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2168,7 +2124,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2003:03:05 19:17:00",
@@ -2212,8 +2168,6 @@
 			"FileName": "SharpVL-NZ100.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.7 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2276,7 +2230,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-NZ10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2003:09:08 19:55:24",
 			"DateTimeDigitized": "2003:08:30 14:51:28",
@@ -2319,8 +2273,6 @@
 			"FileName": "SharpVL-NZ10.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "5.1 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2383,7 +2335,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-MX1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2003:02:18 11:49:00",
 			"DateTimeDigitized": "2003:02:18 11:49:00",
@@ -2415,8 +2367,6 @@
 			"FileName": "SharpVL-MX1.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.0 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2462,7 +2412,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-MR1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:12:19 14:10:20",
 			"DateTimeDigitized": "2004:12:17 14:26:00",
@@ -2494,8 +2444,6 @@
 			"FileName": "SharpVL-MR1.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.8 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2542,7 +2490,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-MG10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "",
@@ -2586,8 +2534,6 @@
 			"FileName": "SharpVL-MG10.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.7 kB",
-			"FileModifyDate": "2006:05:11 14:56:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2649,7 +2595,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-ME100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:05:01 09:09:00",
 			"DateTimeDigitized": "2004:05:01 09:09:00",
@@ -2681,8 +2627,6 @@
 			"FileName": "SharpVL-ME100.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.6 kB",
-			"FileModifyDate": "2006:05:11 14:56:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2730,7 +2674,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-MC500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:06:26 11:49:00",
@@ -2774,8 +2718,6 @@
 			"FileName": "SharpVL-MC500.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2839,7 +2781,7 @@
 		"img": "sampleImages/Sharp/SharpVL-DD10.jpg",
 		"exifJS": {
 			"ApertureValue": "4.5",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.4",
 			"DateTime": "2004:11:28 10:50:04",
@@ -2886,8 +2828,6 @@
 			"FileName": "SharpVL-DD10.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2953,7 +2893,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-AX1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2004:05:22 18:22:00",
@@ -2997,8 +2937,6 @@
 			"FileName": "SharpVL-AX1.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.0 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3060,7 +2998,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpVL-AD260.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2003:02:09 02:15:00",
 			"DateTimeDigitized": "2003:02:09 02:15:55",
@@ -3091,8 +3029,6 @@
 			"FileName": "SharpVL-AD260.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "2.8 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3139,7 +3075,7 @@
 		"img": "sampleImages/Sharp/SharpVE-CG40.jpg",
 		"exifJS": {
 			"ApertureValue": "5.5",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.5",
 			"DateTime": "2003:01:30 14:17:17",
@@ -3186,8 +3122,6 @@
 			"FileName": "SharpVE-CG40.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3254,7 +3188,7 @@
 		"img": "sampleImages/Sharp/SharpVE-CG30.jpg",
 		"exifJS": {
 			"ApertureValue": "2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.7",
 			"DateTime": ":  :     :  :",
@@ -3301,8 +3235,6 @@
 			"FileName": "SharpVE-CG30.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "18 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3369,7 +3301,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpV903SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2006:04:07 08:23:00",
 			"DateTimeDigitized": "2006:04:07 08:23:00",
@@ -3395,8 +3327,6 @@
 			"FileName": "SharpV903SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2006:05:08 14:34:26+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3437,7 +3367,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpV902SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:06:19 03:35:00",
 			"DateTimeDigitized": "2005:06:19 03:35:00",
@@ -3461,8 +3391,6 @@
 			"FileName": "SharpV902SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "14 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3500,7 +3428,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpV802SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:04:28 22:18:00",
 			"DateTimeDigitized": "2005:04:28 22:18:00",
@@ -3524,8 +3452,6 @@
 			"FileName": "SharpV802SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "9.3 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3563,7 +3489,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpV801SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:11:25 09:35:00",
 			"DateTimeDigitized": "2004:11:25 09:35:00",
@@ -3588,8 +3514,6 @@
 			"FileName": "SharpV801SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.8 kB",
-			"FileModifyDate": "2006:05:11 14:56:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3627,7 +3551,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpV703SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2007:07:15 11:32:00",
 			"DateTimeDigitized": "2007:07:15 11:32:00",
@@ -3652,8 +3576,6 @@
 			"FileName": "SharpV703SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2010:06:12 14:31:43+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3691,7 +3613,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpV601SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:09:19 18:24:00",
 			"DateTimeDigitized": "2005:09:19 18:24:00",
@@ -3715,8 +3637,6 @@
 			"FileName": "SharpV601SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "9.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3754,7 +3674,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpV401SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:06:22 09:22:00",
 			"DateTimeDigitized": "2004:06:22 09:22:00",
@@ -3780,8 +3700,6 @@
 			"FileName": "SharpV401SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "14 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3822,7 +3740,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpV301SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:08:12 11:40:00",
 			"DateTimeDigitized": "2004:08:12 11:40:00",
@@ -3848,8 +3766,6 @@
 			"FileName": "SharpV301SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "5.0 kB",
-			"FileModifyDate": "2006:05:11 14:56:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3890,7 +3806,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpTM200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:04:14:14:27:08",
 			"DateTimeDigitized": "2005:04:14:14:27:08",
@@ -3914,8 +3830,6 @@
 			"FileName": "SharpTM200.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "573 bytes",
-			"FileModifyDate": "2006:05:11 14:56:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3948,7 +3862,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpTM150.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:10:30:21:29:12",
 			"DateTimeDigitized": "2005:10:30:21:29:12",
@@ -3971,8 +3885,6 @@
 			"FileName": "SharpTM150.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "579 bytes",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4005,7 +3917,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpSX833.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:11:29 20:19:00",
 			"DateTimeDigitized": "2005:11:29 20:19:00",
@@ -4031,8 +3943,6 @@
 			"FileName": "SharpSX833.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4073,7 +3983,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpSX813.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:11:20 19:30:00",
 			"DateTimeDigitized": "2005:11:20 19:30:00",
@@ -4097,8 +4007,6 @@
 			"FileName": "SharpSX813.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4136,7 +4044,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpJ-SH53.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:07:13 18:38:00",
 			"DateTimeDigitized": "2004:07:13 18:38:00",
@@ -4162,8 +4070,6 @@
 			"FileName": "SharpJ-SH53.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2006:05:11 14:56:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4204,7 +4110,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpJ-SH52.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:12:19 13:32:00",
 			"DateTimeDigitized": "2004:12:19 13:32:00",
@@ -4229,8 +4135,6 @@
 			"FileName": "SharpJ-SH52.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "3.6 kB",
-			"FileModifyDate": "2006:05:11 14:56:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4268,7 +4172,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpJ-SH51.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:04:02 12:24:00",
 			"DateTimeDigitized": "2005:04:02 12:24:00",
@@ -4294,8 +4198,6 @@
 			"FileName": "SharpJ-SH51.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "6.2 kB",
-			"FileModifyDate": "2006:05:11 14:56:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4335,7 +4237,7 @@
 	{
 		"img": "sampleImages/Sharp/SharpJ-SH010.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:02:01 10:38:00",
 			"DateTimeDigitized": "2004:02:01 10:38:00",
@@ -4361,8 +4263,6 @@
 			"FileName": "SharpJ-SH010.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "5.5 kB",
-			"FileModifyDate": "2006:05:11 14:56:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4404,7 +4304,7 @@
 		"exifJS": {
 			"ApertureValue": "6",
 			"BrightnessValue": "0.9",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2010:04:06 16:17:00",
@@ -4446,8 +4346,6 @@
 			"FileName": "Sharp933SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "4.1 kB",
-			"FileModifyDate": "2010:06:10 14:02:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4513,7 +4411,7 @@
 	{
 		"img": "sampleImages/Sharp/Sharp912SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:09:16 13:03:00",
 			"DateTimeDigitized": "2009:09:16 13:03:00",
@@ -4539,8 +4437,6 @@
 			"FileName": "Sharp912SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "7.2 kB",
-			"FileModifyDate": "2010:06:10 14:02:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4580,7 +4476,7 @@
 	{
 		"img": "sampleImages/Sharp/Sharp910SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2008:09:12 14:32:00",
@@ -4621,8 +4517,6 @@
 			"FileName": "Sharp910SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "8.2 kB",
-			"FileModifyDate": "2010:06:10 14:02:49+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4680,7 +4574,7 @@
 	{
 		"img": "sampleImages/Sharp/Sharp816SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:11:08 17:31:00",
 			"DateTimeDigitized": "2009:11:08 17:31:00",
@@ -4706,8 +4600,6 @@
 			"FileName": "Sharp816SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "9.6 kB",
-			"FileModifyDate": "2010:06:10 14:02:49+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4747,7 +4639,7 @@
 	{
 		"img": "sampleImages/Sharp/Sharp705SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:07:06 07:43:00",
 			"DateTimeDigitized": "2009:07:06 07:43:00",
@@ -4774,8 +4666,6 @@
 			"FileName": "Sharp705SH.jpg",
 			"Directory": "sampleImages/Sharp",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2010:06:10 14:02:49+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:12+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

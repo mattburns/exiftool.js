@@ -3,7 +3,7 @@
 		"img": "sampleImages/Daisy/DaisyPhC70XX.jpg",
 		"exifJS": {
 			"ApertureValue": "NaN",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.08412353515625",
 			"Copyright": "Copyright 9,2001",
@@ -48,8 +48,6 @@
 			"FileName": "DaisyPhC70XX.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "7.8 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:54+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -113,7 +111,7 @@
 		"img": "sampleImages/Daisy/DaisyPhC60XX.jpg",
 		"exifJS": {
 			"ApertureValue": "1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "0.08319091796875",
 			"Copyright": "Copyright 9,2001",
@@ -156,8 +154,6 @@
 			"FileName": "DaisyPhC60XX.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "5.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:54+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -218,7 +214,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyPH8300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:05:23 13:17:54",
 			"DateTimeDigitized": "2005:04:23 16:35:29",
@@ -249,8 +245,6 @@
 			"FileName": "DaisyPH8300.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "36 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:54+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -313,8 +307,6 @@
 			"FileName": "DaisyMultimedia.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "552 bytes",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:54+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -343,7 +335,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyDM425Zr.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:08:14 03:52:26",
 			"DateTimeDigitized": "2004:08:14 03:52:26",
@@ -374,8 +366,6 @@
 			"FileName": "DaisyDM425Zr.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "30 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:54+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -421,7 +411,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyDM334SF.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2000:01:21 18:46:33",
 			"DateTimeDigitized": "2000:01:21 18:46:33",
@@ -452,8 +442,6 @@
 			"FileName": "DaisyDM334SF.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:54+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -499,7 +487,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyDM334.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2000:01:16 15:44:50",
 			"DateTimeDigitized": "2000:01:16 15:44:50",
@@ -530,8 +518,6 @@
 			"FileName": "DaisyDM334.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:54+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -577,7 +563,7 @@
 	{
 		"img": "sampleImages/Daisy/DaisyDM2100a.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:09:06 22:34:33",
 			"DateTimeDigitized": "2004:09:06 22:34:33",
@@ -608,8 +594,6 @@
 			"FileName": "DaisyDM2100a.jpg",
 			"Directory": "sampleImages/Daisy",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:54+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

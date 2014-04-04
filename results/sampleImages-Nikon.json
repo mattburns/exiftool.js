@@ -8,8 +8,6 @@
 			"FileName": "NikonSUPER_COOLSCAN9000ED.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "1131 bytes",
-			"FileModifyDate": "2011:02:28 16:35:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -69,7 +67,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonSUPER_COOLSCAN8000ED.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"DateTime": "2010.10.28 15.50.39",
 			"ExifIFDPointer": "150",
 			"ExifVersion": "0220",
@@ -84,8 +82,6 @@
 			"FileName": "NikonSUPER_COOLSCAN8000ED.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "471 bytes",
-			"FileModifyDate": "2011:02:28 16:35:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -113,7 +109,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonSUPER_COOLSCAN4000ED.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2007:04:18 08:01:53",
 			"ExifIFDPointer": "182",
@@ -136,8 +132,6 @@
 			"FileName": "NikonSUPER_COOLSCAN4000ED.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "7.0 kB",
-			"FileModifyDate": "2011:02:28 16:35:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -194,8 +188,6 @@
 			"FileName": "NikonLS-50.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "575 bytes",
-			"FileModifyDate": "2010:12:14 19:25:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rwxr-xr-x",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -224,7 +216,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE995.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2007:07:22 13:37:27",
@@ -266,8 +258,6 @@
 			"FileName": "NikonE995.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2007:10:29 13:15:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -349,7 +339,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE775.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3",
 			"DateTime": "2001:08:01 12:57:23",
@@ -391,8 +381,6 @@
 			"FileName": "NikonE775.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -470,7 +458,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE7600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -523,8 +511,6 @@
 			"FileName": "NikonE7600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -623,7 +609,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "1999:05:15 13:22:56",
@@ -665,8 +651,6 @@
 			"FileName": "NikonE700.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -735,7 +719,7 @@
 		"exifJS": {
 			"ApertureValue": "7",
 			"CFAPattern": "2,0,2,0,1,0,2,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.58",
 			"DateTime": "1998:01:01 00:00:00",
@@ -771,8 +755,6 @@
 			"FileName": "NikonE600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "8.3 kB",
-			"FileModifyDate": "2006:01:31 14:09:26+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -827,7 +809,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE5100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -880,8 +862,6 @@
 			"FileName": "NikonE5100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:31 14:09:26+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -981,7 +961,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE4200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -1034,8 +1014,6 @@
 			"FileName": "NikonE4200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:31 14:09:28+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1132,7 +1110,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE4100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -1185,8 +1163,6 @@
 			"FileName": "NikonE4100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:31 14:09:28+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1286,7 +1262,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonE2200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -1339,8 +1315,6 @@
 			"FileName": "NikonE2200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:31 14:09:28+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1438,7 +1412,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -1498,8 +1472,6 @@
 			"FileName": "NikonDf.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "71 kB",
-			"FileModifyDate": "2013:12:04 13:55:22+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1702,7 +1674,7 @@
 		"img": "sampleImages/Nikon/NikonD90.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,2,0,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Soft",
@@ -1761,8 +1733,6 @@
 			"FileName": "NikonD90.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2008:09:02 18:13:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2003,7 +1973,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -2063,8 +2033,6 @@
 			"FileName": "NikonD800E.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2012:05:15 18:07:40+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2295,7 +2263,7 @@
 		"exifJS": {
 			"Artist": "Manfred Moser",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -2367,8 +2335,6 @@
 			"FileName": "NikonD800.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2013:01:09 16:51:14+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2612,7 +2578,7 @@
 		"img": "sampleImages/Nikon/NikonD80.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,2,0,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Hard",
@@ -2669,8 +2635,6 @@
 			"FileName": "NikonD80.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2006:08:22 16:05:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2884,7 +2848,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -2944,8 +2908,6 @@
 			"FileName": "NikonD7100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2013:04:09 16:49:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3136,7 +3098,7 @@
 		"img": "sampleImages/Nikon/NikonD70s.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,2,1,1,0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -3192,8 +3154,6 @@
 			"FileName": "NikonD70s.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3342,7 +3302,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -3402,8 +3362,6 @@
 			"FileName": "NikonD7000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2010:11:16 17:30:20+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3660,7 +3618,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -3720,8 +3678,6 @@
 			"FileName": "NikonD700.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2008:07:03 17:41:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3913,7 +3869,7 @@
 		"img": "sampleImages/Nikon/NikonD70.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,2,1,1,0",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -3972,8 +3928,6 @@
 			"FileName": "NikonD70.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4126,7 +4080,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -4186,8 +4140,6 @@
 			"FileName": "NikonD610.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2013:10:29 15:47:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4382,7 +4334,7 @@
 		"exifJS": {
 			"ApertureValue": "5.655638",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -4441,8 +4393,6 @@
 			"FileName": "NikonD600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "55 kB",
-			"FileModifyDate": "2012:09:18 15:55:26+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4674,7 +4624,7 @@
 		"img": "sampleImages/Nikon/NikonD60.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,2,0,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -4731,8 +4681,6 @@
 			"FileName": "NikonD60.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2008:02:12 18:02:26+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4903,7 +4851,7 @@
 		"img": "sampleImages/Nikon/NikonD5300.jpg",
 		"exifJS": {
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -4964,8 +4912,6 @@
 			"FileName": "NikonD5300.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "68 kB",
-			"FileModifyDate": "2013:10:29 15:56:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5169,7 +5115,7 @@
 		"img": "sampleImages/Nikon/NikonD5200.jpg",
 		"exifJS": {
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -5228,8 +5174,6 @@
 			"FileName": "NikonD5200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2012:12:21 12:57:52+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5458,7 +5402,7 @@
 		"img": "sampleImages/Nikon/NikonD5100.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -5517,8 +5461,6 @@
 			"FileName": "NikonD5100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2011:04:05 14:04:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5737,7 +5679,7 @@
 		"img": "sampleImages/Nikon/NikonD5000.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,2,0,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"Contrast": "Normal",
@@ -5796,8 +5738,6 @@
 			"FileName": "NikonD5000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2009:04:15 13:37:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6010,7 +5950,7 @@
 		"img": "sampleImages/Nikon/NikonD50.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,2,1,1,0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -6065,8 +6005,6 @@
 			"FileName": "NikonD50.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6216,7 +6154,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -6276,8 +6214,6 @@
 			"FileName": "NikonD4S.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "81 kB",
-			"FileModifyDate": "2014:03:26 18:18:09+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6468,7 +6404,7 @@
 		"img": "sampleImages/Nikon/NikonD40X.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,2,0,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Hard",
@@ -6525,8 +6461,6 @@
 			"FileName": "NikonD40X.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2007:08:23 20:18:35+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6708,7 +6642,7 @@
 		"img": "sampleImages/Nikon/NikonD40.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,2,1,1,0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Soft",
@@ -6765,8 +6699,6 @@
 			"FileName": "NikonD40.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2006:11:17 18:27:26+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -6949,7 +6881,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -7009,8 +6941,6 @@
 			"FileName": "NikonD4.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "128 kB",
-			"FileModifyDate": "2012:03:08 15:33:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7227,7 +7157,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -7289,8 +7219,6 @@
 			"FileName": "NikonD3X.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2008:12:04 18:57:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7545,7 +7473,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -7605,8 +7533,6 @@
 			"FileName": "NikonD3S.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2010:06:15 17:44:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -7861,7 +7787,7 @@
 		"img": "sampleImages/Nikon/NikonD3300.jpg",
 		"exifJS": {
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -7920,8 +7846,6 @@
 			"FileName": "NikonD3300.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2014:02:06 14:20:27+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8110,7 +8034,7 @@
 		"img": "sampleImages/Nikon/NikonD3200.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -8169,8 +8093,6 @@
 			"FileName": "NikonD3200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2012:04:23 18:47:04+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8376,7 +8298,7 @@
 		"img": "sampleImages/Nikon/NikonD3100.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,2,0,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -8434,8 +8356,6 @@
 			"FileName": "NikonD3100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2010:08:19 13:47:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8626,7 +8546,7 @@
 		"exifJS": {
 			"Artist": "",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -8686,8 +8606,6 @@
 			"FileName": "NikonD300S.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2009:11:16 18:29:54+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -8939,7 +8857,7 @@
 		"img": "sampleImages/Nikon/NikonD3000.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,2,0,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -8996,8 +8914,6 @@
 			"FileName": "NikonD3000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2009:08:14 15:48:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9195,7 +9111,7 @@
 		"img": "sampleImages/Nikon/NikonD300.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -9252,8 +9168,6 @@
 			"FileName": "NikonD300.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2007:09:12 13:32:00+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9500,7 +9414,7 @@
 		"img": "sampleImages/Nikon/NikonD3.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -9558,8 +9472,6 @@
 			"FileName": "NikonD3.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2008:03:11 17:59:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -9806,7 +9718,7 @@
 		"img": "sampleImages/Nikon/NikonD2Xs.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Hard",
@@ -9868,8 +9780,6 @@
 			"FileName": "NikonD2Xs.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2006:07:27 14:18:40+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10035,7 +9945,7 @@
 		"img": "sampleImages/Nikon/NikonD2X.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -10094,8 +10004,6 @@
 			"FileName": "NikonD2X.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10251,7 +10159,7 @@
 		"img": "sampleImages/Nikon/NikonD2Hs.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,2,0,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -10310,8 +10218,6 @@
 			"FileName": "NikonD2Hs.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10461,7 +10367,7 @@
 		"img": "sampleImages/Nikon/NikonD2H.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,2,0,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -10518,8 +10424,6 @@
 			"FileName": "NikonD2H.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10664,7 +10568,7 @@
 		"img": "sampleImages/Nikon/NikonD200.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,0,2,1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -10722,8 +10626,6 @@
 			"FileName": "NikonD200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2007:03:16 17:36:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -10883,7 +10785,7 @@
 		"img": "sampleImages/Nikon/NikonD1X.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,2,1,1,0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2001:06:13 11:58:14",
@@ -10927,8 +10829,6 @@
 			"FileName": "NikonD1X.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "30 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11025,7 +10925,7 @@
 		"img": "sampleImages/Nikon/NikonD1H.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,2,1,1,0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2001:10:27 03:52:06",
@@ -11069,8 +10969,6 @@
 			"FileName": "NikonD1H.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "29 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11167,7 +11065,7 @@
 		"img": "sampleImages/Nikon/NikonD100.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,1,0,2,1",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -11223,8 +11121,6 @@
 			"FileName": "NikonD100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "36 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11371,7 +11267,7 @@
 		"img": "sampleImages/Nikon/NikonD1.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,2,1,1,0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:12:16 08:25:45",
@@ -11413,8 +11309,6 @@
 			"FileName": "NikonD1.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "6.6 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11502,7 +11396,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixSQ.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -11555,8 +11449,6 @@
 			"FileName": "NikonCoolpixSQ.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11649,7 +11541,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -11716,8 +11608,6 @@
 			"FileName": "NikonCoolpixS9500.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "63 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11839,7 +11729,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9400.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -11891,8 +11781,6 @@
 			"FileName": "NikonCoolpixS9400.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "51 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -11998,7 +11886,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -12058,8 +11946,6 @@
 			"FileName": "NikonCoolpixS9300.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2012:03:14 12:31:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12177,7 +12063,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -12230,8 +12116,6 @@
 			"FileName": "NikonCoolpixS9200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2012:05:15 14:33:48+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12340,7 +12224,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -12392,8 +12276,6 @@
 			"FileName": "NikonCoolpixS9100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2011:02:09 13:19:54+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12498,7 +12380,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS9.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -12551,8 +12433,6 @@
 			"FileName": "NikonCoolpixS9.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2006:11:30 12:47:02+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12648,7 +12528,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS8200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -12700,8 +12580,6 @@
 			"FileName": "NikonCoolpixS8200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2011:09:21 13:46:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12805,7 +12683,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS8100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -12857,8 +12735,6 @@
 			"FileName": "NikonCoolpixS8100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "52 kB",
-			"FileModifyDate": "2010:11:02 17:29:56+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -12960,7 +12836,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS800c.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -13014,8 +12890,6 @@
 			"FileName": "NikonCoolpixS800c.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "55 kB",
-			"FileModifyDate": "2012:08:23 13:49:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13122,7 +12996,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS8000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -13175,8 +13049,6 @@
 			"FileName": "NikonCoolpixS8000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "54 kB",
-			"FileModifyDate": "2010:03:03 13:45:08+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13276,7 +13148,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS80.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -13329,8 +13201,6 @@
 			"FileName": "NikonCoolpixS80.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2010:10:27 17:09:48+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13432,7 +13302,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS8.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -13485,8 +13355,6 @@
 			"FileName": "NikonCoolpixS8.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:12:18 18:53:50+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13585,7 +13453,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS7c.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -13638,8 +13506,6 @@
 			"FileName": "NikonCoolpixS7c.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:10:23 15:43:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13738,7 +13604,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS710.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -13789,8 +13655,6 @@
 			"FileName": "NikonCoolpixS710.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "36 kB",
-			"FileModifyDate": "2008:10:07 18:11:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -13887,7 +13751,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -13940,8 +13804,6 @@
 			"FileName": "NikonCoolpixS700.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2008:04:03 15:42:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14042,7 +13904,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS70.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -14095,8 +13957,6 @@
 			"FileName": "NikonCoolpixS70.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2009:10:14 19:39:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14198,7 +14058,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS7.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -14251,8 +14111,6 @@
 			"FileName": "NikonCoolpixS7.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2009:06:11 14:42:36+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14352,7 +14210,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -14405,8 +14263,6 @@
 			"FileName": "NikonCoolpixS6800.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2014:04:04 13:08:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14511,7 +14367,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -14564,8 +14420,6 @@
 			"FileName": "NikonCoolpixS6700.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2014:03:25 18:57:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14669,7 +14523,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -14723,8 +14577,6 @@
 			"FileName": "NikonCoolpixS6600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "74 kB",
-			"FileModifyDate": "2013:09:25 13:43:40+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14831,7 +14683,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -14884,8 +14736,6 @@
 			"FileName": "NikonCoolpixS6500.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2013:03:06 15:51:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -14988,7 +14838,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6400.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -15040,8 +14890,6 @@
 			"FileName": "NikonCoolpixS6400.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2012:08:23 13:49:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15145,7 +14993,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS640.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -15198,8 +15046,6 @@
 			"FileName": "NikonCoolpixS640.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2009:10:14 19:39:46+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15299,7 +15145,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -15352,8 +15198,6 @@
 			"FileName": "NikonCoolpixS6300.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2012:03:14 12:31:08+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15462,7 +15306,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS630.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -15515,8 +15359,6 @@
 			"FileName": "NikonCoolpixS630.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2009:03:09 16:59:34+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15618,7 +15460,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -15670,8 +15512,6 @@
 			"FileName": "NikonCoolpixS6200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2011:09:21 13:46:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15771,7 +15611,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS620.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -15824,8 +15664,6 @@
 			"FileName": "NikonCoolpixS620.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2009:10:16 15:18:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -15925,7 +15763,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6150.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2011:06:30 18:54:10",
@@ -15975,8 +15813,6 @@
 			"FileName": "NikonCoolpixS6150.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "44 kB",
-			"FileModifyDate": "2011:09:21 13:46:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16082,7 +15918,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS610c.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -16135,8 +15971,6 @@
 			"FileName": "NikonCoolpixS610c.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2008:11:10 15:45:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16236,7 +16070,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2011:01:06 15:11:53",
@@ -16286,8 +16120,6 @@
 			"FileName": "NikonCoolpixS6100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "44 kB",
-			"FileModifyDate": "2011:02:09 13:19:54+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16384,7 +16216,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS610.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -16437,8 +16269,6 @@
 			"FileName": "NikonCoolpixS610.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2008:10:14 17:59:25+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16538,7 +16368,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -16592,8 +16422,6 @@
 			"FileName": "NikonCoolpixS6000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2010:07:12 19:35:02+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16696,7 +16524,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -16749,8 +16577,6 @@
 			"FileName": "NikonCoolpixS600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2008:04:14 16:52:40+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -16849,7 +16675,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS60.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -16902,8 +16728,6 @@
 			"FileName": "NikonCoolpixS60.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2008:10:06 15:11:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17005,7 +16829,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS6.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -17058,8 +16882,6 @@
 			"FileName": "NikonCoolpixS6.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:03:20 14:53:06+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17158,7 +16980,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS570.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -17211,8 +17033,6 @@
 			"FileName": "NikonCoolpixS570.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2009:10:14 19:39:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17311,7 +17131,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS560.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -17364,8 +17184,6 @@
 			"FileName": "NikonCoolpixS560.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2008:11:10 15:45:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17467,7 +17285,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS550.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -17520,8 +17338,6 @@
 			"FileName": "NikonCoolpixS550.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2008:06:16 17:34:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17624,7 +17440,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS52c.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -17677,8 +17493,6 @@
 			"FileName": "NikonCoolpixS52c.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2008:08:18 13:19:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17778,7 +17592,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS5200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -17830,8 +17644,6 @@
 			"FileName": "NikonCoolpixS5200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "49 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -17937,7 +17749,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS520.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -17990,8 +17802,6 @@
 			"FileName": "NikonCoolpixS520.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2009:06:11 14:48:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18092,7 +17902,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS52.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -18145,8 +17955,6 @@
 			"FileName": "NikonCoolpixS52.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2008:07:28 12:43:12+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18245,7 +18053,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS51c.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -18298,8 +18106,6 @@
 			"FileName": "NikonCoolpixS51c.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2007:10:03 16:52:29+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18398,7 +18204,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS5100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -18451,8 +18257,6 @@
 			"FileName": "NikonCoolpixS5100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2010:11:05 18:32:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18552,7 +18356,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS510.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -18605,8 +18409,6 @@
 			"FileName": "NikonCoolpixS510.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2008:04:03 15:46:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18707,7 +18509,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS51.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -18760,8 +18562,6 @@
 			"FileName": "NikonCoolpixS51.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2007:10:31 15:37:24+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -18860,7 +18660,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS50c.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -18913,8 +18713,6 @@
 			"FileName": "NikonCoolpixS50c.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2007:05:18 16:14:59+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19014,7 +18812,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -19067,8 +18865,6 @@
 			"FileName": "NikonCoolpixS500.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2007:04:17 13:28:24+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19167,7 +18963,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS50.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -19220,8 +19016,6 @@
 			"FileName": "NikonCoolpixS50.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2007:05:15 14:16:00+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19320,7 +19114,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS5.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -19373,8 +19167,6 @@
 			"FileName": "NikonCoolpixS5.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:05:25 14:38:18+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19473,7 +19265,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4400.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -19525,8 +19317,6 @@
 			"FileName": "NikonCoolpixS4400.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2013:05:24 13:57:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19629,7 +19419,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2011:12:12 19:58:56",
 			"DateTimeDigitized": "2012:12:12 18:41:23",
@@ -19668,8 +19458,6 @@
 			"FileName": "NikonCoolpixS4300.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "10.0 kB",
-			"FileModifyDate": "2012:03:14 12:31:08+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19765,7 +19553,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"CustomRendered": "Normal process",
@@ -19816,8 +19604,6 @@
 			"FileName": "NikonCoolpixS4200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2012:05:30 12:34:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -19916,7 +19702,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4150.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2011:06:29 16:29:05",
@@ -19966,8 +19752,6 @@
 			"FileName": "NikonCoolpixS4150.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "46 kB",
-			"FileModifyDate": "2011:09:21 13:46:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20073,7 +19857,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2010:12:23 09:46:59",
@@ -20123,8 +19907,6 @@
 			"FileName": "NikonCoolpixS4100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "44 kB",
-			"FileModifyDate": "2011:02:09 13:19:54+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20221,7 +20003,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -20274,8 +20056,6 @@
 			"FileName": "NikonCoolpixS4000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2010:05:10 13:46:36+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20374,7 +20154,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS4.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -20427,8 +20207,6 @@
 			"FileName": "NikonCoolpixS4.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20527,7 +20305,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -20580,8 +20358,6 @@
 			"FileName": "NikonCoolpixS3600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2014:03:25 18:57:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20685,7 +20461,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -20737,8 +20513,6 @@
 			"FileName": "NikonCoolpixS3500.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2013:05:24 13:57:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20840,7 +20614,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -20892,8 +20666,6 @@
 			"FileName": "NikonCoolpixS3300.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "49 kB",
-			"FileModifyDate": "2012:03:14 12:31:06+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -20995,7 +20767,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -21048,8 +20820,6 @@
 			"FileName": "NikonCoolpixS3200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2013:02:06 14:47:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -21148,7 +20918,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2010:12:22 11:06:56",
@@ -21198,8 +20968,6 @@
 			"FileName": "NikonCoolpixS3100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "45 kB",
-			"FileModifyDate": "2011:02:09 13:19:52+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -21297,7 +21065,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS31.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -21349,8 +21117,6 @@
 			"FileName": "NikonCoolpixS31.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "46 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -21454,7 +21220,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -21507,8 +21273,6 @@
 			"FileName": "NikonCoolpixS3000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2010:06:07 17:39:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -21607,7 +21371,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS30.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -21660,8 +21424,6 @@
 			"FileName": "NikonCoolpixS30.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2012:03:14 12:31:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -21762,7 +21524,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -21815,8 +21577,6 @@
 			"FileName": "NikonCoolpixS3.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -21915,7 +21675,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -21969,8 +21729,6 @@
 			"FileName": "NikonCoolpixS2800.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "74 kB",
-			"FileModifyDate": "2014:02:03 15:42:39+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -22074,7 +21832,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -22126,8 +21884,6 @@
 			"FileName": "NikonCoolpixS2700.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -22228,7 +21984,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"CustomRendered": "Normal process",
@@ -22279,8 +22035,6 @@
 			"FileName": "NikonCoolpixS2600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2012:03:14 12:36:26+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -22378,7 +22132,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -22430,8 +22184,6 @@
 			"FileName": "NikonCoolpixS2500.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "44 kB",
-			"FileModifyDate": "2011:02:09 13:19:52+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -22529,7 +22281,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS230.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -22582,8 +22334,6 @@
 			"FileName": "NikonCoolpixS230.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2009:03:09 16:59:34+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -22684,7 +22434,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS225.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -22737,8 +22487,6 @@
 			"FileName": "NikonCoolpixS225.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2010:06:08 16:46:52+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -22839,7 +22587,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS220.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -22892,8 +22640,6 @@
 			"FileName": "NikonCoolpixS220.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2009:10:16 15:38:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -22995,7 +22741,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS210.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -23048,8 +22794,6 @@
 			"FileName": "NikonCoolpixS210.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2008:06:16 17:00:06+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -23150,7 +22894,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS203.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -23203,8 +22947,6 @@
 			"FileName": "NikonCoolpixS203.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2010:09:22 13:04:24+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -23305,7 +23047,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -23358,8 +23100,6 @@
 			"FileName": "NikonCoolpixS200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2007:04:17 13:31:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -23458,7 +23198,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -23511,8 +23251,6 @@
 			"FileName": "NikonCoolpixS2.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:07:10 16:34:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -23611,7 +23349,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS1200pj.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -23663,8 +23401,6 @@
 			"FileName": "NikonCoolpixS1200pj.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "36 kB",
-			"FileModifyDate": "2011:09:21 13:46:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -23771,7 +23507,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS1100pj.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -23824,8 +23560,6 @@
 			"FileName": "NikonCoolpixS1100pj.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2010:10:04 14:01:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -23927,7 +23661,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS1000pj.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -23980,8 +23714,6 @@
 			"FileName": "NikonCoolpixS1000pj.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2009:09:28 20:24:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -24083,7 +23815,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -24136,8 +23868,6 @@
 			"FileName": "NikonCoolpixS100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "62 kB",
-			"FileModifyDate": "2011:10:05 15:39:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -24244,7 +23974,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -24297,8 +24027,6 @@
 			"FileName": "NikonCoolpixS10.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2006:10:23 15:43:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -24397,7 +24125,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -24450,8 +24178,6 @@
 			"FileName": "NikonCoolpixS1.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -24550,7 +24276,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS02.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -24604,8 +24330,6 @@
 			"FileName": "NikonCoolpixS02.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "77 kB",
-			"FileModifyDate": "2013:10:04 18:23:30+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -24712,7 +24436,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixS01.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -24764,8 +24488,6 @@
 			"FileName": "NikonCoolpixS01.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "44 kB",
-			"FileModifyDate": "2012:08:23 13:49:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -24863,7 +24585,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP90.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -24916,8 +24638,6 @@
 			"FileName": "NikonCoolpixP90.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2009:04:08 20:44:20+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -25022,7 +24742,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP80.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -25075,8 +24795,6 @@
 			"FileName": "NikonCoolpixP80.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2008:05:26 18:51:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -25180,7 +24898,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP7800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -25248,8 +24966,6 @@
 			"FileName": "NikonCoolpixP7800.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "26 kB",
-			"FileModifyDate": "2013:10:02 13:37:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -25413,7 +25129,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP7700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -25480,8 +25196,6 @@
 			"FileName": "NikonCoolpixP7700.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "33 kB",
-			"FileModifyDate": "2012:08:23 13:52:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -25640,7 +25354,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP7100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -25693,8 +25407,6 @@
 			"FileName": "NikonCoolpixP7100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "62 kB",
-			"FileModifyDate": "2011:08:26 14:37:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -25831,7 +25543,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP7000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -25884,8 +25596,6 @@
 			"FileName": "NikonCoolpixP7000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2010:09:09 13:22:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -26015,7 +25725,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP6000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -26082,8 +25792,6 @@
 			"FileName": "NikonCoolpixP6000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2008:10:01 12:39:05+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -26222,7 +25930,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -26276,8 +25984,6 @@
 			"FileName": "NikonCoolpixP600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "26 kB",
-			"FileModifyDate": "2014:03:26 18:15:22+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -26427,7 +26133,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP60.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -26478,8 +26184,6 @@
 			"FileName": "NikonCoolpixP60.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2008:04:23 19:33:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -26578,7 +26282,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP520.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -26633,8 +26337,6 @@
 			"FileName": "NikonCoolpixP520.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "40 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -26797,7 +26499,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP5100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -26850,8 +26552,6 @@
 			"FileName": "NikonCoolpixP5100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2007:10:31 15:35:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -26966,7 +26666,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP510.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -27033,8 +26733,6 @@
 			"FileName": "NikonCoolpixP510.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "54 kB",
-			"FileModifyDate": "2012:03:14 12:31:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -27183,7 +26881,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP5000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -27236,8 +26934,6 @@
 			"FileName": "NikonCoolpixP5000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2007:03:30 13:33:02+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -27350,7 +27046,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -27403,8 +27099,6 @@
 			"FileName": "NikonCoolpixP500.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "62 kB",
-			"FileModifyDate": "2011:02:09 13:19:52+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -27515,7 +27209,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP50.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -27568,8 +27262,6 @@
 			"FileName": "NikonCoolpixP50.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2008:04:03 15:47:36+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -27673,7 +27365,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP4.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -27726,8 +27418,6 @@
 			"FileName": "NikonCoolpixP4.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:04:20 17:55:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -27824,7 +27514,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP340.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -27878,8 +27568,6 @@
 			"FileName": "NikonCoolpixP340.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "26 kB",
-			"FileModifyDate": "2014:03:25 18:57:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -28029,7 +27717,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP330.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -28084,8 +27772,6 @@
 			"FileName": "NikonCoolpixP330.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "37 kB",
-			"FileModifyDate": "2013:03:20 12:22:34+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -28233,7 +27919,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP310.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -28285,8 +27971,6 @@
 			"FileName": "NikonCoolpixP310.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2012:03:14 12:27:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -28422,7 +28106,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -28475,8 +28159,6 @@
 			"FileName": "NikonCoolpixP300.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "54 kB",
-			"FileModifyDate": "2011:02:09 13:19:52+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -28580,7 +28262,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -28633,8 +28315,6 @@
 			"FileName": "NikonCoolpixP3.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:03:20 14:53:06+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -28731,7 +28411,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -28784,8 +28464,6 @@
 			"FileName": "NikonCoolpixP2.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -28884,7 +28562,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -28937,8 +28615,6 @@
 			"FileName": "NikonCoolpixP100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2010:03:30 14:26:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -29043,7 +28719,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixP1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -29096,8 +28772,6 @@
 			"FileName": "NikonCoolpixP1.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -29196,7 +28870,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL830.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -29249,8 +28923,6 @@
 			"FileName": "NikonCoolpixL830.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "62 kB",
-			"FileModifyDate": "2014:03:25 18:46:28+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -29353,7 +29025,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL820.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -29406,8 +29078,6 @@
 			"FileName": "NikonCoolpixL820.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "62 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -29516,7 +29186,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL810.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -29568,8 +29238,6 @@
 			"FileName": "NikonCoolpixL810.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2012:03:14 12:31:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -29668,7 +29336,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL620.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -29721,8 +29389,6 @@
 			"FileName": "NikonCoolpixL620.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "74 kB",
-			"FileModifyDate": "2013:09:25 13:43:40+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -29828,7 +29494,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL610.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -29880,8 +29546,6 @@
 			"FileName": "NikonCoolpixL610.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2012:08:23 13:52:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -29987,7 +29651,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL6.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -30040,8 +29704,6 @@
 			"FileName": "NikonCoolpixL6.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2007:03:09 14:30:25+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -30140,7 +29802,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL5.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -30193,8 +29855,6 @@
 			"FileName": "NikonCoolpixL5.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:10:23 15:43:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -30292,7 +29952,7 @@
 		"img": "sampleImages/Nikon/NikonCoolpixL4.jpg",
 		"exifJS": {
 			"ApertureValue": "2.97",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Copyright": "Copyright 2006",
@@ -30334,8 +29994,6 @@
 			"FileName": "NikonCoolpixL4.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2006:05:05 19:47:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -30431,7 +30089,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL330.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -30485,8 +30143,6 @@
 			"FileName": "NikonCoolpixL330.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "72 kB",
-			"FileModifyDate": "2014:01:31 13:26:22+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -30585,7 +30241,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL320.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -30638,8 +30294,6 @@
 			"FileName": "NikonCoolpixL320.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2013:05:14 15:57:18+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -30737,7 +30391,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL310.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -30790,8 +30444,6 @@
 			"FileName": "NikonCoolpixL310.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "62 kB",
-			"FileModifyDate": "2012:06:20 13:57:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -30892,7 +30544,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL30.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -30945,8 +30597,6 @@
 			"FileName": "NikonCoolpixL30.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2014:02:12 15:22:21+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -31047,7 +30697,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -31100,8 +30750,6 @@
 			"FileName": "NikonCoolpixL3.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:05:25 14:36:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -31200,7 +30848,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL28.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -31252,8 +30900,6 @@
 			"FileName": "NikonCoolpixL28.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "48 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -31357,7 +31003,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL27.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -31410,8 +31056,6 @@
 			"FileName": "NikonCoolpixL27.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -31509,7 +31153,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL26.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -31561,8 +31205,6 @@
 			"FileName": "NikonCoolpixL26.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "42 kB",
-			"FileModifyDate": "2012:03:14 12:31:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -31661,7 +31303,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL25.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -31714,8 +31356,6 @@
 			"FileName": "NikonCoolpixL25.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2012:12:04 17:34:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -31812,7 +31452,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL24.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -31865,8 +31505,6 @@
 			"FileName": "NikonCoolpixL24.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2011:06:07 16:51:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -31967,7 +31605,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL23.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -32019,8 +31657,6 @@
 			"FileName": "NikonCoolpixL23.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2011:02:09 13:19:52+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -32118,7 +31754,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL22.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -32171,8 +31807,6 @@
 			"FileName": "NikonCoolpixL22.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2010:06:08 16:36:26+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -32273,7 +31907,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL21.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -32326,8 +31960,6 @@
 			"FileName": "NikonCoolpixL21.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2010:06:08 16:44:20+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -32428,7 +32060,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL20.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -32481,8 +32113,6 @@
 			"FileName": "NikonCoolpixL20.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "128 kB",
-			"FileModifyDate": "2009:10:14 19:37:08+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -32583,7 +32213,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -32636,8 +32266,6 @@
 			"FileName": "NikonCoolpixL2.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:05:05 19:47:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -32737,7 +32365,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL19.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -32790,8 +32418,6 @@
 			"FileName": "NikonCoolpixL19.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "128 kB",
-			"FileModifyDate": "2009:10:16 15:39:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -32892,7 +32518,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL18.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -32945,8 +32571,6 @@
 			"FileName": "NikonCoolpixL18.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "128 kB",
-			"FileModifyDate": "2008:04:23 16:18:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -33046,7 +32670,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL16.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -33099,8 +32723,6 @@
 			"FileName": "NikonCoolpixL16.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2009:01:12 15:18:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -33201,7 +32823,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL15.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -33254,8 +32876,6 @@
 			"FileName": "NikonCoolpixL15.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2008:04:03 15:42:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -33354,7 +32974,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL14.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -33407,8 +33027,6 @@
 			"FileName": "NikonCoolpixL14.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "38 kB",
-			"FileModifyDate": "2008:04:03 15:46:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -33507,7 +33125,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL120.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -33559,8 +33177,6 @@
 			"FileName": "NikonCoolpixL120.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "52 kB",
-			"FileModifyDate": "2011:02:09 13:19:50+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -33659,7 +33275,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL12.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -33712,8 +33328,6 @@
 			"FileName": "NikonCoolpixL12.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2007:05:15 15:04:07+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -33813,7 +33427,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL110.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -33866,8 +33480,6 @@
 			"FileName": "NikonCoolpixL110.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2010:06:08 16:35:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -33969,7 +33581,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL11.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -34024,8 +33636,6 @@
 			"FileName": "NikonCoolpixL11.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2007:05:15 15:04:07+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -34123,7 +33733,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -34176,8 +33786,6 @@
 			"FileName": "NikonCoolpixL100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "39 kB",
-			"FileModifyDate": "2009:04:14 20:07:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -34278,7 +33886,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -34333,8 +33941,6 @@
 			"FileName": "NikonCoolpixL10.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "43 kB",
-			"FileModifyDate": "2007:05:15 15:04:07+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -34432,7 +34038,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixL1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -34485,8 +34091,6 @@
 			"FileName": "NikonCoolpixL1.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -34582,7 +34186,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixAW110.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -34649,8 +34253,6 @@
 			"FileName": "NikonCoolpixAW110.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "63 kB",
-			"FileModifyDate": "2013:02:13 13:24:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -34778,7 +34380,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixAW100s.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -34845,8 +34447,6 @@
 			"FileName": "NikonCoolpixAW100s.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "63 kB",
-			"FileModifyDate": "2013:02:06 14:56:40+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -34972,7 +34572,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpixAW100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -35031,8 +34631,6 @@
 			"FileName": "NikonCoolpixAW100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "59 kB",
-			"FileModifyDate": "2011:09:21 14:00:14+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -35158,7 +34756,7 @@
 		"img": "sampleImages/Nikon/NikonCoolpixA.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -35217,8 +34815,6 @@
 			"FileName": "NikonCoolpixA.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2013:03:20 12:21:16+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -35378,7 +34974,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix995.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "0000:00:00 00:00:00",
@@ -35420,8 +35016,6 @@
 			"FileName": "NikonCoolpix995.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -35503,7 +35097,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix990.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2000:02:28 23:31:54",
@@ -35545,8 +35139,6 @@
 			"FileName": "NikonCoolpix990.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "14 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -35620,7 +35212,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix950.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "1999:06:04 22:44:51",
@@ -35662,8 +35254,6 @@
 			"FileName": "NikonCoolpix950.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -35729,7 +35319,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix900.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "0000:00:00 00:00:00",
@@ -35765,8 +35355,6 @@
 			"FileName": "NikonCoolpix900.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "5.2 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -35820,7 +35408,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix885.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2001:09:05 15:31:57",
@@ -35862,8 +35450,6 @@
 			"FileName": "NikonCoolpix885.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -35945,7 +35531,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix8800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "8",
 			"Contrast": "Normal",
@@ -35998,8 +35584,6 @@
 			"FileName": "NikonCoolpix8800.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -36109,7 +35693,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix880.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "0000:00:00 00:00:00",
@@ -36151,8 +35735,6 @@
 			"FileName": "NikonCoolpix880.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "14 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -36228,7 +35810,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix8700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -36281,8 +35863,6 @@
 			"FileName": "NikonCoolpix8700.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -36377,7 +35957,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix8400.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "8",
 			"Contrast": "Normal",
@@ -36430,8 +36010,6 @@
 			"FileName": "NikonCoolpix8400.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -36541,7 +36119,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "1999:09:25 15:09:37",
@@ -36583,8 +36161,6 @@
 			"FileName": "NikonCoolpix800.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -36651,7 +36227,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix7900.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -36704,8 +36280,6 @@
 			"FileName": "NikonCoolpix7900.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -36804,7 +36378,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5900.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -36857,8 +36431,6 @@
 			"FileName": "NikonCoolpix5900.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -36957,7 +36529,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"Contrast": "Normal",
@@ -37010,8 +36582,6 @@
 			"FileName": "NikonCoolpix5700.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -37104,7 +36674,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -37157,8 +36727,6 @@
 			"FileName": "NikonCoolpix5600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -37257,7 +36825,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5400.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -37309,8 +36877,6 @@
 			"FileName": "NikonCoolpix5400.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "6.9 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -37404,7 +36970,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -37457,8 +37023,6 @@
 			"FileName": "NikonCoolpix5200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -37554,7 +37118,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix5000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2001:12:05 19:27:58",
@@ -37596,8 +37160,6 @@
 			"FileName": "NikonCoolpix5000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -37679,7 +37241,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix4800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -37732,8 +37294,6 @@
 			"FileName": "NikonCoolpix4800.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -37832,7 +37392,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix4600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -37885,8 +37445,6 @@
 			"FileName": "NikonCoolpix4600.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -37985,7 +37543,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix4500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"Contrast": "Normal",
@@ -38038,8 +37596,6 @@
 			"FileName": "NikonCoolpix4500.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -38132,7 +37688,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix4300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -38185,8 +37741,6 @@
 			"FileName": "NikonCoolpix4300.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -38279,7 +37833,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix3700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -38332,8 +37886,6 @@
 			"FileName": "NikonCoolpix3700.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -38428,7 +37980,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix3500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -38481,8 +38033,6 @@
 			"FileName": "NikonCoolpix3500.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -38575,7 +38125,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix3200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -38628,8 +38178,6 @@
 			"FileName": "NikonCoolpix3200.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -38724,7 +38272,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix3100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -38777,8 +38325,6 @@
 			"FileName": "NikonCoolpix3100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -38871,7 +38417,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix2500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2002:03:14 14:36:41",
@@ -38913,8 +38459,6 @@
 			"FileName": "NikonCoolpix2500.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -38996,7 +38540,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix2100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -39049,8 +38593,6 @@
 			"FileName": "NikonCoolpix2100.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -39143,7 +38685,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCoolpix2000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"Contrast": "Normal",
@@ -39195,8 +38737,6 @@
 			"FileName": "NikonCoolpix2000.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "26 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -39281,7 +38821,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCOOLSCAN_VED.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2007.11.15 00.39.56",
 			"ExifIFDPointer": "216",
@@ -39305,8 +38845,6 @@
 			"FileName": "NikonCOOLSCAN_VED.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2011:02:28 16:35:58+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -39372,7 +38910,7 @@
 	{
 		"img": "sampleImages/Nikon/NikonCOOLSCAN_IV_ED.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010.10.15 10.53.51",
 			"ExifIFDPointer": "206",
@@ -39395,8 +38933,6 @@
 			"FileName": "NikonCOOLSCAN_IV_ED.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2010:12:13 17:36:14+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -39460,7 +38996,7 @@
 		"img": "sampleImages/Nikon/Nikon1V2.jpg",
 		"exifJS": {
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -39518,8 +39054,6 @@
 			"FileName": "Nikon1V2.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "68 kB",
-			"FileModifyDate": "2012:11:15 18:53:04+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -39691,7 +39225,7 @@
 		"img": "sampleImages/Nikon/Nikon1V1.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -39751,8 +39285,6 @@
 			"FileName": "Nikon1V1.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "30 kB",
-			"FileModifyDate": "2011:09:21 13:40:02+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -39909,7 +39441,7 @@
 		"img": "sampleImages/Nikon/Nikon1S1.jpg",
 		"exifJS": {
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -39967,8 +39499,6 @@
 			"FileName": "Nikon1S1.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2013:03:22 14:17:16+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -40133,7 +39663,7 @@
 		"img": "sampleImages/Nikon/Nikon1J3.jpg",
 		"exifJS": {
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -40191,8 +39721,6 @@
 			"FileName": "Nikon1J3.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "70 kB",
-			"FileModifyDate": "2013:03:22 14:17:16+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -40357,7 +39885,7 @@
 		"img": "sampleImages/Nikon/Nikon1J2.jpg",
 		"exifJS": {
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -40415,8 +39943,6 @@
 			"FileName": "Nikon1J2.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "64 kB",
-			"FileModifyDate": "2012:08:21 17:41:26+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -40584,7 +40110,7 @@
 		"img": "sampleImages/Nikon/Nikon1J1.jpg",
 		"exifJS": {
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -40644,8 +40170,6 @@
 			"FileName": "Nikon1J1.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "31 kB",
-			"FileModifyDate": "2011:09:21 13:40:02+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -40802,7 +40326,7 @@
 		"img": "sampleImages/Nikon/Nikon1AW1.jpg",
 		"exifJS": {
 			"CFAPattern": "2,0,2,0,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -40863,8 +40387,6 @@
 			"FileName": "Nikon1AW1.jpg",
 			"Directory": "sampleImages/Nikon",
 			"FileSize": "49 kB",
-			"FileModifyDate": "2013:10:17 13:08:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:47+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

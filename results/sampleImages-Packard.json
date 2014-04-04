@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/Packard/PackardBellDSC-220.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2003:03:22 01:06:40",
@@ -33,8 +33,6 @@
 			"FileName": "PackardBellDSC-220.jpg",
 			"Directory": "sampleImages/Packard",
 			"FileSize": "701 bytes",
-			"FileModifyDate": "2006:01:31 17:44:32+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:59+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -78,7 +76,7 @@
 	{
 		"img": "sampleImages/Packard/PackardBellDSC-200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "Copyright, Packard Bell, 2002",
 			"DateTime": "2004:03:05 11:28:04",
@@ -116,8 +114,6 @@
 			"FileName": "PackardBellDSC-200.jpg",
 			"Directory": "sampleImages/Packard",
 			"FileSize": "9.5 kB",
-			"FileModifyDate": "2006:01:31 17:44:32+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:59+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

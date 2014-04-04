@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/Trust/TrustGemini11.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2002:01:02 09:35:12",
@@ -41,8 +41,6 @@
 			"FileName": "TrustGemini11.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "6.6 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -101,7 +99,7 @@
 	{
 		"img": "sampleImages/Trust/TrustDSC.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2027:08:12 19:53:06",
@@ -140,8 +138,6 @@
 			"FileName": "TrustDSC.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "6.9 kB",
-			"FileModifyDate": "2007:10:18 14:42:13+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -199,7 +195,7 @@
 	{
 		"img": "sampleImages/Trust/TrustDC3500MINI.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:08:09 00:22:04",
@@ -239,8 +235,6 @@
 			"FileName": "TrustDC3500MINI.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "4.6 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -300,7 +294,7 @@
 	{
 		"img": "sampleImages/Trust/TrustDC-4200CAM.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:04:29 19:52:41",
@@ -340,8 +334,6 @@
 			"FileName": "TrustDC-4200CAM.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -400,7 +392,7 @@
 	{
 		"img": "sampleImages/Trust/Trust962Z_POWER.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:01:12 13:26:25",
@@ -440,8 +432,6 @@
 			"FileName": "Trust962Z_POWER.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "5.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -500,7 +490,7 @@
 	{
 		"img": "sampleImages/Trust/Trust960POWERCAM.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:04:03 20:24:33",
@@ -540,8 +530,6 @@
 			"FileName": "Trust960POWERCAM.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -601,7 +589,7 @@
 		"img": "sampleImages/Trust/Trust950PowerCamZoom.jpg",
 		"exifJS": {
 			"ApertureValue": "0.9999999993042153",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1.9910286458333333",
 			"Copyright": "Copyright 1,1999",
@@ -648,8 +636,6 @@
 			"FileName": "Trust950PowerCamZoom.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "11 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -716,7 +702,7 @@
 		"img": "sampleImages/Trust/Trust913POWER.jpg",
 		"exifJS": {
 			"ApertureValue": "3.61",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.9981282552083335",
 			"Copyright": "Copyright 1,1999",
@@ -763,8 +749,6 @@
 			"FileName": "Trust913POWER.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "9.8 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -830,7 +814,7 @@
 	{
 		"img": "sampleImages/Trust/Trust760POWERCAM.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:01:28 15:53:34",
@@ -869,8 +853,6 @@
 			"FileName": "Trust760POWERCAM.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "8.6 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -930,7 +912,7 @@
 		"img": "sampleImages/Trust/Trust738AV_LCD_PV.jpg",
 		"exifJS": {
 			"ApertureValue": "3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1.6058",
 			"Copyright": "Copyright 5,2003",
@@ -977,8 +959,6 @@
 			"FileName": "Trust738AV_LCD_PV.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "7.2 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1045,7 +1025,7 @@
 		"img": "sampleImages/Trust/Trust735SPowerCam.jpg",
 		"exifJS": {
 			"BrightnessValue": "1.9",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -1096,8 +1076,6 @@
 			"FileName": "Trust735SPowerCam.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "7.2 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1169,7 +1147,7 @@
 	{
 		"img": "sampleImages/Trust/Trust550POWER.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "",
@@ -1208,8 +1186,6 @@
 			"FileName": "Trust550POWER.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "11 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1276,7 +1252,7 @@
 	{
 		"img": "sampleImages/Trust/Trust1220S_PowerCamZoom.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:01:19 18:04:00",
@@ -1316,8 +1292,6 @@
 			"FileName": "Trust1220S_PowerCamZoom.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "32 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1443,7 +1417,7 @@
 		"img": "sampleImages/Trust/Trust1210K_POWERCAM_Zoom.jpg",
 		"exifJS": {
 			"ApertureValue": "2.97",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2003:01:06 15:05:30",
 			"DateTimeDigitized": "2003:01:06 15:05:30",
@@ -1485,8 +1459,6 @@
 			"FileName": "Trust1210K_POWERCAM_Zoom.jpg",
 			"Directory": "sampleImages/Trust",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2006:01:25 17:07:49+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:28+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

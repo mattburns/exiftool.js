@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/OMG/OMGLIFE_AutographerV1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"DateTime": "2013-08-01T20:22:210100",
 			"ExifIFDPointer": "151",
 			"ExposureMode": "0",
@@ -28,8 +28,6 @@
 			"FileName": "OMGLIFE_AutographerV1.jpg",
 			"Directory": "sampleImages/OMG",
 			"FileSize": "749 bytes",
-			"FileModifyDate": "2013:08:06 12:35:25+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:56+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

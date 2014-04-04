@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechPR-600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "1980:01:07 04:40:29",
 			"DateTimeOriginal": "1980:01:07 04:40:29",
@@ -33,8 +33,6 @@
 			"FileName": "PantechPR-600.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "8.3 kB",
-			"FileModifyDate": "2010:12:14 19:27:30+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -80,7 +78,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechPG-8000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "166",
 			"ExifVersion": "0220",
@@ -101,8 +99,6 @@
 			"FileName": "PantechPG-8000.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2011:12:14 19:55:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -137,7 +133,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechPG-6200.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "166",
 			"ExifVersion": "0220",
@@ -158,8 +154,6 @@
 			"FileName": "PantechPG-6200.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "11 kB",
-			"FileModifyDate": "2011:12:14 19:55:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -194,7 +188,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechPG-3600.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "166",
 			"ExifVersion": "0220",
@@ -215,8 +209,6 @@
 			"FileName": "PantechPG-3600.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2011:12:14 19:55:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -251,7 +243,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechPG-3500.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "166",
 			"ExifVersion": "0220",
@@ -272,8 +264,6 @@
 			"FileName": "PantechPG-3500.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2011:12:14 19:55:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -309,7 +299,7 @@
 		"img": "sampleImages/Pantech/PantechIM-U300K.jpg",
 		"exifJS": {
 			"BrightnessValue": "0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Custom process",
@@ -345,8 +335,6 @@
 			"FileName": "PantechIM-U300K.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2011:12:14 19:55:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -398,7 +386,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-U220K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2008:04:26 18:17:34",
 			"DateTimeOriginal": "2008:04:26 18:17:34",
@@ -425,8 +413,6 @@
 			"FileName": "PantechIM-U220K.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "6.5 kB",
-			"FileModifyDate": "2010:12:14 19:27:29+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -469,7 +455,7 @@
 		"img": "sampleImages/Pantech/PantechIM-U220.jpg",
 		"exifJS": {
 			"BrightnessValue": "0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Custom process",
@@ -505,8 +491,6 @@
 			"FileName": "PantechIM-U220.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2011:12:14 19:55:37+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -557,7 +541,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-U140.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "134",
 			"ExifVersion": "0220",
@@ -577,8 +561,6 @@
 			"FileName": "PantechIM-U140.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "2.3 kB",
-			"FileModifyDate": "2010:12:14 19:29:51+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -611,7 +593,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-U110.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "146",
 			"ExifVersion": "0220",
@@ -633,8 +615,6 @@
 			"FileName": "PantechIM-U110.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "4.8 kB",
-			"FileModifyDate": "2010:12:14 19:29:51+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -671,7 +651,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-S370.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:06:15 13:37:41",
 			"DateTimeOriginal": "2010:06:15 13:37:41",
@@ -698,8 +678,6 @@
 			"FileName": "PantechIM-S370.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "17 kB",
-			"FileModifyDate": "2011:12:14 19:55:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -752,8 +730,6 @@
 			"FileName": "PantechIM-S340L.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "480 bytes",
-			"FileModifyDate": "2010:12:14 19:27:30+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -791,8 +767,6 @@
 			"FileName": "PantechIM-S250L.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "433 bytes",
-			"FileModifyDate": "2010:12:14 19:27:30+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -820,7 +794,7 @@
 		"img": "sampleImages/Pantech/PantechIM-S230.jpg",
 		"exifJS": {
 			"BrightnessValue": "0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2009:09:23 15:06:46",
 			"DateTimeOriginal": "2009:09:23 15:06:46",
@@ -847,8 +821,6 @@
 			"FileName": "PantechIM-S230.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "25 kB",
-			"FileModifyDate": "2011:12:14 19:55:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -897,7 +869,7 @@
 		"img": "sampleImages/Pantech/PantechIM-S200K.jpg",
 		"exifJS": {
 			"BrightnessValue": "0",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Custom process",
@@ -933,8 +905,6 @@
 			"FileName": "PantechIM-S200K.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "31 kB",
-			"FileModifyDate": "2010:12:14 19:27:29+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -985,7 +955,7 @@
 	{
 		"img": "sampleImages/Pantech/PantechIM-R300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2010:01:03 20:33:30",
 			"DateTimeOriginal": "2010:01:03 20:33:30",
@@ -1012,8 +982,6 @@
 			"FileName": "PantechIM-R300.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "21 kB",
-			"FileModifyDate": "2010:12:14 19:27:29+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1065,8 +1033,6 @@
 			"FileName": "PantechIM-8100.jpg",
 			"Directory": "sampleImages/Pantech",
 			"FileSize": "341 bytes",
-			"FileModifyDate": "2010:12:14 19:32:52+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:00+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

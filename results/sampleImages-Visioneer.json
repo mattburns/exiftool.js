@@ -3,7 +3,7 @@
 		"img": "sampleImages/Visioneer/VisioneerMX-200.jpg",
 		"exifJS": {
 			"ApertureValue": "2.97",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.949675",
 			"Copyright": "Copyright 9,2002",
@@ -48,8 +48,6 @@
 			"FileName": "VisioneerMX-200.jpg",
 			"Directory": "sampleImages/Visioneer",
 			"FileSize": "16 kB",
-			"FileModifyDate": "2006:07:17 15:17:40+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:34+01:00",
 			"FilePermissions": "rwxr-xr-x",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

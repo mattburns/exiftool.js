@@ -3,7 +3,7 @@
 		"img": "sampleImages/Sprint/SprintKATANA_DLX.jpg",
 		"exifJS": {
 			"ApertureValue": "3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Copyright": "",
 			"CustomRendered": "Normal process",
@@ -41,8 +41,6 @@
 			"FileName": "SprintKATANA_DLX.jpg",
 			"Directory": "sampleImages/Sprint",
 			"FileSize": "4.8 kB",
-			"FileModifyDate": "2011:01:28 17:27:52+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:21+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

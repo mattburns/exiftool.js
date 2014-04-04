@@ -4,7 +4,7 @@
 		"exifJS": {
 			"ApertureValue": "3",
 			"BrightnessValue": "0.4",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Copyright": "",
@@ -48,8 +48,6 @@
 			"FileName": "Leica_digilux4.3.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "10 kB",
-			"FileModifyDate": "2006:02:14 14:06:56+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -130,7 +128,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaX_VARIO.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -178,8 +176,6 @@
 			"FileName": "LeicaX_VARIO.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "29 kB",
-			"FileModifyDate": "2013:07:03 15:24:05+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -260,7 +256,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaX2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -307,8 +303,6 @@
 			"FileName": "LeicaX2.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "22 kB",
-			"FileModifyDate": "2012:05:11 17:01:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -384,7 +378,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaX1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Custom process",
@@ -430,8 +424,6 @@
 			"FileName": "LeicaX1.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2009:12:21 12:58:50+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -502,7 +494,7 @@
 		"img": "sampleImages/Leica/LeicaV-LUX40.jpg",
 		"exifJS": {
 			"Artist": "",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -567,8 +559,6 @@
 			"FileName": "LeicaV-LUX40.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "34 kB",
-			"FileModifyDate": "2012:08:23 15:52:34+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -724,7 +714,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX4.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -774,8 +764,6 @@
 			"FileName": "LeicaV-LUX4.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "21 kB",
-			"FileModifyDate": "2013:06:12 13:49:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -934,7 +922,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX30.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -1000,8 +988,6 @@
 			"FileName": "LeicaV-LUX30.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "33 kB",
-			"FileModifyDate": "2011:07:05 12:55:43+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1157,7 +1143,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -1208,8 +1194,6 @@
 			"FileName": "LeicaV-LUX3.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "32 kB",
-			"FileModifyDate": "2013:06:12 13:44:48+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1349,7 +1333,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX20.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -1400,8 +1384,6 @@
 			"FileName": "LeicaV-LUX20.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "32 kB",
-			"FileModifyDate": "2010:12:13 16:52:32+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1539,7 +1521,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -1584,8 +1566,6 @@
 			"FileName": "LeicaV-LUX2.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "4.0 kB",
-			"FileModifyDate": "2011:06:07 16:45:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1687,7 +1667,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaV-LUX1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -1738,8 +1718,6 @@
 			"FileName": "LeicaV-LUX1.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "29 kB",
-			"FileModifyDate": "2007:04:06 18:59:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1890,7 +1868,7 @@
 		"img": "sampleImages/Leica/LeicaS2.jpg",
 		"exifJS": {
 			"ApertureValue": "6.5",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -1935,8 +1913,6 @@
 			"FileName": "LeicaS2.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "21 kB",
-			"FileModifyDate": "2009:11:19 16:53:31+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2037,7 +2013,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaR9-DigitalBackDMR.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"Contrast": "Normal",
 			"DateTime": "2005:10:06 13:36:10",
 			"DateTimeDigitized": "2005:10:06 13:36:10",
@@ -2077,8 +2053,6 @@
 			"FileName": "LeicaR9-DigitalBackDMR.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "237 kB",
-			"FileModifyDate": "2006:12:18 19:17:12+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2176,8 +2150,6 @@
 			"FileName": "LeicaR8-DigitalBackDMR.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "22 kB",
-			"FileModifyDate": "2007:04:06 18:59:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2307,7 +2279,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaM_Monochrom.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "NaN",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -2355,8 +2327,6 @@
 			"FileName": "LeicaM_Monochrom.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "52 kB",
-			"FileModifyDate": "2012:05:11 16:49:54+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2483,7 +2453,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaM9.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "NaN",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -2531,8 +2501,6 @@
 			"FileName": "LeicaM9.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2009:09:09 17:54:38+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2658,7 +2626,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaM8.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "NaN",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -2704,8 +2672,6 @@
 			"FileName": "LeicaM8.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "41 kB",
-			"FileModifyDate": "2008:03:10 11:55:23+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2791,7 +2757,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaM8.2.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "NaN",
 			"Contrast": "Normal",
 			"Copyright": "© 2009, Kevin Carter",
@@ -2838,8 +2804,6 @@
 			"FileName": "LeicaM8.2.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "32 kB",
-			"FileModifyDate": "2009:09:14 18:03:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2928,7 +2892,7 @@
 		"exifJS": {
 			"ApertureValue": "3.5",
 			"Artist": "",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"Copyright": "",
@@ -2990,8 +2954,6 @@
 			"FileName": "LeicaM.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2013:07:15 16:04:10+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3113,7 +3075,7 @@
 		"exifJS": {
 			"ApertureValue": "3.4",
 			"BrightnessValue": "3.2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Copyright": "",
@@ -3156,8 +3118,6 @@
 			"FileName": "LeicaDigiluxZoom.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "7.2 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3225,7 +3185,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaDigilux3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "8",
 			"Contrast": "Normal",
@@ -3276,8 +3236,6 @@
 			"FileName": "LeicaDigilux3.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "30 kB",
-			"FileModifyDate": "2007:04:09 22:03:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3437,7 +3395,7 @@
 			"ApertureValue": "5",
 			"Artist": "No Name",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "8",
 			"Contrast": "Normal",
@@ -3489,8 +3447,6 @@
 			"FileName": "LeicaDigilux2.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3587,7 +3543,7 @@
 		"exifJS": {
 			"ApertureValue": "5.4",
 			"CFAPattern": "0,2,0,2,1,4,5,3",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4.1",
 			"DateTime": "2005:06:20 14:29:13",
@@ -3631,8 +3587,6 @@
 			"FileName": "LeicaDigilux1.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "20 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3707,7 +3661,7 @@
 		"exifJS": {
 			"ApertureValue": "6",
 			"BrightnessValue": "8.5",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Copyright": "",
@@ -3749,8 +3703,6 @@
 			"FileName": "LeicaDigilux.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "5.5 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3817,7 +3769,7 @@
 		"img": "sampleImages/Leica/LeicaD-LUX6.jpg",
 		"exifJS": {
 			"Artist": "",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -3868,8 +3820,6 @@
 			"FileName": "LeicaD-LUX6.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "32 kB",
-			"FileModifyDate": "2013:02:15 18:48:05+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4019,7 +3969,7 @@
 		"img": "sampleImages/Leica/LeicaD-LUX5.jpg",
 		"exifJS": {
 			"Artist": "",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -4070,8 +4020,6 @@
 			"FileName": "LeicaD-LUX5.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "32 kB",
-			"FileModifyDate": "2011:06:07 16:45:32+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4212,7 +4160,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaD-LUX4.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -4263,8 +4211,6 @@
 			"FileName": "LeicaD-LUX4.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "31 kB",
-			"FileModifyDate": "2009:05:12 14:48:16+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4386,7 +4332,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaD-LUX3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Soft",
@@ -4437,8 +4383,6 @@
 			"FileName": "LeicaD-LUX3.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "28 kB",
-			"FileModifyDate": "2007:04:09 13:14:10+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4547,7 +4491,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaD-LUX2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Soft",
@@ -4598,8 +4542,6 @@
 			"FileName": "LeicaD-LUX2.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "6.9 kB",
-			"FileModifyDate": "2006:05:01 17:50:44+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4697,7 +4639,7 @@
 		"exifJS": {
 			"ApertureValue": "4",
 			"CFAPattern": "0,2,0,2,0,1,1,2",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3.9",
 			"Contrast": "Normal",
@@ -4750,8 +4692,6 @@
 			"FileName": "LeicaD-LUX.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4839,7 +4779,7 @@
 		"img": "sampleImages/Leica/LeicaC.jpg",
 		"exifJS": {
 			"Artist": "",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"Contrast": "Normal",
@@ -4891,8 +4831,6 @@
 			"FileName": "LeicaC.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "35 kB",
-			"FileModifyDate": "2013:11:05 16:11:22+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5047,7 +4985,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaC-LUX3.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -5098,8 +5036,6 @@
 			"FileName": "LeicaC-LUX3.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "31 kB",
-			"FileModifyDate": "2010:09:22 13:03:13+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5217,7 +5153,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaC-LUX2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -5267,8 +5203,6 @@
 			"FileName": "LeicaC-LUX2.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "28 kB",
-			"FileModifyDate": "2007:07:04 13:52:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5378,7 +5312,7 @@
 	{
 		"img": "sampleImages/Leica/LeicaC-LUX1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "4",
 			"Contrast": "Normal",
@@ -5428,8 +5362,6 @@
 			"FileName": "LeicaC-LUX1.jpg",
 			"Directory": "sampleImages/Leica",
 			"FileSize": "27 kB",
-			"FileModifyDate": "2006:12:18 18:54:55+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

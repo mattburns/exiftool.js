@@ -33,8 +33,6 @@
 			"FileName": "RIM_BlackberryZ10.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "747 bytes",
-			"FileModifyDate": "2013:02:13 13:37:50+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -83,7 +81,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerryStorm2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:08:03 16:58:50",
 			"DateTimeOriginal": "2010:08:03 16:58:50",
@@ -123,8 +121,6 @@
 			"FileName": "RIM_BlackBerryStorm2.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "885 bytes",
-			"FileModifyDate": "2010:09:22 12:52:48+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -174,7 +170,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerryPearlFlip8220.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:07:24 18:59:36",
 			"DateTimeOriginal": "2010:07:24 18:59:36",
@@ -201,8 +197,6 @@
 			"FileName": "RIM_BlackBerryPearlFlip8220.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "681 bytes",
-			"FileModifyDate": "2010:09:23 12:48:31+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -241,7 +235,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry9800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:09:27 10:35:05",
 			"DateTimeOriginal": "2010:09:27 10:35:05",
@@ -267,8 +261,6 @@
 			"FileName": "RIM_BlackBerry9800.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "666 bytes",
-			"FileModifyDate": "2010:12:13 15:16:20+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -305,7 +297,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry9700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:05:01 16:25:32",
 			"DateTimeOriginal": "2010:05:01 16:25:32",
@@ -333,8 +325,6 @@
 			"FileName": "RIM_BlackBerry9700.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "663 bytes",
-			"FileModifyDate": "2010:06:12 11:39:37+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -372,7 +362,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry9650.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:11:19 02:36:49",
 			"DateTimeOriginal": "2010:11:19 02:36:49",
@@ -400,8 +390,6 @@
 			"FileName": "RIM_BlackBerry9650.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "663 bytes",
-			"FileModifyDate": "2010:12:13 15:16:20+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -439,7 +427,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry9550.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:06:06 00:33:29",
 			"DateTimeOriginal": "2010:06:06 00:33:29",
@@ -467,8 +455,6 @@
 			"FileName": "RIM_BlackBerry9550.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "663 bytes",
-			"FileModifyDate": "2010:06:12 11:39:37+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -506,7 +492,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry9300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:11:29 15:02:39",
 			"DateTimeOriginal": "2010:11:29 15:02:39",
@@ -534,8 +520,6 @@
 			"FileName": "RIM_BlackBerry9300.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "663 bytes",
-			"FileModifyDate": "2010:12:13 15:16:20+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -573,7 +557,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry9105.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:10:29 15:02:13",
 			"DateTimeOriginal": "2010:10:29 15:02:13",
@@ -601,8 +585,6 @@
 			"FileName": "RIM_BlackBerry9105.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "663 bytes",
-			"FileModifyDate": "2010:12:13 15:16:20+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -640,7 +622,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry9100.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:11:26 07:56:26",
 			"DateTimeOriginal": "2010:11:26 07:56:26",
@@ -668,8 +650,6 @@
 			"FileName": "RIM_BlackBerry9100.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "663 bytes",
-			"FileModifyDate": "2010:12:13 15:16:20+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -707,7 +687,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry9000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:09:05 07:38:35",
 			"DateTimeOriginal": "2009:09:05 07:38:35",
@@ -734,8 +714,6 @@
 			"FileName": "RIM_BlackBerry9000.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "681 bytes",
-			"FileModifyDate": "2010:09:22 13:15:53+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -774,7 +752,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry8900.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:12:01 19:50:59",
 			"DateTimeOriginal": "2010:12:01 19:50:59",
@@ -802,8 +780,6 @@
 			"FileName": "RIM_BlackBerry8900.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "663 bytes",
-			"FileModifyDate": "2010:12:13 15:16:20+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -841,7 +817,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry8520.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:04:24 11:01:18",
 			"DateTimeOriginal": "2010:04:24 11:01:18",
@@ -869,8 +845,6 @@
 			"FileName": "RIM_BlackBerry8520.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "663 bytes",
-			"FileModifyDate": "2010:06:12 11:39:37+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -908,7 +882,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry8310.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2010:06:09 20:01:38",
 			"DateTimeOriginal": "2010:06:09 20:01:38",
@@ -930,8 +904,6 @@
 			"FileName": "RIM_BlackBerry8310.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "553 bytes",
-			"FileModifyDate": "2010:06:10 15:05:37+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -962,7 +934,7 @@
 	{
 		"img": "sampleImages/RIM/RIM_BlackBerry8300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:12:30 14:01:12",
 			"DateTimeOriginal": "2009:12:30 14:01:12",
@@ -984,8 +956,6 @@
 			"FileName": "RIM_BlackBerry8300.jpg",
 			"Directory": "sampleImages/RIM",
 			"FileSize": "553 bytes",
-			"FileModifyDate": "2010:06:10 15:05:37+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:04+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

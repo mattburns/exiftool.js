@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_talby.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2005:03:05 20:17:21",
 			"ExifIFDPointer": "168",
@@ -25,8 +25,6 @@
 			"FileName": "KDDI_talby.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "539 bytes",
-			"FileModifyDate": "2006:02:17 13:18:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -58,7 +56,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W64SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2010:04:26 13:33:43",
@@ -93,8 +91,6 @@
 			"FileName": "KDDI_W64SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "743 bytes",
-			"FileModifyDate": "2010:06:10 15:16:42+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -139,7 +135,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W61CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2009:04:11 18:41:56",
@@ -169,8 +165,6 @@
 			"FileName": "KDDI_W61CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "745 bytes",
-			"FileModifyDate": "2010:06:10 14:31:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -211,7 +205,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W55T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2008:11:30 01:29:25",
@@ -245,8 +239,6 @@
 			"FileName": "KDDI_W55T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "6.5 kB",
-			"FileModifyDate": "2010:12:14 19:15:00+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -296,7 +288,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W54T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2008:08:23 22:19:08",
@@ -330,8 +322,6 @@
 			"FileName": "KDDI_W54T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "711 bytes",
-			"FileModifyDate": "2010:12:14 19:15:00+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -375,7 +365,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W53T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2009:08:27 12:53:59",
@@ -408,8 +398,6 @@
 			"FileName": "KDDI_W53T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "691 bytes",
-			"FileModifyDate": "2010:12:14 19:15:00+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -451,7 +439,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W53CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2007:09:04 11:06:38",
@@ -484,8 +472,6 @@
 			"FileName": "KDDI_W53CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "8.3 kB",
-			"FileModifyDate": "2007:09:27 16:13:24+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -533,7 +519,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2008:08:19 11:41:02",
@@ -567,8 +553,6 @@
 			"FileName": "KDDI_W52T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "729 bytes",
-			"FileModifyDate": "2010:12:14 19:15:00+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -613,7 +597,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52SH.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -646,8 +630,6 @@
 			"FileName": "KDDI_W52SH.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "719 bytes",
-			"FileModifyDate": "2011:06:07 17:55:06+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -692,7 +674,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2007:09:18 20:37:48",
 			"DateTimeDigitized": "2007:09:18 20:37:48",
@@ -717,8 +699,6 @@
 			"FileName": "KDDI_W52SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "613 bytes",
-			"FileModifyDate": "2010:12:14 19:14:59+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -753,7 +733,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2009:09:14 03:00:33",
@@ -793,8 +773,6 @@
 			"FileName": "KDDI_W52S.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "889 bytes",
-			"FileModifyDate": "2010:12:14 19:15:00+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -848,7 +826,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W52CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:09:06 16:44:39",
 			"DateTimeOriginal": "2009:09:06 16:42:43",
@@ -872,8 +850,6 @@
 			"FileName": "KDDI_W52CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "573 bytes",
-			"FileModifyDate": "2010:06:10 14:31:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -906,7 +882,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W51P.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2008:10:11 17:50:49",
@@ -935,8 +911,6 @@
 			"FileName": "KDDI_W51P.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "677 bytes",
-			"FileModifyDate": "2010:12:14 19:14:59+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -977,7 +951,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W51CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2010:02:18 13:45:11",
@@ -1007,8 +981,6 @@
 			"FileName": "KDDI_W51CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "745 bytes",
-			"FileModifyDate": "2010:06:10 14:31:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1049,7 +1021,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W47T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Custom process",
 			"DateTimeDigitized": "2007:08:06 22:58:47",
@@ -1083,8 +1055,6 @@
 			"FileName": "KDDI_W47T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "1271 bytes",
-			"FileModifyDate": "2010:12:14 19:15:00+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1129,7 +1099,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W44T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2009:07:01 22:44:57",
@@ -1163,8 +1133,6 @@
 			"FileName": "KDDI_W44T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "6.6 kB",
-			"FileModifyDate": "2011:12:14 19:39:53+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1214,7 +1182,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W43S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2007:06:30 00:36:49",
@@ -1254,8 +1222,6 @@
 			"FileName": "KDDI_W43S.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "879 bytes",
-			"FileModifyDate": "2010:12:14 19:15:00+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1310,7 +1276,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W43H.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2009:05:22 14:11:44",
@@ -1340,8 +1306,6 @@
 			"FileName": "KDDI_W43H.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "745 bytes",
-			"FileModifyDate": "2010:06:10 14:17:58+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1382,7 +1346,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W43CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2007:05:22 21:11:06",
@@ -1412,8 +1376,6 @@
 			"FileName": "KDDI_W43CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "763 bytes",
-			"FileModifyDate": "2007:10:18 13:41:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1455,7 +1417,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W42T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2008:09:17 14:35:01",
@@ -1488,8 +1450,6 @@
 			"FileName": "KDDI_W42T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "691 bytes",
-			"FileModifyDate": "2010:12:14 19:15:00+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1531,7 +1491,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W42K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2007:06:04 17:32:51",
@@ -1563,8 +1523,6 @@
 			"FileName": "KDDI_W42K.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "889 bytes",
-			"FileModifyDate": "2007:10:18 13:44:24+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1610,7 +1568,7 @@
 		"exifJS": {
 			"ApertureValue": "3.4",
 			"BrightnessValue": "1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -1653,8 +1611,6 @@
 			"FileName": "KDDI_W41SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "917 bytes",
-			"FileModifyDate": "2010:12:14 19:14:59+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1715,7 +1671,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W41CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2007:08:30 14:11:25",
 			"ExifIFDPointer": "330",
@@ -1739,8 +1695,6 @@
 			"FileName": "KDDI_W41CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "751 bytes",
-			"FileModifyDate": "2007:10:18 13:41:56+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1781,7 +1735,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W33SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2006:10:03 14:51:36",
 			"DateTimeDigitized": "2006:10:03 12:25:42",
@@ -1806,8 +1760,6 @@
 			"FileName": "KDDI_W33SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "651 bytes",
-			"FileModifyDate": "2010:12:14 19:14:59+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1845,7 +1797,7 @@
 		"exifJS": {
 			"ApertureValue": "2.8",
 			"BrightnessValue": "1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -1888,8 +1840,6 @@
 			"FileName": "KDDI_W32SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "917 bytes",
-			"FileModifyDate": "2006:02:01 18:38:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1950,7 +1900,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2007:10:24 01:42:30",
@@ -1984,8 +1934,6 @@
 			"FileName": "KDDI_W31T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "721 bytes",
-			"FileModifyDate": "2011:06:07 18:37:50+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2028,7 +1976,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:10:21 15:17:21",
 			"DateTimeDigitized": "2005:10:21 15:15:50",
@@ -2053,8 +2001,6 @@
 			"FileName": "KDDI_W31SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "621 bytes",
-			"FileModifyDate": "2006:02:01 18:38:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2089,7 +2035,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2005:06:13 08:40:36",
@@ -2127,8 +2073,6 @@
 			"FileName": "KDDI_W31S.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "849 bytes",
-			"FileModifyDate": "2006:02:03 15:52:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2179,7 +2123,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2005:04:10 13:21:58",
 			"DateTimeOriginal": "2005:04:10 13:21:58",
@@ -2205,8 +2149,6 @@
 			"FileName": "KDDI_W31K.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "701 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2249,7 +2191,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31H.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2005:03:12 13:20:28",
@@ -2279,8 +2221,6 @@
 			"FileName": "KDDI_W31H.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "746 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2321,7 +2261,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W31CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2008:01:14 00:47:22",
@@ -2352,8 +2292,6 @@
 			"FileName": "KDDI_W31CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "701 bytes",
-			"FileModifyDate": "2010:12:14 16:00:11+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2398,7 +2336,7 @@
 		"exifJS": {
 			"ApertureValue": "3.4",
 			"BrightnessValue": "1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -2441,8 +2379,6 @@
 			"FileName": "KDDI_W22SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "917 bytes",
-			"FileModifyDate": "2006:02:01 18:38:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2503,7 +2439,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W22H.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2005:04:29 18:32:58",
@@ -2533,8 +2469,6 @@
 			"FileName": "KDDI_W22H.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "742 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2577,7 +2511,7 @@
 		"exifJS": {
 			"ApertureValue": "2.8",
 			"BrightnessValue": "1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -2620,8 +2554,6 @@
 			"FileName": "KDDI_W21SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "899 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2681,7 +2613,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W21S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2005:04:02 12:57:28",
@@ -2718,8 +2650,6 @@
 			"FileName": "KDDI_W21S.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "819 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2768,7 +2698,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W21K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2005:01:27 21:57:27",
@@ -2801,8 +2731,6 @@
 			"FileName": "KDDI_W21K.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "719 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2846,7 +2774,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W21H.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2004:09:27 08:57:41",
 			"ExifIFDPointer": "162",
@@ -2874,8 +2802,6 @@
 			"FileName": "KDDI_W21H.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "601 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2913,7 +2839,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W21CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Custom process",
 			"DateTime": "2005:04:01 12:40:22",
@@ -2945,8 +2871,6 @@
 			"FileName": "KDDI_W21CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "802 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2989,7 +2913,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W11K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2005:02:26 17:18:43",
@@ -3018,8 +2942,6 @@
 			"FileName": "KDDI_W11K.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "637 bytes",
-			"FileModifyDate": "2006:02:01 18:38:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3058,7 +2980,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_W11H.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2004:10:10 10:27:38",
@@ -3087,8 +3009,6 @@
 			"FileName": "KDDI_W11H.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "619 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3126,7 +3046,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_QCAM40a.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2005:01:04 04:15:40",
@@ -3158,8 +3078,6 @@
 			"FileName": "KDDI_QCAM40a.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "699 bytes",
-			"FileModifyDate": "2006:06:23 21:56:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3202,7 +3120,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_INFOBAR.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2004:07:10 20:07:33",
 			"ExifIFDPointer": "169",
@@ -3225,8 +3143,6 @@
 			"FileName": "KDDI_INFOBAR.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "554 bytes",
-			"FileModifyDate": "2006:02:17 13:18:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3259,7 +3175,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5527SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2009:02:15 20:13:01",
 			"ExifIFDPointer": "172",
@@ -3287,8 +3203,6 @@
 			"FileName": "KDDI_A5527SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "611 bytes",
-			"FileModifyDate": "2010:12:14 19:14:59+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3326,7 +3240,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5512CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2005:09:10 17:57:46",
@@ -3356,8 +3270,6 @@
 			"FileName": "KDDI_A5512CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "747 bytes",
-			"FileModifyDate": "2010:06:10 14:31:28+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3398,7 +3310,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5507SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2005:04:29 15:36:29",
 			"ExifIFDPointer": "210",
@@ -3426,8 +3338,6 @@
 			"FileName": "KDDI_A5507SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "649 bytes",
-			"FileModifyDate": "2006:02:17 13:18:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3466,7 +3376,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5506T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2005:08:01 11:25:39",
@@ -3500,8 +3410,6 @@
 			"FileName": "KDDI_A5506T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "14 kB",
-			"FileModifyDate": "2006:02:01 18:38:19+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3552,7 +3460,7 @@
 		"exifJS": {
 			"ApertureValue": "3",
 			"BrightnessValue": "1",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Contrast": "Normal",
 			"CustomRendered": "Normal process",
@@ -3594,8 +3502,6 @@
 			"FileName": "KDDI_A5505SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "869 bytes",
-			"FileModifyDate": "2006:02:17 13:18:45+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3654,7 +3560,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5504T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2004:08:10 17:04:21",
@@ -3684,8 +3590,6 @@
 			"FileName": "KDDI_A5504T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "653 bytes",
-			"FileModifyDate": "2006:02:03 15:52:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3724,7 +3628,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5503SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:08:01 17:46:17",
 			"DateTimeDigitized": "2004:08:01 17:46:17",
@@ -3749,8 +3653,6 @@
 			"FileName": "KDDI_A5503SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "623 bytes",
-			"FileModifyDate": "2006:02:01 18:54:47+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3785,7 +3687,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5502K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2004:11:23 16:05:29",
@@ -3818,8 +3720,6 @@
 			"FileName": "KDDI_A5502K.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "717 bytes",
-			"FileModifyDate": "2006:02:17 13:18:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3862,7 +3762,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5501T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2005:08:07 15:47:18",
@@ -3892,8 +3792,6 @@
 			"FileName": "KDDI_A5501T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "653 bytes",
-			"FileModifyDate": "2006:02:03 15:52:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -3932,7 +3830,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5407CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2005:02:11 16:44:42",
@@ -3962,8 +3860,6 @@
 			"FileName": "KDDI_A5407CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "761 bytes",
-			"FileModifyDate": "2006:02:01 18:38:17+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4005,7 +3901,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5406CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2005:04:30 19:34:01",
@@ -4035,8 +3931,6 @@
 			"FileName": "KDDI_A5406CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "743 bytes",
-			"FileModifyDate": "2006:02:17 13:18:45+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4077,7 +3971,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5405SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2004:08:08 19:04:55",
 			"ExifIFDPointer": "170",
@@ -4105,8 +3999,6 @@
 			"FileName": "KDDI_A5405SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "627 bytes",
-			"FileModifyDate": "2006:02:01 18:38:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4145,7 +4037,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5404S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2004:09:11 13:52:18",
@@ -4182,8 +4074,6 @@
 			"FileName": "KDDI_A5404S.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "5.3 kB",
-			"FileModifyDate": "2006:02:01 18:38:17+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4236,7 +4126,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5403CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2004:07:19 19:53:31",
@@ -4268,8 +4158,6 @@
 			"FileName": "KDDI_A5403CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "787 bytes",
-			"FileModifyDate": "2006:02:17 13:18:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4312,7 +4200,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5402S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:04:11 12:58:24",
 			"DateTimeOriginal": "2005:04:11 12:58:24",
@@ -4336,8 +4224,6 @@
 			"FileName": "KDDI_A5402S.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "573 bytes",
-			"FileModifyDate": "2006:02:17 13:18:45+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4370,7 +4256,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5401CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2004:08:12 23:01:27",
 			"ExifIFDPointer": "164",
@@ -4398,8 +4284,6 @@
 			"FileName": "KDDI_A5401CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "603 bytes",
-			"FileModifyDate": "2006:02:17 13:18:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4437,7 +4321,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5306ST.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2005:06:04 16:42:40",
 			"ExifIFDPointer": "170",
@@ -4460,8 +4344,6 @@
 			"FileName": "KDDI_A5306ST.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "541 bytes",
-			"FileModifyDate": "2006:02:17 13:18:45+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4493,7 +4375,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5305K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2004:05:25 13:10:02",
 			"ExifIFDPointer": "168",
@@ -4516,8 +4398,6 @@
 			"FileName": "KDDI_A5305K.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "539 bytes",
-			"FileModifyDate": "2006:02:17 13:18:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4549,7 +4429,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5304T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2004:07:10 13:39:28",
 			"ExifIFDPointer": "168",
@@ -4572,8 +4452,6 @@
 			"FileName": "KDDI_A5304T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "539 bytes",
-			"FileModifyDate": "2006:02:03 15:52:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4605,7 +4483,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5303H2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2004:01:03 14:12:04",
 			"ExifIFDPointer": "170",
@@ -4628,8 +4506,6 @@
 			"FileName": "KDDI_A5303H2.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "541 bytes",
-			"FileModifyDate": "2006:06:23 21:41:20+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4661,7 +4537,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5303H.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2005:05:03 17:48:42",
 			"ExifIFDPointer": "168",
@@ -4684,8 +4560,6 @@
 			"FileName": "KDDI_A5303H.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "539 bytes",
-			"FileModifyDate": "2006:02:17 13:18:45+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4717,7 +4591,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5302CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2004:09:27 16:59:05",
 			"ExifIFDPointer": "164",
@@ -4740,8 +4614,6 @@
 			"FileName": "KDDI_A5302CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "535 bytes",
-			"FileModifyDate": "2006:02:17 13:18:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4773,7 +4645,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A5301T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2003:05:24 22:21:01",
 			"ExifIFDPointer": "180",
@@ -4808,8 +4680,6 @@
 			"FileName": "KDDI_A5301T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "805 bytes",
-			"FileModifyDate": "2006:01:25 17:07:40+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4854,7 +4724,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A3015SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:05:16 21:42:23",
 			"DateTimeOriginal": "2004:05:16 21:42:23",
@@ -4878,8 +4748,6 @@
 			"FileName": "KDDI_A3015SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "590 bytes",
-			"FileModifyDate": "2007:10:18 14:35:20+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4913,7 +4781,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A3012CA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2003:11:13 15:06:24",
 			"DateTimeOriginal": "2003:11:13 15:05:38",
@@ -4936,8 +4804,6 @@
 			"FileName": "KDDI_A3012CA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "545 bytes",
-			"FileModifyDate": "2006:02:17 13:18:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -4969,7 +4835,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1404S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:09:09 21:58:09",
 			"DateTimeOriginal": "2005:09:09 21:58:09",
@@ -4993,8 +4859,6 @@
 			"FileName": "KDDI_A1404S.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "591 bytes",
-			"FileModifyDate": "2006:02:01 18:38:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5028,7 +4892,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1403K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2005:03:14 11:10:16",
@@ -5061,8 +4925,6 @@
 			"FileName": "KDDI_A1403K.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "721 bytes",
-			"FileModifyDate": "2006:02:17 13:18:45+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5106,7 +4968,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1402S2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:11:09 18:25:27",
 			"DateTimeOriginal": "2004:11:09 18:25:27",
@@ -5130,8 +4992,6 @@
 			"FileName": "KDDI_A1402S2.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "591 bytes",
-			"FileModifyDate": "2006:02:01 18:38:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5165,7 +5025,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1402S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:10:09 00:43:41",
 			"DateTimeOriginal": "2004:10:09 00:43:41",
@@ -5189,8 +5049,6 @@
 			"FileName": "KDDI_A1402S.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "591 bytes",
-			"FileModifyDate": "2006:02:01 18:38:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5224,7 +5082,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1401K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeOriginal": "2005:03:21 15:49:09",
@@ -5254,8 +5112,6 @@
 			"FileName": "KDDI_A1401K.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "641 bytes",
-			"FileModifyDate": "2006:02:17 13:18:45+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5295,7 +5151,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1305SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:12:11 13:44:45",
 			"DateTimeDigitized": "2004:12:11 13:44:45",
@@ -5320,8 +5176,6 @@
 			"FileName": "KDDI_A1305SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "605 bytes",
-			"FileModifyDate": "2006:02:17 13:18:45+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5355,7 +5209,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1304T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeOriginal": "2004:11:03 11:51:12",
 			"ExifIFDPointer": "168",
@@ -5378,8 +5232,6 @@
 			"FileName": "KDDI_A1304T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "539 bytes",
-			"FileModifyDate": "2006:02:03 15:52:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5411,7 +5263,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1303SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:03:25 22:57:32",
 			"DateTimeDigitized": "2004:03:25 22:57:32",
@@ -5436,8 +5288,6 @@
 			"FileName": "KDDI_A1303SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "623 bytes",
-			"FileModifyDate": "2006:02:01 18:38:18+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5472,7 +5322,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1302SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:05:24 09:12:01",
 			"DateTimeOriginal": "2004:05:24 09:12:01",
@@ -5496,8 +5346,6 @@
 			"FileName": "KDDI_A1302SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "571 bytes",
-			"FileModifyDate": "2006:02:17 13:18:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5530,7 +5378,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1301S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2003:08:23 17:01:50",
 			"DateTimeOriginal": "2003:08:23 17:01:50",
@@ -5554,8 +5402,6 @@
 			"FileName": "KDDI_A1301S.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "573 bytes",
-			"FileModifyDate": "2006:02:17 13:18:46+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5588,7 +5434,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI_A1013K.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "",
 			"DateTimeOriginal": "2003:08:26 10:05:37",
@@ -5612,8 +5458,6 @@
 			"FileName": "KDDI_A1013K.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "605 bytes",
-			"FileModifyDate": "2006:02:17 13:18:44+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5646,7 +5490,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI-TS_W21T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTimeDigitized": "2005:09:05 22:32:25",
@@ -5679,8 +5523,6 @@
 			"FileName": "KDDI-TS_W21T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "709 bytes",
-			"FileModifyDate": "2006:01:25 17:07:40+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5723,7 +5565,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI-TS_A5509T.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2005:05:03 17:50:56",
@@ -5757,8 +5599,6 @@
 			"FileName": "KDDI-TS_A5509T.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "747 bytes",
-			"FileModifyDate": "2006:01:25 17:07:40+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -5802,7 +5642,7 @@
 	{
 		"img": "sampleImages/KDDI/KDDI-SA_A3015SA.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:05:16 21:42:23",
 			"DateTimeOriginal": "2004:05:16 21:42:23",
@@ -5826,8 +5666,6 @@
 			"FileName": "KDDI-SA_A3015SA.jpg",
 			"Directory": "sampleImages/KDDI",
 			"FileSize": "590 bytes",
-			"FileModifyDate": "2006:01:25 17:07:40+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:19+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

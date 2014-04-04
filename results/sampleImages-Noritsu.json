@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/Noritsu/NoritsuSI-2000.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "2002:08:24 15:18:15",
 			"DateTimeOriginal": ":  :     :  :",
@@ -25,8 +25,6 @@
 			"FileName": "NoritsuSI-2000.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "2.7 kB",
-			"FileModifyDate": "2006:05:11 14:03:04+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:57+01:00",
 			"FilePermissions": "rwxr-xr-x",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -72,7 +70,7 @@
 	{
 		"img": "sampleImages/Noritsu/NoritsuSI-1080.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2001:05:15 10:45:26",
 			"DateTimeDigitized": "2001:05:15 10:45:26",
@@ -99,8 +97,6 @@
 			"FileName": "NoritsuSI-1080.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "25 kB",
-			"FileModifyDate": "2006:02:02 19:00:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -147,7 +143,7 @@
 	{
 		"img": "sampleImages/Noritsu/NoritsuS2FilmScanner.jpg",
 		"exifJS": {
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:11:21 16:06:46",
 			"DateTimeDigitized": "2005:11:21 16:06:46",
@@ -174,8 +170,6 @@
 			"FileName": "NoritsuS2FilmScanner.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "898 bytes",
-			"FileModifyDate": "2006:02:02 19:39:10+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -217,7 +211,7 @@
 	{
 		"img": "sampleImages/Noritsu/NoritsuQSS-32_33.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "186",
 			"ExifVersion": "0220",
@@ -241,8 +235,6 @@
 			"FileName": "NoritsuQSS-32_33.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "22 kB",
-			"FileModifyDate": "2006:02:02 19:24:03+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -281,7 +273,7 @@
 	{
 		"img": "sampleImages/Noritsu/NoritsuQSS-31.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:06:20 13:27:53",
 			"DateTimeDigitized": "",
@@ -310,8 +302,6 @@
 			"FileName": "NoritsuQSS-31.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "11 kB",
-			"FileModifyDate": "2006:02:02 19:24:04+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -355,7 +345,7 @@
 	{
 		"img": "sampleImages/Noritsu/NoritsuQSS-30.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2005:11:29 22:25:16",
 			"DateTimeDigitized": "",
@@ -385,8 +375,6 @@
 			"FileName": "NoritsuQSS-30.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2006:02:02 19:24:03+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -437,7 +425,7 @@
 	{
 		"img": "sampleImages/Noritsu/NoritsuQSS-29_31.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "",
 			"DateTimeDigitized": "",
@@ -464,8 +452,6 @@
 			"FileName": "NoritsuQSS-29_31.jpg",
 			"Directory": "sampleImages/Noritsu",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2006:02:02 19:24:03+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

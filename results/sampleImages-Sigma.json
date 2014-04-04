@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD9.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Custom process",
 			"DateTime": "2007:05:03 02:19:08",
@@ -46,8 +46,6 @@
 			"FileName": "SigmaSD9.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2009:01:07 14:03:00+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -178,7 +176,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD1Merrill.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Custom process",
 			"DateTime": "2012:04:07 22:02:43",
@@ -221,8 +219,6 @@
 			"FileName": "SigmaSD1Merrill.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "9.4 kB",
-			"FileModifyDate": "2012:04:11 12:42:02+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -305,7 +301,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD15.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2010:06:15 14:02:54",
@@ -351,8 +347,6 @@
 			"FileName": "SigmaSD15.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "56 kB",
-			"FileModifyDate": "2010:06:24 13:24:15+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -451,7 +445,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD14.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Custom process",
 			"DateTime": "2007:02:13 11:26:51",
@@ -497,8 +491,6 @@
 			"FileName": "SigmaSD14.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2007:02:20 15:05:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -637,7 +629,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaSD10.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Custom process",
 			"DateTime": "2004:03:19 17:48:51",
@@ -680,8 +672,6 @@
 			"FileName": "SigmaSD10.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2006:01:25 17:07:48+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -763,7 +753,7 @@
 		"exifJS": {
 			"ApertureValue": "4.97",
 			"BrightnessValue": "7.62",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2011:06:22 10:15:22",
@@ -811,8 +801,6 @@
 			"FileName": "SigmaSD1.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "55 kB",
-			"FileModifyDate": "2011:07:05 12:52:48+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -920,7 +908,7 @@
 		"exifJS": {
 			"ApertureValue": "4.97",
 			"BrightnessValue": "9",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -976,8 +964,6 @@
 			"FileName": "SigmaDP3Merrill.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "58 kB",
-			"FileModifyDate": "2013:02:22 18:04:36+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1089,7 +1075,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP2X.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2011:06:05 21:33:55",
@@ -1135,8 +1121,6 @@
 			"FileName": "SigmaDP2X.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "55 kB",
-			"FileModifyDate": "2011:06:10 14:31:00+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1235,7 +1219,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP2S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2010:03:28 13:10:35",
@@ -1281,8 +1265,6 @@
 			"FileName": "SigmaDP2S.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2010:04:05 13:41:05+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1383,7 +1365,7 @@
 		"exifJS": {
 			"ApertureValue": "6",
 			"BrightnessValue": "8.87",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -1439,8 +1421,6 @@
 			"FileName": "SigmaDP2Merrill.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "60 kB",
-			"FileModifyDate": "2012:07:23 17:48:29+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1552,7 +1532,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP2.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2009:07:28 15:39:03",
@@ -1598,8 +1578,6 @@
 			"FileName": "SigmaDP2.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "61 kB",
-			"FileModifyDate": "2009:09:30 13:50:58+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1698,7 +1676,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP1X.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Custom process",
 			"DateTime": "2011:01:22 20:46:24",
@@ -1741,8 +1719,6 @@
 			"FileName": "SigmaDP1X.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2011:01:31 15:26:05+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1824,7 +1800,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP1S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2010:02:11 12:41:05",
@@ -1870,8 +1846,6 @@
 			"FileName": "SigmaDP1S.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "54 kB",
-			"FileModifyDate": "2010:02:19 17:48:33+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1972,7 +1946,7 @@
 		"exifJS": {
 			"ApertureValue": "6",
 			"BrightnessValue": "8.62",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "5",
 			"Contrast": "Normal",
@@ -2028,8 +2002,6 @@
 			"FileName": "SigmaDP1Merrill.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "58 kB",
-			"FileModifyDate": "2012:10:11 15:36:39+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2141,7 +2113,7 @@
 	{
 		"img": "sampleImages/Sigma/SigmaDP1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "1978:01:24 19:39:20",
@@ -2187,8 +2159,6 @@
 			"FileName": "SigmaDP1.jpg",
 			"Directory": "sampleImages/Sigma",
 			"FileSize": "52 kB",
-			"FileModifyDate": "2008:02:04 13:28:35+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:20:16+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

@@ -3,7 +3,7 @@
 		"img": "sampleImages/Logitech/LogitechPocketDigital130.jpg",
 		"exifJS": {
 			"ApertureValue": "1.0098826730392736",
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1.97664794921875",
 			"Copyright": "",
@@ -51,8 +51,6 @@
 			"FileName": "LogitechPocketDigital130.jpg",
 			"Directory": "sampleImages/Logitech",
 			"FileSize": "7.7 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -119,7 +117,7 @@
 	{
 		"img": "sampleImages/Logitech/LogitechDC2320.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2000:02:18 15:51:08",
@@ -161,8 +159,6 @@
 			"FileName": "LogitechDC2320.jpg",
 			"Directory": "sampleImages/Logitech",
 			"FileSize": "4.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -223,7 +219,7 @@
 	{
 		"img": "sampleImages/Logitech/LogitechClickSmart820.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2.3",
 			"DateTimeDigitized": "2000:00:00 00:00:00",
@@ -258,8 +254,6 @@
 			"FileName": "LogitechClickSmart820.jpg",
 			"Directory": "sampleImages/Logitech",
 			"FileSize": "12 kB",
-			"FileModifyDate": "2010:06:12 11:50:43+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -312,7 +306,7 @@
 	{
 		"img": "sampleImages/Logitech/LogitechClickSmart.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTimeDigitized": "08:00:00",
 			"DateTimeOriginal": "08:00:002001:01:0",
@@ -338,8 +332,6 @@
 			"FileName": "LogitechClickSmart.jpg",
 			"Directory": "sampleImages/Logitech",
 			"FileSize": "696 bytes",
-			"FileModifyDate": "2006:01:25 17:07:42+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:19:33+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",

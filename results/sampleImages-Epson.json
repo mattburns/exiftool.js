@@ -2,7 +2,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"Compression": "1",
 			"DateTime": "2010:05:29 21:51:25",
@@ -31,8 +31,6 @@
 			"FileName": "EpsonStylusPhotoRX700.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.7 kB",
-			"FileModifyDate": "2010:06:10 14:26:23+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -72,7 +70,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX690.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "180",
 			"ExifVersion": "0220",
@@ -93,8 +91,6 @@
 			"FileName": "EpsonStylusPhotoRX690.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "9.5 kB",
-			"FileModifyDate": "2010:06:10 14:26:23+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -128,7 +124,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX640.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2009:03:24 21:40:44",
 			"ExifIFDPointer": "297",
@@ -153,8 +149,6 @@
 			"FileName": "EpsonStylusPhotoRX640.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "8.8 kB",
-			"FileModifyDate": "2010:06:10 14:26:23+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -193,7 +187,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX620.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "180",
 			"ExifVersion": "0220",
@@ -214,8 +208,6 @@
 			"FileName": "EpsonStylusPhotoRX620.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "6.0 kB",
-			"FileModifyDate": "2010:06:10 14:26:23+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -249,7 +241,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX610.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "180",
 			"ExifVersion": "0220",
@@ -270,8 +262,6 @@
 			"FileName": "EpsonStylusPhotoRX610.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "5.6 kB",
-			"FileModifyDate": "2010:06:10 14:26:23+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -305,7 +295,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonStylusPhotoRX590.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"ExifIFDPointer": "180",
 			"ExifVersion": "0220",
@@ -326,8 +316,6 @@
 			"FileName": "EpsonStylusPhotoRX590.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "1582 bytes",
-			"FileModifyDate": "2010:06:12 11:55:27+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -361,7 +349,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonR-D1s.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2100:04:20 19:36:55",
@@ -403,8 +391,6 @@
 			"FileName": "EpsonR-D1s.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "19 kB",
-			"FileModifyDate": "2009:09:08 19:09:20+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -470,7 +456,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonR-D1.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2006:10:12 20:52:44",
@@ -512,8 +498,6 @@
 			"FileName": "EpsonR-D1.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "15 kB",
-			"FileModifyDate": "2009:09:08 19:09:20+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -579,7 +563,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC850Z.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "1999:01:14 21:28:44",
@@ -621,8 +605,6 @@
 			"FileName": "EpsonPhotoPC850Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -693,7 +675,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC800S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2001:01:07 01:02:49",
@@ -735,8 +717,6 @@
 			"FileName": "EpsonPhotoPC800S.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:05:09 20:08:08+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -806,7 +786,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2005:03:19 14:35:15",
@@ -846,8 +826,6 @@
 			"FileName": "EpsonPhotoPC800.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "5.8 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -916,7 +894,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC3100Z.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "3",
 			"DateTime": "2001:06:14 02:56:58",
@@ -958,8 +936,6 @@
 			"FileName": "EpsonPhotoPC3100Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "29 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1032,7 +1008,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC3000Z.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2000:07:11 15:44:34",
@@ -1074,8 +1050,6 @@
 			"FileName": "EpsonPhotoPC3000Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "9.3 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1145,7 +1119,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPhotoPC2100Z.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2002:11:02 08:19:50",
 			"DateTimeDigitized": "2002:11:02 08:19:50",
@@ -1182,8 +1156,6 @@
 			"FileName": "EpsonPhotoPC2100Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "1849 bytes",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1243,7 +1215,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonPerfectionV700.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"DateTime": "2009:01:27 22:41:10",
 			"DateTimeDigitized": "2009:01:26 17:58:21",
 			"DateTimeOriginal": "2009:01:26 17:58:21",
@@ -1268,8 +1240,6 @@
 			"FileName": "EpsonPerfectionV700.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "4.0 kB",
-			"FileModifyDate": "2010:06:10 14:26:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1367,8 +1337,6 @@
 			"FileName": "EpsonPerfectionV100.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "558 bytes",
-			"FileModifyDate": "2010:06:10 14:26:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1417,8 +1385,6 @@
 			"FileName": "EpsonPerfection4990.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "10 kB",
-			"FileModifyDate": "2011:04:19 14:05:37+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1485,8 +1451,6 @@
 			"FileName": "EpsonPerfection2480.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "413 bytes",
-			"FileModifyDate": "2011:06:07 14:09:22+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1522,8 +1486,6 @@
 			"FileName": "EpsonPerfection1660.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "413 bytes",
-			"FileModifyDate": "2011:06:07 14:09:21+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1559,8 +1521,6 @@
 			"FileName": "EpsonPerfection1250.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "413 bytes",
-			"FileModifyDate": "2011:06:07 14:09:21+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1585,7 +1545,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonL-500V.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2005:02:25 14:15:29",
@@ -1632,8 +1592,6 @@
 			"FileName": "EpsonL-500V.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "14 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1702,7 +1660,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonL-410.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2004:04:06 00:13:39",
@@ -1750,8 +1708,6 @@
 			"FileName": "EpsonL-410.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "13 kB",
-			"FileModifyDate": "2006:03:13 14:10:43+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1819,7 +1775,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonL-400.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2005:07:16 16:08:27",
@@ -1867,8 +1823,6 @@
 			"FileName": "EpsonL-400.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "6.7 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -1945,7 +1899,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonL-300.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CustomRendered": "Normal process",
 			"DateTime": "2004:08:30 10:26:27",
@@ -1993,8 +1947,6 @@
 			"FileName": "EpsonL-300.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.0 kB",
-			"FileModifyDate": "2006:01:25 17:07:38+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2072,7 +2024,7 @@
 		"img": "sampleImages/Epson/EpsonExp10000XL.jpg",
 		"exifJS": {
 			"BitsPerSample": "8,8,8",
-			"ColorSpace": "65535",
+			"ColorSpace": "",
 			"Compression": "1",
 			"DateTime": "2009:06:18 18:42:45",
 			"ExifIFDPointer": "312",
@@ -2098,8 +2050,6 @@
 			"FileName": "EpsonExp10000XL.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "4.7 kB",
-			"FileModifyDate": "2011:06:07 14:09:21+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2147,8 +2097,6 @@
 			"FileName": "EpsonCX4400.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "387 bytes",
-			"FileModifyDate": "2010:06:10 14:26:23+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2169,7 +2117,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCX3900.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2007:10:27 23:04:23",
 			"ExifIFDPointer": "234",
@@ -2191,8 +2139,6 @@
 			"FileName": "EpsonCX3900.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "5.9 kB",
-			"FileModifyDate": "2010:06:10 14:26:23+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2227,7 +2173,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-920Z.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2003:05:03 21:10:40",
@@ -2269,8 +2215,6 @@
 			"FileName": "EpsonCP-920Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "29 kB",
-			"FileModifyDate": "2006:03:13 14:31:40+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2343,7 +2287,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-900Z.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2005:09:08 10:39:13",
@@ -2385,8 +2329,6 @@
 			"FileName": "EpsonCP-900Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "9.3 kB",
-			"FileModifyDate": "2006:03:13 14:31:40+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2456,7 +2398,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-850Z.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "1999:01:02 00:42:40",
@@ -2498,8 +2440,6 @@
 			"FileName": "EpsonCP-850Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "1955 bytes",
-			"FileModifyDate": "2010:09:23 12:56:08+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2567,7 +2507,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-80Z.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"DateTime": "2004:02:29 19:23:46",
 			"DateTimeDigitized": "2004:02:29 19:23:46",
@@ -2604,8 +2544,6 @@
 			"FileName": "EpsonCP-80Z.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "8.7 kB",
-			"FileModifyDate": "2006:05:09 20:08:08+01:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2669,7 +2607,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-800S.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "2",
 			"DateTime": "2001:04:05 14:25:08",
@@ -2711,8 +2649,6 @@
 			"FileName": "EpsonCP-800S.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:03:13 14:41:02+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
@@ -2782,7 +2718,7 @@
 	{
 		"img": "sampleImages/Epson/EpsonCP-800.jpg",
 		"exifJS": {
-			"ColorSpace": "1",
+			"ColorSpace": "sRGB",
 			"ComponentsConfiguration": "YCbCr",
 			"CompressedBitsPerPixel": "1",
 			"DateTime": "2004:01:08 09:47:06",
@@ -2824,8 +2760,6 @@
 			"FileName": "EpsonCP-800.jpg",
 			"Directory": "sampleImages/Epson",
 			"FileSize": "7.3 kB",
-			"FileModifyDate": "2006:03:13 14:31:41+00:00",
-			"FileInodeChangeDate": "2014:04:04 20:18:57+01:00",
 			"FilePermissions": "rw-r--r--",
 			"FileType": "JPEG",
 			"MIMEType": "image/jpeg",
