@@ -27,7 +27,7 @@
         html += "<ul>";
         
         for (var key in reportFiles) {
-            html += "<li><a href='"+reportFiles[key]+"'>"+reportFiles[key]+"</a> Supported: "+totalSupportedTagsByModel[reportFiles[key]]+", Unsupported: "+totalUnsupportedTagsByModel[reportFiles[key]]+"</li>";
+            html += "<li><a href='"+reportFiles[key]+"'>"+reportFiles[key]+"</a> Supported: "+totalSupportedTagsByModel[reportFiles[key]]+", Unsupported: "+totalUnsupportedTagsByModel[reportFiles[key]]+"</li>\n";
         }
         html += "</ul>";
 
@@ -89,17 +89,17 @@
                         totalSupportedByThisModel++;
                     } else {
                         unsupportedTags.push(key + " : "
-                                + results[i].exifPerl[key] + "<br>" + key
-                                + " : " + results[i].exifJS[key] + "<br>");
+                                + results[i].exifPerl[key] + "<br>\n" + key
+                                + " : " + results[i].exifJS[key] + "<br>\n");
                         totalUnsupportedTags++;
                         totalUnsupportedByThisModel++;
                     }
                 }
-                var rowHtml = "<tr>";
-                rowHtml += "<td>" + results[i].img + "</td>";
-                rowHtml += "<td>" + supportedTags.join("<br>") + "</td>";
-                rowHtml += "<td>" + unsupportedTags.join("<br>") + "</td>";
-                rowHtml += "</tr>";
+                var rowHtml = "<tr>\n";
+                rowHtml += "<td>" + results[i].img + "</td>\n";
+                rowHtml += "<td>" + supportedTags.join("<br>\n") + "</td>\n";
+                rowHtml += "<td>" + unsupportedTags.join("<br>\n") + "</td>\n";
+                rowHtml += "</tr>\n";
 
                 html += rowHtml;
             }
