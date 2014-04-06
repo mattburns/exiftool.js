@@ -1,15 +1,15 @@
 exiftool.js
 ===========
 
-A pure javascript implementation of exiftool.
+A pure javascript implementation of Phil Harvey's excellent [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/).
 
-This extends the great work started by [Jacob Seidelin](http://www.nihilogic.dk/labs/exifjquery/)
+This extends work started by [Jacob Seidelin](http://www.nihilogic.dk/labs/exifjquery/)
 
 
 Usage
 =====
 
-Use jQuery:
+With jQuery:
 
 ```
 $(this).getExifFromUrl(url, function(exif) {
@@ -18,7 +18,7 @@ $(this).getExifFromUrl(url, function(exif) {
 
 ```
 
-Or you can read from a local file (like drag and drop)
+Or you can read from a local file (like drag and drop):
 
 ```
 var binaryReader = new FileReader();
@@ -29,6 +29,16 @@ binaryReader.onloadend = function() {
 binaryReader.readAsBinaryString(file);
 
 ```
+
+Or using node,js:
+
+```
+var exiftool = require('./exiftool.js');
+var fs = require('fs');
+
+exiftool.getExifFromLocalFileUsingNodeFs(fs, imgFile, function(exif) {
+    console.log("Make is : " + exif["Make"]);
+});
 
 
 Coverage
@@ -44,3 +54,16 @@ node testWithNode.js
 ```
 
 This will thrash every sample image through the perl exiftool and also through exiftool.js then generate the report files to compare the output.
+
+
+Adding more images
+==================
+
+If you want to test some of your own image files, copy them into the sampleImages/_Other directory. Then, if you want to check them in, I have a script (c/o Phil Harvey) that will swap the main image with a small blank white square. This keeps the files small but don't rely on it giving you full anonymity because there may still be thumbnail image data in the file or other personal info in the filesname or other exif tags.
+
+The script is called swap_image.pl but to keep things complicated, I suggest you just run the ant script:
+
+```
+ant
+```
+

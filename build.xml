@@ -1,0 +1,19 @@
+<project name="scf-testdata" default="run" basedir=".">
+    <description>
+        Shrink any test images and regenerate the coverage reports (requires both node and perl)
+    </description>
+
+    <target name="shrink-support-images" description="Reduce regression test images so that image is blank">
+        <apply executable="perl" parallel="false">
+            <arg value="swap_image.pl" />
+            <srcfile />
+            <fileset dir="sampleImages/_Other" />
+        </apply>
+    </target>
+
+    <target name="run" depends="shrink-support-images">
+        <exec executable="node">
+            <arg value="testWithNode.js" />
+        </exec>
+    </target>
+</project>
