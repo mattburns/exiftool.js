@@ -4,9 +4,9 @@
 		"exifJS": {
 			"ApertureValue": "3",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Copyright": "",
-			"CustomRendered": "Normal process",
+			"CustomRendered": "Normal",
 			"DateTime": "2008:08:05 18:44:55",
 			"DateTimeDigitized": "2008:08:05 18:44:55",
 			"DateTimeOriginal": "2008:08:05 18:44:53",
@@ -30,7 +30,7 @@
 			"ResolutionUnit": "2",
 			"SceneCaptureType": "Standard",
 			"ShutterSpeedValue": "7.57",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "72",
 			"YCbCrPositioning": "1",
 			"YResolution": "72"

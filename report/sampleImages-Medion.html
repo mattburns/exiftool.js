@@ -23,9 +23,12 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Medion/MedionSX410Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -36,9 +39,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5055<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.1356238698<br>
 CompressedBitsPerPixel : 0.13562386980108498<br>
@@ -59,7 +59,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.24<br>
+FocalLength : 8.24 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -101,6 +101,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD9700.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -111,9 +112,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5055<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.1384364821<br>
 CompressedBitsPerPixel : 0.13843648208469056<br>
@@ -134,7 +132,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 17.0 mm<br>
-FocalLength : 17.01<br>
+FocalLength : 17.01 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -176,9 +174,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD9653.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -187,9 +187,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.514<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2001:12:00 00:00:00<br>
@@ -203,11 +200,8 @@ ExifIFDPointer : 284<br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.24<br>
+FocalLength : 8.24 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -249,6 +243,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD86276.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
@@ -256,6 +251,7 @@ DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 Model<br>
@@ -265,13 +261,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.4<br>
 ApertureValue : 4.866<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:09:23 00:30:43<br>
@@ -302,9 +296,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 18.9 mm<br>
-FocalLength : 18.9<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 114<br>
@@ -348,9 +339,6 @@ SubsecTime : 48,0<br>
 UserComment : <br>
 UserComment : 3838<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -358,6 +346,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD86066.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -374,9 +363,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:09:01 11:32:31<br>
@@ -448,11 +434,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD86063.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Saturation<br>
@@ -460,16 +449,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : 2.793816667<br>
+<td>CompressedBitsPerPixel : 2.793816667<br>
 CompressedBitsPerPixel : 2.793816666666667<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:04:30 18:04:43<br>
@@ -497,9 +481,6 @@ ExposureTime : 0.01<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 15.7 mm<br>
-FocalLength : 15.7<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 88<br>
@@ -544,9 +525,6 @@ R 8369 PM 0002 CM 0122 PO -100 PO -100 CO 3240 CO 3236 S 0223 Y 0491 R 0491 B 04
 0.56.03.00  BarCo_A0A1JT017138    P    ST 00 F 01 I 0000.<br>
 UserComment : 37914<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -554,11 +532,14 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Medion/MedionMD85863.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Saturation<br>
@@ -566,16 +547,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : 3.918753046<br>
+<td>CompressedBitsPerPixel : 3.918753046<br>
 CompressedBitsPerPixel : 3.918753045808967<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2011:12:10 12:12:04<br>
@@ -603,9 +579,6 @@ ExposureTime : 0.016666666666666666<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 6.3 mm<br>
-FocalLength : 6.3<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 36<br>
@@ -650,9 +623,6 @@ R 8205 PM 0001 CM 0126 PO -050 PO -050 CO 1844 CO 1836 S 0233 Y 0551 R 0482 B 04
 0.72.01      ST 00 F 01 I 0000.<br>
 UserComment : 37912<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -661,13 +631,16 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Medion/MedionMD85830.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 LightSource<br>
@@ -678,16 +651,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7.2<br>
 ApertureValue : 5.69<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:12:04 19:25:24<br>
@@ -718,9 +686,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -764,9 +729,6 @@ SubjectDistanceRange : <br>
 SubsecTime : undefined<br>
 SubsecTime : 437<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -774,11 +736,13 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Medion/MedionMD85675.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 MeteringMode<br>
@@ -789,9 +753,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.97<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.365315755<br>
 CompressedBitsPerPixel : 1.3653157552083333<br>
@@ -819,9 +780,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Return detected<br>
 Flash : Flash fired, compulsory flash mode, return light detected<br>
-<br>
-FocalLength : 6.2 mm<br>
-FocalLength : 6.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 140<br>
@@ -854,6 +812,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD85447.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExposureIndex<br>
@@ -866,9 +825,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 2.290777537<br>
 CompressedBitsPerPixel : 2.290777537448347<br>
@@ -952,10 +908,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD85375.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 RelatedSoundFile<br>
@@ -964,9 +922,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.571502938<br>
 CompressedBitsPerPixel : 1.5715029377582646<br>
@@ -994,9 +949,6 @@ ExposureTime : 0.0007733952049497294<br>
 <br>
 FileSource : Unknown (DSC)<br>
 FileSource : <br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1050,10 +1002,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD85173.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 RelatedSoundFile<br>
@@ -1062,9 +1016,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.323935547<br>
 CompressedBitsPerPixel : 1.323935546875<br>
@@ -1092,9 +1043,6 @@ ExposureTime : 0.0015467904098994587<br>
 <br>
 FileSource : Unknown (DSC)<br>
 FileSource : <br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1148,6 +1096,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD511Z3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1158,9 +1107,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.7573<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.6944444444<br>
 CompressedBitsPerPixel : 0.6944444444444444<br>
@@ -1181,7 +1127,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 14.3 mm<br>
-FocalLength : 14.26<br>
+FocalLength : 14.26 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1224,7 +1170,9 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Medion/MedionMD5.2z3.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1237,6 +1185,7 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
@@ -1244,12 +1193,6 @@ ApertureValue : 3<br>
 <br>
 CFAPattern : [Green,Red][Blue,Green]<br>
 CFAPattern : 0,2,0,2,1,0,2,1<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:06:02 20:44:52<br>
@@ -1282,7 +1225,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 10.0 mm<br>
-FocalLength : 10<br>
+FocalLength : 10 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1329,9 +1272,6 @@ SubsecTimeDigitized : 00<br>
 SubsecTimeOriginal : undefined<br>
 SubsecTimeOriginal : 00<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1339,6 +1279,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Medion/MedionMD411Z3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -1349,9 +1290,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.7573<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2001:12:00 00:00:00<br>
@@ -1369,7 +1307,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 17.3 mm<br>
-FocalLength : 17.34<br>
+FocalLength : 17.34 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1414,17 +1352,16 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD410Z3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Model<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.7573<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.293402778<br>
 CompressedBitsPerPixel : 1.2934027777777777<br>
@@ -1441,11 +1378,8 @@ ExifIFDPointer : 284<br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 7.6 mm<br>
-FocalLength : 7.64<br>
+FocalLength : 7.64 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1493,6 +1427,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/MedionMD210Z3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1502,9 +1437,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.3<br>
 ApertureValue : 2.4031<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.041666667<br>
 CompressedBitsPerPixel : 1.0416666666666667<br>
@@ -1525,7 +1457,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 15.1 mm<br>
-FocalLength : 15.105<br>
+FocalLength : 15.105 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1567,6 +1499,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Medion/Medion636Z3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -1580,13 +1513,11 @@ Model<br>
 RelatedSoundFile<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1<br>
 ApertureValue : 0<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 3.318104764<br>
 CompressedBitsPerPixel : 3.3181047641793526<br>
@@ -1654,9 +1585,6 @@ ShutterSpeedValue : 3.5<br>
 UserComment : SKEY                       .?,?C?r????;*w??xjP ? ? ?->** ? ? ? ? { s R S R L _ O k b ? ? ? ? ? ? ? x ? x T ; .       <br>
 UserComment : 21210<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1665,6 +1593,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Medion/Medion.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1675,10 +1604,7 @@ SceneType<br>
 UserComment<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:07:03 04:27:41<br>
 <br>
 DateTimeDigitized : undefined<br>

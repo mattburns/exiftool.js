@@ -23,9 +23,12 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Yakumo/YakumoYK-47sx.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -36,9 +39,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.7573<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2001:12:00 00:00:00<br>
@@ -56,7 +56,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 7.6 mm<br>
-FocalLength : 7.64<br>
+FocalLength : 7.64 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -102,6 +102,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Yakumo/YakumoMegaImageXII.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -119,9 +120,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.5<br>
 ApertureValue : 2.7<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.300592235<br>
 CompressedBitsPerPixel : 1.3005922352818806<br>
@@ -151,7 +149,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.25<br>
+FocalLength : 8.25 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -185,20 +183,21 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Yakumo/YakumoMega-ImageIII.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Model<br>
 SceneType<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.5<br>
 ApertureValue : 3.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2086:02:20 21:49:45<br>
@@ -226,12 +225,6 @@ ExposureTime : 0.002070393374741201<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 7.5 mm<br>
-FocalLength : 7.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 90<br>
@@ -272,9 +265,6 @@ ResolutionUnit : 2<br>
 ShutterSpeedValue : 1/478<br>
 ShutterSpeedValue : 8.9<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -282,9 +272,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Yakumo/YakumoMega-Image410.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 Make<br>
@@ -293,13 +285,11 @@ Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3<br>
 ApertureValue : 3.2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:06:18 18:24:30<br>
@@ -315,9 +305,6 @@ ExposureMode : 0<br>
 <br>
 ExposureTime : 1/30<br>
 ExposureTime : 0.03333333333333333<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ImageDescription : Exif_JPEG_422<br>
 ImageDescription : ExifJPEG422<br>
@@ -346,9 +333,6 @@ SubjectDistanceRange : <br>
 UserComment : GAIN099064MAX000000000000SUM000000000000MIN000000000NOWY09777FLASH0000FLAY00000AFD0SV17ZOOM00000000000000000000000000000<br>
 UserComment : 566<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -357,6 +341,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Yakumo/YakumoCamMasterSD542.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -371,12 +356,10 @@ RelatedSoundFile<br>
 Saturation<br>
 SceneType<br>
 Sharpness<br>
-Software</td>
+Software<br>
+WhiteBalance</td>
 <td>ApertureValue : 2.5<br>
 ApertureValue : 2.7<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.097982109<br>
 CompressedBitsPerPixel : 1.097982109423757<br>
@@ -412,7 +395,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.22<br>
+FocalLength : 8.22 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -447,9 +430,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 XResolution : 0.3333333333<br>
 XResolution : 0.3333333333333333<br>
 <br>
@@ -464,6 +444,7 @@ YResolution : 0.3333333333333333<br>
 <td>sampleImages/Yakumo/YakumoAG.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -473,12 +454,10 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:06:29 04:54:03<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -550,9 +529,6 @@ SubjectDistanceRange : <br>
 UserComment : 202, 88, 207, 0, 0, 486<br>
 UserComment : 202, 88, 207, 0, 0, 486  5,   0,   0,   0,   0,   0<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -565,12 +541,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Yakumo/Yakumo1210.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
@@ -582,9 +561,6 @@ ApertureValue : 3<br>
 <br>
 CFAPattern : [Green,Red][Blue,Green]<br>
 CFAPattern : 0,2,0,2,1,0,2,1<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2000:12:31 00:00:00<br>
@@ -600,12 +576,6 @@ ExposureTime : 0.008<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 8.5 mm<br>
-FocalLength : 8.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>

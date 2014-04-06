@@ -23,15 +23,20 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Uniden/UnidenUDC-5M.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -41,16 +46,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>BrightnessValue : inf<br>
 BrightnessValue : -Infinity<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:04:21 13:44:18<br>
@@ -81,9 +81,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -123,9 +120,6 @@ SubjectDistanceRange : Close view<br>
 <br>
 UserComment : <br>
 UserComment : 1180<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>

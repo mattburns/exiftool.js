@@ -23,16 +23,21 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Leica/Leica_digilux4.3.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 FocalPlaneXResolution<br>
 FocalPlaneYResolution<br>
 Make<br>
@@ -43,9 +48,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2000:02:22 18:16:48<br>
@@ -64,12 +66,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 9.4 mm<br>
-FocalLength : 9.4<br>
 <br>
 FocalPlaneResolutionUnit : cm<br>
 FocalPlaneResolutionUnit : 3<br>
@@ -114,7 +110,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaX_VARIO.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -126,15 +124,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2013:07:02 14:39:45<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -162,7 +155,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 46.0 mm<br>
-FocalLength : 46<br>
+FocalLength : 46 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 70<br>
@@ -200,9 +193,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -210,7 +200,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaX2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureProgram<br>
@@ -222,15 +214,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2012:05:08 09:12:57<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -255,7 +242,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 24.0 mm<br>
-FocalLength : 24<br>
+FocalLength : 24 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 36<br>
@@ -293,9 +280,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -303,7 +287,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaX1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureProgram<br>
@@ -317,15 +303,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:11:07 16:17:27<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -379,9 +360,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -390,12 +368,15 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaV-LUX40.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GPSDOP<br>
 GPSDateStamp<br>
 GPSVersionID<br>
@@ -409,13 +390,7 @@ Sharpness<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2012:06:24 11:00:44<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -444,9 +419,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 33.3 mm<br>
-FocalLength : 33.3<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 195<br>
@@ -518,7 +490,7 @@ SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
 WhiteBalance : Daylight<br>
-WhiteBalance : Manual white balance<br>
+WhiteBalance : Manual<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -527,12 +499,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaV-LUX4.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -543,13 +518,7 @@ Sharpness<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2013:04:25 20:58:30<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -578,9 +547,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 105.6 mm<br>
-FocalLength : 105.6<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 610<br>
@@ -616,7 +582,7 @@ SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
 WhiteBalance : Cloudy<br>
-WhiteBalance : Manual white balance<br>
+WhiteBalance : Manual<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -625,12 +591,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaV-LUX30.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GPSDOP<br>
 GPSDateStamp<br>
 GPSSatellites<br>
@@ -643,15 +612,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2011:06:15 14:11:28<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -680,9 +644,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 68.8 mm<br>
-FocalLength : 68.8<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 504<br>
@@ -753,9 +714,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -763,12 +721,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaV-LUX3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -777,15 +738,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2011:12:02 17:17:47<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -814,9 +770,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 99.7 mm<br>
-FocalLength : 99.7<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 554<br>
@@ -854,9 +807,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -864,8 +814,10 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaV-LUX20.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -878,15 +830,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010:09:27 23:20:24<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -917,7 +864,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 30<br>
@@ -955,9 +902,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -967,10 +911,12 @@ YCbCrPositioning : 2<br>
 <td>ColorSpace<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -978,12 +924,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2011:04:23 16:35:46<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1009,9 +953,6 @@ ExposureTime : 0.004<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 4.5 mm<br>
-FocalLength : 4.5<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 25<br>
@@ -1042,21 +983,21 @@ ResolutionUnit : 2<br>
 <br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 </td>
 </tr>
 <tr>
 <td>sampleImages/Leica/LeicaV-LUX1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureProgram<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -1065,15 +1006,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:03:25 15:05:10<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1099,9 +1035,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 31.1 mm<br>
-FocalLength : 31.1<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 147<br>
@@ -1139,9 +1072,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1149,9 +1079,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaS2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 ImageUniqueID<br>
 Make<br>
 Model<br>
@@ -1159,16 +1092,11 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 9.5<br>
 ApertureValue : 6.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2009:11:12 10:31:25<br>
@@ -1191,11 +1119,8 @@ ExposureTime : 0.011111111111111112<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 70.0 mm<br>
-FocalLength : 70<br>
+FocalLength : 70 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 160<br>
@@ -1230,9 +1155,6 @@ ShutterSpeedValue : 6.47265625<br>
 Software :         1.0.0.9<br>
 Software : 1.0.0.9<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 <br>
@@ -1257,6 +1179,7 @@ Model<br>
 Saturation<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>DateTime : undefined<br>
@@ -1303,9 +1226,6 @@ ResolutionUnit : 2<br>
 <br>
 ShutterSpeedValue : 1/776<br>
 ShutterSpeedValue : 9.6<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 </td>
 </tr>
 <tr>
@@ -1324,6 +1244,7 @@ Model<br>
 Saturation<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
@@ -1345,7 +1266,7 @@ ExposureTime : 1/30<br>
 ExposureTime : 0.03333333333333333<br>
 <br>
 FocalLength : 50.0 mm<br>
-FocalLength : 50<br>
+FocalLength : 50 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 800<br>
@@ -1361,17 +1282,16 @@ ResolutionUnit : 2<br>
 <br>
 ShutterSpeedValue : 1/30<br>
 ShutterSpeedValue : 4.906891<br>
-<br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
 </td>
 </tr>
 <tr>
 <td>sampleImages/Leica/LeicaM_Monochrom.jpg</td>
 <td>ColorSpace<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageUniqueID<br>
 Make<br>
@@ -1381,13 +1301,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
-ComponentsConfiguration : NaN<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
+ComponentsConfiguration : undefined, undefined, undefined, undefined<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2012:04:28 22:59:21<br>
@@ -1416,11 +1334,8 @@ ExposureTime : 0.001<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 35.0 mm<br>
-FocalLength : 35<br>
+FocalLength : 35 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -1455,9 +1370,6 @@ ResolutionUnit : 2<br>
 ShutterSpeedValue : 1/1024<br>
 ShutterSpeedValue : 10<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1466,9 +1378,11 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaM9.jpg</td>
 <td>ColorSpace<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureProgram<br>
+Flash<br>
 FlashpixVersion<br>
 ImageUniqueID<br>
 Make<br>
@@ -1479,13 +1393,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
-ComponentsConfiguration : NaN<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
+ComponentsConfiguration : undefined, undefined, undefined, undefined<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:09:08 14:15:02<br>
@@ -1511,11 +1423,8 @@ ExposureTime : 0.008<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 35.0 mm<br>
-FocalLength : 35<br>
+FocalLength : 35 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -1547,9 +1456,6 @@ ResolutionUnit : 2<br>
 ShutterSpeedValue : 1/128<br>
 ShutterSpeedValue : 7<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1558,6 +1464,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaM8.jpg</td>
 <td>ColorSpace<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1573,10 +1480,7 @@ Software<br>
 XResolution<br>
 YResolution</td>
 <td>ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
-ComponentsConfiguration : NaN<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
+ComponentsConfiguration : undefined, undefined, undefined, undefined<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:07:09 14:50:29<br>
@@ -1606,7 +1510,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 50.0 mm<br>
-FocalLength : 50<br>
+FocalLength : 50 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 160<br>
@@ -1636,7 +1540,7 @@ ShutterSpeedValue : 1/256<br>
 ShutterSpeedValue : 8<br>
 <br>
 WhiteBalance : Auto or Manual<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -1646,6 +1550,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaM8.2.jpg</td>
 <td>Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1664,10 +1569,7 @@ YResolution</td>
 ColorSpace : <br>
 <br>
 ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
-ComponentsConfiguration : NaN<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
+ComponentsConfiguration : undefined, undefined, undefined, undefined<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:07:30 19:04:41<br>
@@ -1697,7 +1599,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 35.0 mm<br>
-FocalLength : 35<br>
+FocalLength : 35 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 640<br>
@@ -1727,7 +1629,7 @@ ShutterSpeedValue : 1/45<br>
 ShutterSpeedValue : 5.5<br>
 <br>
 WhiteBalance : Auto or Manual<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -1737,10 +1639,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaM.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 GPSDOP<br>
 GPSDateStamp<br>
 GPSSpeed<br>
@@ -1752,16 +1657,11 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2013:03:21 16:06:18<br>
@@ -1787,11 +1687,8 @@ ExposureTime : 0.001<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 35.0 mm<br>
-FocalLength : 35<br>
+FocalLength : 35 mm<br>
 <br>
 GPSAltitude : 0 m Above Sea Level<br>
 GPSAltitude : 0<br>
@@ -1859,9 +1756,6 @@ ShutterSpeedValue : 10.0546875<br>
 Software :         1.1.0.2<br>
 Software : 1.1.0.2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 <br>
@@ -1873,12 +1767,14 @@ YCbCrSubSampling : 2,1<br>
 <td>sampleImages/Leica/LeicaDigiluxZoom.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 FocalPlaneXResolution<br>
 FocalPlaneYResolution<br>
 Make<br>
@@ -1889,9 +1785,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.2<br>
 ApertureValue : 3.4<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 1999:06:16 22:52:03<br>
@@ -1913,9 +1806,6 @@ FileSource : DSC<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 9.9 mm<br>
-FocalLength : 9.9<br>
 <br>
 FocalPlaneResolutionUnit : cm<br>
 FocalPlaneResolutionUnit : 3<br>
@@ -1957,8 +1847,10 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaDigilux3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1971,15 +1863,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:02:11 07:25:41<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2010,7 +1897,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 38.0 mm<br>
-FocalLength : 38<br>
+FocalLength : 38 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 76<br>
@@ -2048,9 +1935,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2059,12 +1943,15 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaDigilux2.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 LightSource<br>
 Make<br>
@@ -2074,6 +1961,7 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
@@ -2081,12 +1969,6 @@ ApertureValue : 5<br>
 <br>
 CFAPattern : [Red,Green][Green,Blue]<br>
 CFAPattern : 0,2,0,2,0,1,1,2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:04:19 11:02:48<br>
@@ -2117,9 +1999,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 19.6 mm<br>
-FocalLength : 19.6<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 78<br>
@@ -2157,9 +2036,6 @@ ShutterSpeedValue : 8.644<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2167,6 +2043,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaDigilux1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -2177,6 +2054,7 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 6.5<br>
@@ -2184,9 +2062,6 @@ ApertureValue : 5.4<br>
 <br>
 CFAPattern : [Green,Magenta][Yellow,Cyan]<br>
 CFAPattern : 0,2,0,2,1,4,5,3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:06:20 14:29:13<br>
@@ -2219,7 +2094,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 20.7 mm<br>
-FocalLength : 20.74<br>
+FocalLength : 20.74 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -2251,9 +2126,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/549<br>
 ShutterSpeedValue : 9.1<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2262,12 +2134,15 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaDigilux.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 FocalPlaneXResolution<br>
 FocalPlaneYResolution<br>
 Make<br>
@@ -2278,9 +2153,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 8<br>
 ApertureValue : 6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:06:19 08:50:43<br>
@@ -2299,12 +2171,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 7.6 mm<br>
-FocalLength : 7.6<br>
 <br>
 FocalPlaneResolutionUnit : cm<br>
 FocalPlaneResolutionUnit : 3<br>
@@ -2344,12 +2210,15 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaD-LUX6.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -2358,15 +2227,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2012:01:26 22:01:49<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2395,9 +2259,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.7 mm<br>
-FocalLength : 4.7<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 24<br>
@@ -2435,9 +2296,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2446,12 +2304,15 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaD-LUX5.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 MaxApertureValue<br>
@@ -2461,15 +2322,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2011:04:19 14:38:59<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2498,9 +2354,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 6.8 mm<br>
-FocalLength : 6.8<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 32<br>
@@ -2535,9 +2388,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2545,12 +2395,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaD-LUX4.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 MaxApertureValue<br>
@@ -2560,15 +2413,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:05:12 14:16:13<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2597,9 +2445,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.1 mm<br>
-FocalLength : 5.1<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 24<br>
@@ -2634,9 +2479,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2644,11 +2486,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaD-LUX3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -2657,16 +2502,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-Contrast : Low<br>
+<td>Contrast : Low<br>
 Contrast : Soft<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:04:06 14:12:50<br>
@@ -2697,9 +2537,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 25.2 mm<br>
-FocalLength : 25.2<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 136<br>
@@ -2737,9 +2574,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2747,11 +2581,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaD-LUX2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -2759,16 +2596,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-Contrast : Low<br>
+<td>Contrast : Low<br>
 Contrast : Soft<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:12:26 11:51:39<br>
@@ -2799,9 +2631,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 6.3 mm<br>
-FocalLength : 6.3<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 28<br>
@@ -2842,9 +2671,6 @@ Saturation : Low saturation<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2853,12 +2679,15 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaD-LUX.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 LightSource<br>
 Make<br>
@@ -2868,16 +2697,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>CFAPattern : [Red,Green][Green,Blue]<br>
 CFAPattern : 0,2,0,2,0,1,1,2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:10:09 18:49:55<br>
@@ -2908,9 +2732,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 11.6 mm<br>
-FocalLength : 11.6<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 70<br>
@@ -2951,9 +2772,6 @@ ShutterSpeedValue : 5.907<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2962,12 +2780,15 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Leica/LeicaC.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -2977,15 +2798,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2013:11:05 12:24:51<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3014,9 +2830,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 27.3 mm<br>
-FocalLength : 27.3<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 128<br>
@@ -3054,9 +2867,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3064,12 +2874,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaC-LUX3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -3077,15 +2890,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010:06:11 04:19:24<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3114,9 +2922,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 4.9 mm<br>
-FocalLength : 4.9<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 30<br>
@@ -3157,9 +2962,6 @@ Saturation : High saturation<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3167,12 +2969,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaC-LUX2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -3180,15 +2985,10 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:06:08 14:17:48<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3217,9 +3017,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.6 mm<br>
-FocalLength : 4.6<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 28<br>
@@ -3257,9 +3054,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3267,27 +3061,25 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Leica/LeicaC-LUX1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:07:07 15:28:22<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3316,9 +3108,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.6 mm<br>
-FocalLength : 4.6<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 28<br>
@@ -3358,9 +3147,6 @@ Saturation : Low saturation<br>
 <br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>

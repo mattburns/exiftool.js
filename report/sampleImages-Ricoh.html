@@ -23,16 +23,20 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Ricoh/RicohTHETA.jpg</td>
 <td>ApertureValue<br>
 BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GPSImgDirection<br>
 GPSVersionID<br>
@@ -42,12 +46,10 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2013:12:11 12:50:17<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -68,11 +70,8 @@ ExposureProgram : Normal program<br>
 ExposureTime : 1/30<br>
 ExposureTime : 0.03333333333333333<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 0.8 mm<br>
-FocalLength : 0.75<br>
+FocalLength : 0.75 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 6<br>
@@ -116,25 +115,20 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 57960<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
 </tr>
 <tr>
 <td>sampleImages/Ricoh/RicohRDXIFW32.jpg</td>
-<td>CompressedBitsPerPixel<br>
+<td>ComponentsConfiguration<br>
+CompressedBitsPerPixel<br>
 ExifVersion<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 154<br>
 <br>
 MakerNoteIFDPointer : undefined<br>
@@ -157,11 +151,14 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Ricoh/RicohRDC4300.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -170,20 +167,11 @@ YResolution</td>
 <td>ApertureValue : 3.7<br>
 ApertureValue : 3.8<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 ExifIFDPointer : undefined<br>
 ExifIFDPointer : 376<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 5.6 mm<br>
-FocalLength : 5.6<br>
 <br>
 MakerNoteIFDPointer : undefined<br>
 MakerNoteIFDPointer : 686<br>
@@ -232,20 +220,20 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohRDC-i500.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:05:22 17:37:24<br>
@@ -261,12 +249,6 @@ ExposureBias : 0<br>
 <br>
 ExposureProgram : Program AE<br>
 ExposureProgram : Normal program<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 7.5 mm<br>
-FocalLength : 7.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 150<br>
@@ -315,11 +297,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohRDC-7S.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -328,9 +313,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.5<br>
 ApertureValue : 3.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:11:20 11:52:33<br>
@@ -343,12 +325,6 @@ ExifIFDPointer : 264<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 10.7 mm<br>
-FocalLength : 10.7<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 1138<br>
@@ -388,20 +364,19 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Ricoh/RicohRDC-7.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.7<br>
 ApertureValue : 2.9<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2000:07:22 20:43:43<br>
@@ -414,9 +389,6 @@ ExposureBias : 0.5<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 8.5 mm<br>
-FocalLength : 8.5<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 910<br>
@@ -455,9 +427,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohRDC-6000.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 RelatedSoundFile<br>
 Software<br>
@@ -465,9 +439,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 24.34421258<br>
 CompressedBitsPerPixel : 24.344212582236842<br>
@@ -483,9 +454,6 @@ ExifIFDPointer : 342<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : NaN<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 0<br>
@@ -528,20 +496,19 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohRDC-5300.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 1999:12:28 22:46:07<br>
@@ -554,9 +521,6 @@ ExposureBias : 0<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 9.3 mm<br>
-FocalLength : 9.3<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 936<br>
@@ -599,20 +563,20 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohRDC-5000.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.1<br>
 ApertureValue : 3.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 1999:06:04 22:30:22<br>
@@ -622,12 +586,6 @@ ExifIFDPointer : 192<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 11.1 mm<br>
-FocalLength : 11.1<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 936<br>
@@ -670,11 +628,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohRDC-4300.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -683,20 +644,11 @@ YResolution</td>
 <td>ApertureValue : 3.7<br>
 ApertureValue : 3.8<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 ExifIFDPointer : undefined<br>
 ExifIFDPointer : 376<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 5.6 mm<br>
-FocalLength : 5.6<br>
 <br>
 MakerNoteIFDPointer : undefined<br>
 MakerNoteIFDPointer : 686<br>
@@ -745,20 +697,19 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohRDC-200G.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2002:05:25 16:48:29<br>
@@ -771,9 +722,6 @@ ExposureBias : 0<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 10.4 mm<br>
-FocalLength : 10.4<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 936<br>
@@ -821,23 +769,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohR8.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.3<br>
 ApertureValue : 4.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:01:30 12:13:46<br>
@@ -862,9 +810,6 @@ ExposureTime : 0.006535947712418301<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 35.4 mm<br>
-FocalLength : 35.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -902,9 +847,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 25592<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -913,12 +855,15 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohR50.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -927,15 +872,10 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:01:30 14:39:05<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -964,9 +904,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 26.2 mm<br>
-FocalLength : 26.2<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 148<br>
@@ -1010,9 +947,6 @@ SubjectDistanceRange : <br>
 UserComment : <br>
 UserComment : 1126<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1021,6 +955,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohR10.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -1032,13 +967,11 @@ MeteringMode<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.9<br>
 ApertureValue : 4.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:09:09 11:53:55<br>
@@ -1065,7 +998,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -1100,9 +1033,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 25828<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1112,6 +1042,7 @@ YCbCrPositioning : 2<br>
 <td>ApertureValue<br>
 BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -1125,10 +1056,7 @@ Sharpness<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2011:01:10 20:08:06<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1153,7 +1081,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 1131<br>
@@ -1192,7 +1120,7 @@ UserComment : <br>
 UserComment : 23356<br>
 <br>
 WhiteBalance : Multi-pattern Auto<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -1202,20 +1130,19 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohI700.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2001:05:25 19:36:49<br>
@@ -1228,9 +1155,6 @@ ExposureBias : 0<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 7.5 mm<br>
-FocalLength : 7.5<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 910<br>
@@ -1269,6 +1193,8 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohHZ15.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureProgram<br>
@@ -1281,16 +1207,11 @@ Model<br>
 OffsetSchema<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.9<br>
 ApertureValue : 3.95<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2013:10:21 11:38:43<br>
@@ -1320,7 +1241,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 39<br>
@@ -1355,9 +1276,6 @@ ResolutionUnit : 2<br>
 ShutterSpeedValue : 1/7<br>
 ShutterSpeedValue : 2.74<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1366,6 +1284,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohGXR_S10.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -1373,19 +1292,18 @@ ExifVersion<br>
 ExposureTime<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 8<br>
 ApertureValue : 6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:10:05 05:55:56<br>
@@ -1407,9 +1325,6 @@ ExposureProgram : Aperture priority<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 6.9 mm<br>
-FocalLength : 6.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1444,9 +1359,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 18144<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1454,17 +1366,20 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohGXR_P10.jpg</td>
 <td>BrightnessValue<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
@@ -1472,9 +1387,6 @@ ApertureValue : 4.5<br>
 <br>
 ColorSpace : Uncalibrated<br>
 ColorSpace : <br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2000:01:02 00:02:12<br>
@@ -1499,9 +1411,6 @@ ExposureTime : 0.011111111111111112<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 16.3 mm<br>
-FocalLength : 16.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 104<br>
@@ -1542,9 +1451,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 18262<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 WhitePoint : 0.313 0.329<br>
 WhitePoint : 0.313,0.329<br>
 <br>
@@ -1559,6 +1465,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohGXR_MOUNT_A12.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -1574,9 +1481,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1<br>
 ApertureValue : 0<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2011:02:09 12:52:01<br>
@@ -1642,7 +1546,7 @@ UserComment : <br>
 UserComment : 19788<br>
 <br>
 WhiteBalance : Multi-pattern Auto<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -1652,6 +1556,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohGXR_A16.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -1659,6 +1564,7 @@ ExifVersion<br>
 ExposureTime<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
@@ -1668,9 +1574,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 8<br>
 ApertureValue : 6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2012:03:29 18:17:52<br>
@@ -1692,9 +1595,6 @@ ExposureProgram : Aperture priority<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 15.7 mm<br>
-FocalLength : 15.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1733,7 +1633,7 @@ UserComment : <br>
 UserComment : 23980<br>
 <br>
 WhiteBalance : Multi-pattern Auto<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -1744,12 +1644,14 @@ YCbCrPositioning : 2<br>
 <td>ApertureValue<br>
 BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
@@ -1757,10 +1659,7 @@ Sharpness<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010:11:13 19:17:20<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1783,9 +1682,6 @@ ExposureTime : 0.125<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 18.3 mm<br>
-FocalLength : 18.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 800<br>
@@ -1824,7 +1720,7 @@ UserComment : <br>
 UserComment : 19164<br>
 <br>
 WhiteBalance : Multi-pattern Auto<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -1834,6 +1730,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohGXR.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -1845,13 +1742,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:11:04 14:03:14<br>
@@ -1878,7 +1773,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 33.0 mm<br>
-FocalLength : 33<br>
+FocalLength : 33 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 1600<br>
@@ -1916,9 +1811,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 18144<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1927,23 +1819,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohGX200.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 6.3<br>
 ApertureValue : 5.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:06:23 04:22:34<br>
@@ -1968,9 +1860,6 @@ ExposureTime : 0.0016129032258064516<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 15.3 mm<br>
-FocalLength : 15.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -2008,9 +1897,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 25524<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2020,22 +1906,22 @@ YCbCrPositioning : 2<br>
 <td>ApertureValue<br>
 BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:09:09 14:04:15<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2058,9 +1944,6 @@ ExposureTime : 0.019230769230769232<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.9 mm<br>
-FocalLength : 5.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -2098,9 +1981,6 @@ ResolutionUnit : 2<br>
 UserComment : ††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††††<br>
 UserComment : 16824<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2109,6 +1989,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohGR_DIGITAL4.jpg</td>
 <td>ApertureValue<br>
 BrightnessValue<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -2125,9 +2006,6 @@ XResolution<br>
 YResolution</td>
 <td>ColorSpace : Uncalibrated<br>
 ColorSpace : <br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2011:10:07 13:56:58<br>
@@ -2154,7 +2032,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 6.0 mm<br>
-FocalLength : 6<br>
+FocalLength : 6 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -2190,7 +2068,7 @@ ShutterSpeedValue : 1/850<br>
 ShutterSpeedValue : 9.731319<br>
 <br>
 WhiteBalance : Multi-pattern Auto<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 WhitePoint : 0.313 0.329<br>
 WhitePoint : 0.313,0.329<br>
@@ -2206,6 +2084,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohGR_DIGITAL3.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -2217,13 +2096,11 @@ MaxApertureValue<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
 ApertureValue : 5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:08:11 18:41:15<br>
@@ -2250,7 +2127,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 6.0 mm<br>
-FocalLength : 6<br>
+FocalLength : 6 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -2285,9 +2162,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 17780<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2296,23 +2170,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohGR_DIGITAL2.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.5<br>
 ApertureValue : 4.9<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:10:12 13:33:35<br>
@@ -2337,9 +2211,6 @@ ExposureTime : 0.0017543859649122807<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.9 mm<br>
-FocalLength : 5.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -2377,9 +2248,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 24932<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2388,24 +2256,24 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohGR.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 8<br>
 ApertureValue : 6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2013:05:08 10:26:19<br>
@@ -2430,9 +2298,6 @@ ExposureTime : 0.002<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 18.3 mm<br>
-FocalLength : 18.3<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -2473,9 +2338,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 33678<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2484,6 +2346,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohG700SE.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -2495,13 +2358,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1.1<br>
 ApertureValue : 0.35<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2012:07:23 09:32:10<br>
@@ -2528,7 +2389,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -2566,9 +2427,6 @@ ResolutionUnit : 2<br>
 UserComment : GCM_TAG<br>
 UserComment : 998<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2577,6 +2435,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohG700.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -2588,13 +2447,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1.1<br>
 ApertureValue : 0.35<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:07:22 12:20:34<br>
@@ -2621,7 +2478,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -2659,9 +2516,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 996<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2670,6 +2524,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohG600.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -2680,13 +2535,11 @@ Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1.1<br>
 ApertureValue : 0.35<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:05:01 13:31:44<br>
@@ -2713,7 +2566,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -2751,9 +2604,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 970<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2762,23 +2612,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohG3.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.5<br>
 ApertureValue : 3.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:01:01 00:06:18<br>
@@ -2803,9 +2653,6 @@ ExposureTime : 0.1<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 9.9 mm<br>
-FocalLength : 9.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 154<br>
@@ -2843,9 +2690,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 1278<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2854,11 +2698,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohDC-4T.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 XResolution<br>
@@ -2866,20 +2713,11 @@ YResolution</td>
 <td>ApertureValue : 13.9<br>
 ApertureValue : 7.6<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 ExifIFDPointer : undefined<br>
 ExifIFDPointer : 376<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 5.6 mm<br>
-FocalLength : 5.6<br>
 <br>
 LightSource : Unknown<br>
 LightSource : <br>
@@ -2931,11 +2769,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohDC-4.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 XResolution<br>
@@ -2943,20 +2784,11 @@ YResolution</td>
 <td>ApertureValue : 2.9<br>
 ApertureValue : 3.1<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 ExifIFDPointer : undefined<br>
 ExifIFDPointer : 375<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 6.4 mm<br>
-FocalLength : 6.4<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 964<br>
@@ -3008,6 +2840,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohDC-3Z.jpg</td>
 <td>ApertureValue<br>
 BrightnessValue<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -3017,10 +2850,7 @@ MaxApertureValue<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 376<br>
 <br>
 ExposureBias : undefined<br>
@@ -3030,7 +2860,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 LightSource : Unknown<br>
 LightSource : <br>
@@ -3070,29 +2900,25 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohDC-3.jpg</td>
 <td>ApertureValue<br>
 BrightnessValue<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 Make<br>
 MaxApertureValue<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 376<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 4.0 mm<br>
-FocalLength : 4<br>
+FocalLength : 4 mm<br>
 <br>
 LightSource : Unknown<br>
 LightSource : <br>
@@ -3132,23 +2958,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioRZ1.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.9<br>
 ApertureValue : 3.1<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:12:04 16:18:54<br>
@@ -3173,9 +2999,6 @@ ExposureTime : 0.0022727272727272726<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 5.7 mm<br>
-FocalLength : 5.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3213,9 +3036,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 18468<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3224,23 +3044,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioRX.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.2<br>
 ApertureValue : 3.4<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:05:14 16:36:57<br>
@@ -3265,9 +3085,6 @@ ExposureTime : 0.006535947712418301<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 4.3 mm<br>
-FocalLength : 4.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -3305,9 +3122,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 22300<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3315,11 +3129,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioRR770.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -3327,15 +3144,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010:03:12 20:12:53<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3364,9 +3176,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -3401,9 +3210,6 @@ PixelYDimension : 960<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3411,11 +3217,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioRR750.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -3423,15 +3232,10 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:06:14 15:12:11<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3460,9 +3264,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.5 mm<br>
-FocalLength : 5.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -3494,9 +3295,6 @@ ResolutionUnit : 2<br>
 Saturation : Low<br>
 Saturation : Low saturation<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -3504,11 +3302,14 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioRR630.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -3517,15 +3318,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:05:23 07:06:53<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3554,9 +3350,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 7.5 mm<br>
-FocalLength : 7.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3588,9 +3381,6 @@ PixelYDimension : 480<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3598,10 +3388,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioRR530.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 LightSource<br>
 Make<br>
@@ -3609,10 +3401,7 @@ Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:12:01 22:45:25<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3635,9 +3424,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3670,19 +3456,18 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioRR430.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:03:23 11:52:54<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3705,9 +3490,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3743,6 +3525,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioRR330.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3752,13 +3535,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
 ApertureValue : 5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:12:30 20:10:13<br>
@@ -3802,9 +3583,6 @@ ShutterSpeedValue : 5.6<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3813,23 +3591,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioRR30.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:05:15 22:09:11<br>
@@ -3854,9 +3632,6 @@ ExposureTime : 0.022222222222222223<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 6.5 mm<br>
-FocalLength : 6.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -3894,9 +3669,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 1278<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3905,6 +3677,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioRR230.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3913,10 +3686,7 @@ Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:10:13 21:28:28<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3965,9 +3735,11 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioRR211.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -3977,9 +3749,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:08:18 15:35:01<br>
@@ -4002,11 +3771,8 @@ ExposureTime : 0.06666666666666667<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 10.0 mm<br>
-FocalLength : 9.96<br>
+FocalLength : 9.96 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -4048,9 +3814,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioRR120.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -4058,10 +3826,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:03:07 11:04:30<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -4085,11 +3850,8 @@ FNumber : 3.02<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -4134,12 +3896,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioRR10.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -4149,9 +3913,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.2<br>
 ApertureValue : 3.4<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:03:11 15:33:11<br>
@@ -4173,9 +3934,6 @@ ExposureTime : 0.25<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 141<br>
@@ -4227,11 +3985,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioRR1.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -4239,9 +4000,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2001:11:07 13:08:41<br>
@@ -4257,12 +4015,6 @@ ExposureBias : 0<br>
 <br>
 ExposureProgram : Program AE<br>
 ExposureProgram : Normal program<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 7.5 mm<br>
-FocalLength : 7.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 150<br>
@@ -4308,23 +4060,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR7.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.9<br>
 ApertureValue : 4.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:09:09 13:46:12<br>
@@ -4349,9 +4101,6 @@ ExposureTime : 0.0017543859649122807<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.6 mm<br>
-FocalLength : 4.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -4389,9 +4138,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 25460<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4400,23 +4146,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR6.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.9<br>
 ApertureValue : 4.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:03:23 13:06:05<br>
@@ -4441,9 +4187,6 @@ ExposureTime : 0.0022727272727272726<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.6 mm<br>
-FocalLength : 4.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -4481,9 +4224,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 19336<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4492,6 +4232,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR5.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -4507,9 +4248,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:08:05 09:27:18<br>
@@ -4536,7 +4274,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 33.0 mm<br>
-FocalLength : 33<br>
+FocalLength : 33 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -4572,7 +4310,7 @@ UserComment : <br>
 UserComment : 19100<br>
 <br>
 WhiteBalance : Unknown (13)<br>
-WhiteBalance : Manual white balance<br>
+WhiteBalance : Manual<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -4582,23 +4320,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR40.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.2<br>
 ApertureValue : 3.4<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:05:12 22:39:42<br>
@@ -4623,9 +4361,6 @@ ExposureTime : 0.03125<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 4.6 mm<br>
-FocalLength : 4.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 336<br>
@@ -4663,9 +4398,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 24396<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4674,23 +4406,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR4.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7<br>
 ApertureValue : 5.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:04:29 16:23:55<br>
@@ -4715,9 +4447,6 @@ ExposureTime : 0.015625<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 9.6 mm<br>
-FocalLength : 9.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 308<br>
@@ -4755,9 +4484,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 18696<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4766,23 +4492,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR30.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.9<br>
 ApertureValue : 4.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:06:29 10:49:35<br>
@@ -4807,9 +4533,6 @@ ExposureTime : 0.001851851851851852<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 4.6 mm<br>
-FocalLength : 4.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -4847,9 +4570,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 2060<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4858,23 +4578,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR3.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.2<br>
 ApertureValue : 3.4<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:12:04 11:24:36<br>
@@ -4899,9 +4619,6 @@ ExposureTime : 0.0024390243902439024<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.6 mm<br>
-FocalLength : 4.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -4939,9 +4656,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 22176<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4950,23 +4664,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR2S.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.6<br>
 ApertureValue : 4.4<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:11:14 15:15:29<br>
@@ -4991,9 +4705,6 @@ ExposureTime : 0.0034482758620689655<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 9.2 mm<br>
-FocalLength : 9.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -5031,9 +4742,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 22104<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5042,6 +4750,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR2.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -5053,13 +4762,11 @@ MeteringMode<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.9<br>
 ApertureValue : 4.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:01:05 20:20:07<br>
@@ -5086,7 +4793,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 11.0 mm<br>
-FocalLength : 11<br>
+FocalLength : 11 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 238<br>
@@ -5121,9 +4828,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 22368<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5132,23 +4836,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR1V.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.4<br>
 ApertureValue : 4.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:09:18 12:42:35<br>
@@ -5173,9 +4877,6 @@ ExposureTime : 0.005681818181818182<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 7.6 mm<br>
-FocalLength : 7.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -5213,9 +4914,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 22252<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5223,6 +4921,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Ricoh/RicohCaplioR1S.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -5232,10 +4931,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2005:01:18 10:13:31<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -5273,23 +4969,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioR1.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.5<br>
 ApertureValue : 3.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:11:11 16:01:26<br>
@@ -5314,9 +5010,6 @@ ExposureTime : 0.05555555555555555<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.6 mm<br>
-FocalLength : 4.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -5354,9 +5047,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 22220<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5365,12 +5055,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioProG3.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GPSDOP<br>
 GPSDateStamp<br>
 GPSImgDirection<br>
@@ -5381,13 +5073,11 @@ Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
 ApertureValue : 5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:05:09 15:38:24<br>
@@ -5412,9 +5102,6 @@ ExposureTime : 0.005291005291005291<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.7 mm<br>
-FocalLength : 5.7<br>
 <br>
 GPSAltitude : 83 m Above Sea Level<br>
 GPSAltitude : 83<br>
@@ -5500,9 +5187,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 1290<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5511,23 +5195,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioGX8.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.5<br>
 ApertureValue : 2.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:09:21 16:13:09<br>
@@ -5552,9 +5236,6 @@ ExposureTime : 0.0022727272727272726<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -5592,9 +5273,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 20028<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5603,6 +5281,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioGX100.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -5610,17 +5289,16 @@ ExifVersion<br>
 ExposureProgram<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.5<br>
 ApertureValue : 2.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:04:12 12:55:23<br>
@@ -5642,9 +5320,6 @@ ExposureTime : 0.0005<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.1 mm<br>
-FocalLength : 5.1<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -5682,9 +5357,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 25764<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5693,23 +5365,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioGX.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.4<br>
 ApertureValue : 4.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:07:09 15:38:36<br>
@@ -5734,9 +5406,6 @@ ExposureTime : 0.006535947712418301<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 17.4 mm<br>
-FocalLength : 17.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -5774,9 +5443,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 22232<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5785,24 +5451,24 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioG4wide.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.7<br>
 ApertureValue : 2.9<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:02:26 10:42:27<br>
@@ -5827,9 +5493,6 @@ ExposureTime : 0.002631578947368421<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.2 mm<br>
-FocalLength : 4.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -5870,9 +5533,6 @@ SubsecTime : 92<br>
 UserComment : Unicode <br>
 UserComment : 1318<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -5881,23 +5541,23 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Ricoh/RicohCaplioG4.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.9<br>
 ApertureValue : 4.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:01:28 15:34:45<br>
@@ -5922,9 +5582,6 @@ ExposureTime : 0.03571428571428571<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 16.5 mm<br>
-FocalLength : 16.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -5962,9 +5619,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 1278<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5973,23 +5627,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioG3modelS.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:12:28 23:40:30<br>
@@ -6014,9 +5668,6 @@ ExposureTime : 0.023809523809523808<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 5.7 mm<br>
-FocalLength : 5.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -6054,9 +5705,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 1278<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -6065,23 +5713,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplioG3modelM.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:01:23 02:47:01<br>
@@ -6106,9 +5754,6 @@ ExposureTime : 0.023809523809523808<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 5.7 mm<br>
-FocalLength : 5.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 161<br>
@@ -6146,9 +5791,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 1278<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -6157,12 +5799,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplio500SE.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GPSDOP<br>
 GPSDateStamp<br>
 GPSImgDirection<br>
@@ -6173,13 +5817,11 @@ Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.5<br>
 ApertureValue : 2.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:05:23 14:30:09<br>
@@ -6204,9 +5846,6 @@ ExposureTime : 0.027777777777777776<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 GPSAltitude : 68 m Above Sea Level<br>
 GPSAltitude : 68<br>
@@ -6304,9 +5943,6 @@ ResolutionUnit : 2<br>
 UserComment : GCM_TAG<br>
 UserComment : 19464<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -6315,23 +5951,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplio500Gwide.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7<br>
 ApertureValue : 5.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:05:22 10:10:59<br>
@@ -6356,9 +5992,6 @@ ExposureTime : 0.0030303030303030303<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 14.2 mm<br>
-FocalLength : 14.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -6396,9 +6029,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 22948<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -6407,6 +6037,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCaplio400Gwide.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -6417,13 +6048,11 @@ Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7<br>
 ApertureValue : 5.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:06:19 14:36:43<br>
@@ -6450,7 +6079,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -6488,9 +6117,6 @@ ResolutionUnit : 2<br>
 UserComment : Unicode <br>
 UserComment : 1278<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -6503,6 +6129,7 @@ CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 FNumber<br>
+FocalLength<br>
 Make<br>
 Model</td>
 <td>ApertureValue : 7.7<br>
@@ -6528,9 +6155,6 @@ ExposureTime : 0.0034482758620689655<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 10.7 mm<br>
-FocalLength : 10.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -6567,24 +6191,24 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCX6.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7.5<br>
 ApertureValue : 5.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2011:11:30 12:52:10<br>
@@ -6609,9 +6233,6 @@ ExposureTime : 0.002631578947368421<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.9 mm<br>
-FocalLength : 4.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -6649,9 +6270,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 42732<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -6660,12 +6278,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCX5.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
@@ -6675,9 +6295,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2011:02:02 11:00:33<br>
@@ -6702,9 +6319,6 @@ ExposureTime : 0.009615384615384616<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 18.3 mm<br>
-FocalLength : 18.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -6743,7 +6357,7 @@ UserComment : <br>
 UserComment : 34300<br>
 <br>
 WhiteBalance : Multi-pattern Auto<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -6753,12 +6367,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCX4.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
@@ -6768,9 +6384,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.4<br>
 ApertureValue : 4.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:08:27 14:55:57<br>
@@ -6795,9 +6408,6 @@ ExposureTime : 0.07142857142857142<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 10.5 mm<br>
-FocalLength : 10.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 800<br>
@@ -6836,7 +6446,7 @@ UserComment : <br>
 UserComment : 21916<br>
 <br>
 WhiteBalance : Multi-pattern Auto<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -6846,12 +6456,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCX3.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
@@ -6861,9 +6473,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:02:11 12:42:49<br>
@@ -6888,9 +6497,6 @@ ExposureTime : 0.004<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 18.3 mm<br>
-FocalLength : 18.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -6929,7 +6535,7 @@ UserComment : <br>
 UserComment : 18144<br>
 <br>
 WhiteBalance : Multi-pattern Auto<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
@@ -6939,23 +6545,23 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCX2.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7<br>
 ApertureValue : 5.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:09:14 13:36:14<br>
@@ -6980,9 +6586,6 @@ ExposureTime : 0.0022727272727272726<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 4.9 mm<br>
-FocalLength : 4.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -7020,9 +6623,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 18036<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -7031,6 +6631,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Ricoh/RicohCX1.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
@@ -7046,9 +6647,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.9<br>
 ApertureValue : 4.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:02:06 16:54:27<br>
@@ -7075,7 +6673,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -7111,7 +6709,7 @@ UserComment : <br>
 UserComment : 13556<br>
 <br>
 WhiteBalance : Multi-pattern Auto<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>

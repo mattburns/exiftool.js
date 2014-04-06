@@ -23,10 +23,13 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Acer/AcerX960.jpg</td>
 <td>DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 Make<br>
 Model<br>
 Software</td>
@@ -41,14 +44,12 @@ DateTimeDigitized : 2009-09-23 17:40:52 UTC<br>
 <br>
 ExifIFDPointer : undefined<br>
 ExifIFDPointer : 140<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 </td>
 </tr>
 <tr>
 <td>sampleImages/Acer/AcerStream.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -56,10 +57,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2002:12:08 12:00:00<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -84,6 +82,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Acer/AcerS200.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -93,10 +92,7 @@ Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010:06:04 18:25:39<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -127,8 +123,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Acer/AcerM900.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -142,16 +140,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.97<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2010:12:18 02:32:55<br>
@@ -181,7 +174,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 4.8 mm<br>
-FocalLength : 4.81<br>
+FocalLength : 4.81 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 36<br>
@@ -225,9 +218,6 @@ ShutterSpeedValue : 2.99<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -235,6 +225,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerLiquidMetal.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -243,17 +234,14 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2011:02:13 14:01:35<br>
 <br>
 ExifIFDPointer : undefined<br>
 ExifIFDPointer : 146<br>
 <br>
 FocalLength : 3.5 mm<br>
-FocalLength : 3.53<br>
+FocalLength : 3.53 mm<br>
 <br>
 GPSAltitude : 0 m Above Sea Level<br>
 GPSAltitude : 0<br>
@@ -298,6 +286,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Acer/AcerLiquid.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -305,13 +294,11 @@ FlashpixVersion<br>
 Make<br>
 MeteringMode<br>
 Model<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2010:06:04 08:09:42<br>
@@ -323,7 +310,7 @@ ExposureMode : Auto<br>
 ExposureMode : 0<br>
 <br>
 FocalLength : 4.3 mm<br>
-FocalLength : 4.31<br>
+FocalLength : 4.31 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 33<br>
@@ -343,9 +330,6 @@ PixelYDimension : 1944<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -353,6 +337,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Acer/AcerE101.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -362,12 +347,10 @@ Make<br>
 Model<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010-06-09 23:15:52 UTC<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -412,9 +395,6 @@ PixelYDimension : 1200<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -423,6 +403,7 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Acer/AcerDX650.jpg</td>
 <td>DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 Make<br>
 Model<br>
 Software</td>
@@ -437,18 +418,18 @@ DateTimeDigitized : 2010-11-14 16:25:16 UTC<br>
 <br>
 ExifIFDPointer : undefined<br>
 ExifIFDPointer : 140<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 </td>
 </tr>
 <tr>
 <td>sampleImages/Acer/AcerCU-6530.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -458,16 +439,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
 ApertureValue : 5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:01:20 16:59:50<br>
@@ -495,9 +471,6 @@ ExposureTime : 0.002631578947368421<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -541,9 +514,6 @@ ShutterSpeedValue : 8.56<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -551,7 +521,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCS6530.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -563,16 +535,11 @@ Model<br>
 Saturation<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.2<br>
 ApertureValue : 3.4<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:01:02 05:11:38<br>
@@ -649,9 +616,6 @@ ShutterSpeedValue : 3.89<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -659,11 +623,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCS5531.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 LightSource<br>
 Make<br>
@@ -672,15 +639,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:06:11 04:43:02<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -709,9 +671,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -746,9 +705,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 10958<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -757,10 +713,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Acer/AcerCR8530.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -770,15 +729,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:01:01 17:00:34<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -804,9 +758,6 @@ ExposureTime : 0.01818181818181818<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 51<br>
@@ -850,9 +801,6 @@ ShutterSpeedValue : 5.78<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -860,7 +808,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCP-8660.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -873,16 +823,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:07:06 20:45:12<br>
@@ -956,9 +901,6 @@ ShutterSpeedValue : 6<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -966,11 +908,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCP-8531.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -978,15 +923,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2011:07:24 12:52:36<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1015,9 +955,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -1055,9 +992,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1065,25 +999,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCL-6300.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.1<br>
 ApertureValue : 3.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:05:09 20:14:31<br>
@@ -1111,9 +1043,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 7.3 mm<br>
-FocalLength : 7.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1151,9 +1080,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/30<br>
 ShutterSpeedValue : 4.91<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1161,24 +1087,22 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCL-5300.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.1<br>
 ApertureValue : 3.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:11:27 14:03:26<br>
@@ -1206,9 +1130,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 7.3 mm<br>
-FocalLength : 7.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -1249,9 +1170,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/55<br>
 ShutterSpeedValue : 5.78<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1259,11 +1177,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCI6330.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -1272,15 +1193,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:07:24 18:15:26<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1309,9 +1225,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire, Red-eye reduction<br>
 Flash : <br>
-<br>
-FocalLength : 7.5 mm<br>
-FocalLength : 7.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -1343,9 +1256,6 @@ PixelYDimension : 2136<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1353,25 +1263,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCI-8330.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:01:27 19:48:50<br>
@@ -1399,9 +1307,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 7.3 mm<br>
-FocalLength : 7.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1439,9 +1344,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 0.7<br>
 ShutterSpeedValue : 0.491<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1449,26 +1351,24 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCE6430.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:07:31 17:46:50<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1497,9 +1397,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 5.5 mm<br>
-FocalLength : 5.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1534,9 +1431,6 @@ ResolutionUnit : 2<br>
 Saturation : High<br>
 Saturation : High saturation<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1544,11 +1438,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Acer/AcerCE-5330.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 LightSource<br>
@@ -1558,15 +1455,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:10:10 22:58:22<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1596,9 +1488,6 @@ FileSource : DSC<br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
-<br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
 <br>
@@ -1625,9 +1514,6 @@ PixelYDimension : 1920<br>
 <br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>

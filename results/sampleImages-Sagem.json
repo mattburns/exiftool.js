@@ -71,7 +71,7 @@
 		"exifJS": {
 			"Artist": "Mobile SAGEM",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2008:07:26 13:51:54",
 			"DateTimeOriginal": "2008:07:26 13:51:54",
 			"ExifIFDPointer": "158",
@@ -135,7 +135,7 @@
 		"img": "sampleImages/Sagem/Sagem_my850C.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "RGB",
+			"ComponentsConfiguration": "R, G, B, -",
 			"Copyright": "Copyright Not Specified",
 			"DateTime": "2004:01:01 16:30:36",
 			"DateTimeDigitized": "2009:06:21 13:57:33",
@@ -196,7 +196,7 @@
 		"img": "sampleImages/Sagem/Sagem_my750X.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "RGB",
+			"ComponentsConfiguration": "R, G, B, -",
 			"Copyright": "Copyright Not Specified",
 			"DateTime": "2004:01:01 16:30:36",
 			"DateTimeDigitized": "2010:02:18 14:02:40",
@@ -258,7 +258,7 @@
 		"img": "sampleImages/Sagem/Sagem_my730C.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "RGB",
+			"ComponentsConfiguration": "R, G, B, -",
 			"Copyright": "Copyright Not Specified",
 			"DateTime": "2004:01:01 16:30:36",
 			"DateTimeDigitized": "2010:01:23 10:39:47",
@@ -320,7 +320,7 @@
 		"exifJS": {
 			"Artist": "Mobile SAGEM",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2008:01:30 22:21:10",
 			"DateTimeOriginal": "2008:01:30 22:21:10",
 			"ExifIFDPointer": "158",
@@ -384,8 +384,8 @@
 		"img": "sampleImages/Sagem/Sagem_my511X.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
-			"CustomRendered": "Normal process",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
+			"CustomRendered": "Normal",
 			"DateTime": "2009:06:18 11:36:02",
 			"DateTimeDigitized": "2009:06:18 11:36:02",
 			"DateTimeOriginal": "2009:06:18 11:36:02",
@@ -465,7 +465,7 @@
 		"exifJS": {
 			"Artist": "Mobile SAGEM",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:04:26 23:37:06",
 			"DateTimeOriginal": "2010:04:26 23:37:06",
 			"ExifIFDPointer": "158",
@@ -705,7 +705,7 @@
 		"img": "sampleImages/Sagem/SagemVF527.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:02:21 14:56:58",
 			"DateTimeDigitized": "2010:02:21 14:56:58",
 			"DateTimeOriginal": "2010:02:21 14:56:58",

@@ -23,28 +23,28 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Mustek/MustekMDC832z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:05:17 16:27:26<br>
@@ -72,9 +72,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 7.3 mm<br>
-FocalLength : 7.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -112,9 +109,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 0.7<br>
 ShutterSpeedValue : 0.491<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -122,7 +116,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Mustek/MustekMDC530z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -134,15 +130,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:05:17 16:32:26<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -173,7 +164,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 12.0 mm<br>
-FocalLength : 12<br>
+FocalLength : 12 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -208,9 +199,6 @@ PixelYDimension : 1920<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -218,6 +206,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Mustek/MustekDV5300SE.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -228,10 +217,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 1970:01:01 00:00:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -259,7 +245,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 8.6 mm<br>
-FocalLength : 8.62<br>
+FocalLength : 8.62 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -304,18 +290,17 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Mustek/Mustek6LZ.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:06:14 11:26:17<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -339,11 +324,8 @@ FNumber : 3.66<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 5.8 mm<br>
-FocalLength : 5.759<br>
+FocalLength : 5.759 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -385,20 +367,19 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Mustek/Mustek5LF-SF.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:02:14 02:06:34<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -419,11 +400,8 @@ ExposureTime : 0.06666666666666667<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 10.8 mm<br>
-FocalLength : 10.84<br>
+FocalLength : 10.84 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>

@@ -27,7 +27,7 @@
         html += "<ul>";
         
         for (var key in reportFiles) {
-            html += "<li><a href='"+reportFiles[key]+"'>"+reportFiles[key]+"</a> Supported: "+totalSupportedTagsByModel[reportFiles[key]]+", Unsupported: "+totalUnsupportedTagsByModel[reportFiles[key]]+"</li>\n";
+            html += "<li><a href='"+reportFiles[key]+"'>"+reportFiles[key]+"</a>\n Supported: "+totalSupportedTagsByModel[reportFiles[key]]+", Unsupported: "+totalUnsupportedTagsByModel[reportFiles[key]]+"</li>\n";
         }
         html += "</ul>";
 
@@ -72,7 +72,7 @@
                         + "<th>image</th>"
                         + "<th>supported tags</th>"
                         + "<th>unsupported tags (perl output, followed by js output)</th>"
-                        + "</tr></thead><tbody>";
+                        + "</tr></thead>\n<tbody>\n";
 
             var totalSupportedByThisModel = 0;
             var totalUnsupportedByThisModel = 0;

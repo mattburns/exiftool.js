@@ -20,7 +20,7 @@
 			"Model": "AutographerV1",
 			"Orientation": "1",
 			"Software": "029.",
-			"WhiteBalance": "Auto white balance"
+			"WhiteBalance": "Auto"
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/OMG/OMGLIFE_AutographerV1.jpg",

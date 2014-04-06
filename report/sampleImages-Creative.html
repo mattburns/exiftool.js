@@ -23,10 +23,14 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Creative/CreativeVadoHD.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -41,19 +45,14 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.7<br>
 ApertureValue : 3.79<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 CompressedBitsPerPixel : 5.372560764<br>
 CompressedBitsPerPixel : 5.372560763888889<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:05:08 11:41:15<br>
@@ -89,7 +88,7 @@ FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
 FocalLength : 3.8 mm<br>
-FocalLength : 3.79<br>
+FocalLength : 3.79 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>
@@ -133,9 +132,6 @@ SubjectDistance : 0<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -144,12 +140,14 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Creative/CreativePC_Cam950Slim.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -159,13 +157,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1.7<br>
 ApertureValue : 1.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.9954878575<br>
 CompressedBitsPerPixel : 0.9954878575420414<br>
@@ -197,11 +193,8 @@ ExposureTime : 0.00088261253309797<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.25<br>
+FocalLength : 8.25 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -236,9 +229,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -247,12 +237,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Creative/CreativePC_Cam930Slim.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -262,13 +254,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 2.608342489<br>
 CompressedBitsPerPixel : 2.608342488606771<br>
@@ -300,11 +290,8 @@ ExposureTime : 0.00423728813559322<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.3 mm<br>
-FocalLength : 8.34<br>
+FocalLength : 8.34 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -339,9 +326,6 @@ ResolutionUnit : 2<br>
 SensingMethod : One-chip color area<br>
 SensingMethod : One-chip color area sensor<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -349,20 +333,19 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Creative/CreativePC-CAM900.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:09:25 14:06:36<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -383,11 +366,8 @@ ExposureTime : 0.0016051364365971107<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 7.5 mm<br>
-FocalLength : 7.454545454545454<br>
+FocalLength : 7.454545454545454 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -426,10 +406,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Creative/CreativeDiViCam428.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -440,9 +422,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3<br>
 ApertureValue : 3.2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.616683333<br>
 CompressedBitsPerPixel : 1.6166833333333333<br>
@@ -470,9 +449,6 @@ FNumber : 7.36<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -520,10 +496,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Creative/CreativeDiViCam316.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 LightSource<br>
 Make<br>
@@ -532,10 +510,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:01:18 09:24:53<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -556,11 +531,8 @@ ExposureTime : 0.1<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.3 mm<br>
-FocalLength : 8.34<br>
+FocalLength : 8.34 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -599,11 +571,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Creative/CreativeDiViCAM525D.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -616,9 +590,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3<br>
 ApertureValue : 3.2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.659310561<br>
 CompressedBitsPerPixel : 1.6593105605390173<br>
@@ -643,9 +614,6 @@ ExposureTime : 0.125<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -690,9 +658,11 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Creative/CreativeDiViCAM516.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExposureIndex<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -703,9 +673,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 2.035354614<br>
 CompressedBitsPerPixel : 2.0353546142578125<br>
@@ -736,9 +703,6 @@ FNumber : 8.25<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -787,7 +751,9 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Creative/CreativeDC-CAM3200Z.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -802,14 +768,8 @@ Sharpness<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : 3.423049927<br>
+<td>CompressedBitsPerPixel : 3.423049927<br>
 CompressedBitsPerPixel : 3.4230499267578125<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:08:11 22:25:48<br>
@@ -845,7 +805,7 @@ Flash : On, Return detected<br>
 Flash : Flash fired, compulsory flash mode, return light detected<br>
 <br>
 FocalLength : 5.7 mm<br>
-FocalLength : 5.69<br>
+FocalLength : 5.69 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>
@@ -896,6 +856,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Creative/CreativeDC-CAM3000Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -911,9 +872,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.6<br>
 ApertureValue : 4.971<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.594121297<br>
 CompressedBitsPerPixel : 1.5941212972005208<br>
@@ -946,7 +904,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 5.7 mm<br>
-FocalLength : 5.69<br>
+FocalLength : 5.69 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -991,10 +949,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Creative/CreativeCR781.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -1002,10 +962,7 @@ MeteringMode<br>
 Model<br>
 Software<br>
 XResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 0000:00:00 00:00:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1023,11 +980,8 @@ ExposureTime : 0.005434782608695652<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 6.5 mm<br>
-FocalLength : 6.46<br>
+FocalLength : 6.46 mm<br>
 <br>
 LightSource : Unknown<br>
 LightSource : <br>
@@ -1057,6 +1011,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Creative/CreativeCR780.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -1068,10 +1023,7 @@ MeteringMode<br>
 Model<br>
 Software<br>
 XResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 0000:00:00 00:00:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1093,7 +1045,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 6.5 mm<br>
-FocalLength : 6.46<br>
+FocalLength : 6.46 mm<br>
 <br>
 LightSource : Unknown<br>
 LightSource : <br>
@@ -1123,6 +1075,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Creative/CreativeCR530.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -1134,10 +1087,7 @@ MeteringMode<br>
 Model<br>
 Software<br>
 XResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 0000:00:00 00:00:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1159,7 +1109,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 6.5 mm<br>
-FocalLength : 6.46<br>
+FocalLength : 6.46 mm<br>
 <br>
 LightSource : Unknown<br>
 LightSource : <br>

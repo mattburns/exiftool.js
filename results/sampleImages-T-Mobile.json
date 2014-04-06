@@ -3,7 +3,7 @@
 		"img": "sampleImages/T-Mobile/T-MobileSidekickLX.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2008:03:29 11:26:21",
 			"DateTimeDigitized": "2008:03:29 11:26:21",
 			"DateTimeOriginal": "2008:03:29 11:26:21",
@@ -64,7 +64,7 @@
 		"img": "sampleImages/T-Mobile/T-MobilePulse.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:12:08 12:00:00",
 			"DateTimeOriginal": "2009:10:05 12:35:16",
 			"ExifIFDPointer": "140",

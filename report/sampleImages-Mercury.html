@@ -23,9 +23,12 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Mercury/MercurySlimCamII.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -36,10 +39,7 @@ Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:03:03 07:21:39<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -64,7 +64,7 @@ Flash : Fired, Return detected<br>
 Flash : Strobe return light detected<br>
 <br>
 FocalLength : 9.8 mm<br>
-FocalLength : 9.75<br>
+FocalLength : 9.75 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -103,20 +103,19 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Mercury/MercuryDeluxeClassicCam.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2012:07:07 14:29:40<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -137,11 +136,8 @@ ExposureTime : 0.0005208333333333333<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 7.5 mm<br>
-FocalLength : 7.454545454545454<br>
+FocalLength : 7.454545454545454 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -180,6 +176,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Mercury/MercuryCyberPixS-550V.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -190,10 +187,7 @@ Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:01:20 08:04:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -218,7 +212,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 8.5 mm<br>
-FocalLength : 8.470588235294118<br>
+FocalLength : 8.470588235294118 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 65<br>
@@ -257,20 +251,19 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Mercury/MercuryCyberPixS-450V.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:02:13 15:59:01<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -291,11 +284,8 @@ ExposureTime : 0.008333333333333333<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 7.5 mm<br>
-FocalLength : 7.454545454545454<br>
+FocalLength : 7.454545454545454 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 56<br>
@@ -335,8 +325,10 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Mercury/MercuryCyberPixS-330.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
@@ -347,15 +339,10 @@ Model<br>
 Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003,01@01T00Q0124<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -389,7 +376,7 @@ Flash : Fired, Return detected<br>
 Flash : Strobe return light detected<br>
 <br>
 FocalLength : 7.5 mm<br>
-FocalLength : 7.454545454545454<br>
+FocalLength : 7.454545454545454 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>
@@ -430,9 +417,6 @@ SubjectArea : 800,600,1600,1200<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -445,11 +429,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Mercury/MercuryCyberPixE-450V.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -459,9 +445,6 @@ SceneType<br>
 Software</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.971<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.551887755<br>
 CompressedBitsPerPixel : 1.551887755102041<br>
@@ -489,9 +472,6 @@ ExposureTime : 0.015151515151515152<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 42<br>
@@ -546,9 +526,12 @@ YResolution : 0.3333333333333333<br>
 <td>sampleImages/Mercury/MercuryCyberPixE-350V.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -562,14 +545,8 @@ Software<br>
 SubjectDistanceRange<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : 3.195721944<br>
+<td>CompressedBitsPerPixel : 3.195721944<br>
 CompressedBitsPerPixel : 3.1957219441731772<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:09:23 13:56:59<br>
@@ -601,11 +578,8 @@ FNumber : 4.243<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 13.2 mm<br>
-FocalLength : 13.167<br>
+FocalLength : 13.167 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>

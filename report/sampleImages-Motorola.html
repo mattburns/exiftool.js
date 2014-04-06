@@ -23,12 +23,16 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Motorola/MotorolaXT890.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -39,13 +43,11 @@ OffsetSchema<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.5<br>
 ApertureValue : 2.6438<br>
-<br>
-ComponentsConfiguration : -, -, -, -<br>
-ComponentsConfiguration : <br>
 <br>
 DateTime : undefined<br>
 DateTime : 2013:07:08 15:14:40<br>
@@ -74,11 +76,8 @@ ExposureTime : 0.0312<br>
 FNumber : 2.7<br>
 FNumber : 2.65<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 4.0 mm<br>
-FocalLength : 4.03<br>
+FocalLength : 4.03 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 142<br>
@@ -119,9 +118,6 @@ SubjectDistance : 0<br>
 UserComment : <br>
 UserComment : 65,83,67,73,73,0,0,0,32,32,0<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -130,7 +126,9 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Motorola/MotorolaXT720.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -147,16 +145,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.96875<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:09:18 22:52:38<br>
@@ -215,9 +208,6 @@ ShutterSpeedValue : 6.64453125<br>
 UserComment : <br>
 UserComment : 1296<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -231,6 +221,7 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Motorola/MotorolaV600cellphone.jpg</td>
 <td>Artist<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -238,10 +229,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 175<br>
 <br>
 PixelXDimension : undefined<br>
@@ -274,18 +262,17 @@ DateTime : 2006:08:30 12:36:40<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaV3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2006:10:28 09:46:00<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -293,9 +280,6 @@ ExifIFDPointer : 294<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 480<br>
@@ -313,18 +297,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaV1100.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:04:07 11:53:23<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -335,9 +318,6 @@ ExifIFDPointer : 346<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1280<br>
@@ -355,18 +335,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaV1075.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2008:07:05 14:39:05<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -374,9 +353,6 @@ ExifIFDPointer : 294<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1280<br>
@@ -394,18 +370,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaRAZRV6vc.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010:02:27 11:05:15<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -416,9 +391,6 @@ ExifIFDPointer : 346<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1200<br>
@@ -436,18 +408,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaRAZRV6v.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:05:30 14:47:58<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -458,9 +429,6 @@ ExifIFDPointer : 346<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1200<br>
@@ -478,18 +446,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaRAZRV6.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:02:11 12:12:53<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -500,9 +467,6 @@ ExifIFDPointer : 346<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1200<br>
@@ -520,18 +484,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaRAZRV3xx.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010:08:31 14:30:41<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -542,9 +505,6 @@ ExifIFDPointer : 346<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1024<br>
@@ -562,18 +522,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaRAZRV3xv.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2007:06:24 08:01:20<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -581,9 +540,6 @@ ExifIFDPointer : 294<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 600<br>
@@ -601,18 +557,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaRAZRV3xR.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2007:01:14 13:38:06<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -620,9 +575,6 @@ ExifIFDPointer : 294<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1200<br>
@@ -640,18 +592,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaRAZRV3xM.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2008:09:08 18:21:20<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -659,9 +610,6 @@ ExifIFDPointer : 294<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1200<br>
@@ -679,18 +627,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaRAZRV3x.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2006:08:31 15:18:28<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -698,9 +645,6 @@ ExifIFDPointer : 164<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1200<br>
@@ -726,7 +670,9 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Motorola/MotorolaMilestoneXT720.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -742,15 +688,10 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
-Software</td>
+Software<br>
+WhiteBalance</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.96875<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:12:12 02:26:33<br>
@@ -800,9 +741,6 @@ ShutterSpeedValue : 5.90625<br>
 UserComment : <br>
 UserComment : 646<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -811,7 +749,9 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Motorola/MotorolaMilestone.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -829,16 +769,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.96875<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:05:03 01:55:28<br>
@@ -912,9 +847,6 @@ ShutterSpeedValue : 3.3203125<br>
 UserComment : 믯⚿欦祥潷摲☦∠慌慶≬∠畑扥捥"<br>
 UserComment : 1296<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -923,7 +855,9 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Motorola/MotorolaMS800.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -933,15 +867,10 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2009:11:21 11:54:16<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -977,9 +906,6 @@ PixelYDimension : 960<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -988,7 +914,9 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Motorola/MotorolaMS700.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -998,15 +926,10 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2010:03:27 09:14:38<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -1042,9 +965,6 @@ PixelYDimension : 320<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1052,22 +972,20 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaMS600.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2010:06:06 14:34:51<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -1081,9 +999,6 @@ ExposureMode : 0<br>
 <br>
 ExposureTime : 1/21<br>
 ExposureTime : 0.047619047619047616<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 448<br>
@@ -1103,9 +1018,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1113,6 +1025,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaMS550.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
 FlashpixVersion<br>
 ImageDescription<br>
@@ -1120,10 +1033,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010-03-21 13:41:40<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -1151,18 +1061,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaMOTORAZRV9.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:09:23 09:31:47<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1173,9 +1082,6 @@ ExifIFDPointer : 346<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1200<br>
@@ -1193,6 +1099,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaMB200.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1203,10 +1110,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:10:27 13:53:23<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1261,18 +1165,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaK3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:04:05 21:40:45<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1283,9 +1186,6 @@ ExifIFDPointer : 346<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1200<br>
@@ -1304,7 +1204,9 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Motorola/MotorolaEvokeQA4.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1313,15 +1215,10 @@ Model<br>
 Saturation<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2011:08:16 11:38:28<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -1363,9 +1260,6 @@ ResolutionUnit : 2<br>
 Software : HALOC9_1.53.11S1<br>
 Software : HALOC91.53.11S1<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1378,6 +1272,7 @@ Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -1389,6 +1284,7 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1<br>
@@ -1398,7 +1294,7 @@ BrightnessValue : undef<br>
 BrightnessValue : NaN<br>
 <br>
 ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
-ComponentsConfiguration : NaN<br>
+ComponentsConfiguration : undefined, undefined, undefined, undefined<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:08:31 12:36:27<br>
@@ -1420,9 +1316,6 @@ ExposureTime : NaN<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : <br>
@@ -1454,9 +1347,6 @@ ShutterSpeedValue : NaN<br>
 UserComment : EZX phone<br>
 UserComment : 69,90,88,32,112,104,111,110,101<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1465,7 +1355,9 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Motorola/MotorolaEX300.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1475,15 +1367,10 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2011:04:28 12:38:57<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -1519,9 +1406,6 @@ PixelYDimension : 1200<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1529,18 +1413,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaE770v.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2006:10:15 14:37:10<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -1548,9 +1431,6 @@ ExifIFDPointer : 294<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 640<br>
@@ -1568,18 +1448,17 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaE770.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2009:05:01 22:45:07<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -1587,9 +1466,6 @@ ExifIFDPointer : 294<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 640<br>
@@ -1606,18 +1482,17 @@ YCbCrPositioning : 1<br>
 </tr>
 <tr>
 <td>sampleImages/Motorola/MotorolaE680.jpg</td>
-<td>DateTimeOriginal<br>
+<td>CustomRendered<br>
+DateTimeOriginal<br>
 ExifVersion<br>
 Flash<br>
 FlashpixVersion<br>
 LightSource<br>
 MeteringMode<br>
 SceneCaptureType<br>
-SceneType</td>
-<td>CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTimeDigitized : undefined<br>
+SceneType<br>
+WhiteBalance</td>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2005:08:11 14:56:18<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -1640,9 +1515,6 @@ SensingMethod : One-chip color area sensor<br>
 <br>
 SubjectDistance : undef<br>
 SubjectDistance : NaN<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 </td>
 </tr>
 <tr>
@@ -1662,18 +1534,17 @@ ExifIFDPointer : 124<br>
 <tr>
 <td>sampleImages/Motorola/MotorolaE1070.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2006:11:17 18:37:25<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -1681,9 +1552,6 @@ ExifIFDPointer : 294<br>
 <br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 PixelXDimension : undefined<br>
 PixelXDimension : 1280<br>
@@ -1702,8 +1570,10 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Motorola/MotorolaDROID2GLOBAL.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -1722,16 +1592,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.96875<br>
-<br>
-ComponentsConfiguration : Cb, Y, Cr, Y<br>
-ComponentsConfiguration : CbYCrY<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2011:02:26 04:03:46<br>
@@ -1764,7 +1629,7 @@ Flash : Auto, Fired, Return detected<br>
 Flash : Flash fired, auto mode, return light detected<br>
 <br>
 FocalLength : 4.0 mm<br>
-FocalLength : 4<br>
+FocalLength : 4 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 30<br>
@@ -1838,9 +1703,6 @@ SubjectDistanceRange : <br>
 UserComment : <br>
 UserComment : 65,83,67,73,73,0,0,0,32,0<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1849,8 +1711,10 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Motorola/MotorolaDROID2.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -1867,16 +1731,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.96875<br>
-<br>
-ComponentsConfiguration : Cb, Y, Cr, Y<br>
-ComponentsConfiguration : CbYCrY<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:12:04 00:07:54<br>
@@ -1909,7 +1768,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 4.0 mm<br>
-FocalLength : 4<br>
+FocalLength : 4 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 30<br>
@@ -1986,9 +1845,6 @@ SubjectDistanceRange : <br>
 UserComment : <br>
 UserComment : 65,83,67,73,73,0,0,0,32,0<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -2000,24 +1856,22 @@ YCbCrPositioning : 1<br>
 </tr>
 <tr>
 <td>sampleImages/Motorola/MotorolaC261.jpg</td>
-<td>DateTimeOriginal<br>
+<td>ComponentsConfiguration<br>
+CustomRendered<br>
+DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
-SceneCaptureType</td>
+SceneCaptureType<br>
+WhiteBalance</td>
 <td>ColorSpace : Unknown (0)<br>
 ColorSpace : <br>
 <br>
-ComponentsConfiguration : -, -, -, -<br>
-ComponentsConfiguration : <br>
-<br>
 CompressedBitsPerPixel : undef<br>
 CompressedBitsPerPixel : NaN<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:05:09:10:56:12<br>
@@ -2045,9 +1899,6 @@ FNumber : NaN<br>
 <br>
 FileSource : Unknown (0)<br>
 FileSource : <br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLength : 0.0 mm<br>
 FocalLength : NaN<br>
@@ -2081,9 +1932,6 @@ ResolutionUnit : 0<br>
 <br>
 SceneType : Unknown (0)<br>
 SceneType : <br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 <br>
 XResolution : undef<br>
 XResolution : NaN<br>
@@ -2133,18 +1981,17 @@ SubjectDistance : NaN<br>
 </tr>
 <tr>
 <td>sampleImages/Motorola/MotorolaA760.jpg</td>
-<td>DateTimeOriginal<br>
+<td>CustomRendered<br>
+DateTimeOriginal<br>
 ExifVersion<br>
 Flash<br>
 FlashpixVersion<br>
 LightSource<br>
 MeteringMode<br>
 SceneCaptureType<br>
-SceneType</td>
-<td>CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTimeDigitized : undefined<br>
+SceneType<br>
+WhiteBalance</td>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2005:01:06 20:33:47<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -2167,9 +2014,6 @@ SensingMethod : One-chip color area sensor<br>
 <br>
 SubjectDistance : undef<br>
 SubjectDistance : NaN<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 </td>
 </tr>
 <tr>
@@ -2180,6 +2024,7 @@ Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -2191,6 +2036,7 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1<br>
@@ -2200,7 +2046,7 @@ BrightnessValue : undef<br>
 BrightnessValue : NaN<br>
 <br>
 ComponentsConfiguration : Err (49), Err (50), Err (51), Err (48)<br>
-ComponentsConfiguration : NaN<br>
+ComponentsConfiguration : undefined, undefined, undefined, undefined<br>
 <br>
 DateTime : undefined<br>
 DateTime : 1970:01:16 05:51:08<br>
@@ -2222,9 +2068,6 @@ ExposureTime : NaN<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 LightSource : Unknown<br>
 LightSource : <br>
@@ -2253,9 +2096,6 @@ ShutterSpeedValue : NaN<br>
 UserComment : EZX phone<br>
 UserComment : 69,90,88,32,112,104,111,110,101<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2264,7 +2104,9 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Motorola/Motorola-V9m.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2274,15 +2116,10 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2009:09:19 20:21:50<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -2317,9 +2154,6 @@ PixelYDimension : 320<br>
 <br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 <br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>

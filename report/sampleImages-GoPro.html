@@ -23,10 +23,14 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/GoPro/GoProYHDC5170.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -38,19 +42,14 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.6<br>
 ApertureValue : 3.73<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 CompressedBitsPerPixel : 3.605935325<br>
 CompressedBitsPerPixel : 3.6059353248996597<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:02:07 08:05:18<br>
@@ -86,7 +85,7 @@ FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
 FocalLength : 5.0 mm<br>
-FocalLength : 5<br>
+FocalLength : 5 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>
@@ -139,9 +138,6 @@ SubjectDistance : 0<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -149,12 +145,15 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/GoPro/GoProHero3-SilverEdition.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -163,19 +162,14 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 CompressedBitsPerPixel : 4.893452691<br>
 CompressedBitsPerPixel : 4.8934526909722225<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2012:01:07 22:28:22<br>
@@ -209,9 +203,6 @@ ExposureTime : 0.0005530973451327434<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-FocalLength : 2.5 mm<br>
-FocalLength : 2.5<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 16<br>
@@ -261,9 +252,6 @@ SubjectDistance : NaN<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -271,7 +259,9 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/GoPro/GoProHero3-BlackEdition.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -286,19 +276,14 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.97<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 CompressedBitsPerPixel : 0.9479100529<br>
 CompressedBitsPerPixel : 0.9479100529100529<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2013:03:30 07:17:34<br>
@@ -334,7 +319,7 @@ FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
 FocalLength : 2.8 mm<br>
-FocalLength : 2.77<br>
+FocalLength : 2.77 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 17<br>
@@ -381,9 +366,6 @@ SubjectDistance : NaN<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -391,7 +373,9 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/GoPro/GoProHERO3+BlackEdition.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -404,19 +388,14 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.97<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 CompressedBitsPerPixel : 4.259665778<br>
 CompressedBitsPerPixel : 4.259665777777778<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2014:02:21 11:26:12<br>
@@ -452,7 +431,7 @@ FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
 FocalLength : 2.8 mm<br>
-FocalLength : 2.77<br>
+FocalLength : 2.77 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 15<br>
@@ -505,9 +484,6 @@ SubjectDistance : NaN<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -515,12 +491,15 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/GoPro/GoProHD3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -530,19 +509,14 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 CompressedBitsPerPixel : 3.182386133<br>
 CompressedBitsPerPixel : 3.182386132703348<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2012:01:05 00:14:43<br>
@@ -576,9 +550,6 @@ ExposureTime : 0.0030950170225936243<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-FocalLength : 2.5 mm<br>
-FocalLength : 2.5<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 15<br>
@@ -625,9 +596,6 @@ SubjectDistance : NaN<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -635,31 +603,29 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/GoPro/GoProHD2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 CompressedBitsPerPixel : 1.35099103<br>
 CompressedBitsPerPixel : 1.3509910300925927<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2011:01:27 18:52:21<br>
@@ -693,9 +659,6 @@ ExposureTime : 0.00048567265662943174<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-FocalLength : 2.5 mm<br>
-FocalLength : 2.5<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 16<br>
@@ -750,9 +713,6 @@ SubjectDistance : NaN<br>
 <br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 <br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>

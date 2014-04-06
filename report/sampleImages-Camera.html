@@ -23,13 +23,17 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Camera/CameraMP5.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -37,13 +41,11 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.9<br>
 ApertureValue : 5.121<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 3.966388346<br>
 CompressedBitsPerPixel : 3.9663883463541665<br>
@@ -75,11 +77,8 @@ ExposureTime : 0.002183406113537118<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 6.0 mm<br>
-FocalLength : 5.954<br>
+FocalLength : 5.954 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -123,9 +122,6 @@ ShutterSpeedValue : 8.814<br>
 Software :   1.0<br>
 Software : 1.0<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -134,11 +130,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/CameraDS5MP.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -148,9 +146,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:08:19 08:51:13<br>
@@ -175,9 +170,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 7.7 mm<br>
-FocalLength : 7.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -220,11 +212,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/CameraDC5085.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -232,13 +226,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:10:06 14:17:00<br>
@@ -266,9 +258,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 7.7 mm<br>
-FocalLength : 7.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -306,9 +295,6 @@ SubjectDistance : 10<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -316,27 +302,25 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC3A30.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
 ApertureValue : 5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:10:05 15:03:23<br>
@@ -367,9 +351,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 6.6 mm<br>
-FocalLength : 6.6<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 43<br>
@@ -410,9 +391,6 @@ ResolutionUnit : 2<br>
 ShutterSpeedValue : 1/315<br>
 ShutterSpeedValue : 8.3<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -421,6 +399,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/CameraDC3306.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -430,12 +409,10 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:03:01 12:02:49<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -480,9 +457,6 @@ ShutterSpeedValue : 4.9<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -491,18 +465,17 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/CameraDC3301.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2002:01:02 00:10:52<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -516,9 +489,6 @@ ExposureTime : 0.009523809523809525<br>
 <br>
 FNumber : 7.1<br>
 FNumber : 7.13<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -545,8 +515,10 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC2302.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -555,9 +527,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
 ApertureValue : 5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:07:16 13:59:30<br>
@@ -573,9 +542,6 @@ ExposureTime : 0.0022675736961451248<br>
 <br>
 FNumber : 5.8<br>
 FNumber : 5.78<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -602,6 +568,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC2300.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -613,9 +580,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:07:14 21:41:01<br>
@@ -657,9 +621,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC2071.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -668,9 +634,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2000:01:01 00:08:17<br>
@@ -683,9 +646,6 @@ ExifIFDPointer : 218<br>
 <br>
 ExposureTime : 1/33<br>
 ExposureTime : 0.030303030303030304<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -712,9 +672,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC2070.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -723,9 +685,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 8<br>
 ApertureValue : 6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2000:01:01 02:29:58<br>
@@ -738,9 +697,6 @@ ExifIFDPointer : 218<br>
 <br>
 ExposureTime : 1/144<br>
 ExposureTime : 0.006944444444444444<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -767,6 +723,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC1310.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -778,9 +735,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:05:10 03:59:44<br>
@@ -822,9 +776,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC1070.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -835,9 +791,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:01:05 14:29:18<br>
@@ -857,11 +810,8 @@ ExposureTime : 0.0005<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 9.0 mm<br>
-FocalLength : 9<br>
+FocalLength : 9 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -900,6 +850,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC-733i.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -912,13 +863,11 @@ Model<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.97<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.598879496<br>
 CompressedBitsPerPixel : 1.5988794962565105<br>
@@ -954,7 +903,7 @@ Flash : On, Return detected<br>
 Flash : Flash fired, compulsory flash mode, return light detected<br>
 <br>
 FocalLength : 6.2 mm<br>
-FocalLength : 6.199<br>
+FocalLength : 6.199 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -986,9 +935,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/60<br>
 ShutterSpeedValue : 5.907<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -996,6 +942,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC-4330.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1008,9 +955,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.9<br>
 ApertureValue : 3.1<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:01:08 05:05:34<br>
@@ -1079,6 +1023,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC-4300.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1089,9 +1034,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.9<br>
 ApertureValue : 3.1<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:10:06 15:57:42<br>
@@ -1163,6 +1105,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraDC-3305.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1171,13 +1114,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
 ApertureValue : 5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:06:30 17:32:49<br>
@@ -1227,9 +1168,6 @@ ShutterSpeedValue : 9.5<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1242,7 +1180,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/CameraCE5430.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1255,15 +1195,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:02:18 15:56:04<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1294,7 +1229,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -1323,9 +1258,6 @@ PixelYDimension : 1920<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1334,6 +1266,8 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/Camera8MP-9V9.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1346,16 +1280,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-Contrast : High<br>
+<td>Contrast : High<br>
 Contrast : Hard<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:06:29 13:28:43<br>
@@ -1429,9 +1358,6 @@ ShutterSpeedValue : 7.67<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1439,11 +1365,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera8MP-9U4.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -1451,15 +1380,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:07:20 17:25:43<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1488,9 +1412,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 13.5 mm<br>
-FocalLength : 13.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -1528,9 +1449,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1538,9 +1456,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera8MP-9Q6.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -1550,18 +1471,13 @@ OffsetSchema<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
-Software</td>
+Software<br>
+WhiteBalance</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 Contrast : High<br>
 Contrast : Hard<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:11:14 19:01:57<br>
@@ -1589,9 +1505,6 @@ ExposureTime : 0.13<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -1629,9 +1542,6 @@ ShutterSpeedValue : 3<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1639,26 +1549,24 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera8MP-9HX.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.9<br>
 ApertureValue : 3.08<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:03:14 11:42:29<br>
@@ -1686,9 +1594,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -1729,9 +1634,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/38<br>
 ShutterSpeedValue : 5.25<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1739,10 +1641,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera8MP-9HG.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -1751,9 +1655,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.98<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:03:07 00:07:08<br>
@@ -1778,9 +1679,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1819,10 +1717,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera8MP-9HC.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -1830,16 +1731,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.9<br>
 ApertureValue : 3.08<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:10:11 16:16:15<br>
@@ -1867,9 +1763,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -1907,9 +1800,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/38<br>
 ShutterSpeedValue : 5.25<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1917,11 +1807,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera7MP-9GM.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -1929,15 +1822,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:09:02 15:40:54<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1966,9 +1854,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -2003,9 +1888,6 @@ PixelYDimension : 2304<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2013,25 +1895,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera7MP-9GL.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.98<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:06:23 07:54:18<br>
@@ -2059,9 +1939,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -2099,9 +1976,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/60<br>
 ShutterSpeedValue : 5.91<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2109,7 +1983,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera7MP-9GH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -2124,16 +2000,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:01:31 14:22:39<br>
@@ -2201,9 +2072,6 @@ ShutterSpeedValue : 5<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2211,6 +2079,8 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera7MP-9GB.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -2221,16 +2091,11 @@ Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.98<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:02:07 17:15:48<br>
@@ -2260,7 +2125,7 @@ Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
 <br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -2295,9 +2160,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/30<br>
 ShutterSpeedValue : 4.91<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2305,11 +2167,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera7MP-9GA.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -2317,15 +2182,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:01:13 14:22:45<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2354,9 +2214,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -2391,9 +2248,6 @@ PixelYDimension : 2304<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2401,11 +2255,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP9W4.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -2413,15 +2270,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:06:26 21:48:35<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2450,9 +2302,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.5 mm<br>
-FocalLength : 5.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -2484,9 +2333,6 @@ PixelYDimension : 1704<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2494,25 +2340,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP9U2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
-Software</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+Software<br>
+WhiteBalance</td>
+<td>DateTime : undefined<br>
 DateTime : 2005:07:01 00:02:04<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2542,9 +2386,6 @@ FileSource : DSC<br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
 <br>
-FocalLength : 7.5 mm<br>
-FocalLength : 7.5<br>
-<br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
 <br>
@@ -2569,9 +2410,6 @@ PixelXDimension : 1280<br>
 PixelYDimension : undefined<br>
 PixelYDimension : 960<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2579,19 +2417,18 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP9Q3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:03:18 19:11:15<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2614,9 +2451,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -2649,10 +2483,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP-9Y8.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Software<br>
@@ -2660,9 +2496,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.1<br>
 ApertureValue : 3.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:11:02 21:58:55<br>
@@ -2687,9 +2520,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 7.3 mm<br>
-FocalLength : 7.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -2731,11 +2561,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP-9U9.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 MeteringMode<br>
@@ -2744,15 +2577,10 @@ SceneCaptureType<br>
 Sharpness<br>
 Software<br>
 SubjectDistanceRange<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:11:01 09:17:11<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2781,9 +2609,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -2818,9 +2643,6 @@ ResolutionUnit : 2<br>
 Saturation : High<br>
 Saturation : High saturation<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2828,7 +2650,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP-9U7.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -2840,15 +2664,10 @@ Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
-Software</td>
+Software<br>
+WhiteBalance</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:02:24 22:11:28<br>
@@ -2913,9 +2732,6 @@ ShutterSpeedValue : 5.67<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2923,7 +2739,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP-9T6.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -2938,16 +2756,11 @@ SceneCaptureType<br>
 Sharpness<br>
 Software<br>
 SubjectDistanceRange<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.5<br>
 ApertureValue : 4.9<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:01:11 06:48:56<br>
@@ -3015,9 +2828,6 @@ ResolutionUnit : 2<br>
 ShutterSpeedValue : 1/51<br>
 ShutterSpeedValue : 5.67<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3025,7 +2835,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP-9N3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -3038,15 +2850,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
-SubjectDistanceRange</td>
+SubjectDistanceRange<br>
+WhiteBalance</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:03:30 05:56:19<br>
@@ -3108,9 +2915,6 @@ RelatedSoundFile : <br>
 ShutterSpeedValue : 1/51<br>
 ShutterSpeedValue : 5.67<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3118,10 +2922,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP-9J5.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -3131,16 +2938,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:01:24 17:37:45<br>
@@ -3168,9 +2970,6 @@ ExposureTime : 0.00625<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -3214,9 +3013,6 @@ ShutterSpeedValue : 7.33<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3224,26 +3020,24 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP-9FH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 LightSource<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.9<br>
 ApertureValue : 3.08<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:08:09 20:31:34<br>
@@ -3271,9 +3065,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3308,9 +3099,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/30<br>
 ShutterSpeedValue : 4.91<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3318,11 +3106,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera6MP-9FA.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 LightSource<br>
 Make<br>
@@ -3330,15 +3121,10 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:03:20 08:46:01<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3367,9 +3153,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 212<br>
@@ -3407,9 +3190,6 @@ Saturation : High saturation<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3417,11 +3197,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9Y9.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -3430,15 +3213,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:11:29 12:22:41<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3468,9 +3246,6 @@ FileSource : DSC<br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
-FocalLength : 5.5 mm<br>
-FocalLength : 5.5<br>
-<br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
 <br>
@@ -3498,9 +3273,6 @@ PixelYDimension : 1920<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3508,25 +3280,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9Y2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 LightSource<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
-Software</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+Software<br>
+WhiteBalance</td>
+<td>DateTime : undefined<br>
 DateTime : 2007:10:29 19:51:10<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3556,9 +3326,6 @@ FileSource : DSC<br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
 <br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
-<br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
 <br>
@@ -3586,9 +3353,6 @@ Saturation : High saturation<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3596,11 +3360,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9X9.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 LightSource<br>
 Make<br>
@@ -3608,15 +3375,10 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:03:23 20:35:38<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3645,9 +3407,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 6.5 mm<br>
-FocalLength : 6.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3682,9 +3441,6 @@ ResolutionUnit : 2<br>
 Saturation : High<br>
 Saturation : High saturation<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3692,7 +3448,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9W5.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -3707,16 +3465,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:10:29 21:10:59<br>
@@ -3784,9 +3537,6 @@ ShutterSpeedValue : 5.67<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3794,7 +3544,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9T3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -3807,15 +3559,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:07:20 19:48:10<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3846,7 +3593,7 @@ Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
 <br>
 FocalLength : 6.5 mm<br>
-FocalLength : 6.48<br>
+FocalLength : 6.48 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 70<br>
@@ -3881,9 +3628,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3891,19 +3635,18 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9Q3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:01:24 09:46:24<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3926,9 +3669,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -3967,7 +3707,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9Q2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -3980,15 +3722,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:08:11 12:20:05<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -4019,7 +3756,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 6.6 mm<br>
-FocalLength : 6.61<br>
+FocalLength : 6.61 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -4054,9 +3791,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 10960<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4064,11 +3798,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9P8.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -4076,15 +3813,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:10:31 12:02:07<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -4113,9 +3845,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -4153,9 +3882,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 10962<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4168,10 +3894,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9M2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -4181,16 +3910,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:10:28 15:20:10<br>
@@ -4218,9 +3942,6 @@ ExposureTime : 0.01694915254237288<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 96<br>
@@ -4264,9 +3985,6 @@ ShutterSpeedValue : 5.89<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4275,6 +3993,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/Camera5MP-9J2.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -4286,13 +4005,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.5<br>
 ApertureValue : 2.6<br>
-<br>
-ComponentsConfiguration : -, Y, Cb, Cr<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2000:02:27 20:03:04<br>
@@ -4322,7 +4039,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 20.6 mm<br>
-FocalLength : 20.56<br>
+FocalLength : 20.56 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -4366,9 +4083,6 @@ SubjectDistance : 5.5<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4376,6 +4090,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9G4.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -4389,9 +4104,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:03:25 04:51:59<br>
@@ -4415,7 +4127,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -4448,26 +4160,24 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9EY.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 MeteringMode<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.98<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:03:05 15:24:56<br>
@@ -4495,9 +4205,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -4532,9 +4239,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/100<br>
 ShutterSpeedValue : 6.64<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4542,9 +4246,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera5MP-9A3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -4555,19 +4262,14 @@ SceneCaptureType<br>
 Sharpness<br>
 Software<br>
 SubjectDistanceRange<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 8<br>
 ApertureValue : 6<br>
 <br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
 Contrast : High<br>
 Contrast : Hard<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:06:20 12:02:33<br>
@@ -4595,9 +4297,6 @@ ExposureTime : 0.005<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 92<br>
@@ -4638,9 +4337,6 @@ ResolutionUnit : 2<br>
 ShutterSpeedValue : 1/208<br>
 ShutterSpeedValue : 7.7<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4648,7 +4344,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera4MP-9T2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -4660,15 +4358,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:11:23 21:04:54<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -4699,7 +4392,7 @@ Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
 <br>
 FocalLength : 6.0 mm<br>
-FocalLength : 6<br>
+FocalLength : 6 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -4734,9 +4427,6 @@ PixelYDimension : 480<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4744,11 +4434,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera4MP-9Q3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 LightSource<br>
 Make<br>
@@ -4757,15 +4450,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:02:28 19:23:25<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -4794,9 +4482,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -4828,9 +4513,6 @@ PixelYDimension : 1536<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4838,10 +4520,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera4MP-9J9.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -4851,16 +4536,11 @@ SceneCaptureType<br>
 Sharpness<br>
 Software<br>
 SubjectDistanceRange<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:06:12 15:33:19<br>
@@ -4888,9 +4568,6 @@ ExposureTime : 0.005263157894736842<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 89<br>
@@ -4934,9 +4611,6 @@ Saturation : High saturation<br>
 ShutterSpeedValue : 1/189<br>
 ShutterSpeedValue : 7.56<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4945,6 +4619,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/Camera4MP-9J6.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -4956,13 +4631,11 @@ Model<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : -, Y, Cb, Cr<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:10:26 16:27:28<br>
@@ -4992,7 +4665,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 20.6 mm<br>
-FocalLength : 20.56<br>
+FocalLength : 20.56 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -5036,9 +4709,6 @@ SubjectDistance : 0.248<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5046,22 +4716,22 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera4MP-859.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 8<br>
 ApertureValue : 6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 2.115982279<br>
 CompressedBitsPerPixel : 2.115982278648416<br>
@@ -5090,9 +4760,6 @@ FileSource : DSC<br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
-FocalLength : 7.3 mm<br>
-FocalLength : 7.3<br>
-<br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
 <br>
@@ -5120,9 +4787,6 @@ PixelYDimension : 1704<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5130,6 +4794,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera3MP-9P5.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -5143,9 +4808,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:10:12 12:58:19<br>
@@ -5209,6 +4871,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/Camera3MP-9P2.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -5220,13 +4883,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 Copyright : Digital CameraVer1.16P
 Ver1.<br>
@@ -5260,7 +4921,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -5301,9 +4962,6 @@ SubjectDistance : 2<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5312,6 +4970,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/Camera3MP-9N2.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -5323,13 +4982,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 Copyright : Digital CameraV1.41
 V1.41<br>
@@ -5363,7 +5020,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -5404,9 +5061,6 @@ SubjectDistance : 0.4<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5414,9 +5068,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera3MP-9F6.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -5426,9 +5082,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:01:01 00:05:48<br>
@@ -5451,11 +5104,8 @@ ExposureTime : 0.06666666666666667<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 10.0 mm<br>
-FocalLength : 9.96<br>
+FocalLength : 9.96 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -5502,9 +5152,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera2MP-9D1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -5514,9 +5166,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2002:11:19 12:41:01<br>
@@ -5539,11 +5188,8 @@ ExposureTime : 0.06666666666666667<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 10.0 mm<br>
-FocalLength : 9.96<br>
+FocalLength : 9.96 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -5585,10 +5231,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Camera/Camera10MP-9KB.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -5598,16 +5247,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:01:10 00:16:04<br>
@@ -5635,9 +5279,6 @@ ExposureTime : 0.008333333333333333<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -5681,9 +5322,6 @@ ShutterSpeedValue : 6.89<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5692,10 +5330,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/Camera10MP-9KA.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -5705,15 +5346,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:03:01 21:59:48<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -5739,9 +5375,6 @@ ExposureTime : 0.014492753623188406<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 37<br>
@@ -5785,9 +5418,6 @@ ShutterSpeedValue : 6.11<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5796,6 +5426,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Camera/Camera.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -5808,13 +5439,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:01:12 18:21:12<br>
@@ -5844,7 +5473,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 8.7 mm<br>
-FocalLength : 8.65<br>
+FocalLength : 8.65 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -5881,9 +5510,6 @@ ShutterSpeedValue : 7.499<br>
 <br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
-<br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>

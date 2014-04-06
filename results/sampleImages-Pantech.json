@@ -3,7 +3,7 @@
 		"img": "sampleImages/Pantech/PantechPR-600.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "1980:01:07 04:40:29",
 			"DateTimeOriginal": "1980:01:07 04:40:29",
 			"DigitalZoomRation": "1.23828125",
@@ -11,7 +11,7 @@
 			"ExifVersion": "0220",
 			"ExposureTime": "0.047619047619047616",
 			"FileSource": "DSC",
-			"Flash": "Flash did not fire",
+			"Flash": "No Flash",
 			"FlashpixVersion": "0100",
 			"InteroperabilityIFDPointer": "530",
 			"Make": "Pantech Wireless, Inc",
@@ -22,7 +22,7 @@
 			"ResolutionUnit": "2",
 			"SceneType": "Directly photographed",
 			"Software": "M6100D-SNAQ-6.7.60T",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "72",
 			"YCbCrPositioning": "1",
 			"YResolution": "72"
@@ -79,7 +79,7 @@
 		"img": "sampleImages/Pantech/PantechPG-8000.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifIFDPointer": "166",
 			"ExifVersion": "0220",
 			"InteroperabilityIFDPointer": "244",
@@ -134,7 +134,7 @@
 		"img": "sampleImages/Pantech/PantechPG-6200.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifIFDPointer": "166",
 			"ExifVersion": "0220",
 			"InteroperabilityIFDPointer": "244",
@@ -189,7 +189,7 @@
 		"img": "sampleImages/Pantech/PantechPG-3600.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifIFDPointer": "166",
 			"ExifVersion": "0220",
 			"InteroperabilityIFDPointer": "244",
@@ -244,7 +244,7 @@
 		"img": "sampleImages/Pantech/PantechPG-3500.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifIFDPointer": "166",
 			"ExifVersion": "0220",
 			"InteroperabilityIFDPointer": "244",
@@ -300,9 +300,9 @@
 		"exifJS": {
 			"BrightnessValue": "0",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
-			"CustomRendered": "Custom process",
+			"CustomRendered": "Custom",
 			"DateTimeDigitized": "2009:08:18 04:40:23",
 			"DateTimeOriginal": "2009:08:18 04:40:23",
 			"DigitalZoomRation": "NaN",
@@ -324,7 +324,7 @@
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
 			"Software": "S0815143",
-			"WhiteBalance": "Manual white balance",
+			"WhiteBalance": "Manual",
 			"XResolution": "72",
 			"YCbCrPositioning": "1",
 			"YResolution": "72"
@@ -387,7 +387,7 @@
 		"img": "sampleImages/Pantech/PantechIM-U220K.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:04:26 18:17:34",
 			"DateTimeOriginal": "2008:04:26 18:17:34",
 			"ExifIFDPointer": "166",
@@ -456,9 +456,9 @@
 		"exifJS": {
 			"BrightnessValue": "0",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
-			"CustomRendered": "Custom process",
+			"CustomRendered": "Custom",
 			"DateTimeDigitized": "2009:07:09 19:41:51",
 			"DateTimeOriginal": "2009:07:09 19:41:51",
 			"DigitalZoomRation": "NaN",
@@ -480,7 +480,7 @@
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
 			"Software": "S0168160c",
-			"WhiteBalance": "Manual white balance",
+			"WhiteBalance": "Manual",
 			"XResolution": "72",
 			"YCbCrPositioning": "1",
 			"YResolution": "72"
@@ -542,7 +542,7 @@
 		"img": "sampleImages/Pantech/PantechIM-U140.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifIFDPointer": "134",
 			"ExifVersion": "0220",
 			"FlashpixVersion": "0100",
@@ -594,7 +594,7 @@
 		"img": "sampleImages/Pantech/PantechIM-U110.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifIFDPointer": "146",
 			"ExifVersion": "0220",
 			"FlashpixVersion": "0100",
@@ -652,7 +652,7 @@
 		"img": "sampleImages/Pantech/PantechIM-S370.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:06:15 13:37:41",
 			"DateTimeOriginal": "2010:06:15 13:37:41",
 			"ExifIFDPointer": "192",
@@ -795,7 +795,7 @@
 		"exifJS": {
 			"BrightnessValue": "0",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2009:09:23 15:06:46",
 			"DateTimeOriginal": "2009:09:23 15:06:46",
 			"ExifIFDPointer": "244",
@@ -870,9 +870,9 @@
 		"exifJS": {
 			"BrightnessValue": "0",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Contrast": "Normal",
-			"CustomRendered": "Custom process",
+			"CustomRendered": "Custom",
 			"DateTimeDigitized": "2010:01:12 11:28:08",
 			"DateTimeOriginal": "2010:01:12 11:28:08",
 			"DigitalZoomRation": "NaN",
@@ -894,7 +894,7 @@
 			"SceneType": "Directly photographed",
 			"Sharpness": "Normal",
 			"Software": "S0808119i Apr 09 2007",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "72",
 			"YCbCrPositioning": "1",
 			"YResolution": "72"
@@ -956,7 +956,7 @@
 		"img": "sampleImages/Pantech/PantechIM-R300.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2010:01:03 20:33:30",
 			"DateTimeOriginal": "2010:01:03 20:33:30",
 			"ExifIFDPointer": "192",

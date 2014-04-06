@@ -3,7 +3,7 @@
 		"img": "sampleImages/Noritsu/NoritsuSI-2000.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2002:08:24 15:18:15",
 			"DateTimeOriginal": ":  :     :  :",
 			"ExifIFDPointer": "135",
@@ -71,7 +71,7 @@
 		"img": "sampleImages/Noritsu/NoritsuSI-1080.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2001:05:15 10:45:26",
 			"DateTimeDigitized": "2001:05:15 10:45:26",
 			"DateTimeOriginal": "2001:05:15 10:45:26",
@@ -144,7 +144,7 @@
 		"img": "sampleImages/Noritsu/NoritsuS2FilmScanner.jpg",
 		"exifJS": {
 			"ColorSpace": "",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2005:11:21 16:06:46",
 			"DateTimeDigitized": "2005:11:21 16:06:46",
 			"DateTimeOriginal": "2005:11:21 16:06:46",
@@ -212,7 +212,7 @@
 		"img": "sampleImages/Noritsu/NoritsuQSS-32_33.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"ExifIFDPointer": "186",
 			"ExifVersion": "0220",
 			"FlashpixVersion": "0100",
@@ -274,7 +274,7 @@
 		"img": "sampleImages/Noritsu/NoritsuQSS-31.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2005:06:20 13:27:53",
 			"DateTimeDigitized": "",
 			"DateTimeOriginal": "",
@@ -346,7 +346,7 @@
 		"img": "sampleImages/Noritsu/NoritsuQSS-30.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2005:11:29 22:25:16",
 			"DateTimeDigitized": "",
 			"DateTimeOriginal": "",
@@ -426,7 +426,7 @@
 		"img": "sampleImages/Noritsu/NoritsuQSS-29_31.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "",
 			"DateTimeDigitized": "",
 			"DateTimeOriginal": "",

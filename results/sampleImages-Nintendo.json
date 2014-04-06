@@ -24,7 +24,7 @@
 		"img": "sampleImages/Nintendo/NintendoDSi.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:03:05 01:35:56",
 			"DateTimeDigitized": "2010:03:05 01:35:56",
 			"DateTimeOriginal": "2010:03:05 01:35:56",
@@ -89,7 +89,7 @@
 		"img": "sampleImages/Nintendo/Nintendo3DS.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2013:06:29 13:07:25",
 			"DateTimeDigitized": "2013:06:29 13:07:25",
 			"DateTimeOriginal": "2013:06:29 13:07:25",

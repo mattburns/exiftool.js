@@ -23,9 +23,12 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Sharp/SharpWX-T91.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -34,10 +37,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:07:19 17:38:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -68,6 +68,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVN-EZ5.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -77,10 +78,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:01:06 01:26:52<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -120,8 +118,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVN-EZ1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -129,10 +129,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2002:05:28 14:44:43<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -146,9 +143,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 428<br>
@@ -175,26 +169,24 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z961.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:11:04 14:23:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -220,9 +212,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 3.8 mm<br>
-FocalLength : 3.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -263,9 +252,6 @@ ShutterSpeedValue : 6.5<br>
 UserComment : <br>
 UserComment : 750<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -273,26 +259,24 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z950.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:09:28 18:42:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -318,9 +302,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 12.9 mm<br>
-FocalLength : 12.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -361,9 +342,6 @@ ShutterSpeedValue : 5<br>
 UserComment : <br>
 UserComment : 750<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -371,26 +349,24 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z800.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:04:29 12:43:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -416,9 +392,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 20.3 mm<br>
-FocalLength : 20.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -459,9 +432,6 @@ ShutterSpeedValue : 6<br>
 UserComment : <br>
 UserComment : 750<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -469,22 +439,21 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z8.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:03:09 22:42:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -507,9 +476,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Return detected<br>
 Flash : Flash fired, auto mode, return light detected<br>
-<br>
-FocalLength : 3.8 mm<br>
-FocalLength : 3.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -554,26 +520,24 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z700.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:01:06 17:24:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -599,9 +563,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 3.8 mm<br>
-FocalLength : 3.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -642,9 +603,6 @@ ShutterSpeedValue : 5<br>
 UserComment : <br>
 UserComment : 750<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -652,7 +610,9 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z7.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -663,15 +623,10 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:09:24 15:42:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -699,7 +654,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 12.0 mm<br>
-FocalLength : 12<br>
+FocalLength : 12 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -740,9 +695,6 @@ ShutterSpeedValue : 6<br>
 UserComment : <br>
 UserComment : 750<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -750,27 +702,25 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z500.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:06:21 13:49:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -793,9 +743,6 @@ ExposureTime : 0.02<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-FocalLength : 3.8 mm<br>
-FocalLength : 3.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -836,9 +783,6 @@ ShutterSpeedValue : 6<br>
 UserComment : <br>
 UserComment : 750<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -846,27 +790,25 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z5.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:07:18 00:19:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -889,9 +831,6 @@ ExposureTime : 0.08333333333333333<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-FocalLength : 10.7 mm<br>
-FocalLength : 10.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -932,9 +871,6 @@ ShutterSpeedValue : 4<br>
 UserComment : <br>
 UserComment : 750<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -942,26 +878,24 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z301.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : <br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -988,9 +922,6 @@ ExposureTime : 0.02<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-FocalLength : 3.8 mm<br>
-FocalLength : 3.8<br>
-<br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
 <br>
@@ -1030,9 +961,6 @@ ShutterSpeedValue : 6<br>
 UserComment : <br>
 UserComment : 750<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1040,27 +968,25 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-Z3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:01:04 03:58:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1084,9 +1010,6 @@ ExposureTime : 0.02<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-FocalLength : 6.3 mm<br>
-FocalLength : 6.3<br>
-<br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
 <br>
@@ -1126,9 +1049,6 @@ ShutterSpeedValue : 6<br>
 UserComment : <br>
 UserComment : 750<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1136,7 +1056,9 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-WD650.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1144,10 +1066,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:01:26 12:45:08<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1164,9 +1083,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 484<br>
@@ -1196,8 +1112,10 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-WD450.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1205,10 +1123,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2002:10:27 20:21:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1222,9 +1137,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 432<br>
@@ -1251,8 +1163,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-WD255.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1260,10 +1174,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:01:29 09:24:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1277,9 +1188,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 432<br>
@@ -1306,8 +1214,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-PD7.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1315,10 +1225,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:07:09 12:55:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1332,9 +1239,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 428<br>
@@ -1361,8 +1265,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-NZ80.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1370,10 +1276,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2002:11:10 17:48:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1387,9 +1290,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 598<br>
@@ -1422,8 +1322,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-NZ8.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1431,10 +1333,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2002:02:04 20:19:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1448,9 +1347,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 598<br>
@@ -1483,20 +1379,19 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-NZ50.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Unknown (5840)<br>
+<td>CustomRendered : Unknown (5840)<br>
 CustomRendered : <br>
 <br>
 DateTime : undefined<br>
@@ -1519,9 +1414,6 @@ ExposureTime : 0.016666666666666666<br>
 <br>
 Flash : Unknown (0xc80)<br>
 Flash : <br>
-<br>
-FocalLength : 3.6 mm<br>
-FocalLength : 3.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 3136<br>
@@ -1569,22 +1461,22 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-NZ150.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:07:12 13:39:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1604,12 +1496,6 @@ ExposureTime : 0.008<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 3.6 mm<br>
-FocalLength : 3.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1657,22 +1543,22 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-NZ105.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:08:01 14:33:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1692,12 +1578,6 @@ ExposureTime : 0.01<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 3.6 mm<br>
-FocalLength : 3.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1745,22 +1625,22 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-NZ100.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:03:05 19:17:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1780,12 +1660,6 @@ ExposureTime : 0.016666666666666666<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 13.3 mm<br>
-FocalLength : 13.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1833,21 +1707,21 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-NZ10.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:09:08 19:55:24<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1867,12 +1741,6 @@ ExposureTime : 0.008<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 3.6 mm<br>
-FocalLength : 3.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1920,8 +1788,10 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-MX1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1929,10 +1799,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:02:18 11:49:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1946,9 +1813,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 446<br>
@@ -1978,8 +1842,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-MR1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1987,10 +1853,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:12:19 14:10:20<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2004,9 +1867,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 484<br>
@@ -2036,21 +1896,21 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-MG10.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : <br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2073,12 +1933,6 @@ ExposureTime : 0.016666666666666666<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 3.6 mm<br>
-FocalLength : 3.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -2126,8 +1980,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-ME100.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -2135,10 +1991,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:05:01 09:09:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2152,9 +2005,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 450<br>
@@ -2184,22 +2034,22 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-MC500.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:06:26 11:49:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2219,12 +2069,6 @@ ExposureTime : 0.002<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 8.6 mm<br>
-FocalLength : 8.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -2272,24 +2116,25 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-DD10.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:11:28 10:50:04<br>
@@ -2314,12 +2159,6 @@ ExposureTime : 0.002857142857142857<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 7.6 mm<br>
-FocalLength : 7.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -2360,9 +2199,6 @@ ShutterSpeedValue : 8.5<br>
 UserComment : <br>
 UserComment : 972<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -2370,22 +2206,22 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-AX1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:05:22 18:22:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2405,12 +2241,6 @@ ExposureTime : 0.04<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 10.3 mm<br>
-FocalLength : 10.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -2458,8 +2288,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVL-AD260.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -2467,10 +2299,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:02:09 02:15:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2484,9 +2313,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 432<br>
@@ -2513,25 +2339,26 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpVE-CG40.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 MaxApertureValue<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 6.7<br>
 ApertureValue : 5.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:01:30 14:17:17<br>
@@ -2556,12 +2383,6 @@ ExposureTime : 0.002857142857142857<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 16.2 mm<br>
-FocalLength : 16.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -2599,9 +2420,6 @@ ShutterSpeedValue : 8.5<br>
 UserComment : <br>
 UserComment : 972<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -2610,10 +2428,12 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Sharp/SharpVE-CG30.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 MaxApertureValue<br>
@@ -2621,12 +2441,10 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : :  :     :  :<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2653,11 +2471,8 @@ ExposureTime : 0.06666666666666667<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -2695,9 +2510,6 @@ ShutterSpeedValue : 4<br>
 UserComment : <br>
 UserComment : 972<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -2705,6 +2517,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpV903SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2713,10 +2526,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:04:07 08:23:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2747,6 +2557,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpV902SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2755,10 +2566,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:06:19 03:35:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2783,6 +2591,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpV802SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2791,10 +2600,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:04:28 22:18:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2819,6 +2625,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpV801SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2827,10 +2634,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:11:25 09:35:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2858,6 +2662,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpV703SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2866,10 +2671,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:07:15 11:32:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2897,6 +2699,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpV601SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2905,10 +2708,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:09:19 18:24:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2933,6 +2733,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpV401SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2941,10 +2742,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:06:22 09:22:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2975,6 +2773,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpV301SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2983,10 +2782,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:08:12 11:40:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3017,6 +2813,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpTM200.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3024,10 +2821,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:04:14:14:27:08<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3055,6 +2849,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpTM150.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3062,10 +2857,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:10:30:21:29:12<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3090,6 +2882,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpSX833.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3098,10 +2891,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:11:29 20:19:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3132,6 +2922,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpSX813.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3140,10 +2931,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:11:20 19:30:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3168,6 +2956,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpJ-SH53.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3176,10 +2965,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:07:13 18:38:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3210,6 +2996,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpJ-SH52.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3218,10 +3005,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:12:19 13:32:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3249,6 +3033,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpJ-SH51.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3257,10 +3042,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:04:02 12:24:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3291,6 +3073,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/SharpJ-SH010.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3299,10 +3082,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:02:01 10:38:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3334,6 +3114,8 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Sharp/Sharp933SH.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -3342,16 +3124,11 @@ ImageDescription<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 8<br>
 ApertureValue : 6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:04:06 16:17:00<br>
@@ -3378,7 +3155,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 4.8 mm<br>
-FocalLength : 4.82<br>
+FocalLength : 4.82 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 28<br>
@@ -3413,9 +3190,6 @@ ShutterSpeedValue : 8.33<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -3423,6 +3197,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/Sharp912SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3431,10 +3206,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:09:16 13:03:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3465,24 +3237,22 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/Sharp910SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:09:12 14:32:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3505,9 +3275,6 @@ ExposureTime : 0.125<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 4.8 mm<br>
-FocalLength : 4.8<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 594<br>
@@ -3536,9 +3303,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/8<br>
 ShutterSpeedValue : 3<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -3546,6 +3310,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/Sharp816SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3554,10 +3319,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:11:08 17:31:00<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3588,6 +3350,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Sharp/Sharp705SH.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3597,10 +3360,7 @@ Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:07:06 07:43:00<br>
 <br>
 DateTimeDigitized : undefined<br>

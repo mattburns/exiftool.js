@@ -4,7 +4,7 @@
 		"exifJS": {
 			"ApertureValue": "3.06",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": "2.789816666666667",
 			"Copyright": "0220(",
 			"DateTime": "2010:04:12 16:28:30",
@@ -18,9 +18,9 @@
 			"ExposureTime": "0.25",
 			"FNumber": "2.88",
 			"FileSource": "DSC",
-			"Flash": "Flash did not fire",
+			"Flash": "No Flash",
 			"FlashpixVersion": "0100",
-			"FocalLength": "7.94",
+			"FocalLength": "7.94 mm",
 			"ISOSpeedRatings": "200",
 			"ImageDescription": "Photo by Best DSC",
 			"InteroperabilityIFDPointer": "33652",
@@ -40,7 +40,7 @@
 			"ShutterSpeedValue": "2",
 			"Software": "0.4.62-C 2006/2/10 14:3",
 			"UserComment": "33540",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "96",
 			"YCbCrPositioning": "2",
 			"YResolution": "96"
@@ -119,7 +119,7 @@
 		"exifJS": {
 			"ApertureValue": "3.62",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": "3.117310970245389",
 			"Copyright": "0220",
 			"DateTime": "2009:07:10 22:29:11",
@@ -230,7 +230,7 @@
 		"exifJS": {
 			"ApertureValue": "0",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": "1.3520822812776165",
 			"Copyright": "Copyright 2002",
 			"DateTime": "2006:05:24 11:12:10",
@@ -266,7 +266,7 @@
 			"ShutterSpeedValue": "3.5",
 			"Software": "Jan 12 2006 V1.15.42",
 			"UserComment": "21216",
-			"WhiteBalance": "Manual white balance",
+			"WhiteBalance": "Manual",
 			"XResolution": "96",
 			"YCbCrPositioning": "2",
 			"YResolution": "96"
@@ -346,7 +346,7 @@
 		"exifJS": {
 			"ApertureValue": "3.2",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"Copyright": "Copyright,LDC-402 USER,2003",
 			"DateTime": "2006:03:16 18:19:22",
 			"DigitalZoomRation": "2",
@@ -373,7 +373,7 @@
 			"ShutterSpeedValue": "6",
 			"SubjectDistanceRange": "",
 			"UserComment": "566",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "72",
 			"YCbCrPositioning": "2",
 			"YResolution": "72"
@@ -443,7 +443,7 @@
 		"exifJS": {
 			"BrightnessValue": "10",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2006:01:04 11:27:29",
 			"DateTimeDigitized": "2006:01:04 11:27:29",
 			"DateTimeOriginal": "2006:01:04 11:27:29",
@@ -477,7 +477,7 @@
 			"Sharpness": "Normal",
 			"SubjectDistanceRange": "",
 			"UserComment": "006:01:04 11:27:294",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "72",
 			"YCbCrPositioning": "2",
 			"YResolution": "72"
@@ -554,7 +554,7 @@
 		"exifJS": {
 			"BrightnessValue": "7",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2008:03:20 19:00:01",
 			"DateTimeDigitized": "2008:03:20 19:00:01",
 			"DateTimeOriginal": "2008:03:20 19:00:01",
@@ -588,7 +588,7 @@
 			"Sharpness": "Normal",
 			"SubjectDistanceRange": "",
 			"UserComment": "191, 151, 207, 0, 0, 486  5,   0,   0,   0,   0,   0 , 181",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "72",
 			"YCbCrPositioning": "2",
 			"YResolution": "72"

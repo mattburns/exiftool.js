@@ -23,9 +23,12 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Konica/Konica_e-miniD.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -33,10 +36,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2000:01:01 00:23:49<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -76,9 +76,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Konica/KonicaRevioKD-100.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -89,9 +91,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:03:02 13:54:30<br>
@@ -111,11 +110,8 @@ ExposureTime : 0.002<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 9.0 mm<br>
-FocalLength : 9<br>
+FocalLength : 9 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -151,12 +147,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Konica/KonicaRevioC2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
@@ -164,9 +163,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2025:01:13 00:03:36<br>
@@ -191,12 +187,6 @@ ExposureTime : 0.0015021301805973053<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 4.5 mm<br>
-FocalLength : 4.5<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 37<br>
@@ -247,22 +237,21 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Konica/KonicaQ-M200.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 FocalPlaneXResolution<br>
 FocalPlaneYResolution<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2001:08:26 18:49:05<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -276,9 +265,6 @@ ExposureTime : 0.0156<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 6.9 mm<br>
-FocalLength : 6.9<br>
 <br>
 FocalPlaneResolutionUnit : inches<br>
 FocalPlaneResolutionUnit : 2<br>
@@ -320,11 +306,13 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Konica/KonicaQ-M100V.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 FocalPlaneXResolution<br>
 FocalPlaneYResolution<br>
 ImageDescription<br>
@@ -332,10 +320,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 386<br>
 <br>
 ExposureBias : undefined<br>
@@ -346,9 +331,6 @@ ExposureTime : 0.0096<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 5.9 mm<br>
-FocalLength : 5.9<br>
 <br>
 FocalPlaneResolutionUnit : inches<br>
 FocalPlaneResolutionUnit : 2<br>
@@ -399,11 +381,14 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Konica/KonicaQ-M100.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 FocalPlaneXResolution<br>
 FocalPlaneYResolution<br>
 ImageDescription<br>
@@ -411,10 +396,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 386<br>
 <br>
 ExposureBias : undefined<br>
@@ -422,12 +404,6 @@ ExposureBias : 0<br>
 <br>
 ExposureTime : 1/97<br>
 ExposureTime : 0.0103<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 5.9 mm<br>
-FocalLength : 5.9<br>
 <br>
 FocalPlaneResolutionUnit : inches<br>
 FocalPlaneResolutionUnit : 2<br>
@@ -478,6 +454,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Konica/KonicaKDC1310.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -489,9 +466,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2002:04:15 03:12:40<br>
@@ -534,8 +508,10 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Konica/KonicaKD-510Z.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -546,15 +522,10 @@ Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2004:03:07 23:01:24<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -576,7 +547,7 @@ Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 39<br>
@@ -614,9 +585,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -625,8 +593,10 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Konica/KonicaKD-500Z.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -637,15 +607,10 @@ Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2005:05:29 22:54:44<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -667,7 +632,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 39<br>
@@ -705,9 +670,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -716,8 +678,10 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Konica/KonicaKD-410Z.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -728,15 +692,10 @@ Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2004:07:12 11:18:13<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -758,7 +717,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 24.0 mm<br>
-FocalLength : 24<br>
+FocalLength : 24 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 116<br>
@@ -793,9 +752,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -804,8 +760,10 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Konica/KonicaKD-400Z.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -817,15 +775,10 @@ Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2001:01:29 04:19:21<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -847,7 +800,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 39<br>
@@ -882,9 +835,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -892,6 +842,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Konica/KonicaKD-3300.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -901,13 +852,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
 ApertureValue : 5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:11:22 12:14:01<br>
@@ -954,9 +903,6 @@ ShutterSpeedValue : 8.5<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -965,27 +911,25 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Konica/KonicaKD-310Z.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2005:01:05 09:48:18<br>
 <br>
 DigitalZoomRation : undefined<br>
@@ -1005,9 +949,6 @@ ExposureTime : 0.0146<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 11.3 mm<br>
-FocalLength : 11.3<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 55<br>
@@ -1045,9 +986,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1056,6 +994,7 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Konica/KonicaKD-3100.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureTime<br>
@@ -1066,12 +1005,10 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:03:01 13:07:08<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1113,9 +1050,6 @@ ShutterSpeedValue : 1.4<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1123,21 +1057,21 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Konica/KonicaKD-30M.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 RelatedSoundFile<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:10:18 07:40:55<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1157,12 +1091,6 @@ ExposureTime : 0.16666666666666666<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 5.6 mm<br>
-FocalLength : 5.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1201,10 +1129,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Konica/KonicaKD-300Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Software<br>
@@ -1212,9 +1142,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2001:05:04 01:11:40<br>
@@ -1233,9 +1160,6 @@ ExposureProgram : Normal program<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 7.8 mm<br>
-FocalLength : 7.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1277,21 +1201,21 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Konica/KonicaKD-25.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:06:18 21:24:09<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1311,12 +1235,6 @@ ExposureTime : 0.00847457627118644<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 5.6 mm<br>
-FocalLength : 5.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1353,6 +1271,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Konica/KonicaKD-220Z.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1361,10 +1280,7 @@ Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2002:01:01 00:23:35<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1407,19 +1323,18 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Konica/KonicaKD-210Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2002:09:09 09:26:28<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -1433,9 +1348,6 @@ ExposureTime : 0.0313<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 5.5 mm<br>
-FocalLength : 5.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1474,21 +1386,20 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Konica/KonicaKD-20M.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:01:05 19:57:33<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1511,9 +1422,6 @@ FileSource : DSC<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 5.6 mm<br>
-FocalLength : 5.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -1549,6 +1457,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Konica/KonicaKD-200Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -1558,10 +1467,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2002:04:15 17:19:52<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -1577,7 +1483,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 9.9 mm<br>
-FocalLength : 9.91<br>
+FocalLength : 9.91 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1616,20 +1522,20 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Konica/KonicaKD-20.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:02:07 06:44:05<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1649,12 +1555,6 @@ ExposureTime : 0.007407407407407408<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 5.6 mm<br>
-FocalLength : 5.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1698,19 +1598,18 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Konica/KonicaDG-2.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTimeDigitized : undefined<br>
+<td>DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2003:07:06 21:49:23<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -1722,11 +1621,8 @@ ExposureBias : 0<br>
 ExposureTime : 1/169<br>
 ExposureTime : 0.0059<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 5.9 mm<br>
-FocalLength : 5.88<br>
+FocalLength : 5.88 mm<br>
 <br>
 InteroperabilityIFDPointer : undefined<br>
 InteroperabilityIFDPointer : 344<br>
@@ -1762,11 +1658,14 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Konica/KonicaDG-1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 FocalPlaneXResolution<br>
 FocalPlaneYResolution<br>
 ImageDescription<br>
@@ -1774,10 +1673,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 386<br>
 <br>
 ExposureBias : undefined<br>
@@ -1785,12 +1681,6 @@ ExposureBias : 0<br>
 <br>
 ExposureTime : 1/64<br>
 ExposureTime : 0.0156<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 5.9 mm<br>
-FocalLength : 5.9<br>
 <br>
 FocalPlaneResolutionUnit : inches<br>
 FocalPlaneResolutionUnit : 2<br>

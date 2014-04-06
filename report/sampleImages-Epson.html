@@ -23,9 +23,12 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Epson/EpsonStylusPhotoRX700.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
 FlashpixVersion<br>
 ImageDescription<br>
@@ -34,10 +37,7 @@ Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-Compression : Uncompressed<br>
+<td>Compression : Uncompressed<br>
 Compression : 1<br>
 <br>
 DateTime : undefined<br>
@@ -77,6 +77,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Epson/EpsonStylusPhotoRX690.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
 FlashpixVersion<br>
 ImageDescription<br>
@@ -84,10 +85,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 180<br>
 <br>
 PixelXDimension : undefined<br>
@@ -106,6 +104,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonStylusPhotoRX640.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
 FlashpixVersion<br>
 ImageDescription<br>
@@ -113,10 +112,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:03:24 21:40:44<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -147,6 +143,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Epson/EpsonStylusPhotoRX620.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
 FlashpixVersion<br>
 ImageDescription<br>
@@ -154,10 +151,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 180<br>
 <br>
 PixelXDimension : undefined<br>
@@ -176,6 +170,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonStylusPhotoRX610.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
 FlashpixVersion<br>
 ImageDescription<br>
@@ -183,10 +178,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 180<br>
 <br>
 PixelXDimension : undefined<br>
@@ -205,6 +197,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonStylusPhotoRX590.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
 FlashpixVersion<br>
 ImageDescription<br>
@@ -212,10 +205,7 @@ Make<br>
 Model<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-ExifIFDPointer : undefined<br>
+<td>ExifIFDPointer : undefined<br>
 ExifIFDPointer : 180<br>
 <br>
 PixelXDimension : undefined<br>
@@ -234,6 +224,8 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonR-D1s.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 Flash<br>
@@ -246,15 +238,10 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2100:04:20 19:36:55<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -302,9 +289,6 @@ PixelYDimension : 2000<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -312,6 +296,8 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonR-D1.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 Flash<br>
@@ -323,15 +309,10 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:10:12 20:52:44<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -382,9 +363,6 @@ PixelYDimension : 2000<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -392,11 +370,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonPhotoPC850Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 Model<br>
@@ -404,10 +385,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 1999:01:14 21:28:44<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -427,12 +405,6 @@ ExposureTime : 0.0015830299192654742<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 6.6 mm<br>
-FocalLength : 6.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -474,6 +446,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonPhotoPC800S.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -485,10 +458,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2001:01:07 01:02:49<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -513,7 +483,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -558,10 +528,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonPhotoPC800.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -569,10 +541,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:03:19 14:35:15<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -593,11 +562,8 @@ ExposureTime : 0.0012671059300557526<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -636,11 +602,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonPhotoPC3100Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 MaxApertureValue<br>
@@ -649,10 +618,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2001:06:14 02:56:58<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -672,12 +638,6 @@ ExposureTime : 0.0021240441801189465<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 11.6 mm<br>
-FocalLength : 11.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -716,11 +676,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonPhotoPC3000Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 MaxApertureValue<br>
@@ -729,10 +692,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2000:07:11 15:44:34<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -752,12 +712,6 @@ ExposureTime : 0.05747126436781609<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 12.2 mm<br>
-FocalLength : 12.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -796,6 +750,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonPhotoPC2100Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -806,10 +761,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2002:11:02 08:19:50<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1006,6 +958,8 @@ ExifIFDPointer : 96<br>
 <tr>
 <td>sampleImages/Epson/EpsonL-500V.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1016,15 +970,10 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:02:25 14:15:29<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1058,7 +1007,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 10.0 mm<br>
-FocalLength : 9.99<br>
+FocalLength : 9.99 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1093,9 +1042,6 @@ SubjectDistanceRange : <br>
 UserComment : <br>
 UserComment : 762<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1103,6 +1049,8 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonL-410.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -1114,15 +1062,10 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:04:06 00:13:39<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1156,7 +1099,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 5.8 mm<br>
-FocalLength : 5.77<br>
+FocalLength : 5.77 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 400<br>
@@ -1191,9 +1134,6 @@ SubjectDistanceRange : <br>
 UserComment : <br>
 UserComment : 748<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1201,11 +1141,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonL-400.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -1213,15 +1156,10 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:07:16 16:08:27<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1250,9 +1188,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.6 mm<br>
-FocalLength : 5.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -1287,9 +1222,6 @@ SubjectDistanceRange : <br>
 UserComment : <br>
 UserComment : 3490<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1297,11 +1229,14 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Epson/EpsonL-300.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -1309,15 +1244,10 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:08:30 10:26:27<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1346,9 +1276,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 5.6 mm<br>
-FocalLength : 5.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1382,9 +1309,6 @@ SubjectDistanceRange : <br>
 <br>
 UserComment : <br>
 UserComment : 3478<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 <br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
@@ -1453,15 +1377,13 @@ ExifIFDPointer : 88<br>
 <tr>
 <td>sampleImages/Epson/EpsonCX3900.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Make<br>
 Model<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:10:27 23:04:23<br>
 <br>
 ExifIFDPointer : undefined<br>
@@ -1489,6 +1411,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Epson/EpsonCP-920Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -1502,10 +1425,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:05:03 21:10:40<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1530,7 +1450,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1569,6 +1489,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonCP-900Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -1582,10 +1503,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:09:08 10:39:13<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1610,7 +1528,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1649,10 +1567,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonCP-850Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -1661,10 +1581,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 1999:01:02 00:42:40<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1685,11 +1602,8 @@ ExposureTime : 0.07751937984496124<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 9.0 mm<br>
-FocalLength : 9<br>
+FocalLength : 9 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 400<br>
@@ -1731,9 +1645,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonCP-80Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1741,10 +1657,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:02:29 19:23:46<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1764,9 +1677,6 @@ ExposureTime : 0.002777777777777778<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1802,10 +1712,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonCP-800S.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1813,10 +1725,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2001:04:05 14:25:08<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1837,11 +1746,8 @@ ExposureTime : 0.004177109440267335<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1886,10 +1792,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Epson/EpsonCP-800.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1897,10 +1805,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:01:08 09:47:06<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1921,11 +1826,8 @@ ExposureTime : 0.004940711462450593<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>

@@ -4,7 +4,7 @@
 		"exifJS": {
 			"ApertureValue": "5.61328125",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": "3.298546993371212",
 			"Copyright": "Copyright 2002",
 			"DateTime": "2007:02:17 21:29:52",
@@ -39,7 +39,7 @@
 			"ShutterSpeedValue": "7.9658203125",
 			"Software": "2007-May-08 V2.4.16",
 			"UserComment": "1214",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "96",
 			"YCbCrPositioning": "2",
 			"YResolution": "96"
@@ -117,7 +117,7 @@
 		"exifJS": {
 			"ApertureValue": "0",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": "3.059502348634807",
 			"Copyright": "Copyright 2002",
 			"DateTime": "1970:06:15 07:06:31",
@@ -153,7 +153,7 @@
 			"ShutterSpeedValue": "3.5",
 			"Software": "Dec 28 2005 V1.15.40",
 			"UserComment": "21214",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "96",
 			"YCbCrPositioning": "2",
 			"YResolution": "96"
@@ -232,7 +232,7 @@
 		"exifJS": {
 			"ApertureValue": "0",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": "1.3382096115810294",
 			"Copyright": "Copyright 2002",
 			"DateTime": "2006:10:27 01:01:06",
@@ -268,7 +268,7 @@
 			"ShutterSpeedValue": "3.5",
 			"Software": "Jan 12 2006 V1.15.42",
 			"UserComment": "21214",
-			"WhiteBalance": "Auto white balance",
+			"WhiteBalance": "Auto",
 			"XResolution": "96",
 			"YCbCrPositioning": "2",
 			"YResolution": "96"

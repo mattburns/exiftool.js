@@ -12,7 +12,7 @@
 			"ExposureTime": "0.00045",
 			"FNumber": "2.2",
 			"Flash": "Flash did not fire, compulsory flash mode",
-			"FocalLength": "4.1",
+			"FocalLength": "4.1 mm",
 			"FocalLengthIn35mmFilm": "31",
 			"ISOSpeedRatings": "70",
 			"Make": "Research In Motion",
@@ -25,7 +25,7 @@
 			"SceneCaptureType": "Standard",
 			"Software": "Blackberry 10.0.9.2372",
 			"SubjectDistance": "5",
-			"WhiteBalance": "Auto white balance"
+			"WhiteBalance": "Auto"
 		},
 		"exifPerl": {
 			"SourceFile": "sampleImages/RIM/RIM_BlackberryZ10.jpg",
@@ -82,7 +82,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerryStorm2.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:08:03 16:58:50",
 			"DateTimeOriginal": "2010:08:03 16:58:50",
 			"DeviceSettingDescription": "",
@@ -171,7 +171,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerryPearlFlip8220.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:07:24 18:59:36",
 			"DateTimeOriginal": "2010:07:24 18:59:36",
 			"ExifIFDPointer": "240",
@@ -236,7 +236,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry9800.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:09:27 10:35:05",
 			"DateTimeOriginal": "2010:09:27 10:35:05",
 			"ExifIFDPointer": "228",
@@ -298,7 +298,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry9700.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:05:01 16:25:32",
 			"DateTimeOriginal": "2010:05:01 16:25:32",
 			"DeviceSettingDescription": "",
@@ -363,7 +363,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry9650.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:11:19 02:36:49",
 			"DateTimeOriginal": "2010:11:19 02:36:49",
 			"DeviceSettingDescription": "",
@@ -428,7 +428,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry9550.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:06:06 00:33:29",
 			"DateTimeOriginal": "2010:06:06 00:33:29",
 			"DeviceSettingDescription": "",
@@ -493,7 +493,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry9300.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:11:29 15:02:39",
 			"DateTimeOriginal": "2010:11:29 15:02:39",
 			"DeviceSettingDescription": "",
@@ -558,7 +558,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry9105.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:10:29 15:02:13",
 			"DateTimeOriginal": "2010:10:29 15:02:13",
 			"DeviceSettingDescription": "",
@@ -623,7 +623,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry9100.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:11:26 07:56:26",
 			"DateTimeOriginal": "2010:11:26 07:56:26",
 			"DeviceSettingDescription": "",
@@ -688,7 +688,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry9000.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2009:09:05 07:38:35",
 			"DateTimeOriginal": "2009:09:05 07:38:35",
 			"DeviceSettingDescription": "",
@@ -753,7 +753,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry8900.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:12:01 19:50:59",
 			"DateTimeOriginal": "2010:12:01 19:50:59",
 			"DeviceSettingDescription": "",
@@ -818,7 +818,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry8520.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:04:24 11:01:18",
 			"DateTimeOriginal": "2010:04:24 11:01:18",
 			"DeviceSettingDescription": "",
@@ -883,7 +883,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry8310.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2010:06:09 20:01:38",
 			"DateTimeOriginal": "2010:06:09 20:01:38",
 			"ExifIFDPointer": "194",
@@ -935,7 +935,7 @@
 		"img": "sampleImages/RIM/RIM_BlackBerry8300.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2009:12:30 14:01:12",
 			"DateTimeOriginal": "2009:12:30 14:01:12",
 			"ExifIFDPointer": "194",

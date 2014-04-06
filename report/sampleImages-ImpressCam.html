@@ -23,21 +23,22 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/ImpressCam/ImpressCamUltra_Zoom.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 LightSource<br>
 Make<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:06:22 05:14:34<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -61,11 +62,8 @@ FNumber : 3.41<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 58.3 mm<br>
-FocalLength : 58.27<br>
+FocalLength : 58.27 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -113,10 +111,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/ImpressCam/ImpressCamTravel_DXG.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 MeteringMode<br>
@@ -125,10 +125,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:05:30 06:26:57<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -149,11 +146,8 @@ ExposureTime : 0.03333333333333333<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 5.1 mm<br>
-FocalLength : 5.11<br>
+FocalLength : 5.11 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -192,10 +186,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/ImpressCam/ImpressCamQ-63.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -205,16 +202,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 6.7<br>
 ApertureValue : 5.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:02:01 13:30:21<br>
@@ -242,9 +234,6 @@ ExposureTime : 0.0022727272727272726<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -288,9 +277,6 @@ ShutterSpeedValue : 8.78<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -298,18 +284,17 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/ImpressCam/ImpressCamMini_Cam.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 LightSource<br>
 Make<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:01:03 05:40:47<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -333,11 +318,8 @@ FNumber : 2.88<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 6.0 mm<br>
-FocalLength : 6<br>
+FocalLength : 6 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -385,16 +367,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/ImpressCam/ImpressCamIdeal_DSC_33.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 Make<br>
 Model</td>
 <td>ApertureValue : 4.4<br>
 ApertureValue : 4.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2005/05/04 19:19:21<br>
@@ -411,11 +392,8 @@ ExposureTime : 0.0007071135624381275<br>
 FNumber : 4.7<br>
 FNumber : 4.65<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 6.0 mm<br>
-FocalLength : 6<br>
+FocalLength : 6 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -451,19 +429,18 @@ Software : 1.01B0591<br>
 <tr>
 <td>sampleImages/ImpressCam/ImpressCamElite_DSC_13.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 LightSource<br>
 Make<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:11:10 12:33:26<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -484,11 +461,8 @@ ExposureTime : 0.005279831045406547<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 6.6 mm<br>
-FocalLength : 6.61<br>
+FocalLength : 6.61 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -536,16 +510,16 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/ImpressCam/ImpressCamElite_DSC_11.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
+FocalLength<br>
 Make<br>
 Model</td>
 <td>ApertureValue : 5.1<br>
 ApertureValue : 4.7<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2004/09/09 11:32:37<br>
@@ -561,12 +535,6 @@ ExposureTime : 0.000933009889904833<br>
 <br>
 FNumber : 5.1<br>
 FNumber : 5.14<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 9.2 mm<br>
-FocalLength : 9.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -602,18 +570,18 @@ Software : 1.00B0648<br>
 <tr>
 <td>sampleImages/ImpressCam/ImpressCamC630.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:04:22 14:36:41<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -636,12 +604,6 @@ FNumber : 4.93<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 8.2 mm<br>
-FocalLength : 8.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>

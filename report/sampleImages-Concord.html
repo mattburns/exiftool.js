@@ -23,9 +23,12 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Concord/JenoptikJM_Multimedia.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -40,9 +43,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.2<br>
 ApertureValue : 3.33<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 2.044999174<br>
 CompressedBitsPerPixel : 2.0449991744144693<br>
@@ -72,7 +72,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 8.6 mm<br>
-FocalLength : 8.55<br>
+FocalLength : 8.55 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -114,10 +114,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD_C50SL.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -125,10 +127,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:01:03 07:19:52<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -149,11 +148,8 @@ ExposureTime : 0.0006064281382656155<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.22<br>
+FocalLength : 8.22 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 47<br>
@@ -195,6 +191,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD_C31z3.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExposureIndex<br>
@@ -211,9 +208,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1<br>
 ApertureValue : 0<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.565587362<br>
 CompressedBitsPerPixel : 1.5655873616536458<br>
@@ -285,21 +279,21 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJDC30S.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:01:01 00:29:35<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -319,12 +313,6 @@ ExposureTime : 0.05<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 8.3 mm<br>
-FocalLength : 8.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -360,21 +348,20 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJDC30C.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:02:23 17:10:01<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -397,9 +384,6 @@ FileSource : DSC<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 8.3 mm<br>
-FocalLength : 8.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -435,23 +419,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD80Z3CL.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.6<br>
 ApertureValue : 4.97<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.587529436<br>
 CompressedBitsPerPixel : 1.5875294357939254<br>
@@ -483,11 +467,8 @@ ExposureTime : 0.0008410428931875525<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 6.2 mm<br>
-FocalLength : 6.199<br>
+FocalLength : 6.199 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -525,9 +506,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/1189<br>
 ShutterSpeedValue : 10.216<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -540,6 +518,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD60z3EasyShot.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -551,9 +530,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.9<br>
 ApertureValue : 3.072<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.99578988<br>
 CompressedBitsPerPixel : 1.9957898804946814<br>
@@ -592,7 +568,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 6.0 mm<br>
-FocalLength : 5.954<br>
+FocalLength : 5.954 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -640,11 +616,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD60Z3C.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -654,9 +632,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.97<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 2.253301424<br>
 CompressedBitsPerPixel : 2.2533014242541154<br>
@@ -684,9 +659,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Return detected<br>
 Flash : Flash fired, compulsory flash mode, return light detected<br>
-<br>
-FocalLength : 6.2 mm<br>
-FocalLength : 6.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -723,7 +695,9 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Concord/JenoptikJD52z3.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -735,6 +709,7 @@ Model<br>
 Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
@@ -742,12 +717,6 @@ ApertureValue : 3<br>
 <br>
 CFAPattern : [Green,Red][Blue,Green]<br>
 CFAPattern : 0,2,0,2,1,0,2,1<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2006:05:31:24:56:55<br>
@@ -777,7 +746,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 19.0 mm<br>
-FocalLength : 19<br>
+FocalLength : 19 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -824,9 +793,6 @@ SubsecTimeDigitized : 00<br>
 SubsecTimeOriginal : undefined<br>
 SubsecTimeOriginal : 00<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -835,11 +801,14 @@ YCbCrPositioning : 1<br>
 <td>sampleImages/Concord/JenoptikJD52Zoom.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -848,20 +817,15 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : 2.762506033<br>
+<td>CompressedBitsPerPixel : 2.762506033<br>
 CompressedBitsPerPixel : 2.7625060331250317<br>
 <br>
 Copyright : 
 ---<br>
 Copyright : ---<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:05:08 11:41:45<br>
@@ -892,9 +856,6 @@ FileSource : DSC<br>
 <br>
 Flash : Unknown (0x1e)<br>
 Flash : <br>
-<br>
-FocalLength : 5.9 mm<br>
-FocalLength : 5.9<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>
@@ -938,9 +899,6 @@ SubjectArea : 0,0<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -948,17 +906,16 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD5200Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5055<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.1119023398<br>
 CompressedBitsPerPixel : 0.11190233977619532<br>
@@ -975,11 +932,8 @@ ExifIFDPointer : 284<br>
 ExposureBias : undefined<br>
 ExposureBias : 0.3<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.24<br>
+FocalLength : 8.24 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1027,8 +981,10 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD5200.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 MeteringMode<br>
@@ -1038,9 +994,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.514<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.1119023398<br>
 CompressedBitsPerPixel : 0.11190233977619532<br>
@@ -1057,11 +1010,8 @@ ExifIFDPointer : 255<br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.24<br>
+FocalLength : 8.24 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1100,23 +1050,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD50Z3C.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.97<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.570030382<br>
 CompressedBitsPerPixel : 1.5700303819444446<br>
@@ -1150,9 +1100,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 6.2 mm<br>
-FocalLength : 6.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1193,9 +1140,6 @@ ShutterSpeedValue : 8.091<br>
 SubsecTime : undefined<br>
 SubsecTime : 562<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1203,9 +1147,11 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD4363z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1219,15 +1165,10 @@ Saturation<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 32004:01:11 14:00:<br>
@@ -1260,7 +1201,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 7.5 mm<br>
-FocalLength : 7.45<br>
+FocalLength : 7.45 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -1298,9 +1239,6 @@ Software : 4.02.<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 <br>
@@ -1311,9 +1249,11 @@ YResolution : 0.013888888888888888<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD4360z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1329,16 +1269,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7<br>
 ApertureValue : 5.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2000:01:27 17:33:34<br>
@@ -1371,7 +1306,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 7.5 mm<br>
-FocalLength : 7.45<br>
+FocalLength : 7.45 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -1400,9 +1335,6 @@ SensingMethod : One-chip color area sensor<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1410,9 +1342,11 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD41Z8.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 LightSource<br>
@@ -1422,13 +1356,11 @@ Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3<br>
 ApertureValue : 3.2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:07:19 02:58:54<br>
@@ -1444,9 +1376,6 @@ ExposureMode : 0<br>
 <br>
 ExposureTime : 1/500<br>
 ExposureTime : 0.002<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ImageDescription : Exif_JPEG_422<br>
 ImageDescription : ExifJPEG422<br>
@@ -1472,9 +1401,6 @@ SubjectDistanceRange : <br>
 UserComment : GAIN082083MAX000000000000SUM000000000000MIN000000000NOWY13361FLASH0000FLAY00000AFD0SV29ZOOM07000000000000000000000000000<br>
 UserComment : 566<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1482,8 +1408,10 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD4100Z3S.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1492,9 +1420,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.7<br>
 ApertureValue : 4.4658<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.3732638889<br>
 CompressedBitsPerPixel : 0.3732638888888889<br>
@@ -1511,11 +1436,8 @@ ExifIFDPointer : 284<br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 11.2 mm<br>
-FocalLength : 11.23<br>
+FocalLength : 11.23 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1557,6 +1479,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD4100.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1567,9 +1490,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5055<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.2712477396<br>
 CompressedBitsPerPixel : 0.27124773960216997<br>
@@ -1590,7 +1510,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.24<br>
+FocalLength : 8.24 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1632,9 +1552,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD4.0LCD.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1649,16 +1571,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1125899906842624.0<br>
 ApertureValue : 100<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:05:23 15:57:44<br>
@@ -1694,7 +1611,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 10.0 mm<br>
-FocalLength : 10<br>
+FocalLength : 10 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 4<br>
@@ -1723,9 +1640,6 @@ SensingMethod : One-chip color area sensor<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -1733,6 +1647,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD3300.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1743,9 +1658,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5055<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.2544529262<br>
 CompressedBitsPerPixel : 0.2544529262086514<br>
@@ -1766,7 +1678,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.24<br>
+FocalLength : 8.24 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100,100,100,100<br>
@@ -1808,11 +1720,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD3.3x4ie.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -1821,9 +1735,6 @@ SceneType<br>
 Software</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.09960905711<br>
 CompressedBitsPerPixel : 0.0996090571085612<br>
@@ -1848,9 +1759,6 @@ ExposureTime : 0.004249155521392822<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 400<br>
@@ -1895,6 +1803,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD2100f.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1906,9 +1815,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.6<br>
 ApertureValue : 3.7<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2002:04:02 00:00:00<br>
@@ -1959,8 +1865,10 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD2100Z3S.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
@@ -1969,9 +1877,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.3<br>
 ApertureValue : 4.8063<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.07378472222<br>
 CompressedBitsPerPixel : 0.07378472222222222<br>
@@ -1988,11 +1893,8 @@ ExifIFDPointer : 284<br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 15.1 mm<br>
-FocalLength : 15.105<br>
+FocalLength : 15.105 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -2034,6 +1936,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/JenoptikJD100z3EasyShot.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -2042,13 +1945,11 @@ Make<br>
 Model<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.2<br>
 ApertureValue : 4.14<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 3.963859558<br>
 CompressedBitsPerPixel : 3.9638595581054688<br>
@@ -2087,7 +1988,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 15.9 mm<br>
-FocalLength : 15.926<br>
+FocalLength : 15.926 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -2125,9 +2026,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/219<br>
 ShutterSpeedValue : 7.778<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2135,6 +2033,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/ConcordJenoptikJD3.1exclusiv.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExposureIndex<br>
@@ -2150,9 +2049,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1<br>
 ApertureValue : 0<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.610287984<br>
 CompressedBitsPerPixel : 1.6102879842122395<br>
@@ -2227,22 +2123,22 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/ConcordJD8.0.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 SceneType<br>
-Sharpness</td>
+Sharpness<br>
+WhiteBalance</td>
 <td>ApertureValue : 6.4<br>
 ApertureValue : 5.356<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 4.076679167<br>
 CompressedBitsPerPixel : 4.076679166666667<br>
@@ -2274,11 +2170,8 @@ ExposureTime : 0.003367003367003367<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.249<br>
+FocalLength : 8.249 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 49<br>
@@ -2322,9 +2215,6 @@ ShutterSpeedValue : 8.18<br>
 Software :   1.0<br>
 Software : 1.0<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 XResolution : 0.3333333333<br>
 XResolution : 0.3333333333333333<br>
 <br>
@@ -2338,6 +2228,7 @@ YResolution : 0.3333333333333333<br>
 <tr>
 <td>sampleImages/Concord/ConcordJD5.0z3EasyShot.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -2348,13 +2239,11 @@ Model<br>
 SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.9<br>
 ApertureValue : 3.072<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 2.024549154<br>
 CompressedBitsPerPixel : 2.0245491536458333<br>
@@ -2390,7 +2279,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 6.0 mm<br>
-FocalLength : 5.954<br>
+FocalLength : 5.954 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -2434,9 +2323,6 @@ ShutterSpeedValue : 5.907<br>
 Software :   1.0<br>
 Software : 1.0<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2444,10 +2330,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/ConcordEyeQ3132z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -2459,9 +2347,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.5<br>
 ApertureValue : 2.663<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.500874837<br>
 CompressedBitsPerPixel : 1.5008748372395833<br>
@@ -2490,11 +2375,8 @@ FNumber : 2.663<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 5.7 mm<br>
-FocalLength : 5.69<br>
+FocalLength : 5.69 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -2540,8 +2422,10 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Concord/ConcordEyeQ3103.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -2553,15 +2437,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:01:01 22:26:43<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2592,7 +2471,7 @@ Flash : Fired, Red-eye reduction<br>
 Flash : Flash fired, red-eye reduction mode<br>
 <br>
 FocalLength : 6.0 mm<br>
-FocalLength : 5.96<br>
+FocalLength : 5.96 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>
@@ -2630,9 +2509,6 @@ ResolutionUnit : 2<br>
 SubjectArea : 1 1 1 1<br>
 SubjectArea : 1,1,1,1<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -2640,11 +2516,14 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/ConcordEye-Q5345Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -2654,14 +2533,8 @@ Sharpness<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : 3.833333333<br>
+<td>CompressedBitsPerPixel : 3.833333333<br>
 CompressedBitsPerPixel : 3.8333333333333335<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:05:07 11:59:12<br>
@@ -2692,9 +2565,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 17.2 mm<br>
-FocalLength : 17.2<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 84<br>
@@ -2727,7 +2597,7 @@ ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
 WhiteBalance : Flash<br>
-WhiteBalance : Auto white balance<br>
+WhiteBalance : Auto<br>
 <br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
@@ -2736,9 +2606,11 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/ConcordEye-Q5062AF.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -2752,16 +2624,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:01:01 00:00:51<br>
@@ -2794,7 +2661,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 10.0 mm<br>
-FocalLength : 10<br>
+FocalLength : 10 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 48<br>
@@ -2832,9 +2699,6 @@ SensingMethod : One-chip color area sensor<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -2842,9 +2706,11 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/ConcordEye-Q4363Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -2858,16 +2724,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 10.8<br>
 ApertureValue : 6.86<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:10:01 00:12:43<br>
@@ -2903,7 +2764,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 11.5 mm<br>
-FocalLength : 11.545<br>
+FocalLength : 11.545 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 56<br>
@@ -2938,9 +2799,6 @@ SensingMethod : One-chip color area sensor<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -2948,9 +2806,11 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/ConcordEye-Q4360Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -2966,16 +2826,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:04:11 04:34:57<br>
@@ -3008,7 +2863,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 7.5 mm<br>
-FocalLength : 7.45<br>
+FocalLength : 7.45 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -3037,9 +2892,6 @@ SensingMethod : One-chip color area sensor<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -3047,9 +2899,11 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/ConcordEye-Q4060AF.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -3063,16 +2917,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1125899906842624.0<br>
 ApertureValue : 100<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:08:15 14:24:34<br>
@@ -3108,7 +2957,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 10.0 mm<br>
-FocalLength : 10<br>
+FocalLength : 10 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 4<br>
@@ -3140,9 +2989,6 @@ SensingMethod : One-chip color area sensor<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -3150,6 +2996,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/ConcordEye-Q3346z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExposureIndex<br>
@@ -3165,9 +3012,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1<br>
 ApertureValue : 0<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.573371887<br>
 CompressedBitsPerPixel : 1.5733718872070312<br>
@@ -3242,6 +3086,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/ConcordEye-Q3345z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExposureIndex<br>
@@ -3257,9 +3102,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1<br>
 ApertureValue : 0<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 3.574239095<br>
 CompressedBitsPerPixel : 3.5742390950520835<br>
@@ -3334,9 +3176,11 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/ConcordEye-Q3341Z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -3352,16 +3196,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:04:24 14:10:08<br>
@@ -3394,7 +3233,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 7.5 mm<br>
-FocalLength : 7.45<br>
+FocalLength : 7.45 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -3423,9 +3262,6 @@ SensingMethod : One-chip color area sensor<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -3433,13 +3269,16 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Concord/ConcordEye-Q3340z.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 MeteringMode<br>
@@ -3449,16 +3288,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.6<br>
 ApertureValue : 3.7<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:05:18 12:02:12<br>
@@ -3489,9 +3323,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 11.6 mm<br>
-FocalLength : 11.6<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 76<br>
@@ -3529,9 +3360,6 @@ SensingMethod : One-chip color area sensor<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3539,6 +3367,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/ConcordEYE_Q3042.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -3550,9 +3379,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7<br>
 ApertureValue : 5.6<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 3.548548381<br>
 CompressedBitsPerPixel : 3.548548380533854<br>
@@ -3645,6 +3471,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/ConcordEYE_Q3040.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
 ExposureTime<br>
 FNumber<br>
@@ -3654,9 +3481,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.98227946<br>
 CompressedBitsPerPixel : 1.9822794596354167<br>
@@ -3737,11 +3561,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Concord/Concord5340z.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Saturation<br>
@@ -3749,20 +3576,15 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : 2.716470114<br>
+<td>CompressedBitsPerPixel : 2.716470114<br>
 CompressedBitsPerPixel : 2.71647011380379<br>
 <br>
 Copyright : 
 ---<br>
 Copyright : ---<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:04:24 10:31:25<br>
@@ -3793,9 +3615,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Return detected<br>
 Flash : Flash fired, compulsory flash mode, return light detected<br>
-<br>
-FocalLength : 5.9 mm<br>
-FocalLength : 5.9<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>
@@ -3842,9 +3661,6 @@ SubjectArea : 0,0<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3852,10 +3668,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/Concord5040.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -3864,10 +3682,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:02:08 13:31:19<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3888,11 +3703,8 @@ ExposureTime : 0.02040816326530612<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.2 mm<br>
-FocalLength : 8.22<br>
+FocalLength : 8.22 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 84<br>
@@ -3932,11 +3744,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Concord/Concord4340z.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -3945,16 +3760,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : 2.144575457<br>
+<td>CompressedBitsPerPixel : 2.144575457<br>
 CompressedBitsPerPixel : 2.144575456532922<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:05:14 21:22:25<br>
@@ -3985,9 +3795,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Return detected<br>
 Flash : Flash fired, compulsory flash mode, return light detected<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>
@@ -4031,9 +3838,6 @@ SubjectArea : 0,0<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4041,6 +3845,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/Concord3045.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -4052,10 +3857,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:04:29 09:11:02<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -4080,7 +3882,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 7.0 mm<br>
-FocalLength : 7<br>
+FocalLength : 7 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -4119,6 +3921,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Concord/Concord2000.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -4134,9 +3937,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3<br>
 ApertureValue : 3.2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.07459960938<br>
 CompressedBitsPerPixel : 0.074599609375<br>

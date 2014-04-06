@@ -561,7 +561,7 @@
                 255 : "Other"
             },
             Flash : {
-                0x0000 : "Flash did not fire",
+                0x0000 : "No Flash",
                 0x0001 : "Flash fired",
                 0x0005 : "Strobe return light not detected",
                 0x0007 : "Strobe return light detected",
@@ -603,12 +603,12 @@
                 1 : "Directly photographed"
             },
             CustomRendered : {
-                0 : "Normal process",
-                1 : "Custom process"
+                0 : "Normal",
+                1 : "Custom"
             },
             WhiteBalance : {
-                0 : "Auto white balance",
-                1 : "Manual white balance"
+                0 : "Auto",
+                1 : "Manual"
             },
             GainControl : {
                 0 : "None",
@@ -643,7 +643,7 @@
             },
 
             Components : {
-                0 : "",
+                0 : "-",
                 1 : "Y",
                 2 : "Cb",
                 3 : "Cr",
@@ -1132,9 +1132,9 @@
                                 oEXIFTags[strTag][2], oEXIFTags[strTag][3]);
                         break;
                     case "ComponentsConfiguration":
-                        oEXIFTags[strTag] = EXIF.StringValues.Components[oEXIFTags[strTag][0]]
-                                + EXIF.StringValues.Components[oEXIFTags[strTag][1]]
-                                + EXIF.StringValues.Components[oEXIFTags[strTag][2]]
+                        oEXIFTags[strTag] = EXIF.StringValues.Components[oEXIFTags[strTag][0]] + ", "
+                                + EXIF.StringValues.Components[oEXIFTags[strTag][1]] + ", "
+                                + EXIF.StringValues.Components[oEXIFTags[strTag][2]] + ", "
                                 + EXIF.StringValues.Components[oEXIFTags[strTag][3]];
                         break;
                     }
@@ -1160,6 +1160,10 @@
 
             if (oTags.Make) {
                 oTags.Make = oTags.Make.trim();
+            }
+
+            if (oTags.FocalLength) {
+                oTags.FocalLength += " mm";
             }
 
             if (oTags.MakerNoteIFDPointer && EXIF.MakeInfo[oTags.Make]) {

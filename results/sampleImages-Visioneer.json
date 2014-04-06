@@ -4,7 +4,7 @@
 		"exifJS": {
 			"ApertureValue": "2.97",
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"CompressedBitsPerPixel": "3.949675",
 			"Copyright": "Copyright 9,2002",
 			"DateTime": "2000:00:00 00:00:00",

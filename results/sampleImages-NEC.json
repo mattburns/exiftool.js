@@ -3,7 +3,7 @@
 		"img": "sampleImages/NEC/NEC_e949.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:04:06 12:05:48",
 			"DateTimeOriginal": "2008:04:06 12:05:48",
 			"ExifIFDPointer": "130",
@@ -62,7 +62,7 @@
 		"img": "sampleImages/NEC/NEC_e540.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:08:12 10:45:49",
 			"DateTimeOriginal": "2007:08:12 10:45:49",
 			"ExifIFDPointer": "130",
@@ -121,7 +121,7 @@
 		"img": "sampleImages/NEC/NEC_N500i.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTime": "2006:02:24 16:02:41",
 			"DateTimeDigitized": "2007:02:24 13:03:20",
 			"DateTimeOriginal": "2007:02:24 13:03:20",
@@ -221,7 +221,7 @@
 		"img": "sampleImages/NEC/NEC_N412i.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2008:06:08 08:27:07",
 			"DateTimeOriginal": "2008:06:08 08:27:07",
 			"ExifIFDPointer": "130",
@@ -280,7 +280,7 @@
 		"img": "sampleImages/NEC/NEC_N411i.jpg",
 		"exifJS": {
 			"ColorSpace": "sRGB",
-			"ComponentsConfiguration": "YCbCr",
+			"ComponentsConfiguration": "Y, Cb, Cr, -",
 			"DateTimeDigitized": "2007:09:05 16:05:51",
 			"DateTimeOriginal": "2007:09:05 16:05:51",
 			"ExifIFDPointer": "130",

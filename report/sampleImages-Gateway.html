@@ -23,10 +23,13 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Gateway/GatewayDV-S20.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -37,12 +40,10 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2003:09:01 00:09:48<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -84,9 +85,6 @@ ShutterSpeedValue : 2.7<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -94,7 +92,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Gateway/GatewayDC-T50.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -107,16 +107,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:01:20 16:24:40<br>
@@ -190,9 +185,6 @@ ShutterSpeedValue : 5.7<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -200,8 +192,10 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Gateway/GatewayDC-M50.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 MeteringMode<br>
@@ -210,9 +204,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5055<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.2136317396<br>
 CompressedBitsPerPixel : 0.2136317395727365<br>
@@ -229,11 +220,8 @@ ExifIFDPointer : 284<br>
 ExposureBias : undefined<br>
 ExposureBias : 0<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 10.4 mm<br>
-FocalLength : 10.38<br>
+FocalLength : 10.38 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -276,11 +264,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Gateway/GatewayDC-M42.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -290,9 +280,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.7<br>
 ApertureValue : 2.9<br>
-<br>
-ComponentsConfiguration : -, Y, Cb, Cr<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:01:01 01:22:56<br>
@@ -317,9 +304,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 5.2 mm<br>
-FocalLength : 5.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -358,6 +342,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Gateway/GatewayDC-M40.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -367,9 +352,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.7573<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 0.1180555556<br>
 CompressedBitsPerPixel : 0.11805555555555555<br>
@@ -390,7 +372,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 7.6 mm<br>
-FocalLength : 7.64<br>
+FocalLength : 7.64 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>

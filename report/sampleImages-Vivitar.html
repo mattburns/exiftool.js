@@ -23,9 +23,13 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Vivitar/VivitarVivicam8400.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -34,16 +38,11 @@ Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.3<br>
 ApertureValue : 4.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:03:14 05:15:39<br>
@@ -73,7 +72,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 51.0 mm<br>
-FocalLength : 51<br>
+FocalLength : 51 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -114,9 +113,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/61<br>
 ShutterSpeedValue : 5.93<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -125,13 +121,16 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarVivicam8320.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -140,16 +139,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.97<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2009:11:19 13:51:15<br>
@@ -177,9 +171,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -223,9 +214,6 @@ ShutterSpeedValue : 5.32<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -233,11 +221,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam8300s.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -246,15 +237,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:06:29 17:39:48<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -283,9 +269,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 14.5 mm<br>
-FocalLength : 14.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -320,9 +303,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -330,6 +310,8 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam8225.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -338,16 +320,11 @@ Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:01:02 19:49:45<br>
@@ -377,7 +354,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 6.0 mm<br>
-FocalLength : 6<br>
+FocalLength : 6 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -418,9 +395,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/24<br>
 ShutterSpeedValue : 4.6<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -428,6 +402,8 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam8025.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -436,16 +412,11 @@ Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3<br>
 ApertureValue : 3.2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:09:04 10:27:58<br>
@@ -475,7 +446,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 7.6 mm<br>
-FocalLength : 7.58<br>
+FocalLength : 7.58 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -516,9 +487,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/630<br>
 ShutterSpeedValue : 9.3<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -526,25 +494,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam6150s.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.1<br>
 ApertureValue : 3.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:01:02 11:11:43<br>
@@ -572,9 +538,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 7.3 mm<br>
-FocalLength : 7.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -612,9 +575,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/30<br>
 ShutterSpeedValue : 4.91<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -622,10 +582,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam5199.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 RelatedSoundFile<br>
@@ -634,9 +596,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.970703125<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 1.364168953<br>
 CompressedBitsPerPixel : 1.3641689529035208<br>
@@ -664,9 +623,6 @@ ExposureTime : 0.001972<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -720,25 +676,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam5150s.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.1<br>
 ApertureValue : 3.3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:08:10 08:03:03<br>
@@ -766,9 +720,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 7.3 mm<br>
-FocalLength : 7.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -806,9 +757,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/30<br>
 ShutterSpeedValue : 4.91<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -817,11 +765,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarVivicam5105s.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -829,13 +779,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2006:08:04 17:14:49<br>
@@ -863,9 +811,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 7.7 mm<br>
-FocalLength : 7.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -906,9 +851,6 @@ SubjectDistance : 10<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -922,11 +864,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarVivicam4100.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -934,13 +878,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:07:07 09:42:44<br>
@@ -968,9 +910,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 7.7 mm<br>
-FocalLength : 7.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -1011,9 +950,6 @@ SubjectDistance : 10<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1021,7 +957,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam4000.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureTime<br>
@@ -1034,16 +972,11 @@ Model<br>
 Saturation<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:04:05 20:54:36<br>
@@ -1117,9 +1050,6 @@ ShutterSpeedValue : 1<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1127,10 +1057,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam3930.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -1140,16 +1073,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 6.7<br>
 ApertureValue : 5.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:02:14 11:18:39<br>
@@ -1177,9 +1105,6 @@ ExposureTime : 0.002<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 105<br>
@@ -1223,9 +1148,6 @@ ShutterSpeedValue : 9<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1234,11 +1156,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarVivicam3915.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -1246,13 +1170,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : -, Y, Cb, Cr<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:09:18 01:45:16<br>
@@ -1280,9 +1202,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 7.7 mm<br>
-FocalLength : 7.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1320,9 +1239,6 @@ ShutterSpeedValue : 4.906<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1330,7 +1246,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam3830s.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -1342,16 +1260,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:06:04 07:33:17<br>
@@ -1428,9 +1341,6 @@ ShutterSpeedValue : 5.67<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1439,11 +1349,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarVivicam3815.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -1451,13 +1363,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : -, Y, Cb, Cr<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2002:11:20 01:32:08<br>
@@ -1485,9 +1395,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 7.7 mm<br>
-FocalLength : 7.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1525,9 +1432,6 @@ ShutterSpeedValue : 9.002<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1535,6 +1439,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam3785.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -1547,9 +1452,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:10:22 15:27:55<br>
@@ -1616,6 +1518,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarVivicam3780s.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -1627,13 +1530,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:07:26 14:51:44<br>
@@ -1663,7 +1564,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 8.7 mm<br>
-FocalLength : 8.65<br>
+FocalLength : 8.65 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1704,9 +1605,6 @@ ShutterSpeedValue : 7.845<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1715,6 +1613,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarVivicam3760.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -1724,13 +1623,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.7<br>
 ApertureValue : 3.8<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 Copyright : Vivitar<br>
 Copyright : VivitarVer1.16VVer1<br>
@@ -1766,7 +1663,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 15.7 mm<br>
-FocalLength : 15.74<br>
+FocalLength : 15.74 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -1810,9 +1707,6 @@ SubjectDistance : 3.47<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -1820,10 +1714,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam3750.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
@@ -1832,9 +1729,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.4<br>
 ApertureValue : 3.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:04:13 11:41:27<br>
@@ -1856,12 +1750,6 @@ ExposureTime : 0.002<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 7.7 mm<br>
-FocalLength : 7.7<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -1904,11 +1792,14 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarVivicam3730.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 Make<br>
@@ -1917,15 +1808,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Custom<br>
-CustomRendered : Custom process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2004:06:19 11:06:56<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -1952,11 +1838,8 @@ ExposureTime : 0.005649717514124294<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 6.0 mm<br>
-FocalLength : 5.96<br>
+FocalLength : 5.96 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 0<br>
@@ -1994,9 +1877,6 @@ ResolutionUnit : 2<br>
 SubjectArea : 1 1 1 1<br>
 SubjectArea : 1,1,1,1<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -2004,20 +1884,19 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam3715.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : undef<br>
+<td>CompressedBitsPerPixel : undef<br>
 CompressedBitsPerPixel : NaN<br>
 <br>
 DateTime : undefined<br>
@@ -2043,9 +1922,6 @@ FileSource : DSC<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 7.9 mm<br>
-FocalLength : 7.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 144<br>
@@ -2093,10 +1969,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam3705B.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 Make<br>
 Model<br>
@@ -2104,10 +1982,7 @@ SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : undef<br>
+<td>CompressedBitsPerPixel : undef<br>
 CompressedBitsPerPixel : NaN<br>
 <br>
 DateTime : undefined<br>
@@ -2133,9 +2008,6 @@ FileSource : DSC<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 7.9 mm<br>
-FocalLength : 7.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 144<br>
@@ -2180,6 +2052,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVivicam2005.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -2194,9 +2067,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 1.4<br>
 ApertureValue : 1.0199797869906735<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 2.782135417<br>
 CompressedBitsPerPixel : 2.7821354166666667<br>
@@ -2274,11 +2144,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCamX625.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -2286,15 +2159,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:11:24 15:29:49<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2323,9 +2191,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 7.9 mm<br>
-FocalLength : 7.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -2363,9 +2228,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2373,25 +2235,23 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCamX345.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 6.7<br>
 ApertureValue : 5.48<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:01:09 23:36:06<br>
@@ -2419,9 +2279,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 7.5 mm<br>
-FocalLength : 7.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -2465,9 +2322,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/251<br>
 ShutterSpeedValue : 7.97<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2475,23 +2329,21 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCamX325.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
-Software</td>
+Software<br>
+WhiteBalance</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.52<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:08:26 14:21:08<br>
@@ -2520,9 +2372,6 @@ FileSource : DSC<br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
-FocalLength : 17.4 mm<br>
-FocalLength : 17.4<br>
-<br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
 <br>
@@ -2550,9 +2399,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/508<br>
 ShutterSpeedValue : 8.99<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2560,10 +2406,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCamX30.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 GainControl<br>
 ImageDescription<br>
@@ -2573,16 +2422,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.8<br>
 ApertureValue : 4.5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2009:12:17 15:01:04<br>
@@ -2610,9 +2454,6 @@ ExposureTime : 0.006666666666666667<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -2656,9 +2497,6 @@ ShutterSpeedValue : 7.22<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2666,6 +2504,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCamV5024.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -2680,12 +2519,10 @@ MeteringMode<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:03:26 13:20:40<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -2713,7 +2550,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 28.8 mm<br>
-FocalLength : 28.8125<br>
+FocalLength : 28.8125 mm<br>
 <br>
 MakerNoteIFDPointer : undefined<br>
 MakerNoteIFDPointer : 788<br>
@@ -2739,9 +2576,6 @@ SubsecTime : <br>
 UserComment : <br>
 UserComment : 1296<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -2749,25 +2583,23 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam8380.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.7<br>
 ApertureValue : 4.46<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:01:01 01:18:06<br>
@@ -2795,9 +2627,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -2841,9 +2670,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/1992<br>
 ShutterSpeedValue : 10.96<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2852,13 +2678,16 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarViviCam8340.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -2868,16 +2697,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7.2<br>
 ApertureValue : 5.69<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2009:02:23 13:53:54<br>
@@ -2905,9 +2729,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 35<br>
@@ -2951,9 +2772,6 @@ ShutterSpeedValue : 6.85<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -2961,12 +2779,15 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam8010.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
 Copyright<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -2976,6 +2797,7 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
@@ -2983,12 +2805,6 @@ ApertureValue : 3<br>
 <br>
 CFAPattern : [Green,Red][Blue,Green]<br>
 CFAPattern : 0,2,0,2,1,0,2,1<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2010:01:19 10:18:57<br>
@@ -3011,11 +2827,8 @@ ExposureTime : 0.125<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 6.5 mm<br>
-FocalLength : 6.47<br>
+FocalLength : 6.47 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3056,9 +2869,6 @@ ShutterSpeedValue : 3<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3067,8 +2877,10 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarViviCam7340.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
@@ -3083,16 +2895,11 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3.1<br>
 ApertureValue : 3.26<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTimeDigitized : undefined<br>
 DateTimeDigitized : 2008:09:17 13:19:46<br>
@@ -3122,7 +2929,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 7.5 mm<br>
-FocalLength : 7.46<br>
+FocalLength : 7.46 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 45<br>
@@ -3166,9 +2973,6 @@ ShutterSpeedValue : 5.55<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3176,26 +2980,24 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam7330.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:10:04 16:53:57<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3224,9 +3026,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -3264,9 +3063,6 @@ ResolutionUnit : 2<br>
 Saturation : High<br>
 Saturation : High saturation<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3274,10 +3070,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam7320.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -3285,16 +3084,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.98<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:01:27 23:34:16<br>
@@ -3322,9 +3116,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 6.1 mm<br>
-FocalLength : 6.1<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3362,9 +3153,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/30<br>
 ShutterSpeedValue : 4.91<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3372,26 +3160,24 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam7310.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:08:10 01:43:42<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3420,9 +3206,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 80<br>
@@ -3460,9 +3243,6 @@ ResolutionUnit : 2<br>
 Saturation : High<br>
 Saturation : High saturation<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3470,10 +3250,13 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam7100s.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -3481,16 +3264,11 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 3<br>
 ApertureValue : 3.2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:11:14 23:09:04<br>
@@ -3518,9 +3296,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 7.3 mm<br>
-FocalLength : 7.3<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3561,9 +3336,6 @@ ShutterSpeedValue : 4.91<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3571,7 +3343,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam6330s.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -3583,15 +3357,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2008:08:22 16:20:16<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3622,7 +3391,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -3660,9 +3429,6 @@ ResolutionUnit : 2<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3670,7 +3436,9 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam6324.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -3683,15 +3451,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:09:15 21:26:12<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3722,7 +3485,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 64<br>
@@ -3751,9 +3514,6 @@ PixelYDimension : 1200<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Centered<br>
 YCbCrPositioning : 1<br>
 </td>
@@ -3761,11 +3521,14 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam6320.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -3773,15 +3536,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:01:14 13:39:14<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3810,9 +3568,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 14.5 mm<br>
-FocalLength : 14.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3844,9 +3599,6 @@ PixelYDimension : 2112<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3854,11 +3606,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam6300.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -3866,15 +3621,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:07:01 00:06:32<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3903,9 +3653,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired, Red-eye reduction<br>
 Flash : Flash fired, auto mode, red-eye reduction mode<br>
-<br>
-FocalLength : 7.5 mm<br>
-FocalLength : 7.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -3940,9 +3687,6 @@ PixelYDimension : 2136<br>
 ResolutionUnit : inches<br>
 ResolutionUnit : 2<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -3950,11 +3694,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam5388.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -3962,15 +3709,10 @@ Model<br>
 Saturation<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2007:03:17 09:11:35<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -3999,9 +3741,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 6.5 mm<br>
-FocalLength : 6.5<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -4033,9 +3772,6 @@ ResolutionUnit : 2<br>
 SceneCaptureType : Night<br>
 SceneCaptureType : Night scene<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4043,24 +3779,22 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam5355.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 2.98<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2007:10:14 13:15:47<br>
@@ -4088,9 +3822,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.8 mm<br>
-FocalLength : 5.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -4131,9 +3862,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/199<br>
 ShutterSpeedValue : 7.64<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4141,6 +3869,8 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam5010.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -4150,16 +3880,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2008:01:01 12:00:00<br>
@@ -4189,7 +3914,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 6.5 mm<br>
-FocalLength : 6.47<br>
+FocalLength : 6.47 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -4233,9 +3958,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/1663<br>
 ShutterSpeedValue : 10.7<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4243,11 +3965,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam3945S.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 LightSource<br>
 Make<br>
@@ -4256,15 +3981,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:12:01 05:18:33<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -4293,9 +4013,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
-<br>
-FocalLength : 16.2 mm<br>
-FocalLength : 16.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -4330,9 +4047,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 10968<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4341,6 +4055,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarViviCam3835.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -4354,13 +4069,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.6<br>
 ApertureValue : 2.8<br>
-<br>
-ComponentsConfiguration : -, Y, Cb, Cr<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:08:22 10:07:40<br>
@@ -4390,7 +4103,7 @@ Flash : Auto, Fired<br>
 Flash : Flash fired, auto mode<br>
 <br>
 FocalLength : 20.6 mm<br>
-FocalLength : 20.56<br>
+FocalLength : 20.56 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -4428,9 +4141,6 @@ SubjectDistance : 5.32<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4443,10 +4153,12 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam3765.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 ImageDescription<br>
 Make<br>
@@ -4457,9 +4169,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 6.9<br>
 ApertureValue : 5.57<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:11:25:13:31:23<br>
@@ -4481,9 +4190,6 @@ ExposureTime : 0.0015021301805973053<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -4528,6 +4234,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam3746.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FlashpixVersion<br>
@@ -4537,13 +4244,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.7<br>
 ApertureValue : 5<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:03:06 09:33:49<br>
@@ -4590,9 +4295,6 @@ ShutterSpeedValue : 7<br>
 SubjectDistanceRange : Close<br>
 SubjectDistanceRange : Close view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4600,20 +4302,19 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam3705.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CompressedBitsPerPixel : undef<br>
+<td>CompressedBitsPerPixel : undef<br>
 CompressedBitsPerPixel : NaN<br>
 <br>
 DateTime : undefined<br>
@@ -4639,9 +4340,6 @@ FileSource : DSC<br>
 <br>
 Flash : Fired<br>
 Flash : Flash fired<br>
-<br>
-FocalLength : 7.9 mm<br>
-FocalLength : 7.9<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 144<br>
@@ -4722,6 +4420,7 @@ YCbCrPositioning : 1<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarViviCam.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -4734,9 +4433,6 @@ XResolution<br>
 YResolution</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:12:08 21:44:35<br>
@@ -4802,11 +4498,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarVIVICAM5340S.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 Make<br>
 Model<br>
@@ -4814,15 +4513,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:07:19 21:33:09<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -4851,9 +4545,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 5.4 mm<br>
-FocalLength : 5.4<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 125<br>
@@ -4891,9 +4582,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 10968<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -4902,6 +4590,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarV3935.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
@@ -4914,13 +4603,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 5.3<br>
 ApertureValue : 4.8<br>
-<br>
-ComponentsConfiguration : -, Y, Cb, Cr<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:04:02 10:41:04<br>
@@ -4950,7 +4637,7 @@ Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
 <br>
 FocalLength : 8.0 mm<br>
-FocalLength : 8<br>
+FocalLength : 8 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -4991,9 +4678,6 @@ SubjectDistance : 2.33<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5002,11 +4686,13 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarV3826.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 LightSource<br>
 Make<br>
 Model<br>
@@ -5014,13 +4700,11 @@ Saturation<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 7<br>
 ApertureValue : 5.6<br>
-<br>
-ComponentsConfiguration : -, Y, Cb, Cr<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2003:01:01 00:46:04<br>
@@ -5048,9 +4732,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 5.2 mm<br>
-FocalLength : 5.2<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -5091,9 +4772,6 @@ SubjectDistance : 2.48<br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5101,26 +4779,24 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarV3755.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 ExposureTime<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
-Software</td>
+Software<br>
+WhiteBalance</td>
 <td>ApertureValue : 2.8<br>
 ApertureValue : 3<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2004:12:06 00:18:56<br>
@@ -5148,9 +4824,6 @@ FileSource : DSC<br>
 <br>
 Flash : On, Fired<br>
 Flash : Flash fired, compulsory flash mode<br>
-<br>
-FocalLength : 5.7 mm<br>
-FocalLength : 5.7<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 37<br>
@@ -5182,9 +4855,6 @@ PixelYDimension : 1536<br>
 ShutterSpeedValue : 0.5<br>
 ShutterSpeedValue : 1<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5193,18 +4863,17 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarV3345.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 ExifVersion<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : <br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -5228,11 +4897,8 @@ ExposureTime : 0.004288164665523156<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
 FocalLength : 8.8 mm<br>
-FocalLength : 8.79<br>
+FocalLength : 8.79 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -5268,6 +4934,8 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarT328.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -5277,16 +4945,11 @@ Make<br>
 Model<br>
 SceneCaptureType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 4.3<br>
 ApertureValue : 4.2<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2010:08:25 01:12:23<br>
@@ -5316,7 +4979,7 @@ Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
 <br>
 FocalLength : 14.0 mm<br>
-FocalLength : 14<br>
+FocalLength : 14 mm<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 400<br>
@@ -5354,9 +5017,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1/630<br>
 ShutterSpeedValue : 9.3<br>
 <br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5364,11 +5024,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarDVR310.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -5377,15 +5040,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2006:05:16 10:04:27<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -5414,9 +5072,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 7.6 mm<br>
-FocalLength : 7.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 50<br>
@@ -5451,9 +5106,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 25950<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5461,11 +5113,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarDVR-530.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 GainControl<br>
 ImageDescription<br>
 Make<br>
@@ -5474,15 +5129,10 @@ Saturation<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2010:07:25 22:46:28<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -5511,9 +5161,6 @@ FileSource : DSC<br>
 <br>
 Flash : Off, Did not fire<br>
 Flash : Flash did not fire, compulsory flash mode<br>
-<br>
-FocalLength : 7.6 mm<br>
-FocalLength : 7.6<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -5548,9 +5195,6 @@ ResolutionUnit : 2<br>
 UserComment : <br>
 UserComment : 25950<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5558,6 +5202,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarDVR-310.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -5568,13 +5213,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 14.4<br>
 ApertureValue : 7.7<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:07:17 16:18:24<br>
@@ -5618,9 +5261,6 @@ ShutterSpeedValue : 8.6<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5628,6 +5268,7 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Vivitar/VivitarDVR-210.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -5638,13 +5279,11 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 14.4<br>
 ApertureValue : 7.7<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 DateTime : undefined<br>
 DateTime : 2005:06:02 06:00:43<br>
@@ -5688,9 +5327,6 @@ ShutterSpeedValue : 9.1<br>
 SubjectDistanceRange : Unknown<br>
 SubjectDistanceRange : <br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -5699,6 +5335,7 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Vivitar/VivitarDVR-200.jpg</td>
 <td>ApertureValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -5709,12 +5346,10 @@ Model<br>
 SceneCaptureType<br>
 Sharpness<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2005:05:15 12:05:09<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -5755,9 +5390,6 @@ ShutterSpeedValue : 7.4<br>
 <br>
 SubjectDistanceRange : Distant<br>
 SubjectDistanceRange : Distant view<br>
-<br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>

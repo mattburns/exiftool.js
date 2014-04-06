@@ -23,12 +23,16 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from exiftool and exiftool.js</p>
-        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead><tbody><tr>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>supported tags</th><th>unsupported tags (perl output, followed by js output)</th></tr></thead>
+<tbody>
+<tr>
 <td>sampleImages/Oregon/OregonScientific_ds6638.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
+Flash<br>
 FlashpixVersion<br>
 Make<br>
 MeteringMode<br>
@@ -36,10 +40,7 @@ Model<br>
 SceneType<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2009:12:04 15:53:33<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -56,9 +57,6 @@ ExposureProgram : Normal program<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 200<br>
@@ -94,11 +92,14 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Oregon/OregonScientificDS9810.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 ExposureIndex<br>
 FNumber<br>
+Flash<br>
 FlashpixVersion<br>
+FocalLength<br>
 ImageDescription<br>
 LightSource<br>
 Make<br>
@@ -107,13 +108,11 @@ Model<br>
 RelatedSoundFile<br>
 SceneType<br>
 Software<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
 <td>ApertureValue : 9.2<br>
 ApertureValue : 6.4<br>
-<br>
-ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
 <br>
 CompressedBitsPerPixel : 4.079986572<br>
 CompressedBitsPerPixel : 4.079986572265625<br>
@@ -145,12 +144,6 @@ ExposureTime : 0.004656<br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
 <br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 8.6 mm<br>
-FocalLength : 8.6<br>
-<br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
 <br>
@@ -181,9 +174,6 @@ SensingMethod : One-chip color area sensor<br>
 ShutterSpeedValue : 1<br>
 ShutterSpeedValue : 0.004656<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -192,22 +182,22 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Oregon/OregonScientificDS9610.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
 FlashpixVersion<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 UserComment<br>
+WhiteBalance<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-Contrast : Unknown ()<br>
+<td>Contrast : Unknown ()<br>
 Contrast : <br>
 <br>
 CustomRendered : Unknown ()<br>
@@ -242,9 +232,6 @@ FileSource : DSC<br>
 <br>
 Flash : Auto, Did not fire<br>
 Flash : Flash did not fire, auto mode<br>
-<br>
-FocalLength : 16.2 mm<br>
-FocalLength : 16.2<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 42<br>
@@ -291,9 +278,6 @@ Sharpness : <br>
 SubjectArea : 13824 13824 12337 21248<br>
 SubjectArea : 13824,13824,12337,21248<br>
 <br>
-WhiteBalance : Auto<br>
-WhiteBalance : Auto white balance<br>
-<br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
 </td>
@@ -301,19 +285,19 @@ YCbCrPositioning : 2<br>
 <tr>
 <td>sampleImages/Oregon/OregonScientificDS8228.jpg</td>
 <td>ColorSpace<br>
+ComponentsConfiguration<br>
 Copyright<br>
 DateTimeOriginal<br>
 FNumber<br>
+Flash<br>
+FocalLength<br>
 Make<br>
 Model<br>
 SceneType<br>
 Software<br>
 XResolution<br>
 YResolution</td>
-<td>ComponentsConfiguration : -, Y, Cb, Cr<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-DateTime : undefined<br>
+<td>DateTime : undefined<br>
 DateTime : 2002:08:30 01:13:55<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -336,12 +320,6 @@ ExposureTime : 0.07692307692307693<br>
 <br>
 FileSource : Digital Camera<br>
 FileSource : DSC<br>
-<br>
-Flash : No Flash<br>
-Flash : Flash did not fire<br>
-<br>
-FocalLength : 6.8 mm<br>
-FocalLength : 6.8<br>
 <br>
 ISOSpeedRatings : undefined<br>
 ISOSpeedRatings : 100<br>
@@ -372,8 +350,10 @@ YCbCrPositioning : 2<br>
 <td>sampleImages/Oregon/OregonScientificDS6639.jpg</td>
 <td>BrightnessValue<br>
 ColorSpace<br>
+ComponentsConfiguration<br>
 CompressedBitsPerPixel<br>
 Contrast<br>
+CustomRendered<br>
 DateTimeOriginal<br>
 ExifVersion<br>
 FNumber<br>
@@ -387,14 +367,9 @@ SceneCaptureType<br>
 SceneType<br>
 Sharpness<br>
 Software<br>
-UserComment</td>
-<td>ComponentsConfiguration : Y, Cb, Cr, -<br>
-ComponentsConfiguration : YCbCr<br>
-<br>
-CustomRendered : Normal<br>
-CustomRendered : Normal process<br>
-<br>
-DateTime : undefined<br>
+UserComment<br>
+WhiteBalance</td>
+<td>DateTime : undefined<br>
 DateTime : 2009:09:12 21:05:28<br>
 <br>
 DateTimeDigitized : undefined<br>
@@ -425,7 +400,7 @@ Flash : Fired<br>
 Flash : Flash fired<br>
 <br>
 FocalLength : 8.6 mm<br>
-FocalLength : 8.64<br>
+FocalLength : 8.64 mm<br>
 <br>
 FocalLengthIn35mmFilm : undefined<br>
 FocalLengthIn35mmFilm : 42<br>
@@ -450,9 +425,6 @@ PixelYDimension : 1536<br>
 <br>
 SubjectArea : 30959 827 65147 25062<br>
 SubjectArea : 30959,827,65147,25062<br>
-<br>
-WhiteBalance : Manual<br>
-WhiteBalance : Manual white balance<br>
 <br>
 YCbCrPositioning : Co-sited<br>
 YCbCrPositioning : 2<br>
