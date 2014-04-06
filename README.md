@@ -62,7 +62,7 @@ Adding more images
 
 If you want to test some of your own image files, copy them into the sampleImages/_Other directory. Then, if you want to check them in, I have a script (c/o Phil Harvey) that will swap the main image with a small blank white square. This keeps the files small but don't rely on it giving you full anonymity because there may still be thumbnail image data in the file or other personal info in the filesname or other exif tags.
 
-The script is called swap_image.pl but to keep things complicated, I suggest you just run the ant script:
+The script is called `swap_image.pl` but to keep things complicated, I suggest you just run the ant script:
 
 ```
 ant
