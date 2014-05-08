@@ -5,7 +5,7 @@
 		"ComponentsConfiguration": "Y, Cb, Cr, -",
 		"Compression": "6",
 		"CustomRendered": "Normal",
-		"DigitalZoomRation": "Infinity",
+		"DigitalZoomRatio": "Infinity",
 		"ExifIFDPointer": "168",
 		"ExifVersion": "0220",
 		"ExposureIndex": "NaN",

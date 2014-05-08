@@ -10,7 +10,7 @@
 		"DateTime": "0000.00.00 00:00:00",
 		"DateTimeDigitized": "0000.00.00 00:00:00",
 		"DateTimeOriginal": "0000.00.00 00:00:00",
-		"DigitalZoomRation": "1",
+		"DigitalZoomRatio": "1",
 		"ExifIFDPointer": "236",
 		"ExifVersion": "0220",
 		"ExposureBias": "-5",
