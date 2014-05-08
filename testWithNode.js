@@ -198,7 +198,7 @@
         followLinks : false
     };
 
-    //walker = walk.walk("sampleImages/Panasonic", options);
+//walker = walk.walk("sampleImages/Samsung", options);
     walker = walk.walk("sampleImages", options);
     //walker = walk.walk("sampleImages/_Other", options);
 
@@ -230,7 +230,9 @@
          || fileStats.name == 'PanasonicDMC-SZ5.jpg'
          || fileStats.name == 'PanasonicDMC-XS3.jpg'
          || fileStats.name == 'IMG_6756.JPG'
-         || fileStats.name == 'big file - IMG_6756.JPG') {
+         || fileStats.name == 'big file - IMG_6756.JPG'
+         || fileStats.name == 'SamsungGT-I9100.jpg'
+            ) {
             // Skip these files and they get stuck in infinite loops!
             next();
         } else {
@@ -246,8 +248,9 @@
                             for (var key in exifFromGomfunkel) {
                                 // ...then loop over their children moving them up to the root
                                 for (var exifKey in exifFromGomfunkel[key]) {
-                                    // skip arrays
-                                    if (Object.prototype.toString.call(exifFromGomfunkel[key][exifKey]) != "[object Object]") {
+                                    // skip Objects
+                                    var valueType = Object.prototype.toString.call(exifFromGomfunkel[key][exifKey]);
+                                    if (valueType != "[object Object]") {
                                         exifFromGomfunkel[exifKey] = exifFromGomfunkel[key][exifKey];
                                     }
                                 };
