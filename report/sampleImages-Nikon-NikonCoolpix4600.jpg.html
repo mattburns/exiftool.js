@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from exiftool against exiftool.js and Gomfunkel</p>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='90'>sampleImages/Nikon/NikonCoolpix4600.jpg</th>
+<td>AFAreaMode</td>
+<td>Single Area</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AFPoint</td>
+<td>Center</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AFPointsInFocus</td>
+<td>(none)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AFResponse</td>
+<td>Standard</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Aperture</td>
+<td>5.6</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AuxiliaryLens</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CircleOfConfusion</td>
+<td>0.005 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorMode</td>
+<td>Color</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td>Y, Cb, Cr, -</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CompressedBitsPerPixel</td>
+<td>2</td>
+<td class='match'>2</td>
+<td class='match'>2</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>Contrast</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td>2005:03:18 01:59:19</td>
+<td class='missing'>-</td>
+<td class='match'>2005:03:18 01:59:19</td>
+</tr>
+<tr>
+<td>CustomRendered</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>DataDump</td>
+<td>(Binary data 494 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td>2005:03:18 01:59:19</td>
+<td class='match'>2005:03:18 01:59:19</td>
+<td class='match'>2005:03:18 01:59:19</td>
+</tr>
+<tr>
+<td>DigitalZoom</td>
+<td>1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DigitalZoomRatio</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td>Little-endian (Intel, II)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td>480</td>
+<td class='missing'>-</td>
+<td class='match'>480</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td>640</td>
+<td class='missing'>-</td>
+<td class='match'>640</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td>0220</td>
+<td class='match'>0220</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureMode</td>
+<td>Auto</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td>Program AE</td>
+<td class='diff'>Normal program</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td>1/334</td>
+<td class='diff'>0.002992220227408737</td>
+<td class='diff'>0.002992220227408737</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td>5.6</td>
+<td class='match'>5.6</td>
+<td class='match'>5.6</td>
+</tr>
+<tr>
+<td>FOV</td>
+<td>39.6 deg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FileSource</td>
+<td>Digital Camera</td>
+<td class='diff'>DSC</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td>Off, Did not fire</td>
+<td class='diff'>Flash did not fire, compulsory flash mode</td>
+<td class='diff'>16</td>
+</tr>
+<tr>
+<td>FlashInfoVersion</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashSetting</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td>0100</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td>8.4 mm</td>
+<td class='match'>8.4 mm</td>
+<td class='diff'>8.4</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td>8.4 mm (35 mm equivalent: 50.0 mm)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLengthIn35mmFormat</td>
+<td>50 mm</td>
+<td class='missing'>-</td>
+<td class='diff'>50</td>
+</tr>
+<tr>
+<td>FocusMode</td>
+<td>AF-S</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GainControl</td>
+<td>None</td>
+<td class='match'>None</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>HyperfocalDistance</td>
+<td>2.50 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td>50</td>
+<td class='missing'>-</td>
+<td class='match'>50</td>
+</tr>
+<tr>
+<td>ISOSelection</td>
+<td>Auto</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageAdjustment</td>
+<td>Normal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageDescription</td>
+<td>          </td>
+<td class='diff'></td>
+<td class='match'>          </td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageProcessing</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageStabilization</td>
+<td>VR-Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InteropIndex</td>
+<td>R98 - DCF basic file (sRGB)</td>
+<td class='missing'>-</td>
+<td class='diff'>R98</td>
+</tr>
+<tr>
+<td>InteropVersion</td>
+<td>0100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightSource</td>
+<td>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td>14.4</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td>NIKON</td>
+<td class='match'>NIKON</td>
+<td class='match'>NIKON</td>
+</tr>
+<tr>
+<td>MakerNoteVersion</td>
+<td>2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ManualFocusDistance</td>
+<td>undef</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MaxApertureValue</td>
+<td>2.8</td>
+<td class='diff'>3</td>
+<td class='diff'>3</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td>Multi-segment</td>
+<td class='diff'>Pattern</td>
+<td class='diff'>5</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>E4600</td>
+<td class='match'>E4600</td>
+<td class='match'>E4600</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td>2005:03:18 01:59:19</td>
+<td class='missing'>-</td>
+<td class='match'>2005:03:18 01:59:19</td>
+</tr>
+<tr>
+<td>NoiseReduction</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PreviewImage</td>
+<td>(Binary data 18921 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageLength</td>
+<td>18921</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageStart</td>
+<td>14921</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Quality</td>
+<td>Normal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>RetouchHistory</td>
+<td>None</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Saturation</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ScaleFactor35efl</td>
+<td>6</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneAssist</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td>Standard</td>
+<td class='match'>Standard</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>SceneMode</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneType</td>
+<td>Directly photographed</td>
+<td class='match'>Directly photographed</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Sharpness</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td>1/334</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>E4600v1.1</td>
+<td class='match'>E4600v1.1</td>
+<td class='match'>E4600v1.1</td>
+</tr>
+<tr>
+<td>SubjectDistanceRange</td>
+<td>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td>(Binary data 4879 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td>4879</td>
+<td class='missing'>-</td>
+<td class='match'>4879</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td>4608</td>
+<td class='missing'>-</td>
+<td class='diff'>4596</td>
+</tr>
+<tr>
+<td>UserComment</td>
+<td></td>
+<td class='diff'>798</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td>Auto</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td>300</td>
+<td class='match'>300</td>
+<td class='match'>300</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td>Co-sited</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td>300</td>
+<td class='match'>300</td>
+<td class='match'>300</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

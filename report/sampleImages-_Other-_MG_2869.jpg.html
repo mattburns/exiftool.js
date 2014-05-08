@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from exiftool against exiftool.js and Gomfunkel</p>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='64'>sampleImages/_Other/_MG_2869.jpg</th>
+<td>Aperture</td>
+<td>7.1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ApertureValue</td>
+<td>7.1</td>
+<td class='diff'>5.655639697090474</td>
+<td class='diff'>5.655639697090474</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BlueMatrixColumn</td>
+<td>0.14919 0.06322 0.74457</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BlueTRC</td>
+<td>(Binary data 14 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CMMFlags</td>
+<td>Not Embedded, Independent</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpaceData</td>
+<td>RGB </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Comment</td>
+<td>AppleMark
+</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>ConnectionSpaceIlluminant</td>
+<td>0.9642 1 0.82491</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td>2008:04:14 05:53:01</td>
+<td class='missing'>-</td>
+<td class='match'>2008:04:14 05:53:01</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td>2008:04:14 05:53:01</td>
+<td class='match'>2008:04:14 05:53:01</td>
+<td class='match'>2008:04:14 05:53:01</td>
+</tr>
+<tr>
+<td>DeviceAttributes</td>
+<td>Reflective, Glossy, Positive, Color</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DeviceManufacturer</td>
+<td>none</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DeviceModel</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td>Big-endian (Motorola, MM)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td>0220</td>
+<td class='match'>0220</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td>Manual</td>
+<td class='match'>Manual</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td>1/60</td>
+<td class='diff'>0.016666666666666666</td>
+<td class='diff'>0.016666666666666666</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td>On, Red-eye reduction</td>
+<td class='diff'>Flash fired, compulsory flash mode, red-eye reduction mode</td>
+<td class='diff'>73</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td>33.0 mm</td>
+<td class='diff'>33 mm</td>
+<td class='diff'>33</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td>33.0 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GreenMatrixColumn</td>
+<td>0.20528 0.62567 0.06087</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GreenTRC</td>
+<td>(Binary data 14 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HostComputer</td>
+<td>Mac OS X 10.5.2</td>
+<td class='missing'>-</td>
+<td class='match'>Mac OS X 10.5.2</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td>100</td>
+<td class='missing'>-</td>
+<td class='match'>100</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td>11.6</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td>Canon</td>
+<td class='match'>Canon</td>
+<td class='match'>Canon</td>
+</tr>
+<tr>
+<td>MediaBlackPoint</td>
+<td>0 0 0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MediaWhitePoint</td>
+<td>0.95045 1 1.08905</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td>Partial</td>
+<td class='match'>Partial</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>Canon EOS 20D</td>
+<td class='match'>Canon EOS 20D</td>
+<td class='match'>Canon EOS 20D</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td>2008:04:14 17:56:50</td>
+<td class='missing'>-</td>
+<td class='match'>2008:04:14 17:56:50</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PrimaryPlatform</td>
+<td>Apple Computer Inc.</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileCMMType</td>
+<td>ADBE</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileClass</td>
+<td>Display Device Profile</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileConnectionSpace</td>
+<td>XYZ </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileCopyright</td>
+<td>Copyright 2000 Adobe Systems Incorporated</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileCreator</td>
+<td>ADBE</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileDateTime</td>
+<td>2000:08:11 19:51:59</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileDescription</td>
+<td>Adobe RGB (1998)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileFileSignature</td>
+<td>acsp</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileID</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileVersion</td>
+<td>2.1.0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RedMatrixColumn</td>
+<td>0.60974 0.31111 0.01947</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RedTRC</td>
+<td>(Binary data 14 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RenderingIntent</td>
+<td>Perceptual</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td>1/60</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>QuickTime 7.4.1</td>
+<td class='match'>QuickTime 7.4.1</td>
+<td class='match'>QuickTime 7.4.1</td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td>(Binary data 3547 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td>3547</td>
+<td class='missing'>-</td>
+<td class='match'>3547</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td>574</td>
+<td class='missing'>-</td>
+<td class='diff'>562</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td>Centered</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

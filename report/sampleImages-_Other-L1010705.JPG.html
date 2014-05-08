@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from exiftool against exiftool.js and Gomfunkel</p>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='194'>sampleImages/_Other/L1010705.JPG</th>
+<td>AFAreaMode</td>
+<td>1-area</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AFAssistLamp</td>
+<td>Enabled but Not Used</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Aperture</td>
+<td>5.6</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ApertureValue</td>
+<td>5.6</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ApplicationRecordVersion</td>
+<td>2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Audio</td>
+<td>No</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BabyAge</td>
+<td>(not set)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BlueBalance</td>
+<td>1.711575</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BurstMode</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Caption-Abstract</td>
+<td>shetland pony</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CircleOfConfusion</td>
+<td>0.004 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CodedCharacterSet</td>
+<td>UTF8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorEffect</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorMode</td>
+<td>Normal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td>Y, Cb, Cr, -</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CompressedBitsPerPixel</td>
+<td>4</td>
+<td class='match'>4</td>
+<td class='match'>4</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>Contrast</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ContrastMode</td>
+<td>Normal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ConversionLens</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CopyrightFlag</td>
+<td>true</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td>2007:05:30 12:40:54</td>
+<td class='missing'>-</td>
+<td class='match'>2007:05:30 12:40:54</td>
+</tr>
+<tr>
+<td>CreatorTool</td>
+<td>Ver.1.0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CurrentIPTCDigest</td>
+<td>6721328712a71acada3d6b5fb57a7d83</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CustomRendered</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>DataDump</td>
+<td>(Binary data 6152 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateTimeDigitized</td>
+<td>2007:05:30 12:40:54+02:00</td>
+<td class='diff'>2007:05:30 12:40:54</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td>2007:05:30 12:40:54</td>
+<td class='match'>2007:05:30 12:40:54</td>
+<td class='match'>2007:05:30 12:40:54</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>shetland pony</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DigitalZoomRatio</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td>Little-endian (Intel, II)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td>1536</td>
+<td class='missing'>-</td>
+<td class='match'>1536</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td>2048</td>
+<td class='missing'>-</td>
+<td class='match'>2048</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td>0221</td>
+<td class='match'>0221</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureMode</td>
+<td>Auto</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td>Program AE</td>
+<td class='diff'>Normal program</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td>1/250</td>
+<td class='diff'>0.004</td>
+<td class='diff'>0.004</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td>5.6</td>
+<td class='match'>5.6</td>
+<td class='match'>5.6</td>
+</tr>
+<tr>
+<td>FOV</td>
+<td>9.7 deg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FileSource</td>
+<td>Digital Camera</td>
+<td class='diff'>DSC</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FirmwareVersion</td>
+<td>0.1.0.1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td>Off, Did not fire</td>
+<td class='diff'>Flash did not fire, compulsory flash mode</td>
+<td class='diff'>16</td>
+</tr>
+<tr>
+<td>FlashBias</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashFired</td>
+<td>No</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashFunction</td>
+<td>false</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashMode</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashRedEyeMode</td>
+<td>false</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashReturn</td>
+<td>No return detection</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td>0100</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td>25.2 mm</td>
+<td class='match'>25.2 mm</td>
+<td class='diff'>25.2</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td>25.2 mm (35 mm equivalent: 212.0 mm)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLengthIn35mmFormat</td>
+<td>212 mm</td>
+<td class='missing'>-</td>
+<td class='diff'>212</td>
+</tr>
+<tr>
+<td>FocusMode</td>
+<td>Auto</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GainControl</td>
+<td>None</td>
+<td class='match'>None</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>Headline</td>
+<td>L1010705.JPG</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HyperfocalDistance</td>
+<td>31.75 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>IPTCDigest</td>
+<td>6721328712a71acada3d6b5fb57a7d83</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td>100</td>
+<td class='missing'>-</td>
+<td class='match'>100</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageQuality</td>
+<td>High</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageStabilization</td>
+<td>On, Mode 2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InternalSerialNumber</td>
+<td>(F60) 2006:09:11 no. 0129</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InteropIndex</td>
+<td>R98 - DCF basic file (sRGB)</td>
+<td class='missing'>-</td>
+<td class='diff'>R98</td>
+</tr>
+<tr>
+<td>InteropVersion</td>
+<td>0100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LegacyIPTCDigest</td>
+<td>6721328712A71ACADA3D6B5FB57A7D83</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightSource</td>
+<td>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td>12.9</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MacroMode</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td>LEICA</td>
+<td class='match'>LEICA</td>
+<td class='match'>LEICA</td>
+</tr>
+<tr>
+<td>MakerNoteVersion</td>
+<td>0100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Marked</td>
+<td>true</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MaxApertureValue</td>
+<td>2.8</td>
+<td class='diff'>3</td>
+<td class='diff'>3</td>
+</tr>
+<tr>
+<td>MetadataDate</td>
+<td>2010:03:31 09:47:34+02:00</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td>Multi-segment</td>
+<td class='diff'>Pattern</td>
+<td class='diff'>5</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>D-LUX 3</td>
+<td class='match'>D-LUX 3</td>
+<td class='match'>D-LUX 3</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td>2007:05:30 12:40:54</td>
+<td class='missing'>-</td>
+<td class='match'>2007:05:30 12:40:54</td>
+</tr>
+<tr>
+<td>NoiseReduction</td>
+<td>Standard</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>OpticalZoomMode</td>
+<td>Extended</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PanasonicExifVersion</td>
+<td>0210</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PrintIMVersion</td>
+<td>0250</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RedBalance</td>
+<td>2.088235</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>Rotation</td>
+<td>Horizontal (normal)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Saturation</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>SavedSettingsName</td>
+<td>Import</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersBlueHue</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersBlueSaturation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersBrightness</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersCameraProfile</td>
+<td>Embedded</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersCameraProfileDigest</td>
+<td>D6AF5AEA62557FCE88BC099788BBD3CC</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersChromaticAberrationB</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersChromaticAberrationR</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersClarity</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersColorNoiseReduction</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersContrast</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersConvertToGrayscale</td>
+<td>false</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersDefringe</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersExposure</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersFillLight</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersGreenHue</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersGreenSaturation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersHighlightRecovery</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersHueAdjustmentAqua</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersHueAdjustmentBlue</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersHueAdjustmentGreen</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersHueAdjustmentMagenta</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersHueAdjustmentOrange</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersHueAdjustmentPurple</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersHueAdjustmentRed</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersHueAdjustmentYellow</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersIncrementalTemperature</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersIncrementalTint</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersLuminanceAdjustmentAqua</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersLuminanceAdjustmentBlue</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersLuminanceAdjustmentGreen</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersLuminanceAdjustmentMagenta</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersLuminanceAdjustmentOrange</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersLuminanceAdjustmentPurple</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersLuminanceAdjustmentRed</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersLuminanceAdjustmentYellow</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersLuminanceSmoothing</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersParametricDarks</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersParametricHighlightSplit</td>
+<td>75</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersParametricHighlights</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersParametricLights</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersParametricMidtoneSplit</td>
+<td>50</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersParametricShadowSplit</td>
+<td>25</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersParametricShadows</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersPostCropVignetteAmount</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersRedHue</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersRedSaturation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSaturation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSaturationAdjustmentAqua</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSaturationAdjustmentBlue</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSaturationAdjustmentGreen</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSaturationAdjustmentMagenta</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSaturationAdjustmentOrange</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSaturationAdjustmentPurple</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSaturationAdjustmentRed</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSaturationAdjustmentYellow</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersShadowTint</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersShadows</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSharpenDetail</td>
+<td>25</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSharpenEdgeMasking</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSharpenRadius</td>
+<td>+1.0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSharpness</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSplitToningBalance</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSplitToningHighlightHue</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSplitToningHighlightSaturation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSplitToningShadowHue</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersSplitToningShadowSaturation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersToneCurve</td>
+<td>0, 0,255, 255</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersToneCurveName</td>
+<td>Linear</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersVersion</td>
+<td>5.6</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersVibrance</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersVignetteAmount</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsParametersWhiteBalance</td>
+<td>As Shot</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SavedSettingsType</td>
+<td>Snapshot</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ScaleFactor35efl</td>
+<td>8.4</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td>Standard</td>
+<td class='match'>Standard</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>SceneMode</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneType</td>
+<td>Directly photographed</td>
+<td class='match'>Directly photographed</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SelfTimer</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SensingMethod</td>
+<td>One-chip color area</td>
+<td class='diff'>One-chip color area sensor</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>SequenceNumber</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Sharpness</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ShootingMode</td>
+<td>Normal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td>1/250</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShutterSpeedValue</td>
+<td>1/250</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>Ver.1.0</td>
+<td class='match'>Ver.1.0</td>
+<td class='diff'>Ver.1.0  </td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td>(Binary data 7020 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td>7020</td>
+<td class='missing'>-</td>
+<td class='match'>7020</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td>8096</td>
+<td class='missing'>-</td>
+<td class='diff'>8084</td>
+</tr>
+<tr>
+<td>TimeSincePowerOn</td>
+<td>00:00:35.00</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>TravelDay</td>
+<td>n/a</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WBBlueLevel</td>
+<td>1804</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WBGreenLevel</td>
+<td>1054</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WBRedLevel</td>
+<td>2201</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WBShiftAB</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WBShiftGM</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td>Auto</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>XMPToolkit</td>
+<td>Adobe XMP Core 4.2-c020 1.124078, Tue Sep 11 2007 23:21:40        </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td>Co-sited</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

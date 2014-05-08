@@ -1,0 +1,26 @@
+{
+	"img": "sampleImages/Nokia/Nokia6280.jpg",
+	"exifJS": {
+		"ResolutionUnit": "2"
+	},
+	"exifGomfunkel": {
+		"ResolutionUnit": 2,
+		"ThumbnailLength": 5704,
+		"ThumbnailOffset": 58
+	},
+	"exifPerl": {
+		"BitsPerSample": 8,
+		"ColorComponents": 3,
+		"Comment": "                        ",
+		"EncodingProcess": "Baseline DCT, Huffman coding",
+		"ExifByteOrder": "Little-endian (Intel, II)",
+		"ImageHeight": 8,
+		"ImageSize": "8x8",
+		"ImageWidth": 8,
+		"ResolutionUnit": "inches",
+		"ThumbnailImage": "(Binary data 5704 bytes)",
+		"ThumbnailLength": 5704,
+		"ThumbnailOffset": 93,
+		"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+	}
+}

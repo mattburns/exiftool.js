@@ -1,0 +1,62 @@
+{
+	"img": "sampleImages/HP/HP_ScanJet5530.jpg",
+	"exifJS": {
+		"ColorSpace": "sRGB",
+		"ComponentsConfiguration": "Y, Cb, Cr, -",
+		"ExifIFDPointer": "190",
+		"ExifVersion": "0220",
+		"FlashpixVersion": "0100",
+		"Make": "HP",
+		"Model": "HP ScanJet 5530",
+		"PixelXDimension": "992",
+		"PixelYDimension": "720",
+		"ReferenceBlackWhite": "0,255,128,255,128,255",
+		"ResolutionUnit": "2",
+		"XResolution": "200",
+		"YCbCrPositioning": "2",
+		"YResolution": "200"
+	},
+	"exifGomfunkel": {
+		"ColorSpace": 1,
+		"ExifImageHeight": 720,
+		"ExifImageWidth": 992,
+		"ExifOffset": 190,
+		"Make": "HP",
+		"Model": "HP ScanJet 5530",
+		"ReferenceBlackWhite": [
+			0,
+			255,
+			128,
+			255,
+			128,
+			255
+		],
+		"ResolutionUnit": 2,
+		"XResolution": 200,
+		"YCbCrPositioning": 2,
+		"YResolution": 200
+	},
+	"exifPerl": {
+		"BitsPerSample": 8,
+		"ColorComponents": 3,
+		"ColorSpace": "sRGB",
+		"ComponentsConfiguration": "Y, Cb, Cr, -",
+		"EncodingProcess": "Baseline DCT, Huffman coding",
+		"ExifByteOrder": "Little-endian (Intel, II)",
+		"ExifImageHeight": 720,
+		"ExifImageWidth": 992,
+		"ExifVersion": "0220",
+		"FlashpixVersion": "0100",
+		"ImageHeight": 8,
+		"ImageSize": "8x8",
+		"ImageWidth": 8,
+		"Make": "HP",
+		"Model": "HP ScanJet 5530",
+		"ReferenceBlackWhite": "0 255 128 255 128 255",
+		"ResolutionUnit": "inches",
+		"XResolution": 200,
+		"YCbCrPositioning": "Co-sited",
+		"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+		"YResolution": 200
+	}
+}

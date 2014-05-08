@@ -1,0 +1,44 @@
+{
+	"img": "sampleImages/SonyEricsson/SonyEricssonW950i.jpg",
+	"exifJS": {
+		"DateTime": "2007:11:01 22:55:45",
+		"ExifIFDPointer": "74",
+		"ExifVersion": "0210",
+		"InteroperabilityIFDPointer": "128",
+		"Make": "SONY ERICSSO",
+		"Model": "SONY ERICSSON W950",
+		"Orientation": "1",
+		"PixelXDimension": "640",
+		"PixelYDimension": "480"
+	},
+	"exifGomfunkel": {
+		"ExifImageHeight": 480,
+		"ExifImageWidth": 640,
+		"ExifOffset": 74,
+		"InteropIndex": "R98",
+		"InteropOffset": 128,
+		"Make": "SONY ERICSSON",
+		"Model": "SONY ERICSSON W950i",
+		"ModifyDate": "2007:11:01 22:55:45",
+		"Orientation": 1
+	},
+	"exifPerl": {
+		"BitsPerSample": 8,
+		"ColorComponents": 3,
+		"EncodingProcess": "Baseline DCT, Huffman coding",
+		"ExifByteOrder": "Big-endian (Motorola, MM)",
+		"ExifImageHeight": 480,
+		"ExifImageWidth": 640,
+		"ExifVersion": "0210",
+		"ImageHeight": 8,
+		"ImageSize": "8x8",
+		"ImageWidth": 8,
+		"InteropIndex": "R98 - DCF basic file (sRGB)",
+		"InteropVersion": "0100",
+		"Make": "SONY ERICSSON",
+		"Model": "SONY ERICSSON W950i",
+		"ModifyDate": "2007:11:01 22:55:45",
+		"Orientation": "Horizontal (normal)",
+		"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+	}
+}

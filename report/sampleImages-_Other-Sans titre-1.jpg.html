@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from exiftool against exiftool.js and Gomfunkel</p>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='59'>sampleImages/_Other/Sans titre-1.jpg</th>
+<td>APP14Flags0</td>
+<td>Encoded with Blend=1 downsampling</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>APP14Flags1</td>
+<td>(none)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ApplicationRecordVersion</td>
+<td>54156</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorMode</td>
+<td>RGB</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td>Uncalibrated</td>
+<td class='diff'></td>
+<td class='diff'>65535</td>
+</tr>
+<tr>
+<td>ColorTransform</td>
+<td>YCbCr</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>Copyright</td>
+<td>© christophe hebting</td>
+<td class='match'>© christophe hebting</td>
+<td class='diff'>Â© christophe hebting</td>
+</tr>
+<tr>
+<td>CopyrightFlag</td>
+<td>true</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CopyrightNotice</td>
+<td>© christophe hebting</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td>2011:11:23 21:06:16+01:00</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CreatorTool</td>
+<td>Adobe Photoshop CS4 Windows</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CurrentIPTCDigest</td>
+<td>1e31a390ffc94a9e96ce1043cc492840</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DCTEncodeVersion</td>
+<td>100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DisplayedUnitsX</td>
+<td>inches</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DisplayedUnitsY</td>
+<td>inches</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DocumentID</td>
+<td>xmp.did:86B419680E16E1119535967726D705D2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td>Big-endian (Motorola, MM)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td>2480</td>
+<td class='missing'>-</td>
+<td class='match'>2480</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td>3508</td>
+<td class='missing'>-</td>
+<td class='match'>3508</td>
+</tr>
+<tr>
+<td>Format</td>
+<td>image/jpeg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GlobalAltitude</td>
+<td>30</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GlobalAngle</td>
+<td>120</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HistoryAction</td>
+<td>created,saved,converted,saved</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HistoryChanged</td>
+<td>/,/</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HistoryInstanceID</td>
+<td>xmp.iid:86B419680E16E1119535967726D705D2,xmp.iid:87B419680E16E1119535967726D705D2,xmp.iid:88B419680E16E1119535967726D705D2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HistoryParameters</td>
+<td>from application/vnd.adobe.photoshop to image/jpeg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HistorySoftwareAgent</td>
+<td>Adobe Photoshop CS4 Windows,Adobe Photoshop CS4 Windows,Adobe Photoshop CS4 Windows</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HistoryWhen</td>
+<td>2011:11:23 21:06:16+01:00,2011:11:23 21:07:01+01:00,2011:11:23 21:07:01+01:00</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>IPTCDigest</td>
+<td>1e31a390ffc94a9e96ce1043cc492840</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InstanceID</td>
+<td>xmp.iid:88B419680E16E1119535967726D705D2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>JFIFVersion</td>
+<td>1.02</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Marked</td>
+<td>true</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MetadataDate</td>
+<td>2011:11:23 21:07:01+01:00</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td>2011:11:23 21:07:01</td>
+<td class='missing'>-</td>
+<td class='match'>2011:11:23 21:07:01</td>
+</tr>
+<tr>
+<td>NativeDigest</td>
+<td>256,257,258,259,262,274,277,284,530,531,282,283,296,301,318,319,529,532,306,270,271,272,305,315,33432;83E2B7BD5F6157DDFD8220A7688F1197</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>OriginalDocumentID</td>
+<td>xmp.did:86B419680E16E1119535967726D705D2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PhotoshopFormat</td>
+<td>Standard</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PhotoshopQuality</td>
+<td>5</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PhotoshopThumbnail</td>
+<td>(Binary data 5044 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProgressiveScans</td>
+<td>3 Scans</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>Rights</td>
+<td>© christophe hebting</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>Adobe Photoshop CS4 Windows</td>
+<td class='match'>Adobe Photoshop CS4 Windows</td>
+<td class='match'>Adobe Photoshop CS4 Windows</td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td>(Binary data 5044 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td>5044</td>
+<td class='missing'>-</td>
+<td class='match'>5044</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td>364</td>
+<td class='missing'>-</td>
+<td class='diff'>334</td>
+</tr>
+<tr>
+<td>UsageTerms</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XMPToolkit</td>
+<td>Adobe XMP Core 4.2.2-c063 53.352624, 2008/07/30-18:12:18        </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td>300</td>
+<td class='match'>300</td>
+<td class='diff'>72</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td>300</td>
+<td class='match'>300</td>
+<td class='diff'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

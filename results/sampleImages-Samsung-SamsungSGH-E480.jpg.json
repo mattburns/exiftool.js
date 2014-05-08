@@ -1,0 +1,53 @@
+{
+	"img": "sampleImages/Samsung/SamsungSGH-E480.jpg",
+	"exifJS": {
+		"ColorSpace": "sRGB",
+		"ComponentsConfiguration": "Y, Cb, Cr, -",
+		"DateTimeOriginal": "2010:01:09 20:02:52",
+		"ExifIFDPointer": "156",
+		"ExifVersion": "0220",
+		"FlashpixVersion": "0100",
+		"Make": "SAMSUNG",
+		"Model": "SGH-E480",
+		"ResolutionUnit": "2",
+		"XResolution": "72",
+		"YCbCrPositioning": "2",
+		"YResolution": "72"
+	},
+	"exifGomfunkel": {
+		"ColorSpace": 1,
+		"DateTimeOriginal": "2010:01:09 20:02:52",
+		"ExifImageHeight": 600,
+		"ExifImageWidth": 800,
+		"ExifOffset": 156,
+		"Make": "SAMSUNG",
+		"Model": "SGH-E480\u0000",
+		"ResolutionUnit": 2,
+		"XResolution": 72,
+		"YCbCrPositioning": 2,
+		"YResolution": 72
+	},
+	"exifPerl": {
+		"BitsPerSample": 8,
+		"ColorComponents": 3,
+		"ColorSpace": "sRGB",
+		"ComponentsConfiguration": "Y, Cb, Cr, -",
+		"DateTimeOriginal": "2010:01:09 20:02:52",
+		"EncodingProcess": "Baseline DCT, Huffman coding",
+		"ExifByteOrder": "Little-endian (Intel, II)",
+		"ExifImageHeight": 600,
+		"ExifImageWidth": 800,
+		"ExifVersion": "0220",
+		"FlashpixVersion": "0100",
+		"ImageHeight": 8,
+		"ImageSize": "8x8",
+		"ImageWidth": 8,
+		"Make": "SAMSUNG",
+		"Model": "SGH-E480",
+		"ResolutionUnit": "inches",
+		"XResolution": 72,
+		"YCbCrPositioning": "Co-sited",
+		"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+		"YResolution": 72
+	}
+}

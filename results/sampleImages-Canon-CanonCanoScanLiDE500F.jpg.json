@@ -1,0 +1,95 @@
+{
+	"img": "sampleImages/Canon/CanonCanoScanLiDE500F.jpg",
+	"exifJS": {
+		"ColorSpace": "sRGB",
+		"ComponentsConfiguration": "Y, Cb, Cr, -",
+		"DateTime": "2010 :09 :20 16 :20 :51",
+		"DateTimeDigitized": "2010 :09 :20 16 :20 :51",
+		"DateTimeOriginal": "",
+		"ExifIFDPointer": "270",
+		"ExifVersion": "0221",
+		"FileSource": "",
+		"FlashpixVersion": "0100",
+		"Make": "Canon",
+		"Model": "CanoScan LiDE 500F",
+		"Orientation": "1",
+		"PixelXDimension": "4848",
+		"PixelYDimension": "2096",
+		"ResolutionUnit": "2",
+		"Software": "CanoScan Toolbox 4.9.1.1",
+		"YCbCrPositioning": "1"
+	},
+	"exifGomfunkel": {
+		"ColorSpace": 1,
+		"CreateDate": "2010 :09 :20 16 :20 :51",
+		"DateTimeOriginal": "",
+		"ExifImageHeight": 2096,
+		"ExifImageWidth": 4848,
+		"ExifOffset": 270,
+		"Make": "Canon",
+		"Model": "CanoScan LiDE 500F",
+		"ModifyDate": "2010 :09 :20 16 :20 :51",
+		"Orientation": 1,
+		"Rating": 0,
+		"ResolutionUnit": 2,
+		"Software": "CanoScan Toolbox 4.9.1.1",
+		"WhiteBalance": 0,
+		"XPAuthor": [
+			0,
+			0
+		],
+		"XPComment": [
+			0,
+			0
+		],
+		"XPKeywords": [
+			0,
+			0
+		],
+		"XPSubject": [
+			0,
+			0
+		],
+		"XPTitle": [
+			0,
+			0
+		],
+		"YCbCrPositioning": 1
+	},
+	"exifPerl": {
+		"BitsPerSample": 8,
+		"ColorComponents": 3,
+		"ColorSpace": "sRGB",
+		"ComponentsConfiguration": "Y, Cb, Cr, -",
+		"CreateDate": "2010 :09 :20 16 :20 :51",
+		"DateTimeOriginal": "",
+		"EncodingProcess": "Baseline DCT, Huffman coding",
+		"ExifByteOrder": "Little-endian (Intel, II)",
+		"ExifImageHeight": 2096,
+		"ExifImageWidth": 4848,
+		"ExifVersion": "0221",
+		"FileSource": "Reflection Print Scanner",
+		"FlashpixVersion": "0100",
+		"ImageHeight": 8,
+		"ImageSize": "8x8",
+		"ImageWidth": 8,
+		"JFIFVersion": 1.01,
+		"Make": "Canon",
+		"Model": "CanoScan LiDE 500F",
+		"ModifyDate": "2010 :09 :20 16 :20 :51",
+		"Orientation": "Horizontal (normal)",
+		"Rating": 0,
+		"ResolutionUnit": "inches",
+		"Software": "CanoScan Toolbox 4.9.1.1",
+		"WhiteBalance": "Auto",
+		"XPAuthor": "",
+		"XPComment": "",
+		"XPKeywords": "",
+		"XPSubject": "",
+		"XPTitle": "",
+		"XResolution": 600,
+		"YCbCrPositioning": "Centered",
+		"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+		"YResolution": 600
+	}
+}

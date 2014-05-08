@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from exiftool against exiftool.js and Gomfunkel</p>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='78'>sampleImages/Casio/CasioEX-S3.jpg</th>
+<td>AFPointPosition</td>
+<td>n/a</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Aperture</td>
+<td>4.2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ArtMode</td>
+<td>Normal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BestShotMode</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorFilter</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorMode</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td>Y, Cb, Cr, -</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CompressedBitsPerPixel</td>
+<td>0.3833333333</td>
+<td class='diff'>0.38333333333333336</td>
+<td class='diff'>0.38333333333333336</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>Contrast</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td>2004:10:22 23:49:58</td>
+<td class='missing'>-</td>
+<td class='match'>2004:10:22 23:49:58</td>
+</tr>
+<tr>
+<td>CustomRendered</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td>2004:10:22 23:49:58</td>
+<td class='match'>2004:10:22 23:49:58</td>
+<td class='match'>2004:10:22 23:49:58</td>
+</tr>
+<tr>
+<td>DigitalZoomRatio</td>
+<td>undef</td>
+<td class='missing'>-</td>
+<td class='diff'>NaN</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Enhancement</td>
+<td>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td>Big-endian (Motorola, MM)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td>960</td>
+<td class='missing'>-</td>
+<td class='match'>960</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td>1280</td>
+<td class='missing'>-</td>
+<td class='match'>1280</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td>0220</td>
+<td class='match'>0220</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureMode</td>
+<td>Auto</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td>Program AE</td>
+<td class='diff'>Normal program</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td>1/40</td>
+<td class='diff'>0.025</td>
+<td class='diff'>0.025</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td>4.2</td>
+<td class='match'>4.2</td>
+<td class='match'>4.2</td>
+</tr>
+<tr>
+<td>FileSource</td>
+<td>Digital Camera</td>
+<td class='diff'>DSC</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FirmwareDate</td>
+<td>2003:02:28 09:12</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td>Auto, Fired</td>
+<td class='diff'>Flash fired, auto mode</td>
+<td class='diff'>25</td>
+</tr>
+<tr>
+<td>FlashDistance</td>
+<td>54</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td>0100</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td>0.0 mm</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td>0.0 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLengthIn35mmFormat</td>
+<td>35 mm</td>
+<td class='missing'>-</td>
+<td class='diff'>35</td>
+</tr>
+<tr>
+<td>FocusMode</td>
+<td>Focus Lock</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GainControl</td>
+<td>Low gain up</td>
+<td class='match'>Low gain up</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>HometownCity</td>
+<td>London</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td>160</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InteropIndex</td>
+<td>R98 - DCF basic file (sRGB)</td>
+<td class='missing'>-</td>
+<td class='diff'>R98</td>
+</tr>
+<tr>
+<td>InteropVersion</td>
+<td>0100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>JFIFVersion</td>
+<td>1.01</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightSource</td>
+<td>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td>8.8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td>CASIO COMPUTER CO.,LTD</td>
+<td class='match'>CASIO COMPUTER CO.,LTD</td>
+<td class='diff'>CASIO COMPUTER CO.,LTD </td>
+</tr>
+<tr>
+<td>MaxApertureValue</td>
+<td>4.1</td>
+<td class='match'>4.1</td>
+<td class='match'>4.1</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td>Multi-segment</td>
+<td class='diff'>Pattern</td>
+<td class='diff'>5</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>EX-S3</td>
+<td class='match'>EX-S3</td>
+<td class='diff'>EX-S3  </td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td>2004:10:22 23:49:58</td>
+<td class='missing'>-</td>
+<td class='match'>2004:10:22 23:49:58</td>
+</tr>
+<tr>
+<td>ObjectDistance</td>
+<td>inf</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PreviewImage</td>
+<td>(Binary data 28998 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageLength</td>
+<td>28998</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageSize</td>
+<td>320x240</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageStart</td>
+<td>1290</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PrintIMVersion</td>
+<td>0250</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Quality</td>
+<td>Normal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RecordMode</td>
+<td>Program AE</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ReleaseMode</td>
+<td>Normal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>Saturation</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td>Standard</td>
+<td class='match'>Standard</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>Sharpness</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td>1/40</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>1</td>
+<td class='match'>1.00</td>
+<td class='match'>1.00                 </td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td>(Binary data 7788 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td>7788</td>
+<td class='missing'>-</td>
+<td class='match'>7788</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td>30412</td>
+<td class='missing'>-</td>
+<td class='diff'>30382</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td>Flash</td>
+<td class='diff'>Auto</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>WhiteBalanceBias</td>
+<td>114 84</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td>Centered</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

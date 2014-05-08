@@ -1,0 +1,53 @@
+{
+	"img": "sampleImages/Samsung/SamsungSGH-E780.jpg",
+	"exifJS": {
+		"ColorSpace": "sRGB",
+		"ComponentsConfiguration": "Y, Cb, Cr, -",
+		"DateTimeOriginal": "2010:06:08 22:06:38",
+		"ExifIFDPointer": "155",
+		"ExifVersion": "0220",
+		"FlashpixVersion": "0100",
+		"Make": "SAMSUNG",
+		"Model": "SGH-E780",
+		"ResolutionUnit": "2",
+		"XResolution": "72",
+		"YCbCrPositioning": "2",
+		"YResolution": "72"
+	},
+	"exifGomfunkel": {
+		"ColorSpace": 1,
+		"DateTimeOriginal": "2010:06:08 22:06:38",
+		"ExifImageHeight": 768,
+		"ExifImageWidth": 1024,
+		"ExifOffset": 155,
+		"Make": "SAMSUNG",
+		"Model": "SGH-E780",
+		"ResolutionUnit": 2,
+		"XResolution": 72,
+		"YCbCrPositioning": 2,
+		"YResolution": 72
+	},
+	"exifPerl": {
+		"BitsPerSample": 8,
+		"ColorComponents": 3,
+		"ColorSpace": "sRGB",
+		"ComponentsConfiguration": "Y, Cb, Cr, -",
+		"DateTimeOriginal": "2010:06:08 22:06:38",
+		"EncodingProcess": "Baseline DCT, Huffman coding",
+		"ExifByteOrder": "Little-endian (Intel, II)",
+		"ExifImageHeight": 768,
+		"ExifImageWidth": 1024,
+		"ExifVersion": "0220",
+		"FlashpixVersion": "0100",
+		"ImageHeight": 8,
+		"ImageSize": "8x8",
+		"ImageWidth": 8,
+		"Make": "SAMSUNG",
+		"Model": "SGH-E780",
+		"ResolutionUnit": "inches",
+		"XResolution": 72,
+		"YCbCrPositioning": "Co-sited",
+		"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+		"YResolution": 72
+	}
+}

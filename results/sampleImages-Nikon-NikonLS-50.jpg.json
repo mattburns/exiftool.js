@@ -1,0 +1,51 @@
+{
+	"img": "sampleImages/Nikon/NikonLS-50.jpg",
+	"exifJS": {
+		"DateTime": "2007:02:25 22:25:45",
+		"DateTimeDigitized": "2007:02:25 22:25:45",
+		"ExifIFDPointer": "154",
+		"ImageHeight": "2703",
+		"ImageWidth": "4257",
+		"Make": "FS-Nikon",
+		"MakerNoteIFDPointer": "228",
+		"Model": "LS-50",
+		"PixelXDimension": "4257",
+		"PixelYDimension": "2703",
+		"Software": "SilverFast 6.4.3r6"
+	},
+	"exifGomfunkel": {
+		"CreateDate": "2007:02:25 22:25:45",
+		"ExifImageHeight": 2703,
+		"ExifImageWidth": 4257,
+		"ExifOffset": 154,
+		"ImageHeight": 2703,
+		"ImageWidth": 4257,
+		"Make": "FS-Nikon",
+		"Model": "LS-50",
+		"ModifyDate": "2007:02:25 22:25:45",
+		"Software": "SilverFast 6.4.3r6",
+		"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+	},
+	"exifPerl": {
+		"BitsPerSample": 8,
+		"ColorComponents": 3,
+		"CreateDate": "2007:02:25 22:25:45",
+		"EncodingProcess": "Baseline DCT, Huffman coding",
+		"ExifByteOrder": "Little-endian (Intel, II)",
+		"ExifImageHeight": 2703,
+		"ExifImageWidth": 4257,
+		"ImageHeight": 8,
+		"ImageSize": "8x8",
+		"ImageWidth": 8,
+		"JFIFVersion": 1.01,
+		"Make": "FS-Nikon",
+		"MakerNoteUnknownBinary": "(Binary data 66 bytes)",
+		"Model": "LS-50",
+		"ModifyDate": "2007:02:25 22:25:45",
+		"ResolutionUnit": "inches",
+		"Software": "SilverFast 6.4.3r6",
+		"XResolution": 3000,
+		"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+		"YResolution": 3000
+	}
+}

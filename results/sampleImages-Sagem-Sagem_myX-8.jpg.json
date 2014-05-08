@@ -1,0 +1,30 @@
+{
+	"img": "sampleImages/Sagem/Sagem_myX-8.jpg",
+	"exifJS": {
+		"Make": "SAGEM",
+		"Model": "myX-8"
+	},
+	"exifGomfunkel": {
+		"Compression": 6,
+		"Make": "SAGEM",
+		"Model": "myX-8",
+		"ThumbnailLength": 17089,
+		"ThumbnailOffset": 92
+	},
+	"exifPerl": {
+		"BitsPerSample": 8,
+		"ColorComponents": 3,
+		"Compression": "JPEG (old-style)",
+		"EncodingProcess": "Baseline DCT, Huffman coding",
+		"ExifByteOrder": "Little-endian (Intel, II)",
+		"ImageHeight": 8,
+		"ImageSize": "8x8",
+		"ImageWidth": 8,
+		"Make": "SAGEM",
+		"Model": "myX-8",
+		"ThumbnailImage": "(Binary data 17089 bytes)",
+		"ThumbnailLength": 17089,
+		"ThumbnailOffset": 104,
+		"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+	}
+}

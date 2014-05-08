@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from exiftool against exiftool.js and Gomfunkel</p>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='73'>sampleImages/HP/HP_PhotoSmartR717.jpg</th>
+<td>Aperture</td>
+<td>4.4</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ApertureValue</td>
+<td>4.5</td>
+<td class='diff'>4.3671875</td>
+<td class='diff'>4.3671875</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BrightnessValue</td>
+<td>-0.078125</td>
+<td class='match'>-0.078125</td>
+<td class='match'>-0.078125</td>
+</tr>
+<tr>
+<td>CircleOfConfusion</td>
+<td>0.006 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td>Err (48), Err (51), Err (50), Err (49)</td>
+<td class='diff'>undefined, undefined, undefined, undefined</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>Contrast</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td>2005:10:29 16:23:07</td>
+<td class='missing'>-</td>
+<td class='match'>2005:10:29 16:23:07</td>
+</tr>
+<tr>
+<td>CustomRendered</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td>2005:10:29 16:23:07</td>
+<td class='match'>2005:10:29 16:23:07</td>
+<td class='match'>2005:10:29 16:23:07</td>
+</tr>
+<tr>
+<td>DeviceSettingDescription</td>
+<td>(Binary data 424 bytes)</td>
+<td class='diff'>25482</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td>Little-endian (Intel, II)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td>2144</td>
+<td class='missing'>-</td>
+<td class='match'>2144</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td>2848</td>
+<td class='missing'>-</td>
+<td class='match'>2848</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td>0220</td>
+<td class='match'>0220</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureIndex</td>
+<td>123</td>
+<td class='match'>123</td>
+<td class='match'>123</td>
+</tr>
+<tr>
+<td>ExposureMode</td>
+<td>Auto</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td>Program AE</td>
+<td class='diff'>Normal program</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td>1/125</td>
+<td class='diff'>0.008</td>
+<td class='diff'>0.008</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td>4.4</td>
+<td class='match'>4.4</td>
+<td class='match'>4.4</td>
+</tr>
+<tr>
+<td>FOV</td>
+<td>20.2 deg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FileSource</td>
+<td>Digital Camera</td>
+<td class='diff'>DSC</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td>Auto, Fired, Return detected</td>
+<td class='diff'>Flash fired, auto mode, return light detected</td>
+<td class='diff'>31</td>
+</tr>
+<tr>
+<td>FlashEnergy</td>
+<td>1000</td>
+<td class='match'>1000</td>
+<td class='match'>1000</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td>0010</td>
+<td class='match'>0010</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td>20.8 mm</td>
+<td class='match'>20.8 mm</td>
+<td class='diff'>20.8</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td>20.8 mm (35 mm equivalent: 101.0 mm)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLengthIn35mmFormat</td>
+<td>101 mm</td>
+<td class='missing'>-</td>
+<td class='diff'>101</td>
+</tr>
+<tr>
+<td>FocalPlaneResolutionUnit</td>
+<td>cm</td>
+<td class='diff'>3</td>
+<td class='diff'>3</td>
+</tr>
+<tr>
+<td>FocalPlaneXResolution</td>
+<td>0.0000253</td>
+<td class='match'>0.0000253</td>
+<td class='match'>0.0000253</td>
+</tr>
+<tr>
+<td>FocalPlaneYResolution</td>
+<td>0.0000253</td>
+<td class='match'>0.0000253</td>
+<td class='match'>0.0000253</td>
+</tr>
+<tr>
+<td>GainControl</td>
+<td>Low gain up</td>
+<td class='match'>Low gain up</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>HyperfocalDistance</td>
+<td>15.89 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td>123</td>
+<td class='missing'>-</td>
+<td class='match'>123</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InteropIndex</td>
+<td>R98 - DCF basic file (sRGB)</td>
+<td class='missing'>-</td>
+<td class='diff'>R98</td>
+</tr>
+<tr>
+<td>InteropVersion</td>
+<td>0100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>JFIFVersion</td>
+<td>1.01</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightSource</td>
+<td>D65</td>
+<td class='match'>D65</td>
+<td class='diff'>21</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td>10.9</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td>Hewlett-Packard</td>
+<td class='match'>Hewlett-Packard</td>
+<td class='match'>Hewlett-Packard</td>
+</tr>
+<tr>
+<td>MakerNoteUnknownText</td>
+<td>HPMet</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MaxApertureValue</td>
+<td>2.6</td>
+<td class='diff'>2.8</td>
+<td class='diff'>2.8</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td>Center-weighted average</td>
+<td class='diff'>CenterWeightedAverage</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>HP PhotoSmart R717 (V01.00)</td>
+<td class='match'>HP PhotoSmart R717 (V01.00)</td>
+<td class='diff'>HP PhotoSmart R717 (V01.00) </td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td>2005:10:29 16:23:07</td>
+<td class='missing'>-</td>
+<td class='match'>2005:10:29 16:23:07</td>
+</tr>
+<tr>
+<td>Opto-ElectricConvFactor</td>
+<td>(Binary data 2068 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>Saturation</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ScaleFactor35efl</td>
+<td>4.9</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td>Standard</td>
+<td class='match'>Standard</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>SceneType</td>
+<td>Directly photographed</td>
+<td class='match'>Directly photographed</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SensingMethod</td>
+<td>Not defined</td>
+<td class='match'>Not defined</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>Sharpness</td>
+<td>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td>1/125</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShutterSpeedValue</td>
+<td>1/125</td>
+<td class='diff'>6.96484375</td>
+<td class='diff'>6.96484375</td>
+</tr>
+<tr>
+<td>SubjectDistanceRange</td>
+<td>Close</td>
+<td class='diff'>Close view</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td>(Binary data 5068 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td>5068</td>
+<td class='missing'>-</td>
+<td class='match'>5068</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td>26690</td>
+<td class='missing'>-</td>
+<td class='diff'>26660</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td>Auto</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td>300</td>
+<td class='match'>300</td>
+<td class='diff'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td>Centered</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td>300</td>
+<td class='match'>300</td>
+<td class='diff'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,3734 @@
+[{
+  "SourceFile": "./001.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE Camera, C1530",
+  "SerialNumber": "KCGLW13707661"
+},
+{
+  "SourceFile": "./001J.jpg",
+  "Make": "FUJIFILM",
+  "Model": "FinePix S5Pro"
+},
+{
+  "SourceFile": "./003.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 7D",
+  "SerialNumber": 2081000112
+},
+{
+  "SourceFile": "./004 2.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE Z1012 IS Digital Camera",
+  "SerialNumber": "KCXHZ81506388"
+},
+{
+  "SourceFile": "./004.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1400 IS"
+},
+{
+  "SourceFile": "./007.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS REBEL T1i",
+  "SerialNumber": 2240710628
+},
+{
+  "SourceFile": "./008.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D3100",
+  "SerialNumber": 3032176
+},
+{
+  "SourceFile": "./009.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D5100",
+  "SerialNumber": 5017800
+},
+{
+  "SourceFile": "./01 2.6.2011- University Bachelor Day 004.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX1 IS"
+},
+{
+  "SourceFile": "./01 2.6.2011- University Bachelor Day 005.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX1 IS"
+},
+{
+  "SourceFile": "./01 2.6.2011- University Bachelor Day 006.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX1 IS"
+},
+{
+  "SourceFile": "./01-2008.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A720 IS"
+},
+{
+  "SourceFile": "./013.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 350D DIGITAL",
+  "SerialNumber": "0730508286"
+},
+{
+  "SourceFile": "./015.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M381 DIGITAL CAMERA",
+  "SerialNumber": "KCTMB94312202"
+},
+{
+  "SourceFile": "./016.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M1033 DIGITAL CAMERA",
+  "SerialNumber": "KCXJC83606912"
+},
+{
+  "SourceFile": "./033.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE Z915 DIGITAL CAMERA",
+  "SerialNumber": "KCTKT94521490"
+},
+{
+  "SourceFile": "./034.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D5000",
+  "SerialNumber": 3165699
+},
+{
+  "SourceFile": "./036.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D5000",
+  "SerialNumber": 3165699
+},
+{
+  "SourceFile": "./040.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE Camera, C1530",
+  "SerialNumber": "KCGLW13314055"
+},
+{
+  "SourceFile": "./041.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 550D",
+  "SerialNumber": "0832314152"
+},
+{
+  "SourceFile": "./050.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL"
+},
+{
+  "SourceFile": "./051.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 30D"
+},
+{
+  "SourceFile": "./052.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL"
+},
+{
+  "SourceFile": "./053.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL"
+},
+{
+  "SourceFile": "./056-1322708227.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS REBEL T2i",
+  "SerialNumber": 1322708227
+},
+{
+  "SourceFile": "./057.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D3100",
+  "SerialNumber": 3032176
+},
+{
+  "SourceFile": "./06-2011.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A720 IS"
+},
+{
+  "SourceFile": "./062 Tower Bridge.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-FS15"
+},
+{
+  "SourceFile": "./070.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-FH22"
+},
+{
+  "SourceFile": "./070131-DG-0957.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS D60",
+  "SerialNumber": "0220200596"
+},
+{
+  "SourceFile": "./080323-DG-3481.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D",
+  "SerialNumber": 3021202028
+},
+{
+  "SourceFile": "./096.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 450D",
+  "SerialNumber": "0730219885"
+},
+{
+  "SourceFile": "./0stathead.jpg"
+},
+{
+  "SourceFile": "./1.jpg"
+},
+{
+  "SourceFile": "./100102 - Santa Cruz 04.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 350D DIGITAL",
+  "SerialNumber": 1030622679
+},
+{
+  "SourceFile": "./100_0012.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M580 DIGITAL CAMERA",
+  "SerialNumber": "KCTMT03925981"
+},
+{
+  "SourceFile": "./100_0035.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK Z1285 ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCXJB82007471"
+},
+{
+  "SourceFile": "./100_0058.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE C183 Digital Camera",
+  "SerialNumber": "C183 001142876"
+},
+{
+  "SourceFile": "./100_0079.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M320 Digital Camera"
+},
+{
+  "SourceFile": "./100_0084.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE C183 Digital Camera",
+  "SerialNumber": "C183 001142876"
+},
+{
+  "SourceFile": "./100_0101.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE C183 Digital Camera",
+  "SerialNumber": "C183 001142876"
+},
+{
+  "SourceFile": "./100_0110.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE C183 Digital Camera",
+  "SerialNumber": "C183 001142876"
+},
+{
+  "SourceFile": "./100_0204.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE Z915 DIGITAL CAMERA",
+  "SerialNumber": "KCTKT94627957"
+},
+{
+  "SourceFile": "./100_0258.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK V1253 ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCXHE73310425"
+},
+{
+  "SourceFile": "./100_0541.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE C183 Digital Camera",
+  "SerialNumber": "C183 081312990"
+},
+{
+  "SourceFile": "./100_0686.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK Z1275 ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCXGW73702244"
+},
+{
+  "SourceFile": "./100_1151.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK Z712 IS ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCXGT73208957"
+},
+{
+  "SourceFile": "./100_1187.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK Z712 IS ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCXGT73208957"
+},
+{
+  "SourceFile": "./100_1206.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK Z712 IS ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCXGT73208957"
+},
+{
+  "SourceFile": "./100_1292.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE Z1485 IS DIGITAL CAMERA",
+  "SerialNumber": "KCXKF83910291"
+},
+{
+  "SourceFile": "./100_1981.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M531 Digital Camera",
+  "SerialNumber": "M531 061971758"
+},
+{
+  "SourceFile": "./100_2131.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE C183 Digital Camera",
+  "SerialNumber": "C183 010933554"
+},
+{
+  "SourceFile": "./100_2471.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M531 Digital Camera",
+  "SerialNumber": "M531 044862733"
+},
+{
+  "SourceFile": "./100_2523.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M531 Digital Camera",
+  "SerialNumber": "M531 044862733"
+},
+{
+  "SourceFile": "./100_2878.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK V1233 ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCXHF74401401"
+},
+{
+  "SourceFile": "./100_4993.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE V1073 DIGITAL CAMERA",
+  "SerialNumber": "KCXHV81308264"
+},
+{
+  "SourceFile": "./100_5313.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE C143 Digital Camera",
+  "SerialNumber": "C143 071462593"
+},
+{
+  "SourceFile": "./100_5414.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE C143 Digital Camera",
+  "SerialNumber": "C143 071462593"
+},
+{
+  "SourceFile": "./100_7157.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK Z712 IS ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCXGT74912511"
+},
+{
+  "SourceFile": "./101_0322.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M575 Digital Camera",
+  "SerialNumber": "M575 011561149"
+},
+{
+  "SourceFile": "./101_0325.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M575 Digital Camera",
+  "SerialNumber": "M575 011561149"
+},
+{
+  "SourceFile": "./101_0332.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M575 Digital Camera",
+  "SerialNumber": "M575 011561149"
+},
+{
+  "SourceFile": "./102_2740.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE Z1012 IS Digital Camera",
+  "SerialNumber": "KCXHZ81402783"
+},
+{
+  "SourceFile": "./106_8726.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK P880 ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KYEW602F0099"
+},
+{
+  "SourceFile": "./110624 578.jpeg",
+  "Make": "Canon",
+  "Model": "Canon EOS 550D",
+  "SerialNumber": 1133524241
+},
+{
+  "SourceFile": "./158.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-FZ7"
+},
+{
+  "SourceFile": "./187.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 40D"
+},
+{
+  "SourceFile": "./19-03-11 107.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE C1013 DIGITAL CAMERA"
+},
+{
+  "SourceFile": "./2.jpg"
+},
+{
+  "SourceFile": "./200806_NewZealand-62.jpeg"
+},
+{
+  "SourceFile": "./200808290066.jpg",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE230/X790",
+  "SerialNumber": "000K77L02521"
+},
+{
+  "SourceFile": "./2008_0511_121547.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G9"
+},
+{
+  "SourceFile": "./20100602-P6028407.JPG",
+  "Make": "OLYMPUS CORPORATION",
+  "Model": "E-1",
+  "SerialNumber": 500009672
+},
+{
+  "SourceFile": "./20110730-IMG_0493.jpeg"
+},
+{
+  "SourceFile": "./20110807-IMG_0544.jpeg"
+},
+{
+  "SourceFile": "./20111225-18388_date-should-be-xmas.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D700",
+  "SerialNumber": 2001837
+},
+{
+  "SourceFile": "./2011_0327_165330.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G9"
+},
+{
+  "SourceFile": "./215461_2025398353455_1198915945_32457790_5129947_n1.jpg"
+},
+{
+  "SourceFile": "./218125_2025411513784_1198915945_32457843_904480_n1.jpg"
+},
+{
+  "SourceFile": "./233.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 550D",
+  "SerialNumber": "0832314152"
+},
+{
+  "SourceFile": "./2694356534_ecef3905e1_o.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D300"
+},
+{
+  "SourceFile": "./3.jpg"
+},
+{
+  "SourceFile": "./303.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S2 IS"
+},
+{
+  "SourceFile": "./371.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS-1D Mark III"
+},
+{
+  "SourceFile": "./395.jpg",
+  "Make": "Panasonic",
+  "Model": "DMC-FZ50"
+},
+{
+  "SourceFile": "./4.jpg"
+},
+{
+  "SourceFile": "./5.jpg"
+},
+{
+  "SourceFile": "./5Sun21Steps_AkaFuji_Thumb.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D40",
+  "SerialNumber": 2215373
+},
+{
+  "SourceFile": "./6.jpg"
+},
+{
+  "SourceFile": "./6321100719_48bae3e765_o.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX100 IS"
+},
+{
+  "SourceFile": "./648.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-FZ7"
+},
+{
+  "SourceFile": "./702.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-FZ7"
+},
+{
+  "SourceFile": "./91.jpg",
+  "Make": "Panasonic",
+  "Model": "DMC-FZ50"
+},
+{
+  "SourceFile": "./_0011217.JPG",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 3",
+  "SerialNumber": "(20070000)03100445"
+},
+{
+  "SourceFile": "./_0014374.JPG",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 3",
+  "SerialNumber": "(20070000)12102922"
+},
+{
+  "SourceFile": "./_0014499.JPG",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 2"
+},
+{
+  "SourceFile": "./_DSC0012.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D5000",
+  "SerialNumber": 3028153
+},
+{
+  "SourceFile": "./_DSC0253.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D300S",
+  "SerialNumber": 3049968
+},
+{
+  "SourceFile": "./_DSC0457.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D90",
+  "SerialNumber": 3333452
+},
+{
+  "SourceFile": "./_DSC0829.jpeg"
+},
+{
+  "SourceFile": "./_DSC0989.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D3",
+  "SerialNumber": 2080353
+},
+{
+  "SourceFile": "./_DSC6430.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D90"
+},
+{
+  "SourceFile": "./_DSC9736.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D3",
+  "SerialNumber": 2068569
+},
+{
+  "SourceFile": "./_IGP1206.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-r",
+  "SerialNumber": 4028832
+},
+{
+  "SourceFile": "./_IGP6935.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K200D"
+},
+{
+  "SourceFile": "./_IGP9748.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K10D"
+},
+{
+  "SourceFile": "./_MG_0072.jpeg"
+},
+{
+  "SourceFile": "./_MG_0130.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D Mark II",
+  "SerialNumber": 1030713605
+},
+{
+  "SourceFile": "./_MG_0177.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D Mark II",
+  "SerialNumber": 1030713605
+},
+{
+  "SourceFile": "./_MG_1380.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 7D",
+  "SerialNumber": "0270101289"
+},
+{
+  "SourceFile": "./_MG_2092.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 50D"
+},
+{
+  "SourceFile": "./_MG_2869.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 20D"
+},
+{
+  "SourceFile": "./_MG_2998.jpeg"
+},
+{
+  "SourceFile": "./_MG_2999.jpeg"
+},
+{
+  "SourceFile": "./_MG_5251.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 1000D",
+  "SerialNumber": 3050650689
+},
+{
+  "SourceFile": "./_MG_8730-sn in xmp attr.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 7D",
+  "SerialNumber": 1070708594
+},
+{
+  "SourceFile": "./_MG_8730.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 7D",
+  "SerialNumber": 1070708594
+},
+{
+  "SourceFile": "./_MG_8837.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 40D"
+},
+{
+  "SourceFile": "./_S1D2335.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS-1D Mark IV",
+  "SerialNumber": 320301001
+},
+{
+  "SourceFile": "./_SDI0189.JPG",
+  "Make": "SIGMA",
+  "Model": "SIGMA SD14",
+  "SerialNumber": "01009638"
+},
+{
+  "SourceFile": "./Africa 53.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XT"
+},
+{
+  "SourceFile": "./Alexandria - 001.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A1000 IS"
+},
+{
+  "SourceFile": "./Alexandria - 002.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A1000 IS"
+},
+{
+  "SourceFile": "./All wrapped up in a synthetic protective cloth.jpg"
+},
+{
+  "SourceFile": "./am2.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XS",
+  "SerialNumber": "0620215837"
+},
+{
+  "SourceFile": "./AOPi.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX10 IS"
+},
+{
+  "SourceFile": "./Australia_02.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./Australia_242.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./auswahl 134 025.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK DX6490 ZOOM DIGITAL CAMERA"
+},
+{
+  "SourceFile": "./BackPorch.JPG",
+  "Make": "Polaroid",
+  "Model": "i1035"
+},
+{
+  "SourceFile": "./Barcelona 007.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 500D",
+  "SerialNumber": "0180105370"
+},
+{
+  "SourceFile": "./beach park 003.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE Sport Camera, C123",
+  "SerialNumber": "KCGPE12905465"
+},
+{
+  "SourceFile": "./Berlin_Sept_08_032.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS-1D Mark III",
+  "SerialNumber": 504516
+},
+{
+  "SourceFile": "./big file - IMG_6756.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 7D",
+  "SerialNumber": "0480417204"
+},
+{
+  "SourceFile": "./Bild 002.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M531 Digital Camera",
+  "SerialNumber": "M531 011281808"
+},
+{
+  "SourceFile": "./Bild 003.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M531 Digital Camera",
+  "SerialNumber": "M531 011281808"
+},
+{
+  "SourceFile": "./Bild 032.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A720 IS"
+},
+{
+  "SourceFile": "./Bird waiting.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1000"
+},
+{
+  "SourceFile": "./Bjoorn007.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK DX6490 ZOOM DIGITAL CAMERA"
+},
+{
+  "SourceFile": "./BLOG_Grilled_Shrimp_and_Scallops.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1100 IS"
+},
+{
+  "SourceFile": "./Boca Rio 178.jpg",
+  "Make": "SONY",
+  "Model": "DSC-T200"
+},
+{
+  "SourceFile": "./camera Birgit 14-4-2010 022.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP590UZ",
+  "SerialNumber": "000P92291464"
+},
+{
+  "SourceFile": "./camera1.JPG"
+},
+{
+  "SourceFile": "./canon 001.jpg"
+},
+{
+  "SourceFile": "./Canon_A720_01-2009.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A720 IS"
+},
+{
+  "SourceFile": "./Canon_A720_06-2009 .jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A720 IS"
+},
+{
+  "SourceFile": "./canon_ixus_1100_hs_24.jpg",
+  "Make": "Canon",
+  "Model": "Canon IXUS 1100 HS"
+},
+{
+  "SourceFile": "./CanonDIGITAL_IXUS95IS.jpg",
+  "Make": "Canon",
+  "Model": "Canon DIGITAL IXUS 95 IS"
+},
+{
+  "SourceFile": "./CanonPowerShotG12.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G12"
+},
+{
+  "SourceFile": "./CanonPowerShotG5.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G5"
+},
+{
+  "SourceFile": "./CanonPowerShotPro90IS.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot Pro90 IS"
+},
+{
+  "SourceFile": "./cgdjejae.jpg",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SZ-30MR",
+  "SerialNumber": "000JFS202583"
+},
+{
+  "SourceFile": "./Chris-18ps.jpg",
+  "Make": "FUJIFILM",
+  "Model": "FinePix S5Pro"
+},
+{
+  "SourceFile": "./CIMG0161.jpg",
+  "Make": "Palm",
+  "Model": "Pre"
+},
+{
+  "SourceFile": "./colourstripes.jpg"
+},
+{
+  "SourceFile": "./compose-unknown-contact.jpg"
+},
+{
+  "SourceFile": "./coyoteRpark.jpg"
+},
+{
+  "SourceFile": "./CSC_1295.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D60",
+  "SerialNumber": 3285180
+},
+{
+  "SourceFile": "./DB_sh02 1 of 175.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D Mark II",
+  "SerialNumber": 1110700754
+},
+{
+  "SourceFile": "./December Random Party 12-7-07 013.jpeg"
+},
+{
+  "SourceFile": "./December Random Party 12-7-07 013.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK Z612 ZOOM DIGITAL CAMERA"
+},
+{
+  "SourceFile": "./DMHP8076.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-7",
+  "SerialNumber": 3788270
+},
+{
+  "SourceFile": "./Douglas Camera.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX Optio S6"
+},
+{
+  "SourceFile": "./DPP_102.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XS"
+},
+{
+  "SourceFile": "./dragdrop.jpg"
+},
+{
+  "SourceFile": "./drgdrop1.jpg"
+},
+{
+  "SourceFile": "./DSC00418.JPG",
+  "Make": "Sony Ericsson",
+  "Model": "K800i"
+},
+{
+  "SourceFile": "./DSC01678.JPG",
+  "Make": "SONY",
+  "Model": "DSC-W50"
+},
+{
+  "SourceFile": "./DSC01752.JPG",
+  "Make": "SONY",
+  "Model": "DSC-W360"
+},
+{
+  "SourceFile": "./DSC02297.JPG",
+  "Make": "SONY",
+  "Model": "DSC-W50"
+},
+{
+  "SourceFile": "./DSC_0001.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D40X"
+},
+{
+  "SourceFile": "./DSC_0002.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D60"
+},
+{
+  "SourceFile": "./DSC_0003.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D80"
+},
+{
+  "SourceFile": "./DSC_0009.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D50",
+  "SerialNumber": ""
+},
+{
+  "SourceFile": "./DSC_0052.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D70",
+  "SerialNumber": "No= -10005ea"
+},
+{
+  "SourceFile": "./DSC_0056.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D40"
+},
+{
+  "SourceFile": "./DSC_0070.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D40"
+},
+{
+  "SourceFile": "./DSC_0081.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D90"
+},
+{
+  "SourceFile": "./DSC_0194.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D80"
+},
+{
+  "SourceFile": "./DSC_0250.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D60"
+},
+{
+  "SourceFile": "./DSC_0317.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D50",
+  "SerialNumber": ""
+},
+{
+  "SourceFile": "./DSC_0786.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D5000"
+},
+{
+  "SourceFile": "./DSC_0922.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D90",
+  "SerialNumber": 6459006
+},
+{
+  "SourceFile": "./DSC_0982.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D50",
+  "SerialNumber": ""
+},
+{
+  "SourceFile": "./DSC_1005.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D80",
+  "SerialNumber": 3184503
+},
+{
+  "SourceFile": "./DSC_1482.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D60",
+  "SerialNumber": 3285180
+},
+{
+  "SourceFile": "./DSC_1948.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D80",
+  "SerialNumber": "       "
+},
+{
+  "SourceFile": "./DSC_2256.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D50",
+  "SerialNumber": ""
+},
+{
+  "SourceFile": "./DSC_2598.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D50",
+  "SerialNumber": ""
+},
+{
+  "SourceFile": "./DSC_2777.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D90"
+},
+{
+  "SourceFile": "./DSC_3662.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D80",
+  "SerialNumber": 6099361
+},
+{
+  "SourceFile": "./DSC_3895.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D3000",
+  "SerialNumber": 6230147
+},
+{
+  "SourceFile": "./DSC_6011.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D60",
+  "SerialNumber": 3323685
+},
+{
+  "SourceFile": "./DSC_6055.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D50",
+  "SerialNumber": ""
+},
+{
+  "SourceFile": "./DSC_6260.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D50",
+  "SerialNumber": ""
+},
+{
+  "SourceFile": "./DSC_6496.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D80"
+},
+{
+  "SourceFile": "./DSC_6634-invalid-xml.jpeg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D7000",
+  "SerialNumber": 8034472
+},
+{
+  "SourceFile": "./DSC_6634.jpeg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D7000",
+  "SerialNumber": 8034472
+},
+{
+  "SourceFile": "./DSC_8067.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D90"
+},
+{
+  "SourceFile": "./DSC_8452.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D300"
+},
+{
+  "SourceFile": "./DSC_8456.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D300"
+},
+{
+  "SourceFile": "./DSC_8467.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D300"
+},
+{
+  "SourceFile": "./DSCF0033.JPG",
+  "Make": "FUJIFILM",
+  "Model": "FinePix S5Pro"
+},
+{
+  "SourceFile": "./DSCF0945.jpg",
+  "Make": "FUJIFILM",
+  "Model": "FinePix X100"
+},
+{
+  "SourceFile": "./DSCF2946.jpg",
+  "Make": "FUJIFILM",
+  "Model": "FinePix S8000fd"
+},
+{
+  "SourceFile": "./DSCF3137.jpg",
+  "Make": "FUJIFILM",
+  "Model": "FinePix S8000fd"
+},
+{
+  "SourceFile": "./DSCF3181.jpg",
+  "Make": "FUJIFILM",
+  "Model": "FinePix S8000fd"
+},
+{
+  "SourceFile": "./dzialka 19.04.2009 r.iulica krasinskiego 9 015.jpg",
+  "Make": "Panasonic",
+  "Model": "DMC-LZ7"
+},
+{
+  "SourceFile": "./epz-footer-2009.jpg"
+},
+{
+  "SourceFile": "./Everything 074.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP800UZ",
+  "SerialNumber": "000JAH251127"
+},
+{
+  "SourceFile": "./exif.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D Mark II",
+  "SerialNumber": 230120319
+},
+{
+  "SourceFile": "./firstphotocanonpowershot.jpg"
+},
+{
+  "SourceFile": "./Flynns Corfu 003.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 350D DIGITAL",
+  "SerialNumber": 1930742838
+},
+{
+  "SourceFile": "./foto famiglia 023.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M381 DIGITAL CAMERA",
+  "SerialNumber": "KCTMB94221572"
+},
+{
+  "SourceFile": "./France_2010_0013756.jpg"
+},
+{
+  "SourceFile": "./HallButler879.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX130 IS"
+},
+{
+  "SourceFile": "./HallButler880.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX130 IS"
+},
+{
+  "SourceFile": "./Heres the 8Gb CF card.jpg"
+},
+{
+  "SourceFile": "./HEROES 7-25-07 015.jpeg"
+},
+{
+  "SourceFile": "./HEROES 7-25-07 015.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK Z612 ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCTFY63421916"
+},
+{
+  "SourceFile": "./hitwise-2009-email.jpg"
+},
+{
+  "SourceFile": "./HPIM0074.jpg",
+  "Make": "Hewlett-Packard",
+  "Model": "HP Photosmart R740",
+  "SerialNumber": "CN77CA11W1"
+},
+{
+  "SourceFile": "./HPIM0771.jpg",
+  "Make": "Hewlett-Packard",
+  "Model": "HP Photosmart M437",
+  "SerialNumber": "CN74SG21NK"
+},
+{
+  "SourceFile": "./HPIM1540.JPG",
+  "Make": "Hewlett-Packard",
+  "Model": "HP Photosmart R740",
+  "SerialNumber": "CN79UB30JV"
+},
+{
+  "SourceFile": "./HPIM1829.JPG",
+  "Make": "Hewlett-Packard",
+  "Model": "HP Photosmart M437",
+  "SerialNumber": "CN6CSE106H"
+},
+{
+  "SourceFile": "./I keep pieces of Ikea cardboard around the house.jpg"
+},
+{
+  "SourceFile": "./Idaho 2007 002.jpeg"
+},
+{
+  "SourceFile": "./Idaho 2007 002.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK Z612 ZOOM DIGITAL CAMERA",
+  "SerialNumber": "KCTFY63421916"
+},
+{
+  "SourceFile": "./image001.jpg"
+},
+{
+  "SourceFile": "./image002.jpg"
+},
+{
+  "SourceFile": "./image003.jpg"
+},
+{
+  "SourceFile": "./images_entries_display_Traditional_Henna.jpg",
+  "Make": "Panasonic",
+  "Model": "DMC-FS20"
+},
+{
+  "SourceFile": "./IMG_0001.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_0002.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3300 IS"
+},
+{
+  "SourceFile": "./IMG_0003.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3100 IS"
+},
+{
+  "SourceFile": "./IMG_0005 copia.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D Mark II"
+},
+{
+  "SourceFile": "./IMG_0005.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0006.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_0007.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3100 IS"
+},
+{
+  "SourceFile": "./IMG_0009.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XTi"
+},
+{
+  "SourceFile": "./IMG_0010.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A480"
+},
+{
+  "SourceFile": "./IMG_0011.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 300 HS"
+},
+{
+  "SourceFile": "./IMG_0012.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 100 HS"
+},
+{
+  "SourceFile": "./IMG_0013.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XSi",
+  "SerialNumber": "0470106618"
+},
+{
+  "SourceFile": "./IMG_0014.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A480"
+},
+{
+  "SourceFile": "./IMG_0015.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX230 HS"
+},
+{
+  "SourceFile": "./IMG_0016.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XTi"
+},
+{
+  "SourceFile": "./IMG_0017.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 300 HS"
+},
+{
+  "SourceFile": "./IMG_0019.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX100 IS"
+},
+{
+  "SourceFile": "./IMG_0021.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX130 IS"
+},
+{
+  "SourceFile": "./IMG_0022.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_0025.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 100 HS"
+},
+{
+  "SourceFile": "./IMG_0026.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_0030.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XSi"
+},
+{
+  "SourceFile": "./IMG_0036.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX120 IS"
+},
+{
+  "SourceFile": "./IMG_0044.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX200 IS"
+},
+{
+  "SourceFile": "./IMG_0046.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1300 IS"
+},
+{
+  "SourceFile": "./IMG_0052.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD3500 IS"
+},
+{
+  "SourceFile": "./IMG_0055.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S90"
+},
+{
+  "SourceFile": "./IMG_0065.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX230 HS"
+},
+{
+  "SourceFile": "./IMG_0072.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_0073.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1400 IS"
+},
+{
+  "SourceFile": "./IMG_0091.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3000 IS"
+},
+{
+  "SourceFile": "./IMG_0095.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_0099.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_0100.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX200 IS"
+},
+{
+  "SourceFile": "./IMG_0101.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX200 IS"
+},
+{
+  "SourceFile": "./IMG_0102.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 100 HS"
+},
+{
+  "SourceFile": "./IMG_0105.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1300 IS"
+},
+{
+  "SourceFile": "./IMG_0106.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD960 IS"
+},
+{
+  "SourceFile": "./img_0115.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD790 IS"
+},
+{
+  "SourceFile": "./IMG_0120_old.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S90"
+},
+{
+  "SourceFile": "./IMG_0121.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 100 HS"
+},
+{
+  "SourceFile": "./IMG_0124.jpeg"
+},
+{
+  "SourceFile": "./IMG_0125.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 20D",
+  "SerialNumber": "0920404460"
+},
+{
+  "SourceFile": "./IMG_0126.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX110 IS"
+},
+{
+  "SourceFile": "./IMG_0128.jpeg"
+},
+{
+  "SourceFile": "./IMG_0136.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_0143.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A2000 IS"
+},
+{
+  "SourceFile": "./IMG_0149.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0166.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1300 IS"
+},
+{
+  "SourceFile": "./IMG_0171.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0177.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0178.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 300 HS"
+},
+{
+  "SourceFile": "./IMG_0190.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 100 HS"
+},
+{
+  "SourceFile": "./IMG_0194.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S90"
+},
+{
+  "SourceFile": "./IMG_0195.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S90"
+},
+{
+  "SourceFile": "./IMG_0196.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 300 HS"
+},
+{
+  "SourceFile": "./IMG_0211.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3100 IS"
+},
+{
+  "SourceFile": "./IMG_0223.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3100 IS"
+},
+{
+  "SourceFile": "./IMG_0227.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_0233.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1100 IS"
+},
+{
+  "SourceFile": "./IMG_0234.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G11"
+},
+{
+  "SourceFile": "./IMG_0252.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A550"
+},
+{
+  "SourceFile": "./IMG_0253.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A550"
+},
+{
+  "SourceFile": "./IMG_0262.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G11"
+},
+{
+  "SourceFile": "./IMG_0263.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3100 IS"
+},
+{
+  "SourceFile": "./IMG_0266.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD890 IS"
+},
+{
+  "SourceFile": "./IMG_0284.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX220 HS"
+},
+{
+  "SourceFile": "./IMG_0289.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A460"
+},
+{
+  "SourceFile": "./IMG_0290.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 40D",
+  "SerialNumber": 630109264
+},
+{
+  "SourceFile": "./IMG_0295_1.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX230 HS"
+},
+{
+  "SourceFile": "./IMG_0311.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0317_1.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX230 HS"
+},
+{
+  "SourceFile": "./IMG_0323.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1300 IS"
+},
+{
+  "SourceFile": "./IMG_0336.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S90"
+},
+{
+  "SourceFile": "./IMG_0339.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD750"
+},
+{
+  "SourceFile": "./IMG_0340.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD800 IS"
+},
+{
+  "SourceFile": "./IMG_0343.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_0346.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G12"
+},
+{
+  "SourceFile": "./IMG_0347.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G12"
+},
+{
+  "SourceFile": "./IMG_0348.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_0354.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A710 IS"
+},
+{
+  "SourceFile": "./IMG_0360.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_0365.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX220 HS"
+},
+{
+  "SourceFile": "./IMG_0370.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XT",
+  "SerialNumber": 1920713135
+},
+{
+  "SourceFile": "./IMG_0385.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_0386.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_0402.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_0405.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD890 IS"
+},
+{
+  "SourceFile": "./IMG_0475.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S90"
+},
+{
+  "SourceFile": "./IMG_0482.jpeg"
+},
+{
+  "SourceFile": "./IMG_0495.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0501.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S90"
+},
+{
+  "SourceFile": "./IMG_0516.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3100 IS"
+},
+{
+  "SourceFile": "./IMG_0517.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot D10"
+},
+{
+  "SourceFile": "./IMG_0519.jpeg"
+},
+{
+  "SourceFile": "./IMG_0539.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_0547.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_0558.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_0568.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A470"
+},
+{
+  "SourceFile": "./IMG_0573.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A470"
+},
+{
+  "SourceFile": "./IMG_0595.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_0625.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3300 IS"
+},
+{
+  "SourceFile": "./IMG_0652.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_0653.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G10"
+},
+{
+  "SourceFile": "./IMG_0655.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G10"
+},
+{
+  "SourceFile": "./IMG_0664.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX130 IS"
+},
+{
+  "SourceFile": "./IMG_0666.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1400 IS"
+},
+{
+  "SourceFile": "./IMG_0670.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX230 HS"
+},
+{
+  "SourceFile": "./IMG_0671.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1400 IS"
+},
+{
+  "SourceFile": "./IMG_0674.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX230 HS"
+},
+{
+  "SourceFile": "./IMG_0682.JPG",
+  "Make": "Canon",
+  "Model": "Canon DIGITAL IXUS 95 IS"
+},
+{
+  "SourceFile": "./IMG_0692.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 300 HS"
+},
+{
+  "SourceFile": "./IMG_0693.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 300 HS"
+},
+{
+  "SourceFile": "./IMG_0696.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD980 IS"
+},
+{
+  "SourceFile": "./IMG_0704.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0712.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_0721.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 600D",
+  "SerialNumber": "023011002290"
+},
+{
+  "SourceFile": "./IMG_0735.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX20 IS"
+},
+{
+  "SourceFile": "./IMG_0742.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX230 HS"
+},
+{
+  "SourceFile": "./IMG_0745.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XTi"
+},
+{
+  "SourceFile": "./IMG_0753.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G11"
+},
+{
+  "SourceFile": "./IMG_0783.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_0793.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G10"
+},
+{
+  "SourceFile": "./IMG_0806.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD960 IS"
+},
+{
+  "SourceFile": "./IMG_0813.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3000 IS"
+},
+{
+  "SourceFile": "./IMG_0821.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX230 HS"
+},
+{
+  "SourceFile": "./IMG_0841.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0842.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0861.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3000 IS"
+},
+{
+  "SourceFile": "./IMG_0876.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0882.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0888.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX120 IS"
+},
+{
+  "SourceFile": "./IMG_0906.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_0926.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XT"
+},
+{
+  "SourceFile": "./IMG_0981.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_0987.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_0998.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_1002.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_1008.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_1011.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_1012.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_1033.JPG",
+  "Make": "Canon",
+  "Model": "Canon DIGITAL IXUS 110 IS"
+},
+{
+  "SourceFile": "./IMG_1072.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD3500 IS"
+},
+{
+  "SourceFile": "./IMG_1080.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1000"
+},
+{
+  "SourceFile": "./IMG_1143.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX130 IS"
+},
+{
+  "SourceFile": "./IMG_1194.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_1200.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1300 IS"
+},
+{
+  "SourceFile": "./IMG_1209.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_1216.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A710 IS"
+},
+{
+  "SourceFile": "./IMG_1242.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX130 IS"
+},
+{
+  "SourceFile": "./IMG_1280 2.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A1000 IS"
+},
+{
+  "SourceFile": "./IMG_1290 2.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A1000 IS"
+},
+{
+  "SourceFile": "./IMG_1292.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_1313.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot D10"
+},
+{
+  "SourceFile": "./IMG_1316.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3000 IS"
+},
+{
+  "SourceFile": "./IMG_1335.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A460"
+},
+{
+  "SourceFile": "./IMG_1338.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS REBEL T1i"
+},
+{
+  "SourceFile": "./IMG_1349.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_1413-.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1300 IS"
+},
+{
+  "SourceFile": "./IMG_1427.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_1493.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G12"
+},
+{
+  "SourceFile": "./IMG_1496b.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_1497b.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_1523.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1300 IS"
+},
+{
+  "SourceFile": "./IMG_1524.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1300 IS"
+},
+{
+  "SourceFile": "./IMG_1540.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_1625.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX230 HS"
+},
+{
+  "SourceFile": "./IMG_1628.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_1676.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot D10"
+},
+{
+  "SourceFile": "./IMG_1807.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_1808.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_1823.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A460"
+},
+{
+  "SourceFile": "./IMG_1825.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1100 IS"
+},
+{
+  "SourceFile": "./IMG_1853.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G11"
+},
+{
+  "SourceFile": "./IMG_1874.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A720 IS"
+},
+{
+  "SourceFile": "./IMG_1927.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_20120305_145018.jpg",
+  "Make": "ZTE",
+  "Model": "ZTE Blade"
+},
+{
+  "SourceFile": "./IMG_2122.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G11"
+},
+{
+  "SourceFile": "./IMG_2125.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_2133.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_2170.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD800 IS"
+},
+{
+  "SourceFile": "./IMG_2173.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD800 IS"
+},
+{
+  "SourceFile": "./IMG_2222.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_2223.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_2348.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD880 IS"
+},
+{
+  "SourceFile": "./IMG_2383.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_2387.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_2388.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_2421.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 60D",
+  "SerialNumber": "0670412577"
+},
+{
+  "SourceFile": "./IMG_2454.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD880 IS"
+},
+{
+  "SourceFile": "./IMG_2470.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XSi"
+},
+{
+  "SourceFile": "./IMG_2511.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX100 IS"
+},
+{
+  "SourceFile": "./IMG_2517.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX100 IS"
+},
+{
+  "SourceFile": "./IMG_2563.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_2585.JPG",
+  "Make": "Apple",
+  "Model": "iPhone 3G"
+},
+{
+  "SourceFile": "./IMG_2586.JPG",
+  "Make": "Apple",
+  "Model": "iPhone 3G"
+},
+{
+  "SourceFile": "./IMG_2587.JPG",
+  "Make": "Apple",
+  "Model": "iPhone 3G"
+},
+{
+  "SourceFile": "./IMG_2597.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS Kiss Digital N"
+},
+{
+  "SourceFile": "./IMG_2611.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A710 IS"
+},
+{
+  "SourceFile": "./IMG_2625.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX20 IS"
+},
+{
+  "SourceFile": "./IMG_2628.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX20 IS"
+},
+{
+  "SourceFile": "./IMG_2677.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX20 IS"
+},
+{
+  "SourceFile": "./IMG_2681.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX20 IS"
+},
+{
+  "SourceFile": "./IMG_2691.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XS",
+  "SerialNumber": 1470305585
+},
+{
+  "SourceFile": "./IMG_2694.jpg"
+},
+{
+  "SourceFile": "./IMG_2697.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XS",
+  "SerialNumber": 1470305585
+},
+{
+  "SourceFile": "./IMG_2705.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XS",
+  "SerialNumber": 1470305585
+},
+{
+  "SourceFile": "./IMG_2799.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_2830_recent.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S90"
+},
+{
+  "SourceFile": "./IMG_2868.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX200 IS"
+},
+{
+  "SourceFile": "./IMG_2886.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G11"
+},
+{
+  "SourceFile": "./IMG_2995.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_3002.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_3054.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX130 IS"
+},
+{
+  "SourceFile": "./IMG_3055.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX130 IS"
+},
+{
+  "SourceFile": "./IMG_3058.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS REBEL T1i",
+  "SerialNumber": 2140729111
+},
+{
+  "SourceFile": "./IMG_3133.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD750"
+},
+{
+  "SourceFile": "./IMG_3134.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD750"
+},
+{
+  "SourceFile": "./IMG_3165.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX10 IS"
+},
+{
+  "SourceFile": "./IMG_3176.JPG",
+  "Make": "Canon",
+  "Model": "Canon DIGITAL IXUS 100 IS"
+},
+{
+  "SourceFile": "./IMG_3190.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A460"
+},
+{
+  "SourceFile": "./IMG_3195.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XS",
+  "SerialNumber": 1840407704
+},
+{
+  "SourceFile": "./IMG_3206.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 400D DIGITAL",
+  "SerialNumber": 1330823009
+},
+{
+  "SourceFile": "./IMG_3281.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX10 IS"
+},
+{
+  "SourceFile": "./IMG_3424.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX10 IS"
+},
+{
+  "SourceFile": "./IMG_3428.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX20 IS"
+},
+{
+  "SourceFile": "./IMG_3580.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S90"
+},
+{
+  "SourceFile": "./IMG_3640.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G12"
+},
+{
+  "SourceFile": "./IMG_3667.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_3744.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_3748.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S95"
+},
+{
+  "SourceFile": "./IMG_3778.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_3781.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD780 IS"
+},
+{
+  "SourceFile": "./IMG_3826.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G12"
+},
+{
+  "SourceFile": "./IMG_3842.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS Kiss Digital N"
+},
+{
+  "SourceFile": "./IMG_4038.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A2000 IS"
+},
+{
+  "SourceFile": "./IMG_4075.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./IMG_4147.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./IMG_4181.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot S60"
+},
+{
+  "SourceFile": "./IMG_4223.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A710 IS"
+},
+{
+  "SourceFile": "./IMG_4577.JPG",
+  "Make": "Canon",
+  "Model": "Canon DIGITAL IXUS 100 IS"
+},
+{
+  "SourceFile": "./IMG_4631.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_4643.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS REBEL T3i",
+  "SerialNumber": "032021003986"
+},
+{
+  "SourceFile": "./IMG_4659.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1000"
+},
+{
+  "SourceFile": "./IMG_4680.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX30 IS"
+},
+{
+  "SourceFile": "./IMG_4971.jpg"
+},
+{
+  "SourceFile": "./IMG_5001.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A590 IS"
+},
+{
+  "SourceFile": "./IMG_5002.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A590 IS"
+},
+{
+  "SourceFile": "./IMG_5099.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 20D"
+},
+{
+  "SourceFile": "./IMG_5100.jpg"
+},
+{
+  "SourceFile": "./IMG_5257.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX120 IS"
+},
+{
+  "SourceFile": "./IMG_5355.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX120 IS"
+},
+{
+  "SourceFile": "./IMG_5500.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A480"
+},
+{
+  "SourceFile": "./IMG_5507.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A480"
+},
+{
+  "SourceFile": "./IMG_5846.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX200 IS"
+},
+{
+  "SourceFile": "./IMG_5901.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 20D"
+},
+{
+  "SourceFile": "./IMG_5903.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 20D"
+},
+{
+  "SourceFile": "./IMG_6176.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD790 IS"
+},
+{
+  "SourceFile": "./IMG_6262.JPG",
+  "Make": "Canon",
+  "Model": "Canon DIGITAL IXUS 50"
+},
+{
+  "SourceFile": "./IMG_6414.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1000"
+},
+{
+  "SourceFile": "./IMG_6459.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 20D"
+},
+{
+  "SourceFile": "./IMG_6714.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XTi",
+  "SerialNumber": "0420133585"
+},
+{
+  "SourceFile": "./IMG_6756.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 7D",
+  "SerialNumber": "0480417204"
+},
+{
+  "SourceFile": "./IMG_6879.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS REBEL T2i",
+  "SerialNumber": 1723908342
+},
+{
+  "SourceFile": "./IMG_6974.jpeg"
+},
+{
+  "SourceFile": "./IMG_7401.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A710 IS"
+},
+{
+  "SourceFile": "./IMG_7402.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A710 IS"
+},
+{
+  "SourceFile": "./IMG_7630.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A590 IS"
+},
+{
+  "SourceFile": "./IMG_7631.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A590 IS"
+},
+{
+  "SourceFile": "./IMG_7841.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX10 IS"
+},
+{
+  "SourceFile": "./IMG_8093.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A1100 IS"
+},
+{
+  "SourceFile": "./IMG_8094.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A1100 IS"
+},
+{
+  "SourceFile": "./IMG_8260.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 20D",
+  "SerialNumber": "0930410912"
+},
+{
+  "SourceFile": "./IMG_8295.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX110 IS"
+},
+{
+  "SourceFile": "./IMG_8313.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 450D"
+},
+{
+  "SourceFile": "./IMG_8373.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D Mark II",
+  "SerialNumber": 1220700610
+},
+{
+  "SourceFile": "./IMG_8383.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX10 IS"
+},
+{
+  "SourceFile": "./IMG_8618.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D Mark II",
+  "SerialNumber": 1020703747
+},
+{
+  "SourceFile": "./IMG_8642.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 500D",
+  "SerialNumber": "0380103183"
+},
+{
+  "SourceFile": "./IMG_8689.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 500D",
+  "SerialNumber": "0380103183"
+},
+{
+  "SourceFile": "./IMG_8904.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1100 IS"
+},
+{
+  "SourceFile": "./IMG_8974.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 500D",
+  "SerialNumber": "0380103183"
+},
+{
+  "SourceFile": "./IMG_9051.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1100 IS"
+},
+{
+  "SourceFile": "./IMG_9136.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G12"
+},
+{
+  "SourceFile": "./IMG_9137.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G12"
+},
+{
+  "SourceFile": "./IMG_9482.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX110 IS"
+},
+{
+  "SourceFile": "./IMG_9692.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A1000 IS"
+},
+{
+  "SourceFile": "./IMG_9703.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A1000 IS"
+},
+{
+  "SourceFile": "./IMG_9768.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1000"
+},
+{
+  "SourceFile": "./IMG_9775.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 10D"
+},
+{
+  "SourceFile": "./IMG_9936.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D"
+},
+{
+  "SourceFile": "./IMGP0055.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-x",
+  "SerialNumber": 3723824
+},
+{
+  "SourceFile": "./IMGP0213.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-5",
+  "SerialNumber": 4025729
+},
+{
+  "SourceFile": "./IMGP0218.jpeg"
+},
+{
+  "SourceFile": "./IMGP0224.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX Optio A40"
+},
+{
+  "SourceFile": "./IMGP0261.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-x",
+  "SerialNumber": 3762096
+},
+{
+  "SourceFile": "./IMGP0263.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-x",
+  "SerialNumber": 3511629
+},
+{
+  "SourceFile": "./IMGP0382.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX Optio S10"
+},
+{
+  "SourceFile": "./IMGP0423x.jpg",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-x"
+},
+{
+  "SourceFile": "./IMGP0982.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX Optio S50"
+},
+{
+  "SourceFile": "./IMGP1068aaax.jpg",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-m"
+},
+{
+  "SourceFile": "./IMGP1215.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-7",
+  "SerialNumber": 3394452
+},
+{
+  "SourceFile": "./IMGP1498.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K200D"
+},
+{
+  "SourceFile": "./IMGP1949.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-x",
+  "SerialNumber": 3432731
+},
+{
+  "SourceFile": "./IMGP2304.jpeg"
+},
+{
+  "SourceFile": "./IMGP2713.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K10D"
+},
+{
+  "SourceFile": "./IMGP3221.jpg",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX *ist DL"
+},
+{
+  "SourceFile": "./IMGP3325.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-x",
+  "SerialNumber": 3507709
+},
+{
+  "SourceFile": "./IMGP3390-shows internal sn in search results.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-x",
+  "SerialNumber": 3507709
+},
+{
+  "SourceFile": "./IMGP3390.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-x",
+  "SerialNumber": 3507709
+},
+{
+  "SourceFile": "./IMGP3665.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K10D"
+},
+{
+  "SourceFile": "./IMGP4729.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-7",
+  "SerialNumber": 3488403
+},
+{
+  "SourceFile": "./IMGP5199.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K20D"
+},
+{
+  "SourceFile": "./IMGP5219.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-x",
+  "SerialNumber": 3503327
+},
+{
+  "SourceFile": "./IMGP5398.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K110D"
+},
+{
+  "SourceFile": "./IMGP5406.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K10D"
+},
+{
+  "SourceFile": "./IMGP5483.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K10D"
+},
+{
+  "SourceFile": "./IMGP5967.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-5",
+  "SerialNumber": 3830489
+},
+{
+  "SourceFile": "./IMGP6243.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX Optio A10"
+},
+{
+  "SourceFile": "./IMGP6662.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX Optio S4"
+},
+{
+  "SourceFile": "./IMGP7109.jpg",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K100D Super"
+},
+{
+  "SourceFile": "./IMGP7321.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K10D"
+},
+{
+  "SourceFile": "./IMGP7394.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K200D"
+},
+{
+  "SourceFile": "./IMGP8879.JPG",
+  "Make": "PENTAX",
+  "Model": "PENTAX K-r",
+  "SerialNumber": 3888237
+},
+{
+  "SourceFile": "./Immagine 048.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX1 IS"
+},
+{
+  "SourceFile": "./Immagine 049.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX1 IS"
+},
+{
+  "SourceFile": "./Immagine 050.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX1 IS"
+},
+{
+  "SourceFile": "./Immagine 051.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX1 IS"
+},
+{
+  "SourceFile": "./Immagine 052.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX1 IS"
+},
+{
+  "SourceFile": "./IowaGame 9.10.11-0018.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 100 HS"
+},
+{
+  "SourceFile": "./iso-8859-2QKE9p.jpg",
+  "Make": "SONY",
+  "Model": "DSC-P10"
+},
+{
+  "SourceFile": "./JW7V3524_3.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS-1D Mark II",
+  "SerialNumber": 226203
+},
+{
+  "SourceFile": "./KodakDCS_Pro14nx.jpg",
+  "Make": "Kodak",
+  "Model": "DCS Pro 14nx"
+},
+{
+  "SourceFile": "./L1000126.JPG",
+  "Make": "LEICA",
+  "Model": "D-LUX 5"
+},
+{
+  "SourceFile": "./L1000397.JPG",
+  "Make": "LEICA",
+  "Model": "D-LUX 3"
+},
+{
+  "SourceFile": "./L1003919.JPG",
+  "Make": "Leica Camera AG",
+  "Model": "M8 Digital Camera",
+  "SerialNumber": 3105250
+},
+{
+  "SourceFile": "./L1010015.JPG",
+  "Make": "LEICA",
+  "Model": "D-LUX 4"
+},
+{
+  "SourceFile": "./L1010080.JPG",
+  "Make": "LEICA",
+  "Model": "D-LUX 4"
+},
+{
+  "SourceFile": "./L1010343.JPG",
+  "Make": "LEICA",
+  "Model": "D-LUX 3"
+},
+{
+  "SourceFile": "./L1010705.JPG",
+  "Make": "LEICA",
+  "Model": "D-LUX 3"
+},
+{
+  "SourceFile": "./L1010706.jpeg"
+},
+{
+  "SourceFile": "./L1020281.jpeg"
+},
+{
+  "SourceFile": "./L1020282.jpeg"
+},
+{
+  "SourceFile": "./L1040079.JPG",
+  "Make": "LEICA",
+  "Model": "D-LUX 3"
+},
+{
+  "SourceFile": "./L1040460.JPG",
+  "Make": "LEICA",
+  "Model": "C-LUX 1"
+},
+{
+  "SourceFile": "./L1080272.JPG",
+  "Make": "LEICA",
+  "Model": "V-LUX 1"
+},
+{
+  "SourceFile": "./l_add2c9298335464aa91418ef9b502c5f.jpg"
+},
+{
+  "SourceFile": "./lastphotocanonpowershot.jpg"
+},
+{
+  "SourceFile": "./lesson 4 008.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE4050,X970",
+  "SerialNumber": "000JCFJ04757"
+},
+{
+  "SourceFile": "./Leticia-27.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D40"
+},
+{
+  "SourceFile": "./lost camera 001.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1100 IS"
+},
+{
+  "SourceFile": "./lost camera 317.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1100 IS"
+},
+{
+  "SourceFile": "./Loulette-2925-20080511-IMG_1373.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 5D",
+  "SerialNumber": 2921200799
+},
+{
+  "SourceFile": "./Louvre at Sunset_8985-87.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 20D",
+  "SerialNumber": 1120602924
+},
+{
+  "SourceFile": "./Maddys Pics 001.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./Maddys Pics 183.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1200 IS"
+},
+{
+  "SourceFile": "./manual search process.jpg"
+},
+{
+  "SourceFile": "./mardi_gras-1.jpeg"
+},
+{
+  "SourceFile": "./Maria and Ian web.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D7000",
+  "SerialNumber": 8034472
+},
+{
+  "SourceFile": "./Meksyk 050.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A2200"
+},
+{
+  "SourceFile": "./Meksyk 145.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A2200"
+},
+{
+  "SourceFile": "./memorial_jpncamp-31.jpeg"
+},
+{
+  "SourceFile": "./MLM 4500.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D2X",
+  "SerialNumber": 5056670
+},
+{
+  "SourceFile": "./most recent.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX100 IS"
+},
+{
+  "SourceFile": "./MuttiHoh-4-04ToscaSpez. 011.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK DX6490 ZOOM DIGITAL CAMERA"
+},
+{
+  "SourceFile": "./n8101728_34324511_5081.jpg"
+},
+{
+  "SourceFile": "./nature16.jpg",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP600UZ"
+},
+{
+  "SourceFile": "./New Camera 09 001.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G10"
+},
+{
+  "SourceFile": "./New Camera 09 003.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G10"
+},
+{
+  "SourceFile": "./new york 048.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3300 IS"
+},
+{
+  "SourceFile": "./new york 175.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot A3300 IS"
+},
+{
+  "SourceFile": "./Next Ill wrap it in air bubble film and put it in a box ready to be shipped.jpg"
+},
+{
+  "SourceFile": "./Nico Mera Canon T2i STOLEN.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS REBEL T2i"
+},
+{
+  "SourceFile": "./nieve_enero02.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX Optio S5z"
+},
+{
+  "SourceFile": "./Nikon D5100.jpg"
+},
+{
+  "SourceFile": "./NikonD60.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D60",
+  "SerialNumber": 2000218
+},
+{
+  "SourceFile": "./no js support - HP_PhotosmartE427.jpg",
+  "Make": "Hewlett-Packard",
+  "Model": "HP Photosmart E427",
+  "SerialNumber": "CN67Q141M1"
+},
+{
+  "SourceFile": "./no make or model.jpg"
+},
+{
+  "SourceFile": "./no results - NikonD60.jpg",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D60",
+  "SerialNumber": 2000218
+},
+{
+  "SourceFile": "./old camera pic.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot ELPH 100 HS"
+},
+{
+  "SourceFile": "./old.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX100 IS"
+},
+{
+  "SourceFile": "./Olsztyn 2.JPG",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK P850 ZOOM DIGITAL CAMERA",
+  "SerialNumber": "CYEV535J5602"
+},
+{
+  "SourceFile": "./OlympusFE230-causes-freeze.jpg",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE230/X790",
+  "SerialNumber": "000K76100033"
+},
+{
+  "SourceFile": "./OSHMS-MKA-01 18 of 134.jpg",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "E-3",
+  "SerialNumber": "D71501437"
+},
+{
+  "SourceFile": "./our trip 2004 011.jpg",
+  "Make": "OLYMPUS CORPORATION",
+  "Model": "u30D,S410D,u410D"
+},
+{
+  "SourceFile": "./P1000029.jpg",
+  "Make": "Panasonic",
+  "Model": "DMC-FT3"
+},
+{
+  "SourceFile": "./P1000108.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-ZS3",
+  "SerialNumber": "F560906230245"
+},
+{
+  "SourceFile": "./P1000237.jpeg"
+},
+{
+  "SourceFile": "./P1000309.jpeg"
+},
+{
+  "SourceFile": "./P1000310.jpeg"
+},
+{
+  "SourceFile": "./P1000384.jpeg"
+},
+{
+  "SourceFile": "./P1000399.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-F3"
+},
+{
+  "SourceFile": "./P1000572.jpeg"
+},
+{
+  "SourceFile": "./P1000712.jpeg"
+},
+{
+  "SourceFile": "./P1010001.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE340,X855,C560",
+  "SerialNumber": "000M89J71668"
+},
+{
+  "SourceFile": "./P1010002.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "u1040,S1040",
+  "SerialNumber": "000P10J02952"
+},
+{
+  "SourceFile": "./P1010006.JPG",
+  "Make": "OLYMPUS CORPORATION",
+  "Model": "C-5000Z",
+  "SerialNumber": "\u001C}\u001C?N^??\u00155~+R?|d?y:5???\u0013??<f\u0008?3?"
+},
+{
+  "SourceFile": "./P1010117.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-FX9"
+},
+{
+  "SourceFile": "./P1010186.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP350",
+  "SerialNumber": "000J26082753"
+},
+{
+  "SourceFile": "./P1010244.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-FZ35"
+},
+{
+  "SourceFile": "./P1010643.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP590UZ",
+  "SerialNumber": "000P91214021"
+},
+{
+  "SourceFile": "./p1010777.jpg",
+  "Make": "Panasonic",
+  "Model": "DMC-LX3"
+},
+{
+  "SourceFile": "./P1020407.jpg",
+  "Make": "Panasonic",
+  "Model": "DMC-ZS5"
+},
+{
+  "SourceFile": "./P1020451.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-LS70"
+},
+{
+  "SourceFile": "./P1030121.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-FP2"
+},
+{
+  "SourceFile": "./P1030130.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-TZ1"
+},
+{
+  "SourceFile": "./P1030443.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-TZ1"
+},
+{
+  "SourceFile": "./P1030876-rotated.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-TZ10"
+},
+{
+  "SourceFile": "./P1030876.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-TZ10"
+},
+{
+  "SourceFile": "./P1040101.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-ZS5"
+},
+{
+  "SourceFile": "./P1040692.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-TZ10"
+},
+{
+  "SourceFile": "./P1040700.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-TZ10"
+},
+{
+  "SourceFile": "./P1040742.JPG",
+  "Make": "Panasonic",
+  "Model": "DMC-TZ10"
+},
+{
+  "SourceFile": "./P1050127.JPG"
+},
+{
+  "SourceFile": "./P1060049.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE4030,X950",
+  "SerialNumber": "000J7X205005"
+},
+{
+  "SourceFile": "./P1100001.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP560UZ",
+  "SerialNumber": "000L77526590"
+},
+{
+  "SourceFile": "./P1190237.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "u7010,S7010",
+  "SerialNumber": "000Q41212416"
+},
+{
+  "SourceFile": "./P2120002.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE250/X800",
+  "SerialNumber": "000K68205115"
+},
+{
+  "SourceFile": "./P2130090.JPG",
+  "Make": "OLYMPUS OPTICAL CO.,LTD",
+  "Model": "C150,D390",
+  "SerialNumber": "S405060958 \r\n"
+},
+{
+  "SourceFile": "./P2270981.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "u1060,S1060",
+  "SerialNumber": "000P16021775"
+},
+{
+  "SourceFile": "./P3221572-olympus.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP510UZ",
+  "SerialNumber": "000L06205244"
+},
+{
+  "SourceFile": "./P3291373_1.jpeg"
+},
+{
+  "SourceFile": "./P4140039.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "u7000,S7000",
+  "SerialNumber": "000P79202181"
+},
+{
+  "SourceFile": "./P4140066.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "u7000,S7000",
+  "SerialNumber": "000P79202181"
+},
+{
+  "SourceFile": "./P4210021.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "D595Z,C500Z",
+  "SerialNumber": "000731229707"
+},
+{
+  "SourceFile": "./P5270680.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE4010,X930",
+  "SerialNumber": "000J3L206808"
+},
+{
+  "SourceFile": "./P6043398.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "u1060,S1060",
+  "SerialNumber": "000P16021775"
+},
+{
+  "SourceFile": "./P6043414.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "u1060,S1060",
+  "SerialNumber": "000P16021775"
+},
+{
+  "SourceFile": "./P6190095.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP600UZ",
+  "SerialNumber": "000JAX262729"
+},
+{
+  "SourceFile": "./P6290593.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP600UZ",
+  "SerialNumber": "000JABC17964"
+},
+{
+  "SourceFile": "./P7170012.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP800UZ",
+  "SerialNumber": "000JAJ228149"
+},
+{
+  "SourceFile": "./P7190011.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE5010,X915",
+  "SerialNumber": "000Q49J26575"
+},
+{
+  "SourceFile": "./P8080663.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "u7000,S7000",
+  "SerialNumber": "000P79202181"
+},
+{
+  "SourceFile": "./P9010086.JPG",
+  "Make": "OLYMPUS CORPORATION",
+  "Model": "u30D,S410D,u410D"
+},
+{
+  "SourceFile": "./P9010088.JPG",
+  "Make": "OLYMPUS CORPORATION",
+  "Model": "u30D,S410D,u410D"
+},
+{
+  "SourceFile": "./P9101543.JPG",
+  "Make": "OLYMPUS OPTICAL CO.,LTD",
+  "Model": "X-2,C-50Z",
+  "SerialNumber": "115212948                      "
+},
+{
+  "SourceFile": "./P9190116-olympus-01252303.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP550UZ",
+  "SerialNumber": "000K01252303"
+},
+{
+  "SourceFile": "./PA120167.JPG",
+  "Make": "OLYMPUS CORPORATION",
+  "Model": "C8080WZ"
+},
+{
+  "SourceFile": "./PB280100.JPG",
+  "Make": "OLYMPUS CORPORATION",
+  "Model": "u30D,S410D,u410D"
+},
+{
+  "SourceFile": "./PC180001.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP800UZ",
+  "SerialNumber": "000JB3254255"
+},
+{
+  "SourceFile": "./PC250252.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP800UZ",
+  "SerialNumber": "000JAH280329"
+},
+{
+  "SourceFile": "./PC292984.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "SP600UZ",
+  "SerialNumber": "000JAC226523"
+},
+{
+  "SourceFile": "./PC312066.jpg",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "E-330"
+},
+{
+  "SourceFile": "./peace tea.jpg"
+},
+{
+  "SourceFile": "./photo.jpeg",
+  "Make": "Apple",
+  "Model": "iPhone 4"
+},
+{
+  "SourceFile": "./Photo00082.jpg"
+},
+{
+  "SourceFile": "./Picture 007.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G9"
+},
+{
+  "SourceFile": "./Picture 009.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 10D"
+},
+{
+  "SourceFile": "./Picture 053.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX200 IS"
+},
+{
+  "SourceFile": "./Picture 061.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot G9"
+},
+{
+  "SourceFile": "./Picture 109.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX200 IS"
+},
+{
+  "SourceFile": "./Picture 110.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX200 IS"
+},
+{
+  "SourceFile": "./Picture 299.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M1033 DIGITAL CAMERA",
+  "SerialNumber": "KCXJC843062050"
+},
+{
+  "SourceFile": "./PKA_0194.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K20D"
+},
+{
+  "SourceFile": "./postbox-contact.jpg"
+},
+{
+  "SourceFile": "./PT__2700.JPG",
+  "Make": "PENTAX Corporation",
+  "Model": "PENTAX K20D"
+},
+{
+  "SourceFile": "./R0010025.JPG",
+  "Make": "RICOH",
+  "Model": "Caplio GX100"
+},
+{
+  "SourceFile": "./R0010099.jpg",
+  "Make": "RICOH",
+  "Model": "GR Digital"
+},
+{
+  "SourceFile": "./R0010226.JPG",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 3",
+  "SerialNumber": "(20070000)14102625"
+},
+{
+  "SourceFile": "./R0010237.JPG",
+  "Make": "RICOH",
+  "Model": "Caplio GX100"
+},
+{
+  "SourceFile": "./R0010841.JPG",
+  "Make": "RICOH",
+  "Model": "Caplio R6"
+},
+{
+  "SourceFile": "./R0010847.JPG",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 3",
+  "SerialNumber": "(20070000)14102625"
+},
+{
+  "SourceFile": "./R0011051.JPG",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 3",
+  "SerialNumber": "(20070000)14102625"
+},
+{
+  "SourceFile": "./R0012297.JPG",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 3",
+  "SerialNumber": "(20070000)14102625"
+},
+{
+  "SourceFile": "./R0014296.JPG",
+  "Make": "RICOH",
+  "Model": "Caplio GX100"
+},
+{
+  "SourceFile": "./R0015481.JPG",
+  "Make": "RICOH",
+  "Model": "GR Digital"
+},
+{
+  "SourceFile": "./R0063855.JPG",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 3",
+  "SerialNumber": "(20070000)03100618"
+},
+{
+  "SourceFile": "./RAW_022511_0086.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D50",
+  "SerialNumber": ""
+},
+{
+  "SourceFile": "./rimg0003.jpg",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 2"
+},
+{
+  "SourceFile": "./rimg0033.jpg",
+  "Make": "RICOH",
+  "Model": "GR DIGITAL 2"
+},
+{
+  "SourceFile": "./RIMG0161.JPG",
+  "Make": "RICOH",
+  "Model": "CX1",
+  "SerialNumber": "(00010000)12345678"
+},
+{
+  "SourceFile": "./RIMG0396.jpg",
+  "Make": "RICOH",
+  "Model": "CX5",
+  "SerialNumber": "(20110000)23100213"
+},
+{
+  "SourceFile": "./RIMG0855.JPG",
+  "Make": "RICOH",
+  "Model": "Caplio R7"
+},
+{
+  "SourceFile": "./sample1.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS-1D Mark III"
+},
+{
+  "SourceFile": "./Sans titre-1.jpg"
+},
+{
+  "SourceFile": "./Sardinien 003.JPG",
+  "Make": "Samsung Techwin",
+  "Model": "<VLUU L730  / Samsung L730>"
+},
+{
+  "SourceFile": "./Sardinien 007.JPG",
+  "Make": "Samsung Techwin",
+  "Model": "<VLUU L730  / Samsung L730>"
+},
+{
+  "SourceFile": "./Sardinien 021.JPG",
+  "Make": "Samsung Techwin",
+  "Model": "<VLUU L730  / Samsung L730>"
+},
+{
+  "SourceFile": "./SDC10412.JPG",
+  "Make": "Hewlett-Packard",
+  "Model": "HP Photosmart E427",
+  "SerialNumber": "CN68J2118G"
+},
+{
+  "SourceFile": "./SDC10520.JPG",
+  "Make": "SAMSUNG",
+  "Model": "SAMSUNG ES15 / VLUU ES15 / SAMSUNG SL30"
+},
+{
+  "SourceFile": "./SDC11252.JPG",
+  "Make": "Samsung Techwin",
+  "Model": "VLUU L200  / Samsung L200"
+},
+{
+  "SourceFile": "./SDC11355.JPG",
+  "Make": "Samsung Techwin",
+  "Model": "VLUU L200  / Samsung L200"
+},
+{
+  "SourceFile": "./Seafood_Market_1000.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1100 IS"
+},
+{
+  "SourceFile": "./serial_too_short.jpg",
+  "Make": "CASIO COMPUTER CO.,LTD.",
+  "Model": "EX-ZR10",
+  "SerialNumber": "\u001A"
+},
+{
+  "SourceFile": "./Shai.JPG",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD750"
+},
+{
+  "SourceFile": "./SS853607.JPG",
+  "Make": "SAMSUNG TECHWIN CO., LTD.",
+  "Model": "Samsung S850"
+},
+{
+  "SourceFile": "./SSC Tennis Lee Tourn 148 009.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D3S",
+  "SerialNumber": 2030431
+},
+{
+  "SourceFile": "./success - my7d.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 7D",
+  "SerialNumber": "0480417204"
+},
+{
+  "SourceFile": "./sydney 015.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE4050,X970",
+  "SerialNumber": "000JCFJ04757"
+},
+{
+  "SourceFile": "./sydney 019.JPG",
+  "Make": "OLYMPUS IMAGING CORP.",
+  "Model": "FE4050,X970",
+  "SerialNumber": "000JCFJ04757"
+},
+{
+  "SourceFile": "./tennessee2010 001.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1400 IS"
+},
+{
+  "SourceFile": "./tennessee2010 064.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SD1400 IS"
+},
+{
+  "SourceFile": "./Testbilder 153.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS 1000D",
+  "SerialNumber": "0780239715"
+},
+{
+  "SourceFile": "./The back of the camera.jpg"
+},
+{
+  "SourceFile": "./Two batteries the BLM1 and the BLM5.jpg"
+},
+{
+  "SourceFile": "./unsupported - SonyDCR-DVD92.jpg",
+  "Make": "SONY",
+  "Model": "DCR-DVD92"
+},
+{
+  "SourceFile": "./vakantie anna frankrijk 094.JPG",
+  "Make": "Canon",
+  "Model": "Canon EOS DIGITAL REBEL XT",
+  "SerialNumber": "0320103771"
+},
+{
+  "SourceFile": "./vcm_s_kf_m160_160x120.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M530 Digital Camera"
+},
+{
+  "SourceFile": "./vcm_s_kf_repr_778x669.jpg",
+  "Make": "EASTMAN KODAK COMPANY",
+  "Model": "KODAK EASYSHARE M530 Digital Camera"
+},
+{
+  "SourceFile": "./WBOX_LOGO.JPG"
+},
+{
+  "SourceFile": "./Windows-1252QhF6rndlwand.jpg",
+  "Make": "Canon",
+  "Model": "Canon PowerShot SX210 IS"
+},
+{
+  "SourceFile": "./XMP-sn in xmp element text.jpg",
+  "Make": "Canon",
+  "Model": "Canon EOS 50D",
+  "SerialNumber": 2260717586
+},
+{
+  "SourceFile": "./YN560C.JPG",
+  "Make": "NIKON CORPORATION",
+  "Model": "NIKON D40",
+  "SerialNumber": 2240181
+}]

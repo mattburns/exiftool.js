@@ -1,0 +1,34 @@
+{
+	"img": "sampleImages/Mustek/Mustek2400CU_Plus.jpg",
+	"exifJS": {
+		"DateTimeDigitized": "2010:12:10 21:53:37",
+		"ExifIFDPointer": "92",
+		"Make": "WIA",
+		"Model": "2400CU Plus"
+	},
+	"exifGomfunkel": {
+		"CreateDate": "2010:12:10 21:53:37",
+		"ExifOffset": 92,
+		"Make": "WIA",
+		"Model": "2400CU Plus     ",
+		"PageName": "Reflective"
+	},
+	"exifPerl": {
+		"BitsPerSample": 8,
+		"ColorComponents": 3,
+		"CreateDate": "2010:12:10 21:53:37",
+		"EncodingProcess": "Baseline DCT, Huffman coding",
+		"ExifByteOrder": "Little-endian (Intel, II)",
+		"ImageHeight": 8,
+		"ImageSize": "8x8",
+		"ImageWidth": 8,
+		"JFIFVersion": 1.01,
+		"Make": "WIA",
+		"Model": "2400CU Plus",
+		"PageName": "Reflective",
+		"ResolutionUnit": "inches",
+		"XResolution": 200,
+		"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+		"YResolution": 200
+	}
+}

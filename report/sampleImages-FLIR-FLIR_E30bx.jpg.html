@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from exiftool against exiftool.js and Gomfunkel</p>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='93'>sampleImages/FLIR/FLIR_E30bx.jpg</th>
+<td>AboveColor</td>
+<td>170 128 128</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AtmosphericTemperature</td>
+<td>-2.0 C</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BelowColor</td>
+<td>60 128 128</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraModel</td>
+<td>FLIR E30bx</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraPartNumber</td>
+<td>49001-1901</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraSerialNumber</td>
+<td>49021720</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraSoftware</td>
+<td>17.0.0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraTemperatureRangeMax</td>
+<td>120.0 C</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraTemperatureRangeMin</td>
+<td>-20.0 C</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td>sRGB</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td>-, Cr, Cb, Y</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td>2012:01:30 19:03:39</td>
+<td class='missing'>-</td>
+<td class='match'>2012:01:30 19:03:39</td>
+</tr>
+<tr>
+<td>DateTimeGenerated</td>
+<td>2012:01:30 19:03:56</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td>2012:01:30 19:03:39.322+00:00</td>
+<td class='missing'>-</td>
+<td class='diff'>2012:01:30 19:03:39</td>
+</tr>
+<tr>
+<td>DigitalZoomRatio</td>
+<td>1</td>
+<td class='missing'>-</td>
+<td class='match'>1</td>
+</tr>
+<tr>
+<td>Emissivity</td>
+<td>0.85</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td>Little-endian (Intel, II)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td>240</td>
+<td class='missing'>-</td>
+<td class='match'>240</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td>320</td>
+<td class='missing'>-</td>
+<td class='match'>320</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td>0220</td>
+<td class='missing'>-</td>
+<td class='match'>0220</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td>1/59</td>
+<td class='missing'>-</td>
+<td class='diff'>0.01694915254237288</td>
+</tr>
+<tr>
+<td>FieldOfView</td>
+<td>25.0 deg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FilterModel</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FilterPartNumber</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FilterSerialNumber</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td>0100</td>
+<td class='missing'>-</td>
+<td class='match'>0100</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td>18.0 mm</td>
+<td class='missing'>-</td>
+<td class='diff'>18</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td>18.0 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocusDistance</td>
+<td>2.0 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocusStepCount</td>
+<td>1567</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>IRWindowTemperature</td>
+<td>20.0 C</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>IRWindowTransmission</td>
+<td>1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageTemperatureMax</td>
+<td>282</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageTemperatureMin</td>
+<td>266</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageUniqueID</td>
+<td>9C9A5236AA1CA6E7231FFAF5514B131C</td>
+<td class='missing'>-</td>
+<td class='match'>9C9A5236AA1CA6E7231FFAF5514B131C</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Isotherm1Color</td>
+<td>100 128 128</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Isotherm2Color</td>
+<td>150 32 32</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>JFIFVersion</td>
+<td>1.01</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LensModel</td>
+<td>FOL18</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LensPartNumber</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LensSerialNumber</td>
+<td></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td>FLIR Systems AB</td>
+<td class='missing'>-</td>
+<td class='match'>FLIR Systems AB</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>FLIR E30bx</td>
+<td class='missing'>-</td>
+<td class='match'>FLIR E30bx</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td>2012:01:30 19:03:39</td>
+<td class='missing'>-</td>
+<td class='match'>2012:01:30 19:03:39</td>
+</tr>
+<tr>
+<td>ObjectDistance</td>
+<td>2.00 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td>Horizontal (normal)</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>OverflowColor</td>
+<td>67 216 98</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Palette</td>
+<td>(Binary data 672 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PaletteColors</td>
+<td>224</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PaletteFileName</td>
+<td>\FlashFS\system\rainhc.pal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PaletteMethod</td>
+<td>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PaletteName</td>
+<td>Rainbow HC</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PaletteStretch</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Param0</td>
+<td>.basicImgData.objectParams.emissivity</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PeakSpectralSensitivity</td>
+<td>10.3 um</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PlanckB</td>
+<td>1397.1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PlanckF</td>
+<td>1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PlanckO</td>
+<td>-6159</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PlanckR1</td>
+<td>14936.059</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PlanckR2</td>
+<td>0.011179726</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawThermalImage</td>
+<td>(Binary data 38604 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawThermalImageHeight</td>
+<td>120</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawThermalImageType</td>
+<td>TIFF</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawThermalImageWidth</td>
+<td>160</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawValueMedian</td>
+<td>14956</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawValueRange</td>
+<td>2104</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ReflectedApparentTemperature</td>
+<td>20.0 C</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RelativeHumidity</td>
+<td>50.0 %</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td>inches</td>
+<td class='missing'>-</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td>1/59</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>Common_dll v1.3.0b1</td>
+<td class='missing'>-</td>
+<td class='match'>Common_dll v1.3.0b1</td>
+</tr>
+<tr>
+<td>SubjectDistance</td>
+<td>2 m</td>
+<td class='missing'>-</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td>(Binary data 2881 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td>2881</td>
+<td class='missing'>-</td>
+<td class='match'>2881</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td>2396</td>
+<td class='missing'>-</td>
+<td class='diff'>2366</td>
+</tr>
+<tr>
+<td>UnderflowColor</td>
+<td>41 110 240</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Warning</td>
+<td>[minor] Adjusted MakerNotes base by 532</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XPAuthor</td>
+<td>Hugues CREPIN</td>
+<td class='missing'>-</td>
+<td class='diff'>72,0,117,0,103,0,117,0,101,0,115,0,32,0,67,0,82,0,69,0,80,0,73,0,78,0,0,0</td>
+</tr>
+<tr>
+<td>XPComment</td>
+<td>www.imagerie-centre.be</td>
+<td class='missing'>-</td>
+<td class='diff'>119,0,119,0,119,0,46,0,105,0,109,0,97,0,103,0,101,0,114,0,105,0,101,0,45,0,99,0,101,0,110,0,116,0,114,0,101,0,46,0,98,0,101,0,0,0</td>
+</tr>
+<tr>
+<td>XPKeywords</td>
+<td>image, mur, picture, radiateur, radiator, thermographie, wall</td>
+<td class='missing'>-</td>
+<td class='diff'>105,0,109,0,97,0,103,0,101,0,44,0,32,0,109,0,117,0,114,0,44,0,32,0,112,0,105,0,99,0,116,0,117,0,114,0,101,0,44,0,32,0,114,0,97,0,100,0,105,0,97,0,116,0,101,0,117,0,114,0,44,0,32,0,114,0,97,0,100,0,105,0,97,0,116,0,111,0,114,0,44,0,32,0,116,0,104,0,101,0,114,0,109,0,111,0,103,0,114,0,97,0,112,0,104,0,105,0,101,0,44,0,32,0,119,0,97,0,108,0,108,0,0,0</td>
+</tr>
+<tr>
+<td>XPSubject</td>
+<td>image thermique, thermal image</td>
+<td class='missing'>-</td>
+<td class='diff'>105,0,109,0,97,0,103,0,101,0,32,0,116,0,104,0,101,0,114,0,109,0,105,0,113,0,117,0,101,0,44,0,32,0,116,0,104,0,101,0,114,0,109,0,97,0,108,0,32,0,105,0,109,0,97,0,103,0,101,0,0,0</td>
+</tr>
+<tr>
+<td>XPTitle</td>
+<td>Emission thermique d'un radiateur à travers un mur/radiator emission through wall</td>
+<td class='missing'>-</td>
+<td class='diff'>69,0,109,0,105,0,115,0,115,0,105,0,111,0,110,0,32,0,116,0,104,0,101,0,114,0,109,0,105,0,113,0,117,0,101,0,32,0,100,0,39,0,117,0,110,0,32,0,114,0,97,0,100,0,105,0,97,0,116,0,101,0,117,0,114,0,32,0,224,0,32,0,116,0,114,0,97,0,118,0,101,0,114,0,115,0,32,0,117,0,110,0,32,0,109,0,117,0,114,0,47,0,114,0,97,0,100,0,105,0,97,0,116,0,111,0,114,0,32,0,101,0,109,0,105,0,115,0,115,0,105,0,111,0,110,0,32,0,116,0,104,0,114,0,111,0,117,0,103,0,104,0,32,0,119,0,97,0,108,0,108,0,0,0</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td>72</td>
+<td class='missing'>-</td>
+<td class='match'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td>Centered</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td>72</td>
+<td class='missing'>-</td>
+<td class='match'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

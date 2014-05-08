@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from exiftool against exiftool.js and Gomfunkel</p>
+        <table class='table table-bordered'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='42'>sampleImages/Samsung/SamsungGT-E2652W.jpg</th>
+<td>Aperture</td>
+<td>2.8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='diff'>8,8,8</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td>Y, Cb, Cr, -</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>Uncompressed</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td>2011:05:25 13:07:06</td>
+<td class='missing'>-</td>
+<td class='match'>2011:05:25 13:07:06</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td>2011:05:25 13:07:06</td>
+<td class='match'>2011:05:25 13:07:06</td>
+<td class='match'>2011:05:25 13:07:06</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td>Little-endian (Intel, II)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td>960</td>
+<td class='missing'>-</td>
+<td class='match'>960</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td>1280</td>
+<td class='missing'>-</td>
+<td class='match'>1280</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td>0220</td>
+<td class='match'>0220</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td>Aperture-priority AE</td>
+<td class='diff'>Aperture priority</td>
+<td class='diff'>3</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td>1/471</td>
+<td class='diff'>0.0021231422505307855</td>
+<td class='diff'>0.0021231422505307855</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td>2.8</td>
+<td class='match'>2.8</td>
+<td class='match'>2.8</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td>0100</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td>3.7 mm</td>
+<td class='diff'>3.72 mm</td>
+<td class='diff'>3.72</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td>3.7 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='diff'>96</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td>8</td>
+<td class='missing'>-</td>
+<td class='diff'>128</td>
+</tr>
+<tr>
+<td>InteropIndex</td>
+<td>R98 - DCF basic file (sRGB)</td>
+<td class='missing'>-</td>
+<td class='diff'>R98</td>
+</tr>
+<tr>
+<td>Make</td>
+<td>SAMSUNG</td>
+<td class='match'>SAMSUNG</td>
+<td class='match'>SAMSUNG</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td>Center-weighted average</td>
+<td class='diff'>CenterWeightedAverage</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>GT-E2652W</td>
+<td class='match'>GT-E2652W</td>
+<td class='match'>GT-E2652W</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td>2011:05:25 13:07:06</td>
+<td class='missing'>-</td>
+<td class='match'>2011:05:25 13:07:06</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PhotometricInterpretation</td>
+<td>RGB</td>
+<td class='missing'>-</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>RowsPerStrip</td>
+<td>96</td>
+<td class='missing'>-</td>
+<td class='match'>96</td>
+</tr>
+<tr>
+<td>SamplesPerPixel</td>
+<td>3</td>
+<td class='missing'>-</td>
+<td class='match'>3</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td>Standard</td>
+<td class='match'>Standard</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td>1/471</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>E2652WXXKC1</td>
+<td class='match'>E2652WXXKC1</td>
+<td class='match'>E2652WXXKC1</td>
+</tr>
+<tr>
+<td>StripByteCounts</td>
+<td>36864</td>
+<td class='missing'>-</td>
+<td class='match'>36864</td>
+</tr>
+<tr>
+<td>StripOffsets</td>
+<td>682</td>
+<td class='missing'>-</td>
+<td class='diff'>670</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td>Auto</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td>Centered</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
