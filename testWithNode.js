@@ -29,8 +29,8 @@
 
     var toSupportTable = function(etjsMatch, etjsDiff, gfMatch, gfDiff) {
         return "<table class='table table-bordered'>" +
-            "<tr><th>exiftool.js</th><td>" + etjsMatch + "/" + (etjsDiff+etjsMatch) + "</td></tr>"+
-            "<tr><th>Gomfunkel</th><td>" + gfMatch + "/" + (gfDiff+gfMatch) + "</td></tr>"+
+            "<tr><th>exiftool.js</th><td>" + etjsMatch + "/" + (etjsDiff+etjsMatch) + "</td></tr>\n"+
+            "<tr><th>Gomfunkel</th><td>" + gfMatch + "/" + (gfDiff+gfMatch) + "</td></tr>\n"+
             "</table>";
     }
     var toSupportLine = function(etjsMatch, etjsDiff, gfMatch, gfDiff) {
@@ -52,13 +52,13 @@
             html += "<tr><td><a href='"+reportFiles[key]+"'>" + reportFiles[key] + "</a></td>"+
                 "<td>" + (totalSupportedTagsByModelByETJS[reportFiles[key]] + totalUnsupportedTagsByModelByETJS[reportFiles[key]]) + "</td>" +
                 "<td>" + totalSupportedTagsByModelByETJS[reportFiles[key]] + "</td>" +
-                "<td>" + totalSupportedTagsByModelByGF[reportFiles[key]] + "</td></tr>";
+                "<td>" + totalSupportedTagsByModelByGF[reportFiles[key]] + "</td></tr>\n";
         }
         html += "<tr>" +
                 "<th>Totals</th>" +
                 "<th>" + (totalSupportedTagsByETJS + totalUnsupportedTagsByETJS) + "</th>" +
                 "<th>" + totalSupportedTagsByETJS + "</th>" +
-                "<th>" + totalSupportedTagsByGF + "</th></tr>";
+                "<th>" + totalSupportedTagsByGF + "</th></tr>\n";
         html += "</table>";
 
         fs.readFile('report/template.html', 'utf8', function(err, data) {
