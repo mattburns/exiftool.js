@@ -30,7 +30,7 @@ binaryReader.readAsBinaryString(file);
 
 ```
 
-Or using node,js:
+Or using node.js (exiftool.js is packaged on npm [here](https://www.npmjs.org/package/exiftool.js)):
 
 ```
 var exiftool = require('exiftool.js');
