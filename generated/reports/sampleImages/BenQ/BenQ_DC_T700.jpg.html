@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
+        <h3>sampleImages/BenQ/BenQ_DC_T700.jpg</h3>
+<table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
+<tbody>
+<tr>
+<td>Aperture</td>
+<td class='match'>2.7</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CircleOfConfusion</td>
+<td class='match'>0.005 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td class='match'>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td class='match'>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CompressedBitsPerPixel</td>
+<td class='match'>3.972638166</td>
+<td class='diff'>3.972638165509259</td>
+<td class='diff'>3.972638165509259</td>
+<td class='diff'>3.972638165509259</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td class='match'>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>Contrast</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td class='match'>2008:02:26 16:33:00</td>
+<td class='missing'>-</td>
+<td class='match'>2008:02:26 16:33:00</td>
+<td class='match'>2008:02:26 16:33:00</td>
+</tr>
+<tr>
+<td>CustomRendered</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td class='match'>2008:02:26 16:33:00</td>
+<td class='match'>2008:02:26 16:33:00</td>
+<td class='match'>2008:02:26 16:33:00</td>
+<td class='match'>2008:02:26 16:33:00</td>
+</tr>
+<tr>
+<td>DigitalZoomRatio</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td class='match'>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td class='match'>Little-endian (Intel, II)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td class='match'>2304</td>
+<td class='missing'>-</td>
+<td class='match'>2304</td>
+<td class='match'>2304</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td class='match'>3072</td>
+<td class='missing'>-</td>
+<td class='match'>3072</td>
+<td class='match'>3072</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td class='match'>0220</td>
+<td class='match'>0220</td>
+<td class='missing'>-</td>
+<td class='diff'>2.2</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureMode</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td class='match'>Program AE</td>
+<td class='diff'>Normal program</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td class='match'>1/125</td>
+<td class='diff'>0.008</td>
+<td class='diff'>0.008</td>
+<td class='match'>1/125</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td class='match'>2.7</td>
+<td class='match'>2.7</td>
+<td class='match'>2.7</td>
+<td class='match'>2.7</td>
+</tr>
+<tr>
+<td>FOV</td>
+<td class='match'>51.9 deg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td class='match'>Auto, Did not fire</td>
+<td class='diff'>Flash did not fire, auto mode</td>
+<td class='diff'>24</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td class='match'>0100</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td class='match'>6.2 mm</td>
+<td class='match'>6.2 mm</td>
+<td class='diff'>6.2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td class='match'>6.2 mm (35 mm equivalent: 37.0 mm)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLengthIn35mmFormat</td>
+<td class='match'>37 mm</td>
+<td class='missing'>-</td>
+<td class='diff'>37</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HyperfocalDistance</td>
+<td class='match'>2.83 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td class='match'>320</td>
+<td class='missing'>-</td>
+<td class='match'>320</td>
+<td class='match'>320</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td class='match'>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InteropIndex</td>
+<td class='match'>R98 - DCF basic file (sRGB)</td>
+<td class='missing'>-</td>
+<td class='diff'>R98</td>
+<td class='diff'>R98</td>
+</tr>
+<tr>
+<td>InteropVersion</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>JFIFVersion</td>
+<td class='match'>1.01</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightSource</td>
+<td class='match'>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td class='match'>8.2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td class='match'>BenQ Corporation</td>
+<td class='match'>BenQ Corporation</td>
+<td class='match'>BenQ Corporation</td>
+<td class='match'>BenQ Corporation</td>
+</tr>
+<tr>
+<td>MaxApertureValue</td>
+<td class='match'>2.7</td>
+<td class='diff'>2.9</td>
+<td class='diff'>2.9</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td class='match'>Multi-segment</td>
+<td class='diff'>Pattern</td>
+<td class='diff'>5</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Model</td>
+<td class='match'>BenQ DC T700</td>
+<td class='match'>BenQ DC T700</td>
+<td class='match'>BenQ DC T700</td>
+<td class='match'>BenQ DC T700</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td class='match'>2008:02:26 16:33:00</td>
+<td class='missing'>-</td>
+<td class='match'>2008:02:26 16:33:00</td>
+<td class='match'>2008:02:26 16:33:00</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td class='match'>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PentaxModelID</td>
+<td class='match'>Optio T10/T20</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PentaxModelType</td>
+<td class='match'>4</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImage</td>
+<td class='match'>(Binary data 25866 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageLength</td>
+<td class='match'>25866</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageSize</td>
+<td class='match'>320x240</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageStart</td>
+<td class='match'>1352</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PrintIMVersion</td>
+<td class='match'>0300</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td class='match'>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Saturation</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ScaleFactor35efl</td>
+<td class='match'>6</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td class='match'>Standard</td>
+<td class='match'>Standard</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneType</td>
+<td class='match'>Directly photographed</td>
+<td class='match'>Directly photographed</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Sharpness</td>
+<td class='match'>Hard</td>
+<td class='match'>Hard</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td class='match'>1/125</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td class='match'>V  101.15.00</td>
+<td class='match'>V  101.15.00</td>
+<td class='diff'>V  101.15.00 </td>
+<td class='match'>V  101.15.00</td>
+</tr>
+<tr>
+<td>SubjectDistanceRange</td>
+<td class='match'>Close</td>
+<td class='diff'>Close view</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td class='match'>(Binary data 3272 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td class='match'>3272</td>
+<td class='missing'>-</td>
+<td class='match'>3272</td>
+<td class='match'>3272</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td class='match'>42538</td>
+<td class='missing'>-</td>
+<td class='diff'>42508</td>
+<td class='diff'>42508</td>
+</tr>
+<tr>
+<td>UserComment</td>
+<td class='match'>A 462 427 B 460 436 A 469 427 t 564 404 B 466 430 t 560 406 t 564 404 RH 0617 RL 0409 BH 0614 BL 0344 i 031 012 I 031 012 T 2 V 08.3 S 0 FR 999.00 WN 0113 WF 0522 m 0 M 1
+V08.3y0591Y0650I1S000029G0188I1S000029G0188y0542Y0597I1S000029G0174T0603I0S000125G0320Y0553I0S000138G0321C000126C320
+  0.30.13.12R3014PM0034CM0198PO-0050PO-0050CO03454CO03361S0372Y0498R0455B0415
+V  101.15.00ST14DT02
+R 0 D 0266 F 002 Z 00 D 03 O 0 T 0 F 0 S 0 S 1000 E +08.1
+P 49 S 0127503 N 00 S 0000000
+B 24 BV 2306 F 00 FV 0000 O 25 OV 3777
+P 01400 M 01492
+PN 0624 PF 3153 T 012500 S 0320 I 00
+CN 0623 CF 3152 T 012500 S 0320 I 00
+SN 0155 SF 0788 T 012500 S 0080 I 00 R 0000.806
+SN 0155 SF 0788 T 012500 S 0080 I 00 R 0000.806
+SN 0155 SF 0788 T 012500 S 0080 I 00 R 0000.806
+NH 4000 NL 2016 DH 0384 DL 0192
+Y 0790 R 0000.806
+CY 0000
+L
+2631 2673 2657 2600 2765 2812 2748
+2560 2766 2881 2867 2905 2869 2766
+2652 2833 2841 2752 2892 2895 2789
+2615 2835 2792 2868 2841 2882 2859
+2534 2793 2868 2896 2868 2896 2882
+2478 2757 2812 2840 2816 2860 2897
+2612 2581 2643 2669 2683 2735 2826
+W
+0130 0180 0155 0103 0351 0471 0305
+0082 0347 0767 0709 0898 0695 0344
+0151 0559 0570 0328 0830 0827 0407
+0117 0566 0404 0712 0578 0762 0671
+0068 0431 0699 0847 0698 0851 0769
+0047 0323 0475 0578 0487 0662 0856
+0119 0096 0147 0176 0194 0278 0522
+L
+2907 2957 2960 2912 3067 3066 2961
+2910 3062 3121 3116 3118 3098 2991
+3062 3103 3122 3072 3122 3112 3029
+3073 3109 3111 3106 3113 3121 3086
+3071 3110 3123 3123 3120 3123 3094
+3029 3102 3115 3120 3109 3114 3095
+3001 3048 3090 3108 3064 3048 3051
+S
+0917 1293 1320 0949 2787 2762 1335
+0936 2691 4051 3912 3947 3451 1640
+2690 3555 4080 2874 4076 3792 2135
+2902 3713 3761 3653 3827 4029 3163
+2859 3735 4094 4094 4015 4093 3345
+2139 3552 3875 4000 3725 3838 3379
+1754 2430 3253 3705 2725 2443 2489
+O
+9 9 9 9 9 9 9
+9 9 9 9 9 9 9
+9 9 9 9 9 9 9
+9 9 9 9 9 9 9
+9 9 9 9 9 9 9
+9 9 9 9 9 9 9
+9 9 9 9 9 9 9
+SY:[0]0525[1]0606[2]0461[3]0481[4]0615[5]0176[6]0335[7]0194[8]0539
+____Block Statistics____
+BY_M: 0879 BY_MB: 0831
+ROI_BY_M: 0879 ROI_BY_MB: 0825
+BY_m: 0104 BY_mB: 0097
+ROI_BY_m: 0347 ROI_BY_mB: 0363
+BY_A: 0427.6 BY_AB: 0475.4
+ROI_BY_A: 0532.2 ROI_BY_AB: 0571.0
+ROI_RNBYM: 04 ROI_CNBYM: 03
+____Segment 0 Statistics____
+S0Y_M: 0879 S0Y_MB: 0825
+S0Y_m: 0347 S0Y_mB: 0363
+S0Y_A: 0525.8 S0Y_AB: 0575.0
+S0Y_MmR: 0002.53 S0Y_MmRB: 0002.27
+S0Y_MAR: 0001.67 S0Y_MARB: 0001.43
+S0BN: 09 S0BNB: 09
+____Segment LV____
+SLV:[0]+08.42[1]+08.62[2]+08.23[3]+08.29[4]+08.64[5]+06.84[6]+07.77[7]+06.98[8]+08.45
+ROI_SNLV_M: 04 ROI_SNLV_m: 02
+ROI_SLV_M: +?4.78 ROI_SLV_MB: +?9.50
+ROI_SLV_m: +?3.04 ROI_SLV_mB: +?7.38
+ROI_SLV_A: +?4.35 ROI_SLV_AB: +?5.32
+ROI_SdLV: 22.77 ROI_SdLVB: 23.20
+ROI_SdLV2: 41.74 ROI_SdLV2B: 42.22
+LVAE: +?3.76 LVAEB: +?5.38
+____Block LV____
+BLV_M: +?6.15 BLV_MB: +?9.52
+ROI_BLV_M: +?6.15 ROI_BLV_MB: +?8.48
+BLV_m: +l8.22 BLV_mB: +k9.64
+ROI_BLV_m: +~2.06 ROI_BLV_mB: +0.03
+BdLV: N7.93 BdLVB: N9.88
+ROI_BdLV: =4.09 ROI_BdLVB: ;8.44
+____Scene Classification____
+SCEN: 26
+SEN: 00
+ISEN: 04
+WY: 0553 WYB: 0597
+LVC: +?4.18 LVCB: +?5.65
+LVT: +?5.38 LVTB: +?5.38
+CTY: 0498
+MPTY: 0672
+MCTY: 0603
+MCTYB: 0603
+MCTYKW: 0603
+MLVCTY: +?5.38
+____Backlight Detection____
+BLLT: 0276
+FDMMB: 0000000
+FNOB: 037
+MAG: 000000.0
+IBS: 0
+____Exposure Compensation____
+MATY: 0638 MAWY: 0638 R: :0.00
+RM: 02336 GM: 02075 BM: 01999
+BRGBM: 02336 BRGBME: 02336
+ECR: 81.34
+ECdLVT: +00.00 ECdLVR: +00.00
+____Histogram____
+000 0000
+001 0005
+002 0015
+003 0023
+004 0034
+005 0020
+006 0036
+007 0024
+008 0016
+009 0012
+010 0013
+011 0016
+012 0013
+013 0013
+014 0013
+015 0017
+016 0015
+017 0022
+018 0020
+019 0037
+020 0032
+021 0033
+022 0032
+023 0024
+024 0031
+025 0016
+026 0011
+027 0016
+028 0018
+029 0013
+030 0018
+031 0008
+032 0009
+033 0012
+034 0013
+035 0012
+036 0015
+037 0011
+038 0025
+039 0010
+040 0012
+041 0012
+042 0017
+043 0016
+044 0014
+045 0011
+046 0013
+047 0010
+048 0008
+049 0010
+050 0011
+051 0009
+052 0006
+053 0007
+054 0007
+055 0007
+056 0009
+057 0010
+058 0006
+059 0004
+060 0007
+061 0009
+062 0009
+063 0006
+064 0002
+065 0001
+066 0004
+067 0005
+068 0005
+069 0005
+070 0006
+071 0001
+072 0006
+073 0003
+074 0003
+075 0006
+076 0003
+077 0003
+078 0005
+079 0002
+080 0003
+081 0001
+082 0001
+083 0003
+084 0002
+085 0001
+086 0000
+087 0000
+088 0000
+089 0000
+090 0000
+091 0000
+092 0000
+093 0000
+094 0000
+095 0000
+096 0000
+097 0000
+098 0000
+099 0000
+100 0000
+101 0000
+102 0000
+103 0000
+104 0000
+105 0000
+106 0000
+107 0000
+108 0000
+109 0000
+110 0000
+111 0000
+112 0000
+113 0000
+114 0000
+115 0000
+116 0000
+117 0000
+118 0000
+119 0000
+120 0000
+121 0000
+122 0000
+123 0000
+124 0000
+125 0000
+126 0000
+127 0000
+128 0000
+129 0000
+130 0000
+131 0000
+132 0000
+133 0000
+134 0000
+135 0000
+136 0000
+137 0000
+138 0000
+139 0000
+140 0000
+141 0000
+142 0000
+143 0000
+144 0000
+145 0000
+146 0000
+147 0000
+148 0000
+149 0000
+150 0000
+151 0000
+152 0000
+153 0000
+154 0000
+155 0000
+156 0000
+157 0000
+158 0000
+159 0000
+160 0000
+161 0000
+162 0000
+163 0000
+164 0000
+165 0000
+166 0000
+167 0000
+168 0000
+169 0000
+170 0000
+171 0000
+172 0000
+173 0000
+174 0000
+175 0000
+176 0000
+177 0000
+178 0000
+179 0000
+180 0000
+181 0000
+182 0000
+183 0000
+184 0000
+185 0000
+186 0000
+187 0000
+188 0000
+189 0000
+190 0000
+191 0000
+192 0000
+193 0000
+194 0000
+195 0000
+196 0000
+197 0000
+198 0000
+199 0000
+200 0000
+201 0000
+202 0000
+203 0000
+204 0000
+205 0000
+206 0000
+207 0000
+208 0000
+209 0000
+210 0000
+211 0000
+212 0000
+213 0000
+214 0000
+215 0000
+216 0000
+217 0000
+218 0000
+219 0000
+220 0000
+221 0000
+222 0000
+223 0000
+224 0000
+225 0000
+226 0000
+227 0000
+228 0000
+229 0000
+230 0000
+231 0000
+232 0000
+233 0000
+234 0000
+235 0000
+236 0000
+237 0000
+238 0000
+239 0000
+240 0000
+241 0000
+242 0000
+243 0000
+244 0000
+245 0000
+246 0000
+247 0000
+248 0000
+249 0000
+250 0000
+251 0000
+252 0000
+253 0000
+254 0000
+255 0000
+256HMEAN: 0029.6 HMEAN: 0473.5
+256HMEDIAN: 0024 HMEDIAN: 0384
+256HBHMI: 0019 HBHMI: 0304
+256HTHMI: 0129 HTHMI: 2064
+Y:
+0136 0430 0484 0480 0538 0479 0395 
+0101 0716 0460 0589 0540 0435 0324 
+0265 0662 0434 0363 0526 0537 0437 
+0380 0417 0415 0650 0540 0689 0671 
+0192 0612 0647 0825 0775 0806 0751 
+0148 0450 0453 0514 0517 0703 0831 
+0097 0133 0177 0208 0251 0398 0712 
+R:
+0200 0545 0592 0606 0648 0565 0606 
+0139 0890 0541 0727 0670 0545 0583 
+0334 0792 0538 0451 0662 0671 0673 
+0467 0491 0505 0778 0688 0816 0911 
+0240 0729 0763 0967 0929 0938 0982 
+0186 0532 0536 0588 0630 0805 1049 
+0143 0180 0245 0280 0341 0563 0917 
+G:
+0161 0522 0590 0582 0660 0590 0458 
+0121 0873 0564 0718 0658 0529 0359 
+0321 0811 0529 0442 0640 0654 0506 
+0462 0512 0508 0795 0655 0844 0800 
+0233 0750 0794 1012 0949 0991 0904 
+0179 0552 0554 0631 0632 0865 1007 
+0114 0159 0209 0248 0300 0471 0859 
+B:
+0130 0492 0585 0569 0641 0577 0375 
+0107 0829 0582 0692 0624 0495 0237 
+0314 0809 0512 0429 0600 0620 0414 
+0455 0525 0497 0801 0614 0857 0736 
+0222 0754 0811 1039 0944 1019 0854 
+0168 0560 0570 0667 0619 0906 0976 
+0098 0148 0193 0234 0277 0420 0819 
+Y:
+0133 0242 0204 0210 0375 0408 0290 
+0104 0661 0491 0636 0549 0391 0306 
+0201 0668 0394 0386 0476 0443 0300 
+0379 0375 0347 0439 0493 0573 0562 
+0247 0517 0634 0879 0684 0702 0606 
+0151 0444 0483 0495 0514 0631 0687 
+0106 0213 0253 0266 0328 0435 0641 
+R:
+0197 0314 0256 0283 0430 0480 0440 
+0143 0816 0583 0780 0686 0493 0523 
+0254 0809 0487 0482 0596 0559 0505 
+0460 0446 0430 0529 0630 0688 0769 
+0303 0615 0753 1036 0825 0823 0801 
+0188 0523 0572 0567 0624 0722 0872 
+0144 0265 0321 0330 0410 0554 0805 
+G:
+0156 0291 0246 0250 0462 0502 0336 
+0124 0807 0600 0775 0668 0474 0344 
+0243 0816 0478 0468 0578 0538 0338 
+0462 0459 0421 0535 0597 0700 0668 
+0301 0633 0776 1077 0836 0861 0725 
+0183 0543 0591 0608 0628 0776 0830 
+0126 0258 0305 0322 0397 0525 0776 
+B:
+0127 0282 0250 0245 0477 0505 0300 
+0112 0777 0617 0764 0639 0454 0254 
+0239 0811 0479 0462 0559 0517 0260 
+0464 0477 0412 0545 0567 0714 0622 
+0299 0646 0794 1106 0837 0894 0694 
+0175 0562 0612 0656 0624 0824 0811 
+0117 0264 0309 0332 0395 0522 0766 
+AFJ:0479,0427,0367,0296,0216,0124,0041;
+Z:1;
+E:60.00;
+S:0141;
+C:0;
+V:0594,00062769
+0591,00065541
+0587,00050966
+0583,00042167
+V4:0594,00074200
+0591,00080141
+0587,00065794
+0583,00055170
+P:0594;
+R:0x10004
+
+00075374
+P:0555;
+R:0x10001</td>
+<td class='diff'>33834</td>
+<td class='missing'>-</td>
+<td class='diff'>A 462 427 B 460 436 A 469 427 t 564 404 B 466 430 t 560 406 t 564 404 RH 0617 RL 0409 BH 0614 BL 0344 i 031 012 I 031 012 T 2 V 08.3 S 0 FR 999.00 WN 0113 WF 0522 m 0 M 1V08.3y0591Y0650I1S000029G0188I1S000029G0188y0542Y0597I1S000029G0174T0603I0S000125G0320Y0553I0S000138G0321C000126C320  0.30.13.12R3014PM0034CM0198PO-0050PO-0050CO03454CO03361S0372Y0498R0455B0415V  101.15.00ST14DT02R 0 D 0266 F 002 Z 00 D 03 O 0 T 0 F 0 S 0 S 1000 E 08.1P 49 S 0127503 N 00 S 0000000B 24 BV 2306 F 00 FV 0000 O 25 OV 3777P 01400 M 01492PN 0624 PF 3153 T 012500 S 0320 I 00CN 0623 CF 3152 T 012500 S 0320 I 00SN 0155 SF 0788 T 012500 S 0080 I 00 R 0000.806SN 0155 SF 0788 T 012500 S 0080 I 00 R 0000.806SN 0155 SF 0788 T 012500 S 0080 I 00 R 0000.806NH 4000 NL 2016 DH 0384 DL 0192Y 0790 R 0000.806CY 0000L2631 2673 2657 2600 2765 2812 27482560 2766 2881 2867 2905 2869 27662652 2833 2841 2752 2892 2895 27892615 2835 2792 2868 2841 2882 28592534 2793 2868 2896 2868 2896 28822478 2757 2812 2840 2816 2860 28972612 2581 2643 2669 2683 2735 2826W0130 0180 0155 0103 0351 0471 03050082 0347 0767 0709 0898 0695 03440151 0559 0570 0328 0830 0827 04070117 0566 0404 0712 0578 0762 06710068 0431 0699 0847 0698 0851 07690047 0323 0475 0578 0487 0662 08560119 0096 0147 0176 0194 0278 0522L2907 2957 2960 2912 3067 3066 29612910 3062 3121 3116 3118 3098 29913062 3103 3122 3072 3122 3112 30293073 3109 3111 3106 3113 3121 30863071 3110 3123 3123 3120 3123 30943029 3102 3115 3120 3109 3114 30953001 3048 3090 3108 3064 3048 3051S0917 1293 1320 0949 2787 2762 13350936 2691 4051 3912 3947 3451 16402690 3555 4080 2874 4076 3792 21352902 3713 3761 3653 3827 4029 31632859 3735 4094 4094 4015 4093 33452139 3552 3875 4000 3725 3838 33791754 2430 3253 3705 2725 2443 2489O9 9 9 9 9 9 99 9 9 9 9 9 99 9 9 9 9 9 99 9 9 9 9 9 99 9 9 9 9 9 99 9 9 9 9 9 99 9 9 9 9 9 9SY:005251060620461304814061550176603357019480539Block StatisticsBYM: 0879 BYMB: 0831ROIBYM: 0879 ROIBYMB: 0825BYm: 0104 BYmB: 0097ROIBYm: 0347 ROIBYmB: 0363BYA: 0427.6 BYAB: 0475.4ROIBYA: 0532.2 ROIBYAB: 0571.0ROIRNBYM: 04 ROICNBYM: 03Segment 0 StatisticsS0YM: 0879 S0YMB: 0825S0Ym: 0347 S0YmB: 0363S0YA: 0525.8 S0YAB: 0575.0S0YMmR: 0002.53 S0YMmRB: 0002.27S0YMAR: 0001.67 S0YMARB: 0001.43S0BN: 09 S0BNB: 09Segment LVSLV:008.42108.62208.23308.29408.64506.84607.77706.98808.45ROISNLVM: 04 ROISNLVm: 02ROISLVM: 4.78 ROISLVMB: 9.50ROISLVm: 3.04 ROISLVmB: 7.38ROISLVA: 4.35 ROISLVAB: 5.32ROISdLV: 22.77 ROISdLVB: 23.20ROISdLV2: 41.74 ROISdLV2B: 42.22LVAE: 3.76 LVAEB: 5.38Block LVBLVM: 6.15 BLVMB: 9.52ROIBLVM: 6.15 ROIBLVMB: 8.48BLVm: l8.22 BLVmB: k9.64ROIBLVm: 2.06 ROIBLVmB: 0.03BdLV: N7.93 BdLVB: N9.88ROIBdLV: 4.09 ROIBdLVB: ;8.44Scene ClassificationSCEN: 26SEN: 00ISEN: 04WY: 0553 WYB: 0597LVC: 4.18 LVCB: 5.65LVT: 5.38 LVTB: 5.38CTY: 0498MPTY: 0672MCTY: 0603MCTYB: 0603MCTYKW: 0603MLVCTY: 5.38Backlight DetectionBLLT: 0276FDMMB: 0000000FNOB: 037MAG: 000000.0IBS: 0Exposure CompensationMATY: 0638 MAWY: 0638 R: :0.00RM: 02336 GM: 02075 BM: 01999BRGBM: 02336 BRGBME: 02336ECR: 81.34ECdLVT: 00.00 ECdLVR: 00.00Histogram000 0000001 0005002 0015003 0023004 0034005 0020006 0036007 0024008 0016009 0012010 0013011 0016012 0013013 0013014 0013015 0017016 0015017 0022018 0020019 0037020 0032021 0033022 0032023 0024024 0031025 0016026 0011027 0016028 0018029 0013030 0018031 0008032 0009033 0012034 0013035 0012036 0015037 0011038 0025039 0010040 0012041 0012042 0017043 0016044 0014045 0011046 0013047 0010048 0008049 0010050 0011051 0009052 0006053 0007054 0007055 0007056 0009057 0010058 0006059 0004060 0007061 0009062 0009063 0006064 0002065 0001066 0004067 0005068 0005069 0005070 0006071 0001072 0006073 0003074 0003075 0006076 0003077 0003078 0005079 0002080 0003081 0001082 0001083 0003084 0002085 0001086 0000087 0000088 0000089 0000090 0000091 0000092 0000093 0000094 0000095 0000096 0000097 0000098 0000099 0000100 0000101 0000102 0000103 0000104 0000105 0000106 0000107 0000108 0000109 0000110 0000111 0000112 0000113 0000114 0000115 0000116 0000117 0000118 0000119 0000120 0000121 0000122 0000123 0000124 0000125 0000126 0000127 0000128 0000129 0000130 0000131 0000132 0000133 0000134 0000135 0000136 0000137 0000138 0000139 0000140 0000141 0000142 0000143 0000144 0000145 0000146 0000147 0000148 0000149 0000150 0000151 0000152 0000153 0000154 0000155 0000156 0000157 0000158 0000159 0000160 0000161 0000162 0000163 0000164 0000165 0000166 0000167 0000168 0000169 0000170 0000171 0000172 0000173 0000174 0000175 0000176 0000177 0000178 0000179 0000180 0000181 0000182 0000183 0000184 0000185 0000186 0000187 0000188 0000189 0000190 0000191 0000192 0000193 0000194 0000195 0000196 0000197 0000198 0000199 0000200 0000201 0000202 0000203 0000204 0000205 0000206 0000207 0000208 0000209 0000210 0000211 0000212 0000213 0000214 0000215 0000216 0000217 0000218 0000219 0000220 0000221 0000222 0000223 0000224 0000225 0000226 0000227 0000228 0000229 0000230 0000231 0000232 0000233 0000234 0000235 0000236 0000237 0000238 0000239 0000240 0000241 0000242 0000243 0000244 0000245 0000246 0000247 0000248 0000249 0000250 0000251 0000252 0000253 0000254 0000255 0000256HMEAN: 0029.6 HMEAN: 0473.5256HMEDIAN: 0024 HMEDIAN: 0384256HBHMI: 0019 HBHMI: 0304256HTHMI: 0129 HTHMI: 2064Y:0136 0430 0484 0480 0538 0479 0395 0101 0716 0460 0589 0540 0435 0324 0265 0662 0434 0363 0526 0537 0437 0380 0417 0415 0650 0540 0689 0671 0192 0612 0647 0825 0775 0806 0751 0148 0450 0453 0514 0517 0703 0831 0097 0133 0177 0208 0251 0398 0712 R:0200 0545 0592 0606 0648 0565 0606 0139 0890 0541 0727 0670 0545 0583 0334 0792 0538 0451 0662 0671 0673 0467 0491 0505 0778 0688 0816 0911 0240 0729 0763 0967 0929 0938 0982 0186 0532 0536 0588 0630 0805 1049 0143 0180 0245 0280 0341 0563 0917 G:0161 0522 0590 0582 0660 0590 0458 0121 0873 0564 0718 0658 0529 0359 0321 0811 0529 0442 0640 0654 0506 0462 0512 0508 0795 0655 0844 0800 0233 0750 0794 1012 0949 0991 0904 0179 0552 0554 0631 0632 0865 1007 0114 0159 0209 0248 0300 0471 0859 B:0130 0492 0585 0569 0641 0577 0375 0107 0829 0582 0692 0624 0495 0237 0314 0809 0512 0429 0600 0620 0414 0455 0525 0497 0801 0614 0857 0736 0222 0754 0811 1039 0944 1019 0854 0168 0560 0570 0667 0619 0906 0976 0098 0148 0193 0234 0277 0420 0819 Y:0133 0242 0204 0210 0375 0408 0290 0104 0661 0491 0636 0549 0391 0306 0201 0668 0394 0386 0476 0443 0300 0379 0375 0347 0439 0493 0573 0562 0247 0517 0634 0879 0684 0702 0606 0151 0444 0483 0495 0514 0631 0687 0106 0213 0253 0266 0328 0435 0641 R:0197 0314 0256 0283 0430 0480 0440 0143 0816 0583 0780 0686 0493 0523 0254 0809 0487 0482 0596 0559 0505 0460 0446 0430 0529 0630 0688 0769 0303 0615 0753 1036 0825 0823 0801 0188 0523 0572 0567 0624 0722 0872 0144 0265 0321 0330 0410 0554 0805 G:0156 0291 0246 0250 0462 0502 0336 0124 0807 0600 0775 0668 0474 0344 0243 0816 0478 0468 0578 0538 0338 0462 0459 0421 0535 0597 0700 0668 0301 0633 0776 1077 0836 0861 0725 0183 0543 0591 0608 0628 0776 0830 0126 0258 0305 0322 0397 0525 0776 B:0127 0282 0250 0245 0477 0505 0300 0112 0777 0617 0764 0639 0454 0254 0239 0811 0479 0462 0559 0517 0260 0464 0477 0412 0545 0567 0714 0622 0299 0646 0794 1106 0837 0894 0694 0175 0562 0612 0656 0624 0824 0811 0117 0264 0309 0332 0395 0522 0766 AFJ:0479,0427,0367,0296,0216,0124,0041;Z:1;E:60.00;S:0141;C:0;V:0594,000627690591,000655410587,000509660583,00042167V4:0594,000742000591,000801410587,000657940583,00055170P:0594;R:0x1000400075374P:0555;R:0x10001</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td class='match'>Auto</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td class='match'>Centered</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td class='match'>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

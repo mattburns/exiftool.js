@@ -3,7 +3,7 @@ exiftool.js
 
 A pure javascript implementation of Phil Harvey's excellent [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/). This extends work started by [Jacob Seidelin](http://www.nihilogic.dk/labs/exifjquery/) and aims to support parsing of all the tags that exiftool is capable of.
 
-See how well we're doing in the latest [Coverage report](http://mattburns.github.io/exiftool.js/report/)
+See how well we're doing in the latest [Coverage report](http://mattburns.github.io/exiftool.js/generated/reports/)
 
 
 Usage
@@ -54,7 +54,17 @@ I see no reason why this library can't match (and exceed!) the parsing capabilit
 node testWithNode.js
 ```
 
-This will thrash every sample image through the perl exiftool and also through exiftool.js then generate the report files to compare the output.
+This will thrash every sample image through exiftool.js, and variants of node-exif then generate the report files to compare the output.
+
+
+Alternatively, there's a slower version for the paranoid:
+
+```
+node testWithNode.js clean
+```
+
+This will do the same thing, but also ensure the json output files generated from the perl exiftool are up to date.
+
 
 
 Adding more images

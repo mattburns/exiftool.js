@@ -1,9 +1,11 @@
 (function() {
     //"use strict";
 
-    var walk = require('walk'), fs = require('node-fs'), options, walker, exiftoolJS = require('./exiftool.js');
+    var walk = require('walk'), fs = require('node-fs');
     var sys = require('sys')
     var exec = require('child_process').exec;
+    
+    var exiftoolJS = require('./exiftool.js');
     var Gomfunkel = require('exif').ExifImage;    
     var Redaktor = require('exifr').ExifImage;    
     
@@ -41,7 +43,7 @@
      */
     var saveJson = function(json, imgFile, program) {
         var pathString = json.img;
-        var jsonFile = 'results/' + program + '/' + imgFile + '.json';
+        var jsonFile = 'generated/json/' + program + '/' + imgFile + '.json';
         var parentDir = jsonFile.substring(0, jsonFile.lastIndexOf("/"));
         fs.mkdirSync(parentDir, 0777, true);
         fs.writeFileSync(jsonFile, JSON.stringify(json, null, '\t'));
@@ -51,7 +53,7 @@
      * Extract the exif from the given file using thegiven program. Pass to the callback object.
      */
     var extractExif = function(imgFile, program, callback) {
-        var pathString = 'results/' + program + '/' + imgFile + '.json';
+        var pathString = 'generated/json/' + program + '/' + imgFile + '.json';
 
         switch(program) {
             case 'exiftool' : {
@@ -74,7 +76,7 @@
     };
 
     var extractExifUsingExiftool = function(imgFile, callback) {
-        fs.readFile('results/exiftool/' + imgFile + '.json', 'utf8', function(err, data) {
+        fs.readFile('generated/json/exiftool/' + imgFile + '.json', 'utf8', function(err, data) {
             try {
                 // First, try to load json from file
                 var exifFromExiftool = JSON.parse(data);
@@ -198,9 +200,14 @@
             }
             var result = data.replace(/htmlbody/g, html);
 
-            var reportFile = 'report/' + image + '.html';
+            var reportFile = 'generated/reports/' + image + '.html';
             var parentDir = reportFile.substring(0, reportFile.lastIndexOf("/"));
-            fs.mkdirSync(parentDir, 0777, true);
+            if (!fs.existsSync(parentDir)) {
+                fs.mkdirSync(parentDir, 0777, true);
+                fs.linkSync('report/css', parentDir + '/css');
+                fs.linkSync('report/fonts', parentDir + '/fonts');
+                fs.linkSync('report/js', parentDir + '/js');
+            }
             fs.writeFile(reportFile, result, 'utf8', function(err) {
                 if (err) {
                     return console.log(err);
@@ -275,7 +282,14 @@
             }
             var result = data.replace(/htmlbody/g, html);
 
-            var reportFile = 'report/index.html';
+            var pDir = 'generated/reports/';
+            var reportFile = pDir + 'index.html';
+            if (!fs.existsSync(pDir + 'css')) {
+                fs.linkSync('report/css', pDir + 'css');
+                fs.linkSync('report/fonts', pDir + 'fonts');
+                fs.linkSync('report/js', pDir + 'js');
+            }
+            
             fs.writeFile(reportFile, result, 'utf8', function(err) {
                 if (err) {
                     return console.log(err);
@@ -285,70 +299,85 @@
         });
     };
 
-    options = {
-        followLinks : false
-    };
+    var start = function() {
 
-    walker = walk.walk("sampleImages", options);
+        var options = {
+            followLinks : false
+        };
 
-    walker.on("names", function(root, nodeNamesArray) {
-        nodeNamesArray.sort(function(a, b) {
-            if (a < b)
-                return 1;
-            if (a > b)
-                return -1;
-            return 0;
+        var walker = walk.walk("sampleImages", options);
+
+        walker.on("names", function(root, nodeNamesArray) {
+            nodeNamesArray.sort(function(a, b) {
+                if (a < b)
+                    return 1;
+                if (a > b)
+                    return -1;
+                return 0;
+            });
         });
-    });
 
-    walker.on("directories", function(root, dirStatsArray, next) {
-        next();
-    });
-
-    /**
-     * This is where the magic happens. Run this function for each file found in sampleImages.
-     */
-    walker.on("file", function(root, fileStats, next) {
-        var imgFile = root + '/' + fileStats.name;
-
-        if (fileStats.name == 'PanasonicDMC-GM1.jpg'
-         || fileStats.name == 'PanasonicDMC-GX7.jpg'
-         || fileStats.name == 'PanasonicDMC-SZ5.jpg'
-         || fileStats.name == 'PanasonicDMC-XS3.jpg'
-         || fileStats.name == 'IMG_6756.JPG'
-         || fileStats.name == 'big file - IMG_6756.JPG'
-         || fileStats.name == 'SamsungGT-I9100.jpg'
-            ) {
-            // Skip these files as they get stuck in infinite loops!
+        walker.on("directories", function(root, dirStatsArray, next) {
             next();
-        } else {
-            try {
-                console.log("processing: " + imgFile);
-                
-                var allExif = {};
+        });
 
-                for (var i = 0 ; i < programs.length ; i++) {
-                    extractExif(imgFile, programs[i], (function(image, program) {
-                        return function(ef) {
-                            if (ef) {
-                                saveJson(ef, image, program);
-                                allExif[program] = ef;
-                                if (Object.keys(allExif).length == programs.length) {
-                                    updateReports(allExif, image, coverageSummaryHolder, function(cs) {
-                                        coverageSummaryHolder = cs;
-                                        next();
-                                    });
-                                }
-                            } else {
-                                next();
-                            }
-                        };
-                    })(imgFile, programs[i]));
-                };
-            } catch (error) {
-                console.log('in Error: ' + error.message);
+        /**
+         * This is where the magic happens. Run this function for each file found in sampleImages.
+         */
+        walker.on("file", function(root, fileStats, next) {
+            var imgFile = root + '/' + fileStats.name;
+
+            if (fileStats.name == 'PanasonicDMC-GM1.jpg'
+             || fileStats.name == 'PanasonicDMC-GX7.jpg'
+             || fileStats.name == 'PanasonicDMC-SZ5.jpg'
+             || fileStats.name == 'PanasonicDMC-XS3.jpg'
+             || fileStats.name == 'IMG_6756.JPG'
+             || fileStats.name == 'big file - IMG_6756.JPG'
+             || fileStats.name == 'SamsungGT-I9100.jpg'
+                ) {
+                // Skip these files as they get stuck in infinite loops!
                 next();
+            } else {
+                try {
+                    console.log("processing: " + imgFile);
+                    
+                    var allExif = {};
+
+                    for (var i = 0 ; i < programs.length ; i++) {
+                        extractExif(imgFile, programs[i], (function(image, program) {
+                            return function(ef) {
+                                if (ef) {
+                                    saveJson(ef, image, program);
+                                    allExif[program] = ef;
+                                    if (Object.keys(allExif).length == programs.length) {
+                                        updateReports(allExif, image, coverageSummaryHolder, function(cs) {
+                                            coverageSummaryHolder = cs;
+                                            next();
+                                        });
+                                    }
+                                } else {
+                                    next();
+                                }
+                            };
+                        })(imgFile, programs[i]));
+                    };
+                } catch (error) {
+                    console.log('in Error: ' + error.message);
+                    next();
+                }
             }
-        }
-    });
+        });
+    };
+    
+    /**
+     * Start everything!
+     */
+    if (process.argv.length > 2 && process.argv[2] === 'clean') {
+        var child = exec('rm -rf generated', function(err,out) {
+            console.log("generated output dir cleaned.");
+            start();
+        });
+    } else {
+        start();
+    }
 }());

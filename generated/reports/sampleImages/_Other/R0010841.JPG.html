@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
+        <h3>sampleImages/_Other/R0010841.JPG</h3>
+<table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
+<tbody>
+<tr>
+<td>Aperture</td>
+<td class='match'>3.3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ApertureValue</td>
+<td class='match'>3.2</td>
+<td class='diff'>3.4</td>
+<td class='diff'>3.4</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BrightnessValue</td>
+<td class='match'>-2.9</td>
+<td class='match'>-2.9</td>
+<td class='match'>-2.9</td>
+<td class='match'>-2.9</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td class='match'>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td class='match'>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CompressedBitsPerPixel</td>
+<td class='match'>1.6</td>
+<td class='match'>1.6</td>
+<td class='match'>1.6</td>
+<td class='match'>1.6</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td class='match'>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>Copyright</td>
+<td class='match'>(C) by Caplio R6 User</td>
+<td class='match'>(C) by Caplio R6 User</td>
+<td class='diff'>(C) by Caplio R6 User    </td>
+<td class='match'>(C) by Caplio R6 User</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td class='match'>2007:12:02 23:56:51</td>
+<td class='missing'>-</td>
+<td class='match'>2007:12:02 23:56:51</td>
+<td class='match'>2007:12:02 23:56:51</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td class='match'>2007:12:02 23:56:51</td>
+<td class='match'>2007:12:02 23:56:51</td>
+<td class='match'>2007:12:02 23:56:51</td>
+<td class='match'>2007:12:02 23:56:51</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td class='match'>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td class='match'>Big-endian (Motorola, MM)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td class='match'>2304</td>
+<td class='missing'>-</td>
+<td class='match'>2304</td>
+<td class='match'>2304</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td class='match'>3072</td>
+<td class='missing'>-</td>
+<td class='match'>3072</td>
+<td class='match'>3072</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td class='match'>0221</td>
+<td class='match'>0221</td>
+<td class='missing'>-</td>
+<td class='diff'>2.21</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureMode</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td class='match'>Program AE</td>
+<td class='diff'>Normal program</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td class='match'>1/32</td>
+<td class='diff'>0.03125</td>
+<td class='diff'>0.03125</td>
+<td class='match'>1/32</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td class='match'>3.3</td>
+<td class='match'>3.3</td>
+<td class='match'>3.3</td>
+<td class='match'>3.3</td>
+</tr>
+<tr>
+<td>FirmwareVersion</td>
+<td class='match'>1.36</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td class='match'>Auto, Fired</td>
+<td class='diff'>Flash fired, auto mode</td>
+<td class='diff'>25</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashMode</td>
+<td class='match'>Auto</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td class='match'>0100</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td class='match'>4.6 mm</td>
+<td class='match'>4.6 mm</td>
+<td class='diff'>4.6</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td class='match'>4.6 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td class='match'>161</td>
+<td class='missing'>-</td>
+<td class='match'>161</td>
+<td class='match'>161</td>
+</tr>
+<tr>
+<td>ISOSetting</td>
+<td class='match'>Auto</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageDescription</td>
+<td class='match'>Exif_JPEG_PICTURE                                              </td>
+<td class='diff'>ExifJPEGPICTURE</td>
+<td class='match'>Exif_JPEG_PICTURE                                              </td>
+<td class='diff'>ExifJPEGPICTURE</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td class='match'>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InternalSerialNumber</td>
+<td class='match'>00000000240704042007052001000000</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InteropIndex</td>
+<td class='match'>R98 - DCF basic file (sRGB)</td>
+<td class='missing'>-</td>
+<td class='diff'>R98</td>
+<td class='diff'>R98</td>
+</tr>
+<tr>
+<td>InteropVersion</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>LightSource</td>
+<td class='match'>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td class='match'>7.8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Macro</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td class='match'>RICOH</td>
+<td class='match'>RICOH</td>
+<td class='diff'>RICOH      </td>
+<td class='match'>RICOH</td>
+</tr>
+<tr>
+<td>MakerNoteType</td>
+<td class='match'>Rdc</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ManufactureDate1</td>
+<td class='match'>2007:05:20          </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ManufactureDate2</td>
+<td class='match'>2007:04:04          </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MaxApertureValue</td>
+<td class='match'>3.1</td>
+<td class='diff'>3.3</td>
+<td class='diff'>3.3</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td class='match'>Multi-segment</td>
+<td class='diff'>Pattern</td>
+<td class='diff'>5</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Model</td>
+<td class='match'>Caplio R6</td>
+<td class='match'>Caplio R6</td>
+<td class='diff'>Caplio R6      </td>
+<td class='match'>Caplio R6</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td class='match'>2007:12:02 23:56:51</td>
+<td class='missing'>-</td>
+<td class='match'>2007:12:02 23:56:51</td>
+<td class='match'>2007:12:02 23:56:51</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td class='match'>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PreviewImageLength</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageStart</td>
+<td class='match'>12</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PrintIMVersion</td>
+<td class='match'>0300</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td class='match'>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RicohDate</td>
+<td class='match'>2007:12:02 23:56:51</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RicohImageHeight</td>
+<td class='match'>2304</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RicohImageWidth</td>
+<td class='match'>3072</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Saturation</td>
+<td class='match'>Normal</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td class='match'>Portrait</td>
+<td class='match'>Portrait</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Sharpness</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td class='match'>1/32</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td class='match'>(Binary data 5385 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td class='match'>5385</td>
+<td class='missing'>-</td>
+<td class='match'>5385</td>
+<td class='match'>5385</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td class='match'>26464</td>
+<td class='missing'>-</td>
+<td class='diff'>26452</td>
+<td class='diff'>26452</td>
+</tr>
+<tr>
+<td>UserComment</td>
+<td class='match'></td>
+<td class='diff'>25812</td>
+<td class='missing'>-</td>
+<td class='diff'>ASCII</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td class='match'>Auto</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td class='match'>Co-sited</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td class='match'>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

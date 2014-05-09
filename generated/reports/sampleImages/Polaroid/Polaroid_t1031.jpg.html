@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
+        <h3>sampleImages/Polaroid/Polaroid_t1031.jpg</h3>
+<table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
+<tbody>
+<tr>
+<td>Aperture</td>
+<td class='match'>3.4</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CircleOfConfusion</td>
+<td class='match'>0.005 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td class='match'>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td class='match'>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CompressedBitsPerPixel</td>
+<td class='match'>2.739906349</td>
+<td class='diff'>2.739906349389556</td>
+<td class='diff'>2.739906349389556</td>
+<td class='diff'>2.739906349389556</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td class='match'>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>Contrast</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td class='match'>2010:03:30 11:54:49</td>
+<td class='missing'>-</td>
+<td class='match'>2010:03:30 11:54:49</td>
+<td class='match'>2010:03:30 11:54:49</td>
+</tr>
+<tr>
+<td>CustomRendered</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td class='match'>2010:03:30 11:54:49</td>
+<td class='match'>2010:03:30 11:54:49</td>
+<td class='match'>2010:03:30 11:54:49</td>
+<td class='match'>2010:03:30 11:54:49</td>
+</tr>
+<tr>
+<td>DigitalZoomRatio</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td class='match'>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td class='match'>Little-endian (Intel, II)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td class='match'>2736</td>
+<td class='missing'>-</td>
+<td class='match'>2736</td>
+<td class='match'>2736</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td class='match'>3648</td>
+<td class='missing'>-</td>
+<td class='match'>3648</td>
+<td class='match'>3648</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td class='match'>0220</td>
+<td class='match'>0220</td>
+<td class='missing'>-</td>
+<td class='diff'>2.2</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureMode</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td class='match'>Program AE</td>
+<td class='diff'>Normal program</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td class='match'>1/60</td>
+<td class='diff'>0.016666666666666666</td>
+<td class='diff'>0.016666666666666666</td>
+<td class='match'>1/60</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td class='match'>3.4</td>
+<td class='match'>3.4</td>
+<td class='match'>3.4</td>
+<td class='match'>3.4</td>
+</tr>
+<tr>
+<td>FOV</td>
+<td class='match'>45.4 deg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td class='match'>On, Return detected</td>
+<td class='diff'>Flash fired, compulsory flash mode, return light detected</td>
+<td class='diff'>15</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td class='match'>0100</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td class='match'>7.7 mm</td>
+<td class='match'>7.7 mm</td>
+<td class='diff'>7.7</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td class='match'>7.7 mm (35 mm equivalent: 43.0 mm)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLengthIn35mmFormat</td>
+<td class='match'>43 mm</td>
+<td class='missing'>-</td>
+<td class='diff'>43</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HyperfocalDistance</td>
+<td class='match'>3.24 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td class='match'>200</td>
+<td class='missing'>-</td>
+<td class='match'>200</td>
+<td class='match'>200</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td class='match'>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InteropIndex</td>
+<td class='match'>R98 - DCF basic file (sRGB)</td>
+<td class='missing'>-</td>
+<td class='diff'>R98</td>
+<td class='diff'>R98</td>
+</tr>
+<tr>
+<td>InteropVersion</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>LightSource</td>
+<td class='match'>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td class='match'>8.4</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td class='match'>Polaroid</td>
+<td class='match'>Polaroid</td>
+<td class='match'>Polaroid</td>
+<td class='match'>Polaroid</td>
+</tr>
+<tr>
+<td>MaxApertureValue</td>
+<td class='match'>3.1</td>
+<td class='diff'>3.3</td>
+<td class='diff'>3.3</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td class='match'>Multi-spot</td>
+<td class='diff'>MultiSpot</td>
+<td class='diff'>4</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Model</td>
+<td class='match'>t1031</td>
+<td class='match'>t1031</td>
+<td class='match'>t1031</td>
+<td class='match'>t1031</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td class='match'>2010:03:30 11:54:49</td>
+<td class='missing'>-</td>
+<td class='match'>2010:03:30 11:54:49</td>
+<td class='match'>2010:03:30 11:54:49</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td class='match'>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PreviewImage</td>
+<td class='match'>(Binary data 126903 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PrintIMVersion</td>
+<td class='match'>0300</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td class='match'>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Saturation</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ScaleFactor35efl</td>
+<td class='match'>5.6</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td class='match'>Standard</td>
+<td class='match'>Standard</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneType</td>
+<td class='match'>Directly photographed</td>
+<td class='match'>Directly photographed</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Sharpness</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td class='match'>1/60</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td class='match'>0.53.00</td>
+<td class='match'>0.53.00</td>
+<td class='diff'>0.53.00 </td>
+<td class='match'>0.53.00</td>
+</tr>
+<tr>
+<td>SubjectDistanceRange</td>
+<td class='match'>Distant</td>
+<td class='diff'>Distant view</td>
+<td class='diff'>3</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td class='match'>(Binary data 2808 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td class='match'>2808</td>
+<td class='missing'>-</td>
+<td class='match'>2808</td>
+<td class='match'>2808</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td class='match'>43810</td>
+<td class='missing'>-</td>
+<td class='diff'>43798</td>
+<td class='diff'>43798</td>
+</tr>
+<tr>
+<td>UserComment</td>
+<td class='match'>PL 0579 0438 PB 0569 0418 CL 0521 0424 t 0604 0339 CB 0521 0436 t 0603 0348 t 0580 0348 RH 0657 RL 0426 BH 0544 BL 0318 i 036 005 I 033 005 T 2 V 07.1 S 1 FR 001.28 WN 0457 WF 0357 m 00
+ V 07.4T0616 Y 0753 I 0 S 000060 G 0476 I 0 S 000060 G 0199 C 000060 C 0199 V 001 L 289 G 0424 C 2 D 0256
+ZP 0732 FR 01 FM 01 FP +229
+R 8308 PM 0001 CM 0126 PO -050 PO -050 CO 1900 CO 1600 S 0256 Y 0532 R 0472 B 0491 SO 0858 YO 1020 RO 1051 BO 0913 F P767
+0.53.00      ST 00 F 01 I 0000.</td>
+<td class='diff'>37910</td>
+<td class='missing'>-</td>
+<td class='diff'>PL 0579 0438 PB 0569 0418 CL 0521 0424 t 0604 0339 CB 0521 0436 t 0603 0348 t 0580 0348 RH 0657 RL 0426 BH 0544 BL 0318 i 036 005 I 033 005 T 2 V 07.1 S 1 FR 001.28 WN 0457 WF 0357 m 00 V 07.4T0616 Y 0753 I 0 S 000060 G 0476 I 0 S 000060 G 0199 C 000060 C 0199 V 001 L 289 G 0424 C 2 D 0256ZP 0732 FR 01 FM 01 FP 229R 8308 PM 0001 CM 0126 PO -050 PO -050 CO 1900 CO 1600 S 0256 Y 0532 R 0472 B 0491 SO 0858 YO 1020 RO 1051 BO 0913 F P7670.53.00      ST 00 F 01 I 0000. F 0 E 0006R 1 D 0366 F 000 Z 01 D 03 O 0 T 1 F 1 S 0 S 1400 E 07.1P 084 S 0001213 N 136 S 0003264B 227 BV 0239 F 020 FV 0340 O 009 OV 0619P 00700 M 03438PN 0443 PF 0076 T 009006 S 0300 I 00CN 0442 CF 0050 T 006000 S 0199 I 00SN 0442 SF 0050 T 006000 S 0100 I 00 R 0007.130NH 4000 NL 2016 DH 0061 DL 0030Y 0799 R 0007.130 FB0.000CY 0000W0150 0138 0134 0120 0121 0137 0179 0109 0102 0184 0110 0158 0152 0083 0094 00610142 0177 0180 0156 0161 0153 0086 0100 0205 0303 0291 0155 0296 0313 0133 01180166 0161 0152 0168 0135 0089 0110 0114 0344 0156 0212 0209 0315 0243 0149 00770201 0195 0153 0183 0110 0103 0187 0144 0301 0116 0174 0194 0177 0357 0112 01330130 0122 0155 0153 0175 0114 0125 0115 0223 0125 0119 0237 0285 0436 0567 06420175 0099 0095 0125 0229 0291 0166 0117 0314 0102 0201 0344 0991 1057 0638 05280384 0086 0091 0151 0282 0203 0305 0187 0122 0444 0154 0297 0726 0517 0489 04110302 0183 0179 0162 0210 0207 0441 0368 0095 0360 0054 0132 0149 0214 0268 02390566 0364 0278 0193 0161 0141 0571 0505 0200 0269 0030 0150 0220 0262 0189 01780057 0316 0585 0439 0255 0211 0642 0491 0184 0432 0035 0167 0358 0337 0315 02910428 0431 0450 0514 0620 0209 0403 0364 0176 0171 0022 0190 0359 0339 0315 02930404 0392 0421 0437 0449 0241 0094 0190 0078 0050 0064 0351 0396 0346 0324 02960411 0380 0375 0379 0379 0264 0049 0101 0020 0028 0080 0390 0390 0379 0365 03340354 0356 0358 0353 0354 0283 0050 0018 0040 0147 0104 0275 0407 0510 0439 03160298 0300 0303 0307 0314 0276 0111 0083 0012 0089 0055 0300 0541 0307 0295 03730276 0279 0293 0299 0310 0245 0040 0081 0020 0038 0070 0136 0522 0878 0667 0299S0140 0141 0133 0117 0115 0148 0173 0107 0105 0177 0107 0146 0156 0082 0100 00610150 0182 0181 0162 0165 0142 0086 0107 0215 0313 0326 0151 0310 0321 0142 01220166 0159 0151 0169 0130 0088 0135 0112 0386 0145 0191 0238 0303 0265 0142 00770202 0194 0156 0184 0117 0106 0162 0154 0300 0118 0168 0171 0192 0415 0123 01390125 0118 0154 0152 0177 0113 0125 0122 0261 0138 0113 0258 0267 0365 0606 06780191 0109 0093 0126 0234 0309 0176 0122 0329 0112 0221 0407 1145 1240 0673 05290405 0082 0107 0160 0319 0203 0332 0221 0104 0508 0144 0225 0716 0329 0480 04410327 0217 0180 0158 0261 0232 0499 0417 0120 0356 0051 0119 0092 0221 0187 01680528 0395 0304 0208 0146 0191 0653 0528 0200 0302 0034 0165 0253 0275 0222 02080074 0292 0580 0458 0324 0232 0603 0488 0205 0448 0044 0160 0358 0340 0316 02940448 0438 0464 0523 0628 0207 0399 0325 0170 0202 0022 0221 0362 0341 0318 02940413 0398 0414 0429 0418 0268 0091 0311 0088 0051 0081 0362 0402 0360 0337 03000410 0382 0381 0384 0385 0273 0053 0090 0025 0037 0095 0423 0420 0391 0366 03430357 0359 0360 0356 0355 0292 0065 0032 0050 0168 0104 0282 0379 0495 0467 03340297 0302 0308 0315 0326 0287 0121 0100 0024 0085 0057 0312 0615 0374 0275 03640291 0294 0310 0316 0325 0258 0045 0096 0033 0044 0089 0133 0469 0885 0758 0352O0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0 0 5 0 0 0 0 00 0 0 0 0 0 0 0 5 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 5 0 00 0 0 0 0 0 0 0 5 0 0 0 0 0 5 50 0 0 0 0 0 0 0 0 0 0 9 9 9 5 00 0 0 0 5 0 0 5 0 9 0 0 0 0 0 00 5 0 0 5 0 5 5 0 0 0 0 0 0 0 00 5 0 0 0 5 9 0 0 5 0 0 5 0 5 00 0 0 0 9 0 0 0 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0 5 0 5 0 0 0 00 0 0 0 0 0 0 9 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0 0 0 5 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 9 9 0 00 0 0 0 0 0 0 0 0 0 0 0 0 0 9 5SY:005581031820929308204079950496606527072680914Block StatisticsBYM: 2061 BYMB: 2061ROIBYM: 2061 ROIBYMB: 2061BYm: 0042 BYmB: 0042ROIBYm: 0042 ROIBYmB: 0042BYA: 0619.5 BYAB: 0619.5ROIBYA: 0607.3 ROIBYAB: 0607.3ROIRNBYM: 14 ROICNBYM: 13Segment 0 StatisticsS0YM: 1954 S0YMB: 1954S0Ym: 0042 S0YmB: 0042S0YA: 1343.9 S0YAB: 1343.9S0YMmR: 0046.52 S0YMmRB: 0046.52S0YMAR: 0001.45 S0YMARB: 0001.45S0BN: 54 S0BNB: 54Segment LVSLV:007.29106.47208.02307.84407.80507.11607.51707.66808.00ROISNLVM: 02 ROISNLVm: 01ROISLVM: 08.02 ROISLVMB: 08.02ROISLVm: 06.48 ROISLVmB: 06.48ROISLVA: 07.49 ROISLVAB: 07.49ROISdLV: 00.73 ROISdLVB: 00.73ROISdLV2: 01.55 ROISdLV2B: 01.55LVAE: 07.41 LVAEB: 07.41Block LVBLVM: 09.17 BLVMB: 09.17ROIBLVM: 09.17 ROIBLVMB: 09.17BLVm: 03.56 BLVmB: 03.56ROIBLVm: 03.56 ROIBLVmB: 03.56BdLV: 05.62 BdLVB: 05.62ROIBdLV: 05.62 ROIBdLVB: 05.62Scene ClassificationSCEN: 19SEN: 00ISEN: 00WY: 0753 WYB: 0753LVC: 07.22 LVCB: 07.22LVT: 07.41 LVTB: 07.41CTY: 0532MPTY: 0616MCTY: 0616MCTYB: 0616MCTYKW: 0000MLVCTY: 07.44Backlight DetectionBLLT: 0304FDMMB: 0003660FNOB: 043MAG: 000016.3IBS: 0Exposure CompensationMATY: 0616 MAWY: 0524 R: 01.18RM: 00749 GM: 00790 BM: 00873BRGBM: 00873 BRGBME: 01026ECR: 01.85ECdLVT: 00.00 ECdLVR: 00.00</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td class='match'>Auto</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td class='match'>Centered</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td class='match'>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+<td class='match'>72</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
