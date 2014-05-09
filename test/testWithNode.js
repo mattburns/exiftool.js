@@ -5,7 +5,7 @@
     var sys = require('sys')
     var exec = require('child_process').exec;
     
-    var exiftoolJS = require('../src/exiftool.js');
+    var exiftoolJS = require('exiftool.js');
     var Gomfunkel = require('exif').ExifImage;    
     var Redaktor = require('exifr').ExifImage;    
     
