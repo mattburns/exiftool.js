@@ -1,0 +1,25 @@
+{
+  "name": "exiftool.js",
+  "version": "0.1.0",
+  "description": "A pure javascript implementation of Phil Harvey's excellent exiftool. This extends work started by Jacob Seidelin and aims to support parsing of all the tags that exiftool is capable of.",
+  "main": "exiftool.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattburns/exiftool.js.git"
+  },
+  "keywords": [
+    "exiftool",
+    "jpeg",
+    "metadata"
+  ],
+  "author": "Matt Burns <matt@mattburns.co.uk> (http://www.mattburns.co.uk/)",
+  "license": "MPL",
+  "bugs": {
+    "url": "https://github.com/mattburns/exiftool.js/issues"
+  },
+  "homepage": "https://github.com/mattburns/exiftool.js"
+}
