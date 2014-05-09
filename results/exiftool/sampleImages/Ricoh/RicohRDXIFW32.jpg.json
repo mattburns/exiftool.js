@@ -1,0 +1,22 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"ComponentsConfiguration": "Y, Cb, Cr, -",
+	"CompressedBitsPerPixel": 2,
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Big-endian (Motorola, MM)",
+	"ExifVersion": "0100",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"Make": "RICOH",
+	"Model": "RDXIFW32",
+	"Orientation": "Horizontal (normal)",
+	"ResolutionUnit": "inches",
+	"UserComment": "",
+	"Warning": "Bad Ricoh maker notes",
+	"XResolution": 72,
+	"YCbCrPositioning": "Centered",
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 72
+}

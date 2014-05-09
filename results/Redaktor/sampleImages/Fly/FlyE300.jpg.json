@@ -1,0 +1,18 @@
+{
+	"Make": "Fly",
+	"Model": "Fly E300",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2010:04:22 13:33:38",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 168,
+	"ExposureTime": "1/1200",
+	"ISO": 100,
+	"ExifVersion": "2.2",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 320,
+	"ExifImageHeight": 240,
+	"DigitalZoomRatio": 1,
+	"error": "Media...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

@@ -1,0 +1,21 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"Comment": "SK Communications CyImage Uploader",
+	"DateTimeOriginal": "2008:09:09 09:13:53",
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Little-endian (Intel, II)",
+	"ExifVersion": "0220",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"JFIFVersion": 1.01,
+	"Make": "LG CYON",
+	"Model": "LB-3100",
+	"Orientation": "Horizontal (normal)",
+	"ResolutionUnit": "inches",
+	"Software": "SK Communications CyImage Uploader",
+	"XResolution": 300,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 300
+}

@@ -1,0 +1,31 @@
+{
+	"Make": "HUAWEI",
+	"Model": "Vodafone 845",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 148,
+	"GPSInfo": 332,
+	"Compression": 6,
+	"ThumbnailOffset": 524,
+	"ThumbnailLength": 2847,
+	"DateTimeOriginal": "2011:01:05 12:11:20",
+	"CreateDate": "2002:12:08 12:00:00",
+	"ColorSpace": 1,
+	"ExifImageWidth": 2048,
+	"ExifImageHeight": 1536,
+	"InteropOffset": 302,
+	"GPSLatitude": [
+		56,
+		54,
+		20.678
+	],
+	"GPSLongitude": [
+		24,
+		25,
+		3.129
+	],
+	"GPSAltitude": 0,
+	"InteropIndex": "R98"
+}

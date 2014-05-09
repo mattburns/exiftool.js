@@ -1,0 +1,27 @@
+{
+	"Make": "HP",
+	"Model": "HP ScanJet 3770",
+	"Orientation": 1,
+	"XResolution": 200,
+	"YResolution": 200,
+	"Software": "ACD Systems Digital Imaging",
+	"ModifyDate": "2010:06:02 19:00:42",
+	"YCbCrPositioning": 1,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 274,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2005:10:14 20:34: 7",
+	"SubSecTime": "133",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 312,
+	"ExifImageHeight": 394,
+	"Saturation": 3088,
+	"Sharpness": 3104
+}

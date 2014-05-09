@@ -6,7 +6,7 @@ th, td {
     word-break: break-all;
 }
 
-table {
+.table-fixed {
     table-layout: fixed;
 }
 

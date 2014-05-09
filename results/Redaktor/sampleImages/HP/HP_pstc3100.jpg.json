@@ -1,0 +1,21 @@
+{
+	"Make": "HP",
+	"Model": "HP pstc3100",
+	"XResolution": 200,
+	"YResolution": 200,
+	"YCbCrPositioning": 1,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 198,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2008:07:05 21:35:29",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 408,
+	"ExifImageHeight": 607
+}

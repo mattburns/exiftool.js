@@ -1,0 +1,68 @@
+{
+	"ImageDescription": "DIGITAL CAMERA     \u0000",
+	"Make": "Vivitar Corporation\u0000",
+	"Model": "Vivicam 4345\u0000",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "V1.04V\u0000",
+	"ModifyDate": "2005:09:27 20:10:24\u0000",
+	"WhitePoint": [
+		0,
+		0
+	],
+	"PrimaryChromaticities": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"YCbCrCoefficients": [
+		0,
+		0,
+		0
+	],
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"ExifOffset": 392,
+	"ExposureTime": 0.033333,
+	"FNumber": 2.8,
+	"ExposureProgram": 2,
+	"ISO": [
+		100,
+		100
+	],
+	"DateTimeOriginal": "2005:09:27 20:10:24\u0000",
+	"CreateDate": "2005:09:27 20:10:24\u0000",
+	"CompressedBitsPerPixel": 0,
+	"ShutterSpeedValue": 0,
+	"ApertureValue": 0,
+	"BrightnessValue": 0,
+	"ExposureCompensation": 0,
+	"MaxApertureValue": 2.97,
+	"SubjectDistance": 0,
+	"MeteringMode": 2,
+	"LightSource": 4,
+	"Flash": 9,
+	"FocalLength": 5.4,
+	"ColorSpace": 1,
+	"ExifImageWidth": 2304,
+	"ExifImageHeight": 1728,
+	"FocalPlaneXResolution": 0,
+	"FocalPlaneYResolution": 0,
+	"FocalPlaneResolutionUnit": 0,
+	"ExposureIndex": 0,
+	"SensingMethod": 0,
+	"FileSource": 3,
+	"SceneType": 0
+}

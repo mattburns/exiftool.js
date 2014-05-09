@@ -1,0 +1,58 @@
+{
+	"ImageDescription": "ARENA",
+	"Make": "LG Electronics",
+	"Model": "KM900",
+	"Orientation": 6,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2010:06:07 14:36:53",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 208,
+	"GPSInfo": 530,
+	"Compression": 6,
+	"ThumbnailOffset": 824,
+	"ThumbnailLength": 13041,
+	"ExposureTime": 0.1,
+	"FNumber": 2.79998779296875,
+	"ISO": 200,
+	"DateTimeOriginal": "2010:06:07 14:36:52",
+	"CreateDate": "2010:06:07 14:36:52",
+	"ShutterSpeedValue": 3,
+	"ApertureValue": 3,
+	"ExposureCompensation": 0,
+	"MeteringMode": 4,
+	"Flash": 0,
+	"ColorSpace": 1,
+	"ExifImageWidth": 1280,
+	"ExifImageHeight": 960,
+	"ExposureMode": 0,
+	"WhiteBalance": 0,
+	"DigitalZoomRatio": 1,
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		0,
+		0,
+		0
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		0,
+		0,
+		0
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0,
+	"GPSTimeStamp": [
+		0,
+		0,
+		0
+	],
+	"GPSMapDatum": "WGS-84"
+}

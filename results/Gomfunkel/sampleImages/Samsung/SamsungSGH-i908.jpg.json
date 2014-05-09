@@ -1,0 +1,48 @@
+{
+	"Orientation": 6,
+	"Model": "SGH-i908",
+	"Make": "SAMSUNG",
+	"Software": "Mits Camera",
+	"ExifOffset": 115,
+	"GPSInfo": 414,
+	"Compression": 6,
+	"ThumbnailOffset": 617,
+	"ThumbnailLength": 10479,
+	"ExposureTime": 0.02,
+	"Contrast": 0,
+	"Saturation": 0,
+	"Sharpness": 0,
+	"MeteringMode": 2,
+	"ISO": 131,
+	"ExifImageWidth": 2560,
+	"ExifImageHeight": 1920,
+	"DateTimeOriginal": "2009:12:19 00:46:59",
+	"CreateDate": "2009:12:19 00:46:59",
+	"WhiteBalance": 0,
+	"Flash": 0,
+	"FocalLength": 4.507,
+	"FNumber": 2.8,
+	"CustomRendered": 0,
+	"DigitalZoomRatio": 1,
+	"GPSVersionID": [
+		1,
+		0,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		0,
+		0,
+		0
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		0,
+		0,
+		0
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0,
+	"GPSMapDatum": "WGS-84"
+}

@@ -1,0 +1,30 @@
+{
+	"Make": "HP",
+	"Model": "HP pstc4400",
+	"XResolution": 99,
+	"YResolution": 99,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 198,
+	"GPSInfo": 880,
+	"DateTimeOriginal": "2008:11:16 21:23:20",
+	"ColorSpace": 1,
+	"ExifImageWidth": 941,
+	"ExifImageHeight": 627,
+	"Saturation": 1,
+	"Sharpness": 1,
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	]
+}

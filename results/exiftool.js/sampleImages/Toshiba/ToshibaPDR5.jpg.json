@@ -1,0 +1,23 @@
+{
+	"ColorSpace": "sRGB",
+	"ComponentsConfiguration": "Y, Cb, Cr, -",
+	"DateTime": "1998:08:08 11:58:00",
+	"DateTimeDigitized": "1998:08:08 11:58:00",
+	"DateTimeOriginal": "1998:08:08 11:58:00",
+	"ExifIFDPointer": "246",
+	"ExifVersion": "0210",
+	"FlashpixVersion": "0100",
+	"ImageDescription": "TOSHIBA Exif JPEG",
+	"InteroperabilityIFDPointer": "432",
+	"Make": "TOSHIBA",
+	"MakerNoteIFDPointer": "0,31,0,53,0,30,0,53,0,30,0,38,0,50,0,4,0,149,0,168",
+	"Model": "PDR-5",
+	"Orientation": "1",
+	"PixelXDimension": "640",
+	"PixelYDimension": "480",
+	"ResolutionUnit": "2",
+	"Software": "Digital Camera PDR-5  Ver1.00",
+	"XResolution": "72",
+	"YCbCrPositioning": "2",
+	"YResolution": "72"
+}

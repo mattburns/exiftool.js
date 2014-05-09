@@ -1,0 +1,21 @@
+{
+	"Make": "Nokia",
+	"Model": "C3-01",
+	"XResolution": 300,
+	"YResolution": 300,
+	"Software": "V 05.65",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 214,
+	"DigitalZoomRatio": 1,
+	"Compression": 6,
+	"ThumbnailOffset": 470,
+	"ThumbnailLength": 7062,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2011:07:26 21:50:16",
+	"CreateDate": "2011:07:26 21:50:16",
+	"MakerNote": "",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2592,
+	"ExifImageHeight": 1944,
+	"error": "\u0000\u0000\u0000\u0000\u0000...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

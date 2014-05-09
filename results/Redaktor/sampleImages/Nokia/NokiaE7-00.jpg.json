@@ -1,0 +1,33 @@
+{
+	"Make": "Nokia",
+	"Model": "E7-00",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2011:06:04 13:25:03",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 170,
+	"Compression": 6,
+	"ThumbnailOffset": 4814,
+	"ThumbnailLength": 2747,
+	"ExposureTime": "1/20",
+	"ISO": 278,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2011:06:04 13:25:03",
+	"CreateDate": "2011:06:04 13:25:03",
+	"ShutterSpeedValue": "4.3",
+	"SubjectArea": [
+		1683,
+		818,
+		844,
+		844
+	],
+	"SubSecTime": "919",
+	"SubSecTimeOriginal": "919",
+	"SubSecTimeDigitized": "919",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 3264,
+	"ExifImageHeight": 1832,
+	"DigitalZoomRatio": 0,
+	"error": " %\t\tX...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+<link href="../../css/bootstrap.min.css" rel="stylesheet">
+<link href="../../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
+        <table class='table table-bordered table-fixed'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='102'>sampleImages/_Other/DSC_8452.JPG</th>
+<td>Aperture</td>
+<td class='match'>11</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Artist</td>
+<td class='match'>EDWARD OLIVO</td>
+<td class='match'>EDWARD OLIVO</td>
+<td class='diff'>EDWARD OLIVO                        </td>
+<td class='match'>EDWARD OLIVO</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BlueMatrixColumn</td>
+<td class='match'>0.14307 0.06061 0.7141</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BlueTRC</td>
+<td class='match'>(Binary data 2060 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CMMFlags</td>
+<td class='match'>Not Embedded, Independent</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CircleOfConfusion</td>
+<td class='match'>0.020 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td class='match'>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td class='match'>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorSpaceData</td>
+<td class='match'>RGB </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ConnectionSpaceIlluminant</td>
+<td class='match'>0.9642 1 0.82491</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Contrast</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Copyright</td>
+<td class='match'>Edward A.Rosario O</td>
+<td class='match'>Edward A.Rosario O</td>
+<td class='diff'>Edward A.Rosario O                                    </td>
+<td class='match'>Edward A.Rosario O</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td class='match'>2009:03:28 13:19:43</td>
+<td class='missing'>-</td>
+<td class='match'>2009:03:28 13:19:43</td>
+<td class='match'>2009:03:28 13:19:43</td>
+</tr>
+<tr>
+<td>CustomRendered</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td class='match'>2009:03:28 13:19:43</td>
+<td class='match'>2009:03:28 13:19:43</td>
+<td class='match'>2009:03:28 13:19:43</td>
+<td class='match'>2009:03:28 13:19:43</td>
+</tr>
+<tr>
+<td>DeviceAttributes</td>
+<td class='match'>Reflective, Glossy, Positive, Color</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DeviceManufacturer</td>
+<td class='match'>IEC </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DeviceMfgDesc</td>
+<td class='match'>IEC http://www.iec.ch</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DeviceModel</td>
+<td class='match'>sRGB</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DeviceModelDesc</td>
+<td class='match'>IEC 61966-2.1 Default RGB colour space - sRGB</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DigitalZoomRatio</td>
+<td class='match'>1</td>
+<td class='match'>1</td>
+<td class='match'>1</td>
+<td class='match'>1</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td class='match'>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td class='match'>Big-endian (Motorola, MM)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td class='match'>2848</td>
+<td class='missing'>-</td>
+<td class='match'>2848</td>
+<td class='match'>2848</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td class='match'>4288</td>
+<td class='missing'>-</td>
+<td class='match'>4288</td>
+<td class='match'>4288</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td class='match'>0221</td>
+<td class='match'>0221</td>
+<td class='missing'>-</td>
+<td class='diff'>2.21</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureMode</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td class='match'>Program AE</td>
+<td class='diff'>Normal program</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td class='match'>1/500</td>
+<td class='diff'>0.002</td>
+<td class='diff'>0.002</td>
+<td class='match'>1/500</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td class='match'>11</td>
+<td class='match'>11</td>
+<td class='match'>11</td>
+<td class='match'>11</td>
+</tr>
+<tr>
+<td>FOV</td>
+<td class='match'>29.2 deg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td class='match'>No Flash</td>
+<td class='match'>No Flash</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td class='match'>0100</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td class='match'>46.0 mm</td>
+<td class='diff'>46 mm</td>
+<td class='diff'>46</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td class='match'>46.0 mm (35 mm equivalent: 69.0 mm)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLengthIn35mmFormat</td>
+<td class='match'>69 mm</td>
+<td class='missing'>-</td>
+<td class='diff'>69</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GainControl</td>
+<td class='match'>None</td>
+<td class='match'>None</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GreenMatrixColumn</td>
+<td class='match'>0.38515 0.71687 0.09708</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GreenTRC</td>
+<td class='match'>(Binary data 2060 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HyperfocalDistance</td>
+<td class='match'>9.60 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td class='match'>200</td>
+<td class='missing'>-</td>
+<td class='match'>200</td>
+<td class='match'>200</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td class='match'>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>JFIFVersion</td>
+<td class='match'>1.01</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightSource</td>
+<td class='match'>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td class='match'>14.9</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Luminance</td>
+<td class='match'>76.03647 80 87.12462</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td class='match'>NIKON CORPORATION</td>
+<td class='match'>NIKON CORPORATION</td>
+<td class='match'>NIKON CORPORATION</td>
+<td class='match'>NIKON CORPORATION</td>
+</tr>
+<tr>
+<td>MaxApertureValue</td>
+<td class='match'>5.3</td>
+<td class='diff'>4.8</td>
+<td class='diff'>4.8</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeasurementBacking</td>
+<td class='match'>0 0 0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeasurementFlare</td>
+<td class='match'>0.999%</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeasurementGeometry</td>
+<td class='match'>Unknown (0)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeasurementIlluminant</td>
+<td class='match'>D65</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeasurementObserver</td>
+<td class='match'>CIE 1931</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MediaBlackPoint</td>
+<td class='match'>0 0 0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MediaWhitePoint</td>
+<td class='match'>0.95045 1 1.08905</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td class='match'>Multi-segment</td>
+<td class='diff'>Pattern</td>
+<td class='diff'>5</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Model</td>
+<td class='match'>NIKON D300</td>
+<td class='match'>NIKON D300</td>
+<td class='match'>NIKON D300</td>
+<td class='match'>NIKON D300</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td class='match'>2009:04:08 11:24:08</td>
+<td class='missing'>-</td>
+<td class='match'>2009:04:08 11:24:08</td>
+<td class='match'>2009:04:08 11:24:08</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td class='match'>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PrimaryPlatform</td>
+<td class='match'>Microsoft Corporation</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileCMMType</td>
+<td class='match'>Lino</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileClass</td>
+<td class='match'>Display Device Profile</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileConnectionSpace</td>
+<td class='match'>XYZ </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileCopyright</td>
+<td class='match'>Copyright (c) 1998 Hewlett-Packard Company</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileCreator</td>
+<td class='match'>HP  </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileDateTime</td>
+<td class='match'>1998:02:09 06:49:00</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileDescription</td>
+<td class='match'>sRGB IEC61966-2.1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileFileSignature</td>
+<td class='match'>acsp</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileID</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ProfileVersion</td>
+<td class='match'>2.1.0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RedMatrixColumn</td>
+<td class='match'>0.43607 0.22249 0.01392</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RedTRC</td>
+<td class='match'>(Binary data 2060 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RenderingIntent</td>
+<td class='match'>Perceptual</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td class='match'>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Saturation</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ScaleFactor35efl</td>
+<td class='match'>1.5</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td class='match'>Standard</td>
+<td class='match'>Standard</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SensingMethod</td>
+<td class='match'>One-chip color area</td>
+<td class='diff'>One-chip color area sensor</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Sharpness</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td class='match'>1/500</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td class='match'>ViewNX 1.0 M</td>
+<td class='match'>ViewNX 1.0 M</td>
+<td class='match'>ViewNX 1.0 M</td>
+<td class='match'>ViewNX 1.0 M</td>
+</tr>
+<tr>
+<td>SubSecCreateDate</td>
+<td class='match'>2009:03:28 13:19:43.86</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SubSecDateTimeOriginal</td>
+<td class='match'>2009:03:28 13:19:43.86</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SubSecModifyDate</td>
+<td class='match'>2009:04:08 11:24:08.86</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SubSecTime</td>
+<td class='match'>86</td>
+<td class='missing'>-</td>
+<td class='match'>86</td>
+<td class='match'>86</td>
+</tr>
+<tr>
+<td>SubSecTimeDigitized</td>
+<td class='match'>86</td>
+<td class='missing'>-</td>
+<td class='match'>86</td>
+<td class='match'>86</td>
+</tr>
+<tr>
+<td>SubSecTimeOriginal</td>
+<td class='match'>86</td>
+<td class='missing'>-</td>
+<td class='match'>86</td>
+<td class='match'>86</td>
+</tr>
+<tr>
+<td>SubjectDistanceRange</td>
+<td class='match'>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Technology</td>
+<td class='match'>Cathode Ray Tube Display</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>UserComment</td>
+<td class='match'></td>
+<td class='diff'>798</td>
+<td class='missing'>-</td>
+<td class='diff'>ASCII</td>
+</tr>
+<tr>
+<td>ViewingCondDesc</td>
+<td class='match'>Reference Viewing Condition in IEC61966-2.1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ViewingCondIlluminant</td>
+<td class='match'>19.6445 20.3718 16.8089</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ViewingCondIlluminantType</td>
+<td class='match'>D50</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ViewingCondSurround</td>
+<td class='match'>3.92889 4.07439 3.36179</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td class='match'>Auto</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td class='match'>300</td>
+<td class='match'>300</td>
+<td class='match'>300</td>
+<td class='match'>300</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td class='match'>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td class='match'>300</td>
+<td class='match'>300</td>
+<td class='match'>300</td>
+<td class='match'>300</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

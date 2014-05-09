@@ -1,0 +1,57 @@
+{
+	"ImageDescription": "DSC00006",
+	"Make": "KONICA CORPORATION",
+	"Model": "Konica Digital Camera DG-1\u0000\u0000\u0000",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"WhitePoint": [
+		0.3127,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.3,
+		0.6,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 1,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		0,
+		128,
+		0,
+		128
+	],
+	"ExifOffset": 386,
+	"Compression": 6,
+	"ThumbnailOffset": 862,
+	"ThumbnailLength": 3335,
+	"ExposureTime": 0.0156,
+	"FNumber": 2.8,
+	"DateTimeOriginal": "1998:09:16 15:52:26",
+	"CompressedBitsPerPixel": 3.1,
+	"ExposureCompensation": 0,
+	"MaxApertureValue": 2.8,
+	"SubjectDistance": 0.24,
+	"MeteringMode": 2,
+	"LightSource": 0,
+	"Flash": 0,
+	"FocalLength": 5.9,
+	"ColorSpace": 1,
+	"ExifImageWidth": 1152,
+	"ExifImageHeight": 872,
+	"FocalPlaneXResolution": 5770,
+	"FocalPlaneYResolution": 5770,
+	"FocalPlaneResolutionUnit": 2,
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

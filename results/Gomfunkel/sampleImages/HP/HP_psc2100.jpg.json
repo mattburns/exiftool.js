@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP psc2100",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 198,
+	"DateTimeOriginal": "2009:10:19 10:41:46",
+	"ColorSpace": 1,
+	"ExifImageWidth": 1022,
+	"ExifImageHeight": 688,
+	"Saturation": 0,
+	"Sharpness": 0
+}

@@ -1,0 +1,21 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"Compression": "JPEG (old-style)",
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Big-endian (Motorola, MM)",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"JFIFVersion": 1.01,
+	"Make": "BenQ",
+	"Model": "UlyC2A 1.291",
+	"ModifyDate": "2006:10:16 10:05:42",
+	"ResolutionUnit": "None",
+	"ThumbnailImage": "(Binary data 7321 bytes)",
+	"ThumbnailLength": 7321,
+	"ThumbnailOffset": 180,
+	"XResolution": 72,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 72
+}

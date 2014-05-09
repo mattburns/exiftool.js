@@ -1,0 +1,33 @@
+{
+	"Make": "Nokia",
+	"Model": "C6-01",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2011:01:20 12:49:25",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 170,
+	"Compression": 6,
+	"ThumbnailOffset": 4814,
+	"ThumbnailLength": 3582,
+	"ExposureTime": "1/338",
+	"ISO": 100,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2011:01:20 12:49:25",
+	"CreateDate": "2011:01:20 12:49:25",
+	"ShutterSpeedValue": "8.4",
+	"SubjectArea": [
+		2281,
+		1089,
+		189,
+		189
+	],
+	"SubSecTime": "598",
+	"SubSecTimeOriginal": "598",
+	"SubSecTimeDigitized": "598",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 3264,
+	"ExifImageHeight": 1832,
+	"DigitalZoomRatio": 1,
+	"error": " %\t\tX...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

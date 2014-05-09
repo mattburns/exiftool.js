@@ -1,0 +1,30 @@
+{
+	"Make": "SAMSUNG Electronics",
+	"Model": "Anycall SPH-B6650",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "BI29",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 182,
+	"Compression": 6,
+	"ThumbnailOffset": 588,
+	"ThumbnailLength": 19028,
+	"FNumber": [
+		3,
+		null
+	],
+	"DateTimeOriginal": "2008:11:10 01:17:29",
+	"CreateDate": "2008:11:10 01:17:29",
+	"ExposureCompensation": 0.5555555555555556,
+	"MeteringMode": 1,
+	"ColorSpace": 1,
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480,
+	"InteropOffset": 464,
+	"ExposureMode": 0,
+	"WhiteBalance": 0,
+	"DigitalZoomRatio": 0.08333333333333333,
+	"InteropIndex": "R98"
+}

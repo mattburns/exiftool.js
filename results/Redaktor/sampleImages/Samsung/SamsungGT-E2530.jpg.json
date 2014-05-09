@@ -1,0 +1,33 @@
+{
+	"Make": "SAMSUNG",
+	"Model": "GT-E2530",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2011:01:01 21:57:46",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 188,
+	"GPSInfo": 430,
+	"ImageWidth": 32,
+	"ImageHeight": 32,
+	"BitsPerSample": [
+		8,
+		8,
+		8
+	],
+	"Compression": 1,
+	"PhotometricInterpretation": 2,
+	"StripOffsets": 626,
+	"SamplesPerPixel": 3,
+	"RowsPerStrip": 32,
+	"StripByteCounts": 3072,
+	"FNumber": 2.8,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2011:01:01 21:57:46",
+	"CreateDate": "2011:01:01 21:57:46",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 320,
+	"ExifImageHeight": 240,
+	"InteropOffset": 436,
+	"InteropIndex": "R98"
+}

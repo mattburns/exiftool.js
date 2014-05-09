@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP Scanjet G3010",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 204,
+	"DateTimeOriginal": "2010:04:11 22:49:39",
+	"ColorSpace": 1,
+	"ExifImageWidth": 487,
+	"ExifImageHeight": 871,
+	"Saturation": 0,
+	"Sharpness": 0
+}

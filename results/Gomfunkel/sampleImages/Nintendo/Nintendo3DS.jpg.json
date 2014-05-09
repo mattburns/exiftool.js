@@ -1,0 +1,23 @@
+{
+	"Make": "Nintendo",
+	"Model": "Nintendo 3DS",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "00863",
+	"ModifyDate": "2013:06:29 13:07:25",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 188,
+	"Compression": 6,
+	"ThumbnailOffset": 590,
+	"ThumbnailLength": 4128,
+	"DateTimeOriginal": "2013:06:29 13:07:25",
+	"CreateDate": "2013:06:29 13:07:25",
+	"ColorSpace": 1,
+	"ExifImageWidth": 400,
+	"ExifImageHeight": 240,
+	"InteropOffset": 436,
+	"InteropIndex": "R98",
+	"RelatedImageFileFormat": "JPEG Exif Ver 2.2",
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

@@ -1,0 +1,46 @@
+{
+	"Make": "FLIR Systems AB",
+	"Model": "FLIR T620",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "Common_dll v1.3.0b1",
+	"ModifyDate": "2012:01:11 07:32:07",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 228,
+	"GPSInfo": 1754,
+	"Compression": 6,
+	"ThumbnailOffset": 1974,
+	"ThumbnailLength": 4622,
+	"ExposureTime": 0.015625,
+	"ExifVersion": "0220",
+	"DateTimeOriginal": "2012:01:11 07:32:07",
+	"CreateDate": "2012:01:11 07:32:07",
+	"FocalLength": 24.5,
+	"FlashpixVersion": "0100",
+	"ColorSpace": 1,
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480,
+	"DigitalZoomRatio": 1,
+	"ImageUniqueID": "9F086C649B7EEE517477F16CDB268DC6",
+	"GPSVersionID": [
+		2,
+		3,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		47,
+		37,
+		29.28
+	],
+	"GPSLongitudeRef": "W",
+	"GPSLongitude": [
+		122,
+		19,
+		16.32
+	],
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

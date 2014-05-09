@@ -1,0 +1,26 @@
+{
+	"Make": "Samsung Electronics Co., Ltd.",
+	"Model": "C3053",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 162,
+	"ImageWidth": 128,
+	"ImageHeight": 96,
+	"BitsPerSample": [
+		8,
+		8,
+		8
+	],
+	"Compression": 1,
+	"PhotometricInterpretation": 2,
+	"StripOffsets": 412,
+	"SamplesPerPixel": 3,
+	"RowsPerStrip": 96,
+	"StripByteCounts": 36864,
+	"ExifVersion": "2.1",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480
+}

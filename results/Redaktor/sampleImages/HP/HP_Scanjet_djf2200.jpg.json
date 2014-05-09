@@ -1,0 +1,21 @@
+{
+	"Make": "HP",
+	"Model": "HP Scanjet djf2200",
+	"XResolution": 200,
+	"YResolution": 200,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 206,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:03:28 19:31:57",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 789,
+	"ExifImageHeight": 1178
+}

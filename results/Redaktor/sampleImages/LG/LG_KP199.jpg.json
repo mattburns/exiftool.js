@@ -1,0 +1,21 @@
+{
+	"ImageDescription": "80808080,720905,185991177,371261449,723218,185993490,371263762,725531,185995803,371266075/idx:49/R:128,GR:128,GB:128,B:128, AWB:2432101a, Gma(0):41647a88,a4bacee0,e8f0f800, sensor edge:2, sensor de-noise:1,con:1, EDGE:80010",
+	"Make": "LGE",
+	"Model": "KP199",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "7S7339RU00-001-R1B",
+	"ModifyDate": "2010:05:25 10:53:27",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 432,
+	"ExposureTime": "1/39",
+	"ISO": 100,
+	"ExifVersion": "2.2",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 128,
+	"ExifImageHeight": 160,
+	"DigitalZoomRatio": 1,
+	"error": "Media...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

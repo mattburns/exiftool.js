@@ -1,0 +1,22 @@
+{
+	"Make": "Nokia",
+	"Model": "3120classic",
+	"Orientation": 1,
+	"XResolution": 300,
+	"YResolution": 300,
+	"Software": "V 07.16",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 164,
+	"Compression": 6,
+	"ThumbnailOffset": 688,
+	"ThumbnailLength": 2566,
+	"ExifVersion": "2.2",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1200,
+	"ExifImageHeight": 1600,
+	"DigitalZoomRatio": 1,
+	"MakerNote": "\b\u0018\u0012\u0006Ð\u0000'Z¼\u0016n+×'y1¸_-Q'mÿ\u0006Bd·UÈ&Á¾\u001aãé¨\u0011,óý\u0004ÒîàâcTÀ\u0014~Þ¯\u0000j±}4oÓÁMÎ°WßZ/Ü«>\u0018¿AÖ£â\nªo\"^Ð¢\fX>|v¯È8QþÑîî@ô(Íà©D\u0018óþÐ¼=\u0012;\u001a\u001c?­ït\nl©\u0004+é\u0006Ò÷ãâFìQ\u0013K\u0003ò©ÕùÙ2Ú\\*´Hü\\I[\u0015uÆÈFÑ&\u000f¦ÅûBù\f_ì\"\u001bÎ=úNKä@i\u0016¡Ûaá¾\u0011}´øf÷è\t2",
+	"DateTimeOriginal": "2010:06:10 01:04:16",
+	"CreateDate": "2010:06:10 01:04:16",
+	"error": "\b\u0018\u0012\u0006Ã...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

@@ -1,0 +1,21 @@
+{
+	"Make": "HP",
+	"Model": "HP pstc6200",
+	"XResolution": 300,
+	"YResolution": 300,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 198,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:04:19 23:29:41",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 550,
+	"ExifImageHeight": 1180
+}

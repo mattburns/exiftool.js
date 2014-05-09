@@ -1,0 +1,21 @@
+{
+	"Make": "HP",
+	"Model": "HP Scanjet G4010",
+	"XResolution": 200,
+	"YResolution": 200,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 204,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:06:07 13:40:45",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1716,
+	"ExifImageHeight": 2464
+}

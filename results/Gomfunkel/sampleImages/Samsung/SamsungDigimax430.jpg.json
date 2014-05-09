@@ -1,0 +1,70 @@
+{
+	"ImageDescription": "<Digimax 430 / Kenox D430> ",
+	"Make": "SAMSUNG TECHWIN CO., LTD",
+	"Model": "Digimax 430 / Kenox D430",
+	"Orientation": 1,
+	"XResolution": 96,
+	"YResolution": 96,
+	"ResolutionUnit": 2,
+	"Software": "  7211",
+	"ModifyDate": "2005:03:21 16:00:23",
+	"WhitePoint": [
+		0,
+		0
+	],
+	"PrimaryChromaticities": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"YCbCrCoefficients": [
+		0,
+		0,
+		0
+	],
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"Copyright": "SAMSUNG TECHWIN",
+	"ExifOffset": 438,
+	"ExposureTime": 0.016667,
+	"FNumber": 2.9,
+	"ExposureProgram": 2,
+	"ISO": [
+		63,
+		63
+	],
+	"DateTimeOriginal": "2005:03:21 16:00:23",
+	"CreateDate": "2005:03:21 16:00:23",
+	"CompressedBitsPerPixel": 3.543504,
+	"ShutterSpeedValue": 5.90625,
+	"ApertureValue": 3.0625,
+	"BrightnessValue": 0,
+	"ExposureCompensation": 0,
+	"MaxApertureValue": 3.0625,
+	"SubjectDistance": 0,
+	"MeteringMode": 5,
+	"LightSource": 0,
+	"Flash": 16,
+	"FocalLength": 6.2,
+	"ColorSpace": 1,
+	"ExifImageWidth": 2272,
+	"ExifImageHeight": 1704,
+	"RelatedSoundFile": "RelatedSound",
+	"FocalPlaneXResolution": 0,
+	"FocalPlaneYResolution": 0,
+	"FocalPlaneResolutionUnit": 0,
+	"ExposureIndex": 1,
+	"SensingMethod": 2,
+	"FileSource": 3,
+	"SceneType": 1
+}

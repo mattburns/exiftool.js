@@ -1,0 +1,51 @@
+{
+	"ImageDescription": "ExifJPEGPICTURE",
+	"Make": "RICOH",
+	"Model": "GR DIGITAL 2",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2010:07:15 08:40:43",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"Copyright": "(C) by GR DIGITAL 2 User",
+	"ExifOffset": 436,
+	"Compression": 6,
+	"ThumbnailOffset": 25460,
+	"ThumbnailLength": 5382,
+	"ExposureTime": "1/1000",
+	"FNumber": 9,
+	"ISO": 100,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2010:07:15 08:40:43",
+	"CreateDate": "2010:07:15 08:40:43",
+	"CompressedBitsPerPixel": 2.8,
+	"BrightnessValue": 11.1,
+	"ExposureCompensation": 0,
+	"UserComment": "ASCII",
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 3648,
+	"ExifImageHeight": 2736,
+	"InteropOffset": 24406,
+	"Gamma": 2.2,
+	"InteropIndex": "R03",
+	"InteropVersion": "1",
+	"error": "Ricoh...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

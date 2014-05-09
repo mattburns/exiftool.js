@@ -1,0 +1,32 @@
+{
+	"Make": "EASTMAN KODAK COMPANY",
+	"Model": "KODAK EASYSHARE C140 DIGITAL CAMERA",
+	"XResolution": 480,
+	"YResolution": 480,
+	"PageName": "66341151199787500004717817010:3551:2511C:\\Documents and Settings\\\\ \\ \\\\\\  19.jpg",
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 424,
+	"ExposureTime": "1/1000",
+	"FNumber": 6.7,
+	"ISO": 80,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:06:03 17:40:22",
+	"CreateDate": "2010:06:03 17:40:22",
+	"ShutterSpeedValue": "10",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 3264,
+	"ExifImageHeight": 2308,
+	"ExposureIndex": 80,
+	"DigitalZoomRatio": 0,
+	"FocalLengthIn35mmFilm": 70,
+	"error": "IIII\u0003...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

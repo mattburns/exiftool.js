@@ -1,0 +1,17 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Big-endian (Motorola, MM)",
+	"ExifImageHeight": 29,
+	"ExifImageWidth": 29,
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"JFIFVersion": 1.01,
+	"Orientation": "Horizontal (normal)",
+	"ResolutionUnit": "inches",
+	"XResolution": 71.12,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 71.12
+}

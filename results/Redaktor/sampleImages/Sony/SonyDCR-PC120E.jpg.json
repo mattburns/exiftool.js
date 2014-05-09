@@ -1,0 +1,30 @@
+{
+	"Make": "SONY",
+	"Model": "DCR-PC120E",
+	"XResolution": 72,
+	"YResolution": 72,
+	"PageName": "3632329341205435712723190010C:\\Documents and Settings\\OEM USER\\Os meus documentos\\As minhas imagens\\Mergulho Porto Santo\\Porto Santo Modificado\\Frias 2004 Baleal, Berlenga e Porto Santo 096.jpg",
+	"ModifyDate": "2004:09:09 12:21:12",
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 450,
+	"ExposureTime": "1/150",
+	"FNumber": 4,
+	"ExposureProgram": 3472,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2004:09:09 12:21:12",
+	"CreateDate": "2004:09:09 12:21:12",
+	"ExposureCompensation": 0,
+	"Flash": 2448,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1016,
+	"ExifImageHeight": 1360,
+	"error": "SONY ...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

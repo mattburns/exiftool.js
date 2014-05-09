@@ -1,0 +1,22 @@
+{
+	"ApertureValue": "3.4",
+	"ComponentsConfiguration": "Y, Cb, Cr, -",
+	"CompressedBitsPerPixel": "1.4",
+	"Copyright": "SCREACHER",
+	"DateTimeOriginal": "1999:12:04 15:02:33",
+	"ExifIFDPointer": "350",
+	"ExifVersion": "0110",
+	"Flash": "Flash fired",
+	"Make": "FUJIFILM",
+	"Model": "DS-20",
+	"Orientation": "1",
+	"PrimaryChromaticities": "0.64,0.33,0.3,0.6,0.15,0.06",
+	"ReferenceBlackWhite": "0,255,128,255,128,255",
+	"ResolutionUnit": "2",
+	"ShutterSpeedValue": "6.5",
+	"WhitePoint": "0.3127,0.329",
+	"XResolution": "72",
+	"YCbCrCoefficients": "0.299,0.587,0.114",
+	"YCbCrPositioning": "2",
+	"YResolution": "72"
+}

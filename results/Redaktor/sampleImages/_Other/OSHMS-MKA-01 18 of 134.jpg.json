@@ -1,0 +1,32 @@
+{
+	"ImageDescription": "OLYMPUS DIGITAL CAMERA",
+	"Make": "OLYMPUS IMAGING CORP.",
+	"Model": "E-3",
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "Version 1.1",
+	"ModifyDate": "2011:04:30 06:27:06",
+	"ExifOffset": 216,
+	"Compression": 6,
+	"ThumbnailOffset": 888,
+	"ThumbnailLength": 15858,
+	"ExposureTime": "1/60",
+	"FNumber": 3.8,
+	"ISO": 100,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2009:03:06 10:11:35",
+	"CreateDate": "2009:03:06 10:11:35",
+	"ShutterSpeedValue": "5.9",
+	"CFAPattern": "<truncated data>",
+	"DigitalZoomRatio": 1,
+	"FocalLengthIn35mmFilm": 78,
+	"SerialNumber": "D71501437",
+	"LensInfo": [
+		12,
+		60,
+		2.8,
+		4
+	],
+	"LensModel": "12.0-60.0 mm f/2.8-4.0",
+	"LensSerialNumber": "230008807"
+}

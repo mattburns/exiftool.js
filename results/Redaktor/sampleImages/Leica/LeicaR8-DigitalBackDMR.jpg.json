@@ -1,0 +1,20 @@
+{
+	"Make": "Leica Camera AG",
+	"Model": "R8 - Digital Back DMR",
+	"XResolution": 240,
+	"YResolution": 240,
+	"Software": "Rev 1.1",
+	"ModifyDate": "2007:02:17 21:30:13",
+	"ExifOffset": 204,
+	"MakerNoteSafety": 1,
+	"ExposureTime": "1/30",
+	"FNumber": 2.8,
+	"ISO": 800,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2007:02:17 12:08:47",
+	"CreateDate": "2007:02:17 12:08:47",
+	"ShutterSpeedValue": "4.9",
+	"ExposureCompensation": 0,
+	"ImageUniqueID": "0000000000000000004CC4C9000002C7",
+	"error": "\u000f\u0000\u0001\u0000\u0001...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

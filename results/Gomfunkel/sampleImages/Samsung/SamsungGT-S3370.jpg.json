@@ -1,0 +1,40 @@
+{
+	"Make": "SAMSUNG",
+	"Model": "GT-S3370",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "S3370XEJD4\u0000",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 196,
+	"Compression": 6,
+	"ThumbnailOffset": 682,
+	"ThumbnailLength": 10138,
+	"ExposureTime": 0.125,
+	"FNumber": [
+		2.8,
+		null
+	],
+	"ExposureProgram": 2,
+	"ISO": 320,
+	"DateTimeOriginal": "2010:06:06 10:58:10",
+	"CreateDate": "2010:06:06 10:58:10",
+	"MaxApertureValue": [
+		2.971,
+		null
+	],
+	"MeteringMode": 2,
+	"ColorSpace": 1,
+	"ExifImageWidth": 1280,
+	"ExifImageHeight": 960,
+	"InteropOffset": 558,
+	"SensingMethod": 2,
+	"ExposureMode": 0,
+	"WhiteBalance": 0,
+	"SceneCaptureType": 0,
+	"Contrast": 0,
+	"Saturation": 0,
+	"Sharpness": 0,
+	"InteropIndex": "R98"
+}

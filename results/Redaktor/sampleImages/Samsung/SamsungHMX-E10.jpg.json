@@ -1,0 +1,32 @@
+{
+	"Make": "SAMSUNG",
+	"Model": "HMX-E10",
+	"Orientation": 1,
+	"XResolution": 89.00233459472656,
+	"YResolution": 0.10694723780151427,
+	"Software": "ver 1.19",
+	"ModifyDate": "2010:12:03 02:12:41",
+	"YCbCrPositioning": 2,
+	"YCbCrSubSampling": [
+		2,
+		1
+	],
+	"ExifOffset": 207,
+	"Compression": 6,
+	"ThumbnailOffset": 17465,
+	"ThumbnailLength": 12433,
+	"ExposureTime": "1/15",
+	"FNumber": 2.2,
+	"ISO": 320,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2010:12:03 02:12:41",
+	"CreateDate": "2010:12:03 02:12:41",
+	"ExposureCompensation": 0,
+	"ColorSpace": 0,
+	"ExifImageWidth": 3264,
+	"ExifImageHeight": 2448,
+	"SensingMethod": 0,
+	"DigitalZoomRatio": 1,
+	"FocalLengthIn35mmFilm": 37,
+	"error": "\u0000\u0013\u0000\u0001\u0000...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

@@ -1,0 +1,32 @@
+{
+	"Make": "HP",
+	"Model": "HP psc1600",
+	"XResolution": 0.02,
+	"YResolution": 0.02,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2008:04:07 00:45:23\u0000",
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 218,
+	"Compression": 6,
+	"ThumbnailOffset": 754,
+	"ThumbnailLength": 7067,
+	"DateTimeOriginal": "2008:03:26 10:10: 6\u0000",
+	"ColorSpace": 1,
+	"ExifImageWidth": 1165,
+	"ExifImageHeight": 796,
+	"InteropOffset": 613,
+	"CustomRendered": 0,
+	"ExposureMode": 0,
+	"Contrast": 0,
+	"Saturation": 0,
+	"Sharpness": 0,
+	"InteropIndex": "\u0002\u0002\u0002\u0002"
+}

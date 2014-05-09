@@ -1,0 +1,28 @@
+{
+	"Make": "NIKON CORPORATION",
+	"Model": "NIKON D7000",
+	"Software": "Adobe Photoshop Lightroom 4.0 (Windows)",
+	"ModifyDate": "2012:03:27 14:09:19",
+	"ExifOffset": 2284,
+	"SerialNumber": "8034472",
+	"LensInfo": [
+		18,
+		200,
+		3.5,
+		5.6
+	],
+	"LensModel": "18.0-200.0 mm f/3.5-5.6",
+	"ExposureTime": "1/60",
+	"FNumber": 4,
+	"ISO": 800,
+	"ExifVersion": "2.3",
+	"DateTimeOriginal": "2012:03:21 20:30:02",
+	"CreateDate": "2012:03:21 20:30:02",
+	"ShutterSpeedValue": "5.9",
+	"ExposureCompensation": 0,
+	"SubSecTimeOriginal": "50",
+	"SubSecTimeDigitized": "50",
+	"CFAPattern": "<truncated data>",
+	"DigitalZoomRatio": 1,
+	"FocalLengthIn35mmFilm": 46
+}

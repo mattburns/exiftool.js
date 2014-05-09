@@ -1,0 +1,65 @@
+{
+	"Make": "Nikon\u0000",
+	"Model": "Nikon SUPER COOLSCAN 9000 ED\u0000",
+	"Orientation": 1,
+	"XResolution": 4000,
+	"YResolution": 4000,
+	"ResolutionUnit": 2,
+	"Software": "www.photocleaner.com",
+	"ModifyDate": "2005:03:14 13:34:54\u0000",
+	"WhitePoint": [
+		0,
+		0
+	],
+	"PrimaryChromaticities": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"YCbCrCoefficients": [
+		0,
+		0,
+		0
+	],
+	"YCbCrPositioning": 0,
+	"ReferenceBlackWhite": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"ExifOffset": 344,
+	"ExposureTime": 0,
+	"FNumber": 0,
+	"ExposureProgram": 0,
+	"ISO": [
+		0,
+		0
+	],
+	"CompressedBitsPerPixel": 0,
+	"ShutterSpeedValue": 0,
+	"ApertureValue": 0,
+	"BrightnessValue": 0,
+	"ExposureCompensation": 0,
+	"MaxApertureValue": 0,
+	"SubjectDistance": 0,
+	"MeteringMode": 0,
+	"LightSource": 0,
+	"Flash": 0,
+	"FocalLength": 0,
+	"ColorSpace": 1,
+	"ExifImageWidth": 7321,
+	"ExifImageHeight": 7704,
+	"FocalPlaneXResolution": 0,
+	"FocalPlaneYResolution": 0,
+	"FocalPlaneResolutionUnit": 0,
+	"ExposureIndex": 0,
+	"SensingMethod": 0,
+	"FileSource": 0,
+	"SceneType": 0
+}

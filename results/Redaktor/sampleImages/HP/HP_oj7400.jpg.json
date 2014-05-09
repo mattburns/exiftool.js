@@ -1,0 +1,21 @@
+{
+	"Make": "HP",
+	"Model": "HP oj7400",
+	"XResolution": 200,
+	"YResolution": 200,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 196,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2009:03:17 19:14: 0",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1000,
+	"ExifImageHeight": 1334
+}

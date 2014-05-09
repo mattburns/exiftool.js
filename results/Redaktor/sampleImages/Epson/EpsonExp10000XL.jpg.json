@@ -1,0 +1,26 @@
+{
+	"ImageWidth": 8182,
+	"ImageHeight": 6319,
+	"BitsPerSample": [
+		8,
+		8,
+		8
+	],
+	"Compression": 6,
+	"PhotometricInterpretation": 2,
+	"Make": "Epson",
+	"Model": "Exp10000XL",
+	"Orientation": 1,
+	"SamplesPerPixel": 3,
+	"XResolution": 600,
+	"YResolution": 600,
+	"Software": "Nero PhotoSnap 1, 2, 0, 19",
+	"ModifyDate": "2009:06:18 18:42:45",
+	"ExifOffset": 312,
+	"ThumbnailOffset": 534,
+	"ThumbnailLength": 3954,
+	"ExifVersion": "2.2",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 300,
+	"ExifImageHeight": 1600
+}

@@ -1,0 +1,20 @@
+{
+	"ImageDescription": "convert_ed.jpg",
+	"Make": "DoCoMo",
+	"Model": "SH905i",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2009:03:05 14:16:32",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 202,
+	"DateTimeOriginal": "2009:03:05 14:18:06",
+	"CreateDate": "2009:03:05 14:18:06",
+	"ColorSpace": 1,
+	"ExifImageWidth": 1280,
+	"ExifImageHeight": 960,
+	"InteropOffset": 398,
+	"InteropIndex": "R98",
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

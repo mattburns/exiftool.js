@@ -1,0 +1,20 @@
+{
+	"ImageDescription": "DIGITAL CAMERA",
+	"Make": "CAMERA",
+	"Model": "6MP9U2",
+	"Software": "V1.01",
+	"ModifyDate": "2005:07:01 00:02:04",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 522,
+	"ExposureTime": "1/25",
+	"FNumber": 2.8,
+	"ISO": 100,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2005:07:01 00:02:04",
+	"CreateDate": "2005:07:01 00:02:04",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1280,
+	"ExifImageHeight": 960,
+	"DigitalZoomRatio": 1,
+	"error": "CAMER...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

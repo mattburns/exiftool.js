@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP ScanJet pls3052",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 206,
+	"DateTimeOriginal": "2010:05:13 14:23:58",
+	"ColorSpace": 1,
+	"ExifImageWidth": 1680,
+	"ExifImageHeight": 784,
+	"Saturation": 0,
+	"Sharpness": 0
+}

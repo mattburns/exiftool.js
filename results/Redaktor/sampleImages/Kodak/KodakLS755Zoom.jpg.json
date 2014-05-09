@@ -1,0 +1,21 @@
+{
+	"Make": "EASTMAN KODAK COMPANY",
+	"Model": "KODAK LS755 ZOOM DIGITAL CAMERA",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 116,
+	"ExposureTime": "1/125",
+	"FNumber": 4.8,
+	"ISO": 64,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2005:10:18 15:20:05",
+	"CreateDate": "2005:10:18 15:20:05",
+	"ShutterSpeedValue": "7",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2592,
+	"ExifImageHeight": 1944,
+	"ExposureIndex": 64,
+	"DigitalZoomRatio": 0,
+	"FocalLengthIn35mmFilm": 108,
+	"error": "KYDR4...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

@@ -1,0 +1,60 @@
+{
+	"Make": "PENTAX",
+	"Model": "PENTAX K-5 II s",
+	"Orientation": 1,
+	"XResolution": 300,
+	"YResolution": 300,
+	"Software": "K-5 II s Ver 1.00",
+	"ModifyDate": "2012:10:27 13:10:19",
+	"Artist": "beholder3",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"Copyright": "(c) 2012 beholder3",
+	"ExifOffset": 786,
+	"GPSInfo": 11972,
+	"Compression": 6,
+	"ThumbnailOffset": 12084,
+	"ThumbnailLength": 6232,
+	"ExposureTime": "1/100",
+	"FNumber": 5.6,
+	"ISO": 80,
+	"ExifVersion": "2.3",
+	"DateTimeOriginal": "2012:10:27 13:08:49",
+	"CreateDate": "2012:10:27 13:08:49",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 4928,
+	"ExifImageHeight": 3264,
+	"InteropOffset": 11942,
+	"FocalLengthIn35mmFilm": 75,
+	"LensInfo": [
+		50,
+		50,
+		2.8,
+		2.8
+	],
+	"LensMake": "PENTAX",
+	"LensModel": "smc PENTAX-D FA 50mm F2.8 Macro",
+	"Gamma": 2.2,
+	"GPSVersionID": "2.3.0.0",
+	"InteropIndex": "R03",
+	"InteropVersion": "1",
+	"error": "AOC\u0000M...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

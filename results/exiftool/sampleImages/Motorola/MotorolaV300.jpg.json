@@ -1,0 +1,23 @@
+{
+	"APP14Flags0": "[14], Encoded with Blend=1 downsampling",
+	"APP14Flags1": "(none)",
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"ColorTransform": "YCbCr",
+	"Copyright": "S?rgio Machado",
+	"DCTEncodeVersion": 100,
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Little-endian (Intel, II)",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"JFIFVersion": 1.02,
+	"Make": "Motorola",
+	"Model": "V300",
+	"ModifyDate": "2006:08:30 12:36:40",
+	"Quality": "80%",
+	"ResolutionUnit": "None",
+	"XResolution": 100,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 100
+}

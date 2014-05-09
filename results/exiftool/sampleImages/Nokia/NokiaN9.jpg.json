@@ -1,0 +1,80 @@
+{
+	"Aperture": 2.2,
+	"ApertureValue": 2.2,
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"Contrast": "Normal",
+	"CopyrightFlag": false,
+	"CreateDate": "2011:11:30 13:43:12.677000+02:00",
+	"DateTimeOriginal": "2011:11:30 13:43:12",
+	"DigitalZoomRatio": 1,
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Little-endian (Intel, II)",
+	"ExifVersion": "0230",
+	"ExposureCompensation": 0,
+	"ExposureMode": "Auto",
+	"ExposureProgram": "Not Defined",
+	"ExposureTime": "1/30",
+	"FNumber": 2.2,
+	"FileSource": "Digital Camera",
+	"Flash": "Auto, Did not fire",
+	"FlashFired": false,
+	"FlashFunction": false,
+	"FlashMode": "Auto",
+	"FlashRedEyeMode": false,
+	"FlashReturn": "No return detection",
+	"FlashpixVersion": "0100",
+	"FocalLength": "28.0 mm",
+	"FocalLength35efl": "28.0 mm",
+	"GainControl": "Low gain up",
+	"ISO": 200,
+	"ISOSpeed": 200,
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"LightValue": 6.2,
+	"Make": "Nokia",
+	"MeteringMode": "Average",
+	"Model": "N9",
+	"NativeDigest": "36864,40960,40961,37121,37122,40962,40963,37510,40964,36867,36868,33434,33437,34850,34852,34855,34856,37377,37378,37379,37380,37381,37382,37383,37384,37385,37386,37396,41483,41484,41486,41487,41488,41492,41493,41495,41728,41729,41730,41985,41986,41987,41988,41989,41990,41991,41992,41993,41994,41995,41996,42016,0,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,22,23,24,25,26,27,28,30;F49B309F8AC35FA6F42128CD6B0A1251",
+	"Orientation": "Rotate 90 CW",
+	"RegionAppliedToDimensionsH": 3552,
+	"RegionAppliedToDimensionsW": 2000,
+	"RegionAreaH": [
+		0.252252,
+		0.102477
+	],
+	"RegionAreaW": [
+		0.448,
+		0.182
+	],
+	"RegionAreaX": [
+		0.577,
+		0.221
+	],
+	"RegionAreaY": [
+		0.50732,
+		0.730293
+	],
+	"RegionExtensionsPersonContact": "urn:uuid:85fd2132-cea8-40fb-9841-035b61f40143",
+	"RegionName": [
+		"Angry Bird",
+		"Green Pig"
+	],
+	"RegionType": [
+		"Face",
+		"Face"
+	],
+	"Saturation": "Normal",
+	"SceneCaptureType": "Standard",
+	"SensitivityType": "ISO Speed",
+	"Sharpness": "Normal",
+	"ShutterSpeed": "1/30",
+	"ShutterSpeedValue": "1/30",
+	"SubSecDateTimeOriginal": "2011:11:30 13:43:12.677",
+	"SubSecTimeOriginal": 677,
+	"Warning": "[minor] Unrecognized MakerNotes",
+	"WhiteBalance": "Auto",
+	"XMPToolkit": "Exempi + XMP Core 4.4.0",
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+}

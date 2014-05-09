@@ -1,0 +1,32 @@
+{
+	"Make": "Apple",
+	"Model": "iPad mini",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "6.0.1",
+	"ModifyDate": "2012:11:10 10:46:58",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 192,
+	"Compression": 6,
+	"ThumbnailOffset": 676,
+	"ThumbnailLength": 9462,
+	"ExposureTime": "1/604",
+	"FNumber": 2.4,
+	"ISO": 32,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2012:11:10 10:46:58",
+	"CreateDate": "2012:11:10 10:46:58",
+	"ShutterSpeedValue": "9.2",
+	"BrightnessValue": 8.717925386715196,
+	"SubjectArea": [
+		1836,
+		859,
+		484,
+		484
+	],
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2592,
+	"ExifImageHeight": 1936,
+	"FocalLengthIn35mmFilm": 33
+}

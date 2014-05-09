@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP pstc4200",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 198,
+	"DateTimeOriginal": "2010:06:09 22:00:18",
+	"ColorSpace": 1,
+	"ExifImageWidth": 406,
+	"ExifImageHeight": 502,
+	"Saturation": 0,
+	"Sharpness": 0
+}

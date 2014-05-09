@@ -1,0 +1,50 @@
+{
+	"Make": "Canon",
+	"Model": "Canon EOS DIGITAL REBEL XT",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2005:04:02 16:21:53",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"ExifOffset": 320,
+	"Compression": 6,
+	"ThumbnailOffset": 9716,
+	"ThumbnailLength": 8396,
+	"ExposureTime": "1/1000",
+	"FNumber": 13,
+	"ISO": 1600,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2005:04:02 16:21:53",
+	"CreateDate": "2005:04:02 16:21:53",
+	"ShutterSpeedValue": "10",
+	"ExposureCompensation": 0,
+	"UserComment": "",
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 3456,
+	"ExifImageHeight": 2304,
+	"InteropOffset": 9366,
+	"FocalPlaneXResolution": 3954.233409610984,
+	"FocalPlaneYResolution": 3958.762886597938,
+	"Gamma": 2.2,
+	"InteropIndex": "R03",
+	"InteropVersion": "1",
+	"error": "\u0018\u0000\u0001\u0000\u0003...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

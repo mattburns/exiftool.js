@@ -1,0 +1,14 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"Comment": "Trg: M 1/1\rEvt: 36\rDat: 2007-09-07 6:18:21 PM\rMP:  7\rTmp: 84 F\rBat: 9320\rIll: Off\rExp: 1032,01BA,0\rCtr: 159\rBrt: 95\rShp: 64\rSat: 191\rPIR: 100\rNam: IMG_0161.JPG\rTot: 00000183\rSN:  RC31AA08000198\rVer: 1.1.0.20070815\rRst: 0,1\rPwu: 0017,001F,002B,0049,00F2,027F,0280\rLht: 0001,0002,0009,0010\rSce: 1,4F\rSeg: 0,33,72,3F,4C,44,5E,58,58,5F,4B,72,67,60,43,33,33,48,44\rAgc: 4F,1032,1066,0000,0108,2100\rCfg: 0003004664010A01000103E8000FFFFFFFFFFFFFFFFFFFFFFFFF00000005FFFFFFFFFFFFFFFFFFFFFFFFC040001E8080484353414E494147454D45545453000000000000000089803726\r",
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"JFIFVersion": 1.01,
+	"ResolutionUnit": "None",
+	"XResolution": 1,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 1
+}

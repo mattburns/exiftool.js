@@ -1,0 +1,49 @@
+{
+	"Make": "Apple",
+	"Model": "iPhone 3GS",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "3.1",
+	"ModifyDate": "2009:10:02 20:45:16",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 188,
+	"GPSInfo": 514,
+	"ExposureTime": 0.1,
+	"FNumber": 2.8,
+	"ExposureProgram": 2,
+	"ISO": 1016,
+	"DateTimeOriginal": "2009:10:02 20:45:16",
+	"CreateDate": "2009:10:02 20:45:16",
+	"ShutterSpeedValue": 3.3242976835879743,
+	"ApertureValue": 2.970853573907009,
+	"MeteringMode": 1,
+	"Flash": 32,
+	"FocalLength": 3.85,
+	"ColorSpace": 1,
+	"ExifImageWidth": 800,
+	"ExifImageHeight": 600,
+	"SensingMethod": 2,
+	"ExposureMode": 0,
+	"WhiteBalance": 0,
+	"Sharpness": 0,
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		39,
+		38.27,
+		0
+	],
+	"GPSLongitudeRef": "W",
+	"GPSLongitude": [
+		75,
+		39.07,
+		0
+	],
+	"GPSTimeStamp": [
+		20,
+		45,
+		0.45
+	],
+	"GPSImgDirectionRef": "T",
+	"GPSImgDirection": 117.22183098591549
+}

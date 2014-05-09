@@ -1,0 +1,22 @@
+{
+	"ImageDescription": "",
+	"Make": "Polaroid PDC 1050",
+	"Software": "07",
+	"ExifOffset": 154,
+	"Compression": 6,
+	"ThumbnailOffset": 498,
+	"ThumbnailLength": 3951,
+	"ExposureTime": "1/40",
+	"FNumber": 2.8,
+	"ISO": 100,
+	"ExifVersion": "2.1",
+	"DateTimeOriginal": "2002:10:14 20:10:12",
+	"CreateDate": "2002:10:14 20:10:12",
+	"CompressedBitsPerPixel": 1.6,
+	"ShutterSpeedValue": "5.3",
+	"ExposureCompensation": 0,
+	"InteropOffset": 468,
+	"InteropIndex": "R98",
+	"InteropVersion": "1",
+	"error": "\u0012@@\u0001...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

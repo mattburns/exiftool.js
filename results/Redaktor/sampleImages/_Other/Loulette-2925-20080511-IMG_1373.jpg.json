@@ -1,0 +1,28 @@
+{
+	"Make": "Canon",
+	"Model": "Canon EOS 5D",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2011:04:28 13:34:15",
+	"ExifOffset": 154,
+	"Compression": 6,
+	"ThumbnailOffset": 724,
+	"ThumbnailLength": 13143,
+	"ExposureTime": "1/100",
+	"FNumber": 3.2,
+	"ISO": 100,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2008:05:11 18:20:44",
+	"CreateDate": "2008:05:11 18:20:44",
+	"ShutterSpeedValue": "6.6",
+	"FocalPlaneXResolution": 3086.9257950530036,
+	"FocalPlaneYResolution": 3091.295116772824,
+	"SerialNumber": "2921200799",
+	"LensInfo": [
+		50,
+		50,
+		null,
+		null
+	],
+	"LensModel": "EF50mm f/1.8"
+}

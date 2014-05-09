@@ -1,0 +1,55 @@
+{
+	"Make": "Nokia",
+	"Model": "Nokia 800",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "Windows Phone 7.5",
+	"Artist": "",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 196,
+	"GPSInfo": 414,
+	"Compression": 6,
+	"ThumbnailOffset": 686,
+	"ThumbnailLength": 28752,
+	"ExposureTime": 0.0019011406844106464,
+	"FNumber": 2.2,
+	"DateTimeOriginal": "2013:10:14 17:03:07",
+	"CreateDate": "2013:10:14 17:03:07",
+	"MeteringMode": 2,
+	"Flash": 16,
+	"ColorSpace": 1,
+	"ExifImageWidth": 3264,
+	"ExifImageHeight": 2448,
+	"InteropOffset": 414,
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "S",
+	"GPSLatitude": [
+		31,
+		59,
+		36.31
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		115,
+		54,
+		44.006
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 14.2,
+	"GPSMeasureMode": "3",
+	"GPSDOP": 48.3165,
+	"InteropIndex": "S",
+	"InteropVersion": [
+		31,
+		59,
+		36.31
+	],
+	"ProcessingSoftware": 48.3165
+}

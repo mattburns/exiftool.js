@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP psc1500",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 198,
+	"DateTimeOriginal": "2006:02:25 18:46: 5",
+	"ColorSpace": 1,
+	"ExifImageWidth": 707,
+	"ExifImageHeight": 708,
+	"Saturation": 0,
+	"Sharpness": 0
+}

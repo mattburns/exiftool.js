@@ -1,0 +1,13 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"JFIFVersion": 1.01,
+	"ResolutionUnit": "inches",
+	"XResolution": 180,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 180
+}

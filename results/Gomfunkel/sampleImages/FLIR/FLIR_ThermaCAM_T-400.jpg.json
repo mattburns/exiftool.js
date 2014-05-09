@@ -1,0 +1,47 @@
+{
+	"Make": "FLIR Systems AB",
+	"Model": "ThermaCAM T-400",
+	"Software": "IRSDK Ver. 1.1\u0000",
+	"ImageDescription": "\u0000",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2008:08:19 09:59:10",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 242,
+	"GPSInfo": 758,
+	"ExposureTime": 0,
+	"ExifVersion": "0220\u0000",
+	"DateTimeOriginal": "2008:08:19 09:59:10",
+	"CreateDate": "2008:08:19 09:59:10",
+	"SubjectDistance": 8.01,
+	"FocalLength": 0,
+	"DigitalZoomRatio": null,
+	"FlashpixVersion": "0100\u0000",
+	"ColorSpace": 1,
+	"ExifImageWidth": 800,
+	"ExifImageHeight": 600,
+	"ImageUniqueID": "252A591D19D937E60975458F57D36048\u0000",
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "\u0000",
+	"GPSLatitude": [
+		429496728.6,
+		0.24923132786293836,
+		76.18167686324571
+	],
+	"GPSLongitudeRef": "\u0000",
+	"GPSLongitude": [
+		429496728.6,
+		0.24923132786293836,
+		76.18167686324571
+	],
+	"GPSAltitude": 429496728.6,
+	"GPSMapDatum": "WGS84",
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

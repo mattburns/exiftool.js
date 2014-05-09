@@ -1,0 +1,27 @@
+{
+	"Make": "Samsung Electronics",
+	"Model": "GT-S3030",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 156,
+	"ImageWidth": 32,
+	"ImageHeight": 32,
+	"BitsPerSample": [
+		8,
+		8,
+		8
+	],
+	"Compression": 1,
+	"PhotometricInterpretation": 2,
+	"StripOffsets": 426,
+	"SamplesPerPixel": 3,
+	"RowsPerStrip": 32,
+	"StripByteCounts": 3072,
+	"ExposureTime": 0.008333333333333333,
+	"ColorSpace": 1,
+	"ExifImageWidth": 224,
+	"ExifImageHeight": 176
+}

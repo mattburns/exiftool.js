@@ -1,0 +1,18 @@
+{
+	"Make": "EASTMAN KODAK COMPANY",
+	"Model": "KODAK PalmPix CAMERA V1.2.0000",
+	"XResolution": 72,
+	"YResolution": 72,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 168,
+	"Compression": 6,
+	"ThumbnailOffset": 502,
+	"ThumbnailLength": 6663,
+	"ExifVersion": "2.1",
+	"DateTimeOriginal": "2001:03:28 20:09:06",
+	"CreateDate": "2001:03:28 20:09:06",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480,
+	"error": "\u0003\u001c\u0014\u0001\u0014...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

@@ -1,0 +1,34 @@
+{
+	"Make": "ZTE",
+	"Model": "ZTE Blade",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"ExifOffset": 136,
+	"GPSInfo": 298,
+	"DateTimeOriginal": "2012:03:05 14:50:16",
+	"CreateDate": "2012:03:05 14:50:16",
+	"FocalLength": 10,
+	"ColorSpace": 1,
+	"ExifImageWidth": 1536,
+	"ExifImageHeight": 2048,
+	"GPSLatitudeRef": "3",
+	"GPSLatitude": [
+		0,
+		0,
+		0
+	],
+	"GPSLongitudeRef": "4",
+	"GPSLongitude": [
+		0,
+		0,
+		0
+	],
+	"GPSAltitude": 0,
+	"GPSTimeStamp": [
+		14,
+		50,
+		1600
+	]
+}

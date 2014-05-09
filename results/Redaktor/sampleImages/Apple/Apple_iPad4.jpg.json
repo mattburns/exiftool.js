@@ -1,0 +1,32 @@
+{
+	"Make": "Apple",
+	"Model": "iPad",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "6.0",
+	"ModifyDate": "2012:11:08 13:08:21",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 181,
+	"Compression": 6,
+	"ThumbnailOffset": 665,
+	"ThumbnailLength": 11907,
+	"ExposureTime": "1/4329",
+	"FNumber": 2.4,
+	"ISO": 64,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2012:11:08 13:08:21",
+	"CreateDate": "2012:11:08 13:08:21",
+	"ShutterSpeedValue": "12.1",
+	"BrightnessValue": 10.767304860088366,
+	"SubjectArea": [
+		1295,
+		967,
+		699,
+		696
+	],
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2592,
+	"ExifImageHeight": 1936,
+	"FocalLengthIn35mmFilm": 35
+}

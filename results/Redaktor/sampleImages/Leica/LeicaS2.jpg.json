@@ -1,0 +1,31 @@
+{
+	"Make": "Leica Camera AG",
+	"Model": "S2",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "1.0.0.9",
+	"YCbCrSubSampling": [
+		2,
+		1
+	],
+	"YCbCrPositioning": 2,
+	"ExifOffset": 300,
+	"DateTimeOriginal": "2009:11:12 10:31:25",
+	"ImageWidth": 160,
+	"ImageHeight": 120,
+	"Compression": 6,
+	"ThumbnailOffset": 3988,
+	"ThumbnailLength": 14369,
+	"ExposureTime": "1/90",
+	"ISO": 160,
+	"ExifVersion": "2.2",
+	"CreateDate": "2009:11:12 10:31:25",
+	"ShutterSpeedValue": "6.5",
+	"MakerNote": [],
+	"ExifImageWidth": 7488,
+	"ExifImageHeight": 4976,
+	"DigitalZoomRatio": 0,
+	"ImageUniqueID": "00000000000000000000000003566061",
+	"error": "\u0000\u0000\u0000\u0000\u0000...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

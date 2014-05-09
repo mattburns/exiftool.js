@@ -1,0 +1,18 @@
+{
+	"Make": "Fly",
+	"Model": "Fly LX600",
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "MEGA1.06A.W06.36.MP.V39.F1",
+	"ModifyDate": "2008:06:15 12:32:24",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 240,
+	"DigitalZoomRatio": 1,
+	"ExposureTime": "1/960",
+	"ISO": 100,
+	"ExifVersion": "2.2",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 480,
+	"ExifImageHeight": 640,
+	"error": "Media...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

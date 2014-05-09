@@ -1,0 +1,23 @@
+{
+	"Make": "EASTMAN KODAK COMPANY",
+	"Model": "KODAK EASYSHARE M530 Digital Camera",
+	"Orientation": 1,
+	"XResolution": 480,
+	"YResolution": 480,
+	"ModifyDate": "2011:01:15 17:31:06",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 216,
+	"ExposureTime": "1/640",
+	"FNumber": 5.6,
+	"ISO": 80,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2011:01:15 15:12:17",
+	"ShutterSpeedValue": "9.3",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1607,
+	"ExifImageHeight": 1382,
+	"ExposureIndex": 80,
+	"OffsetSchema": 0,
+	"error": "IIII\u0002...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

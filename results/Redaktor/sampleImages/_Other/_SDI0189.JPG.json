@@ -1,0 +1,49 @@
+{
+	"Make": "SIGMA",
+	"Model": "SIGMA SD14",
+	"Orientation": 1,
+	"XResolution": 180,
+	"YResolution": 180,
+	"Software": "SD14 1.05",
+	"ModifyDate": "2008:01:16 00:42:07",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"ExifOffset": 328,
+	"Compression": 6,
+	"ThumbnailOffset": 43021,
+	"ThumbnailLength": 11320,
+	"ExposureTime": "1/60",
+	"FNumber": 5.6,
+	"ISO": 100,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2008:01:16 00:42:07",
+	"CreateDate": "2008:01:16 00:42:07",
+	"UserComment": "ASCII",
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 2640,
+	"ExifImageHeight": 1760,
+	"InteropOffset": 42885,
+	"FocalLengthIn35mmFilm": 348,
+	"ImageUniqueID": "30313030393633385FA48E475941D611",
+	"Gamma": 2.2,
+	"InteropIndex": "R03",
+	"InteropVersion": "1",
+	"error": "SIGMA...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

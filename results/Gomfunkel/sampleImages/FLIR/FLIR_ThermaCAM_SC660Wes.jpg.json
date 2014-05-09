@@ -1,0 +1,57 @@
+{
+	"Make": "FLIR Systems AB",
+	"Model": "ThermaCAM SC660 Wes",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "Common_dll v9.1.0b1",
+	"ModifyDate": "2000:01:01 00:43:09",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 238,
+	"GPSInfo": 748,
+	"Compression": 6,
+	"ThumbnailOffset": 1086,
+	"ThumbnailLength": 7892,
+	"ExposureTime": 0.03003003003003003,
+	"ExifVersion": "0220",
+	"DateTimeOriginal": "2000:01:01 00:43:09",
+	"CreateDate": "2000:01:01 00:43:09",
+	"SubjectDistance": 7,
+	"FocalLength": 38,
+	"FlashpixVersion": "0100",
+	"ColorSpace": 1,
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480,
+	"DigitalZoomRatio": 1,
+	"ImageUniqueID": "72AE2CD63D6C4AE1678418BE48230029",
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		52,
+		20.741,
+		0
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		14,
+		5.639,
+		0
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 49.8,
+	"GPSTimeStamp": [
+		9,
+		4,
+		409
+	],
+	"GPSSatellites": "7",
+	"GPSDOP": 1.2,
+	"GPSMapDatum": "WGS84",
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

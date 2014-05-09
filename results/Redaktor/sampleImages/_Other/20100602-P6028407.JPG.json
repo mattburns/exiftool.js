@@ -1,0 +1,96 @@
+{
+	"ImageDescription": "OLYMPUS DIGITAL CAMERA",
+	"Make": "OLYMPUS CORPORATION",
+	"Model": "E-1",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "Version 1.5",
+	"ModifyDate": "2010:06:02 16:50:42",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 556,
+	"GPSInfo": 6968,
+	"Compression": 6,
+	"ThumbnailOffset": 7300,
+	"ThumbnailLength": 6359,
+	"ExposureTime": "1/320",
+	"FNumber": 8,
+	"ISO": 100,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2010:06:02 16:50:42",
+	"CreateDate": "2010:06:02 16:50:42",
+	"ExposureCompensation": 0,
+	"UserComment": "",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1280,
+	"ExifImageHeight": 960,
+	"InteropOffset": 6938,
+	"DigitalZoomRatio": 0,
+	"GPSVersionID": "2.2.0.0",
+	"GPSTimeStamp": "14:50:42",
+	"GPSSatellites": "0",
+	"GPSMapDatum": "WGS-84",
+	"GPSDateStamp": "2010:06:02",
+	"InteropIndex": "R98",
+	"InteropVersion": "1",
+	"SpecialMode": [
+		0,
+		0,
+		0
+	],
+	"Quality": 1,
+	"Macro": 0,
+	"BWMode": 0,
+	"DigitalZoom": 0,
+	"FocalPlaneDiagonal": 21.6,
+	"LensDistortionParams": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"CameraType": "D4040",
+	"ColorMatrix": [
+		360,
+		65496,
+		65470,
+		65518,
+		318,
+		65490,
+		4,
+		65402,
+		384
+	],
+	"BlackLevel": [
+		65,
+		65,
+		65,
+		65
+	],
+	"RedBalance": [
+		448,
+		64
+	],
+	"BlueBalance": [
+		296,
+		64
+	],
+	"SharpnessFactor": 608,
+	"ColorControl": [
+		96,
+		4096,
+		2944,
+		4096,
+		16,
+		128
+	],
+	"ValidBits": [
+		12,
+		0
+	],
+	"CoringFilter": 1024,
+	"OlympusImageWidth": 2560,
+	"OlympusImageHeight": 1920
+}

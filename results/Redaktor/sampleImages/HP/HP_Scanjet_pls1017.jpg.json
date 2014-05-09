@@ -1,0 +1,21 @@
+{
+	"Make": "HP",
+	"Model": "HP Scanjet pls1017",
+	"XResolution": 200,
+	"YResolution": 200,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 206,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:06:07 11:51:54",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1159,
+	"ExifImageHeight": 1651
+}

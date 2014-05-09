@@ -1,0 +1,13 @@
+{
+	"Make": "RICOH",
+	"Model": "RDXIFW32",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 154,
+	"ExifVersion": "1",
+	"CompressedBitsPerPixel": 2,
+	"UserComment": "",
+	"error": "Ll2;L...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

@@ -1,0 +1,31 @@
+{
+	"Make": "SAMSUNG",
+	"Model": "WB2000",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "1007021",
+	"ModifyDate": "2010:09:11 14:56:27",
+	"YCbCrPositioning": 2,
+	"YCbCrSubSampling": [
+		2,
+		1
+	],
+	"ExifOffset": 207,
+	"Compression": 6,
+	"ThumbnailOffset": 17029,
+	"ThumbnailLength": 18613,
+	"ExposureTime": "1/350",
+	"FNumber": 5.7,
+	"ISO": 100,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2010:09:11 14:56:27",
+	"CreateDate": "2010:09:11 14:56:27",
+	"ExposureCompensation": 0,
+	"ExifImageWidth": 3648,
+	"ExifImageHeight": 2736,
+	"SensingMethod": 0,
+	"DigitalZoomRatio": 1,
+	"FocalLengthIn35mmFilm": 90,
+	"error": "\u0000\u0011\u0000\u0001\u0000...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

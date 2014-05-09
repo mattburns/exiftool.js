@@ -1,0 +1,18 @@
+{
+	"APP14Flags0": "[14], Encoded with Blend=1 downsampling",
+	"APP14Flags1": "(none)",
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"ColorTransform": "YCbCr",
+	"DCTEncodeVersion": 100,
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"JFIFVersion": 1.02,
+	"Quality": "91%",
+	"ResolutionUnit": "None",
+	"XResolution": 100,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 100
+}

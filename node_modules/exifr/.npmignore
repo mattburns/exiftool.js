@@ -1,0 +1,6 @@
+.gitignore
+.project
+.git
+test
+_stuff
+node_modules

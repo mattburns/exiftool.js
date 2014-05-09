@@ -1,0 +1,53 @@
+{
+	"Make": "Canon",
+	"Model": "Canon EOS 1000D",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2011:07:21 22:54:08",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"ExifOffset": 320,
+	"Compression": 6,
+	"ThumbnailOffset": 9764,
+	"ThumbnailLength": 5441,
+	"ExposureTime": "1/3200",
+	"FNumber": 5.6,
+	"ISO": 800,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2011:07:21 22:54:08",
+	"CreateDate": "2011:07:21 22:54:08",
+	"ShutterSpeedValue": "11.6",
+	"ExposureCompensation": 0,
+	"UserComment": "",
+	"SubSecTime": "49",
+	"SubSecTimeOriginal": "49",
+	"SubSecTimeDigitized": "49",
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 3888,
+	"ExifImageHeight": 2592,
+	"InteropOffset": 9614,
+	"FocalPlaneXResolution": 4438.356164383562,
+	"FocalPlaneYResolution": 4445.969125214408,
+	"Gamma": 2.2,
+	"InteropIndex": "R03",
+	"InteropVersion": "1",
+	"error": " \u0000\u0001\u0000\u0003...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

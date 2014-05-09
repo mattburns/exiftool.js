@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP ScanJet pls3390",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 206,
+	"DateTimeOriginal": "2010:03:12 11:56:10",
+	"ColorSpace": 1,
+	"ExifImageWidth": 832,
+	"ExifImageHeight": 1216,
+	"Saturation": 0,
+	"Sharpness": 0
+}

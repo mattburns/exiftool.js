@@ -1,0 +1,49 @@
+{
+	"Make": "Motorola",
+	"Model": "MB200",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2009:10:27 13:53:23",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 186,
+	"GPSInfo": 370,
+	"Compression": 6,
+	"ThumbnailOffset": 690,
+	"ThumbnailLength": 7784,
+	"DateTimeOriginal": "2009:10:27 13:53:23",
+	"CreateDate": "2009:10:27 13:53:23",
+	"ColorSpace": 1,
+	"ExifImageWidth": 2048,
+	"ExifImageHeight": 1536,
+	"InteropOffset": 340,
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		37,
+		47,
+		17.22
+	],
+	"GPSLongitudeRef": "W",
+	"GPSLongitude": [
+		122,
+		23,
+		47.78
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0,
+	"GPSTimeStamp": [
+		20,
+		53,
+		20
+	],
+	"GPSMapDatum": "WGS-84",
+	"GPSDateStamp": "2009:10:27",
+	"InteropIndex": "R98"
+}

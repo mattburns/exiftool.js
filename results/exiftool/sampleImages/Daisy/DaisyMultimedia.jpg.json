@@ -1,0 +1,22 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"Comment": "ACD Systems Digital Imaging",
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Little-endian (Intel, II)",
+	"ImageDescription": "Exif_JPEG",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"JFIFVersion": 1.01,
+	"Make": "Daisy Multimedia",
+	"Model": "?",
+	"ModifyDate": "2002:12:26 22:45:37",
+	"Orientation": "Horizontal (normal)",
+	"ResolutionUnit": "inches",
+	"Software": " Multimedia  03.38",
+	"XResolution": 0.00003247913216,
+	"YCbCrPositioning": "Centered",
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 0.5609394724
+}

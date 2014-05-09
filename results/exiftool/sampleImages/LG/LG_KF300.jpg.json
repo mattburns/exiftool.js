@@ -1,0 +1,19 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Little-endian (Intel, II)",
+	"ExifVersion": "0220",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"Make": "LG_Electronics",
+	"Model": "KF300",
+	"ResolutionUnit": "inches",
+	"ThumbnailImage": "(Binary data 47351 bytes)",
+	"ThumbnailLength": 47351,
+	"ThumbnailOffset": 212,
+	"XResolution": 72,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 72
+}

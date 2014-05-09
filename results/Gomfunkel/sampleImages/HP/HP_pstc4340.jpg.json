@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP pstc4340",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 198,
+	"DateTimeOriginal": "2010:05:12 01:35:56",
+	"ColorSpace": 1,
+	"ExifImageWidth": 974,
+	"ExifImageHeight": 667,
+	"Saturation": 1,
+	"Sharpness": 1
+}

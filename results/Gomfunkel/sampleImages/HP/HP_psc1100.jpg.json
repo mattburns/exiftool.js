@@ -1,0 +1,25 @@
+{
+	"Make": "HP",
+	"Model": "HP psc1100",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 185,
+	"ThumbnailOffset": 897,
+	"ThumbnailLength": 4533,
+	"DateTimeOriginal": "2001:01:03 02:45: 5",
+	"ColorSpace": 1,
+	"ExifImageWidth": 595,
+	"ExifImageHeight": 1004,
+	"Saturation": 0,
+	"Sharpness": 0
+}

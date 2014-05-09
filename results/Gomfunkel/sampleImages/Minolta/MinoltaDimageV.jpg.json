@@ -1,0 +1,33 @@
+{
+	"Make": "MINOLTA",
+	"Model": "Dimage V",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2006:01:21 01:18:49",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 182,
+	"ImageWidth": 80,
+	"ImageHeight": 60,
+	"BitsPerSample": [
+		8,
+		8,
+		8
+	],
+	"Compression": 1,
+	"PhotometricInterpretation": 6,
+	"StripOffsets": 532,
+	"SamplesPerPixel": 3,
+	"RowsPerStrip": 60,
+	"StripByteCounts": 9600,
+	"YCbCrSubSampling": [
+		2,
+		1
+	],
+	"DateTimeOriginal": "2006:01:21 01:18:49",
+	"CreateDate": "2006:01:21 01:18:49",
+	"CompressedBitsPerPixel": 0.8,
+	"MeteringMode": 5,
+	"Flash": 1
+}

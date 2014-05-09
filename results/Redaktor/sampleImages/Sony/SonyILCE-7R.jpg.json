@@ -1,0 +1,60 @@
+{
+	"ImageDescription": "",
+	"Make": "SONY",
+	"Model": "ILCE-7R",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "ILCE-7R v0.01",
+	"ModifyDate": "2013:09:08 14:10:39",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"ExifOffset": 484,
+	"Compression": 6,
+	"ThumbnailOffset": 38574,
+	"ThumbnailLength": 12805,
+	"ExposureTime": "0.8",
+	"FNumber": 11,
+	"ISO": 400,
+	"RecommendedExposureIndex": 400,
+	"ExifVersion": "2.3",
+	"DateTimeOriginal": "2013:09:08 14:10:39",
+	"CreateDate": "2013:09:08 14:10:39",
+	"CompressedBitsPerPixel": 4,
+	"BrightnessValue": 0.35703125,
+	"UserComment": "",
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 7360,
+	"ExifImageHeight": 4912,
+	"InteropOffset": 38286,
+	"DigitalZoomRatio": 1,
+	"FocalLengthIn35mmFilm": 24,
+	"LensInfo": [
+		24,
+		24,
+		2,
+		2
+	],
+	"LensModel": "24mm F2 ZA SSM",
+	"Gamma": 2.2,
+	"InteropIndex": "R03",
+	"InteropVersion": "1",
+	"error": "SONY ...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

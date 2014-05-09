@@ -1,0 +1,47 @@
+{
+	"Make": "SAMSUNG",
+	"Model": "SGH-i900",
+	"Software": "Mits Camera",
+	"ExifOffset": 184,
+	"GPSInfo": 408,
+	"CustomRendered": 0,
+	"WhiteBalance": 0,
+	"DigitalZoomRatio": 1,
+	"Contrast": 0,
+	"Saturation": 0,
+	"Sharpness": 0,
+	"Compression": 6,
+	"ThumbnailOffset": 616,
+	"ThumbnailLength": 9121,
+	"ExposureTime": 0.02,
+	"FNumber": 2.8,
+	"ISO": 50,
+	"DateTimeOriginal": "2010:06:07 22:25:38",
+	"CreateDate": "2010:06:07 22:25:38",
+	"MeteringMode": 2,
+	"Flash": 0,
+	"FocalLength": 4.507,
+	"ExifImageWidth": 1920,
+	"ExifImageHeight": 2560,
+	"GPSVersionID": [
+		1,
+		0,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		0,
+		0,
+		0
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		0,
+		0,
+		0
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0,
+	"GPSMapDatum": "WGS-84"
+}

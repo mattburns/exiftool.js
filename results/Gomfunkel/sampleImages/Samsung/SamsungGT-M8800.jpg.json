@@ -1,0 +1,56 @@
+{
+	"Make": "SAMSUNG",
+	"Model": "GT-M8800",
+	"Software": "M8800BOHJ5_HK1-B4.19",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 200,
+	"GPSInfo": 480,
+	"Compression": 6,
+	"ThumbnailOffset": 828,
+	"ThumbnailLength": 41174,
+	"ExposureTime": 0.00135,
+	"FNumber": 2.6,
+	"ISO": 50,
+	"ShutterSpeedValue": 9.511688232421875,
+	"ApertureValue": 2.75701904296875,
+	"BrightnessValue": 8.268707275390625,
+	"Flash": 32,
+	"ColorSpace": 1,
+	"ExifImageWidth": 3264,
+	"ExifImageHeight": 2448,
+	"InteropOffset": 414,
+	"GPSVersionID": "2.2.0.0",
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		35,
+		18,
+		14.67
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		33,
+		16,
+		5.4
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 684,
+	"GPSTrackRef": "T",
+	"GPSTrack": 0,
+	"GPSSpeedRef": "K",
+	"GPSSpeed": 0,
+	"GPSTimeStamp": [
+		12,
+		57,
+		43
+	],
+	"InteropIndex": "\u0000",
+	"InteropVersion": [
+		null,
+		null,
+		null
+	]
+}

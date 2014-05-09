@@ -1,0 +1,23 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"ColorSpace": "sRGB",
+	"ComponentsConfiguration": "Y, Cb, Cr, -",
+	"DateTimeOriginal": "2010:1019:19 15:14:4",
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Little-endian (Intel, II)",
+	"ExifImageHeight": 480,
+	"ExifImageWidth": 640,
+	"ExifVersion": "0220",
+	"FlashpixVersion": "0100",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"Make": "SAMSUNG",
+	"Model": "SGH-T239",
+	"ResolutionUnit": "inches",
+	"XResolution": 72,
+	"YCbCrPositioning": "Co-sited",
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 72
+}

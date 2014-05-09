@@ -1,0 +1,19 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Big-endian (Motorola, MM)",
+	"ExifImageHeight": 768,
+	"ExifImageWidth": 1024,
+	"ExifVersion": "0220",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"JFIFVersion": 1.01,
+	"Make": "Samsung",
+	"Model": "i819 Phone Camera",
+	"ResolutionUnit": "None",
+	"XResolution": 1,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 1
+}

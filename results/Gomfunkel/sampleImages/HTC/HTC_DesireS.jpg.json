@@ -1,0 +1,48 @@
+{
+	"Make": "HTC",
+	"Model": "HTC Desire S",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 140,
+	"GPSInfo": 356,
+	"Compression": 6,
+	"ThumbnailOffset": 704,
+	"ThumbnailLength": 49896,
+	"ISO": 75,
+	"DateTimeOriginal": "2011:05:29 10:31:54",
+	"CreateDate": "2011:05:29 10:31:54",
+	"FocalLength": 3.53,
+	"ColorSpace": 1,
+	"ExifImageWidth": 2592,
+	"ExifImageHeight": 1552,
+	"InteropOffset": 326,
+	"GPSVersionID": [
+		2,
+		2,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		56,
+		47,
+		36.88
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		53,
+		26,
+		11.34
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0,
+	"GPSTimeStamp": [
+		10,
+		31,
+		54
+	],
+	"GPSMapDatum": "WGS-84",
+	"GPSDateStamp": "2011:05:29",
+	"InteropIndex": "R98"
+}

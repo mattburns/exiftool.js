@@ -1,0 +1,23 @@
+{
+	"Make": "Nintendo",
+	"Model": "NintendoDS",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "JINH",
+	"ModifyDate": "2010:03:05 01:35:56",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 186,
+	"Compression": 6,
+	"ThumbnailOffset": 572,
+	"ThumbnailLength": 3128,
+	"DateTimeOriginal": "2010:03:05 01:35:56",
+	"CreateDate": "2010:03:05 01:35:56",
+	"ColorSpace": 1,
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480,
+	"InteropOffset": 418,
+	"InteropIndex": "R98",
+	"RelatedImageFileFormat": "JPEG Exif Ver 2.2",
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

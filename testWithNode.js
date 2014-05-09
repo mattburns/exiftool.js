@@ -1,81 +1,20 @@
 (function() {
-    "use strict";
+    //"use strict";
 
-    var walk = require('walk'), fs = require('fs'), options, walker, exif = require('./exiftool.js');
+    var walk = require('walk'), fs = require('node-fs'), options, walker, exiftoolJS = require('./exiftool.js');
     var sys = require('sys')
     var exec = require('child_process').exec;
     var Gomfunkel = require('exif').ExifImage;    
-    var child;
+    var Redaktor = require('exifr').ExifImage;    
+    
+    var programs = ['exiftool', 'exiftool.js', 'Gomfunkel', 'Redaktor'];
 
-    //var results = []; // store the responses from js and perl exiftools
-
-    var currentRoot = ''; // aka, current directory
-
-    var reportFiles = []; // list of each of the report filenames
-    var totalFiles = 0; // count of all jpeg files
-
-    // Totals for exiftool.js vs perl exiftool
-    var totalSupportedTagsByETJS = 0; // count of all tag values that were identical
-    var totalUnsupportedTagsByETJS = 0; // count of all tag values that were not identical
-    var totalSupportedTagsByModelByETJS = {};
-    var totalUnsupportedTagsByModelByETJS = {};
-
-    // Totals for Gomfunkel.js vs perl exiftool
-    var totalSupportedTagsByGF = 0; // count of all tag values that were identical
-    var totalUnsupportedTagsByGF = 0; // count of all tag values that were not identical
-    var totalSupportedTagsByModelByGF = {};
-    var totalUnsupportedTagsByModelByGF= {};
-
-
-    var toSupportTable = function(etjsMatch, etjsDiff, gfMatch, gfDiff) {
-        return "<table class='table table-bordered'>" +
-            "<tr><th>exiftool.js</th><td>" + etjsMatch + "/" + (etjsDiff+etjsMatch) + "</td></tr>\n"+
-            "<tr><th>Gomfunkel</th><td>" + gfMatch + "/" + (gfDiff+gfMatch) + "</td></tr>\n"+
-            "</table>";
-    }
-    var toSupportLine = function(etjsMatch, etjsDiff, gfMatch, gfDiff) {
-        return "exiftool.js: " + etjsMatch + "/" + (etjsDiff+etjsMatch) + ", Gomfunkel: " + gfMatch + "/" + (gfDiff+gfMatch);
-    }
+    var coverageSummaryHolder = {};
 
     /**
-     * Write a summary html file (report/index.html) which summarises the exiftool support and links to the other html files
+     * Sort an object's key's alphabetically.
+     * Not strictly legit since key ordering is not guaranteed...
      */
-    var writeSummary = function() {
-        var html = "<p>"+totalFiles+ " total files</p>";
-        html += "<h3>Total tag support</h3>" +
-            toSupportTable(totalSupportedTagsByETJS, totalUnsupportedTagsByETJS, totalSupportedTagsByGF, totalUnsupportedTagsByGF) + "</li>\n";
-        html += "<h3>Manfacturer tag support</h3>";
-        
-        html += "<table class='table table-bordered'><tr><th>File</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th></tr>";
-
-        for (var key in reportFiles) {
-            html += "<tr><td><a href='"+reportFiles[key]+"'>" + reportFiles[key] + "</a></td>"+
-                "<td>" + (totalSupportedTagsByModelByETJS[reportFiles[key]] + totalUnsupportedTagsByModelByETJS[reportFiles[key]]) + "</td>" +
-                "<td>" + totalSupportedTagsByModelByETJS[reportFiles[key]] + "</td>" +
-                "<td>" + totalSupportedTagsByModelByGF[reportFiles[key]] + "</td></tr>\n";
-        }
-        html += "<tr>" +
-                "<th>Totals</th>" +
-                "<th>" + (totalSupportedTagsByETJS + totalUnsupportedTagsByETJS) + "</th>" +
-                "<th>" + totalSupportedTagsByETJS + "</th>" +
-                "<th>" + totalSupportedTagsByGF + "</th></tr>\n";
-        html += "</table>";
-
-        fs.readFile('report/template.html', 'utf8', function(err, data) {
-            if (err) {
-                return console.log(err);
-            }
-            var result = data.replace(/htmlbody/g, html);
-
-            var reportFile = 'report/index.html';
-            fs.writeFile(reportFile, result, 'utf8', function(err) {
-                if (err) {
-                    return console.log(err);
-                }
-            });
-        });
-    }
-
     var sortObject = function(o) {
         var sorted = {},
         key, a = [];
@@ -94,120 +33,276 @@
         return sorted;
     }
 
+    /**
+     * Save the exif for the current image into a json file.
+     * json - js object, basically just map of tags to values.
+     * imgFile - path of image under test
+     * program - name of program that extracted the exif (exiftool.js or Redaktor etc.)
+     */
+    var saveJson = function(json, imgFile, program) {
+        var pathString = json.img;
+        var jsonFile = 'results/' + program + '/' + imgFile + '.json';
+        var parentDir = jsonFile.substring(0, jsonFile.lastIndexOf("/"));
+        fs.mkdirSync(parentDir, 0777, true);
+        fs.writeFileSync(jsonFile, JSON.stringify(json, null, '\t'));
+    };
 
     /**
-     * Stash the json for the current directory (manufacturer) into a json file.
-     * This also then generates the html report for that manufacturer by using that json file.
+     * Extract the exif from the given file using thegiven program. Pass to the callback object.
      */
-    var stashJson = function(json) {
-        if (json.exifPerl) {
-            var pathString = json.img.replace(/\//g, "-");
-            var jsonFile = 'results/' + pathString + '.json';
-            fs.writeFile(jsonFile, JSON.stringify(json, null, '\t'),
-                    function(err) {
-                        if (err) {
-                            console.log(err);
-                        } else {
-                            console.log(jsonFile + " written");
+    var extractExif = function(imgFile, program, callback) {
+        var pathString = 'results/' + program + '/' + imgFile + '.json';
+
+        switch(program) {
+            case 'exiftool' : {
+                extractExifUsingExiftool(imgFile, callback);
+                break;
+            }
+            case 'exiftool.js' : {
+                extractExifUsingExiftoolJS(imgFile, callback);
+                break;
+            }
+            case 'Gomfunkel' : {
+                extractExifUsingGomfunkel(imgFile, callback);
+                break;
+            }
+            case 'Redaktor' : {
+                extractExifUsingRedaktor(imgFile, callback);
+                break;
+            }
+        }
+    };
+
+    var extractExifUsingExiftool = function(imgFile, callback) {
+        var child = exec("exiftool -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate --SourceFile --ExifToolVersion --FileName --Directory --FilePermissions --FileSize --FileModifyDate --FileType --MIMEType '" + imgFile + "'", function(error, stdout, stderr) {
+            if (error !== null) {
+                console.log('exec error with ' + imgFile + ': ' + error);
+                callback();
+            } else {
+                // stdout string takes some munging...
+                var exifFromPerl = String(stdout);
+                exifFromPerl = exifFromPerl.replace(/\r?\n|\r/g, ""); // lose newlines
+                exifFromPerl = exifFromPerl.substring(1,
+                        exifFromPerl.length - 1); // lose surrounding []
+                exifFromPerl = JSON.parse(exifFromPerl);
+                delete exifFromPerl["SourceFile"];
+                exifFromPerl = sortObject(exifFromPerl);
+                callback(exifFromPerl);
+            }
+        });
+    };
+    
+    var extractExifUsingExiftoolJS = function(imgFile, callback) {
+        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, imgFile, callback);
+    };
+    
+    var extractExifUsingGomfunkel = function(imgFile, callback) {
+        new Gomfunkel({ image : imgFile }, function (error, exif) {
+            if (error) {
+                console.log('Gomfunkel Error: '+error.message);
+            } else {
+                // Loop over any children like "exif", "image" or "makernote" 
+                for (var key in exif) {
+                    // ...then loop over their children moving them up to the root
+                    for (var exifKey in exif[key]) {
+                        // skip Objects
+                        var valueType = Object.prototype.toString.call(exif[key][exifKey]);
+                        if (valueType != "[object Object]") {
+                            exif[exifKey] = exif[key][exifKey];
                         }
-                    });
+                    };
+                    if (typeof exif[key] === 'object') {
+                        delete exif[key];
+                    }
+                };
+            }
+            callback(exif);
+        });
+    };
 
+    var extractExifUsingRedaktor = function(imgFile, callback) {
+        new Redaktor({ image : imgFile }, function (error, exif) {
+            if (error) {
+                console.log('Redaktor Error: '+error.message);
+            } else {
+                // Loop over any children like "exif", "image" or "makernote" 
+                for (var key in exif) {
+                    // ...then loop over their children moving them up to the root
+                    for (var exifKey in exif[key]) {
+                        // skip Objects
+                        var valueType = Object.prototype.toString.call(exif[key][exifKey]);
+                        if (valueType != "[object Object]") {
+                            exif[exifKey] = exif[key][exifKey];
+                        }
+                    };
+                    if (typeof exif[key] === 'object') {
+                        delete exif[key];
+                    }
+                };
+            }
+            callback(exif);
+        });
+    };
 
-            var totalSupportedByThisModelETJS = 0;
-            var totalUnsupportedByThisModelETJS = 0;
-            var totalSupportedByThisModelGF = 0;
-            var totalUnsupportedByThisModelGF = 0;
-            
-            var html = "<table class='table table-bordered'>"
+    /**
+     * Write the html coverage report, and update the coverage summary page.
+     */
+    var updateReports = function(allExif, image, coverageSummary, callback) {
+        writeFileCoverageReport(allExif, image, coverageSummary, (function(cb) {
+            return function(cs) {
+                writeSummaryCoverageReport(cs, cb);
+            }
+        })(callback));
+    }
+
+    var writeFileCoverageReport = function(allExif, image, coverageSummary, callback) {
+        var html = "<table class='table table-bordered table-fixed'>"
                     + "<thead><tr>"
                     + "<th>image</th>"
-                    + "<th>tag</th>"
-                    + "<th>exiftool</th>"
-                    + "<th>exiftool.js</th>"
-                    + "<th>Gomfunkel</th>"
-                    + "</tr></thead>\n<tbody>\n";
-            totalFiles++;
-            var firstRow = true;
-            for (var key in json.exifPerl) {
-                var rowHtml = "<tr>\n";
-                if (firstRow) {
-                    rowHtml += "<th rowspan='" + Object.keys(json.exifPerl).length + "'>" + json.img + "</th>\n";
-                    firstRow = false;
-                }
-
-                rowHtml += "<td>" + key + "</td>\n";
-                rowHtml += "<td>" + json.exifPerl[key] + "</td>\n";
-
-                if (json.exifJS[key] == json.exifPerl[key]) {
-                    rowHtml += "<td class='match'>" + json.exifJS[key] + "</td>\n";
-                    totalSupportedTagsByETJS++;
-                    totalSupportedByThisModelETJS++;
-                } else {
-                    if (typeof json.exifJS[key] === 'undefined') {
-                        rowHtml += "<td class='missing'>-</td>\n";
-                    } else {
-                        rowHtml += "<td class='diff'>" + json.exifJS[key] + "</td>\n";
-                    }
-                    totalUnsupportedTagsByETJS++;
-                    totalUnsupportedByThisModelETJS++;
-                }
-                if (json.exifGomfunkel[key] == json.exifPerl[key]) {
-                    rowHtml += "<td class='match'>" + json.exifGomfunkel[key] + "</td>\n";
-                    totalSupportedTagsByGF++;
-                    totalSupportedByThisModelGF++;
-                } else {
-                    if (typeof json.exifGomfunkel[key] === 'undefined') {
-                        rowHtml += "<td class='missing'>-</td>\n";
-                    } else {
-                        rowHtml += "<td class='diff'>" + json.exifGomfunkel[key] + "</td>\n";
-                    }
-                    totalUnsupportedTagsByGF++;
-                    totalUnsupportedByThisModelGF++;
-                }
-                rowHtml += "</tr>\n";
-                html += rowHtml;
+                    + "<th>tag</th>";
+        for (var i = 0 ; i < programs.length ; i++) {
+            var program = programs[i];
+            html += "<th>" + program + "</th>";
+        }
+        html += "</tr></thead>\n<tbody>\n";
+        var firstRow = true;
+        for (var key in allExif.exiftool) {
+            var rowHtml = "<tr>\n";
+            if (firstRow) {
+                rowHtml += "<th rowspan='" + Object.keys(allExif.exiftool).length + "'>" + image + "</th>\n";
+                firstRow = false;
             }
-            html += "</tbody></table>";
-            
+                
+            rowHtml += "<td>" + key + "</td>\n";
 
-            fs.readFile('report/template.html', 'utf8', function(err, data) {
+            for (var i = 0 ; i < programs.length ; i++) {
+                var program = programs[i];
+        
+                if (allExif[program][key] == allExif.exiftool[key]) {
+                    rowHtml += "<td class='match'>" + allExif[program][key] + "</td>\n";
+                    if (!coverageSummary.supportedTags) {
+                        coverageSummary.supportedTags = {};
+                        coverageSummary.supportedTagsByFile = {};
+                    }
+                    if (!coverageSummary.supportedTagsByFile[image]) {
+                        coverageSummary.supportedTagsByFile[image] = {};
+                    }
+                    coverageSummary.supportedTags[program] = ++coverageSummary.supportedTags[program] || 1;
+                    coverageSummary.supportedTagsByFile[image][program] = ++coverageSummary.supportedTagsByFile[image][program] || 1;
+                } else {
+                    if (typeof allExif[program][key] === 'undefined') {
+                        rowHtml += "<td class='missing'>-</td>\n";
+                    } else {
+                        rowHtml += "<td class='diff'>" + allExif[program][key] + "</td>\n";
+                    }
+                }
+            }
+            rowHtml += "</tr>\n";
+            html += rowHtml;
+        }
+        html += "</tbody></table>";
+        
+
+        fs.readFile('report/template.html', 'utf8', function(err, data) {
+            if (err) {
+                return console.log(err);
+            }
+            var result = data.replace(/htmlbody/g, html);
+
+            var reportFile = 'report/' + image + '.html';
+            var parentDir = reportFile.substring(0, reportFile.lastIndexOf("/"));
+            fs.mkdirSync(parentDir, 0777, true);
+            fs.writeFile(reportFile, result, 'utf8', function(err) {
+                if (err) {
+                    return console.log(err);
+                } else {
+                    callback(coverageSummary);
+                }
+            });
+        });
+    };
+
+    /**
+     * The coverageSummary object looks like this:
+     *
+     * {
+     *   'supportedTags' : {
+     *     'exiftool' : 20,
+     *     'exiftoolJS' : 10,
+     *     'redaktor' : 10
+     *   },
+     *   'supportedTagsByFile' : {
+     *     'acer/acer2.jpg' : {
+     *       'exiftool' : 10,
+     *       'exiftoolJS' : 5,
+     *       'redaktor' : 5
+     *     },
+     *     'acer/acer1.jpg' : {
+     *       'exiftool' : 10,
+     *       'exiftoolJS' : 5,
+     *       'redaktor' : 5
+     *     }
+     *   }
+     * }
+     */
+    var writeSummaryCoverageReport = function(coverageSummary, callback) {
+        var html = "<h3>Total tag support</h3>\n" +
+            "<table class='table table-bordered'>";
+        for (var i = 0 ; i < programs.length ; i++) {
+            var program = programs[i];
+            html += "<tr><th>" + program + "</th><td>" + coverageSummary.supportedTags[program] + "/" + coverageSummary.supportedTags.exiftool + "</td></tr>\n";
+        }
+        html += "</table>";
+
+        html += "<h3>Manfacturer tag support</h3>";
+        
+        html += "<table class='table table-bordered'><tr><th>File</th>";
+        for (var i = 0 ; i < programs.length ; i++) {
+            var program = programs[i];
+            html += "<th>" + program + "</th>\n";
+        }
+        html += "</tr>";
+
+        for (var key in coverageSummary.supportedTagsByFile) {
+            html += "<tr><td><a href='" + key +".html'>" + key + "</a></td>";
+            for (var i = 0 ; i < programs.length ; i++) {
+                var program = programs[i];
+                html += "<td>" + (coverageSummary.supportedTagsByFile[key][program] || 0) + "</td>";
+            }
+            html += "</tr>\n";
+        }
+        html += "<tr>";
+        html += "<th>Totals</th>";
+        for (var i = 0 ; i < programs.length ; i++) {
+            var program = programs[i];
+            html += "<th>" + coverageSummary.supportedTags[program] + "</th>";
+        }
+        html += "</tr>\n";
+        html += "</table>";
+
+        fs.readFile('report/template.html', 'utf8', function(err, data) {
+            if (err) {
+                return console.log(err);
+            }
+            var result = data.replace(/htmlbody/g, html);
+
+            var reportFile = 'report/index.html';
+            fs.writeFile(reportFile, result, 'utf8', function(err) {
                 if (err) {
                     return console.log(err);
                 }
-                var result = data.replace(/htmlbody/g, html);
-
-                var reportFile = 'report/' + pathString + '.html';
-                fs.writeFile(reportFile, result, 'utf8', function(err) {
-                    if (err) {
-                        return console.log(err);
-                    } else {
-                        console.log(reportFile + " written");
-                        reportFiles.push(pathString + '.html');
-                        totalSupportedTagsByModelByETJS[pathString + '.html'] = totalSupportedByThisModelETJS;
-                        totalUnsupportedTagsByModelByETJS[pathString + '.html'] = totalUnsupportedByThisModelETJS;
-                        totalSupportedTagsByModelByGF[pathString + '.html'] = totalSupportedByThisModelGF;
-                        totalUnsupportedTagsByModelByGF[pathString + '.html'] = totalUnsupportedByThisModelGF;
-                        writeSummary();
-                    }
-                });
+                callback(coverageSummary);
             });
-        }
-    }
+        });
+    };
 
     options = {
         followLinks : false
     };
 
-//walker = walk.walk("sampleImages/Samsung", options);
     walker = walk.walk("sampleImages", options);
-    //walker = walk.walk("sampleImages/_Other", options);
 
     walker.on("names", function(root, nodeNamesArray) {
-        if (root != currentRoot) {
-//            stashJson(results);
-        }
-        currentRoot = root;
-
         nodeNamesArray.sort(function(a, b) {
             if (a < b)
                 return 1;
@@ -221,9 +316,11 @@
         next();
     });
 
+    /**
+     * This is where the magic happens. Run this function for each file found in sampleImages.
+     */
     walker.on("file", function(root, fileStats, next) {
         var imgFile = root + '/' + fileStats.name;
-//        sys.print(imgFile + '\n');
 
         if (fileStats.name == 'PanasonicDMC-GM1.jpg'
          || fileStats.name == 'PanasonicDMC-GX7.jpg'
@@ -233,66 +330,36 @@
          || fileStats.name == 'big file - IMG_6756.JPG'
          || fileStats.name == 'SamsungGT-I9100.jpg'
             ) {
-            // Skip these files and they get stuck in infinite loops!
+            // Skip these files as they get stuck in infinite loops!
             next();
         } else {
-            exif.getExifFromLocalFileUsingNodeFs(fs, imgFile, function(exifFromJS) {
-                try {
-                    console.log("processing: " + imgFile);
-                    new Gomfunkel({ image : imgFile }, function (error, exifFromGomfunkel) {
-                        if (error) {
-                            console.log('Gomfunkel Error: '+error.message);
-                            next();
-                        } else {
-                            // Loop over any children like "exif", "image" or "makernote" 
-                            for (var key in exifFromGomfunkel) {
-                                // ...then loop over their children moving them up to the root
-                                for (var exifKey in exifFromGomfunkel[key]) {
-                                    // skip Objects
-                                    var valueType = Object.prototype.toString.call(exifFromGomfunkel[key][exifKey]);
-                                    if (valueType != "[object Object]") {
-                                        exifFromGomfunkel[exifKey] = exifFromGomfunkel[key][exifKey];
-                                    }
-                                };
-                                if (typeof exifFromGomfunkel[key] === 'object') {
-                                    delete exifFromGomfunkel[key];
+            try {
+                console.log("processing: " + imgFile);
+                
+                var allExif = {};
+
+                for (var i = 0 ; i < programs.length ; i++) {
+                    extractExif(imgFile, programs[i], (function(image, program) {
+                        return function(ef) {
+                            if (ef) {
+                                saveJson(ef, image, program);
+                                allExif[program] = ef;
+                                if (Object.keys(allExif).length == programs.length) {
+                                    updateReports(allExif, image, coverageSummaryHolder, function(cs) {
+                                        coverageSummaryHolder = cs;
+                                        next();
+                                    });
                                 }
-                            };
-
-                            exifFromGomfunkel = sortObject(exifFromGomfunkel);
-
-                            child = exec("exiftool -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate --SourceFile --ExifToolVersion --FileName --Directory --FilePermissions --FileSize --FileModifyDate --FileType --MIMEType '" + imgFile + "'", function(error,
-                                    stdout, stderr) {
-                                if (error !== null) {
-                                    console.log('exec error with ' + imgFile + ': ' + error);
-                                } else {
-
-                                    // stdout string takes some munging...
-                                    var exifFromPerl = String(stdout);
-                                    exifFromPerl = exifFromPerl.replace(/\r?\n|\r/g, ""); // lose newlines
-                                    exifFromPerl = exifFromPerl.substring(1,
-                                            exifFromPerl.length - 1); // lose surrounding []
-                                    exifFromPerl = JSON.parse(exifFromPerl);
-                                    delete exifFromPerl["SourceFile"];
-                                    exifFromPerl = sortObject(exifFromPerl);
-
-                                    var results = {
-                                        "img" : imgFile,
-                                        "exifJS" : exifFromJS,
-                                        "exifGomfunkel" : exifFromGomfunkel,
-                                        "exifPerl" : exifFromPerl
-                                    };
-                                    stashJson(results);
-                                }
+                            } else {
                                 next();
-                            });
-                        }
-                    });
-                } catch (error) {
-                    console.log('Error: ' + error.message);
-                    next();
-                }
-            });
+                            }
+                        };
+                    })(imgFile, programs[i]));
+                };
+            } catch (error) {
+                console.log('in Error: ' + error.message);
+                next();
+            }
         }
     });
 }());

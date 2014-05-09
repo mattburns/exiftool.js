@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>exiftool.js</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/report.css" rel="stylesheet">
+<link href="../../css/bootstrap.min.css" rel="stylesheet">
+<link href="../../css/report.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h1>exiftool.js coverage report</h1>
+        <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
+        <table class='table table-bordered table-fixed'><thead><tr><th>image</th><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
+<tbody>
+<tr>
+<th rowspan='196'>sampleImages/_Other/20100602-P6028407.JPG</th>
+<td>AELock</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AFAreas</td>
+<td class='match'>Center (121,121)-(133,133)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AFPoint</td>
+<td class='match'>Center (vertical)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AFSearch</td>
+<td class='match'>Ready</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Aperture</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ApplicationRecordVersion</td>
+<td class='match'>4</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BWMode</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>BitsPerSample</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BlackLevel</td>
+<td class='match'>65 65 65 65</td>
+<td class='missing'>-</td>
+<td class='diff'>65,65,65,65</td>
+<td class='diff'>65,65,65,65</td>
+</tr>
+<tr>
+<td>BlackLevel2</td>
+<td class='match'>65 65 65 65</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BlueBalance</td>
+<td class='match'>1.15625</td>
+<td class='missing'>-</td>
+<td class='diff'>296,64</td>
+<td class='diff'>296,64</td>
+</tr>
+<tr>
+<td>BodyFirmwareVersion</td>
+<td class='match'>1.5</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraID</td>
+<td class='match'>OLYMPUS DIGITAL CAMERA         </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraSettingsVersion</td>
+<td class='match'>010</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraType</td>
+<td class='match'>E-1</td>
+<td class='missing'>-</td>
+<td class='diff'>D4040</td>
+<td class='diff'>D4040</td>
+</tr>
+<tr>
+<td>CameraType2</td>
+<td class='match'>E-1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Caption-Abstract</td>
+<td class='match'>OLYMPUS DIGITAL CAMERA</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CircleOfConfusion</td>
+<td class='match'>0.015 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>City</td>
+<td class='match'>Leggiuno</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorComponents</td>
+<td class='match'>3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorControl</td>
+<td class='match'>96 4096 2944 4096 16 128</td>
+<td class='missing'>-</td>
+<td class='diff'>96,4096,2944,4096,16,128</td>
+<td class='diff'>96,4096,2944,4096,16,128</td>
+</tr>
+<tr>
+<td>ColorMatrix</td>
+<td class='match'>360 -40 -66 -18 318 -46 4 -134 384</td>
+<td class='missing'>-</td>
+<td class='diff'>360,65496,65470,65518,318,65490,4,65402,384</td>
+<td class='diff'>360,65496,65470,65518,318,65490,4,65402,384</td>
+</tr>
+<tr>
+<td>ColorSpace</td>
+<td class='match'>sRGB</td>
+<td class='match'>sRGB</td>
+<td class='diff'>1</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ComponentsConfiguration</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='match'>Y, Cb, Cr, -</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td class='match'>JPEG (old-style)</td>
+<td class='missing'>-</td>
+<td class='diff'>6</td>
+<td class='diff'>6</td>
+</tr>
+<tr>
+<td>CompressionFactor</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Contrast</td>
+<td class='match'>Low</td>
+<td class='diff'>Soft</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ContrastSetting</td>
+<td class='match'>-1 (min -2, max 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CoringFilter</td>
+<td class='match'>1024</td>
+<td class='missing'>-</td>
+<td class='match'>1024</td>
+<td class='match'>1024</td>
+</tr>
+<tr>
+<td>Country</td>
+<td class='match'>Italy</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Country-PrimaryLocationCode</td>
+<td class='match'>ITA</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Country-PrimaryLocationName</td>
+<td class='match'>Italy</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CountryCode</td>
+<td class='match'>ITA</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CreateDate</td>
+<td class='match'>2010:06:02 16:50:42</td>
+<td class='missing'>-</td>
+<td class='match'>2010:06:02 16:50:42</td>
+<td class='match'>2010:06:02 16:50:42</td>
+</tr>
+<tr>
+<td>CropHeight</td>
+<td class='match'>1920</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CropLeft</td>
+<td class='match'>0 0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CropTop</td>
+<td class='match'>0 0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CropWidth</td>
+<td class='match'>2560</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CurrentIPTCDigest</td>
+<td class='match'>e720d4659cd3a3cb147b839489761c66</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CustomRendered</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CustomSaturation</td>
+<td class='match'>CS2 (min CS0, max CS4)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DOF</td>
+<td class='match'>inf (1.63 m - inf)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateCreated</td>
+<td class='match'>2010:06:02 16:50:42</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateTimeDigitized</td>
+<td class='match'>2010:06:02 16:50:42+02:00</td>
+<td class='diff'>2010:06:02 16:50:42</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DateTimeOriginal</td>
+<td class='match'>2010:06:02 16:50:42</td>
+<td class='match'>2010:06:02 16:50:42</td>
+<td class='match'>2010:06:02 16:50:42</td>
+<td class='match'>2010:06:02 16:50:42</td>
+</tr>
+<tr>
+<td>Description</td>
+<td class='match'>OLYMPUS DIGITAL CAMERA</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DigitalZoom</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>DigitalZoomRatio</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>DistortionCorrection</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DistortionCorrection2</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>DriveMode</td>
+<td class='match'>Single Shot</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>EncodingProcess</td>
+<td class='match'>Baseline DCT, Huffman coding</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Enhancer</td>
+<td class='match'>608</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>EquipmentVersion</td>
+<td class='match'>010</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifByteOrder</td>
+<td class='match'>Little-endian (Intel, II)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExifImageHeight</td>
+<td class='match'>960</td>
+<td class='missing'>-</td>
+<td class='match'>960</td>
+<td class='match'>960</td>
+</tr>
+<tr>
+<td>ExifImageWidth</td>
+<td class='match'>1280</td>
+<td class='missing'>-</td>
+<td class='match'>1280</td>
+<td class='match'>1280</td>
+</tr>
+<tr>
+<td>ExifVersion</td>
+<td class='match'>0221</td>
+<td class='match'>0221</td>
+<td class='missing'>-</td>
+<td class='diff'>2.21</td>
+</tr>
+<tr>
+<td>ExposureCompensation</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>ExposureMode</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureProgram</td>
+<td class='match'>Program AE</td>
+<td class='diff'>Normal program</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExposureTime</td>
+<td class='match'>1/320</td>
+<td class='diff'>0.003125</td>
+<td class='diff'>0.003125</td>
+<td class='match'>1/320</td>
+</tr>
+<tr>
+<td>Extender</td>
+<td class='match'>None</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExtenderFirmwareVersion</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExtenderSerialNumber</td>
+<td class='match'></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExtenderStatus</td>
+<td class='match'>Not attached</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExternalFlash</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExternalFlashBounce</td>
+<td class='match'>Bounce or Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ExternalFlashZoom</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FNumber</td>
+<td class='match'>8</td>
+<td class='match'>8</td>
+<td class='match'>8</td>
+<td class='match'>8</td>
+</tr>
+<tr>
+<td>FOV</td>
+<td class='match'>65.4 deg</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FileSource</td>
+<td class='match'>Digital Camera</td>
+<td class='diff'>DSC</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td class='match'>No Flash</td>
+<td class='match'>No Flash</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashExposureComp</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashFirmwareVersion</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashMode</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashModel</td>
+<td class='match'>None</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashSerialNumber</td>
+<td class='match'></td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashType</td>
+<td class='match'>None</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FlashpixVersion</td>
+<td class='match'>0100</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>FocalLength</td>
+<td class='match'>14.0 mm</td>
+<td class='diff'>14 mm</td>
+<td class='diff'>14</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalLength35efl</td>
+<td class='match'>14.0 mm (35 mm equivalent: 28.0 mm)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocalPlaneDiagonal</td>
+<td class='match'>21.6 mm</td>
+<td class='missing'>-</td>
+<td class='diff'>21.6</td>
+<td class='diff'>21.6</td>
+</tr>
+<tr>
+<td>FocusDistance</td>
+<td class='match'>inf</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocusInfoVersion</td>
+<td class='match'>010</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocusMode</td>
+<td class='match'>MF</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocusProcess</td>
+<td class='match'>AF Not Used</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocusStepCount</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GPSAltitude</td>
+<td class='match'>260 m Above Sea Level</td>
+<td class='diff'>260</td>
+<td class='diff'>260</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GPSAltitudeRef</td>
+<td class='match'>Above Sea Level</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GPSDateStamp</td>
+<td class='match'>2010:06:02</td>
+<td class='match'>2010:06:02</td>
+<td class='match'>2010:06:02</td>
+<td class='match'>2010:06:02</td>
+</tr>
+<tr>
+<td>GPSDateTime</td>
+<td class='match'>2010:06:02 14:50:42Z</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GPSLatitude</td>
+<td class='match'>45 deg 52' 43.93" N</td>
+<td class='diff'>45,52,43.93174767321613</td>
+<td class='diff'>45,52,43.93174767321613</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GPSLatitudeRef</td>
+<td class='match'>North</td>
+<td class='diff'>N</td>
+<td class='diff'>N</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GPSLongitude</td>
+<td class='match'>8 deg 35' 53.20" E</td>
+<td class='diff'>8,35,53.20327198364008</td>
+<td class='diff'>8,35,53.20327198364008</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GPSLongitudeRef</td>
+<td class='match'>East</td>
+<td class='diff'>E</td>
+<td class='diff'>E</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GPSMapDatum</td>
+<td class='match'>WGS-84</td>
+<td class='match'>WGS-84</td>
+<td class='match'>WGS-84</td>
+<td class='match'>WGS-84</td>
+</tr>
+<tr>
+<td>GPSPosition</td>
+<td class='match'>45 deg 52' 43.93" N, 8 deg 35' 53.20" E</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GPSSatellites</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+<td class='match'>0</td>
+</tr>
+<tr>
+<td>GPSTimeStamp</td>
+<td class='match'>14:50:42</td>
+<td class='diff'>14,50,42</td>
+<td class='diff'>14,50,42</td>
+<td class='match'>14:50:42</td>
+</tr>
+<tr>
+<td>GPSVersionID</td>
+<td class='match'>2.2.0.0</td>
+<td class='match'>2.2.0.0</td>
+<td class='diff'>2,2,0,0</td>
+<td class='match'>2.2.0.0</td>
+</tr>
+<tr>
+<td>GainBase</td>
+<td class='match'>256</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>GainControl</td>
+<td class='match'>None</td>
+<td class='match'>None</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HyperfocalDistance</td>
+<td class='match'>1.63 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ISO</td>
+<td class='match'>100</td>
+<td class='missing'>-</td>
+<td class='match'>100</td>
+<td class='match'>100</td>
+</tr>
+<tr>
+<td>ImageDescription</td>
+<td class='match'>OLYMPUS DIGITAL CAMERA         </td>
+<td class='diff'>OLYMPUS DIGITAL CAMERA</td>
+<td class='match'>OLYMPUS DIGITAL CAMERA         </td>
+<td class='diff'>OLYMPUS DIGITAL CAMERA</td>
+</tr>
+<tr>
+<td>ImageHeight</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageProcessingVersion</td>
+<td class='match'>010</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageQuality2</td>
+<td class='match'>SQ</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageSize</td>
+<td class='match'>8x8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ImageWidth</td>
+<td class='match'>8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InternalFlash</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InternalSerialNumber</td>
+<td class='match'>4001310000981102               </td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InteropIndex</td>
+<td class='match'>R98 - DCF basic file (sRGB)</td>
+<td class='missing'>-</td>
+<td class='diff'>R98</td>
+<td class='diff'>R98</td>
+</tr>
+<tr>
+<td>InteropVersion</td>
+<td class='match'>0100</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>LensDistortionParams</td>
+<td class='match'>0 0 0 0 0 0</td>
+<td class='missing'>-</td>
+<td class='diff'>0,0,0,0,0,0</td>
+<td class='diff'>0,0,0,0,0,0</td>
+</tr>
+<tr>
+<td>LensFirmwareVersion</td>
+<td class='match'>1.1</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LensID</td>
+<td class='match'>Olympus Zuiko Digital 14-54mm F2.8-3.5</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LensProperties</td>
+<td class='match'>0xc043</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LensSerialNumber</td>
+<td class='match'>050209024</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LensType</td>
+<td class='match'>Olympus Zuiko Digital 14-54mm F2.8-3.5</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightSource</td>
+<td class='match'>Unknown</td>
+<td class='diff'></td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LightValue</td>
+<td class='match'>14.3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Location</td>
+<td class='match'>Reno</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Macro</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='diff'>0</td>
+<td class='diff'>0</td>
+</tr>
+<tr>
+<td>MacroMode</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Make</td>
+<td class='match'>OLYMPUS CORPORATION</td>
+<td class='match'>OLYMPUS CORPORATION</td>
+<td class='diff'>OLYMPUS CORPORATION    </td>
+<td class='match'>OLYMPUS CORPORATION</td>
+</tr>
+<tr>
+<td>MaxAperture</td>
+<td class='match'>2.5</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MaxApertureAtMaxFocal</td>
+<td class='match'>3.5</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MaxApertureValue</td>
+<td class='match'>2.8</td>
+<td class='diff'>2.97265625</td>
+<td class='diff'>2.97265625</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MaxFocalLength</td>
+<td class='match'>54</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MeteringMode</td>
+<td class='match'>Center-weighted average</td>
+<td class='diff'>CenterWeightedAverage</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MinFocalLength</td>
+<td class='match'>14</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Model</td>
+<td class='match'>E-1</td>
+<td class='match'>E-1</td>
+<td class='diff'>E-1             </td>
+<td class='match'>E-1</td>
+</tr>
+<tr>
+<td>ModifiedSaturation</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ModifyDate</td>
+<td class='match'>2010:06:02 16:50:42</td>
+<td class='missing'>-</td>
+<td class='match'>2010:06:02 16:50:42</td>
+<td class='match'>2010:06:02 16:50:42</td>
+</tr>
+<tr>
+<td>NoiseReduction</td>
+<td class='match'>(none)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>NoiseReduction2</td>
+<td class='match'>(none)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>OlympusImageHeight</td>
+<td class='match'>1920</td>
+<td class='missing'>-</td>
+<td class='match'>1920</td>
+<td class='match'>1920</td>
+</tr>
+<tr>
+<td>OlympusImageWidth</td>
+<td class='match'>2560</td>
+<td class='missing'>-</td>
+<td class='match'>2560</td>
+<td class='match'>2560</td>
+</tr>
+<tr>
+<td>Orientation</td>
+<td class='match'>Horizontal (normal)</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>PreviewImageLength</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageStart</td>
+<td class='match'>13672</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PreviewImageValid</td>
+<td class='match'>No</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PrintIMVersion</td>
+<td class='match'>0250</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Province-State</td>
+<td class='match'>Lombardia</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Quality</td>
+<td class='match'>SQ (Low)</td>
+<td class='missing'>-</td>
+<td class='diff'>1</td>
+<td class='diff'>1</td>
+</tr>
+<tr>
+<td>RawDevColorSpace</td>
+<td class='match'>sRGB</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevContrastValue</td>
+<td class='match'>0 0 0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevEditStatus</td>
+<td class='match'>Original</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevEngine</td>
+<td class='match'>High Speed</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevExposureBiasValue</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevGrayPoint</td>
+<td class='match'>0 0 0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevMemoryColorEmphasis</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevNoiseReduction</td>
+<td class='match'>(none)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevSaturationEmphasis</td>
+<td class='match'>0 0 0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevSettings</td>
+<td class='match'>(none)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevSharpnessValue</td>
+<td class='match'>0 0 0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevVersion</td>
+<td class='match'>010</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevWBFineAdjustment</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RawDevWhiteBalanceValue</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RedBalance</td>
+<td class='match'>1.75</td>
+<td class='missing'>-</td>
+<td class='diff'>448,64</td>
+<td class='diff'>448,64</td>
+</tr>
+<tr>
+<td>ResolutionUnit</td>
+<td class='match'>inches</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Saturation</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ScaleFactor35efl</td>
+<td class='match'>2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneCaptureType</td>
+<td class='match'>Standard</td>
+<td class='match'>Standard</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SceneDetect</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SensorTemperature</td>
+<td class='match'>25 C</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SerialNumber</td>
+<td class='match'>500009672</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShadingCompensation</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShadingCompensation2</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Sharpness</td>
+<td class='match'>Normal</td>
+<td class='match'>Normal</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SharpnessFactor</td>
+<td class='match'>608</td>
+<td class='missing'>-</td>
+<td class='match'>608</td>
+<td class='match'>608</td>
+</tr>
+<tr>
+<td>SharpnessSetting</td>
+<td class='match'>0 (min -3, max 5)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ShutterSpeed</td>
+<td class='match'>1/320</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Software</td>
+<td class='match'>Version 1.5</td>
+<td class='match'>Version 1.5</td>
+<td class='diff'>Version 1.5                    </td>
+<td class='match'>Version 1.5</td>
+</tr>
+<tr>
+<td>SpecialMode</td>
+<td class='match'>Normal, Sequence: 0, Panorama: (none)</td>
+<td class='missing'>-</td>
+<td class='diff'>0,0,0</td>
+<td class='diff'>0,0,0</td>
+</tr>
+<tr>
+<td>State</td>
+<td class='match'>Lombardia</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>Sub-location</td>
+<td class='match'>Reno</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailImage</td>
+<td class='match'>(Binary data 6359 bytes)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ThumbnailLength</td>
+<td class='match'>6359</td>
+<td class='missing'>-</td>
+<td class='match'>6359</td>
+<td class='match'>6359</td>
+</tr>
+<tr>
+<td>ThumbnailOffset</td>
+<td class='match'>7312</td>
+<td class='missing'>-</td>
+<td class='diff'>7300</td>
+<td class='diff'>7300</td>
+</tr>
+<tr>
+<td>UserComment</td>
+<td class='match'></td>
+<td class='diff'>6804</td>
+<td class='missing'>-</td>
+<td class='match'></td>
+</tr>
+<tr>
+<td>ValidBits</td>
+<td class='match'>12 0</td>
+<td class='missing'>-</td>
+<td class='diff'>12,0</td>
+<td class='diff'>12,0</td>
+</tr>
+<tr>
+<td>WB_GLevel</td>
+<td class='match'>256</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RBLevels</td>
+<td class='match'>448 296</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WhiteBalance</td>
+<td class='match'>Auto</td>
+<td class='match'>Auto</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WhiteBalance2</td>
+<td class='match'>Auto</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WhiteBalanceBracket</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WhiteBalanceTemperature</td>
+<td class='match'>Auto</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XMPToolkit</td>
+<td class='match'>Image::ExifTool 8.21</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>XResolution</td>
+<td class='match'>160</td>
+<td class='match'>160</td>
+<td class='diff'>72</td>
+<td class='diff'>72</td>
+</tr>
+<tr>
+<td>YCbCrPositioning</td>
+<td class='match'>Co-sited</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+<td class='diff'>2</td>
+</tr>
+<tr>
+<td>YCbCrSubSampling</td>
+<td class='match'>YCbCr4:2:0 (2 2)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>YResolution</td>
+<td class='match'>160</td>
+<td class='match'>160</td>
+<td class='diff'>72</td>
+<td class='diff'>72</td>
+</tr>
+<tr>
+<td>ZoomStepCount</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+</tbody></table>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

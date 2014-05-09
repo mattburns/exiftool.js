@@ -1,0 +1,22 @@
+{
+	"Make": "SONY",
+	"Model": "DCR-IP220E",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2004:01:11 02:48:45",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 260,
+	"ExposureTime": "1/50",
+	"FNumber": 1.8,
+	"ExifVersion": "2.1",
+	"DateTimeOriginal": "2004:01:11 02:48:45",
+	"CreateDate": "2004:01:11 02:48:45",
+	"CompressedBitsPerPixel": 2,
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480,
+	"InteropOffset": 540,
+	"error": "SONY ...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

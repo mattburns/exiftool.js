@@ -1,0 +1,27 @@
+{
+	"Make": "LG Electronics",
+	"Model": "KF900",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "LGESW",
+	"ImageDescription": "QP",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 178,
+	"Compression": 6,
+	"ThumbnailOffset": 568,
+	"ThumbnailLength": 27474,
+	"ExposureTime": "1/500",
+	"FNumber": 2.8,
+	"ISO": [
+		50,
+		0
+	],
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:05:09 13:33:33",
+	"CreateDate": "2010:05:09 13:33:33",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2048,
+	"ExifImageHeight": 1536
+}

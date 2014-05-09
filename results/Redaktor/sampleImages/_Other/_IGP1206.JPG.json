@@ -1,0 +1,52 @@
+{
+	"Make": "PENTAX",
+	"Model": "PENTAX K-r",
+	"Orientation": 1,
+	"XResolution": 300,
+	"YResolution": 300,
+	"Software": "K-r Ver 1.11",
+	"ModifyDate": "2011:08:10 12:42:51",
+	"Artist": "Tim Walker",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"Copyright": "Tim Walker",
+	"ExifOffset": 830,
+	"GPSInfo": 54642,
+	"Compression": 6,
+	"ThumbnailOffset": 54754,
+	"ThumbnailLength": 6914,
+	"ExposureTime": "1/250",
+	"FNumber": 7.1,
+	"ISO": 100,
+	"ExifVersion": "2.3",
+	"DateTimeOriginal": "2011:08:10 12:42:51",
+	"CreateDate": "2011:08:10 12:42:51",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 4288,
+	"ExifImageHeight": 2848,
+	"InteropOffset": 54612,
+	"FocalLengthIn35mmFilm": 36,
+	"Gamma": 2.2,
+	"GPSVersionID": "2.3.0.0",
+	"InteropIndex": "R03",
+	"InteropVersion": "1",
+	"error": "AOC\u0000M...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

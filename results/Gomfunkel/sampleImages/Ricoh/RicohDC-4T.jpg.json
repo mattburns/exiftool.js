@@ -1,0 +1,68 @@
+{
+	"Make": "RICOH      ",
+	"Model": "DC-4T          ",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"WhitePoint": [
+		0.372,
+		0.3714
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.3,
+		0.6,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"Copyright": "(C) by DC-4T User       \u0000",
+	"ExifOffset": 376,
+	"ImageWidth": 80,
+	"ImageHeight": 60,
+	"BitsPerSample": [
+		8,
+		8,
+		8
+	],
+	"Compression": 1,
+	"PhotometricInterpretation": 6,
+	"StripOffsets": 1224,
+	"SamplesPerPixel": 3,
+	"RowsPerStrip": 60,
+	"StripByteCounts": 9600,
+	"YCbCrSubSampling": [
+		2,
+		1
+	],
+	"DateTimeOriginal": "2001:01:14 09:09:00",
+	"CompressedBitsPerPixel": 4,
+	"ShutterSpeedValue": 8.5,
+	"ApertureValue": 7.6,
+	"BrightnessValue": 14,
+	"ExposureCompensation": 0,
+	"MaxApertureValue": 3,
+	"LightSource": 0,
+	"Flash": 0,
+	"FocalLength": 5.6,
+	"ColorSpace": 1,
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480,
+	"RelatedSoundFile": "            ",
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

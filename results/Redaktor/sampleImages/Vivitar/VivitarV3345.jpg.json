@@ -1,0 +1,28 @@
+{
+	"ImageDescription": "DIGITAL CAMERA",
+	"Make": "Vivitar Corporation",
+	"Model": "V3345",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "",
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 292,
+	"ExposureTime": "1/233",
+	"FNumber": 2.8,
+	"ISO": 100,
+	"ExifVersion": "2.1",
+	"DateTimeOriginal": "",
+	"CreateDate": "",
+	"BrightnessValue": 7.5,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1280,
+	"ExifImageHeight": 1024
+}

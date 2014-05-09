@@ -1,0 +1,19 @@
+{
+	"Make": "Nikon",
+	"Model": "Nikon SUPER COOLSCAN 4000 ED",
+	"XResolution": 352,
+	"YResolution": 352,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2007:04:18 08:01:53\u0000",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 182,
+	"Compression": 6,
+	"ThumbnailOffset": 455,
+	"ThumbnailLength": 6393,
+	"ColorSpace": 1,
+	"ExifImageWidth": 1338,
+	"ExifImageHeight": 920,
+	"InteropOffset": 314,
+	"InteropIndex": "\r\r\r\u0011",
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

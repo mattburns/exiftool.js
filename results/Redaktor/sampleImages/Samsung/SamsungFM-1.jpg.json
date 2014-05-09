@@ -1,0 +1,32 @@
+{
+	"ImageDescription": "DCF 1.0",
+	"Make": "Samsung Electronics",
+	"Model": "FM-1",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "FM1-04092214",
+	"ModifyDate": "2005:07:19 14:24:33",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 231,
+	"ImageWidth": 68,
+	"ImageHeight": 54,
+	"BitsPerSample": [
+		8,
+		8,
+		8
+	],
+	"Compression": 6,
+	"PhotometricInterpretation": 6,
+	"StripOffsets": 481,
+	"SamplesPerPixel": 3,
+	"RowsPerStrip": 54,
+	"StripByteCounts": 5508,
+	"YCbCrSubSampling": [
+		2,
+		2
+	],
+	"ExifVersion": "2.2",
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480
+}

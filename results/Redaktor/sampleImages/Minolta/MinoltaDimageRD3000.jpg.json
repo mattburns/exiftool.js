@@ -1,0 +1,33 @@
+{
+	"Make": "Minolta Co.,Ltd.",
+	"Model": "Dimage RD 3000",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2002:01:13 05:32:17",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 180,
+	"ImageWidth": 124,
+	"ImageHeight": 85,
+	"BitsPerSample": [
+		8,
+		8,
+		8
+	],
+	"Compression": 1,
+	"PhotometricInterpretation": 2,
+	"StripOffsets": 1134,
+	"SamplesPerPixel": 3,
+	"RowsPerStrip": 85,
+	"StripByteCounts": 31620,
+	"ExposureTime": "1/60",
+	"FNumber": 11,
+	"ExifVersion": "2",
+	"DateTimeOriginal": "2002:01:13 05:32:17",
+	"CreateDate": "2002:01:13 05:32:17",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 1984,
+	"ExifImageHeight": 1360,
+	"error": "×ÚÕØÜ...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

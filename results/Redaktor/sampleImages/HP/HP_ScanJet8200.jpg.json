@@ -1,0 +1,20 @@
+{
+	"Make": "HP",
+	"Model": "HP ScanJet 8200",
+	"XResolution": 600,
+	"YResolution": 600,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 190,
+	"ExifVersion": "2.2",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 3560,
+	"ExifImageHeight": 2314
+}

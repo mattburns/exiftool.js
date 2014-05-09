@@ -1,0 +1,31 @@
+{
+	"Make": "HP",
+	"Model": "HP Scanjet 8300",
+	"Orientation": 1,
+	"XResolution": 300,
+	"YResolution": 300,
+	"Software": "ACD Systems Digital Imaging",
+	"ModifyDate": "2007:11:10 13:12:46",
+	"YCbCrPositioning": 1,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 274,
+	"Compression": 6,
+	"ThumbnailOffset": 1052,
+	"ThumbnailLength": 5641,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2007:11:09 11:03:44",
+	"SubSecTime": "687",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 475,
+	"ExifImageHeight": 850,
+	"InteropOffset": 444,
+	"InteropIndex": "R98",
+	"InteropVersion": "1"
+}

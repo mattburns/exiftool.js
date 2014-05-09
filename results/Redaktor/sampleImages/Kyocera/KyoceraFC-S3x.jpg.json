@@ -1,0 +1,21 @@
+{
+	"ImageDescription": "",
+	"Make": "KYOCERA",
+	"Model": "FC-S3x",
+	"Software": "FC-S3x  Ver 1.03",
+	"ModifyDate": "2002:01:18 19:19:17",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 164,
+	"ISO": 120,
+	"ExifVersion": "2.1",
+	"DateTimeOriginal": "2002:01:18 19:19:17",
+	"CreateDate": "2002:01:18 19:19:17",
+	"CompressedBitsPerPixel": 1.6,
+	"ShutterSpeedValue": "3.5",
+	"ExposureCompensation": 0,
+	"UserComment": "",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2048,
+	"ExifImageHeight": 1536,
+	"error": "KYOCE...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

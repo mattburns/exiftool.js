@@ -1,0 +1,52 @@
+{
+	"Make": "Leica Camera AG",
+	"Model": "LEICA M (Typ 240)",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "1.1.0.2",
+	"Artist": "",
+	"YCbCrSubSampling": [
+		2,
+		1
+	],
+	"YCbCrPositioning": 2,
+	"ExifOffset": 300,
+	"GPSInfo": 1100,
+	"DateTimeOriginal": "2013:03:21 16:06:18",
+	"Copyright": "",
+	"ImageWidth": 160,
+	"ImageHeight": 120,
+	"Compression": 6,
+	"ThumbnailOffset": 4084,
+	"ThumbnailLength": 12846,
+	"ExposureTime": "1/1000",
+	"ISO": 200,
+	"ExifVersion": "2.2",
+	"CreateDate": "2013:03:21 16:06:18",
+	"ShutterSpeedValue": "10.1",
+	"ExposureCompensation": 0,
+	"MakerNote": [],
+	"ExifImageWidth": 5952,
+	"ExifImageHeight": 3968,
+	"DigitalZoomRatio": 0,
+	"ImageUniqueID": "00000000000000000000000001517332",
+	"GPSVersionID": "2.2.0.0",
+	"GPSLatitude": [
+		0,
+		0,
+		0
+	],
+	"GPSLongitude": [
+		0,
+		0,
+		0
+	],
+	"GPSTimeStamp": "0:0:0",
+	"GPSDOP": 0,
+	"GPSSpeedRef": "",
+	"GPSSpeed": 0,
+	"GPSTrack": 0,
+	"GPSDateStamp": "2000:00:00",
+	"error": "\u0000\u0000\u0000\u0000\u0000...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

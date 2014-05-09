@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP ojj4680",
+	"XResolution": 600,
+	"YResolution": 600,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 758,
+	"Saturation": 1,
+	"Sharpness": 1,
+	"DateTimeOriginal": "2010:05:29 21:59:37",
+	"ColorSpace": 1,
+	"ExifImageWidth": 5096,
+	"ExifImageHeight": 7008
+}

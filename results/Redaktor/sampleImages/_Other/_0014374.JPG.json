@@ -1,0 +1,53 @@
+{
+	"ImageDescription": "ExifJPEGPICTURE",
+	"Make": "RICOH",
+	"Model": "GR DIGITAL 3",
+	"Orientation": 1,
+	"XResolution": 0.010416666666666666,
+	"YResolution": 0.010416666666666666,
+	"Software": "Microsoft Windows Photo Gallery 6.0.6000.16386",
+	"ModifyDate": "2011:02:27 13:56:57",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"Copyright": "",
+	"ExifOffset": 496,
+	"Compression": 6,
+	"ThumbnailOffset": 19208,
+	"ThumbnailLength": 5067,
+	"ExposureTime": "1/30",
+	"FNumber": 1.9,
+	"ISO": 383,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2011:02:26 16:52:51",
+	"CreateDate": "2011:02:26 16:52:51",
+	"CompressedBitsPerPixel": 2.8,
+	"BrightnessValue": -0.2,
+	"ExposureCompensation": 0,
+	"UserComment": "ASCII",
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 2736,
+	"ExifImageHeight": 3648,
+	"InteropOffset": 18820,
+	"Gamma": 2.2,
+	"OffsetSchema": 64,
+	"InteropIndex": "R03",
+	"InteropVersion": "1",
+	"error": "Ricoh...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

@@ -1,0 +1,22 @@
+{
+	"Make": "EASTMAN KODAK COMPANY",
+	"Model": "KODAK P850 ZOOM DIGITAL CAMERA",
+	"Software": "",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 160,
+	"ExposureTime": "0.5",
+	"FNumber": 2.8,
+	"ISO": 100,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2007:01:18 06:22:40",
+	"CreateDate": "2007:01:18 06:22:40",
+	"ShutterSpeedValue": "1",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2592,
+	"ExifImageHeight": 1944,
+	"ExposureIndex": 100,
+	"DigitalZoomRatio": 0,
+	"FocalLengthIn35mmFilm": 36,
+	"error": "\u0004\u0000\u0000ÿ\u0004...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

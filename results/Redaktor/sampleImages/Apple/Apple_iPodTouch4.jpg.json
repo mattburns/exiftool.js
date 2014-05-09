@@ -1,0 +1,33 @@
+{
+	"Make": "Apple",
+	"Model": "iPod touch",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "4.1",
+	"ModifyDate": "2010:09:12 17:00:44",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 200,
+	"GPSInfo": 590,
+	"Compression": 6,
+	"ThumbnailOffset": 822,
+	"ThumbnailLength": 8157,
+	"ExposureTime": "1/1245",
+	"FNumber": 2.4,
+	"ISO": 80,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2010:09:12 17:00:44",
+	"CreateDate": "2010:09:12 17:00:44",
+	"ShutterSpeedValue": "10.3",
+	"SubjectArea": [
+		381,
+		380,
+		179,
+		180
+	],
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 960,
+	"ExifImageHeight": 720,
+	"DigitalZoomRatio": 2.4806201550387597,
+	"GPSTimeStamp": "17:0:38.96"
+}

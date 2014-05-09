@@ -1,0 +1,51 @@
+{
+	"Make": "LG Elec.",
+	"Model": "GD880",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "GD880-MSM76XX-V10b-APR-06-2010-XX",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 272,
+	"GPSInfo": 556,
+	"Compression": 6,
+	"ThumbnailOffset": 974,
+	"ThumbnailLength": 31638,
+	"ISO": 800,
+	"DateTimeOriginal": "2010:07:04 15:07:10",
+	"CreateDate": "2010:07:04 15:07:10",
+	"ColorSpace": 1,
+	"ExifImageWidth": 2560,
+	"ExifImageHeight": 1920,
+	"InteropOffset": 526,
+	"WhiteBalance": 0,
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		55,
+		39,
+		30.53
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		37,
+		11,
+		34.68
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 198,
+	"GPSTimeStamp": [
+		11,
+		8,
+		23
+	],
+	"GPSMapDatum": "WGS-84",
+	"GPSDateStamp": "2020:07:08",
+	"InteropIndex": "R98"
+}

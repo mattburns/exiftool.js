@@ -1,0 +1,48 @@
+{
+	"Make": "ACER",
+	"Model": "ACER E101",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "ACER Camera",
+	"ModifyDate": "2010-06-09 23:15:52 UTC",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 299,
+	"GPSInfo": 603,
+	"Compression": 6,
+	"ThumbnailOffset": 865,
+	"ThumbnailLength": 10380,
+	"DateTimeOriginal": "2010-06-09 23:15:52 UTC",
+	"CreateDate": "2010-06-09 23:15:52 UTC",
+	"ColorSpace": 1,
+	"ExifImageWidth": 1600,
+	"ExifImageHeight": 1200,
+	"InteropOffset": 573,
+	"WhiteBalance": 0,
+	"GPSVersionID": [
+		2,
+		0,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		59,
+		56,
+		49.96
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		30,
+		11,
+		35.39
+	],
+	"GPSTimeStamp": [
+		19,
+		15,
+		7
+	],
+	"GPSMapDatum": "WGS84",
+	"InteropIndex": "R98"
+}

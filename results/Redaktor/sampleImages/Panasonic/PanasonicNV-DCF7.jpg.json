@@ -1,0 +1,20 @@
+{
+	"Make": "Panasonic",
+	"Model": "NV-DCF7",
+	"Software": "Ver.1.0",
+	"ModifyDate": "2004:09:10 07:40:09",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 132,
+	"ExposureTime": "1/4",
+	"FNumber": 3,
+	"ExifVersion": "2.1",
+	"DateTimeOriginal": "2004:09:10 07:40:09",
+	"CreateDate": "2004:09:10 07:40:09",
+	"CompressedBitsPerPixel": 3.3,
+	"ShutterSpeedValue": "2",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1280,
+	"ExifImageHeight": 960,
+	"CFAPattern": "<truncated data>",
+	"error": "\u0000\u0000\u0000\u0000\u0000...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

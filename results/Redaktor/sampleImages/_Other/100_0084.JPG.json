@@ -1,0 +1,33 @@
+{
+	"Make": "EASTMAN KODAK COMPANY",
+	"Model": "KODAK EASYSHARE C183 Digital Camera",
+	"Orientation": 1,
+	"ModifyDate": "2010:01:02 13:32:51",
+	"YCbCrPositioning": 1,
+	"Rating": 0,
+	"RatingPercent": 0,
+	"ExifOffset": 2272,
+	"XPKeywords": [
+		0,
+		0
+	],
+	"ExposureTime": "1/200",
+	"FNumber": 8.8,
+	"ISO": 64,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2010:01:02 13:32:51",
+	"CreateDate": "2010:01:02 13:32:51",
+	"ShutterSpeedValue": "7.7",
+	"BrightnessValue": 9,
+	"ExposureCompensation": 0,
+	"SubSecTimeOriginal": "00",
+	"SubSecTimeDigitized": "00",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 3216,
+	"ExifImageHeight": 4288,
+	"ExposureIndex": 64,
+	"DigitalZoomRatio": 0,
+	"FocalLengthIn35mmFilm": 32,
+	"OffsetSchema": -12244,
+	"error": "IIII\u0002...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

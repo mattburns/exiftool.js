@@ -1,0 +1,40 @@
+{
+	"Make": "LG CYON",
+	"Model": "LU2300",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 142,
+	"GPSInfo": 320,
+	"Compression": 6,
+	"ThumbnailOffset": 596,
+	"ThumbnailLength": 28851,
+	"DateTimeOriginal": "2010:11:28 20:44:10",
+	"CreateDate": "2010:11:28 20:44:10",
+	"ColorSpace": 1,
+	"ExifImageWidth": 2560,
+	"ExifImageHeight": 1920,
+	"InteropOffset": 466,
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		0,
+		0,
+		0
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		0,
+		0,
+		0
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0,
+	"InteropIndex": "R98"
+}

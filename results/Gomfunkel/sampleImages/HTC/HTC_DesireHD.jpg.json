@@ -1,0 +1,47 @@
+{
+	"Make": "HTC",
+	"Model": "Desire HD",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 136,
+	"GPSInfo": 332,
+	"Compression": 6,
+	"ThumbnailOffset": 680,
+	"ThumbnailLength": 33245,
+	"ISO": 598,
+	"DateTimeOriginal": "2010:12:04 20:46:38",
+	"CreateDate": "2010:12:04 20:46:38",
+	"ColorSpace": 1,
+	"ExifImageWidth": 3264,
+	"ExifImageHeight": 2448,
+	"InteropOffset": 302,
+	"GPSVersionID": [
+		2,
+		2,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		59,
+		55,
+		52.56
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		30,
+		21,
+		25.32
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0,
+	"GPSTimeStamp": [
+		17,
+		46,
+		38
+	],
+	"GPSMapDatum": "WGS-84",
+	"GPSDateStamp": "2010:12:04",
+	"InteropIndex": "R98"
+}

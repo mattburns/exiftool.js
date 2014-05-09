@@ -1,0 +1,20 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"ComponentsConfiguration": "Y, Cb, Cr, -",
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Little-endian (Intel, II)",
+	"ExifVersion": "0110",
+	"ImageDescription": "TOSHIBA Exif JPEG",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"Make": "TOSHIBA",
+	"Model": "PDR-2",
+	"ResolutionUnit": "inches",
+	"Warning": "[minor] Unrecognized MakerNotes",
+	"XResolution": 72,
+	"YCbCrPositioning": "Co-sited",
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)",
+	"YResolution": 72
+}

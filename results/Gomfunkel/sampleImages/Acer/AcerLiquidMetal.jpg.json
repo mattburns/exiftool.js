@@ -1,0 +1,41 @@
+{
+	"Make": "Acer",
+	"Model": "Liquid Metal",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 146,
+	"GPSInfo": 350,
+	"Compression": 6,
+	"ThumbnailOffset": 638,
+	"ThumbnailLength": 42167,
+	"DateTimeOriginal": "2011:02:13 14:01:35",
+	"CreateDate": "2011:02:13 14:01:35",
+	"FocalLength": 3.53,
+	"ColorSpace": 1,
+	"ExifImageWidth": 2592,
+	"ExifImageHeight": 1944,
+	"InteropOffset": 320,
+	"GPSLatitudeRef": "S",
+	"GPSLatitude": [
+		0,
+		0,
+		0
+	],
+	"GPSLongitudeRef": "W",
+	"GPSLongitude": [
+		0,
+		0,
+		0
+	],
+	"GPSAltitudeRef": 1,
+	"GPSAltitude": 0,
+	"GPSTimeStamp": [
+		12,
+		0,
+		0
+	],
+	"GPSDateStamp": "2002:12:08",
+	"InteropIndex": "R98"
+}

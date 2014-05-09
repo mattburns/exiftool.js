@@ -1,0 +1,19 @@
+{
+	"Make": "Fly",
+	"Model": "Fly SX210",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ModifyDate": "2010:05:26 19:31:51",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 168,
+	"ExposureTime": "1/720",
+	"ISO": 100,
+	"ExifVersion": "2.2",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1280,
+	"ExifImageHeight": 960,
+	"DigitalZoomRatio": 1,
+	"error": "Media...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

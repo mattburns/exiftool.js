@@ -1,0 +1,49 @@
+{
+	"Make": "Apple",
+	"Model": "iPhone 3G",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "3.1.2",
+	"ModifyDate": "2011:07:06 02:51:13",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 204,
+	"GPSInfo": 458,
+	"Compression": 6,
+	"ThumbnailOffset": 754,
+	"ThumbnailLength": 4847,
+	"FNumber": 2.8,
+	"ExposureProgram": 2,
+	"DateTimeOriginal": "2011:07:06 02:51:13",
+	"CreateDate": "2011:07:06 02:51:13",
+	"ApertureValue": 2.970853573907009,
+	"MeteringMode": 1,
+	"Flash": 32,
+	"ColorSpace": 1,
+	"ExifImageWidth": 1600,
+	"ExifImageHeight": 1200,
+	"SensingMethod": 2,
+	"ExposureMode": 0,
+	"WhiteBalance": 0,
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		29,
+		43.84,
+		0
+	],
+	"GPSLongitudeRef": "W",
+	"GPSLongitude": [
+		95,
+		32.54,
+		0
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0,
+	"GPSTimeStamp": [
+		2,
+		51,
+		13.02
+	],
+	"GPSDOP": 5
+}

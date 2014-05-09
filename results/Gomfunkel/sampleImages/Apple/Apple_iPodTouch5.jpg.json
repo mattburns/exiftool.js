@@ -1,0 +1,62 @@
+{
+	"Make": "Apple",
+	"Model": "iPod touch",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "6.0",
+	"ModifyDate": "2012:10:15 10:38:44",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 200,
+	"GPSInfo": 602,
+	"Compression": 6,
+	"ThumbnailOffset": 866,
+	"ThumbnailLength": 14360,
+	"ExposureTime": 0.008333333333333333,
+	"FNumber": 2.4,
+	"ExposureProgram": 2,
+	"ISO": 50,
+	"DateTimeOriginal": "2012:10:15 10:38:44",
+	"CreateDate": "2012:10:15 10:38:44",
+	"ShutterSpeedValue": 6.906947890818858,
+	"ApertureValue": 2.5260688216892597,
+	"BrightnessValue": 6.25062656641604,
+	"MeteringMode": 3,
+	"Flash": 16,
+	"FocalLength": 3.3,
+	"SubjectArea": [
+		1722,
+		702,
+		484,
+		484
+	],
+	"ColorSpace": 1,
+	"ExifImageWidth": 2592,
+	"ExifImageHeight": 1936,
+	"SensingMethod": 2,
+	"CustomRendered": 4,
+	"ExposureMode": 0,
+	"WhiteBalance": 0,
+	"FocalLengthIn35mmFormat": 33,
+	"SceneCaptureType": 0,
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		41,
+		54.44,
+		0
+	],
+	"GPSLongitudeRef": "W",
+	"GPSLongitude": [
+		88,
+		5.33,
+		0
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 247.3339416058394,
+	"GPSTimeStamp": [
+		15,
+		38,
+		10.59
+	]
+}

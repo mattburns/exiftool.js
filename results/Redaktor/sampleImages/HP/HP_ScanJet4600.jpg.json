@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP ScanJet 4600",
+	"XResolution": 200,
+	"YResolution": 200,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 202,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:01:21 20:16:10",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1648,
+	"ExifImageHeight": 2340,
+	"Saturation": 10640,
+	"Sharpness": 10656
+}

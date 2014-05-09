@@ -1,0 +1,19 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Big-endian (Motorola, MM)",
+	"ExifImageHeight": 480,
+	"ExifImageWidth": 640,
+	"ExifVersion": "0210",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"InteropIndex": "R98 - DCF basic file (sRGB)",
+	"InteropVersion": "0100",
+	"Make": "SONY ERICSSON",
+	"Model": "SONY ERICSSON W950i",
+	"ModifyDate": "2007:11:01 22:55:45",
+	"Orientation": "Horizontal (normal)",
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+}

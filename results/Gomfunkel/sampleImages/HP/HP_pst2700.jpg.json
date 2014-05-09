@@ -1,0 +1,39 @@
+{
+	"Make": "HP",
+	"Model": "HP pst2700",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 318,
+	"XPTitle": [
+		82,
+		0,
+		117,
+		0,
+		115,
+		0,
+		115,
+		0,
+		105,
+		0,
+		97,
+		0,
+		0,
+		0
+	],
+	"Saturation": 5216,
+	"Sharpness": 5232,
+	"DateTimeOriginal": "2005:04:02 20:28:10",
+	"ColorSpace": 1,
+	"ExifImageWidth": 1188,
+	"ExifImageHeight": 519
+}

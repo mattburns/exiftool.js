@@ -1,0 +1,47 @@
+{
+	"Make": "Nokia",
+	"Model": "Lumia 920",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "Windows Phone",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 2252,
+	"GPSInfo": 9836,
+	"ExposureTime": 0.001701,
+	"FNumber": 2,
+	"ISO": 100,
+	"DateTimeOriginal": "2012:12:11 11:03:49",
+	"CreateDate": "2012:12:11 11:03:49",
+	"ExposureCompensation": 0,
+	"Flash": 16,
+	"ColorSpace": 1,
+	"ExifImageWidth": 3264,
+	"ExifImageHeight": 2448,
+	"InteropOffset": 9805,
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		53,
+		14,
+		0.935
+	],
+	"GPSLongitudeRef": "W",
+	"GPSLongitude": [
+		1,
+		2,
+		37.807
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0.009900990099009901,
+	"GPSMeasureMode": "3",
+	"GPSDOP": 0.05,
+	"InteropIndex": "R98",
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

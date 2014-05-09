@@ -1,0 +1,50 @@
+{
+	"Make": "Canon",
+	"Model": "Canon EOS-1D Mark III",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"Software": "Adobe Photoshop CS2 Windows",
+	"ModifyDate": "2008:07:01 10:49:47",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 1,
+	"ExifOffset": 364,
+	"GPSInfo": 1096,
+	"Compression": 6,
+	"ThumbnailOffset": 1210,
+	"ThumbnailLength": 4706,
+	"ExposureTime": "1/125",
+	"FNumber": 2.8,
+	"ISO": 400,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2008:06:28 10:32:11",
+	"CreateDate": "2008:06:28 10:32:11",
+	"ShutterSpeedValue": "7",
+	"UserComment": "",
+	"SubSecTime": "00",
+	"SubSecTimeOriginal": "00",
+	"SubSecTimeDigitized": "00",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 533,
+	"ExifImageHeight": 800,
+	"FocalPlaneXResolution": 3512.1951219512193,
+	"FocalPlaneYResolution": 3521.7391304347825,
+	"Gamma": 2.2,
+	"GPSVersionID": "2.2.0.0"
+}

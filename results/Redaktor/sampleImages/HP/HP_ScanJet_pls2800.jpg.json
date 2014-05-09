@@ -1,0 +1,28 @@
+{
+	"Make": "HP",
+	"Model": "HP ScanJet pls2800",
+	"Orientation": 1,
+	"XResolution": 200,
+	"YResolution": 200,
+	"Software": "ACD Systems Digital Imaging",
+	"ModifyDate": "2010:02:01 16:56:27",
+	"YCbCrPositioning": 1,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 277,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:02:01 05:21:20",
+	"SubSecTime": "390",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2352,
+	"ExifImageHeight": 1700,
+	"InteropOffset": 447,
+	"InteropIndex": "R98",
+	"InteropVersion": "1"
+}

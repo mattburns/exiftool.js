@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP ScanJet pls3015",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 206,
+	"DateTimeOriginal": "2010:05:31 12:20: 4",
+	"ColorSpace": 1,
+	"ExifImageWidth": 1700,
+	"ExifImageHeight": 2331,
+	"Saturation": 0,
+	"Sharpness": 0
+}

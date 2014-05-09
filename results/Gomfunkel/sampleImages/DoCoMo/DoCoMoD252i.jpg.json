@@ -1,0 +1,22 @@
+{
+	"Make": "DoCoMo             ",
+	"Model": "D252i              ",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2005:03:14 18:12:18",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 198,
+	"Compression": 6,
+	"ThumbnailOffset": 616,
+	"ThumbnailLength": 3517,
+	"DateTimeOriginal": "2005:03:14 18:12:18",
+	"CreateDate": "2005:03:14 18:12:18",
+	"ColorSpace": 1,
+	"ExifImageWidth": 288,
+	"ExifImageHeight": 352,
+	"InteropOffset": 480,
+	"InteropIndex": "R98",
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

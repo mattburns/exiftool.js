@@ -1,0 +1,58 @@
+{
+	"ImageDescription": "DSC00011",
+	"Make": "Hewlett-Packard Company",
+	"Model": "PhotoSmart C200      ",
+	"Orientation": 1,
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"WhitePoint": [
+		0.3127,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.3,
+		0.6,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		0,
+		128,
+		0,
+		128
+	],
+	"ExifOffset": 377,
+	"Compression": 6,
+	"ThumbnailOffset": 869,
+	"ThumbnailLength": 7236,
+	"ExposureTime": 0.0313,
+	"FNumber": 2.8,
+	"DateTimeOriginal": "1998:07:07 13:17:22\u0000",
+	"CompressedBitsPerPixel": 3.6,
+	"ExposureCompensation": 0,
+	"MaxApertureValue": 2.8,
+	"SubjectDistance": 2.453,
+	"MeteringMode": 2,
+	"LightSource": 0,
+	"Flash": 1,
+	"FocalLength": 5.9,
+	"ColorSpace": 1,
+	"ExifImageWidth": 600,
+	"ExifImageHeight": 454,
+	"InteropOffset": 728,
+	"FocalPlaneXResolution": 5770,
+	"FocalPlaneYResolution": 5770,
+	"FocalPlaneResolutionUnit": 2,
+	"InteropIndex": "\u0001\u0001\u0001\u0002"
+}

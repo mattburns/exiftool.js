@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP Scanjet 4570",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 202,
+	"DateTimeOriginal": "2009:12:31 00:18:32",
+	"ColorSpace": 1,
+	"ExifImageWidth": 868,
+	"ExifImageHeight": 1178,
+	"Saturation": 0,
+	"Sharpness": 2
+}

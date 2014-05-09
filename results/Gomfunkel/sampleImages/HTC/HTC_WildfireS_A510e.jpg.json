@@ -1,0 +1,48 @@
+{
+	"Make": "HTC",
+	"Model": "HTC Wildfire S A510e",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 1,
+	"ExifOffset": 148,
+	"GPSInfo": 364,
+	"Compression": 6,
+	"ThumbnailOffset": 712,
+	"ThumbnailLength": 12865,
+	"ISO": 589,
+	"DateTimeOriginal": "2011:05:27 01:06:39",
+	"CreateDate": "2011:05:27 01:06:39",
+	"FocalLength": 3.53,
+	"ColorSpace": 1,
+	"ExifImageWidth": 2592,
+	"ExifImageHeight": 1728,
+	"InteropOffset": 334,
+	"GPSVersionID": [
+		2,
+		2,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		55,
+		32,
+		51.28
+	],
+	"GPSLongitudeRef": "E",
+	"GPSLongitude": [
+		37,
+		33,
+		6.12
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 0,
+	"GPSTimeStamp": [
+		21,
+		6,
+		39
+	],
+	"GPSMapDatum": "WGS-84",
+	"GPSDateStamp": "2011:05:26",
+	"InteropIndex": "R98"
+}

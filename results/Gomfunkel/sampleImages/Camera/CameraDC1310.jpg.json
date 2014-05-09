@@ -1,0 +1,30 @@
+{
+	"Make": "CAMERA",
+	"Model": "DC1310",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "1.46B",
+	"ModifyDate": "2004:05:10 03:59:44",
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 240,
+	"ExposureTime": 0.01098901098901099,
+	"FNumber": 2.8,
+	"ISO": 100,
+	"DateTimeOriginal": "2004:05:10 03:59:44",
+	"CreateDate": "2004:05:10 03:59:44",
+	"ShutterSpeedValue": 6.59,
+	"ApertureValue": 3,
+	"Flash": 1,
+	"ColorSpace": 1,
+	"ExifImageWidth": 1024,
+	"ExifImageHeight": 768
+}

@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP Scanjet 4800",
+	"XResolution": 300,
+	"YResolution": 300,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 202,
+	"DateTimeOriginal": "2008:11:04 20:18: 1",
+	"ColorSpace": 1,
+	"ExifImageWidth": 1664,
+	"ExifImageHeight": 1096,
+	"Saturation": 0,
+	"Sharpness": 0
+}

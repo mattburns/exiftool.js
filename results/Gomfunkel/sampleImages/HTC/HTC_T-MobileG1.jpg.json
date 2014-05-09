@@ -1,0 +1,50 @@
+{
+	"Make": "HTC",
+	"Model": "T-Mobile G1",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": " \u0000\u0000\u0000\u001a\u0000\u0000",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 242,
+	"GPSInfo": 510,
+	"Compression": 6,
+	"ThumbnailOffset": 928,
+	"ThumbnailLength": 22474,
+	"DateTimeOriginal": "2008:11:30 15:58:01",
+	"CreateDate": "2008:11:30 15:58:01",
+	"ColorSpace": 1,
+	"ExifImageWidth": 1536,
+	"ExifImageHeight": 2048,
+	"InteropOffset": 480,
+	"WhiteBalance": 0,
+	"GPSVersionID": [
+		2,
+		2,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		37,
+		33,
+		0.72
+	],
+	"GPSLongitudeRef": "W",
+	"GPSLongitude": [
+		121,
+		58,
+		11.36
+	],
+	"GPSAltitudeRef": 0,
+	"GPSAltitude": 4294967284,
+	"GPSTimeStamp": [
+		4,
+		22,
+		24
+	],
+	"GPSMapDatum": "WGS-84",
+	"GPSDateStamp": "1961:05:29",
+	"InteropIndex": "R98"
+}

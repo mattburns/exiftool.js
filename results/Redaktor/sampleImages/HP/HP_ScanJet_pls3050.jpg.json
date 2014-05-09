@@ -1,0 +1,21 @@
+{
+	"Make": "HP",
+	"Model": "HP ScanJet pls3050",
+	"XResolution": 200,
+	"YResolution": 200,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 206,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2009:08:06 14:06:12",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1700,
+	"ExifImageHeight": 2352
+}

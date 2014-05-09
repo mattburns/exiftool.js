@@ -1,0 +1,21 @@
+{
+	"Make": "HP",
+	"Model": "HP ojp7500",
+	"XResolution": 200,
+	"YResolution": 200,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 198,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:04:13 16:41:27",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1691,
+	"ExifImageHeight": 2329
+}

@@ -1,0 +1,66 @@
+{
+	"Make": "SONY\u0000",
+	"Model": "DCR-DVD201E\u0000",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2005:04:16 22:11:11\u0000",
+	"WhitePoint": [
+		0,
+		0
+	],
+	"PrimaryChromaticities": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"YCbCrCoefficients": [
+		0,
+		0,
+		0
+	],
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"ExifOffset": 346,
+	"ExposureTime": 0.02,
+	"FNumber": 2.8,
+	"ExposureProgram": 2,
+	"ISO": [
+		0,
+		0
+	],
+	"DateTimeOriginal": "2005:04:16 22:11:11\u0000",
+	"CreateDate": "2005:04:16 22:11:11\u0000",
+	"CompressedBitsPerPixel": 2,
+	"ShutterSpeedValue": 0,
+	"ApertureValue": 0,
+	"BrightnessValue": 0,
+	"ExposureCompensation": 0,
+	"MaxApertureValue": 1.7,
+	"SubjectDistance": 0,
+	"MeteringMode": 5,
+	"LightSource": 0,
+	"Flash": 73,
+	"FocalLength": 3.2,
+	"ColorSpace": 1,
+	"ExifImageWidth": 1152,
+	"ExifImageHeight": 864,
+	"FocalPlaneXResolution": 0,
+	"FocalPlaneYResolution": 0,
+	"FocalPlaneResolutionUnit": 0,
+	"ExposureIndex": 0,
+	"SensingMethod": 0,
+	"FileSource": 3,
+	"SceneType": 1
+}

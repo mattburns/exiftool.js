@@ -1,0 +1,20 @@
+{
+	"Make": "Sony Ericsson",
+	"Model": "W508",
+	"Software": "R1FA035     prg1216-7630GENERICBR 00.00",
+	"ModifyDate": "2010:12:14 16:57:20",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 168,
+	"ExposureTime": "1/8",
+	"FNumber": 2.8,
+	"ISO": 250,
+	"ExifVersion": "2.2",
+	"DateTimeOriginal": "2010:12:14 16:57:19",
+	"CreateDate": "2010:12:14 16:57:20",
+	"ExposureCompensation": 0,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2048,
+	"ExifImageHeight": 1536,
+	"DigitalZoomRatio": 1,
+	"error": "SEMC ...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

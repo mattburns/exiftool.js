@@ -1,0 +1,50 @@
+{
+	"ImageWidth": 2048,
+	"ImageHeight": 1536,
+	"Compression": 6,
+	"ModifyDate": "2010:08:06 21:19:55",
+	"YCbCrPositioning": 1,
+	"Orientation": 1,
+	"Model": "GT-B7320",
+	"Make": "SAMSUNG Electronics",
+	"ExifOffset": 183,
+	"GPSInfo": 493,
+	"ColorSpace": 1,
+	"ExposureTime": 0.125,
+	"ExifImageWidth": 2048,
+	"ExifImageHeight": 1536,
+	"DateTimeOriginal": "2010:08:06 21:19:55",
+	"ExposureProgram": 3,
+	"WhiteBalance": 0,
+	"Flash": 0,
+	"FocalLength": 3.55,
+	"FNumber": 2.8,
+	"ISO": 320,
+	"MeteringMode": 1,
+	"ExposureMode": 0,
+	"SceneCaptureType": 0,
+	"MaxApertureValue": 2.97,
+	"CreateDate": "2010:08:06 21:19:55",
+	"InteropOffset": 635,
+	"GPSVersionID": [
+		0,
+		0,
+		0,
+		0
+	],
+	"GPSLatitudeRef": "\u0000",
+	"GPSLatitude": [
+		null,
+		null,
+		null
+	],
+	"GPSLongitude": [
+		null,
+		null,
+		null
+	],
+	"GPSAltitude": null,
+	"GPSLongitudeRef": "\u0000",
+	"GPSAltitudeRef": 0,
+	"InteropIndex": "R98"
+}

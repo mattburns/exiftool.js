@@ -1,0 +1,38 @@
+{
+	"Make": "Research In Motion",
+	"Model": "BlackBerry 9520",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"Software": "Rim Exif Version1.00a",
+	"ModifyDate": "2010:08:03 16:58:50",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 240,
+	"GPSInfo": 414,
+	"ExposureTime": 0,
+	"DateTimeOriginal": "2010:08:03 16:58:50",
+	"SubjectDistance": 0,
+	"LightSource": 0,
+	"Flash": 32,
+	"ColorSpace": 1,
+	"ExifImageWidth": 2048,
+	"ExifImageHeight": 1536,
+	"GPSLatitudeRef": "N",
+	"GPSLatitude": [
+		54,
+		56.617,
+		0
+	],
+	"GPSLongitudeRef": "W",
+	"GPSLongitude": [
+		1,
+		36.28,
+		0
+	],
+	"GPSAltitude": 113,
+	"GPSSpeedRef": "K",
+	"GPSSpeed": 0,
+	"GPSTrackRef": "T",
+	"GPSTrack": 0
+}

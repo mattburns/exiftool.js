@@ -1,0 +1,33 @@
+{
+	"ImageDescription": "Orsay",
+	"Make": "LG Electronics",
+	"Model": "KC550",
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ExifOffset": 154,
+	"ThumbnailOffset": 538,
+	"ThumbnailLength": 16184,
+	"ExposureTime": 0.016666666666666666,
+	"FNumber": 2.8,
+	"ExposureProgram": 2,
+	"ISO": [
+		200,
+		0
+	],
+	"DateTimeOriginal": "2010:04:07 10:11:10",
+	"CreateDate": "2010:04:07 10:11:10",
+	"ShutterSpeedValue": 6,
+	"ApertureValue": 3,
+	"ExposureCompensation": 0,
+	"MeteringMode": 2,
+	"Flash": 0,
+	"FocalLength": 4.48,
+	"ColorSpace": 1,
+	"ExifImageWidth": 2560,
+	"ExifImageHeight": 1920,
+	"ExposureMode": 2,
+	"WhiteBalance": 0,
+	"DigitalZoomRatio": 0
+}

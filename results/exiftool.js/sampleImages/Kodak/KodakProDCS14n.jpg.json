@@ -1,0 +1,20 @@
+{
+	"BitsPerSample": "8,8,8",
+	"Compression": "7",
+	"DateTime": "2003:03:09 10:55:03",
+	"ExifIFDPointer": "506",
+	"ImageDescription": "",
+	"ImageHeight": "4500",
+	"ImageWidth": "3000",
+	"Make": "Kodak",
+	"PhotometricInterpretation": "2",
+	"PlanarConfiguration": "1",
+	"ResolutionUnit": "2",
+	"RowsPerStrip": "4500",
+	"SamplesPerPixel": "3",
+	"Software": "KODAK PROFESSIONAL DCS Photo Desk JPEG Export v3.0",
+	"StripByteCounts": "40500000",
+	"StripOffsets": "58352",
+	"XResolution": "300",
+	"YResolution": "300"
+}

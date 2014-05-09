@@ -1,0 +1,19 @@
+{
+	"BitsPerSample": 8,
+	"ColorComponents": 3,
+	"Compression": "JPEG (old-style)",
+	"CustomRendered": "Custom",
+	"EncodingProcess": "Baseline DCT, Huffman coding",
+	"ExifByteOrder": "Little-endian (Intel, II)",
+	"ImageHeight": 8,
+	"ImageSize": "8x8",
+	"ImageWidth": 8,
+	"Make": "SAGEM",
+	"Model": "myX6-2",
+	"ModifyDate": "2008:07:02 18:28:00",
+	"Orientation": "Horizontal (normal)",
+	"ThumbnailImage": "(Binary data 11091 bytes)",
+	"ThumbnailLength": 11091,
+	"ThumbnailOffset": 162,
+	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"
+}

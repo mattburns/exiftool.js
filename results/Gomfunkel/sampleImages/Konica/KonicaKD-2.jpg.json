@@ -1,0 +1,69 @@
+{
+	"ImageDescription": "KF2-2002",
+	"Make": "KONICA \u0000",
+	"Model": "KONICA KD-2",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"ResolutionUnit": 2,
+	"ModifyDate": "2004:07:10 14:19:05",
+	"WhitePoint": [
+		0,
+		0
+	],
+	"PrimaryChromaticities": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"YCbCrCoefficients": [
+		0,
+		0,
+		0
+	],
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"ExifOffset": 392,
+	"ExposureTime": 0.033333,
+	"FNumber": 3.5,
+	"ExposureProgram": 2,
+	"ISO": [
+		200,
+		200
+	],
+	"DateTimeOriginal": "2004:07:10 14:19:05",
+	"CreateDate": "2004:07:10 14:19:05",
+	"CompressedBitsPerPixel": 2,
+	"ShutterSpeedValue": 0,
+	"ApertureValue": 0,
+	"BrightnessValue": 0,
+	"ExposureCompensation": 4.5,
+	"MaxApertureValue": 3.5,
+	"SubjectDistance": 0,
+	"MeteringMode": 2,
+	"LightSource": 0,
+	"Flash": 1,
+	"FocalLength": 5.6,
+	"UserComment": "ASCII\u0000\u0000\u0000Created by PowerBatch",
+	"ColorSpace": 1,
+	"ExifImageWidth": 640,
+	"ExifImageHeight": 480,
+	"FocalPlaneXResolution": 0,
+	"FocalPlaneYResolution": 0,
+	"FocalPlaneResolutionUnit": 0,
+	"ExposureIndex": 0,
+	"SensingMethod": 0,
+	"FileSource": 3,
+	"SceneType": 1,
+	"FocalLengthIn35mmFormat": 4293.967296
+}

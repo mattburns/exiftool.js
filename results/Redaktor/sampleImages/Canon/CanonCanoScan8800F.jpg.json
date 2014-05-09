@@ -1,0 +1,33 @@
+{
+	"Make": "Canon",
+	"Model": "CanoScan 8800F",
+	"Orientation": 1,
+	"XResolution": 2400,
+	"YResolution": 2400,
+	"Software": "MP Navigator EX 1.0",
+	"ModifyDate": "2010:04:26 13:40:44",
+	"WhitePoint": [
+		0.313,
+		0.329
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.21,
+		0.71,
+		0.15,
+		0.06
+	],
+	"YCbCrPositioning": 1,
+	"ExifOffset": 300,
+	"Compression": 6,
+	"ThumbnailOffset": 560,
+	"ThumbnailLength": 5166,
+	"ExifVersion": "2.21",
+	"CreateDate": "2010:04:26 13:40:44",
+	"FlashpixVersion": "1",
+	"ColorSpace": 65535,
+	"ExifImageWidth": 3408,
+	"ExifImageHeight": 2264,
+	"Gamma": 2.2
+}

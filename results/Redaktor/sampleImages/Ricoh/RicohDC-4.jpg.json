@@ -1,0 +1,52 @@
+{
+	"Make": "RICOH",
+	"Model": "DC-4",
+	"Orientation": 1,
+	"XResolution": 72,
+	"YResolution": 72,
+	"WhitePoint": [
+		0.4234,
+		0.399
+	],
+	"PrimaryChromaticities": [
+		0.64,
+		0.33,
+		0.3,
+		0.6,
+		0.15,
+		0.06
+	],
+	"YCbCrCoefficients": [
+		0.299,
+		0.587,
+		0.114
+	],
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"Copyright": "(C) by DC-4 User",
+	"ExifOffset": 375,
+	"Compression": 6,
+	"ThumbnailOffset": 1105,
+	"ThumbnailLength": 8736,
+	"ExifVersion": "2",
+	"DateTimeOriginal": "2005:09:10 10:56:00",
+	"CompressedBitsPerPixel": 2,
+	"ShutterSpeedValue": "4",
+	"BrightnessValue": 3,
+	"ExposureCompensation": 0,
+	"UserComment": "",
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 1280,
+	"ExifImageHeight": 960,
+	"RelatedSoundFile": "",
+	"InteropOffset": 964,
+	"InteropIndex": "",
+	"InteropVersion": "NaN"
+}

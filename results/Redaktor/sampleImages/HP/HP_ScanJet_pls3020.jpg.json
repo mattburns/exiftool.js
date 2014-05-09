@@ -1,0 +1,22 @@
+{
+	"Make": "HP",
+	"Model": "HP ScanJet pls3020",
+	"Orientation": 1,
+	"XResolution": 600,
+	"YResolution": 600,
+	"Software": "ACD Systems",
+	"ModifyDate": "2010:04:27 12:44:04",
+	"YCbCrPositioning": 1,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 311,
+	"SubSecTime": "624",
+	"ExifImageWidth": 3280,
+	"ExifImageHeight": 2368
+}

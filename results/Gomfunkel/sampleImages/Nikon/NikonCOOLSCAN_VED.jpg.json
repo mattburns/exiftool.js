@@ -1,0 +1,19 @@
+{
+	"Make": "Nikon",
+	"Model": "Nikon COOLSCAN V ED",
+	"Orientation": 1,
+	"XResolution": 360,
+	"YResolution": 360,
+	"ResolutionUnit": 2,
+	"Software": "Nikon Scan 4.0.2 W",
+	"ModifyDate": "2007.11.15 00.39.56",
+	"YCbCrPositioning": 1,
+	"ExifOffset": 216,
+	"Compression": 6,
+	"ThumbnailOffset": 618,
+	"ThumbnailLength": 6017,
+	"ColorSpace": 1,
+	"ExifImageWidth": 3827,
+	"ExifImageHeight": 2565,
+	"error": "Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}

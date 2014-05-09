@@ -1,0 +1,23 @@
+{
+	"Make": "HP",
+	"Model": "HP ojj6400",
+	"XResolution": 200,
+	"YResolution": 200,
+	"ResolutionUnit": 2,
+	"YCbCrPositioning": 2,
+	"ReferenceBlackWhite": [
+		0,
+		255,
+		128,
+		255,
+		128,
+		255
+	],
+	"ExifOffset": 198,
+	"DateTimeOriginal": "2010:04:11 15:38:48",
+	"ColorSpace": 1,
+	"ExifImageWidth": 328,
+	"ExifImageHeight": 400,
+	"Saturation": 1,
+	"Sharpness": 1
+}

@@ -1,0 +1,20 @@
+{
+	"ImageDescription": "",
+	"Make": "SONY",
+	"Model": "HDR-CX105E",
+	"ModifyDate": "2010:10:01 09:26:43",
+	"YCbCrPositioning": 2,
+	"ExifOffset": 156,
+	"ExposureTime": "1/150",
+	"FNumber": 4,
+	"ExifVersion": "2.21",
+	"DateTimeOriginal": "2010:10:01 09:26:43",
+	"CreateDate": "2010:10:01 09:26:43",
+	"CompressedBitsPerPixel": 2,
+	"ExposureCompensation": 0,
+	"Flash": 48,
+	"FlashpixVersion": "1",
+	"ExifImageWidth": 2016,
+	"ExifImageHeight": 1134,
+	"error": "SONY ...: Unable to extract Makernote information as it is in an unsupported or unrecognized format."
+}
