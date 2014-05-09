@@ -361,6 +361,7 @@
 
         EXIF.Tags = {
 
+            0x0202 : "ThumbnailLength",
             // version tags
             0x9000 : "ExifVersion", // EXIF version
             0xA000 : "FlashpixVersion", // Flashpix format version
