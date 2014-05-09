@@ -1,0 +1,19 @@
+tr td {
+    font-family: monospace;
+}
+
+th, td {
+    word-break: break-all;
+}
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 0px 8px;
+}
+
+.match {
+    background-color: #9f9;
+}
+
+.diff, .missing {
+    background-color: #f99;
+}

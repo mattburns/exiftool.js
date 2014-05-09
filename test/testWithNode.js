@@ -11,7 +11,10 @@
     
     var programs = ['exiftool', 'exiftool.js', 'Gomfunkel', 'Redaktor'];
 
-    var coverageSummaryHolder = {};
+    var coverageSummaryHolder = {
+        'supportedTags': {},
+        'supportedTagsByFile': {},
+    };
 
     /**
      * Sort an object's key's alphabetically.
@@ -246,12 +249,13 @@
             "<table class='table table-bordered'>";
         for (var i = 0 ; i < programs.length ; i++) {
             var program = programs[i];
-            html += "<tr><th>" + program + "</th><td>" + coverageSummary.supportedTags[program] + "/" + coverageSummary.supportedTags.exiftool + "</td></tr>\n";
+            html += "<tr><th>" + program + "</th><td>" + (coverageSummary.supportedTags[program] || 0) + "/" + (coverageSummary.supportedTags.exiftool || 0) + "</td></tr>\n";
         }
         html += "</table>";
 
         html += "<h3>Manfacturer tag support</h3>";
         
+        // Write the table header...
         html += "<table class='table table-bordered'><tr><th>File</th>";
         for (var i = 0 ; i < programs.length ; i++) {
             var program = programs[i];
@@ -259,14 +263,18 @@
         }
         html += "</tr>";
 
+        // Write a row for each image file
         for (var key in coverageSummary.supportedTagsByFile) {
             html += "<tr><td><a href='" + key +".html'>" + key + "</a></td>";
             for (var i = 0 ; i < programs.length ; i++) {
                 var program = programs[i];
-                html += "<td>" + (coverageSummary.supportedTagsByFile[key][program] || 0) + "</td>";
+                var count = coverageSummary.supportedTagsByFile[key][program] || 0;
+                html += "<td" + (count==0?" class='missing' ":"") + ">" + count + "</td>";
             }
             html += "</tr>\n";
         }
+
+        // Write the total count row
         html += "<tr>";
         html += "<th>Totals</th>";
         for (var i = 0 ; i < programs.length ; i++) {
@@ -349,14 +357,14 @@
                                 if (ef) {
                                     saveJson(ef, image, program);
                                     allExif[program] = ef;
-                                    if (Object.keys(allExif).length == programs.length) {
-                                        updateReports(allExif, image, coverageSummaryHolder, function(cs) {
-                                            coverageSummaryHolder = cs;
-                                            next();
-                                        });
-                                    }
                                 } else {
-                                    next();
+                                    allExif[program] = {};
+                                }
+                                if (Object.keys(allExif).length == programs.length) {
+                                    updateReports(allExif, image, coverageSummaryHolder, function(cs) {
+                                        coverageSummaryHolder = cs;
+                                        next();
+                                    });
                                 }
                             };
                         })(imgFile, programs[i]));

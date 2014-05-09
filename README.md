@@ -33,7 +33,7 @@ binaryReader.readAsBinaryString(file);
 Or using node,js:
 
 ```
-var exiftool = require('./exiftool.js');
+var exiftool = require('exiftool.js');
 var fs = require('fs');
 
 exiftool.getExifFromLocalFileUsingNodeFs(fs, imgFile, function(exif) {
