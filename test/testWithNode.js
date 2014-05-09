@@ -201,15 +201,12 @@
             if (err) {
                 return console.log(err);
             }
-            var result = data.replace(/htmlbody/g, html);
+            var result = data.replace(/htmlbody/g, html).replace(/cssparent/g, "../../../../report");
 
             var reportFile = 'generated/reports/' + image + '.html';
             var parentDir = reportFile.substring(0, reportFile.lastIndexOf("/"));
             if (!fs.existsSync(parentDir)) {
                 fs.mkdirSync(parentDir, 0777, true);
-                fs.linkSync('report/css', parentDir + '/css');
-                fs.linkSync('report/fonts', parentDir + '/fonts');
-                fs.linkSync('report/js', parentDir + '/js');
             }
             fs.writeFile(reportFile, result, 'utf8', function(err) {
                 if (err) {
@@ -288,15 +285,10 @@
             if (err) {
                 return console.log(err);
             }
-            var result = data.replace(/htmlbody/g, html);
+            var result = data.replace(/htmlbody/g, html).replace(/cssparent/g, "../../report");
 
             var pDir = 'generated/reports/';
             var reportFile = pDir + 'index.html';
-            if (!fs.existsSync(pDir + 'css')) {
-                fs.linkSync('report/css', pDir + 'css');
-                fs.linkSync('report/fonts', pDir + 'fonts');
-                fs.linkSync('report/js', pDir + 'js');
-            }
             
             fs.writeFile(reportFile, result, 'utf8', function(err) {
                 if (err) {
