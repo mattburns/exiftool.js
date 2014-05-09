@@ -74,21 +74,31 @@
     };
 
     var extractExifUsingExiftool = function(imgFile, callback) {
-        var child = exec("exiftool -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate --SourceFile --ExifToolVersion --FileName --Directory --FilePermissions --FileSize --FileModifyDate --FileType --MIMEType '" + imgFile + "'", function(error, stdout, stderr) {
-            if (error !== null) {
-                console.log('exec error with ' + imgFile + ': ' + error);
-                callback();
-            } else {
-                // stdout string takes some munging...
-                var exifFromPerl = String(stdout);
-                exifFromPerl = exifFromPerl.replace(/\r?\n|\r/g, ""); // lose newlines
-                exifFromPerl = exifFromPerl.substring(1,
-                        exifFromPerl.length - 1); // lose surrounding []
-                exifFromPerl = JSON.parse(exifFromPerl);
-                delete exifFromPerl["SourceFile"];
-                exifFromPerl = sortObject(exifFromPerl);
-                callback(exifFromPerl);
+        fs.readFile('results/exiftool/' + imgFile + '.json', 'utf8', function(err, data) {
+            try {
+                // First, try to load json from file
+                var exifFromExiftool = JSON.parse(data);
+                callback(exifFromExiftool);
+            } catch (error) {
+                // Failing that, let's fire up exiftool
+                var child = exec("exiftool -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate --SourceFile --ExifToolVersion --FileName --Directory --FilePermissions --FileSize --FileModifyDate --FileType --MIMEType '" + imgFile + "'", function(error, stdout, stderr) {
+                    if (error !== null) {
+                        console.log('exec error with ' + imgFile + ': ' + error);
+                        callback();
+                    } else {
+                        // stdout string takes some munging...
+                        var exifFromPerl = String(stdout);
+                        exifFromPerl = exifFromPerl.replace(/\r?\n|\r/g, ""); // lose newlines
+                        exifFromPerl = exifFromPerl.substring(1,
+                                exifFromPerl.length - 1); // lose surrounding []
+                        exifFromPerl = JSON.parse(exifFromPerl);
+                        delete exifFromPerl["SourceFile"];
+                        exifFromPerl = sortObject(exifFromPerl);
+                        callback(exifFromPerl);
+                    }
+                });
             }
+
         });
     };
     
