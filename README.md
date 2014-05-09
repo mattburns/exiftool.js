@@ -46,7 +46,7 @@ Coverage
 ========
 
 You can view exactly how the results from this library fair verses the perl library against images from 6,000 different camera models here:
-[Coverage report](http://mattburns.github.io/exiftool.js/report/)
+[Coverage report](http://mattburns.github.io/exiftool.js/generated/reports/)
 
 I see no reason why this library can't match (and exceed!) the parsing capabilities of the orginal perl library but I need your help. Please fork this repo, create pull request and issue, whatever. You can just play with making improvements to the code so that the coverage goes up. It's easy to see how much your changes are improving this thanks to the coverage report above. To regenerate this simply run:
 
