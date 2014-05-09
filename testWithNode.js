@@ -97,33 +97,17 @@
     };
     
     var extractExifUsingGomfunkel = function(imgFile, callback) {
-        new Gomfunkel({ image : imgFile }, function (error, exif) {
-            if (error) {
-                console.log('Gomfunkel Error: '+error.message);
-            } else {
-                // Loop over any children like "exif", "image" or "makernote" 
-                for (var key in exif) {
-                    // ...then loop over their children moving them up to the root
-                    for (var exifKey in exif[key]) {
-                        // skip Objects
-                        var valueType = Object.prototype.toString.call(exif[key][exifKey]);
-                        if (valueType != "[object Object]") {
-                            exif[exifKey] = exif[key][exifKey];
-                        }
-                    };
-                    if (typeof exif[key] === 'object') {
-                        delete exif[key];
-                    }
-                };
-            }
-            callback(exif);
-        });
+        new Gomfunkel({ image : imgFile }, createNodeExifCallbackHandler('Gomfunkel');
     };
 
     var extractExifUsingRedaktor = function(imgFile, callback) {
-        new Redaktor({ image : imgFile }, function (error, exif) {
+        new Redaktor({ image : imgFile }, createNodeExifCallbackHandler('Redaktor');
+    };
+
+    var createNodeExifCallbackHandler = function (program) {
+        return function (error, exif) {
             if (error) {
-                console.log('Redaktor Error: '+error.message);
+                console.log(program + ' Error: ' + error.message);
             } else {
                 // Loop over any children like "exif", "image" or "makernote" 
                 for (var key in exif) {
