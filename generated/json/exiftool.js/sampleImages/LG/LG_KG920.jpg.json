@@ -1,7 +1,6 @@
 {
 	"ApertureValue": "4.971",
 	"BrightnessValue": "8.26495361328125",
-	"DateTime": "2009.02.16",
 	"ExifIFDPointer": "122",
 	"ExifVersion": "0220",
 	"ExposureBias": "0",
@@ -12,10 +11,11 @@
 	"FocalPlaneResolutionUnit": "3",
 	"FocalPlaneXResolution": "0.5675318961724594",
 	"FocalPlaneYResolution": "0.42542894852617685",
-	"ISOSpeedRatings": "",
+	"ISO": "",
 	"Make": "LG Electronics Inc.",
 	"MeteringMode": "MultiSpot",
 	"Model": "KG920",
+	"ModifyDate": "2009.02.16",
 	"ShutterSpeedValue": "8.291824340820312",
 	"WhiteBalance": "Manual"
 }

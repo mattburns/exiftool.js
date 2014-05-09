@@ -1,14 +1,14 @@
 {
 	"ColorSpace": "sRGB",
-	"DateTime": "2007:06:29 22:35:26",
-	"DateTimeDigitized": "2007:06:29 22:35:26",
+	"CreateDate": "2007:06:29 22:35:26",
 	"DateTimeOriginal": "2007:06:29 22:35:26",
 	"ExifIFDPointer": "119",
+	"ExifImageHeight": "1200",
+	"ExifImageWidth": "1600",
 	"FNumber": "2.8",
 	"Make": "Apple",
 	"Model": "iPhone",
+	"ModifyDate": "2007:06:29 22:35:26",
 	"Orientation": "6",
-	"PixelXDimension": "1600",
-	"PixelYDimension": "1200",
 	"ResolutionUnit": "2"
 }

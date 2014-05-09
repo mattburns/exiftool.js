@@ -1,7 +1,6 @@
 {
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
 	"CompressedBitsPerPixel": "1.7",
-	"DateTime": "2002:02:17 02:47:25",
 	"DateTimeOriginal": "2002:02:17 02:47:25",
 	"ExifIFDPointer": "242",
 	"ExifVersion": "0110",
@@ -17,6 +16,7 @@
 	"MaxApertureValue": "3",
 	"MeteringMode": "CenterWeightedAverage",
 	"Model": "SR05",
+	"ModifyDate": "2002:02:17 02:47:25",
 	"Orientation": "1",
 	"ResolutionUnit": "2",
 	"XResolution": "72",

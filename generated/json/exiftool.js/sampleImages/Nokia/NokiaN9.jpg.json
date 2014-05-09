@@ -15,7 +15,7 @@
 	"FlashpixVersion": "0100",
 	"FocalLength": "28 mm",
 	"GainControl": "Low gain up",
-	"ISOSpeedRatings": "200",
+	"ISO": "200",
 	"Make": "Nokia",
 	"MakerNoteIFDPointer": "474",
 	"MeteringMode": "Average",

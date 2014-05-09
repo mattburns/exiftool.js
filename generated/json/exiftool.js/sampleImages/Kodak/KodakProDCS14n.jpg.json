@@ -1,12 +1,12 @@
 {
 	"BitsPerSample": "8,8,8",
 	"Compression": "7",
-	"DateTime": "2003:03:09 10:55:03",
 	"ExifIFDPointer": "506",
 	"ImageDescription": "",
 	"ImageHeight": "4500",
 	"ImageWidth": "3000",
 	"Make": "Kodak",
+	"ModifyDate": "2003:03:09 10:55:03",
 	"PhotometricInterpretation": "2",
 	"PlanarConfiguration": "1",
 	"ResolutionUnit": "2",

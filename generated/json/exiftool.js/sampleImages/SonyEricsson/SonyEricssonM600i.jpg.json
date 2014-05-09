@@ -1,11 +1,11 @@
 {
-	"DateTime": "2009:09:25 00:17:54",
 	"ExifIFDPointer": "74",
+	"ExifImageHeight": "480",
+	"ExifImageWidth": "640",
 	"ExifVersion": "0210",
 	"InteroperabilityIFDPointer": "128",
 	"Make": "SONY ERICSSON",
 	"Model": "SONY ERICSSON M600i",
-	"Orientation": "1",
-	"PixelXDimension": "640",
-	"PixelYDimension": "480"
+	"ModifyDate": "2009:09:25 00:17:54",
+	"Orientation": "1"
 }

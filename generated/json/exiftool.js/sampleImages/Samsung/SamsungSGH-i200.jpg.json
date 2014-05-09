@@ -1,7 +1,7 @@
 {
 	"ColorSpace": "sRGB",
 	"Contrast": "Normal",
-	"DateTimeDigitized": "2010:9:22:1:57",
+	"CreateDate": "2010:9:22:1:57",
 	"DateTimeOriginal": "2010:9:22:1:57",
 	"DigitalZoomRatio": "NaN",
 	"ExifIFDPointer": "143",
@@ -13,7 +13,7 @@
 	"FNumber": "2.8",
 	"Flash": "Flash did not fire, auto mode",
 	"FlashpixVersion": "0100",
-	"ISOSpeedRatings": "100",
+	"ISO": "100",
 	"Make": "Samsung",
 	"MeteringMode": "Pattern",
 	"Model": "SGH-i200",

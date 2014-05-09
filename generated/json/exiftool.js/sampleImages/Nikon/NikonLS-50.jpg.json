@@ -1,13 +1,13 @@
 {
-	"DateTime": "2007:02:25 22:25:45",
-	"DateTimeDigitized": "2007:02:25 22:25:45",
+	"CreateDate": "2007:02:25 22:25:45",
 	"ExifIFDPointer": "154",
+	"ExifImageHeight": "2703",
+	"ExifImageWidth": "4257",
 	"ImageHeight": "2703",
 	"ImageWidth": "4257",
 	"Make": "FS-Nikon",
 	"MakerNoteIFDPointer": "228",
 	"Model": "LS-50",
-	"PixelXDimension": "4257",
-	"PixelYDimension": "2703",
+	"ModifyDate": "2007:02:25 22:25:45",
 	"Software": "SilverFast 6.4.3r6"
 }

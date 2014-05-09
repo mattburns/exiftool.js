@@ -2,10 +2,11 @@
 	"ApertureValue": "3",
 	"ColorSpace": "sRGB",
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
-	"DateTime": "2010:05:27",
-	"DateTimeDigitized": "2010:05:27",
+	"CreateDate": "2010:05:27",
 	"DateTimeOriginal": "2010:05:27",
 	"ExifIFDPointer": "142",
+	"ExifImageHeight": "1200",
+	"ExifImageWidth": "1600",
 	"ExifVersion": "0220",
 	"FNumber": "2.8",
 	"FlashpixVersion": "0100",
@@ -13,7 +14,6 @@
 	"ImageDescription": "COOKIE2",
 	"Make": "LG Electronics",
 	"Model": "GS290",
-	"PixelXDimension": "1600",
-	"PixelYDimension": "1200",
+	"ModifyDate": "2010:05:27",
 	"Software": "LGESW"
 }

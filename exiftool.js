@@ -369,8 +369,8 @@
             0xA001 : "ColorSpace", // Color space information tag
 
             // image configuration
-            0xA002 : "PixelXDimension", // Valid width of meaningful image
-            0xA003 : "PixelYDimension", // Valid height of meaningful image
+            0xA002 : "ExifImageWidth",
+            0xA003 : "ExifImageHeight",
             0x9101 : "ComponentsConfiguration", // Information about channels
             0x9102 : "CompressedBitsPerPixel", // Compressed bits per pixel
 
@@ -383,7 +383,7 @@
 
             // date and time
             0x9003 : "DateTimeOriginal", // Date and time when the original image was generated
-            0x9004 : "DateTimeDigitized", // Date and time when the image was stored digitally
+            0x9004 : "CreateDate", // Date and time when the image was stored digitally
             0x9290 : "SubsecTime", // Fractions of seconds for DateTime
             0x9291 : "SubsecTimeOriginal", // Fractions of seconds for DateTimeOriginal
             0x9292 : "SubsecTimeDigitized", // Fractions of seconds for DateTimeDigitized
@@ -393,7 +393,7 @@
             0x829D : "FNumber", // F number
             0x8822 : "ExposureProgram", // Exposure program
             0x8824 : "SpectralSensitivity", // Spectral sensitivity
-            0x8827 : "ISOSpeedRatings", // ISO speed rating
+            0x8827 : "ISO", // ISO speed rating
             0x8828 : "OECF", // Optoelectric conversion factor
             0x9201 : "ShutterSpeedValue", // Shutter speed
             0x9202 : "ApertureValue", // Lens aperture
@@ -472,6 +472,7 @@
             0x010F : "Make",
             0x0110 : "Model",
             0x0131 : "Software",
+            0x0132 : "ModifyDate",
             0x013B : "Artist",
             0x8298 : "Copyright",
             0xA431 : "SerialNumber", // for when SerialNumber is in IFD0 directly (BodySerialNumber in EXIF spec)

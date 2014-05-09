@@ -2,9 +2,11 @@
 	"ApertureValue": "3",
 	"ColorSpace": "sRGB",
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
-	"DateTimeDigitized": "2010:04:23 21:44:53",
+	"CreateDate": "2010:04:23 21:44:53",
 	"DateTimeOriginal": "2010:04:23 21:44:53",
 	"ExifIFDPointer": "122",
+	"ExifImageHeight": "1536",
+	"ExifImageWidth": "2048",
 	"ExifVersion": "0220",
 	"FNumber": "2.8",
 	"FlashpixVersion": "0100",
@@ -13,7 +15,5 @@
 	"Make": "LG Electronics",
 	"Model": "KM555",
 	"Orientation": "1",
-	"PixelXDimension": "2048",
-	"PixelYDimension": "1536",
 	"Software": "LGESW"
 }

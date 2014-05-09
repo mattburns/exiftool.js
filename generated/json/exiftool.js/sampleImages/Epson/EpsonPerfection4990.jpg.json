@@ -1,13 +1,13 @@
 {
-	"DateTime": "2010:12:04 17:41:11",
-	"DateTimeDigitized": "2010:12:04 17:41:11",
+	"CreateDate": "2010:12:04 17:41:11",
 	"ExifIFDPointer": "174",
+	"ExifImageHeight": "5340",
+	"ExifImageWidth": "3883",
 	"ImageHeight": "5340",
 	"ImageWidth": "3883",
 	"Make": "Epson",
 	"MakerNoteIFDPointer": "248",
 	"Model": "Perfection4990",
-	"PixelXDimension": "3883",
-	"PixelYDimension": "5340",
+	"ModifyDate": "2010:12:04 17:41:11",
 	"Software": "SilverFast 6.4.3r1"
 }

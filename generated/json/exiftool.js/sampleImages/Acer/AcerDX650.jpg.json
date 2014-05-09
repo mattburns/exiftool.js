@@ -1,12 +1,12 @@
 {
 	"Artist": "@@",
-	"DateTime": "2010-11-14 16:25:16 UTC",
-	"DateTimeDigitized": "2010-11-14 16:25:16 UTC",
+	"CreateDate": "2010-11-14 16:25:16 UTC",
 	"DateTimeOriginal": "2010-11-14 16:25:16 UTC",
 	"ExifIFDPointer": "140",
 	"ExifVersion": "0220",
 	"Flash": "No Flash",
 	"Make": "ACER",
 	"Model": "DX650",
+	"ModifyDate": "2010-11-14 16:25:16 UTC",
 	"Software": "ACER Camera"
 }

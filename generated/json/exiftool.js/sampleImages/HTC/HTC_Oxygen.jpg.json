@@ -1,13 +1,13 @@
 {
-	"DateTime": "2009:05:22 16:45:24",
 	"DateTimeOriginal": "2009:05:22 16:45:24",
 	"ExifIFDPointer": "142",
+	"ExifImageHeight": "1024",
+	"ExifImageWidth": "1280",
 	"ExifVersion": "0210",
 	"Flash": "No Flash",
 	"Make": "HTC",
 	"Model": "Oxygen",
-	"PixelXDimension": "1280",
-	"PixelYDimension": "1024",
+	"ModifyDate": "2009:05:22 16:45:24",
 	"ResolutionUnit": "2",
 	"XResolution": "72",
 	"YResolution": "72"

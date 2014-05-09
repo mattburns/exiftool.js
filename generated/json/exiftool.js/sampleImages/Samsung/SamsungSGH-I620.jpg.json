@@ -1,7 +1,7 @@
 {
 	"ColorSpace": "sRGB",
 	"Contrast": "Normal",
-	"DateTimeDigitized": "2076:9:30:16:7",
+	"CreateDate": "2076:9:30:16:7",
 	"DateTimeOriginal": "2076:9:30:16:7",
 	"DigitalZoomRatio": "NaN",
 	"ExifIFDPointer": "166",
@@ -13,7 +13,7 @@
 	"FNumber": "2.8",
 	"Flash": "Flash did not fire, auto mode",
 	"FlashpixVersion": "0100",
-	"ISOSpeedRatings": "100",
+	"ISO": "100",
 	"Make": "Samsung0",
 	"MeteringMode": "Pattern",
 	"Model": "SGH-I620",

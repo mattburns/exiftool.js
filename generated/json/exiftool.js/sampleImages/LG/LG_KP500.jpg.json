@@ -2,9 +2,11 @@
 	"ApertureValue": "3",
 	"ColorSpace": "sRGB",
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
-	"DateTimeDigitized": "2010:04:27 19:20:47",
+	"CreateDate": "2010:04:27 19:20:47",
 	"DateTimeOriginal": "2010:04:27 19:20:47",
 	"ExifIFDPointer": "114",
+	"ExifImageHeight": "960",
+	"ExifImageWidth": "1280",
 	"ExifVersion": "0220",
 	"FNumber": "2.8",
 	"FlashpixVersion": "0100",
@@ -13,7 +15,5 @@
 	"Make": "LG Electronics",
 	"Model": "KP500",
 	"Orientation": "1",
-	"PixelXDimension": "1280",
-	"PixelYDimension": "960",
 	"Software": "LGESW"
 }

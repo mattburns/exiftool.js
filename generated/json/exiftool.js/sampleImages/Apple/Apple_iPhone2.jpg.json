@@ -1,9 +1,10 @@
 {
 	"ColorSpace": "",
-	"DateTime": "2008:09:24 21:02:24",
-	"DateTimeDigitized": "2008:09:24 21:02:24",
+	"CreateDate": "2008:09:24 21:02:24",
 	"DateTimeOriginal": "2008:09:24 21:02:24",
 	"ExifIFDPointer": "159",
+	"ExifImageHeight": "800",
+	"ExifImageWidth": "600",
 	"FNumber": "2.8",
 	"GPSInfoIFDPointer": "305",
 	"GPSLatitude": "46,8.6,0",
@@ -13,8 +14,7 @@
 	"GPSTimeStamp": "21,2,23.81",
 	"Make": "Apple",
 	"Model": "iPhone",
-	"PixelXDimension": "600",
-	"PixelYDimension": "800",
+	"ModifyDate": "2008:09:24 21:02:24",
 	"ResolutionUnit": "2",
 	"XResolution": "72",
 	"YResolution": "72"

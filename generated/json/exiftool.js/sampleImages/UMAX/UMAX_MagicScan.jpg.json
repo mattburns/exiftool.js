@@ -1,11 +1,11 @@
 {
 	"BitsPerSample": "8,8,8",
 	"Compression": "1",
-	"DateTime": "2005: 3:13 12:17:53",
 	"ImageDescription": "",
 	"ImageHeight": "1176",
 	"ImageWidth": "1794",
 	"Model": "",
+	"ModifyDate": "2005: 3:13 12:17:53",
 	"PhotometricInterpretation": "2",
 	"PlanarConfiguration": "1",
 	"RowsPerStrip": "1176",
