@@ -97,14 +97,14 @@
     };
     
     var extractExifUsingGomfunkel = function(imgFile, callback) {
-        new Gomfunkel({ image : imgFile }, createNodeExifCallbackHandler('Gomfunkel');
+        new Gomfunkel({ image : imgFile }, createNodeExifCallbackHandler('Gomfunkel', callback));
     };
 
     var extractExifUsingRedaktor = function(imgFile, callback) {
-        new Redaktor({ image : imgFile }, createNodeExifCallbackHandler('Redaktor');
+        new Redaktor({ image : imgFile }, createNodeExifCallbackHandler('Redaktor', callback));
     };
 
-    var createNodeExifCallbackHandler = function (program) {
+    var createNodeExifCallbackHandler = function (program, callback) {
         return function (error, exif) {
             if (error) {
                 console.log(program + ' Error: ' + error.message);
@@ -125,7 +125,7 @@
                 };
             }
             callback(exif);
-        });
+        };
     };
 
     /**
@@ -140,22 +140,17 @@
     }
 
     var writeFileCoverageReport = function(allExif, image, coverageSummary, callback) {
-        var html = "<table class='table table-bordered table-fixed'>"
-                    + "<thead><tr>"
-                    + "<th>image</th>"
-                    + "<th>tag</th>";
+        var html = "<h3>" + image + "</h3>\n" +
+                "<table class='table table-bordered'>" +
+                "<thead><tr>" +
+                "<th>tag</th>";
         for (var i = 0 ; i < programs.length ; i++) {
             var program = programs[i];
             html += "<th>" + program + "</th>";
         }
         html += "</tr></thead>\n<tbody>\n";
-        var firstRow = true;
         for (var key in allExif.exiftool) {
             var rowHtml = "<tr>\n";
-            if (firstRow) {
-                rowHtml += "<th rowspan='" + Object.keys(allExif.exiftool).length + "'>" + image + "</th>\n";
-                firstRow = false;
-            }
                 
             rowHtml += "<td>" + key + "</td>\n";
 
