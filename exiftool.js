@@ -695,17 +695,23 @@
                         return;
                     }
 
-                    var binaryResponse = new BinaryFile(buffer
-                            .toString('binary'), 0, 1000000);
-
-                    var oEXIF = findEXIFinJPEG(binaryResponse);
-                    if (callback) {
-                        callback(null, (oEXIF || {}), url);
-                    }
-
+                    getExifFromNodeBuffer(buffer, function(err, oEXIF) {
+                        if (callback)
+                            callback(null, (oEXIF || {}), url);
+                        });
                     fs.close(fd);
                 });
             });
+        }
+
+        function getExifFromNodeBuffer(buffer, callback) {
+            var binaryResponse = new BinaryFile(buffer
+                    .toString('binary'), 0, 1000000);
+
+            var oEXIF = findEXIFinJPEG(binaryResponse);
+            if (callback) {
+                callback(null, (oEXIF || {}));
+            }
         }
 
         function getExifFromUrl(url, onComplete) {
@@ -1533,6 +1539,7 @@
 
         if (typeof (exports) !== 'undefined') {
             exports.getExifFromLocalFileUsingNodeFs = getExifFromLocalFileUsingNodeFs;
+            exports.getExifFromNodeBuffer = getExifFromNodeBuffer;
         }
 
         if (typeof (jQuery) !== 'undefined') {
