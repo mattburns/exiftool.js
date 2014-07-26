@@ -681,6 +681,7 @@
             })
         }
 
+	var _readSize = 100000
         function getExifFromLocalFileUsingNodeFs(fs, url, callback) {
             fs.open(url, 'r', function(err, fd) {
                 if (err) {
@@ -688,8 +689,8 @@
                     callback(err);
                     return;
                 }
-                var buffer = new Buffer(100000);
-                fs.read(fd, buffer, 0, 100000, 0, function(err, num) {
+                var buffer = new Buffer(_readSize);
+                fs.read(fd, buffer, 0, _readSize, 0, function(err, num) {
                     if (err) {
                         callback(err);
                         return;
@@ -706,7 +707,7 @@
 
         function getExifFromNodeBuffer(buffer, callback) {
             var binaryResponse = new BinaryFile(buffer
-                    .toString('binary'), 0, 1000000);
+                    .toString('binary'), 0, Math.min(buffer.length, _readSize));
 
             var oEXIF = findEXIFinJPEG(binaryResponse);
             if (callback) {
