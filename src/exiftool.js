@@ -691,7 +691,7 @@
                 fs.read(fd, buffer, 0, 100000, 0, function(err, num) {
 
                     var binaryResponse = new BinaryFile(buffer
-                            .toString('binary'), 0, 1000000);
+                            .toString('binary'), 0, 100000);
 
                     var oEXIF = findEXIFinJPEG(binaryResponse);
                     if (onComplete)
