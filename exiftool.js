@@ -1517,7 +1517,10 @@
             }
             str = str + "";
 
-            str = str.replace(/[^a-z0-9 \-\/\.\(\)\:\;\,\©\@\\]/gi, '');
+            // list of what to keep
+            str = str.replace(
+/[^a-z0-9 \!\"\#\$\%\&\'\(\)\*\+\,\-\.\/\:\;\<\=\>\?\@\[\\\]\^\_\`\{\|\}\~\©]/gi,
+                '');
             str = str.replace(/^\s+|\s+$/g, ''); // trim
             if (str.toLowerCase() == "undefined"
                     || str.toLowerCase() == "unknown") {
