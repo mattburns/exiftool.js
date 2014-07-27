@@ -984,15 +984,17 @@
                 var iActualOffsetHex = (iStringOffset - iTIFFStart)
                         .toString(16);
 
-                if (strTag == 'SerialNumber'
-                        || strTag == 'InternalSerialNumber') { // TODO: needed
-                    // for Fujifilm
-                    // FinePix E900
-                    // but I'm not
-                    // sure why...
-                    iNumValues++;
-                }
-                return oFile.getStringAt(iStringOffset, iNumValues - 1);
+                var ascii = oFile.getStringAt(iStringOffset, iNumValues);
+                // from perl libimage-exiftool Exif.pm
+                // "truncate at null terminator (shouldn't have a null based on
+                // the EXIF spec, but it seems that few people actually read
+                // the spec)
+                // So read the entire string length and trim off the NULL.
+                // trim trailing spaces must be a reference to
+                // "Note: allow spaces instead of nulls in the ID codes because
+                // it is fairly common for camera manufacturers to get this
+                // wrong"
+                return ascii.replace(/\0.*/, "").replace(/ +$/, "")
                 break;
 
             case 3: // short, 16 bit int
