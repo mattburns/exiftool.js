@@ -41,6 +41,16 @@ exiftool.getExifFromLocalFileUsingNodeFs(fs, imgFile, function(exif) {
 });
 ```
 
+Or for node.js if the image is already in a Buffer:
+
+```
+var exiftool = require('exiftool.js');
+
+exiftool.getExifFromNodeBuffer(buffer, function(exif) {
+    console.log("Make is : " + exif["Make"]);
+});
+```
+
 
 Coverage
 ========
