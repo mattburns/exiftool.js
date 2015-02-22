@@ -55,7 +55,7 @@ To keep this a small module on npm, the test images are stored in a different re
 It's easy to see how much your changes are improving this thanks to the coverage report above. To regenerate this simply run:
 
 ```
-node test/testWithNode.js
+mocha
 ```
 
 This will thrash every sample image through exiftool.js, and variants of node-exif then generate the report files to compare the output.
@@ -64,7 +64,7 @@ This will thrash every sample image through exiftool.js, and variants of node-ex
 Alternatively, there's a slower version for the paranoid:
 
 ```
-node test/testWithNode.js clean
+node test/test.js clean
 ```
 
 This will do the same thing, but also ensure the json output files generated from the perl exiftool are up to date.
