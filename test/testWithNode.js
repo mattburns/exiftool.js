@@ -87,7 +87,7 @@
             try {
                 // First, try to load json from file
                 var exifFromExiftool = JSON.parse(data);
-                callback(exifFromExiftool);
+                callback(err, exifFromExiftool);
             } catch (error) {
                 // Failing that, let's fire up exiftool
                 var child = exec("exiftool -q -q -F -j --FileAccessDate --FileModifyDate --FileInodeChangeDate --SourceFile --ExifToolVersion --FileName --Directory --FilePermissions --FileSize --FileModifyDate --FileType --MIMEType '" + imgFile + "'", function(error, stdout, stderr) {
@@ -159,6 +159,8 @@
     }
 
     var writeFileCoverageReport = function(allExif, image, coverageSummary, callback) {
+    	var trimmedImageName = image.substring(image.indexOf('sampleImages'));
+        
         var html = "<h3>" + image + "</h3>\n" +
                 "<table class='table table-bordered'>" +
                 "<thead><tr>" +
@@ -326,6 +328,10 @@
             next();
         });
 
+        var filesProcessed = 0;
+		walker.on("end", function () {
+			console.log(filesProcessed + " files processed");
+		});
         /**
          * This is where the magic happens. Run this function for each file found in sampleImages.
          */
@@ -344,6 +350,7 @@
                 next();
             } else {
                 try {
+
                     console.log("processing: " + imgFile);
                     
                     var allExif = {};
@@ -358,7 +365,9 @@
                                     allExif[program] = {};
                                 }
                                 if (Object.keys(allExif).length == programs.length) {
-                                    updateReports(allExif, image, coverageSummaryHolder, function(cs) {
+                    	            var trimmedImageName = image.substring(image.indexOf('sampleImages'));
+
+                                    updateReports(allExif, trimmedImageName, coverageSummaryHolder, function(cs) {
                                         coverageSummaryHolder = cs;
                                         next();
                                     });
@@ -366,6 +375,7 @@
                             };
                         })(imgFile, programs[i]));
                     };
+                    filesProcessed++;
                 } catch (error) {
                     console.log('in Error: ' + error.message);
                     next();
