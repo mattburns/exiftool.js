@@ -65,7 +65,7 @@
 	"SubjectArea": "400 240 80 80",
 	"SubjectDistanceRange": "Distant",
 	"Teleconverter": "None",
-	"ThumbnailImage": "(Binary data 4025 bytes)",
+	"ThumbnailImage": "(Binary data 4025 bytes, use -b option to extract)",
 	"ThumbnailLength": 4025,
 	"ThumbnailOffset": 50546,
 	"UserComment": "",

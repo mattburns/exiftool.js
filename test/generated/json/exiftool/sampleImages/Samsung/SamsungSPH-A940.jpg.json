@@ -30,7 +30,7 @@
 	"Model": "SPH-A940",
 	"ModifyDate": "2006:01:09 14:57:02",
 	"Orientation": "Horizontal (normal)",
-	"OtherImage": "(Binary data 4798 bytes)",
+	"OtherImage": "(Binary data 4798 bytes, use -b option to extract)",
 	"OtherImageLength": 4798,
 	"OtherImageStart": 706,
 	"ResolutionUnit": "inches",

@@ -32,7 +32,7 @@
 	"ResolutionUnit": "inches",
 	"SceneCaptureType": "Standard",
 	"Sharpness": "Normal",
-	"ThumbnailImage": "(Binary data 3382 bytes)",
+	"ThumbnailImage": "(Binary data 3382 bytes, use -b option to extract)",
 	"ThumbnailLength": 3382,
 	"ThumbnailOffset": 822,
 	"WhiteBalance": "Auto",

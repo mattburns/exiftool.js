@@ -33,7 +33,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "M6550B-MS800-4330",
-	"ThumbnailImage": "(Binary data 15047 bytes)",
+	"ThumbnailImage": "(Binary data 15047 bytes, use -b option to extract)",
 	"ThumbnailLength": 15047,
 	"ThumbnailOffset": 632,
 	"WhiteBalance": "Auto",

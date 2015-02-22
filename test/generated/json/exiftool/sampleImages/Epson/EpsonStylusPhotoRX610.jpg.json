@@ -17,7 +17,7 @@
 	"Make": "SEIKO EPSON CORP.",
 	"Model": "Stylus Photo RX610",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 5131 bytes)",
+	"ThumbnailImage": "(Binary data 5131 bytes, use -b option to extract)",
 	"ThumbnailLength": 5131,
 	"ThumbnailOffset": 364,
 	"XResolution": 300,

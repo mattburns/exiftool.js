@@ -61,7 +61,7 @@
 	"SerialNumber": "(20040000)34100244",
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/620",
-	"ThumbnailImage": "(Binary data 5479 bytes)",
+	"ThumbnailImage": "(Binary data 5479 bytes, use -b option to extract)",
 	"ThumbnailLength": 5479,
 	"ThumbnailOffset": 26176,
 	"UserComment": "",

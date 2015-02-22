@@ -21,7 +21,7 @@
 	"Model": "V802SH",
 	"ModifyDate": "2005:04:28 22:18:00",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 8780 bytes)",
+	"ThumbnailImage": "(Binary data 8780 bytes, use -b option to extract)",
 	"ThumbnailLength": 8780,
 	"ThumbnailOffset": 448,
 	"XResolution": 72,

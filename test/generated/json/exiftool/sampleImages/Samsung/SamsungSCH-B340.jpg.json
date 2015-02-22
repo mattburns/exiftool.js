@@ -30,7 +30,7 @@
 	"ShutterSpeed": "1/125",
 	"Software": "M6550B-SNAAR-30303",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 23273 bytes)",
+	"ThumbnailImage": "(Binary data 23273 bytes, use -b option to extract)",
 	"ThumbnailLength": 23273,
 	"ThumbnailOffset": 706,
 	"WhiteBalance": "Auto",

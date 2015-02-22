@@ -22,7 +22,7 @@
 	"Model": "HTC Wildfire",
 	"PreviewQuality": 85,
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 12505 bytes)",
+	"ThumbnailImage": "(Binary data 12505 bytes, use -b option to extract)",
 	"ThumbnailLength": 12505,
 	"ThumbnailOffset": 430,
 	"XResolution": 72,

@@ -47,7 +47,7 @@
 	"ShutterSpeed": "1/50",
 	"ShutterSpeedValue": "1/64",
 	"Software": "DigitalCameraVL-Z500    v1.00",
-	"ThumbnailImage": "(Binary data 2372 bytes)",
+	"ThumbnailImage": "(Binary data 2372 bytes, use -b option to extract)",
 	"ThumbnailLength": 2372,
 	"ThumbnailOffset": 1054,
 	"UserComment": "",

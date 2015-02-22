@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A400    Ver1.55",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10037 bytes)",
+	"ThumbnailImage": "(Binary data 10037 bytes, use -b option to extract)",
 	"ThumbnailLength": 10037,
 	"ThumbnailOffset": 1372,
 	"Version": "0130",

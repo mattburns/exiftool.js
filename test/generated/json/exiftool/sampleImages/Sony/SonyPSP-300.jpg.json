@@ -40,7 +40,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "Camera for PSP(TM) (PlayStation(R)Portable) ver 1.00",
-	"ThumbnailImage": "(Binary data 5607 bytes)",
+	"ThumbnailImage": "(Binary data 5607 bytes, use -b option to extract)",
 	"ThumbnailLength": 5607,
 	"ThumbnailOffset": 3452,
 	"UserComment": "",

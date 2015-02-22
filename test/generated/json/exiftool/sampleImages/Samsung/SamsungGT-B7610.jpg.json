@@ -43,7 +43,7 @@
 	"ShutterSpeed": "1/1024",
 	"ShutterSpeedValue": "1/904",
 	"Software": "FW9110 PRM9160",
-	"ThumbnailImage": "(Binary data 23559 bytes)",
+	"ThumbnailImage": "(Binary data 23559 bytes, use -b option to extract)",
 	"ThumbnailLength": 23559,
 	"ThumbnailOffset": 749,
 	"UserComment": "None",

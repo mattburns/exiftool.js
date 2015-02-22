@@ -46,7 +46,7 @@
 	"ShutterSpeed": "1/50",
 	"ShutterSpeedValue": "1/64",
 	"Software": "DigitalCameraVL-Z8      v1.00",
-	"ThumbnailImage": "(Binary data 2672 bytes)",
+	"ThumbnailImage": "(Binary data 2672 bytes, use -b option to extract)",
 	"ThumbnailLength": 2672,
 	"ThumbnailOffset": 1030,
 	"UserComment": "",

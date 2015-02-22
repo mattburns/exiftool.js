@@ -82,7 +82,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S5Pro   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8202 bytes)",
+	"ThumbnailImage": "(Binary data 8202 bytes, use -b option to extract)",
 	"ThumbnailLength": 8202,
 	"ThumbnailOffset": 2520,
 	"UserComment": "",

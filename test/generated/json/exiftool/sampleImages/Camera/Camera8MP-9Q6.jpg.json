@@ -48,7 +48,7 @@
 	"ModifyDate": "2008:11:14 19:01:57",
 	"OffsetSchema": 4168,
 	"Orientation": "Horizontal (normal)",
-	"Padding": "(Binary data 2060 bytes)",
+	"Padding": "(Binary data 2060 bytes, use -b option to extract)",
 	"ProgramMode": 2,
 	"RelatedSoundFile": "            ",
 	"ResolutionUnit": "inches",

@@ -28,7 +28,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "6_00_31516_00",
-	"ThumbnailImage": "(Binary data 16540 bytes)",
+	"ThumbnailImage": "(Binary data 16540 bytes, use -b option to extract)",
 	"ThumbnailLength": 16540,
 	"ThumbnailOffset": 694,
 	"Warning": "Bad IFD2 directory",

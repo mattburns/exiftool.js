@@ -23,7 +23,7 @@
 	"Quality": "NORMAL ",
 	"ResolutionUnit": "inches",
 	"Software": "FinePixViewer Ver.4.2",
-	"ThumbnailImage": "(Binary data 10608 bytes)",
+	"ThumbnailImage": "(Binary data 10608 bytes, use -b option to extract)",
 	"ThumbnailLength": 10608,
 	"ThumbnailOffset": 564,
 	"Version": "0130",

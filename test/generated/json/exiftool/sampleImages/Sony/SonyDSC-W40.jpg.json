@@ -57,7 +57,7 @@
 	"SequenceNumber": "Single",
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/40",
-	"ThumbnailImage": "(Binary data 18621 bytes)",
+	"ThumbnailImage": "(Binary data 18621 bytes, use -b option to extract)",
 	"ThumbnailLength": 18621,
 	"ThumbnailOffset": 3848,
 	"WhiteBalance": "Auto",

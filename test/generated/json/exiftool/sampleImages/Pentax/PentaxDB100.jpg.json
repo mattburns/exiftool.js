@@ -35,7 +35,7 @@
 	"ShutterSpeed": "1/1000",
 	"ShutterSpeedValue": "1/1024",
 	"Software": "DSC Software Version 0325",
-	"ThumbnailImage": "(Binary data 2494 bytes)",
+	"ThumbnailImage": "(Binary data 2494 bytes, use -b option to extract)",
 	"ThumbnailLength": 2494,
 	"ThumbnailOffset": 804,
 	"UserComment": "Quality=90 Shutter=1/1000 ISO100 peak=1264,2712,2288 avg=351,984,892 gain=4.06,1.87,2.21",

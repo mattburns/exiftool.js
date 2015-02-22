@@ -24,7 +24,7 @@
 	"Orientation": "Rotate 270 CW",
 	"ResolutionUnit": "inches",
 	"Software": "1.03R",
-	"ThumbnailImage": "(Binary data 14801 bytes)",
+	"ThumbnailImage": "(Binary data 14801 bytes, use -b option to extract)",
 	"ThumbnailLength": 14801,
 	"ThumbnailOffset": 502,
 	"XResolution": 72,

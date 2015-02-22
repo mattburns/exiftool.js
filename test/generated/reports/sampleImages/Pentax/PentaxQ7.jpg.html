@@ -23,7 +23,7 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
-        <h3>sampleImages/Pentax/PentaxQ7.jpg</h3>
+        <h3>node_modules/exiftool.js-dev-dependencies/sampleImages/Pentax/PentaxQ7.jpg</h3>
 <table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
 <tbody>
 <tr>
@@ -126,7 +126,7 @@
 </tr>
 <tr>
 <td>BodyBatteryState</td>
-<td class='match'>3</td>
+<td class='match'>Running Low</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -301,7 +301,7 @@
 </tr>
 <tr>
 <td>DynamicRangeExpansion</td>
-<td class='match'>Off (auto)</td>
+<td class='match'>Off; Auto; 0; 0</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -483,7 +483,14 @@
 </tr>
 <tr>
 <td>FocusMode</td>
-<td class='match'>Contrast-detect</td>
+<td class='match'>Contrast-detect (Focus-priority)</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>HDR</td>
+<td class='match'>Off; Auto-align Off; n/a; 0</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -763,7 +770,7 @@
 </tr>
 <tr>
 <td>PreviewImage</td>
-<td class='match'>(Binary data 38292 bytes)</td>
+<td class='match'>(Binary data 38292 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -980,7 +987,7 @@
 </tr>
 <tr>
 <td>ThumbnailImage</td>
-<td class='match'>(Binary data 5088 bytes)</td>
+<td class='match'>(Binary data 5088 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1009,6 +1016,13 @@
 <tr>
 <td>TungstenAWB</td>
 <td class='match'>Subtle Correction</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>VignettingCorrection</td>
+<td class='match'>Off</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>

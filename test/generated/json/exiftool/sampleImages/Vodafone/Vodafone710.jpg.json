@@ -29,7 +29,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/15",
 	"Software": "M6250D-VMSX-6.2.9340",
-	"ThumbnailImage": "(Binary data 3500 bytes)",
+	"ThumbnailImage": "(Binary data 3500 bytes, use -b option to extract)",
 	"ThumbnailLength": 3500,
 	"ThumbnailOffset": 586,
 	"WhiteBalance": "Auto",

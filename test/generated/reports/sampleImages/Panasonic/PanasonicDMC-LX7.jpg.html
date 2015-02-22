@@ -23,7 +23,7 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
-        <h3>sampleImages/Panasonic/PanasonicDMC-LX7.jpg</h3>
+        <h3>node_modules/exiftool.js-dev-dependencies/sampleImages/Panasonic/PanasonicDMC-LX7.jpg</h3>
 <table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
 <tbody>
 <tr>
@@ -140,7 +140,7 @@
 </tr>
 <tr>
 <td>BlueTRC</td>
-<td class='match'>(Binary data 2060 bytes)</td>
+<td class='match'>(Binary data 2060 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -153,10 +153,24 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>BurstSpeed</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>CMMFlags</td>
 <td class='match'>Not Embedded, Independent</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>CameraOrientation</td>
+<td class='match'>Normal</td>
+<td class='missing'>-</td>
+<td class='diff'>0</td>
 <td class='missing'>-</td>
 </tr>
 <tr>
@@ -273,7 +287,7 @@
 </tr>
 <tr>
 <td>DataDump</td>
-<td class='match'>(Binary data 8200 bytes)</td>
+<td class='match'>(Binary data 8200 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -539,7 +553,7 @@
 </tr>
 <tr>
 <td>GreenTRC</td>
-<td class='match'>(Binary data 2060 bytes)</td>
+<td class='match'>(Binary data 2060 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -605,6 +619,13 @@
 <td class='match'>Off</td>
 <td class='missing'>-</td>
 <td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>InternalNDFilter</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='diff'>1.4275889089393448</td>
 <td class='missing'>-</td>
 </tr>
 <tr>
@@ -875,7 +896,7 @@
 </tr>
 <tr>
 <td>PreviewImage</td>
-<td class='match'>(Binary data 633328 bytes)</td>
+<td class='match'>(Binary data 633328 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -987,7 +1008,7 @@
 </tr>
 <tr>
 <td>RedTRC</td>
-<td class='match'>(Binary data 2060 bytes)</td>
+<td class='match'>(Binary data 2060 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1112,6 +1133,20 @@
 <td class='match'>Ver.0.2</td>
 </tr>
 <tr>
+<td>SweepPanoramaDirection</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='diff'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SweepPanoramaFieldOfView</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='match'>0</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>Technology</td>
 <td class='match'>Cathode Ray Tube Display</td>
 <td class='missing'>-</td>
@@ -1127,7 +1162,7 @@
 </tr>
 <tr>
 <td>ThumbnailImage</td>
-<td class='match'>(Binary data 3563 bytes)</td>
+<td class='match'>(Binary data 3563 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>

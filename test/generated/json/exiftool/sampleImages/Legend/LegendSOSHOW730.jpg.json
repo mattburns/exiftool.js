@@ -40,7 +40,7 @@
 	"ShutterSpeed": "1/14",
 	"ShutterSpeedValue": "1/14",
 	"Software": "SOSHOW730  V1.00",
-	"ThumbnailImage": "(Binary data 5820 bytes)",
+	"ThumbnailImage": "(Binary data 5820 bytes, use -b option to extract)",
 	"ThumbnailLength": 5820,
 	"ThumbnailOffset": 864,
 	"XResolution": 72,

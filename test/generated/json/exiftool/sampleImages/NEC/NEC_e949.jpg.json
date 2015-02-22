@@ -20,7 +20,7 @@
 	"Make": "NEC",
 	"Model": "e949",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 1346 bytes)",
+	"ThumbnailImage": "(Binary data 1346 bytes, use -b option to extract)",
 	"ThumbnailLength": 1346,
 	"ThumbnailOffset": 412,
 	"XResolution": 72,

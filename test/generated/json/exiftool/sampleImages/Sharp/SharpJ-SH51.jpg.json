@@ -23,7 +23,7 @@
 	"ModifyDate": "2005:04:02 12:24:00",
 	"Orientation": "Rotate 270 CW",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 5590 bytes)",
+	"ThumbnailImage": "(Binary data 5590 bytes, use -b option to extract)",
 	"ThumbnailLength": 5590,
 	"ThumbnailOffset": 480,
 	"XResolution": 72,

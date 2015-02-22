@@ -46,7 +46,7 @@
 	"ShutterSpeed": "1/200",
 	"ShutterSpeedValue": "1/235",
 	"Software": "DSP V07270",
-	"ThumbnailImage": "(Binary data 3402 bytes)",
+	"ThumbnailImage": "(Binary data 3402 bytes, use -b option to extract)",
 	"ThumbnailLength": 3402,
 	"ThumbnailOffset": 930,
 	"Warning": "[minor] Unrecognized MakerNotes",

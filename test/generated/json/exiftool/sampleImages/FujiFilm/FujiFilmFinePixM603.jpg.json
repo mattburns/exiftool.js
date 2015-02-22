@@ -74,7 +74,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix M603   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 7540 bytes)",
+	"ThumbnailImage": "(Binary data 7540 bytes, use -b option to extract)",
 	"ThumbnailLength": 7540,
 	"ThumbnailOffset": 1270,
 	"Version": "0130",

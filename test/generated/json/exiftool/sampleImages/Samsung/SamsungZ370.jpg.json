@@ -31,7 +31,7 @@
 	"ShutterSpeed": "1/125",
 	"Software": "Z370AOFL4",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10574 bytes)",
+	"ThumbnailImage": "(Binary data 10574 bytes, use -b option to extract)",
 	"ThumbnailLength": 10574,
 	"ThumbnailOffset": 848,
 	"WhiteBalance": "Auto",

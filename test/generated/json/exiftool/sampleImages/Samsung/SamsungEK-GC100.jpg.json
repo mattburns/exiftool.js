@@ -60,7 +60,7 @@
 	"ShutterSpeed": "1/15",
 	"ShutterSpeedValue": "1/15",
 	"Software": "GC100UCALJG",
-	"ThumbnailImage": "(Binary data 15922 bytes)",
+	"ThumbnailImage": "(Binary data 15922 bytes, use -b option to extract)",
 	"ThumbnailLength": 15922,
 	"ThumbnailOffset": 21674,
 	"UserComment": "User comments",

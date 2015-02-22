@@ -50,7 +50,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/167",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 6885 bytes)",
+	"ThumbnailImage": "(Binary data 6885 bytes, use -b option to extract)",
 	"ThumbnailLength": 6885,
 	"ThumbnailOffset": 812,
 	"WhiteBalance": "Auto",

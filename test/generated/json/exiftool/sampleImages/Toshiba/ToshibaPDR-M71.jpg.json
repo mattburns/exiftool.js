@@ -40,7 +40,7 @@
 	"ShutterSpeed": "1/140",
 	"ShutterSpeedValue": "1/137",
 	"Software": "Digital Camera PDRM71 Ver1.00",
-	"ThumbnailImage": "(Binary data 9129 bytes)",
+	"ThumbnailImage": "(Binary data 9129 bytes, use -b option to extract)",
 	"ThumbnailLength": 9129,
 	"ThumbnailOffset": 864,
 	"XResolution": 72,

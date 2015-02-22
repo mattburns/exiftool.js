@@ -79,7 +79,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix  Z110 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 6960 bytes)",
+	"ThumbnailImage": "(Binary data 6960 bytes, use -b option to extract)",
 	"ThumbnailLength": 6960,
 	"ThumbnailOffset": 5476,
 	"Version": "0130",

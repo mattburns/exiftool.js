@@ -81,7 +81,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F200EXR Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9874 bytes)",
+	"ThumbnailImage": "(Binary data 9874 bytes, use -b option to extract)",
 	"ThumbnailLength": 9874,
 	"ThumbnailOffset": 1504,
 	"Version": "0130",

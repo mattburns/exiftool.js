@@ -74,7 +74,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S7000 Ver1.00",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 8330 bytes)",
+	"ThumbnailImage": "(Binary data 8330 bytes, use -b option to extract)",
 	"ThumbnailLength": 8330,
 	"ThumbnailOffset": 1264,
 	"Version": "0130",

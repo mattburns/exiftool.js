@@ -81,7 +81,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F100fd  Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10270 bytes)",
+	"ThumbnailImage": "(Binary data 10270 bytes, use -b option to extract)",
 	"ThumbnailLength": 10270,
 	"ThumbnailOffset": 1492,
 	"Version": "0130",

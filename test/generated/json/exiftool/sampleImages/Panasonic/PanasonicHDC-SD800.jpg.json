@@ -54,7 +54,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/750",
 	"Software": "Ver.1.00",
-	"ThumbnailImage": "(Binary data 21936 bytes)",
+	"ThumbnailImage": "(Binary data 21936 bytes, use -b option to extract)",
 	"ThumbnailLength": 21936,
 	"ThumbnailOffset": 988,
 	"WhiteBalance": "Auto",

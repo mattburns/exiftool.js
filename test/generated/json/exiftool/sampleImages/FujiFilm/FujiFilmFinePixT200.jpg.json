@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix T200 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2357 bytes)",
+	"ThumbnailImage": "(Binary data 2357 bytes, use -b option to extract)",
 	"ThumbnailLength": 2357,
 	"ThumbnailOffset": 25776,
 	"Version": "0130",

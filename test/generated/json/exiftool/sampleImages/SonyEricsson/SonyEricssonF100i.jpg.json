@@ -33,7 +33,7 @@
 	"MeteringMode": "Center-weighted average",
 	"Model": "F100i",
 	"ModifyDate": "2010:09:01 08:42:02",
-	"PreviewImage": "(Binary data 11335 bytes)",
+	"PreviewImage": "(Binary data 11335 bytes, use -b option to extract)",
 	"PreviewImageLength": 11335,
 	"PreviewImageStart": 602,
 	"ResolutionUnit": "inches",

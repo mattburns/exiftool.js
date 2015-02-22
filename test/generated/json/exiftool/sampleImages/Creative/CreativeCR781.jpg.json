@@ -36,7 +36,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/184",
 	"Software": "CR781 Firmware Version 1.0",
-	"ThumbnailImage": "(Binary data 20992 bytes)",
+	"ThumbnailImage": "(Binary data 20992 bytes, use -b option to extract)",
 	"ThumbnailLength": 20992,
 	"ThumbnailOffset": 1566,
 	"Warning": "[minor] Unrecognized MakerNotes",

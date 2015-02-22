@@ -16,7 +16,7 @@
 	"Make": "LG",
 	"Model": "GW550",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 8373 bytes)",
+	"ThumbnailImage": "(Binary data 8373 bytes, use -b option to extract)",
 	"ThumbnailLength": 8373,
 	"ThumbnailOffset": 280,
 	"Warning": "Suspicious IFD1 offset for XResolution",

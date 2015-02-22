@@ -24,7 +24,7 @@
 	"Model": "RAZRV6",
 	"ModifyDate": "2007:02:11 12:12:53",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 2340 bytes)",
+	"ThumbnailImage": "(Binary data 2340 bytes, use -b option to extract)",
 	"ThumbnailLength": 2340,
 	"ThumbnailOffset": 532,
 	"XResolution": 72,

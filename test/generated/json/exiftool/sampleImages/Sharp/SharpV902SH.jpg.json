@@ -21,7 +21,7 @@
 	"Model": "V902SH",
 	"ModifyDate": "2005:06:19 03:35:00",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 13543 bytes)",
+	"ThumbnailImage": "(Binary data 13543 bytes, use -b option to extract)",
 	"ThumbnailLength": 13543,
 	"ThumbnailOffset": 448,
 	"XResolution": 72,

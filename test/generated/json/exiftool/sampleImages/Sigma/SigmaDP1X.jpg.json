@@ -63,7 +63,7 @@
 	"Sharpness": "+0.0",
 	"ShutterSpeed": "1/40",
 	"Software": "SIGMA Photo Pro 4.2.0.1046",
-	"ThumbnailImage": "(Binary data 10113 bytes)",
+	"ThumbnailImage": "(Binary data 10113 bytes, use -b option to extract)",
 	"ThumbnailLength": 10113,
 	"ThumbnailOffset": 316,
 	"WhiteBalance": "Daylight",

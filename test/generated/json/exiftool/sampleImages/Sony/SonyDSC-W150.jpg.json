@@ -67,7 +67,7 @@
 	"SonyDateTime": "2008:02:26 15:09:30",
 	"SonyImageHeight": 2448,
 	"SonyImageWidth": 3264,
-	"ThumbnailImage": "(Binary data 11086 bytes)",
+	"ThumbnailImage": "(Binary data 11086 bytes, use -b option to extract)",
 	"ThumbnailLength": 11086,
 	"ThumbnailOffset": 9780,
 	"WhiteBalance": "Auto",

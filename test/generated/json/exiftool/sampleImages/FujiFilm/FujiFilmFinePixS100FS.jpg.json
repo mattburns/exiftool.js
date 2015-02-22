@@ -81,7 +81,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S100FS  Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10058 bytes)",
+	"ThumbnailImage": "(Binary data 10058 bytes, use -b option to extract)",
 	"ThumbnailLength": 10058,
 	"ThumbnailOffset": 1512,
 	"Version": "0130",

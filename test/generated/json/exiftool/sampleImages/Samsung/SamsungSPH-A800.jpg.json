@@ -21,7 +21,7 @@
 	"Model": "SPH-A800",
 	"ModifyDate": "2005:08:18 05:01:15",
 	"Orientation": "Horizontal (normal)",
-	"OtherImage": "(Binary data 5146 bytes)",
+	"OtherImage": "(Binary data 5146 bytes, use -b option to extract)",
 	"OtherImageLength": 5146,
 	"OtherImageStart": 528,
 	"ResolutionUnit": "inches",

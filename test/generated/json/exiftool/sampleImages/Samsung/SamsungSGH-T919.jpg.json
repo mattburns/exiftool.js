@@ -41,7 +41,7 @@
 	"ShutterSpeed": "1/1437",
 	"ShutterSpeedValue": "1/1437",
 	"Software": "T919UVHI5",
-	"ThumbnailImage": "(Binary data 14299 bytes)",
+	"ThumbnailImage": "(Binary data 14299 bytes, use -b option to extract)",
 	"ThumbnailLength": 14299,
 	"ThumbnailOffset": 726,
 	"WhiteBalance": "Auto",

@@ -79,7 +79,7 @@
 	"SubSecDateTimeOriginal": "2009:06:05 11:38:56.55",
 	"SubSecTimeOriginal": 55,
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 7739 bytes)",
+	"ThumbnailImage": "(Binary data 7739 bytes, use -b option to extract)",
 	"ThumbnailLength": 7739,
 	"ThumbnailOffset": 41956,
 	"UsedExtensionNumbers": 1,

@@ -20,7 +20,7 @@
 	"Model": "PDC1300",
 	"ResolutionUnit": "inches",
 	"Software": "",
-	"ThumbnailImage": "(Binary data 6151 bytes)",
+	"ThumbnailImage": "(Binary data 6151 bytes, use -b option to extract)",
 	"ThumbnailLength": 6151,
 	"ThumbnailOffset": 1042,
 	"XResolution": 144,

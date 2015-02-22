@@ -51,7 +51,7 @@
 	"ShutterSpeedValue": 0.5,
 	"Software": "Ver 1.18",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 18344 bytes)",
+	"ThumbnailImage": "(Binary data 18344 bytes, use -b option to extract)",
 	"ThumbnailLength": 18344,
 	"ThumbnailOffset": 1066,
 	"WhiteBalance": "Manual",

@@ -95,7 +95,7 @@
 	"ShutterSpeedValue": "1/64",
 	"Software": "28-1008",
 	"SpecialMode": "Normal, Sequence: 0, Panorama: (none)",
-	"ThumbnailImage": "(Binary data 6559 bytes)",
+	"ThumbnailImage": "(Binary data 6559 bytes, use -b option to extract)",
 	"ThumbnailLength": 6559,
 	"ThumbnailOffset": 7218,
 	"UserComment": "",

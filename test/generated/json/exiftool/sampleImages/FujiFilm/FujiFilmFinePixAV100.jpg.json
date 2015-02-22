@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix AV100 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2120 bytes)",
+	"ThumbnailImage": "(Binary data 2120 bytes, use -b option to extract)",
 	"ThumbnailLength": 2120,
 	"ThumbnailOffset": 20000,
 	"Version": "0130",

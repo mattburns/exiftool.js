@@ -29,7 +29,7 @@
 	"SceneType": "Directly photographed",
 	"SensingMethod": "One-chip color area",
 	"Software": "Digital Camera VL-WD450 Ver1.00",
-	"ThumbnailImage": "(Binary data 1735 bytes)",
+	"ThumbnailImage": "(Binary data 1735 bytes, use -b option to extract)",
 	"ThumbnailLength": 1735,
 	"ThumbnailOffset": 610,
 	"XResolution": 72,

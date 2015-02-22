@@ -47,7 +47,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/800",
-	"ThumbnailImage": "(Binary data 9387 bytes)",
+	"ThumbnailImage": "(Binary data 9387 bytes, use -b option to extract)",
 	"ThumbnailLength": 9387,
 	"ThumbnailOffset": 13312,
 	"Warning": "[minor] Bad format (61422) for MakerNotes entry 0",

@@ -37,7 +37,7 @@
 	"LightSource": "Unknown",
 	"LightValue": 11.3,
 	"Make": "BenQ Corporation",
-	"MakerNoteUnknownText": "(Binary data 2560 bytes)",
+	"MakerNoteUnknownText": "(Binary data 2560 bytes, use -b option to extract)",
 	"MaxApertureValue": 2.8,
 	"MeteringMode": "Multi-spot",
 	"Model": "DC C1020",

@@ -35,7 +35,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/500",
 	"Software": "Rev.1.1",
-	"ThumbnailImage": "(Binary data 23104 bytes)",
+	"ThumbnailImage": "(Binary data 23104 bytes, use -b option to extract)",
 	"ThumbnailLength": 23104,
 	"ThumbnailOffset": 670,
 	"XResolution": 72,

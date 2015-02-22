@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix JX300 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2701 bytes)",
+	"ThumbnailImage": "(Binary data 2701 bytes, use -b option to extract)",
 	"ThumbnailLength": 2701,
 	"ThumbnailOffset": 25776,
 	"Version": "0130",

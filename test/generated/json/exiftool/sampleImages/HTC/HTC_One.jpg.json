@@ -55,7 +55,7 @@
 	"ShutterSpeedValue": "1/60",
 	"SubSecDateTimeOriginal": "2013:05:29 09:26:07.782",
 	"SubSecTimeOriginal": 782,
-	"ThumbnailImage": "(Binary data 37655 bytes)",
+	"ThumbnailImage": "(Binary data 37655 bytes, use -b option to extract)",
 	"ThumbnailLength": 37655,
 	"ThumbnailOffset": 1054,
 	"WhiteBalance": "Auto",

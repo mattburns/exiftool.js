@@ -49,7 +49,7 @@
 	"Software": "EY445-0102",
 	"SpecialMode": "Normal, Sequence: 208, Panorama: (none)",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 12858 bytes)",
+	"ThumbnailImage": "(Binary data 12858 bytes, use -b option to extract)",
 	"ThumbnailLength": 12858,
 	"ThumbnailOffset": 1366,
 	"UserComment": "",

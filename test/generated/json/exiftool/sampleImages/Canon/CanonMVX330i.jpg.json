@@ -32,7 +32,7 @@
 	"RelatedImageHeight": 480,
 	"RelatedImageWidth": 640,
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 3309 bytes)",
+	"ThumbnailImage": "(Binary data 3309 bytes, use -b option to extract)",
 	"ThumbnailLength": 3309,
 	"ThumbnailOffset": 1268,
 	"UserComment": "",

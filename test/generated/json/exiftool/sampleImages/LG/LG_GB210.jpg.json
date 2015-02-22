@@ -20,7 +20,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"Software": "LG Electronics",
-	"ThumbnailImage": "(Binary data 20480 bytes)",
+	"ThumbnailImage": "(Binary data 20480 bytes, use -b option to extract)",
 	"ThumbnailLength": 20480,
 	"ThumbnailOffset": 472,
 	"XResolution": 72,

@@ -27,7 +27,7 @@
 	"SceneType": "Directly photographed",
 	"SensingMethod": "One-chip color area",
 	"Software": "eggy Ver.1.00",
-	"ThumbnailImage": "(Binary data 2580 bytes)",
+	"ThumbnailImage": "(Binary data 2580 bytes, use -b option to extract)",
 	"ThumbnailLength": 2580,
 	"ThumbnailOffset": 606,
 	"Warning": "[minor] Unrecognized MakerNotes",

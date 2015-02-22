@@ -62,7 +62,7 @@
 	"ShutterSpeedValue": "1/7",
 	"SlowSync": "Off",
 	"Software": "Digital Camera digilux 4.3 Ver1.00",
-	"ThumbnailImage": "(Binary data 9389 bytes)",
+	"ThumbnailImage": "(Binary data 9389 bytes, use -b option to extract)",
 	"ThumbnailLength": 9389,
 	"ThumbnailOffset": 1084,
 	"Version": "0130",

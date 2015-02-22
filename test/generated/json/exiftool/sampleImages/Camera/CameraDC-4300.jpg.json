@@ -41,7 +41,7 @@
 	"ShutterSpeed": "1/45",
 	"ShutterSpeedValue": "1/45",
 	"Software": "DC-4300",
-	"ThumbnailImage": "(Binary data 7960 bytes)",
+	"ThumbnailImage": "(Binary data 7960 bytes, use -b option to extract)",
 	"ThumbnailLength": 7960,
 	"ThumbnailOffset": 882,
 	"XResolution": 72,

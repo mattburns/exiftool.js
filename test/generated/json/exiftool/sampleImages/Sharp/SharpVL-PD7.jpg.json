@@ -29,7 +29,7 @@
 	"SceneType": "Directly photographed",
 	"SensingMethod": "One-chip color area",
 	"Software": "Digital Camera VL-PD7 Ver1.00",
-	"ThumbnailImage": "(Binary data 3372 bytes)",
+	"ThumbnailImage": "(Binary data 3372 bytes, use -b option to extract)",
 	"ThumbnailLength": 3372,
 	"ThumbnailOffset": 606,
 	"XResolution": 72,

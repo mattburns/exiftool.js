@@ -30,7 +30,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/125",
 	"Software": "AC08",
-	"ThumbnailImage": "(Binary data 9802 bytes)",
+	"ThumbnailImage": "(Binary data 9802 bytes, use -b option to extract)",
 	"ThumbnailLength": 9802,
 	"ThumbnailOffset": 848,
 	"WhiteBalance": "Auto",

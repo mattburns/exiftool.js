@@ -48,7 +48,7 @@
 	"ShutterSpeed": "1/111",
 	"Software": "EY424-01.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 12051 bytes)",
+	"ThumbnailImage": "(Binary data 12051 bytes, use -b option to extract)",
 	"ThumbnailLength": 12051,
 	"ThumbnailOffset": 1324,
 	"UserComment": "",

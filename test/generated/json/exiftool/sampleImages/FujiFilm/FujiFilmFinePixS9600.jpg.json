@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S9600   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10360 bytes)",
+	"ThumbnailImage": "(Binary data 10360 bytes, use -b option to extract)",
 	"ThumbnailLength": 10360,
 	"ThumbnailOffset": 1354,
 	"Version": "0130",

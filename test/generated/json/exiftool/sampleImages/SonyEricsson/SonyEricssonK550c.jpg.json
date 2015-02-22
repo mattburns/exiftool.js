@@ -38,7 +38,7 @@
 	"ShutterSpeed": "1/8",
 	"Software": "R1JD001     prgCXC1250670_CHINA_LI 0.0",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 3671 bytes)",
+	"ThumbnailImage": "(Binary data 3671 bytes, use -b option to extract)",
 	"ThumbnailLength": 3671,
 	"ThumbnailOffset": 748,
 	"WhiteBalance": "Auto",

@@ -36,7 +36,7 @@
 	"MeteringMode": "Center-weighted average",
 	"Model": "ViviCamX325",
 	"ModifyDate": "2007:08:26 14:21:08",
-	"PreviewImage": "(Binary data 40440 bytes)",
+	"PreviewImage": "(Binary data 40440 bytes, use -b option to extract)",
 	"ResolutionUnit": "inches",
 	"SceneCaptureType": "Standard",
 	"SensingMethod": "One-chip color area",

@@ -84,7 +84,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix Z950EXR Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10662 bytes)",
+	"ThumbnailImage": "(Binary data 10662 bytes, use -b option to extract)",
 	"ThumbnailLength": 10662,
 	"ThumbnailOffset": 1802,
 	"Version": "0130",

@@ -49,7 +49,7 @@
 	"ShutterSpeed": "1/194",
 	"ShutterSpeedValue": "1/194",
 	"Software": "Digital Camera digilux Ver1.00",
-	"ThumbnailImage": "(Binary data 4571 bytes)",
+	"ThumbnailImage": "(Binary data 4571 bytes, use -b option to extract)",
 	"ThumbnailLength": 4571,
 	"ThumbnailOffset": 842,
 	"XResolution": 72,

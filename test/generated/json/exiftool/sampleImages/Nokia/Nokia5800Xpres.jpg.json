@@ -44,7 +44,7 @@
 	"SceneCaptureType": "Standard",
 	"ShutterSpeed": "1/111",
 	"ShutterSpeedValue": "1/111",
-	"ThumbnailImage": "(Binary data 4788 bytes)",
+	"ThumbnailImage": "(Binary data 4788 bytes, use -b option to extract)",
 	"ThumbnailLength": 4788,
 	"ThumbnailOffset": 2218,
 	"Warning": "[minor] Unrecognized MakerNotes",

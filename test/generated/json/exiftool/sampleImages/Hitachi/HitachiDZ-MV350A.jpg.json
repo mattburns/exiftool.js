@@ -20,7 +20,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-MV350A",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 7466 bytes)",
+	"ThumbnailImage": "(Binary data 7466 bytes, use -b option to extract)",
 	"ThumbnailLength": 7466,
 	"ThumbnailOffset": 436,
 	"XResolution": 72,

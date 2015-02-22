@@ -85,7 +85,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix HS50EXR Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8816 bytes)",
+	"ThumbnailImage": "(Binary data 8816 bytes, use -b option to extract)",
 	"ThumbnailLength": 8816,
 	"ThumbnailOffset": 1840,
 	"Version": "0130",

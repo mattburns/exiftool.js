@@ -40,7 +40,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/18",
-	"ThumbnailImage": "(Binary data 12618 bytes)",
+	"ThumbnailImage": "(Binary data 12618 bytes, use -b option to extract)",
 	"ThumbnailLength": 12618,
 	"ThumbnailOffset": 715,
 	"Warning": "Bad format (32) for IFD0 entry 1",

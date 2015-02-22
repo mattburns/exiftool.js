@@ -49,7 +49,7 @@
 	"ShutterSpeed": "1/223",
 	"ShutterSpeedValue": "1/223",
 	"Software": "EZtouch Ver.3.0",
-	"ThumbnailImage": "(Binary data 8818 bytes)",
+	"ThumbnailImage": "(Binary data 8818 bytes, use -b option to extract)",
 	"ThumbnailLength": 8818,
 	"ThumbnailOffset": 802,
 	"XResolution": 72,

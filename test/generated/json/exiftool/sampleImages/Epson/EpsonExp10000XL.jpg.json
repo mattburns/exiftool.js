@@ -21,7 +21,7 @@
 	"ResolutionUnit": "inches",
 	"SamplesPerPixel": 3,
 	"Software": "Nero PhotoSnap 1, 2, 0, 19",
-	"ThumbnailImage": "(Binary data 3954 bytes)",
+	"ThumbnailImage": "(Binary data 3954 bytes, use -b option to extract)",
 	"ThumbnailLength": 3954,
 	"ThumbnailOffset": 564,
 	"XResolution": 600,

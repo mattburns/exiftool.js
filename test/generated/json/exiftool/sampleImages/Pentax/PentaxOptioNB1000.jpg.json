@@ -54,7 +54,7 @@
 	"ShutterSpeed": "1/40",
 	"Software": "Optio NB1000 Ver 1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8050 bytes)",
+	"ThumbnailImage": "(Binary data 8050 bytes, use -b option to extract)",
 	"ThumbnailLength": 8050,
 	"ThumbnailOffset": 22137,
 	"WhiteBalance": "Auto",

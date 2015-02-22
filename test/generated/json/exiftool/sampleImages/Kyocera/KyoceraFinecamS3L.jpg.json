@@ -53,7 +53,7 @@
 	"ShutterSpeed": "1/60",
 	"ShutterSpeedValue": 0.5,
 	"Software": "FC-S3L Ver 1.01",
-	"ThumbnailImage": "(Binary data 5002 bytes)",
+	"ThumbnailImage": "(Binary data 5002 bytes, use -b option to extract)",
 	"ThumbnailLength": 5002,
 	"ThumbnailOffset": 56486,
 	"UserComment": "",

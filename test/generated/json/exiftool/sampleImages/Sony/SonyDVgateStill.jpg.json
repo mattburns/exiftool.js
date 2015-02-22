@@ -23,7 +23,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"Software": "DVgate Still Version 2.00",
-	"ThumbnailImage": "(Binary data 6406 bytes)",
+	"ThumbnailImage": "(Binary data 6406 bytes, use -b option to extract)",
 	"ThumbnailLength": 6406,
 	"ThumbnailOffset": 506,
 	"XResolution": 72,

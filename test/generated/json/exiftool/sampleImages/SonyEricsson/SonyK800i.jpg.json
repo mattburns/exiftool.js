@@ -38,7 +38,7 @@
 	"ShutterSpeed": "1/1000",
 	"Software": "R1CB001     prgCXC1250212_ORANGE_WI 0.0",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 3667 bytes)",
+	"ThumbnailImage": "(Binary data 3667 bytes, use -b option to extract)",
 	"ThumbnailLength": 3667,
 	"ThumbnailOffset": 748,
 	"WhiteBalance": "Auto",

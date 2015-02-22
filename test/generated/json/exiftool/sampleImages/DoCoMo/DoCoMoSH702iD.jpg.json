@@ -46,7 +46,7 @@
 	"ShutterSpeed": "1/5",
 	"ShutterSpeedValue": 1.2,
 	"SubjectDistanceRange": "Close",
-	"ThumbnailImage": "(Binary data 5666 bytes)",
+	"ThumbnailImage": "(Binary data 5666 bytes, use -b option to extract)",
 	"ThumbnailLength": 5666,
 	"ThumbnailOffset": 1152,
 	"UserComment": "061002_225848",

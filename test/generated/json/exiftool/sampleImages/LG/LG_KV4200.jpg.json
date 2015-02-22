@@ -26,7 +26,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/21",
 	"Software": "HeraNeo",
-	"ThumbnailImage": "(Binary data 10676 bytes)",
+	"ThumbnailImage": "(Binary data 10676 bytes, use -b option to extract)",
 	"ThumbnailLength": 10676,
 	"ThumbnailOffset": 608,
 	"WhiteBalance": "Auto",

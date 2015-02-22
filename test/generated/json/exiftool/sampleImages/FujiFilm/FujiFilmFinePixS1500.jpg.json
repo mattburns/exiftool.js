@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S1500 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9716 bytes)",
+	"ThumbnailImage": "(Binary data 9716 bytes, use -b option to extract)",
 	"ThumbnailLength": 9716,
 	"ThumbnailOffset": 2000,
 	"Version": "0130",

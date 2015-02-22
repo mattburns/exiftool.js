@@ -53,7 +53,7 @@
 	"ShutterSpeed": "1/1540",
 	"SubjectArea": "800 600 1600 1200",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4539 bytes)",
+	"ThumbnailImage": "(Binary data 4539 bytes, use -b option to extract)",
 	"ThumbnailLength": 4539,
 	"ThumbnailOffset": 895,
 	"WhiteBalance": "Auto",

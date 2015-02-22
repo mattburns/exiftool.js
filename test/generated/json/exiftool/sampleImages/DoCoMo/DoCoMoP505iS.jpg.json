@@ -24,7 +24,7 @@
 	"RelatedImageHeight": 480,
 	"RelatedImageWidth": 640,
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 5406 bytes)",
+	"ThumbnailImage": "(Binary data 5406 bytes, use -b option to extract)",
 	"ThumbnailLength": 5406,
 	"ThumbnailOffset": 488,
 	"XResolution": 72,

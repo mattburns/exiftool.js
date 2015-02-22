@@ -20,7 +20,7 @@
 	"Make": "EASTMAN KODAK COMPANY",
 	"Model": "KODAK DC3800 DIGITAL CAMERA",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 11866 bytes)",
+	"ThumbnailImage": "(Binary data 11866 bytes, use -b option to extract)",
 	"ThumbnailLength": 11866,
 	"ThumbnailOffset": 454,
 	"XResolution": 72,

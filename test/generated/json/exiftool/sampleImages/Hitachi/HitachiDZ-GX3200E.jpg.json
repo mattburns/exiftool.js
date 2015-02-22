@@ -20,7 +20,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-GX3200E",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 6305 bytes)",
+	"ThumbnailImage": "(Binary data 6305 bytes, use -b option to extract)",
 	"ThumbnailLength": 6305,
 	"ThumbnailOffset": 424,
 	"XResolution": 72,

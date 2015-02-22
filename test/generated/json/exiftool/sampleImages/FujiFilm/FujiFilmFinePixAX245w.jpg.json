@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix AX245w Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4084 bytes)",
+	"ThumbnailImage": "(Binary data 4084 bytes, use -b option to extract)",
 	"ThumbnailLength": 4084,
 	"ThumbnailOffset": 20000,
 	"Version": "0130",

@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A405   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8616 bytes)",
+	"ThumbnailImage": "(Binary data 8616 bytes, use -b option to extract)",
 	"ThumbnailLength": 8616,
 	"ThumbnailOffset": 1282,
 	"Version": "0130",

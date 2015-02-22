@@ -28,7 +28,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/21",
 	"Software": "UlyB1A",
-	"ThumbnailImage": "(Binary data 11705 bytes)",
+	"ThumbnailImage": "(Binary data 11705 bytes, use -b option to extract)",
 	"ThumbnailLength": 11705,
 	"ThumbnailOffset": 538,
 	"WhiteBalance": "Auto",

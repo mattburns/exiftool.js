@@ -36,7 +36,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/425",
 	"Software": "Nero PhotoSnap 1, 6, 3, 1",
-	"ThumbnailImage": "(Binary data 4893 bytes)",
+	"ThumbnailImage": "(Binary data 4893 bytes, use -b option to extract)",
 	"ThumbnailLength": 4893,
 	"ThumbnailOffset": 756,
 	"XResolution": 72,

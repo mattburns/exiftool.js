@@ -35,7 +35,7 @@
 	"Model": "Desire HD",
 	"PreviewQuality": 85,
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 33245 bytes)",
+	"ThumbnailImage": "(Binary data 33245 bytes, use -b option to extract)",
 	"ThumbnailLength": 33245,
 	"ThumbnailOffset": 692,
 	"XResolution": 72,

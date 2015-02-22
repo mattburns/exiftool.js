@@ -23,7 +23,7 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
-        <h3>sampleImages/Sony/SonyILCE-7.jpg</h3>
+        <h3>node_modules/exiftool.js-dev-dependencies/sampleImages/Sony/SonyILCE-7.jpg</h3>
 <table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
 <tbody>
 <tr>
@@ -92,6 +92,13 @@
 <tr>
 <td>BatteryLevel</td>
 <td class='match'>85%</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BatteryTemperature</td>
+<td class='match'>48.9 C</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -301,13 +308,6 @@
 </tr>
 <tr>
 <td>DynamicRangeOptimizer</td>
-<td class='match'>Off</td>
-<td class='missing'>-</td>
-<td class='missing'>-</td>
-<td class='missing'>-</td>
-</tr>
-<tr>
-<td>Effect</td>
 <td class='match'>Off</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -594,6 +594,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>ImageCount2</td>
+<td class='match'>149</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>ImageDescription</td>
 <td class='match'>                               </td>
 <td class='missing'>-</td>
@@ -811,6 +818,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>MaxFocalLength</td>
+<td class='match'>70.0 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>MetaVersion</td>
 <td class='match'>DC7303320222000</td>
 <td class='missing'>-</td>
@@ -829,6 +843,13 @@
 <td class='match'>Multi-segment</td>
 <td class='diff'>Pattern</td>
 <td class='diff'>5</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MinFocalLength</td>
+<td class='match'>28.0 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
 <td class='missing'>-</td>
 </tr>
 <tr>
@@ -881,8 +902,15 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>PictureEffect2</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>PreviewImage</td>
-<td class='match'>(Binary data 810337 bytes)</td>
+<td class='match'>(Binary data 810337 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1022,7 +1050,7 @@
 </tr>
 <tr>
 <td>SequenceLength</td>
-<td class='match'>1 shot</td>
+<td class='match'>1 file</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1084,6 +1112,34 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>SonyDateTime2</td>
+<td class='match'>2013:08:18 18:11:24</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SonyExposureTime</td>
+<td class='match'>1/128</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SonyExposureTime2</td>
+<td class='match'>1/128</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SonyFNumber</td>
+<td class='match'>5.7</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>SonyImageHeight</td>
 <td class='match'>4000</td>
 <td class='missing'>-</td>
@@ -1093,6 +1149,13 @@
 <tr>
 <td>SonyImageWidth</td>
 <td class='match'>6000</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SonyMaxApertureValue</td>
+<td class='match'>4</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1120,7 +1183,7 @@
 </tr>
 <tr>
 <td>ThumbnailImage</td>
-<td class='match'>(Binary data 13283 bytes)</td>
+<td class='match'>(Binary data 13283 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>

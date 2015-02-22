@@ -55,7 +55,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/32",
 	"ShutterSpeedValue": "1/32",
-	"ThumbnailImage": "(Binary data 6732 bytes)",
+	"ThumbnailImage": "(Binary data 6732 bytes, use -b option to extract)",
 	"ThumbnailLength": 6732,
 	"ThumbnailOffset": 1502,
 	"TimeCreated": "22:24:56.87",

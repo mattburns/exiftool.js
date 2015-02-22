@@ -31,7 +31,7 @@
 	"SceneCaptureType": "Standard",
 	"ShutterSpeed": 0,
 	"Software": "M690_S18.1_FLY_20101025",
-	"ThumbnailImage": "(Binary data 7223 bytes)",
+	"ThumbnailImage": "(Binary data 7223 bytes, use -b option to extract)",
 	"ThumbnailLength": 7223,
 	"ThumbnailOffset": 1798,
 	"Warning": "[minor] Unrecognized MakerNotes",

@@ -19,7 +19,7 @@
 	"ConversionLens": "Off",
 	"CreateDate": "2005:12:26 11:51:39",
 	"CustomRendered": "Custom",
-	"DataDump": "(Binary data 5322 bytes)",
+	"DataDump": "(Binary data 5322 bytes, use -b option to extract)",
 	"DateTimeOriginal": "2005:12:26 11:51:39",
 	"DigitalZoomRatio": 0,
 	"EncodingProcess": "Baseline DCT, Huffman coding",

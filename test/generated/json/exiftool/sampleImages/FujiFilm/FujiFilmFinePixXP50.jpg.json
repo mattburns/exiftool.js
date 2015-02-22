@@ -62,7 +62,7 @@
 	"ModifyDate": "2013:08:11 16:35:51",
 	"OffsetSchema": 4164,
 	"Orientation": "Horizontal (normal)",
-	"Padding": "(Binary data 2060 bytes)",
+	"Padding": "(Binary data 2060 bytes, use -b option to extract)",
 	"PictureMode": "Underwater",
 	"PrintIMVersion": "0250",
 	"Quality": "FINE   ",

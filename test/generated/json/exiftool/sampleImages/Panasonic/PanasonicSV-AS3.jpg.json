@@ -58,7 +58,7 @@
 	"ShutterSpeed": "1/180",
 	"ShutterSpeedValue": "1/180",
 	"Software": "V1.00G",
-	"ThumbnailImage": "(Binary data 6894 bytes)",
+	"ThumbnailImage": "(Binary data 6894 bytes, use -b option to extract)",
 	"ThumbnailLength": 6894,
 	"ThumbnailOffset": 1386,
 	"Warning": "[minor] Incorrectly formatted CFAPattern",

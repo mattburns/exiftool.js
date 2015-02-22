@@ -38,7 +38,7 @@
 	"ShutterSpeed": "1/35",
 	"ShutterSpeedValue": "1/34",
 	"Software": "Digital Camera PDRM70 Ver1.07",
-	"ThumbnailImage": "(Binary data 9101 bytes)",
+	"ThumbnailImage": "(Binary data 9101 bytes, use -b option to extract)",
 	"ThumbnailLength": 9101,
 	"ThumbnailOffset": 772,
 	"Warning": "[minor] Unrecognized MakerNotes",

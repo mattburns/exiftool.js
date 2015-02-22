@@ -32,7 +32,7 @@
 	"ShutterSpeed": "1/54",
 	"Software": "Common_dll v12.0.1b1",
 	"SubjectDistance": "0.5 m",
-	"ThumbnailImage": "(Binary data 2672 bytes)",
+	"ThumbnailImage": "(Binary data 2672 bytes, use -b option to extract)",
 	"ThumbnailLength": 2672,
 	"ThumbnailOffset": 870,
 	"XResolution": 72,

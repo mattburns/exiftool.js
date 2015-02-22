@@ -24,7 +24,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"Software": "CanoScan Toolbox 4.9.1.1",
-	"ThumbnailImage": "(Binary data 4004 bytes)",
+	"ThumbnailImage": "(Binary data 4004 bytes, use -b option to extract)",
 	"ThumbnailLength": 4004,
 	"ThumbnailOffset": 512,
 	"WhiteBalance": "Auto",

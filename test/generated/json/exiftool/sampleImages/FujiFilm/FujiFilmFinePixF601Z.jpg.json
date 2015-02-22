@@ -72,7 +72,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F601 ZOOM Ver2.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8072 bytes)",
+	"ThumbnailImage": "(Binary data 8072 bytes, use -b option to extract)",
 	"ThumbnailLength": 8072,
 	"ThumbnailOffset": 1246,
 	"Version": "0130",

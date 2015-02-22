@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F460 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4320 bytes)",
+	"ThumbnailImage": "(Binary data 4320 bytes, use -b option to extract)",
 	"ThumbnailLength": 4320,
 	"ThumbnailOffset": 4114,
 	"Version": "0130",

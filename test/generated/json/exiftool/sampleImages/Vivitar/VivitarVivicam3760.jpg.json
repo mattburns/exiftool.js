@@ -50,7 +50,7 @@
 	"Software": "current camera firmware version",
 	"SubjectDistance": "3.47 m",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 3959 bytes)",
+	"ThumbnailImage": "(Binary data 3959 bytes, use -b option to extract)",
 	"ThumbnailLength": 3959,
 	"ThumbnailOffset": 9162,
 	"Warning": "[minor] Unrecognized MakerNotes",

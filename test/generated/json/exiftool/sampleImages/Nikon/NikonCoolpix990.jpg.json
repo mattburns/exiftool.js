@@ -55,7 +55,7 @@
 	"Sharpness": "Auto",
 	"ShutterSpeed": "1/16",
 	"Software": "v381-58",
-	"ThumbnailImage": "(Binary data 2571 bytes)",
+	"ThumbnailImage": "(Binary data 2571 bytes, use -b option to extract)",
 	"ThumbnailLength": 2571,
 	"ThumbnailOffset": 4096,
 	"UserComment": "",

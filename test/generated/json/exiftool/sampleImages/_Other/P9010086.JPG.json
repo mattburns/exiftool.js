@@ -57,7 +57,7 @@
 	"ShutterSpeed": "1/160",
 	"Software": "Version 1.1",
 	"SpecialMode": "Unknown (808464688), Sequence: 0, Panorama: (none)",
-	"ThumbnailImage": "(Binary data 7668 bytes)",
+	"ThumbnailImage": "(Binary data 7668 bytes, use -b option to extract)",
 	"ThumbnailLength": 7668,
 	"ThumbnailOffset": 8096,
 	"UserComment": "",

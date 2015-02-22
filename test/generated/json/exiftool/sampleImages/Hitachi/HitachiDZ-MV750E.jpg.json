@@ -20,7 +20,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-MV750E",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 11865 bytes)",
+	"ThumbnailImage": "(Binary data 11865 bytes, use -b option to extract)",
 	"ThumbnailLength": 11865,
 	"ThumbnailOffset": 422,
 	"XResolution": 72,

@@ -21,7 +21,7 @@
 	"Model": "Nikon SUPER COOLSCAN 4000 ED",
 	"ModifyDate": "2007:04:18 08:01:53",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 6393 bytes)",
+	"ThumbnailImage": "(Binary data 6393 bytes, use -b option to extract)",
 	"ThumbnailLength": 6393,
 	"ThumbnailOffset": 485,
 	"Warning": "[minor] Bad format (344) for NikonScanIFD entry 0",

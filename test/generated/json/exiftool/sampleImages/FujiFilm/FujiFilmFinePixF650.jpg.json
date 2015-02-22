@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F650 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 6647 bytes)",
+	"ThumbnailImage": "(Binary data 6647 bytes, use -b option to extract)",
 	"ThumbnailLength": 6647,
 	"ThumbnailOffset": 4096,
 	"Version": "0130",

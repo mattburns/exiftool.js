@@ -79,7 +79,7 @@
 	"SlowSync": "On",
 	"Software": "Digital Camera FinePix F45fd   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9552 bytes)",
+	"ThumbnailImage": "(Binary data 9552 bytes, use -b option to extract)",
 	"ThumbnailLength": 9552,
 	"ThumbnailOffset": 1698,
 	"Version": "0130",

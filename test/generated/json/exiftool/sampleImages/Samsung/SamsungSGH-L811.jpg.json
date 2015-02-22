@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "L811XEHI1",
-	"ThumbnailImage": "(Binary data 3419 bytes)",
+	"ThumbnailImage": "(Binary data 3419 bytes, use -b option to extract)",
 	"ThumbnailLength": 3419,
 	"ThumbnailOffset": 656,
 	"WhiteBalance": "Auto",

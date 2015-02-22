@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix AX205 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3772 bytes)",
+	"ThumbnailImage": "(Binary data 3772 bytes, use -b option to extract)",
 	"ThumbnailLength": 3772,
 	"ThumbnailOffset": 20000,
 	"Version": "0130",

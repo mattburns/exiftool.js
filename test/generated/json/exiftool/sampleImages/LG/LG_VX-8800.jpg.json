@@ -28,7 +28,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "LG Electronics",
-	"ThumbnailImage": "(Binary data 11136 bytes)",
+	"ThumbnailImage": "(Binary data 11136 bytes, use -b option to extract)",
 	"ThumbnailLength": 11136,
 	"ThumbnailOffset": 596,
 	"XResolution": 150,

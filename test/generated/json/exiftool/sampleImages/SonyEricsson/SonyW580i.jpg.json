@@ -39,7 +39,7 @@
 	"ShutterSpeed": "1/25",
 	"Software": "R8BE001     prgCXC1123475_TMOBILE_E 0.0",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4831 bytes)",
+	"ThumbnailImage": "(Binary data 4831 bytes, use -b option to extract)",
 	"ThumbnailLength": 4831,
 	"ThumbnailOffset": 766,
 	"WhiteBalance": "Auto",

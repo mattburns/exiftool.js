@@ -42,7 +42,7 @@
 	"ShutterSpeed": "1/15",
 	"ShutterSpeedValue": "1/15",
 	"Software": "Picture Maker G3 PM V5.2",
-	"ThumbnailImage": "(Binary data 14747 bytes)",
+	"ThumbnailImage": "(Binary data 14747 bytes, use -b option to extract)",
 	"ThumbnailLength": 14747,
 	"ThumbnailOffset": 766,
 	"WhiteBalance": "Auto",

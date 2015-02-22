@@ -39,7 +39,7 @@
 	"ShutterSpeed": "1/128",
 	"ShutterSpeedValue": "1/128",
 	"Software": "M7600XEIF3",
-	"ThumbnailImage": "(Binary data 16192 bytes)",
+	"ThumbnailImage": "(Binary data 16192 bytes, use -b option to extract)",
 	"ThumbnailLength": 16192,
 	"ThumbnailOffset": 714,
 	"WhiteBalance": "Auto",

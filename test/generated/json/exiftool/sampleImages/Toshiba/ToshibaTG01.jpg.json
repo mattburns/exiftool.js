@@ -31,7 +31,7 @@
 	"Saturation": "Normal",
 	"SceneCaptureType": "Standard",
 	"Sharpness": "Normal",
-	"ThumbnailImage": "(Binary data 27183 bytes)",
+	"ThumbnailImage": "(Binary data 27183 bytes, use -b option to extract)",
 	"ThumbnailLength": 27183,
 	"ThumbnailOffset": 584,
 	"WhiteBalance": "Auto",

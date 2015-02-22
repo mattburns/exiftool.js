@@ -50,7 +50,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/15",
 	"Software": "fw69.23 prm69.20",
-	"ThumbnailImage": "(Binary data 5891 bytes)",
+	"ThumbnailImage": "(Binary data 5891 bytes, use -b option to extract)",
 	"ThumbnailLength": 5891,
 	"ThumbnailOffset": 1080,
 	"UserComment": "",

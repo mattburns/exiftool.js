@@ -32,7 +32,7 @@
 	"RelatedImageWidth": 640,
 	"ResolutionUnit": "inches",
 	"SceneCaptureType": "Standard",
-	"ThumbnailImage": "(Binary data 8734 bytes)",
+	"ThumbnailImage": "(Binary data 8734 bytes, use -b option to extract)",
 	"ThumbnailLength": 8734,
 	"ThumbnailOffset": 1238,
 	"UserComment": "",

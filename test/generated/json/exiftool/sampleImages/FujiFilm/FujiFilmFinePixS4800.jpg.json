@@ -80,7 +80,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S4800 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2349 bytes)",
+	"ThumbnailImage": "(Binary data 2349 bytes, use -b option to extract)",
 	"ThumbnailLength": 2349,
 	"ThumbnailOffset": 27136,
 	"Version": "0130",

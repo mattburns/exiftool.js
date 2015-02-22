@@ -18,7 +18,7 @@
 	"Make": "LG Electronics Inc.",
 	"Model": "KC-560",
 	"ModifyDate": "2009-10-10 19:41:48",
-	"ThumbnailImage": "(Binary data 3101 bytes)",
+	"ThumbnailImage": "(Binary data 3101 bytes, use -b option to extract)",
 	"ThumbnailLength": 3101,
 	"ThumbnailOffset": 356,
 	"XResolution": 96,

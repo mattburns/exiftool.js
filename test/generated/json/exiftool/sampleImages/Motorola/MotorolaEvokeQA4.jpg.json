@@ -35,7 +35,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "HALOC9_1.53.11S1",
-	"ThumbnailImage": "(Binary data 39116 bytes)",
+	"ThumbnailImage": "(Binary data 39116 bytes, use -b option to extract)",
 	"ThumbnailLength": 39116,
 	"ThumbnailOffset": 728,
 	"WhiteBalance": "Auto",

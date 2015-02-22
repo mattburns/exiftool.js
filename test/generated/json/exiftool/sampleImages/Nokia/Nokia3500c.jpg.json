@@ -17,7 +17,7 @@
 	"Model": "3500c",
 	"ResolutionUnit": "inches",
 	"Software": "V 07.21",
-	"ThumbnailImage": "(Binary data 6503 bytes)",
+	"ThumbnailImage": "(Binary data 6503 bytes, use -b option to extract)",
 	"ThumbnailLength": 6503,
 	"ThumbnailOffset": 330,
 	"XResolution": 72,

@@ -36,7 +36,7 @@
 	"ShutterSpeed": "1/23",
 	"ShutterSpeedValue": "1/23",
 	"Software": "V1.89_91690",
-	"ThumbnailImage": "(Binary data 6463 bytes)",
+	"ThumbnailImage": "(Binary data 6463 bytes, use -b option to extract)",
 	"ThumbnailLength": 6463,
 	"ThumbnailOffset": 806,
 	"Warning": "[minor] Unrecognized MakerNotes",

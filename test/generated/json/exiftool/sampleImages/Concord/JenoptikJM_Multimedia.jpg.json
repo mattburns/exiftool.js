@@ -44,7 +44,7 @@
 	"SensingMethod": "One-chip color area",
 	"ShutterSpeed": "1/30",
 	"Software": "C.08.095",
-	"ThumbnailImage": "(Binary data 5196 bytes)",
+	"ThumbnailImage": "(Binary data 5196 bytes, use -b option to extract)",
 	"ThumbnailLength": 5196,
 	"ThumbnailOffset": 1272,
 	"Warning": "[minor] Unrecognized MakerNotes",

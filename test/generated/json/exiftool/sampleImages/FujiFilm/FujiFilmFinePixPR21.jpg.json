@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/97",
 	"ShutterSpeedValue": "1/97",
 	"Software": "Digital Camera FinePixPR21 Ver1.00",
-	"ThumbnailImage": "(Binary data 5740 bytes)",
+	"ThumbnailImage": "(Binary data 5740 bytes, use -b option to extract)",
 	"ThumbnailLength": 5740,
 	"ThumbnailOffset": 868,
 	"XResolution": 72,

@@ -49,7 +49,7 @@
 	"Software": "HP Firmware Ver 1.57.38",
 	"SubjectDistance": "1.29 m",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 13210 bytes)",
+	"ThumbnailImage": "(Binary data 13210 bytes, use -b option to extract)",
 	"ThumbnailLength": 13210,
 	"ThumbnailOffset": 940,
 	"WhiteBalance": "Auto",

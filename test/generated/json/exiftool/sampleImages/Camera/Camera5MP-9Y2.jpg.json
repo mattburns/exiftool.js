@@ -3,7 +3,7 @@
 	"BWMode": "Off",
 	"BitsPerSample": 8,
 	"CameraID": "MERADIGITAL CAMERA     ",
-	"CameraParameters": "(Binary data 7532 bytes)",
+	"CameraParameters": "(Binary data 7532 bytes, use -b option to extract)",
 	"CameraType": "Unknown (d?\b?CA)",
 	"CircleOfConfusion": "0.000 mm",
 	"ColorComponents": 3,

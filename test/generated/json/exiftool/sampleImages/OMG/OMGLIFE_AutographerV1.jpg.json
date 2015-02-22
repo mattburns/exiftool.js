@@ -19,7 +19,7 @@
 	"ImageWidth": 8,
 	"JFIFVersion": 1.02,
 	"Make": "OMG LIFE",
-	"MakerNoteUnknownText": "(Binary data 99 bytes)",
+	"MakerNoteUnknownText": "(Binary data 99 bytes, use -b option to extract)",
 	"Model": "AutographerV1",
 	"ModifyDate": "2013-08-01T20:22:21+0100",
 	"Orientation": "Horizontal (normal)",

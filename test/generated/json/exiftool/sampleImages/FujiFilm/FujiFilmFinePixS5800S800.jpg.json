@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S5800 S800 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 5907 bytes)",
+	"ThumbnailImage": "(Binary data 5907 bytes, use -b option to extract)",
 	"ThumbnailLength": 5907,
 	"ThumbnailOffset": 5120,
 	"Version": "0130",

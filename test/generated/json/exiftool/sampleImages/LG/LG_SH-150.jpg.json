@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "M6280A-KLRZ-4.0.5050T",
-	"ThumbnailImage": "(Binary data 28430 bytes)",
+	"ThumbnailImage": "(Binary data 28430 bytes, use -b option to extract)",
 	"ThumbnailLength": 28430,
 	"ThumbnailOffset": 648,
 	"WhiteBalance": "Auto",

@@ -36,7 +36,7 @@
 	"Make": "Nokia",
 	"Model": "Lumia 920",
 	"Orientation": "Horizontal (normal)",
-	"Padding": "(Binary data 2060 bytes)",
+	"Padding": "(Binary data 2060 bytes, use -b option to extract)",
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/588",
 	"Software": "Windows Phone",

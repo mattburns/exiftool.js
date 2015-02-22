@@ -20,7 +20,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-GX25M",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 7052 bytes)",
+	"ThumbnailImage": "(Binary data 7052 bytes, use -b option to extract)",
 	"ThumbnailLength": 7052,
 	"ThumbnailOffset": 422,
 	"XResolution": 72,

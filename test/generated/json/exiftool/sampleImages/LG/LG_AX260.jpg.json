@@ -28,7 +28,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/21",
 	"Software": "M6100D-AX260-6750",
-	"ThumbnailImage": "(Binary data 2812 bytes)",
+	"ThumbnailImage": "(Binary data 2812 bytes, use -b option to extract)",
 	"ThumbnailLength": 2812,
 	"ThumbnailOffset": 680,
 	"WhiteBalance": "Manual",

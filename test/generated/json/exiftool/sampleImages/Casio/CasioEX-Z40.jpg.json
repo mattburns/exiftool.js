@@ -63,7 +63,7 @@
 	"ModifyDate": "2005:12:26 16:01:13",
 	"ObjectDistance": "2 m",
 	"Orientation": "Unknown (0)",
-	"PreviewImage": "(Binary data 31680 bytes)",
+	"PreviewImage": "(Binary data 31680 bytes, use -b option to extract)",
 	"PreviewImageLength": 31680,
 	"PreviewImageSize": "320x240",
 	"PreviewImageStart": 2050,

@@ -68,7 +68,7 @@
 	"ShutterSpeedValue": "1/25",
 	"Software": 6,
 	"SubjectArea": "2012 1417 610 612",
-	"ThumbnailImage": "(Binary data 5656 bytes)",
+	"ThumbnailImage": "(Binary data 5656 bytes, use -b option to extract)",
 	"ThumbnailLength": 5656,
 	"ThumbnailOffset": 914,
 	"WhiteBalance": "Auto",

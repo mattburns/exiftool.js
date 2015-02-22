@@ -50,7 +50,7 @@
 	"Software": "DSC Firmware Ver: V1.11VI2",
 	"SubjectDistance": "5.32 m",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 12887 bytes)",
+	"ThumbnailImage": "(Binary data 12887 bytes, use -b option to extract)",
 	"ThumbnailLength": 12887,
 	"ThumbnailOffset": 9162,
 	"Warning": "[minor] Unrecognized MakerNotes",

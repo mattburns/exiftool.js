@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix T350 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3893 bytes)",
+	"ThumbnailImage": "(Binary data 3893 bytes, use -b option to extract)",
 	"ThumbnailLength": 3893,
 	"ThumbnailOffset": 25776,
 	"Version": "0130",

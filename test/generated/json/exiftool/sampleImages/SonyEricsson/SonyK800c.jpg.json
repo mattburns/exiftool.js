@@ -38,7 +38,7 @@
 	"ShutterSpeed": "1/500",
 	"Software": "R1GA024     prgCXC1250214_CHINA_WI 0.0",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 6060 bytes)",
+	"ThumbnailImage": "(Binary data 6060 bytes, use -b option to extract)",
 	"ThumbnailLength": 6060,
 	"ThumbnailOffset": 748,
 	"WhiteBalance": "Auto",

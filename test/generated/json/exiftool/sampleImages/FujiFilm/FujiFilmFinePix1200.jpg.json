@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/338",
 	"ShutterSpeedValue": "1/338",
 	"Software": "Digital Camera FinePix1200 Ver1.00",
-	"ThumbnailImage": "(Binary data 6095 bytes)",
+	"ThumbnailImage": "(Binary data 6095 bytes, use -b option to extract)",
 	"ThumbnailLength": 6095,
 	"ThumbnailOffset": 868,
 	"XResolution": 72,

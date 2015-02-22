@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "KF310-MSM6245-V10a-MAY-14-2008-XX",
-	"ThumbnailImage": "(Binary data 18775 bytes)",
+	"ThumbnailImage": "(Binary data 18775 bytes, use -b option to extract)",
 	"ThumbnailLength": 18775,
 	"ThumbnailOffset": 666,
 	"WhiteBalance": "Auto",

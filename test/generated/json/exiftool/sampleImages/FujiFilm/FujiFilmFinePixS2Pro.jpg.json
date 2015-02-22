@@ -69,7 +69,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePixS2Pro Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10012 bytes)",
+	"ThumbnailImage": "(Binary data 10012 bytes, use -b option to extract)",
 	"ThumbnailLength": 10012,
 	"ThumbnailOffset": 1216,
 	"Version": "0130",

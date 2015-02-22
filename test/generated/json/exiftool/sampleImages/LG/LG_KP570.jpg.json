@@ -26,7 +26,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"Software": "LGE_SW",
-	"ThumbnailImage": "(Binary data 22756 bytes)",
+	"ThumbnailImage": "(Binary data 22756 bytes, use -b option to extract)",
 	"ThumbnailLength": 22756,
 	"ThumbnailOffset": 434,
 	"XResolution": 72,

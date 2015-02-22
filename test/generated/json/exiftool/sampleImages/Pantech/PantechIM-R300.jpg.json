@@ -25,7 +25,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "S0173222a",
-	"ThumbnailImage": "(Binary data 20455 bytes)",
+	"ThumbnailImage": "(Binary data 20455 bytes, use -b option to extract)",
 	"ThumbnailLength": 20455,
 	"ThumbnailOffset": 506,
 	"XResolution": 72,

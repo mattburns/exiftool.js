@@ -33,7 +33,7 @@
 	"MeteringMode": "Center-weighted average",
 	"Model": "W508",
 	"ModifyDate": "2010:12:14 16:57:20",
-	"PreviewImage": "(Binary data 11640 bytes)",
+	"PreviewImage": "(Binary data 11640 bytes, use -b option to extract)",
 	"PreviewImageLength": 11640,
 	"PreviewImageStart": 602,
 	"ResolutionUnit": "inches",

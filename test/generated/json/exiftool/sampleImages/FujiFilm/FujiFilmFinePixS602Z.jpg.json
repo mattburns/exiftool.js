@@ -72,7 +72,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S602 ZOOM Ver1.00",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 9521 bytes)",
+	"ThumbnailImage": "(Binary data 9521 bytes, use -b option to extract)",
 	"ThumbnailLength": 9521,
 	"ThumbnailOffset": 1246,
 	"Version": "0130",

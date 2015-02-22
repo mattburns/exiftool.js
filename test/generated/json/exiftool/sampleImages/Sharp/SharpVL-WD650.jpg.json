@@ -29,7 +29,7 @@
 	"SceneType": "Directly photographed",
 	"SensingMethod": "One-chip color area",
 	"Software": "FinePixViewer Ver.3.2",
-	"ThumbnailImage": "(Binary data 3156 bytes)",
+	"ThumbnailImage": "(Binary data 3156 bytes, use -b option to extract)",
 	"ThumbnailLength": 3156,
 	"ThumbnailOffset": 620,
 	"Version": "0130",

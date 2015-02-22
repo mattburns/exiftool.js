@@ -41,7 +41,7 @@
 	"ShutterSpeed": "1/550",
 	"ShutterSpeedValue": "1/549",
 	"Software": "PDR-3300 Ver1.04",
-	"ThumbnailImage": "(Binary data 5323 bytes)",
+	"ThumbnailImage": "(Binary data 5323 bytes, use -b option to extract)",
 	"ThumbnailLength": 5323,
 	"ThumbnailOffset": 882,
 	"XResolution": 72,

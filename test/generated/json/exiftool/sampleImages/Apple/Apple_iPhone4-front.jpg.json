@@ -47,7 +47,7 @@
 	"ShutterSpeed": "1/15",
 	"ShutterSpeedValue": "1/15",
 	"Software": 4,
-	"ThumbnailImage": "(Binary data 7728 bytes)",
+	"ThumbnailImage": "(Binary data 7728 bytes, use -b option to extract)",
 	"ThumbnailLength": 7728,
 	"ThumbnailOffset": 860,
 	"WhiteBalance": "Auto",

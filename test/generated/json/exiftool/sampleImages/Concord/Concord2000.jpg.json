@@ -46,7 +46,7 @@
 	"ShutterSpeed": "1/15",
 	"ShutterSpeedValue": "1/15",
 	"Software": "Concord 1.0",
-	"ThumbnailImage": "(Binary data 4222 bytes)",
+	"ThumbnailImage": "(Binary data 4222 bytes, use -b option to extract)",
 	"ThumbnailLength": 4222,
 	"ThumbnailOffset": 1431,
 	"Warning": "[minor] Unrecognized MakerNotes",

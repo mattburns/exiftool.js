@@ -46,7 +46,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/256",
 	"Software": "a500T_030a_20050715",
-	"ThumbnailImage": "(Binary data 6583 bytes)",
+	"ThumbnailImage": "(Binary data 6583 bytes, use -b option to extract)",
 	"ThumbnailLength": 6583,
 	"ThumbnailOffset": 1140,
 	"XResolution": 72,

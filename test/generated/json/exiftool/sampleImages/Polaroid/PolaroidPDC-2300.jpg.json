@@ -61,7 +61,7 @@
 	"Software": "v2.2.16",
 	"StrobeTime": 0,
 	"TagX": "x",
-	"ThumbnailImage": "(Binary data 4594 bytes)",
+	"ThumbnailImage": "(Binary data 4594 bytes, use -b option to extract)",
 	"ThumbnailLength": 4594,
 	"ThumbnailOffset": 740,
 	"XResolution": 72,

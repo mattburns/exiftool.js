@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "VX836V02",
-	"ThumbnailImage": "(Binary data 7209 bytes)",
+	"ThumbnailImage": "(Binary data 7209 bytes, use -b option to extract)",
 	"ThumbnailLength": 7209,
 	"ThumbnailOffset": 658,
 	"WhiteBalance": "Auto",

@@ -36,7 +36,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/60",
 	"Software": "CR780 Firmware Version 1.0",
-	"ThumbnailImage": "(Binary data 11776 bytes)",
+	"ThumbnailImage": "(Binary data 11776 bytes, use -b option to extract)",
 	"ThumbnailLength": 11776,
 	"ThumbnailOffset": 1566,
 	"Warning": "[minor] Unrecognized MakerNotes",

@@ -53,7 +53,7 @@
 	"SubSecTime": 234,
 	"SubjectDistance": "1.36 m",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 7488 bytes)",
+	"ThumbnailImage": "(Binary data 7488 bytes, use -b option to extract)",
 	"ThumbnailLength": 7488,
 	"ThumbnailOffset": 915,
 	"Warning": "[minor] Unrecognized MakerNotes",

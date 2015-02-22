@@ -23,7 +23,7 @@
 	"RelatedImageFileFormat": "JPEG Exif Ver 2.2",
 	"ResolutionUnit": "inches",
 	"Software": "JINH",
-	"ThumbnailImage": "(Binary data 3128 bytes)",
+	"ThumbnailImage": "(Binary data 3128 bytes, use -b option to extract)",
 	"ThumbnailLength": 3128,
 	"ThumbnailOffset": 584,
 	"XResolution": 72,

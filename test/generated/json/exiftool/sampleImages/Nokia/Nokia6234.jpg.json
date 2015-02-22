@@ -23,7 +23,7 @@
 	"Orientation": "Unknown (0)",
 	"ResolutionUnit": "inches",
 	"Software": "V 04.52",
-	"ThumbnailImage": "(Binary data 6042 bytes)",
+	"ThumbnailImage": "(Binary data 6042 bytes, use -b option to extract)",
 	"ThumbnailLength": 6042,
 	"ThumbnailOffset": 404,
 	"XResolution": 72,

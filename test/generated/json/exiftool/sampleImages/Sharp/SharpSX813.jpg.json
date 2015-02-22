@@ -21,7 +21,7 @@
 	"Model": "SX813",
 	"ModifyDate": "2005:11:20 19:30:00",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 14232 bytes)",
+	"ThumbnailImage": "(Binary data 14232 bytes, use -b option to extract)",
 	"ThumbnailLength": 14232,
 	"ThumbnailOffset": 446,
 	"XResolution": 72,

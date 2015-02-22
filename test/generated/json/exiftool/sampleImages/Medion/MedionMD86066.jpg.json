@@ -45,7 +45,7 @@
 	"ShutterSpeed": "1/20",
 	"ShutterSpeedValue": "1/1024",
 	"Software": "FW Version DVV579U-V1.23-0417-DE06",
-	"ThumbnailImage": "(Binary data 2457 bytes)",
+	"ThumbnailImage": "(Binary data 2457 bytes, use -b option to extract)",
 	"ThumbnailLength": 2457,
 	"ThumbnailOffset": 1366,
 	"Warning": "[minor] Unrecognized MakerNotes",

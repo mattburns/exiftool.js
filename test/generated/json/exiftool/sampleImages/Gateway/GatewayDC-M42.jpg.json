@@ -48,7 +48,7 @@
 	"Software": "DSC Firmware Ver 1.45.16 Rev 1.00G",
 	"SubjectDistance": "1.5 m",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 7513 bytes)",
+	"ThumbnailImage": "(Binary data 7513 bytes, use -b option to extract)",
 	"ThumbnailLength": 7513,
 	"ThumbnailOffset": 916,
 	"WhiteBalance": "Auto",

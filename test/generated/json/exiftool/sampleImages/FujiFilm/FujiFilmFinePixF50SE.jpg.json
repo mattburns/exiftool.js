@@ -79,7 +79,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F50SE   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8614 bytes)",
+	"ThumbnailImage": "(Binary data 8614 bytes, use -b option to extract)",
 	"ThumbnailLength": 8614,
 	"ThumbnailOffset": 1468,
 	"Version": "0130",

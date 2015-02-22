@@ -45,7 +45,7 @@
 	"ShutterSpeed": "1/11",
 	"ShutterSpeedValue": "1/11",
 	"Software": "COACHWare 1.0",
-	"ThumbnailImage": "(Binary data 4354 bytes)",
+	"ThumbnailImage": "(Binary data 4354 bytes, use -b option to extract)",
 	"ThumbnailLength": 4354,
 	"ThumbnailOffset": 982,
 	"Warning": "[minor] Unrecognized MakerNotes",

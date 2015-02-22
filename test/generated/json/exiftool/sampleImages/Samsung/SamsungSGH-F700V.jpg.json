@@ -17,7 +17,7 @@
 	"Model": "SGH-F700V",
 	"ResolutionUnit": "inches",
 	"Software": "F700AEGK3",
-	"ThumbnailImage": "(Binary data 5629 bytes)",
+	"ThumbnailImage": "(Binary data 5629 bytes, use -b option to extract)",
 	"ThumbnailLength": 5629,
 	"ThumbnailOffset": 338,
 	"XResolution": 72,

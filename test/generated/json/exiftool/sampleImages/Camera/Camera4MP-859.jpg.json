@@ -42,7 +42,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/1000",
 	"Software": "V0801-0001",
-	"ThumbnailImage": "(Binary data 5122 bytes)",
+	"ThumbnailImage": "(Binary data 5122 bytes, use -b option to extract)",
 	"ThumbnailLength": 5122,
 	"ThumbnailOffset": 965,
 	"Warning": "[minor] Unrecognized MakerNotes",

@@ -71,7 +71,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S602   Ver1.00",
 	"SubjectDistanceRange": "Close",
-	"ThumbnailImage": "(Binary data 8992 bytes)",
+	"ThumbnailImage": "(Binary data 8992 bytes, use -b option to extract)",
 	"ThumbnailLength": 8992,
 	"ThumbnailOffset": 1204,
 	"Version": "0130",

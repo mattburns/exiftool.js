@@ -20,7 +20,7 @@
 	"Make": "HTC",
 	"Model": "HTC Magic",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 37525 bytes)",
+	"ThumbnailImage": "(Binary data 37525 bytes, use -b option to extract)",
 	"ThumbnailLength": 37525,
 	"ThumbnailOffset": 414,
 	"XResolution": 72,

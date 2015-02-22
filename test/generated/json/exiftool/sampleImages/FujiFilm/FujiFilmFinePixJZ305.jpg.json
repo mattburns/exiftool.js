@@ -80,7 +80,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix JZ305 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8654 bytes)",
+	"ThumbnailImage": "(Binary data 8654 bytes, use -b option to extract)",
 	"ThumbnailLength": 8654,
 	"ThumbnailOffset": 1700,
 	"Version": "0130",

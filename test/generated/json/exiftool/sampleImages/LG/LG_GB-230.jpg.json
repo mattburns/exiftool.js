@@ -18,7 +18,7 @@
 	"Make": "LG Electronics Inc.",
 	"Model": "GB-230",
 	"ModifyDate": "2010:5:26 12:9:0",
-	"ThumbnailImage": "(Binary data 4018 bytes)",
+	"ThumbnailImage": "(Binary data 4018 bytes, use -b option to extract)",
 	"ThumbnailLength": 4018,
 	"ThumbnailOffset": 352,
 	"XResolution": 96,

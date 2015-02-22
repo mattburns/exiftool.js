@@ -85,7 +85,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix HS20EXR Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9968 bytes)",
+	"ThumbnailImage": "(Binary data 9968 bytes, use -b option to extract)",
 	"ThumbnailLength": 9968,
 	"ThumbnailOffset": 1810,
 	"Version": "0130",

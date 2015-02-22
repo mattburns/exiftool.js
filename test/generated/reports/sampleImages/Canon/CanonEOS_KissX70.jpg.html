@@ -23,7 +23,7 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
-        <h3>sampleImages/Canon/CanonEOS_KissX70.jpg</h3>
+        <h3>node_modules/exiftool.js-dev-dependencies/sampleImages/Canon/CanonEOS_KissX70.jpg</h3>
 <table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
 <tbody>
 <tr>
@@ -160,6 +160,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>AverageBlackLevel</td>
+<td class='match'>2046 2046 2046 2046</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>BaseISO</td>
 <td class='match'>100</td>
 <td class='missing'>-</td>
@@ -197,6 +204,13 @@
 <tr>
 <td>BlackMaskTopBorder</td>
 <td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BlueBalance</td>
+<td class='match'>1.505859</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -294,7 +308,7 @@
 </tr>
 <tr>
 <td>CanonModelID</td>
-<td class='match'>Unknown (0x80000327)</td>
+<td class='match'>EOS Rebel T5 / 1200D / Kiss X70</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -322,7 +336,7 @@
 </tr>
 <tr>
 <td>ColorDataVersion</td>
-<td class='match'>Unknown (10)</td>
+<td class='match'>10 (600D/1200D)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -332,6 +346,76 @@
 <td class='match'>sRGB</td>
 <td class='match'>sRGB</td>
 <td class='diff'>1</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempAsShot</td>
+<td class='match'>5718</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempAuto</td>
+<td class='match'>5718</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempCloudy</td>
+<td class='match'>6000</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempDaylight</td>
+<td class='match'>5200</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempFlash</td>
+<td class='match'>6333</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempFluorescent</td>
+<td class='match'>3729</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempKelvin</td>
+<td class='match'>5189</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempMeasured</td>
+<td class='match'>5718</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempShade</td>
+<td class='match'>7000</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>ColorTempTungsten</td>
+<td class='match'>3200</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
 <td class='missing'>-</td>
 </tr>
 <tr>
@@ -504,7 +588,7 @@
 </tr>
 <tr>
 <td>DustRemovalData</td>
-<td class='match'>(Binary data 1024 bytes)</td>
+<td class='match'>(Binary data 1024 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -706,6 +790,20 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>FocusDistanceLower</td>
+<td class='match'>9.68 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>FocusDistanceUpper</td>
+<td class='match'>234.8 m</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>FocusMode</td>
 <td class='match'>One-shot AF</td>
 <td class='missing'>-</td>
@@ -867,6 +965,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>LinearityUpperMargin</td>
+<td class='match'>10000</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>LiveViewShooting</td>
 <td class='match'>Off</td>
 <td class='missing'>-</td>
@@ -986,6 +1091,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>NormalWhiteLevel</td>
+<td class='match'>11767</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>NumAFPoints</td>
 <td class='match'>9</td>
 <td class='missing'>-</td>
@@ -1025,6 +1137,13 @@
 <td class='match'></td>
 <td class='missing'>-</td>
 <td class='match'></td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>PerChannelBlackLevel</td>
+<td class='match'>2045 2046 2046 2046</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
 <td class='missing'>-</td>
 </tr>
 <tr>
@@ -1077,6 +1196,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>RawMeasuredRGGB</td>
+<td class='match'>82124 133106 140816 70066</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>RecommendedExposureIndex</td>
 <td class='match'>100</td>
 <td class='missing'>-</td>
@@ -1086,6 +1212,13 @@
 <tr>
 <td>RecordMode</td>
 <td class='match'>CR2+JPEG</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>RedBalance</td>
+<td class='match'>2.250977</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1266,6 +1399,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>SpecularWhiteLevel</td>
+<td class='match'>12279</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>SubSecCreateDate</td>
 <td class='match'>2013:11:22 19:15:39.00</td>
 <td class='missing'>-</td>
@@ -1323,7 +1463,7 @@
 </tr>
 <tr>
 <td>ThumbnailImage</td>
-<td class='match'>(Binary data 11856 bytes)</td>
+<td class='match'>(Binary data 11856 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1422,6 +1562,83 @@
 <tr>
 <td>WBShiftGM</td>
 <td class='match'>0</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevels</td>
+<td class='match'>2305 1024 1024 1542</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsAsShot</td>
+<td class='match'>2305 1024 1024 1542</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsAuto</td>
+<td class='match'>2305 1024 1024 1542</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsCloudy</td>
+<td class='match'>2305 1024 1024 1469</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsDaylight</td>
+<td class='match'>2140 1024 1024 1596</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsFlash</td>
+<td class='match'>2394 1024 1024 1450</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsFluorescent</td>
+<td class='match'>1886 1024 1024 2250</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsKelvin</td>
+<td class='match'>2140 1024 1024 1596</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsMeasured</td>
+<td class='match'>2305 1024 1024 1542</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsShade</td>
+<td class='match'>2467 1024 1024 1360</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>WB_RGGBLevelsTungsten</td>
+<td class='match'>1535 1024 1024 2378</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>

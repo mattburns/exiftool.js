@@ -38,7 +38,7 @@
 	"ResolutionUnit": "inches",
 	"SensingMethod": "One-chip color area",
 	"Software": "3.1.2",
-	"ThumbnailImage": "(Binary data 4847 bytes)",
+	"ThumbnailImage": "(Binary data 4847 bytes, use -b option to extract)",
 	"ThumbnailLength": 4847,
 	"ThumbnailOffset": 766,
 	"WhiteBalance": "Auto",

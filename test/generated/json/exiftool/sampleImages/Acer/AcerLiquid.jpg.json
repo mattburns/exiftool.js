@@ -32,7 +32,7 @@
 	"Model": "Acer Liquid",
 	"ResolutionUnit": "inches",
 	"ScaleFactor35efl": 7.7,
-	"ThumbnailImage": "(Binary data 5979 bytes)",
+	"ThumbnailImage": "(Binary data 5979 bytes, use -b option to extract)",
 	"ThumbnailLength": 5979,
 	"ThumbnailOffset": 548,
 	"WhiteBalance": "Auto",

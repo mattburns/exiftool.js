@@ -18,7 +18,7 @@
 	"Model": "PG-3600",
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 12910 bytes)",
+	"ThumbnailImage": "(Binary data 12910 bytes, use -b option to extract)",
 	"ThumbnailLength": 12910,
 	"ThumbnailOffset": 404,
 	"XResolution": 150,

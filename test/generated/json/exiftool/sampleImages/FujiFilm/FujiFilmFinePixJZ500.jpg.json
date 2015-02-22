@@ -79,7 +79,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix JZ500 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10902 bytes)",
+	"ThumbnailImage": "(Binary data 10902 bytes, use -b option to extract)",
 	"ThumbnailLength": 10902,
 	"ThumbnailOffset": 1500,
 	"Version": "0130",

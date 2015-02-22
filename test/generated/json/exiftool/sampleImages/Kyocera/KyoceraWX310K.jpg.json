@@ -22,7 +22,7 @@
 	"Model": "WX310K",
 	"Orientation": "Unknown (0)",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 8465 bytes)",
+	"ThumbnailImage": "(Binary data 8465 bytes, use -b option to extract)",
 	"ThumbnailLength": 8465,
 	"ThumbnailOffset": 480,
 	"XResolution": 72,

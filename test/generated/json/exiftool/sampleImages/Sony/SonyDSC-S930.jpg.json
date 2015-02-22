@@ -1,7 +1,7 @@
 {
 	"Aperture": 2.9,
 	"BitsPerSample": 8,
-	"CameraParameters": "(Binary data 12000 bytes)",
+	"CameraParameters": "(Binary data 12000 bytes, use -b option to extract)",
 	"ColorComponents": 3,
 	"ColorSpace": "sRGB",
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
@@ -47,7 +47,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/15",
-	"ThumbnailImage": "(Binary data 8218 bytes)",
+	"ThumbnailImage": "(Binary data 8218 bytes, use -b option to extract)",
 	"ThumbnailLength": 8218,
 	"ThumbnailOffset": 12944,
 	"Warning": "[minor] Adjusted MakerNotes base by -12",

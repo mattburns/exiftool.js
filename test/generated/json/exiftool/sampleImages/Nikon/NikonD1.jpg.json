@@ -66,7 +66,7 @@
 	"SubSecTime": 10,
 	"SubSecTimeDigitized": 10,
 	"SubSecTimeOriginal": 10,
-	"ThumbnailImage": "(Binary data 5281 bytes)",
+	"ThumbnailImage": "(Binary data 5281 bytes, use -b option to extract)",
 	"ThumbnailLength": 5281,
 	"ThumbnailOffset": 1244,
 	"ToneComp": "High",

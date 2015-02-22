@@ -33,7 +33,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "S5600XXIB3",
-	"ThumbnailImage": "(Binary data 9078 bytes)",
+	"ThumbnailImage": "(Binary data 9078 bytes, use -b option to extract)",
 	"ThumbnailLength": 9078,
 	"ThumbnailOffset": 654,
 	"Warning": "Bad PrintIM size",

@@ -59,7 +59,7 @@
 	"ShutterSpeedValue": "1/4096",
 	"Software": "F505iGPS Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3002 bytes)",
+	"ThumbnailImage": "(Binary data 3002 bytes, use -b option to extract)",
 	"ThumbnailLength": 3002,
 	"ThumbnailOffset": 922,
 	"WhiteBalance": "Auto",

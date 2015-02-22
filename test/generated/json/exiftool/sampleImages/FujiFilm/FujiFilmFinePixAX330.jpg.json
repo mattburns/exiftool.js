@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix AX330 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3309 bytes)",
+	"ThumbnailImage": "(Binary data 3309 bytes, use -b option to extract)",
 	"ThumbnailLength": 3309,
 	"ThumbnailOffset": 25776,
 	"Version": "0130",

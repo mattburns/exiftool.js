@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Nikon Transfer 1.1 W",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3666 bytes)",
+	"ThumbnailImage": "(Binary data 3666 bytes, use -b option to extract)",
 	"ThumbnailLength": 3666,
 	"ThumbnailOffset": 2008,
 	"Version": "0130",

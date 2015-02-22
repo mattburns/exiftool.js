@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S5600   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9676 bytes)",
+	"ThumbnailImage": "(Binary data 9676 bytes, use -b option to extract)",
 	"ThumbnailLength": 9676,
 	"ThumbnailOffset": 1336,
 	"Version": "0130",

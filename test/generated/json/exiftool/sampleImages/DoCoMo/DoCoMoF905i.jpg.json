@@ -64,7 +64,7 @@
 	"ShutterSpeedValue": "1/4",
 	"Software": "F905i Ver1.00",
 	"SubjectDistanceRange": "Close",
-	"ThumbnailImage": "(Binary data 2406 bytes)",
+	"ThumbnailImage": "(Binary data 2406 bytes, use -b option to extract)",
 	"ThumbnailLength": 2406,
 	"ThumbnailOffset": 1114,
 	"UserComment": 20091104034333,

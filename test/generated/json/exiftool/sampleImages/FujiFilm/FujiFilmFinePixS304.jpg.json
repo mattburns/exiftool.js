@@ -73,7 +73,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S304   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10465 bytes)",
+	"ThumbnailImage": "(Binary data 10465 bytes, use -b option to extract)",
 	"ThumbnailLength": 10465,
 	"ThumbnailOffset": 1252,
 	"Version": "0130",

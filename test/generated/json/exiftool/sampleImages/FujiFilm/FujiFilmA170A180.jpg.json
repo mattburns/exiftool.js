@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera Fujifilm A170 A180 Ver1.02",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4380 bytes)",
+	"ThumbnailImage": "(Binary data 4380 bytes, use -b option to extract)",
 	"ThumbnailLength": 4380,
 	"ThumbnailOffset": 17200,
 	"Version": "0130",

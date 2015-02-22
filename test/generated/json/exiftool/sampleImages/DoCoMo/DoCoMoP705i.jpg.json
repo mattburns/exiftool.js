@@ -26,7 +26,7 @@
 	"Orientation": "Unknown (0)",
 	"PrintIMVersion": "0300",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 4270 bytes)",
+	"ThumbnailImage": "(Binary data 4270 bytes, use -b option to extract)",
 	"ThumbnailLength": 4270,
 	"ThumbnailOffset": 658,
 	"UserComment": "",

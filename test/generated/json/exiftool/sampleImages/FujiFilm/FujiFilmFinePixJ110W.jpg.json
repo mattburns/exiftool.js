@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix J110W v080621_19",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8312 bytes)",
+	"ThumbnailImage": "(Binary data 8312 bytes, use -b option to extract)",
 	"ThumbnailLength": 8312,
 	"ThumbnailOffset": 1970,
 	"Version": "0130",

@@ -43,7 +43,7 @@
 	"ShutterSpeed": "1/125",
 	"ShutterSpeedValue": "1/128",
 	"Software": "DigitalCameraVL-NZ150   v1.00",
-	"ThumbnailImage": "(Binary data 1814 bytes)",
+	"ThumbnailImage": "(Binary data 1814 bytes, use -b option to extract)",
 	"ThumbnailLength": 1814,
 	"ThumbnailOffset": 954,
 	"UserComment": "",

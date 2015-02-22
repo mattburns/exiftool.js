@@ -32,7 +32,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/50",
 	"Software": "Ver. 1.0",
-	"ThumbnailImage": "(Binary data 8765 bytes)",
+	"ThumbnailImage": "(Binary data 8765 bytes, use -b option to extract)",
 	"ThumbnailLength": 8765,
 	"ThumbnailOffset": 692,
 	"UserComment": "Programmed by Samsung DVS Software R&D Group",

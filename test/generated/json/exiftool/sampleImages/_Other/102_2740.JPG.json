@@ -83,7 +83,7 @@
 	"SubSecTimeOriginal": 84,
 	"SubjectDistanceRange": "Unknown",
 	"ThumbnailHeight": 120,
-	"ThumbnailImage": "(Binary data 6076 bytes)",
+	"ThumbnailImage": "(Binary data 6076 bytes, use -b option to extract)",
 	"ThumbnailLength": 6076,
 	"ThumbnailOffset": 15294,
 	"ThumbnailWidth": 160,

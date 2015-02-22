@@ -23,7 +23,7 @@
 	"ModifyDate": "2011:05:03 21:03:33",
 	"ResolutionUnit": "inches",
 	"Software": "Windows Phone OS 7.0",
-	"ThumbnailImage": "(Binary data 19189 bytes)",
+	"ThumbnailImage": "(Binary data 19189 bytes, use -b option to extract)",
 	"ThumbnailLength": 19189,
 	"ThumbnailOffset": 490,
 	"Warning": "Bad InteropIFD offset for tag 0x0005",

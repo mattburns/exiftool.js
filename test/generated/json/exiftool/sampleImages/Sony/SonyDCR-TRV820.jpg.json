@@ -31,7 +31,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/60",
 	"Software": "PictureGear Version 4.1",
-	"ThumbnailImage": "(Binary data 5381 bytes)",
+	"ThumbnailImage": "(Binary data 5381 bytes, use -b option to extract)",
 	"ThumbnailLength": 5381,
 	"ThumbnailOffset": 38,
 	"XResolution": 72,

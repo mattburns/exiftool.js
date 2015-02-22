@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "KB770-MSM6280-V10c-OCT-16-2008-OPN-DE",
-	"ThumbnailImage": "(Binary data 15848 bytes)",
+	"ThumbnailImage": "(Binary data 15848 bytes, use -b option to extract)",
 	"ThumbnailLength": 15848,
 	"ThumbnailOffset": 670,
 	"WhiteBalance": "Auto",

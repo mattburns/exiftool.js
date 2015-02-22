@@ -96,7 +96,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera X-Pro1 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9587 bytes)",
+	"ThumbnailImage": "(Binary data 9587 bytes, use -b option to extract)",
 	"ThumbnailLength": 9587,
 	"ThumbnailOffset": 2090,
 	"Version": "0130",

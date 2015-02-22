@@ -30,7 +30,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/125",
 	"Software": "VC22",
-	"ThumbnailImage": "(Binary data 15623 bytes)",
+	"ThumbnailImage": "(Binary data 15623 bytes, use -b option to extract)",
 	"ThumbnailLength": 15623,
 	"ThumbnailOffset": 720,
 	"WhiteBalance": "Manual",

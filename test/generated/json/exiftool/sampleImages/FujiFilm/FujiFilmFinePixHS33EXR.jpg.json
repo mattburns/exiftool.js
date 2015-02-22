@@ -86,7 +86,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix HS33EXR Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8793 bytes)",
+	"ThumbnailImage": "(Binary data 8793 bytes, use -b option to extract)",
 	"ThumbnailLength": 8793,
 	"ThumbnailOffset": 2102,
 	"Version": "0130",

@@ -59,7 +59,7 @@
 	"ShutterSpeed": "1/125",
 	"Software": "DG-5W Ver1.03A",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4896 bytes)",
+	"ThumbnailImage": "(Binary data 4896 bytes, use -b option to extract)",
 	"ThumbnailLength": 4896,
 	"ThumbnailOffset": 5584,
 	"WhiteBalance": "Auto",

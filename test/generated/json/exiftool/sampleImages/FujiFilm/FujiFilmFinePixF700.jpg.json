@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F700  Ver2.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8262 bytes)",
+	"ThumbnailImage": "(Binary data 8262 bytes, use -b option to extract)",
 	"ThumbnailLength": 8262,
 	"ThumbnailOffset": 1276,
 	"Version": "0130",

@@ -25,7 +25,7 @@
 	"ResolutionUnit": "inches",
 	"SceneCaptureType": "Standard",
 	"Software": "V 04.11",
-	"ThumbnailImage": "(Binary data 3992 bytes)",
+	"ThumbnailImage": "(Binary data 3992 bytes, use -b option to extract)",
 	"ThumbnailLength": 3992,
 	"ThumbnailOffset": 1574,
 	"Warning": "[minor] Unrecognized MakerNotes",

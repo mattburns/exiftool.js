@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix Z33WP Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 6481 bytes)",
+	"ThumbnailImage": "(Binary data 6481 bytes, use -b option to extract)",
 	"ThumbnailLength": 6481,
 	"ThumbnailOffset": 5120,
 	"Version": "0130",

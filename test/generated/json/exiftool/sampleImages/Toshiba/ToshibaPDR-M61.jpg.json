@@ -36,7 +36,7 @@
 	"ShutterSpeed": "1/97",
 	"ShutterSpeedValue": "1/96",
 	"Software": "v8.3.12",
-	"ThumbnailImage": "(Binary data 4194 bytes)",
+	"ThumbnailImage": "(Binary data 4194 bytes, use -b option to extract)",
 	"ThumbnailLength": 4194,
 	"ThumbnailOffset": 740,
 	"XResolution": 72,

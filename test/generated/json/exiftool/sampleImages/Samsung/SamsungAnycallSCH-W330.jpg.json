@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/125",
 	"Software": "AJ16",
-	"ThumbnailImage": "(Binary data 18351 bytes)",
+	"ThumbnailImage": "(Binary data 18351 bytes, use -b option to extract)",
 	"ThumbnailLength": 18351,
 	"ThumbnailOffset": 636,
 	"WhiteBalance": "Auto",

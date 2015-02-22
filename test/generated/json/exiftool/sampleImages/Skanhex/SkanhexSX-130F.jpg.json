@@ -33,7 +33,7 @@
 	"ShutterSpeed": "1/4",
 	"ShutterSpeedValue": "1/4",
 	"Software": "DSC Software Version 0922",
-	"ThumbnailImage": "(Binary data 7743 bytes)",
+	"ThumbnailImage": "(Binary data 7743 bytes, use -b option to extract)",
 	"ThumbnailLength": 7743,
 	"ThumbnailOffset": 760,
 	"UserComment": "Quality=90 Shutter=1/4 Iris=F3.6 Delay=3526 Avg=287 Clip=567 Batt=2.45V,Q=90",

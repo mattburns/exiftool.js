@@ -20,7 +20,7 @@
 	"Make": "NEC",
 	"Model": "e540",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 1251 bytes)",
+	"ThumbnailImage": "(Binary data 1251 bytes, use -b option to extract)",
 	"ThumbnailLength": 1251,
 	"ThumbnailOffset": 412,
 	"XResolution": 72,

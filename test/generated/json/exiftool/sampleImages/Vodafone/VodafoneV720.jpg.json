@@ -33,7 +33,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "APP_Vodafone_720_B216SP02",
-	"ThumbnailImage": "(Binary data 15451 bytes)",
+	"ThumbnailImage": "(Binary data 15451 bytes, use -b option to extract)",
 	"ThumbnailLength": 15451,
 	"ThumbnailOffset": 642,
 	"WhiteBalance": "Manual",

@@ -121,7 +121,7 @@
 	"NoMemoryCard": "Release Locked",
 	"NoiseReduction": "Off",
 	"OffsetSchema": 12,
-	"PreviewImage": "(Binary data 24472 bytes)",
+	"PreviewImage": "(Binary data 24472 bytes, use -b option to extract)",
 	"PreviewImageLength": 24472,
 	"PreviewImageStart": 3516,
 	"ProgramShift": 0,

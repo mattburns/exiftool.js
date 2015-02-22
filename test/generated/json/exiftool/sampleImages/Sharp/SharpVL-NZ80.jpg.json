@@ -28,7 +28,7 @@
 	"SceneType": "Directly photographed",
 	"SensingMethod": "One-chip color area",
 	"Software": "DigitalCameraVL-NZ80    V1.00",
-	"ThumbnailImage": "(Binary data 2258 bytes)",
+	"ThumbnailImage": "(Binary data 2258 bytes, use -b option to extract)",
 	"ThumbnailLength": 2258,
 	"ThumbnailOffset": 758,
 	"UserComment": "",

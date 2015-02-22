@@ -62,7 +62,7 @@
 	"ShutterSpeedValue": "1/52",
 	"SlowSync": "Off",
 	"Software": "Digital Camera DS-270HD Ver1.0;",
-	"ThumbnailImage": "(Binary data 9210 bytes)",
+	"ThumbnailImage": "(Binary data 9210 bytes, use -b option to extract)",
 	"ThumbnailLength": 9210,
 	"ThumbnailOffset": 1082,
 	"Version": "0130",

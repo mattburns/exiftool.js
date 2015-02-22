@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FUJIFILM A850 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 7906 bytes)",
+	"ThumbnailImage": "(Binary data 7906 bytes, use -b option to extract)",
 	"ThumbnailLength": 7906,
 	"ThumbnailOffset": 1892,
 	"Version": "0130",

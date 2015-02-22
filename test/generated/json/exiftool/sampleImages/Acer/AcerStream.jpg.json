@@ -20,7 +20,7 @@
 	"Make": "Acer",
 	"Model": "Acer Stream",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 38233 bytes)",
+	"ThumbnailImage": "(Binary data 38233 bytes, use -b option to extract)",
 	"ThumbnailLength": 38233,
 	"ThumbnailOffset": 422,
 	"XResolution": 72,

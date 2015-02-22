@@ -23,12 +23,19 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
-        <h3>sampleImages/_Other/DMHP8076.JPG</h3>
+        <h3>node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/DMHP8076.JPG</h3>
 <table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
 <tbody>
 <tr>
 <td>AEAperture</td>
 <td class='match'>7</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AEApertureSteps</td>
+<td class='match'>10</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -76,6 +83,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>AEMeteringMode2</td>
+<td class='match'>Spot</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>AEMeteringSegments</td>
 <td class='match'>14.8 14.9 14.9 14.9 15.0 14.8 15.0 15.0 15.1 15.0 15.0 15.0 14.9 14.9 14.8 14.9 15.0 15.0 15.0 15.1 15.1 15.2 15.0 15.0 14.9 14.9 14.9 14.8 15.1 15.0 15.0 15.2 15.2 14.9 14.9 15.0 14.9 14.9 15.0 14.9 15.0 15.1 15.0 15.2 14.5 14.2 14.2 14.4 14.2 14.1 14.4 14.5 14.6 14.9 15.2 14.4 14.2 14.5 14.4 14.0 14.1 14.1 14.4 14.5 14.5 14.8 14.2 14.4 14.6 14.1 14.2 14.2 14.2 14.2 14.4 14.6 14.4</td>
 <td class='missing'>-</td>
@@ -99,6 +113,13 @@
 <tr>
 <td>AEProgramMode</td>
 <td class='match'>M, P or TAv</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AEWhiteBalance</td>
+<td class='match'>Daylight Fluorescent</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -441,7 +462,7 @@
 </tr>
 <tr>
 <td>DynamicRangeExpansion</td>
-<td class='match'>On</td>
+<td class='match'>On; 0; 0; 0</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -931,14 +952,21 @@
 </tr>
 <tr>
 <td>LensID</td>
-<td class='match'>Tamron AF70-300mm F4-5.6 LD Macro</td>
+<td class='match'>Tamron AF 70-300mm F4-5.6 LD Macro 1:2</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 </tr>
 <tr>
 <td>LensType</td>
-<td class='match'>Tamron AF70-300mm F4-5.6 LD Macro</td>
+<td class='match'>Tamron AF 70-300mm F4-5.6 LD Macro 1:2</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>LevelIndicator</td>
+<td class='match'>1</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1113,7 +1141,7 @@
 </tr>
 <tr>
 <td>PreviewImage</td>
-<td class='match'>(Binary data 19589 bytes)</td>
+<td class='match'>(Binary data 19589 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1337,7 +1365,7 @@
 </tr>
 <tr>
 <td>ThumbnailImage</td>
-<td class='match'>(Binary data 5882 bytes)</td>
+<td class='match'>(Binary data 5882 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>

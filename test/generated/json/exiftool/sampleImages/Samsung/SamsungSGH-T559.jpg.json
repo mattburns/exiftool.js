@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "T559UVIFA",
-	"ThumbnailImage": "(Binary data 17494 bytes)",
+	"ThumbnailImage": "(Binary data 17494 bytes, use -b option to extract)",
 	"ThumbnailLength": 17494,
 	"ThumbnailOffset": 656,
 	"WhiteBalance": "Auto",

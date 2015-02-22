@@ -75,7 +75,7 @@
 	"SlowSync": "On",
 	"Software": "Digital Camera FinePix A605    Ver1.23",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9729 bytes)",
+	"ThumbnailImage": "(Binary data 9729 bytes, use -b option to extract)",
 	"ThumbnailLength": 9729,
 	"ThumbnailOffset": 1284,
 	"Version": "0130",

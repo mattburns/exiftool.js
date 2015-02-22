@@ -31,7 +31,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "AD05",
-	"ThumbnailImage": "(Binary data 14009 bytes)",
+	"ThumbnailImage": "(Binary data 14009 bytes, use -b option to extract)",
 	"ThumbnailLength": 14009,
 	"ThumbnailOffset": 612,
 	"WhiteBalance": "Auto",

@@ -87,7 +87,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera X20 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8702 bytes)",
+	"ThumbnailImage": "(Binary data 8702 bytes, use -b option to extract)",
 	"ThumbnailLength": 8702,
 	"ThumbnailOffset": 1920,
 	"Version": "0130",

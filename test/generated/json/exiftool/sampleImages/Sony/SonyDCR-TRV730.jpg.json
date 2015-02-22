@@ -34,7 +34,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/500",
-	"ThumbnailImage": "(Binary data 6293 bytes)",
+	"ThumbnailImage": "(Binary data 6293 bytes, use -b option to extract)",
 	"ThumbnailLength": 6293,
 	"ThumbnailOffset": 715,
 	"XResolution": 72,

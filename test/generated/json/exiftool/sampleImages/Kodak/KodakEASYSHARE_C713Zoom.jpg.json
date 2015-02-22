@@ -58,7 +58,7 @@
 	"ShutterSpeedValue": "1/128",
 	"Software": "KODAK EASYSHARE C713 ZOOM DIGITAL CAMERA",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2640 bytes)",
+	"ThumbnailImage": "(Binary data 2640 bytes, use -b option to extract)",
 	"ThumbnailLength": 2640,
 	"ThumbnailOffset": 13878,
 	"WhiteBalance": "Auto",

@@ -63,7 +63,7 @@
 	"ShutterSpeedValue": "1/104",
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix2300 Ver2.16",
-	"ThumbnailImage": "(Binary data 11090 bytes)",
+	"ThumbnailImage": "(Binary data 11090 bytes, use -b option to extract)",
 	"ThumbnailLength": 11090,
 	"ThumbnailOffset": 1477,
 	"Version": "0130",

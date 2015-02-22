@@ -37,7 +37,7 @@
 	"ShutterSpeed": "1/749",
 	"Software": "R1EA012 12079123_GENERIC_HS_YG",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 24688 bytes)",
+	"ThumbnailImage": "(Binary data 24688 bytes, use -b option to extract)",
 	"ThumbnailLength": 24688,
 	"ThumbnailOffset": 690,
 	"WhiteBalance": "Auto",

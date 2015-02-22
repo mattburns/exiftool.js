@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/15",
 	"Software": "MC3 Ver XJ21",
 	"SubjectDistanceRange": "Close",
-	"ThumbnailImage": "(Binary data 4431 bytes)",
+	"ThumbnailImage": "(Binary data 4431 bytes, use -b option to extract)",
 	"ThumbnailLength": 4431,
 	"ThumbnailOffset": 42168,
 	"UserComment": "ImgQ=01 PicM=07 ColM=08",

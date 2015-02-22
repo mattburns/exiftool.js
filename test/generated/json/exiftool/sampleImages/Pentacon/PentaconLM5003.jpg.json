@@ -52,7 +52,7 @@
 	"ShutterSpeed": "1/125",
 	"ShutterSpeedValue": "1/125",
 	"Software": "EXIF Software Version 0.01a",
-	"ThumbnailImage": "(Binary data 7940 bytes)",
+	"ThumbnailImage": "(Binary data 7940 bytes, use -b option to extract)",
 	"ThumbnailLength": 7940,
 	"ThumbnailOffset": 1191,
 	"UserComment": "LM 5003",

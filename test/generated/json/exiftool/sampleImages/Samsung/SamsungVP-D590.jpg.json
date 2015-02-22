@@ -22,7 +22,7 @@
 	"Model": "SAMSUNG/VP-D590",
 	"ResolutionUnit": "inches",
 	"Software": "0100",
-	"ThumbnailImage": "(Binary data 5180 bytes)",
+	"ThumbnailImage": "(Binary data 5180 bytes, use -b option to extract)",
 	"ThumbnailLength": 5180,
 	"ThumbnailOffset": 476,
 	"XResolution": 72,

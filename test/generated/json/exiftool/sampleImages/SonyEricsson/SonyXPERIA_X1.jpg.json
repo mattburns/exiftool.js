@@ -44,7 +44,7 @@
 	"ShutterSpeedValue": "1/16",
 	"Software": "XperiaCamera",
 	"SubjectDistanceRange": "Close",
-	"ThumbnailImage": "(Binary data 5369 bytes)",
+	"ThumbnailImage": "(Binary data 5369 bytes, use -b option to extract)",
 	"ThumbnailLength": 5369,
 	"ThumbnailOffset": 948,
 	"WhiteBalance": "Manual",

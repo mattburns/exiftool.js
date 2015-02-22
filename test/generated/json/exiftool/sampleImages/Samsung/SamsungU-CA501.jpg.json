@@ -43,7 +43,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/76",
 	"Software": "M5011S-1019",
-	"ThumbnailImage": "(Binary data 4633 bytes)",
+	"ThumbnailImage": "(Binary data 4633 bytes, use -b option to extract)",
 	"ThumbnailLength": 4633,
 	"ThumbnailOffset": 1069,
 	"XResolution": 72,

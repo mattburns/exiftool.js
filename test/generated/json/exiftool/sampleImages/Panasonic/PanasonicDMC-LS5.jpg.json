@@ -95,7 +95,7 @@
 	"ShutterSpeed": "1/60",
 	"Software": "Ver.1.1",
 	"TextStamp": "Off",
-	"ThumbnailImage": "(Binary data 5973 bytes)",
+	"ThumbnailImage": "(Binary data 5973 bytes, use -b option to extract)",
 	"ThumbnailLength": 5973,
 	"ThumbnailOffset": 39744,
 	"TimeSincePowerOn": "00:00:00.00",

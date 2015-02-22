@@ -18,7 +18,7 @@
 	"Model": "S5230",
 	"Orientation": "Rotate 90 CW",
 	"ResolutionUnit": "None",
-	"ThumbnailImage": "(Binary data 25287 bytes)",
+	"ThumbnailImage": "(Binary data 25287 bytes, use -b option to extract)",
 	"ThumbnailLength": 25287,
 	"ThumbnailOffset": 264,
 	"XResolution": 1,

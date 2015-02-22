@@ -21,7 +21,7 @@
 	"Model": "KF700",
 	"ResolutionUnit": "inches",
 	"Software": "LGE_SW",
-	"ThumbnailImage": "(Binary data 22203 bytes)",
+	"ThumbnailImage": "(Binary data 22203 bytes, use -b option to extract)",
 	"ThumbnailLength": 22203,
 	"ThumbnailOffset": 368,
 	"XResolution": 72,

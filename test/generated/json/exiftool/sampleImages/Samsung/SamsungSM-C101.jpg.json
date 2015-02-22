@@ -48,7 +48,7 @@
 	"ShutterSpeed": "1/250",
 	"ShutterSpeedValue": "1/251",
 	"Software": "C101XXUAMFB",
-	"ThumbnailImage": "(Binary data 15068 bytes)",
+	"ThumbnailImage": "(Binary data 15068 bytes, use -b option to extract)",
 	"ThumbnailLength": 15068,
 	"ThumbnailOffset": 21446,
 	"UserComment": "User comments",

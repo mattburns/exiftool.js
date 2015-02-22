@@ -40,7 +40,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "GD880-MSM76XX-V10b-APR-06-2010-XX",
-	"ThumbnailImage": "(Binary data 31638 bytes)",
+	"ThumbnailImage": "(Binary data 31638 bytes, use -b option to extract)",
 	"ThumbnailLength": 31638,
 	"ThumbnailOffset": 986,
 	"WhiteBalance": "Auto",

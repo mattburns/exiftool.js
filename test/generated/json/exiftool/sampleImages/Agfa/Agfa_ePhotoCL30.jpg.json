@@ -71,7 +71,7 @@
 	"RfMean": 0,
 	"ShutterSpeed": "1/109",
 	"Software": "1.70C",
-	"ThumbnailImage": "(Binary data 5913 bytes)",
+	"ThumbnailImage": "(Binary data 5913 bytes, use -b option to extract)",
 	"ThumbnailLength": 5913,
 	"ThumbnailOffset": 235870,
 	"Timer": 80,

@@ -47,7 +47,7 @@
 	"ScaleFactor35efl": 10.7,
 	"SceneCaptureType": "Standard",
 	"ShutterSpeed": "1/120",
-	"ThumbnailImage": "(Binary data 4240 bytes)",
+	"ThumbnailImage": "(Binary data 4240 bytes, use -b option to extract)",
 	"ThumbnailLength": 4240,
 	"ThumbnailOffset": 1250,
 	"UserComment": "",

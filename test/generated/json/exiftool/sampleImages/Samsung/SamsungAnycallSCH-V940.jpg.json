@@ -33,7 +33,7 @@
 	"ShutterSpeed": "1/125",
 	"Software": "ZG10S",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 20840 bytes)",
+	"ThumbnailImage": "(Binary data 20840 bytes, use -b option to extract)",
 	"ThumbnailLength": 20840,
 	"ThumbnailOffset": 768,
 	"WhiteBalance": "Auto",

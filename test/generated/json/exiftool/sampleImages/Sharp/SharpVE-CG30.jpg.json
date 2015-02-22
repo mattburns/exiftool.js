@@ -47,7 +47,7 @@
 	"ShutterSpeed": "1/15",
 	"ShutterSpeedValue": "1/16",
 	"Software": "DigitalCamera v1.00",
-	"ThumbnailImage": "(Binary data 16682 bytes)",
+	"ThumbnailImage": "(Binary data 16682 bytes, use -b option to extract)",
 	"ThumbnailLength": 16682,
 	"ThumbnailOffset": 1414,
 	"UserComment": "",

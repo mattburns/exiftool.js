@@ -57,7 +57,7 @@
 	"Software": "730_RF",
 	"SubjectDistance": "100 m",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 9000 bytes)",
+	"ThumbnailImage": "(Binary data 9000 bytes, use -b option to extract)",
 	"ThumbnailLength": 9000,
 	"ThumbnailOffset": 18448,
 	"Warning": "[minor] Unrecognized MakerNotes",

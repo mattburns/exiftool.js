@@ -12,7 +12,7 @@
 	"ImageSize": "8x8",
 	"ImageWidth": 8,
 	"JFIFVersion": 1.01,
-	"Padding": "(Binary data 2060 bytes)",
+	"Padding": "(Binary data 2060 bytes, use -b option to extract)",
 	"ResolutionUnit": "inches",
 	"SubSecCreateDate": "2012:02:08 09:17:30.87",
 	"SubSecDateTimeOriginal": "2012:02:08 09:17:30.87",

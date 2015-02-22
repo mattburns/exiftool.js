@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "APP-M2V100R001ENGC01B129-DebugNoLog",
-	"ThumbnailImage": "(Binary data 25805 bytes)",
+	"ThumbnailImage": "(Binary data 25805 bytes, use -b option to extract)",
 	"ThumbnailLength": 25805,
 	"ThumbnailOffset": 668,
 	"WhiteBalance": "Auto",

@@ -37,7 +37,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/16",
 	"ShutterSpeedValue": "1/16",
-	"ThumbnailImage": "(Binary data 8736 bytes)",
+	"ThumbnailImage": "(Binary data 8736 bytes, use -b option to extract)",
 	"ThumbnailLength": 8736,
 	"ThumbnailOffset": 1135,
 	"UserComment": "",

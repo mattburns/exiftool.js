@@ -21,7 +21,7 @@
 	"Make": "Panasonic",
 	"Model": "SV-AV100",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 5760 bytes)",
+	"ThumbnailImage": "(Binary data 5760 bytes, use -b option to extract)",
 	"ThumbnailLength": 5760,
 	"ThumbnailOffset": 460,
 	"XResolution": 72,

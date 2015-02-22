@@ -18,7 +18,7 @@
 	"Make": "Samsung",
 	"Model": "SCH-V490",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 20573 bytes)",
+	"ThumbnailImage": "(Binary data 20573 bytes, use -b option to extract)",
 	"ThumbnailLength": 20573,
 	"ThumbnailOffset": 334,
 	"XResolution": 72,

@@ -30,7 +30,7 @@
 	"ShutterSpeed": "1/125",
 	"Software": "M6275B-KMRZ-3.0.4766_4O",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 25896 bytes)",
+	"ThumbnailImage": "(Binary data 25896 bytes, use -b option to extract)",
 	"ThumbnailLength": 25896,
 	"ThumbnailOffset": 708,
 	"WhiteBalance": "Auto",

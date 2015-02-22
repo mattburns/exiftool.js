@@ -43,7 +43,7 @@
 	"ShutterSpeed": "1/2048",
 	"ShutterSpeedValue": "1/1585",
 	"Software": "FW11303 PRM11326",
-	"ThumbnailImage": "(Binary data 29956 bytes)",
+	"ThumbnailImage": "(Binary data 29956 bytes, use -b option to extract)",
 	"ThumbnailLength": 29956,
 	"ThumbnailOffset": 751,
 	"UserComment": "None",

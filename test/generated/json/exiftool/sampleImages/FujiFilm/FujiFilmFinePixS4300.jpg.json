@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S4300 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2917 bytes)",
+	"ThumbnailImage": "(Binary data 2917 bytes, use -b option to extract)",
 	"ThumbnailLength": 2917,
 	"ThumbnailOffset": 27136,
 	"Version": "0130",

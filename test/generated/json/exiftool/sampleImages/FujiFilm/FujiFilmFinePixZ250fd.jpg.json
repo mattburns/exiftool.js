@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix Z250fd Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 6742 bytes)",
+	"ThumbnailImage": "(Binary data 6742 bytes, use -b option to extract)",
 	"ThumbnailLength": 6742,
 	"ThumbnailOffset": 5120,
 	"Version": "0130",

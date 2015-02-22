@@ -55,7 +55,7 @@
 	"Software": "01011.0",
 	"SubjectArea": "0 0",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 1381 bytes)",
+	"ThumbnailImage": "(Binary data 1381 bytes, use -b option to extract)",
 	"ThumbnailLength": 1381,
 	"ThumbnailOffset": 1578,
 	"Warning": "[minor] Unrecognized MakerNotes",

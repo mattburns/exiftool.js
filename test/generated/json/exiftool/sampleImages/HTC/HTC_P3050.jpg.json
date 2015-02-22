@@ -20,7 +20,7 @@
 	"Model": "P3050",
 	"ModifyDate": "2008:04:23 19:49:24",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 3800 bytes)",
+	"ThumbnailImage": "(Binary data 3800 bytes, use -b option to extract)",
 	"ThumbnailLength": 3800,
 	"ThumbnailOffset": 382,
 	"XResolution": 72,

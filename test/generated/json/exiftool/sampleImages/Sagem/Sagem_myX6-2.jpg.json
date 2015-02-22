@@ -12,7 +12,7 @@
 	"Model": "myX6-2",
 	"ModifyDate": "2008:07:02 18:28:00",
 	"Orientation": "Horizontal (normal)",
-	"ThumbnailImage": "(Binary data 11091 bytes)",
+	"ThumbnailImage": "(Binary data 11091 bytes, use -b option to extract)",
 	"ThumbnailLength": 11091,
 	"ThumbnailOffset": 162,
 	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"

@@ -61,7 +61,7 @@
 	"ShutterSpeedValue": "1/11",
 	"Software": "F505i Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3487 bytes)",
+	"ThumbnailImage": "(Binary data 3487 bytes, use -b option to extract)",
 	"ThumbnailLength": 3487,
 	"ThumbnailOffset": 956,
 	"WhiteBalance": "Auto",

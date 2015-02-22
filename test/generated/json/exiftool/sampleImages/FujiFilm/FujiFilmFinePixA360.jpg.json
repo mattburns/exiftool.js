@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A360 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 13648 bytes)",
+	"ThumbnailImage": "(Binary data 13648 bytes, use -b option to extract)",
 	"ThumbnailLength": 13648,
 	"ThumbnailOffset": 1346,
 	"Version": "0130",

@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera Fujifilm A220 A230 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2536 bytes)",
+	"ThumbnailImage": "(Binary data 2536 bytes, use -b option to extract)",
 	"ThumbnailLength": 2536,
 	"ThumbnailOffset": 17200,
 	"Version": "0130",

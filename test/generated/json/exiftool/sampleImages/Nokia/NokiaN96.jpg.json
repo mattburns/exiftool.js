@@ -41,7 +41,7 @@
 	"ShutterSpeed": "1/10",
 	"ShutterSpeedValue": "1/10",
 	"SubjectDistance": "1.292 m",
-	"ThumbnailImage": "(Binary data 9141 bytes)",
+	"ThumbnailImage": "(Binary data 9141 bytes, use -b option to extract)",
 	"ThumbnailLength": 9141,
 	"ThumbnailOffset": 698,
 	"WhiteBalance": "Auto",

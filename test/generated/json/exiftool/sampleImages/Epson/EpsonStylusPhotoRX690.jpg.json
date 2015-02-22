@@ -17,7 +17,7 @@
 	"Make": "SEIKO EPSON CORP.",
 	"Model": "Stylus Photo RX690",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 9068 bytes)",
+	"ThumbnailImage": "(Binary data 9068 bytes, use -b option to extract)",
 	"ThumbnailLength": 9068,
 	"ThumbnailOffset": 364,
 	"XResolution": 200,

@@ -87,7 +87,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera XF1 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10508 bytes)",
+	"ThumbnailImage": "(Binary data 10508 bytes, use -b option to extract)",
 	"ThumbnailLength": 10508,
 	"ThumbnailOffset": 1920,
 	"Version": "0130",

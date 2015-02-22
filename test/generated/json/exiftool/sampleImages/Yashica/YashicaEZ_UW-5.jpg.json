@@ -53,7 +53,7 @@
 	"ShutterSpeedValue": "1/128",
 	"Software": "09.03.03.01.ER",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 5440 bytes)",
+	"ThumbnailImage": "(Binary data 5440 bytes, use -b option to extract)",
 	"ThumbnailLength": 5440,
 	"ThumbnailOffset": 1092,
 	"WhiteBalance": "Auto",

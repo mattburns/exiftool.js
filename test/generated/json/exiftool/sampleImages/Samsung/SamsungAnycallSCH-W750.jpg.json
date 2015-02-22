@@ -43,7 +43,7 @@
 	"SubjectDistance": "1 m",
 	"SubjectDistanceRange": "Unknown",
 	"SubjectLocation": 1,
-	"ThumbnailImage": "(Binary data 10955 bytes)",
+	"ThumbnailImage": "(Binary data 10955 bytes, use -b option to extract)",
 	"ThumbnailLength": 10955,
 	"ThumbnailOffset": 760,
 	"WhiteBalance": "Auto",

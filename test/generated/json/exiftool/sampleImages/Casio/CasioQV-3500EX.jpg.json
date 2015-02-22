@@ -53,7 +53,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/8",
 	"Software": "Ver1.001",
-	"ThumbnailImage": "(Binary data 4298 bytes)",
+	"ThumbnailImage": "(Binary data 4298 bytes, use -b option to extract)",
 	"ThumbnailLength": 4298,
 	"ThumbnailOffset": 1112,
 	"Warning": "Bad PrintIM size",

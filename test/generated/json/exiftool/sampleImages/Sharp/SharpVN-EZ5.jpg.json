@@ -26,7 +26,7 @@
 	"SceneType": "Directly photographed",
 	"SensingMethod": "One-chip color area",
 	"Software": "INTERNET VIEWCAM VN-EZ5",
-	"ThumbnailImage": "(Binary data 2623 bytes)",
+	"ThumbnailImage": "(Binary data 2623 bytes, use -b option to extract)",
 	"ThumbnailLength": 2623,
 	"ThumbnailOffset": 609,
 	"Warning": "[minor] Unrecognized MakerNotes",

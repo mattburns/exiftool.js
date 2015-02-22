@@ -48,7 +48,7 @@
 	"Sharpness": "Soft",
 	"ShutterSpeed": "1/220",
 	"Software": "V1.15",
-	"ThumbnailImage": "(Binary data 5455 bytes)",
+	"ThumbnailImage": "(Binary data 5455 bytes, use -b option to extract)",
 	"ThumbnailLength": 5455,
 	"ThumbnailOffset": 9882,
 	"Warning": "Bad Ricoh maker notes",

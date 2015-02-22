@@ -64,7 +64,7 @@
 	"ShutterSpeedValue": "1/128",
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePixA101 Ver2.00",
-	"ThumbnailImage": "(Binary data 11701 bytes)",
+	"ThumbnailImage": "(Binary data 11701 bytes, use -b option to extract)",
 	"ThumbnailLength": 11701,
 	"ThumbnailOffset": 1106,
 	"Version": "0130",

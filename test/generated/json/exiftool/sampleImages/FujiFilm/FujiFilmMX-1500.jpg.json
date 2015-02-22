@@ -51,7 +51,7 @@
 	"ShutterSpeed": "1/388",
 	"ShutterSpeedValue": "1/388",
 	"Software": "Digital Camera MX-1500 Ver1.00",
-	"ThumbnailImage": "(Binary data 5471 bytes)",
+	"ThumbnailImage": "(Binary data 5471 bytes, use -b option to extract)",
 	"ThumbnailLength": 5471,
 	"ThumbnailOffset": 886,
 	"XResolution": 72,

@@ -37,7 +37,7 @@
 	"ShutterSpeedValue": "1/512",
 	"Software": "JD4.1Z8 V1.00 2003/08/31",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 5228 bytes)",
+	"ThumbnailImage": "(Binary data 5228 bytes, use -b option to extract)",
 	"ThumbnailLength": 5228,
 	"ThumbnailOffset": 841,
 	"UserComment": "GAIN082083MAX000000000000SUM000000000000MIN000000000NOWY13361FLASH0000FLAY00000AFD0SV29ZOOM07000000000000000000000000000",

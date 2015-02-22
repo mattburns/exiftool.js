@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S20Pro Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8302 bytes)",
+	"ThumbnailImage": "(Binary data 8302 bytes, use -b option to extract)",
 	"ThumbnailLength": 8302,
 	"ThumbnailOffset": 1276,
 	"Version": "0130",

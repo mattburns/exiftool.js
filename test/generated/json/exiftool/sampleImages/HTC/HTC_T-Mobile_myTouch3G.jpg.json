@@ -51,7 +51,7 @@
 		"AndroidAuthority.com",
 		"MobileBurn MobileBurn.com"
 	],
-	"ThumbnailImage": "(Binary data 31734 bytes)",
+	"ThumbnailImage": "(Binary data 31734 bytes, use -b option to extract)",
 	"ThumbnailLength": 31734,
 	"ThumbnailOffset": 524,
 	"WhiteBalance": "Auto",

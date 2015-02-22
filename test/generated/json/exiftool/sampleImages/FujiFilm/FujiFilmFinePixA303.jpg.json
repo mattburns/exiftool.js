@@ -73,7 +73,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A303   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9891 bytes)",
+	"ThumbnailImage": "(Binary data 9891 bytes, use -b option to extract)",
 	"ThumbnailLength": 9891,
 	"ThumbnailOffset": 1252,
 	"Version": "0130",

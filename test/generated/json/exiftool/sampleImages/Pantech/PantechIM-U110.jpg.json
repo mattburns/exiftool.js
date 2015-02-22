@@ -20,7 +20,7 @@
 	"Model": "IM-U110",
 	"Orientation": "Unknown (0)",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 4279 bytes)",
+	"ThumbnailImage": "(Binary data 4279 bytes, use -b option to extract)",
 	"ThumbnailLength": 4279,
 	"ThumbnailOffset": 372,
 	"XResolution": 72,

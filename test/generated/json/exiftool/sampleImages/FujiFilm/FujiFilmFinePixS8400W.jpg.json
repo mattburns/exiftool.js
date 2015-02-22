@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S8400W Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2998 bytes)",
+	"ThumbnailImage": "(Binary data 2998 bytes, use -b option to extract)",
 	"ThumbnailLength": 2998,
 	"ThumbnailOffset": 27168,
 	"Version": "0130",

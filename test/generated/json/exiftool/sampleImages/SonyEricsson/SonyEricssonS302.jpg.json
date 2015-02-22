@@ -36,7 +36,7 @@
 	"ShutterSpeed": "1/535",
 	"Software": "EI,A14: 091008 1957",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 19548 bytes)",
+	"ThumbnailImage": "(Binary data 19548 bytes, use -b option to extract)",
 	"ThumbnailLength": 19548,
 	"ThumbnailOffset": 679,
 	"WhiteBalance": "Manual",

@@ -24,7 +24,7 @@
 	"Model": "HTC HD2",
 	"PreviewQuality": 85,
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 38832 bytes)",
+	"ThumbnailImage": "(Binary data 38832 bytes, use -b option to extract)",
 	"ThumbnailLength": 38832,
 	"ThumbnailOffset": 444,
 	"XResolution": 72,

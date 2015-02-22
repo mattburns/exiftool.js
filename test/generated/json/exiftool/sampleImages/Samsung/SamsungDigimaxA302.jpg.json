@@ -43,7 +43,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/30",
 	"Software": "M3011S-1016",
-	"ThumbnailImage": "(Binary data 4266 bytes)",
+	"ThumbnailImage": "(Binary data 4266 bytes, use -b option to extract)",
 	"ThumbnailLength": 4266,
 	"ThumbnailOffset": 1083,
 	"XResolution": 72,

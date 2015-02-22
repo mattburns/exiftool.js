@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix SL240 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2469 bytes)",
+	"ThumbnailImage": "(Binary data 2469 bytes, use -b option to extract)",
 	"ThumbnailLength": 2469,
 	"ThumbnailOffset": 27136,
 	"Version": "0130",

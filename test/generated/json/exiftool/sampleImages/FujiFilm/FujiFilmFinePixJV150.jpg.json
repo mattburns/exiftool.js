@@ -74,7 +74,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix JV150 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2543 bytes)",
+	"ThumbnailImage": "(Binary data 2543 bytes, use -b option to extract)",
 	"ThumbnailLength": 2543,
 	"ThumbnailOffset": 25686,
 	"Version": "0130",

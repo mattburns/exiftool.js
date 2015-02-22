@@ -66,7 +66,7 @@
 	"ShutterSpeedValue": "1/322",
 	"SlowSync": "Off",
 	"Software": "Digital Camera GE E1250 TW Ver1.04",
-	"ThumbnailImage": "(Binary data 8887 bytes)",
+	"ThumbnailImage": "(Binary data 8887 bytes, use -b option to extract)",
 	"ThumbnailLength": 8887,
 	"ThumbnailOffset": 1332,
 	"Version": "0130",

@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F470 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 6035 bytes)",
+	"ThumbnailImage": "(Binary data 6035 bytes, use -b option to extract)",
 	"ThumbnailLength": 6035,
 	"ThumbnailOffset": 4096,
 	"Version": "0130",

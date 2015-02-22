@@ -61,7 +61,7 @@
 	"ShutterSpeed": "1/32",
 	"Software": "1.03SGM",
 	"SpecialMode": "Normal, Sequence: 0, Panorama: (none)",
-	"ThumbnailImage": "(Binary data 4421 bytes)",
+	"ThumbnailImage": "(Binary data 4421 bytes, use -b option to extract)",
 	"ThumbnailLength": 4421,
 	"ThumbnailOffset": 11232,
 	"UserComment": "",

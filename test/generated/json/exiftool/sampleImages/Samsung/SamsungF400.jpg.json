@@ -31,7 +31,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "F400XEHG2",
-	"ThumbnailImage": "(Binary data 5412 bytes)",
+	"ThumbnailImage": "(Binary data 5412 bytes, use -b option to extract)",
 	"ThumbnailLength": 5412,
 	"ThumbnailOffset": 598,
 	"WhiteBalance": "Auto",

@@ -65,7 +65,7 @@
 	"ShutterSpeedValue": "1/1448",
 	"Storage-StreamPathname": "/\u0005Screen\u0004Nail_bd0100609719a180",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 5608 bytes)",
+	"ThumbnailImage": "(Binary data 5608 bytes, use -b option to extract)",
 	"ThumbnailLength": 5608,
 	"ThumbnailOffset": 5380,
 	"UsedExtensionNumbers": 1,

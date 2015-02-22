@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix E500    Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10290 bytes)",
+	"ThumbnailImage": "(Binary data 10290 bytes, use -b option to extract)",
 	"ThumbnailLength": 10290,
 	"ThumbnailOffset": 1306,
 	"Version": "0130",

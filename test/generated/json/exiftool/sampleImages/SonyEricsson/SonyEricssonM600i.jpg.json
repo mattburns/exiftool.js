@@ -16,7 +16,7 @@
 	"Model": "SONY ERICSSON M600i",
 	"ModifyDate": "2009:09:25 00:17:54",
 	"Orientation": "Horizontal (normal)",
-	"ThumbnailImage": "(Binary data 7224 bytes)",
+	"ThumbnailImage": "(Binary data 7224 bytes, use -b option to extract)",
 	"ThumbnailLength": 7224,
 	"ThumbnailOffset": 266,
 	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"

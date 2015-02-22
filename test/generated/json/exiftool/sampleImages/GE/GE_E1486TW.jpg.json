@@ -66,7 +66,7 @@
 	"ShutterSpeedValue": "1/32",
 	"SlowSync": "Off",
 	"Software": "Digital Camera GE E1486 TW Ver1.00",
-	"ThumbnailImage": "(Binary data 8455 bytes)",
+	"ThumbnailImage": "(Binary data 8455 bytes, use -b option to extract)",
 	"ThumbnailLength": 8455,
 	"ThumbnailOffset": 1356,
 	"Version": "0130",

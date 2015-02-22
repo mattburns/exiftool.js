@@ -33,7 +33,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/10",
 	"SubjectDistance": "1.176 m",
-	"ThumbnailImage": "(Binary data 6683 bytes)",
+	"ThumbnailImage": "(Binary data 6683 bytes, use -b option to extract)",
 	"ThumbnailLength": 6683,
 	"ThumbnailOffset": 1363,
 	"Warning": "[minor] Unrecognized MakerNotes",

@@ -86,7 +86,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera X100S Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8826 bytes)",
+	"ThumbnailImage": "(Binary data 8826 bytes, use -b option to extract)",
 	"ThumbnailLength": 8826,
 	"ThumbnailOffset": 1840,
 	"Version": "0130",

@@ -57,7 +57,7 @@
 	"SubSecTimeDigitized": 555,
 	"SubSecTimeOriginal": 555,
 	"SubjectArea": "1632 1223 1632 979",
-	"ThumbnailImage": "(Binary data 9068 bytes)",
+	"ThumbnailImage": "(Binary data 9068 bytes, use -b option to extract)",
 	"ThumbnailLength": 9068,
 	"ThumbnailOffset": 1656,
 	"WhiteBalance": "Auto",

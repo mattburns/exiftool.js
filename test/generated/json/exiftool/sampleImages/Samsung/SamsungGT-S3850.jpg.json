@@ -33,7 +33,7 @@
 	"SceneCaptureType": "Standard",
 	"ShutterSpeed": "1/93",
 	"Software": "S3850XEKC4",
-	"ThumbnailImage": "(Binary data 3601 bytes)",
+	"ThumbnailImage": "(Binary data 3601 bytes, use -b option to extract)",
 	"ThumbnailLength": 3601,
 	"ThumbnailOffset": 585,
 	"UserComment": "none\u0000",

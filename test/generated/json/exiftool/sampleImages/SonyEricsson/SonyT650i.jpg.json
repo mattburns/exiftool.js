@@ -39,7 +39,7 @@
 	"ShutterSpeed": "1/40",
 	"Software": "R8BB001     prg1200-2562_GENERIC_SN 0.0",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2549 bytes)",
+	"ThumbnailImage": "(Binary data 2549 bytes, use -b option to extract)",
 	"ThumbnailLength": 2549,
 	"ThumbnailOffset": 766,
 	"WhiteBalance": "Auto",

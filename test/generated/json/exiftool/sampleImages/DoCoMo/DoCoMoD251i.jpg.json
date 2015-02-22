@@ -19,7 +19,7 @@
 	"Make": "DoCoMo",
 	"Model": "D251i",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 4010 bytes)",
+	"ThumbnailImage": "(Binary data 4010 bytes, use -b option to extract)",
 	"ThumbnailLength": 4010,
 	"ThumbnailOffset": 420,
 	"XResolution": 72,

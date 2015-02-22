@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A120    Ver1.76",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9085 bytes)",
+	"ThumbnailImage": "(Binary data 9085 bytes, use -b option to extract)",
 	"ThumbnailLength": 9085,
 	"ThumbnailOffset": 1284,
 	"Version": "0130",

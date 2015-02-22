@@ -41,7 +41,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/108",
 	"Software": "DSC502 Ver1.12",
-	"ThumbnailImage": "(Binary data 8130 bytes)",
+	"ThumbnailImage": "(Binary data 8130 bytes, use -b option to extract)",
 	"ThumbnailLength": 8130,
 	"ThumbnailOffset": 1448,
 	"UserComment": "",

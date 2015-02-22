@@ -25,7 +25,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "BL40-MSM76XX-V10c-AUG-30-2009-XX",
-	"ThumbnailImage": "(Binary data 18929 bytes)",
+	"ThumbnailImage": "(Binary data 18929 bytes, use -b option to extract)",
 	"ThumbnailLength": 18929,
 	"ThumbnailOffset": 670,
 	"Warning": "Bad PrintIM size",

@@ -18,7 +18,7 @@
 	"Model": "PG-8000",
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 12735 bytes)",
+	"ThumbnailImage": "(Binary data 12735 bytes, use -b option to extract)",
 	"ThumbnailLength": 12735,
 	"ThumbnailOffset": 404,
 	"XResolution": 150,

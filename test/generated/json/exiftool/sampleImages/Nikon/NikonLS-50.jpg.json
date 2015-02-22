@@ -11,7 +11,7 @@
 	"ImageWidth": 8,
 	"JFIFVersion": 1.01,
 	"Make": "FS-Nikon",
-	"MakerNoteUnknownBinary": "(Binary data 66 bytes)",
+	"MakerNoteUnknownBinary": "(Binary data 66 bytes, use -b option to extract)",
 	"Model": "LS-50",
 	"ModifyDate": "2007:02:25 22:25:45",
 	"ResolutionUnit": "inches",

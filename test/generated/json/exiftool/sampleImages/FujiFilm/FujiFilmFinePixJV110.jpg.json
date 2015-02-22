@@ -65,7 +65,7 @@
 	"ShutterSpeedValue": "1/45",
 	"SlowSync": "Off",
 	"Software": "Nero PhotoSnap 1, 2, 0, 19",
-	"ThumbnailImage": "(Binary data 6589 bytes)",
+	"ThumbnailImage": "(Binary data 6589 bytes, use -b option to extract)",
 	"ThumbnailLength": 6589,
 	"ThumbnailOffset": 25612,
 	"Version": "0130",

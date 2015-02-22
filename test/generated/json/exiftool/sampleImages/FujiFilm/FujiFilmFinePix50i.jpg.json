@@ -65,7 +65,7 @@
 	"ShutterSpeedValue": "1/147",
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix50i Ver2.00",
-	"ThumbnailImage": "(Binary data 10011 bytes)",
+	"ThumbnailImage": "(Binary data 10011 bytes, use -b option to extract)",
 	"ThumbnailLength": 10011,
 	"ThumbnailOffset": 1122,
 	"Version": "0130",

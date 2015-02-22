@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/69",
 	"ShutterSpeedValue": "1/69",
 	"Software": "Digital Camera MX-600ZOOM Ver1.00",
-	"ThumbnailImage": "(Binary data 4989 bytes)",
+	"ThumbnailImage": "(Binary data 4989 bytes, use -b option to extract)",
 	"ThumbnailLength": 4989,
 	"ThumbnailOffset": 868,
 	"XResolution": 72,

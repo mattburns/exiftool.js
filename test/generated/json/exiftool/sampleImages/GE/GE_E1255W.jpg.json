@@ -79,7 +79,7 @@
 	"SlowSync": "Off",
 	"Software": "Version 1.02",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8348 bytes)",
+	"ThumbnailImage": "(Binary data 8348 bytes, use -b option to extract)",
 	"ThumbnailLength": 8348,
 	"ThumbnailOffset": 1968,
 	"Version": "0130",

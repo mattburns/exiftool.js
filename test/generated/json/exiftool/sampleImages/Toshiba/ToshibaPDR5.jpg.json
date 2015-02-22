@@ -24,7 +24,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"Software": "Digital Camera PDR-5  Ver1.00",
-	"ThumbnailImage": "(Binary data 5064 bytes)",
+	"ThumbnailImage": "(Binary data 5064 bytes, use -b option to extract)",
 	"ThumbnailLength": 5064,
 	"ThumbnailOffset": 592,
 	"Warning": "[minor] Unrecognized MakerNotes",

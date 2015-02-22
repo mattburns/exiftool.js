@@ -47,7 +47,7 @@
 	"MeteringMode": "Multi-segment",
 	"Model": "SAMSUNG IT100 / VLUU IT100 / SAMSUNG SL820",
 	"ModifyDate": "2009:01:02 14:28:34",
-	"PreviewImage": "(Binary data 76995 bytes)",
+	"PreviewImage": "(Binary data 76995 bytes, use -b option to extract)",
 	"PreviewImageLength": 76995,
 	"PreviewImageStart": 2296965,
 	"RelatedSoundFile": "RelatedSound",

@@ -10,7 +10,7 @@
 	"Make": "LG_Electronics",
 	"Model": "GM200",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 32476 bytes)",
+	"ThumbnailImage": "(Binary data 32476 bytes, use -b option to extract)",
 	"ThumbnailLength": 32476,
 	"ThumbnailOffset": 212,
 	"XResolution": 72,

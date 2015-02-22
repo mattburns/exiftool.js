@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "A767UCHI4",
-	"ThumbnailImage": "(Binary data 10469 bytes)",
+	"ThumbnailImage": "(Binary data 10469 bytes, use -b option to extract)",
 	"ThumbnailLength": 10469,
 	"ThumbnailOffset": 652,
 	"WhiteBalance": "Auto",

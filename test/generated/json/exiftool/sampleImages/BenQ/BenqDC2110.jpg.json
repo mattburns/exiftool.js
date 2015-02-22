@@ -28,7 +28,7 @@
 	"Model": "DC 2110",
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/22",
-	"ThumbnailImage": "(Binary data 8194 bytes)",
+	"ThumbnailImage": "(Binary data 8194 bytes, use -b option to extract)",
 	"ThumbnailLength": 8194,
 	"ThumbnailOffset": 1042,
 	"UserComment": "",

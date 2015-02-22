@@ -24,7 +24,7 @@
 	"ResolutionUnit": "inches",
 	"SceneCaptureType": "Night",
 	"Software": "V 06.75",
-	"ThumbnailImage": "(Binary data 3634 bytes)",
+	"ThumbnailImage": "(Binary data 3634 bytes, use -b option to extract)",
 	"ThumbnailLength": 3634,
 	"ThumbnailOffset": 476,
 	"WhiteBalance": "Auto",

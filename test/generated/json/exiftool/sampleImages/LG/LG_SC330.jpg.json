@@ -28,7 +28,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": 0,
 	"Software": "M6100C-SC330-6750",
-	"ThumbnailImage": "(Binary data 11332 bytes)",
+	"ThumbnailImage": "(Binary data 11332 bytes, use -b option to extract)",
 	"ThumbnailLength": 11332,
 	"ThumbnailOffset": 670,
 	"WhiteBalance": "Auto",

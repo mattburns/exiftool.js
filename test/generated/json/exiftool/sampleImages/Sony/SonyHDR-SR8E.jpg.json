@@ -43,7 +43,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/50",
 	"Software": "Picture Motion Browser",
-	"ThumbnailImage": "(Binary data 5220 bytes)",
+	"ThumbnailImage": "(Binary data 5220 bytes, use -b option to extract)",
 	"ThumbnailLength": 5220,
 	"ThumbnailOffset": 864,
 	"WhiteBalance": "Auto",

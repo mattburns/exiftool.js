@@ -40,7 +40,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/50",
 	"Software": "Mits Camera",
-	"ThumbnailImage": "(Binary data 10479 bytes)",
+	"ThumbnailImage": "(Binary data 10479 bytes, use -b option to extract)",
 	"ThumbnailLength": 10479,
 	"ThumbnailOffset": 629,
 	"UserComment": "ASCI\u0000\u0000\u0000\u0000",

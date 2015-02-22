@@ -27,7 +27,7 @@
 	"ImageWidth": 8,
 	"LightValue": 12.5,
 	"Make": "KYOCERA",
-	"MakerNoteUnknownText": "(Binary data 256 bytes)",
+	"MakerNoteUnknownText": "(Binary data 256 bytes, use -b option to extract)",
 	"MaxApertureValue": 2.8,
 	"Model": "CONTAX N DIGITAL",
 	"ModifyDate": "2002:05:18 14:15:44",

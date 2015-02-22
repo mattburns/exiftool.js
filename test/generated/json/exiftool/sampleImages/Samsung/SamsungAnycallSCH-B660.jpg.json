@@ -35,7 +35,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "AL12",
-	"ThumbnailImage": "(Binary data 15563 bytes)",
+	"ThumbnailImage": "(Binary data 15563 bytes, use -b option to extract)",
 	"ThumbnailLength": 15563,
 	"ThumbnailOffset": 800,
 	"WhiteBalance": "Manual",

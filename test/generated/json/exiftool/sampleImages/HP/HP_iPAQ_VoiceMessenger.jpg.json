@@ -1186,7 +1186,7 @@
 	"TL84ConvLumaV0": 0.29899999499321,
 	"TL84ConvLumaV1": 0.587000012397766,
 	"TL84ConvLumaV2": 0.114000000059605,
-	"ThumbnailImage": "(Binary data 20651 bytes)",
+	"ThumbnailImage": "(Binary data 20651 bytes, use -b option to extract)",
 	"ThumbnailLength": 20651,
 	"ThumbnailOffset": 650,
 	"VideoFps": 30,

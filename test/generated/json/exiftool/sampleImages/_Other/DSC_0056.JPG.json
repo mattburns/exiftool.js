@@ -65,7 +65,7 @@
 	"SubSecTimeDigitized": "00",
 	"SubSecTimeOriginal": "00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 5858 bytes)",
+	"ThumbnailImage": "(Binary data 5858 bytes, use -b option to extract)",
 	"ThumbnailLength": 5858,
 	"ThumbnailOffset": 1032,
 	"UserComment": "",

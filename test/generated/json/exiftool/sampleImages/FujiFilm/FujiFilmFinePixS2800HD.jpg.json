@@ -79,7 +79,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S2800HD Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2421 bytes)",
+	"ThumbnailImage": "(Binary data 2421 bytes, use -b option to extract)",
 	"ThumbnailLength": 2421,
 	"ThumbnailOffset": 27144,
 	"Version": "0130",

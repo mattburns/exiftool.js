@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/30",
 	"ShutterSpeedValue": "1/30",
 	"Software": "Digital Camera CLIP-IT50 Ver1.00",
-	"ThumbnailImage": "(Binary data 10920 bytes)",
+	"ThumbnailImage": "(Binary data 10920 bytes, use -b option to extract)",
 	"ThumbnailLength": 10920,
 	"ThumbnailOffset": 868,
 	"XResolution": 72,

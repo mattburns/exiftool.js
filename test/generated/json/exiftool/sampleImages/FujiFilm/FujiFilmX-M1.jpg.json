@@ -93,7 +93,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera X-M1 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9284 bytes)",
+	"ThumbnailImage": "(Binary data 9284 bytes, use -b option to extract)",
 	"ThumbnailLength": 9284,
 	"ThumbnailOffset": 2128,
 	"Version": "0130",

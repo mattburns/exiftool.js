@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S2980 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2685 bytes)",
+	"ThumbnailImage": "(Binary data 2685 bytes, use -b option to extract)",
 	"ThumbnailLength": 2685,
 	"ThumbnailOffset": 1586,
 	"Version": "0130",

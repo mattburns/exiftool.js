@@ -32,7 +32,7 @@
 	"PrintIMVersion": "0300",
 	"ResolutionUnit": "inches",
 	"Software": "T469UVIG4",
-	"ThumbnailImage": "(Binary data 7852 bytes)",
+	"ThumbnailImage": "(Binary data 7852 bytes, use -b option to extract)",
 	"ThumbnailLength": 7852,
 	"ThumbnailOffset": 754,
 	"Warning": "[minor] Unrecognized MakerNotes",

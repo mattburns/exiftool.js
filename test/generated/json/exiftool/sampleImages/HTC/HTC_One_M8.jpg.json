@@ -51,7 +51,7 @@
 	"ShutterSpeedValue": "1/1015",
 	"SubSecDateTimeOriginal": "2014:03:25 16:29:39.632",
 	"SubSecTimeOriginal": 632,
-	"ThumbnailImage": "(Binary data 31457 bytes)",
+	"ThumbnailImage": "(Binary data 31457 bytes, use -b option to extract)",
 	"ThumbnailLength": 31457,
 	"ThumbnailOffset": 4802,
 	"Warning": "[minor] Unrecognized MakerNotes",

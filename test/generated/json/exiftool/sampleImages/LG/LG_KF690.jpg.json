@@ -29,7 +29,7 @@
 	"ShutterSpeed": "1/1024",
 	"ShutterSpeedValue": "1/1024",
 	"Software": "LGE_SW",
-	"ThumbnailImage": "(Binary data 20298 bytes)",
+	"ThumbnailImage": "(Binary data 20298 bytes, use -b option to extract)",
 	"ThumbnailLength": 20298,
 	"ThumbnailOffset": 458,
 	"XResolution": 72,

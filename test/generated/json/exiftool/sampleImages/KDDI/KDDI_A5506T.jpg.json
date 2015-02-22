@@ -31,7 +31,7 @@
 	"ResolutionUnit": "inches",
 	"Saturation": "Normal",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 13616 bytes)",
+	"ThumbnailImage": "(Binary data 13616 bytes, use -b option to extract)",
 	"ThumbnailLength": 13616,
 	"ThumbnailOffset": 596,
 	"WhiteBalance": "Auto",

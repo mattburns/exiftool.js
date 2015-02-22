@@ -59,7 +59,7 @@
 	"ShutterSpeed": "1/17",
 	"ShutterSpeedValue": "1/17",
 	"Software": "Windows Phone 7.5",
-	"ThumbnailImage": "(Binary data 8836 bytes)",
+	"ThumbnailImage": "(Binary data 8836 bytes, use -b option to extract)",
 	"ThumbnailLength": 8836,
 	"ThumbnailOffset": 1259,
 	"Warning": "[minor] Unrecognized MakerNotes",

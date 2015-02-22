@@ -38,7 +38,7 @@
 	"SceneCaptureType": "Standard",
 	"ShutterSpeed": "1/33",
 	"ShutterSpeedValue": "1/33",
-	"ThumbnailImage": "(Binary data 2519 bytes)",
+	"ThumbnailImage": "(Binary data 2519 bytes, use -b option to extract)",
 	"ThumbnailLength": 2519,
 	"ThumbnailOffset": 2160,
 	"UserComment": "Edited with Nokia Image Editor 2.7.4",

@@ -1,11 +1,12 @@
 (function() {
     //"use strict";
 
-    var walk = require('walk'), fs = require('node-fs');
+    var walk = require('walk');
+    var fs = require('node-fs');
     var sys = require('sys')
     var exec = require('child_process').exec;
     
-    var exiftoolJS = require('../src/exiftool.js');
+    var exiftoolJS = require('../exiftool.js');
     var Gomfunkel = require('exif').ExifImage;    
     var Redaktor = require('exifr').ExifImage;    
     
@@ -46,7 +47,9 @@
      */
     var saveJson = function(json, imgFile, program) {
         var pathString = json.img;
-        var jsonFile = 'generated/json/' + program + '/' + imgFile + '.json';
+        var trimmedImageName = imgFile.substring(imgFile.indexOf('sampleImages'));
+
+        var jsonFile = 'test/generated/json/' + program + '/' + trimmedImageName + '.json';
         var parentDir = jsonFile.substring(0, jsonFile.lastIndexOf("/"));
         fs.mkdirSync(parentDir, 0777, true);
         fs.writeFileSync(jsonFile, JSON.stringify(json, null, '\t'));
@@ -56,7 +59,7 @@
      * Extract the exif from the given file using thegiven program. Pass to the callback object.
      */
     var extractExif = function(imgFile, program, callback) {
-        var pathString = 'generated/json/' + program + '/' + imgFile + '.json';
+        var pathString = 'test/generated/json/' + program + '/' + imgFile + '.json';
 
         switch(program) {
             case 'exiftool' : {
@@ -79,7 +82,8 @@
     };
 
     var extractExifUsingExiftool = function(imgFile, callback) {
-        fs.readFile('generated/json/exiftool/' + imgFile + '.json', 'utf8', function(err, data) {
+    	var trimmedImageName = imgFile.substring(imgFile.indexOf('sampleImages'));
+        fs.readFile('test/generated/json/exiftool/' + trimmedImageName + '.json', 'utf8', function(err, data) {
             try {
                 // First, try to load json from file
                 var exifFromExiftool = JSON.parse(data);
@@ -99,7 +103,7 @@
                         exifFromPerl = JSON.parse(exifFromPerl);
                         delete exifFromPerl["SourceFile"];
                         exifFromPerl = sortObject(exifFromPerl);
-                        callback(exifFromPerl);
+                        callback(error, exifFromPerl);
                     }
                 });
             }
@@ -139,7 +143,7 @@
                     }
                 };
             }
-            callback(exif);
+            callback(error, exif);
         };
     };
 
@@ -197,13 +201,14 @@
         html += "</tbody></table>";
         
 
-        fs.readFile('report/template.html', 'utf8', function(err, data) {
+        fs.readFile('test/report/template.html', 'utf8', function(err, data) {
             if (err) {
                 return console.log(err);
             }
             var result = data.replace(/htmlbody/g, html).replace(/cssparent/g, "../../../../report");
 
-            var reportFile = 'generated/reports/' + image + '.html';
+            var trimmedImageName = image.substring(image.indexOf('sampleImages'));
+            var reportFile = 'test/generated/reports/' + trimmedImageName + '.html';
             var parentDir = reportFile.substring(0, reportFile.lastIndexOf("/"));
             if (!fs.existsSync(parentDir)) {
                 fs.mkdirSync(parentDir, 0777, true);
@@ -281,13 +286,13 @@
         html += "</tr>\n";
         html += "</table>";
 
-        fs.readFile('report/template.html', 'utf8', function(err, data) {
+        fs.readFile('test/report/template.html', 'utf8', function(err, data) {
             if (err) {
                 return console.log(err);
             }
             var result = data.replace(/htmlbody/g, html).replace(/cssparent/g, "../../report");
 
-            var pDir = 'generated/reports/';
+            var pDir = 'test/generated/reports/';
             var reportFile = pDir + 'index.html';
             
             fs.writeFile(reportFile, result, 'utf8', function(err) {
@@ -305,7 +310,7 @@
             followLinks : false
         };
 
-        var walker = walk.walk("sampleImages", options);
+        var walker = walk.walk("node_modules/exiftool.js-dev-dependencies/sampleImages", options);
 
         walker.on("names", function(root, nodeNamesArray) {
             nodeNamesArray.sort(function(a, b) {
@@ -345,10 +350,10 @@
 
                     for (var i = 0 ; i < programs.length ; i++) {
                         extractExif(imgFile, programs[i], (function(image, program) {
-                            return function(ef) {
-                                if (ef) {
-                                    saveJson(ef, image, program);
-                                    allExif[program] = ef;
+                            return function(err, oExif) {
+                            	if (oExif) {
+                                    saveJson(oExif, image, program);
+                                    allExif[program] = oExif;
                                 } else {
                                     allExif[program] = {};
                                 }
@@ -373,8 +378,8 @@
      * Start everything!
      */
     if (process.argv.length > 2 && process.argv[2] === 'clean') {
-        var child = exec('rm -rf generated', function(err,out) {
-            console.log("generated output dir cleaned.");
+        var child = exec('rm -rf test/generated', function(err, out) {
+        	console.log("generated output dir cleaned.");
             start();
         });
     } else {

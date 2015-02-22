@@ -51,7 +51,7 @@
 	"ShutterSpeed": "1/91",
 	"ShutterSpeedValue": "1/91",
 	"Software": "Digital Camera digilux zoom Ver1.00",
-	"ThumbnailImage": "(Binary data 6276 bytes)",
+	"ThumbnailImage": "(Binary data 6276 bytes, use -b option to extract)",
 	"ThumbnailLength": 6276,
 	"ThumbnailOffset": 886,
 	"XResolution": 72,

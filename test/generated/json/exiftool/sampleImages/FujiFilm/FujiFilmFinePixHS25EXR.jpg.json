@@ -84,7 +84,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix HS25EXR Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8848 bytes)",
+	"ThumbnailImage": "(Binary data 8848 bytes, use -b option to extract)",
 	"ThumbnailLength": 8848,
 	"ThumbnailOffset": 1846,
 	"Version": "0130",

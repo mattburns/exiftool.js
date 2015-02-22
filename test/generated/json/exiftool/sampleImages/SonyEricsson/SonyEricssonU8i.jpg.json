@@ -42,7 +42,7 @@
 	"ShutterSpeedValue": "1/4",
 	"Software": "1232-0380_R2CA024\n13-04-10\n\n(c) SonyEricsson",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 7531 bytes)",
+	"ThumbnailImage": "(Binary data 7531 bytes, use -b option to extract)",
 	"ThumbnailLength": 7531,
 	"ThumbnailOffset": 760,
 	"WhiteBalance": "Auto",

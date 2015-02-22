@@ -58,7 +58,7 @@
 	"ShutterSpeed": "1/626",
 	"ShutterSpeedValue": "1/626",
 	"Software": "LG Electronics",
-	"ThumbnailImage": "(Binary data 29046 bytes)",
+	"ThumbnailImage": "(Binary data 29046 bytes, use -b option to extract)",
 	"ThumbnailLength": 29046,
 	"ThumbnailOffset": 1208,
 	"Warning": "[minor] Unrecognized MakerNotes",

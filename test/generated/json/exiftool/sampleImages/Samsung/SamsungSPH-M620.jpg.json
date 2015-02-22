@@ -28,7 +28,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/21",
 	"Software": "ES.M620",
-	"ThumbnailImage": "(Binary data 14464 bytes)",
+	"ThumbnailImage": "(Binary data 14464 bytes, use -b option to extract)",
 	"ThumbnailLength": 14464,
 	"ThumbnailOffset": 548,
 	"WhiteBalance": "Auto",

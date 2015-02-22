@@ -42,7 +42,7 @@
 	"ScaleFactor35efl": 6.8,
 	"ShutterSpeed": "1/64",
 	"SubjectDistance": "0.24 m",
-	"ThumbnailImage": "(Binary data 3335 bytes)",
+	"ThumbnailImage": "(Binary data 3335 bytes, use -b option to extract)",
 	"ThumbnailLength": 3335,
 	"ThumbnailOffset": 874,
 	"Warning": "[minor] Unrecognized MakerNotes",

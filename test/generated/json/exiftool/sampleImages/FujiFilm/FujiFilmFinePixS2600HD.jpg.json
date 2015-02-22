@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S2600HD Ver1.02",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4336 bytes)",
+	"ThumbnailImage": "(Binary data 4336 bytes, use -b option to extract)",
 	"ThumbnailLength": 4336,
 	"ThumbnailOffset": 27040,
 	"Version": "0130",

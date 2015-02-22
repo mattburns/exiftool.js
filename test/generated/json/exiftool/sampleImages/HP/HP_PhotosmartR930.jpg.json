@@ -11,7 +11,7 @@
 	"Copyright": "",
 	"CreateDate": "2010:11:13 10:27:55",
 	"DateTimeOriginal": "2010:11:13 10:27:55",
-	"DeviceSettingDescription": "(Binary data 1236 bytes)",
+	"DeviceSettingDescription": "(Binary data 1236 bytes, use -b option to extract)",
 	"EncodingProcess": "Baseline DCT, Huffman coding",
 	"ExifByteOrder": "Little-endian (Intel, II)",
 	"ExifImageHeight": 2448,

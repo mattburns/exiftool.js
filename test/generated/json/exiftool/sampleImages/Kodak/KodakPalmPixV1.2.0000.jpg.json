@@ -19,7 +19,7 @@
 	"Make": "EASTMAN KODAK COMPANY",
 	"Model": "KODAK PalmPix CAMERA V1.2.0000",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 6663 bytes)",
+	"ThumbnailImage": "(Binary data 6663 bytes, use -b option to extract)",
 	"ThumbnailLength": 6663,
 	"ThumbnailOffset": 532,
 	"XResolution": 72,

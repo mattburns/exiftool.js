@@ -29,7 +29,7 @@
 	"MeteringMode": "Average",
 	"Model": "Lumia 1520",
 	"Orientation": "Horizontal (normal)",
-	"Padding": "(Binary data 2060 bytes)",
+	"Padding": "(Binary data 2060 bytes, use -b option to extract)",
 	"ResolutionUnit": "inches",
 	"SceneCaptureType": "Standard",
 	"ShutterSpeed": "1/12",

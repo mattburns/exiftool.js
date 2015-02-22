@@ -20,7 +20,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-HS303E",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 9746 bytes)",
+	"ThumbnailImage": "(Binary data 9746 bytes, use -b option to extract)",
 	"ThumbnailLength": 9746,
 	"ThumbnailOffset": 422,
 	"XResolution": 72,

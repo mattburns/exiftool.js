@@ -28,7 +28,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/21",
 	"Software": "PX83PC03",
-	"ThumbnailImage": "(Binary data 3904 bytes)",
+	"ThumbnailImage": "(Binary data 3904 bytes, use -b option to extract)",
 	"ThumbnailLength": 3904,
 	"ThumbnailOffset": 672,
 	"WhiteBalance": "Auto",

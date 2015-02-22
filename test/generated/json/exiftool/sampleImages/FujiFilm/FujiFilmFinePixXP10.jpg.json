@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix XP10 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3694 bytes)",
+	"ThumbnailImage": "(Binary data 3694 bytes, use -b option to extract)",
 	"ThumbnailLength": 3694,
 	"ThumbnailOffset": 2550,
 	"Version": "0130",

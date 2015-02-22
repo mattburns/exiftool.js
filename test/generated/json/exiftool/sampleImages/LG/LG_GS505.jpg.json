@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "GS505-MSM260140T-V10j-MAY-22-2010-TMO-US",
-	"ThumbnailImage": "(Binary data 20397 bytes)",
+	"ThumbnailImage": "(Binary data 20397 bytes, use -b option to extract)",
 	"ThumbnailLength": 20397,
 	"ThumbnailOffset": 664,
 	"WhiteBalance": "Auto",

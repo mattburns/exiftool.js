@@ -52,7 +52,7 @@
 	"Sharpness": "Soft",
 	"ShutterSpeed": "1/2952",
 	"Software": "Ver:1.2.10",
-	"ThumbnailImage": "(Binary data 5804 bytes)",
+	"ThumbnailImage": "(Binary data 5804 bytes, use -b option to extract)",
 	"ThumbnailLength": 5804,
 	"ThumbnailOffset": 1016,
 	"Warning": "Bad MakerNotes offset for tag 0x0080",

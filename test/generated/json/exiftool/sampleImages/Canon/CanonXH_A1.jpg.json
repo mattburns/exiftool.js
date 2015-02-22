@@ -29,7 +29,7 @@
 	"RelatedImageHeight": 1080,
 	"RelatedImageWidth": 1920,
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 11271 bytes)",
+	"ThumbnailImage": "(Binary data 11271 bytes, use -b option to extract)",
 	"ThumbnailImageValidArea": "0 159 15 104",
 	"ThumbnailLength": 11271,
 	"ThumbnailOffset": 1234,

@@ -46,7 +46,7 @@
 	"SceneCaptureType": "Landscape",
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/50",
-	"ThumbnailImage": "(Binary data 3072 bytes)",
+	"ThumbnailImage": "(Binary data 3072 bytes, use -b option to extract)",
 	"ThumbnailLength": 3072,
 	"ThumbnailOffset": 1536,
 	"UserComment": "0.0.52C,(Z7,206),FP=139,FC=110,ZP=667,S=0.020000,I=0,G=1.2000,TY=210,Flash=135,t.s=-1,st=121",

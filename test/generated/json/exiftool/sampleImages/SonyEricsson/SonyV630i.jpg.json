@@ -39,7 +39,7 @@
 	"ShutterSpeed": "1/4",
 	"Software": "R1CE001     prgCXC1250556_VODAFONE_ 0.0",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4548 bytes)",
+	"ThumbnailImage": "(Binary data 4548 bytes, use -b option to extract)",
 	"ThumbnailLength": 4548,
 	"ThumbnailOffset": 766,
 	"WhiteBalance": "Auto",

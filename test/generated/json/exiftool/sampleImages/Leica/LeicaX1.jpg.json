@@ -51,7 +51,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": 2,
 	"Software": "0.73b",
-	"ThumbnailImage": "(Binary data 8759 bytes)",
+	"ThumbnailImage": "(Binary data 8759 bytes, use -b option to extract)",
 	"ThumbnailLength": 8759,
 	"ThumbnailOffset": 9472,
 	"WB_RGBLevels": "0.5182186235 1 0.7231638418",

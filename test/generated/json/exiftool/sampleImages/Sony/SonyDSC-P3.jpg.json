@@ -39,7 +39,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/80",
-	"ThumbnailImage": "(Binary data 3919 bytes)",
+	"ThumbnailImage": "(Binary data 3919 bytes, use -b option to extract)",
 	"ThumbnailLength": 3919,
 	"ThumbnailOffset": 808,
 	"Warning": "[minor] Adjusted MakerNotes base by -24",

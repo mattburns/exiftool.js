@@ -20,7 +20,7 @@
 	"Make": "HUAWEI",
 	"Model": "pulse",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 4797 bytes)",
+	"ThumbnailImage": "(Binary data 4797 bytes, use -b option to extract)",
 	"ThumbnailLength": 4797,
 	"ThumbnailOffset": 436,
 	"XResolution": 72,

@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix JZ510 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9402 bytes)",
+	"ThumbnailImage": "(Binary data 9402 bytes, use -b option to extract)",
 	"ThumbnailLength": 9402,
 	"ThumbnailOffset": 1512,
 	"Version": "0130",

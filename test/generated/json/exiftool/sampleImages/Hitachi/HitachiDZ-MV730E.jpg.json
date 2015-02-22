@@ -20,7 +20,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-MV730E",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 9485 bytes)",
+	"ThumbnailImage": "(Binary data 9485 bytes, use -b option to extract)",
 	"ThumbnailLength": 9485,
 	"ThumbnailOffset": 422,
 	"XResolution": 72,

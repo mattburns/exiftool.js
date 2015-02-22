@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A800    Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10384 bytes)",
+	"ThumbnailImage": "(Binary data 10384 bytes, use -b option to extract)",
 	"ThumbnailLength": 10384,
 	"ThumbnailOffset": 1362,
 	"Version": "0130",

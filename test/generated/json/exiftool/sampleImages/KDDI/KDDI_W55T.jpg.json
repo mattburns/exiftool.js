@@ -32,7 +32,7 @@
 	"ResolutionUnit": "Unknown (72)",
 	"Saturation": "Normal",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 5728 bytes)",
+	"ThumbnailImage": "(Binary data 5728 bytes, use -b option to extract)",
 	"ThumbnailLength": 5728,
 	"ThumbnailOffset": 712,
 	"WhiteBalance": "Auto",

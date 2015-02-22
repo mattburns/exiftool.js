@@ -71,7 +71,7 @@
 	"ShutterSpeed": "1/23",
 	"ShutterSpeedValue": "1/23",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4583 bytes)",
+	"ThumbnailImage": "(Binary data 4583 bytes, use -b option to extract)",
 	"ThumbnailLength": 4583,
 	"ThumbnailOffset": 2720,
 	"TimeCreated": "22:19:56.11",

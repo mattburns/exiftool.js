@@ -24,7 +24,7 @@
 	"RelatedImageHeight": 750,
 	"RelatedImageWidth": 1000,
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 9375 bytes)",
+	"ThumbnailImage": "(Binary data 9375 bytes, use -b option to extract)",
 	"ThumbnailLength": 9375,
 	"ThumbnailOffset": 1080,
 	"UserComment": "",

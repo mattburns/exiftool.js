@@ -39,7 +39,7 @@
 	"RicohImageHeight": 480,
 	"RicohImageWidth": 640,
 	"Sharpness": "Sharp",
-	"ThumbnailImage": "(Binary data 5662 bytes)",
+	"ThumbnailImage": "(Binary data 5662 bytes, use -b option to extract)",
 	"ThumbnailLength": 5662,
 	"ThumbnailOffset": 1663,
 	"UserComment": "Unicode\u0000",

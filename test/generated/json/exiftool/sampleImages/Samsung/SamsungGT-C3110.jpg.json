@@ -18,7 +18,7 @@
 	"Model": "GT-C3110",
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/120",
-	"ThumbnailImage": "(Binary data 3540 bytes)",
+	"ThumbnailImage": "(Binary data 3540 bytes, use -b option to extract)",
 	"ThumbnailLength": 3540,
 	"ThumbnailOffset": 348,
 	"XResolution": 72,

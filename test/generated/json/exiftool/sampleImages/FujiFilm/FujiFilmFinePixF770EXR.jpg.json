@@ -82,7 +82,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F770EXR Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8987 bytes)",
+	"ThumbnailImage": "(Binary data 8987 bytes, use -b option to extract)",
 	"ThumbnailLength": 8987,
 	"ThumbnailOffset": 4242,
 	"Version": "0130",

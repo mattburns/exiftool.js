@@ -62,7 +62,7 @@
 	"ShutterSpeedValue": "1/274",
 	"SlowSync": "On",
 	"Software": "Digital Camera FinePix4900ZOOM Ver1.00",
-	"ThumbnailImage": "(Binary data 9955 bytes)",
+	"ThumbnailImage": "(Binary data 9955 bytes, use -b option to extract)",
 	"ThumbnailLength": 9955,
 	"ThumbnailOffset": 1096,
 	"Version": "0130",

@@ -28,7 +28,7 @@
 	"Model": "Digimax 200",
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/175",
-	"ThumbnailImage": "(Binary data 10242 bytes)",
+	"ThumbnailImage": "(Binary data 10242 bytes, use -b option to extract)",
 	"ThumbnailLength": 10242,
 	"ThumbnailOffset": 1042,
 	"UserComment": "",

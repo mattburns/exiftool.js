@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix J27 J28 J29 Ver0.69",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2360 bytes)",
+	"ThumbnailImage": "(Binary data 2360 bytes, use -b option to extract)",
 	"ThumbnailLength": 2360,
 	"ThumbnailOffset": 17200,
 	"Version": "0130",

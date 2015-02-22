@@ -40,7 +40,7 @@
 	"SceneCaptureType": "Portrait",
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/25",
-	"ThumbnailImage": "(Binary data 5665 bytes)",
+	"ThumbnailImage": "(Binary data 5665 bytes, use -b option to extract)",
 	"ThumbnailLength": 5665,
 	"ThumbnailOffset": 809,
 	"WhiteBalance": "Auto",

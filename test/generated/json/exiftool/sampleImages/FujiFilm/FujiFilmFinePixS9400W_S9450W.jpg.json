@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S9400W S9450W Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2989 bytes)",
+	"ThumbnailImage": "(Binary data 2989 bytes, use -b option to extract)",
 	"ThumbnailLength": 2989,
 	"ThumbnailOffset": 27184,
 	"Version": "0130",

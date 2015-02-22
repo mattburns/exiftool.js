@@ -64,7 +64,7 @@
 	"ShutterSpeedValue": "1/630",
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix4800 ZOOM Ver2.00",
-	"ThumbnailImage": "(Binary data 8161 bytes)",
+	"ThumbnailImage": "(Binary data 8161 bytes, use -b option to extract)",
 	"ThumbnailLength": 8161,
 	"ThumbnailOffset": 1116,
 	"Version": "0130",

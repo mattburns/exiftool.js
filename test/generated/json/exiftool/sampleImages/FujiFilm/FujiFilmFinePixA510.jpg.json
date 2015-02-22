@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A510    Ver1.02",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9381 bytes)",
+	"ThumbnailImage": "(Binary data 9381 bytes, use -b option to extract)",
 	"ThumbnailLength": 9381,
 	"ThumbnailOffset": 1372,
 	"Version": "0130",

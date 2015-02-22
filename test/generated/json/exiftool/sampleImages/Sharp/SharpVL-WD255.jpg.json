@@ -28,7 +28,7 @@
 	"SceneType": "Directly photographed",
 	"SensingMethod": "One-chip color area",
 	"Software": "Digital Camera VL-WD255 Ver1.00",
-	"ThumbnailImage": "(Binary data 1940 bytes)",
+	"ThumbnailImage": "(Binary data 1940 bytes, use -b option to extract)",
 	"ThumbnailLength": 1940,
 	"ThumbnailOffset": 592,
 	"XResolution": 72,

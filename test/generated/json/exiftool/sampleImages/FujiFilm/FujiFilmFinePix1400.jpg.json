@@ -62,7 +62,7 @@
 	"ShutterSpeedValue": "1/128",
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix1400Zoom Ver1.00",
-	"ThumbnailImage": "(Binary data 5370 bytes)",
+	"ThumbnailImage": "(Binary data 5370 bytes, use -b option to extract)",
 	"ThumbnailLength": 5370,
 	"ThumbnailOffset": 1112,
 	"Version": "0130",

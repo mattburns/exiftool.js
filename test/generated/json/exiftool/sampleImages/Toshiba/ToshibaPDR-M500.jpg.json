@@ -54,7 +54,7 @@
 	"ShutterSpeed": "1/19",
 	"ShutterSpeedValue": "1/18",
 	"Software": "DSC PDR-M500 Ver1.01",
-	"ThumbnailImage": "(Binary data 6653 bytes)",
+	"ThumbnailImage": "(Binary data 6653 bytes, use -b option to extract)",
 	"ThumbnailLength": 6653,
 	"ThumbnailOffset": 980,
 	"Warning": "[minor] Unrecognized MakerNotes",

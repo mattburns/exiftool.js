@@ -8,7 +8,7 @@
 	"ImageSize": "8x8",
 	"ImageWidth": 8,
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 5704 bytes)",
+	"ThumbnailImage": "(Binary data 5704 bytes, use -b option to extract)",
 	"ThumbnailLength": 5704,
 	"ThumbnailOffset": 93,
 	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"

@@ -74,7 +74,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S3000  Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9051 bytes)",
+	"ThumbnailImage": "(Binary data 9051 bytes, use -b option to extract)",
 	"ThumbnailLength": 9051,
 	"ThumbnailOffset": 1264,
 	"Version": "0130",

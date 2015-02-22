@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "U900XEHC6",
-	"ThumbnailImage": "(Binary data 58506 bytes)",
+	"ThumbnailImage": "(Binary data 58506 bytes, use -b option to extract)",
 	"ThumbnailLength": 58506,
 	"ThumbnailOffset": 652,
 	"WhiteBalance": "Auto",

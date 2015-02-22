@@ -38,7 +38,7 @@
 	"ShutterSpeedValue": "1/32",
 	"Software": "MI410   V1.14 2004/11/08",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 7788 bytes)",
+	"ThumbnailImage": "(Binary data 7788 bytes, use -b option to extract)",
 	"ThumbnailLength": 7788,
 	"ThumbnailOffset": 859,
 	"UserComment": "GAIN099064MAX000000000000SUM000000000000MIN000000000NOWY09777FLASH0000FLAY00000AFD0SV17ZOOM00000000000000000000000000000",

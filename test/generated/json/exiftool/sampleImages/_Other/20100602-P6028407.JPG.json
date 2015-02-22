@@ -178,7 +178,7 @@
 	"SpecialMode": "Normal, Sequence: 0, Panorama: (none)",
 	"State": "Lombardia",
 	"Sub-location": "Reno",
-	"ThumbnailImage": "(Binary data 6359 bytes)",
+	"ThumbnailImage": "(Binary data 6359 bytes, use -b option to extract)",
 	"ThumbnailLength": 6359,
 	"ThumbnailOffset": 7312,
 	"UserComment": "",

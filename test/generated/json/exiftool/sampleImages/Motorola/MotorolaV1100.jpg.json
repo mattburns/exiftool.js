@@ -24,7 +24,7 @@
 	"Model": "V1100",
 	"ModifyDate": "2009:04:07 11:53:23",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 2373 bytes)",
+	"ThumbnailImage": "(Binary data 2373 bytes, use -b option to extract)",
 	"ThumbnailLength": 2373,
 	"ThumbnailOffset": 599,
 	"XResolution": 72,

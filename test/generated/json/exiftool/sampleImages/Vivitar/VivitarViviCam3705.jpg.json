@@ -44,7 +44,7 @@
 	"ShutterSpeed": "1/30",
 	"Software": "Jasc",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 4435 bytes)",
+	"ThumbnailImage": "(Binary data 4435 bytes, use -b option to extract)",
 	"ThumbnailLength": 4435,
 	"ThumbnailOffset": 1084,
 	"UserComment": "",

@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/100",
 	"ShutterSpeedValue": "1/100",
 	"Software": "2.1-update1",
-	"ThumbnailImage": "(Binary data 13927 bytes)",
+	"ThumbnailImage": "(Binary data 13927 bytes, use -b option to extract)",
 	"ThumbnailLength": 13927,
 	"ThumbnailOffset": 2288,
 	"UserComment": "",

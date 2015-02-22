@@ -20,7 +20,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-MV580A",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 9592 bytes)",
+	"ThumbnailImage": "(Binary data 9592 bytes, use -b option to extract)",
 	"ThumbnailLength": 9592,
 	"ThumbnailOffset": 436,
 	"XResolution": 72,

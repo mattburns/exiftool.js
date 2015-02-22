@@ -21,7 +21,7 @@
 	"Make": "DoCoMo",
 	"Model": "P2102V",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 10477 bytes)",
+	"ThumbnailImage": "(Binary data 10477 bytes, use -b option to extract)",
 	"ThumbnailLength": 10477,
 	"ThumbnailOffset": 478,
 	"XResolution": 72,

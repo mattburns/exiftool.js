@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/60",
 	"ShutterSpeedValue": "1/64",
 	"Software": "FC-S5R Ver 1.04",
-	"ThumbnailImage": "(Binary data 10003 bytes)",
+	"ThumbnailImage": "(Binary data 10003 bytes, use -b option to extract)",
 	"ThumbnailLength": 10003,
 	"ThumbnailOffset": 1496,
 	"UserComment": "",

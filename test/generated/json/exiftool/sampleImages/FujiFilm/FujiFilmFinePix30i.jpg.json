@@ -67,7 +67,7 @@
 	"Software": "ACD Systems Digital Imaging",
 	"SubSecModifyDate": "2004:01:08 00:20:45.93",
 	"SubSecTime": 93,
-	"ThumbnailImage": "(Binary data 8568 bytes)",
+	"ThumbnailImage": "(Binary data 8568 bytes, use -b option to extract)",
 	"ThumbnailLength": 8568,
 	"ThumbnailOffset": 1049,
 	"Version": "0130",

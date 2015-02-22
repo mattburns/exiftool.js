@@ -42,7 +42,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/73",
 	"Software": "v19.5.2",
-	"ThumbnailImage": "(Binary data 4734 bytes)",
+	"ThumbnailImage": "(Binary data 4734 bytes, use -b option to extract)",
 	"ThumbnailLength": 4734,
 	"ThumbnailOffset": 1048,
 	"UserComment": "",

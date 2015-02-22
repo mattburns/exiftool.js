@@ -29,7 +29,7 @@
 	"SceneCaptureType": "Standard",
 	"Software": "EVN,PL: 050808 1802",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 12535 bytes)",
+	"ThumbnailImage": "(Binary data 12535 bytes, use -b option to extract)",
 	"ThumbnailLength": 12535,
 	"ThumbnailOffset": 560,
 	"XResolution": 72,

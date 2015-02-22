@@ -79,7 +79,7 @@
 	"SubSecModifyDate": "2006:01:05 21:53:00.328",
 	"SubSecTime": 328,
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 8825 bytes)",
+	"ThumbnailImage": "(Binary data 8825 bytes, use -b option to extract)",
 	"ThumbnailLength": 8825,
 	"ThumbnailOffset": 1254,
 	"Version": "0130",

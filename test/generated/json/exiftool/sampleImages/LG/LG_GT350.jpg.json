@@ -26,7 +26,7 @@
 	"ModifyDate": 2,
 	"ResolutionUnit": "inches",
 	"Software": "LGE_SW",
-	"ThumbnailImage": "(Binary data 14310 bytes)",
+	"ThumbnailImage": "(Binary data 14310 bytes, use -b option to extract)",
 	"ThumbnailLength": 14310,
 	"ThumbnailOffset": 464,
 	"XResolution": 72,

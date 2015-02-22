@@ -21,7 +21,7 @@
 	"Make": "Panasonic",
 	"Model": "VDR-M30",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 5832 bytes)",
+	"ThumbnailImage": "(Binary data 5832 bytes, use -b option to extract)",
 	"ThumbnailLength": 5832,
 	"ThumbnailOffset": 454,
 	"XResolution": 72,

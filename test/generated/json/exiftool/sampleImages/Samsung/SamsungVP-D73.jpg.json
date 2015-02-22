@@ -21,7 +21,7 @@
 	"Model": "VP-D73",
 	"ResolutionUnit": "inches",
 	"Software": "0100",
-	"ThumbnailImage": "(Binary data 9611 bytes)",
+	"ThumbnailImage": "(Binary data 9611 bytes, use -b option to extract)",
 	"ThumbnailLength": 9611,
 	"ThumbnailOffset": 338,
 	"XResolution": 72,

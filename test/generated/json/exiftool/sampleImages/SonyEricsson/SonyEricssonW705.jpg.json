@@ -33,7 +33,7 @@
 	"MeteringMode": "Center-weighted average",
 	"Model": "W705",
 	"ModifyDate": "2010:09:21 13:18:14",
-	"PreviewImage": "(Binary data 20753 bytes)",
+	"PreviewImage": "(Binary data 20753 bytes, use -b option to extract)",
 	"PreviewImageLength": 20753,
 	"PreviewImageStart": 602,
 	"ResolutionUnit": "inches",

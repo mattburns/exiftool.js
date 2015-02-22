@@ -11,7 +11,7 @@
 	"Contrast": "Normal",
 	"CreateDate": "2000:10:09 02:43:14",
 	"CustomRendered": "Normal",
-	"DataDump": "(Binary data 285 bytes)",
+	"DataDump": "(Binary data 285 bytes, use -b option to extract)",
 	"DateTimeOriginal": "2000:10:09 02:43:14",
 	"DigitalZoom": 0,
 	"DigitalZoomOn": "On",

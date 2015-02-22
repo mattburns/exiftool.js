@@ -27,7 +27,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"SceneCaptureType": "Standard",
-	"ThumbnailImage": "(Binary data 3252 bytes)",
+	"ThumbnailImage": "(Binary data 3252 bytes, use -b option to extract)",
 	"ThumbnailLength": 3252,
 	"ThumbnailOffset": 650,
 	"WhiteBalance": "Auto",

@@ -81,7 +81,7 @@
 	"SubjectDistance": "1.177 m",
 	"TargetAperture": 4,
 	"TargetExposureTime": "1/52",
-	"ThumbnailImage": "(Binary data 6697 bytes)",
+	"ThumbnailImage": "(Binary data 6697 bytes, use -b option to extract)",
 	"ThumbnailLength": 6697,
 	"ThumbnailOffset": 1536,
 	"UserComment": "",

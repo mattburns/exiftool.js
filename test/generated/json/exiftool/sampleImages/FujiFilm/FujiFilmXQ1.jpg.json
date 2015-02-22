@@ -124,7 +124,7 @@
 	"Software": "Digital Camera XQ1 Ver1.00",
 	"Subject": "点像F11",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8891 bytes)",
+	"ThumbnailImage": "(Binary data 8891 bytes, use -b option to extract)",
 	"ThumbnailLength": 8891,
 	"ThumbnailOffset": 1904,
 	"TimeCreated": "12:31:47",

@@ -42,7 +42,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/320",
-	"ThumbnailImage": "(Binary data 4154 bytes)",
+	"ThumbnailImage": "(Binary data 4154 bytes, use -b option to extract)",
 	"ThumbnailLength": 4154,
 	"ThumbnailOffset": 881,
 	"XResolution": 72,

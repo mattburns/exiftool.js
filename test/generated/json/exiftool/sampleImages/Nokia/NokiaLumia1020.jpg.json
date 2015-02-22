@@ -29,7 +29,7 @@
 	"MeteringMode": "Average",
 	"Model": "Lumia 1020",
 	"Orientation": "Horizontal (normal)",
-	"Padding": "(Binary data 2060 bytes)",
+	"Padding": "(Binary data 2060 bytes, use -b option to extract)",
 	"RegionAppliedToDimensionsH": 5360,
 	"RegionAppliedToDimensionsUnit": "pixel",
 	"RegionAppliedToDimensionsW": 7136,

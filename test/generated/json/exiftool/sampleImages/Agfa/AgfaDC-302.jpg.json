@@ -41,7 +41,7 @@
 	"SceneType": "Unknown (8)",
 	"ShutterSpeed": "1/921",
 	"Software": "V0.2.1.L",
-	"ThumbnailImage": "(Binary data 7823 bytes)",
+	"ThumbnailImage": "(Binary data 7823 bytes, use -b option to extract)",
 	"ThumbnailLength": 7823,
 	"ThumbnailOffset": 717,
 	"XResolution": 72,

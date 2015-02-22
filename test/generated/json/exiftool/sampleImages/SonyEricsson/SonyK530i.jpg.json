@@ -39,7 +39,7 @@
 	"ShutterSpeed": "1/100",
 	"Software": "R6BD001     prgCXC1251021_HUTCHISON 0.0",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3388 bytes)",
+	"ThumbnailImage": "(Binary data 3388 bytes, use -b option to extract)",
 	"ThumbnailLength": 3388,
 	"ThumbnailOffset": 766,
 	"WhiteBalance": "Auto",

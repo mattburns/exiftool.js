@@ -31,7 +31,7 @@
 	"ShutterSpeed": "1/125",
 	"Software": "Z400BWFE6",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 16657 bytes)",
+	"ThumbnailImage": "(Binary data 16657 bytes, use -b option to extract)",
 	"ThumbnailLength": 16657,
 	"ThumbnailOffset": 716,
 	"WhiteBalance": "Auto",

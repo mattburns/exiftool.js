@@ -39,7 +39,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/91",
 	"ShutterSpeedValue": "1/91",
-	"ThumbnailImage": "(Binary data 5381 bytes)",
+	"ThumbnailImage": "(Binary data 5381 bytes, use -b option to extract)",
 	"ThumbnailLength": 5381,
 	"ThumbnailOffset": 1073,
 	"UserComment": "",

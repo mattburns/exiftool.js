@@ -41,7 +41,7 @@
 	"SubSecTime": 231,
 	"SubSecTimeDigitized": 231,
 	"SubSecTimeOriginal": 231,
-	"ThumbnailImage": "(Binary data 15649 bytes)",
+	"ThumbnailImage": "(Binary data 15649 bytes, use -b option to extract)",
 	"ThumbnailLength": 15649,
 	"ThumbnailOffset": 12762,
 	"Warning": "[minor] Unrecognized MakerNotes",

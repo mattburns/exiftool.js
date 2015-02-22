@@ -60,7 +60,7 @@
 	"SubSecTimeDigitized": "00",
 	"SubSecTimeOriginal": "00",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 8851 bytes)",
+	"ThumbnailImage": "(Binary data 8851 bytes, use -b option to extract)",
 	"ThumbnailLength": 8851,
 	"ThumbnailOffset": 969,
 	"WhiteBalance": "Auto",

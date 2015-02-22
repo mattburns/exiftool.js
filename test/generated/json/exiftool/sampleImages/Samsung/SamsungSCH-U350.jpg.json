@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "SCH-U350",
-	"ThumbnailImage": "(Binary data 20557 bytes)",
+	"ThumbnailImage": "(Binary data 20557 bytes, use -b option to extract)",
 	"ThumbnailLength": 20557,
 	"ThumbnailOffset": 644,
 	"WhiteBalance": "Auto",

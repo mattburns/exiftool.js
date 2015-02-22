@@ -18,7 +18,7 @@
 	"Model": "PG-6200",
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 10442 bytes)",
+	"ThumbnailImage": "(Binary data 10442 bytes, use -b option to extract)",
 	"ThumbnailLength": 10442,
 	"ThumbnailOffset": 404,
 	"XResolution": 150,

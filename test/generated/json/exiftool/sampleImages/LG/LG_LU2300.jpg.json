@@ -30,7 +30,7 @@
 	"Model": "LU2300",
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
-	"ThumbnailImage": "(Binary data 28851 bytes)",
+	"ThumbnailImage": "(Binary data 28851 bytes, use -b option to extract)",
 	"ThumbnailLength": 28851,
 	"ThumbnailOffset": 608,
 	"XResolution": 72,

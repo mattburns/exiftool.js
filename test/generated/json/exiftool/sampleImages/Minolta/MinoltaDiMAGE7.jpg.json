@@ -71,7 +71,7 @@
 	"ShutterSpeedValue": "1/128",
 	"Software": "A1v021u",
 	"SubjectProgram": "None",
-	"ThumbnailImage": "(Binary data 21052 bytes)",
+	"ThumbnailImage": "(Binary data 21052 bytes, use -b option to extract)",
 	"ThumbnailLength": 21052,
 	"ThumbnailOffset": 14226,
 	"WhiteBalance": "Custom",

@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix AX200 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3556 bytes)",
+	"ThumbnailImage": "(Binary data 3556 bytes, use -b option to extract)",
 	"ThumbnailLength": 3556,
 	"ThumbnailOffset": 20000,
 	"Version": "0130",

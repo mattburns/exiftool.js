@@ -4,7 +4,7 @@
 	"ColorSpace": "sRGB",
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
 	"DateTimeOriginal": "2009:09:05 07:38:35",
-	"DeviceSettingDescription": "(Binary data 0 bytes)",
+	"DeviceSettingDescription": "(Binary data 0 bytes, use -b option to extract)",
 	"EncodingProcess": "Baseline DCT, Huffman coding",
 	"ExifByteOrder": "Little-endian (Intel, II)",
 	"ExifImageHeight": 1200,

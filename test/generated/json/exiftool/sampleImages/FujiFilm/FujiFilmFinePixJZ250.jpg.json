@@ -84,7 +84,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix JZ250/JZ260 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4764 bytes)",
+	"ThumbnailImage": "(Binary data 4764 bytes, use -b option to extract)",
 	"ThumbnailLength": 4764,
 	"ThumbnailOffset": 2464,
 	"Version": "0130",

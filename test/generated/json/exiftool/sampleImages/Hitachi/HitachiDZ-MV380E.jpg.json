@@ -20,7 +20,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-MV380E",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 9383 bytes)",
+	"ThumbnailImage": "(Binary data 9383 bytes, use -b option to extract)",
 	"ThumbnailLength": 9383,
 	"ThumbnailOffset": 436,
 	"XResolution": 72,

@@ -46,7 +46,7 @@
 	"ShutterSpeed": "1/4",
 	"ShutterSpeedValue": "1/6",
 	"Software": "",
-	"ThumbnailImage": "(Binary data 5216 bytes)",
+	"ThumbnailImage": "(Binary data 5216 bytes, use -b option to extract)",
 	"ThumbnailLength": 5216,
 	"ThumbnailOffset": 1245,
 	"Warning": "Bad Ricoh maker notes",

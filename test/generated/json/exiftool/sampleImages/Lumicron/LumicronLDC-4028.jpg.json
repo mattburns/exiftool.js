@@ -38,7 +38,7 @@
 	"ShutterSpeedValue": "1/64",
 	"Software": "LDC4028 V1.14 2004/11/08",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3692 bytes)",
+	"ThumbnailImage": "(Binary data 3692 bytes, use -b option to extract)",
 	"ThumbnailLength": 3692,
 	"ThumbnailOffset": 859,
 	"UserComment": "GAIN070088MAX000000000000SUM000000000000MIN000000000NOWY08813FLASH0450FLAY00195AFD0SV18ZOOM00000000000000000000000000000",

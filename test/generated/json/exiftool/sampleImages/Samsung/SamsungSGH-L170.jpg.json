@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "L170XEHI1",
-	"ThumbnailImage": "(Binary data 13856 bytes)",
+	"ThumbnailImage": "(Binary data 13856 bytes, use -b option to extract)",
 	"ThumbnailLength": 13856,
 	"ThumbnailOffset": 656,
 	"WhiteBalance": "Auto",

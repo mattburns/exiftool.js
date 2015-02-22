@@ -41,7 +41,7 @@
 	"ShutterSpeed": 0.5,
 	"ShutterSpeedValue": "1/32",
 	"Software": "S5510XEIJ1",
-	"ThumbnailImage": "(Binary data 22919 bytes)",
+	"ThumbnailImage": "(Binary data 22919 bytes, use -b option to extract)",
 	"ThumbnailLength": 22919,
 	"ThumbnailOffset": 718,
 	"WhiteBalance": "Auto",

@@ -40,7 +40,7 @@
 	"ShutterSpeedValue": 0.5,
 	"Software": "R1A044      prgCXC1250036_EU_3_CL 3.8",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 5576 bytes)",
+	"ThumbnailImage": "(Binary data 5576 bytes, use -b option to extract)",
 	"ThumbnailLength": 5576,
 	"ThumbnailOffset": 786,
 	"WhiteBalance": "Auto",

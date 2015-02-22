@@ -40,7 +40,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/8",
 	"Software": "Exif Software Version 1.00",
-	"ThumbnailImage": "(Binary data 3428 bytes)",
+	"ThumbnailImage": "(Binary data 3428 bytes, use -b option to extract)",
 	"ThumbnailLength": 3428,
 	"ThumbnailOffset": 1018,
 	"Warning": "[minor] Unrecognized MakerNotes",

@@ -20,7 +20,7 @@
 	"Make": "NEC",
 	"Model": "N412i",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 1547 bytes)",
+	"ThumbnailImage": "(Binary data 1547 bytes, use -b option to extract)",
 	"ThumbnailLength": 1547,
 	"ThumbnailOffset": 412,
 	"XResolution": 72,

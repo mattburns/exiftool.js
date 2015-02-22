@@ -39,7 +39,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/8",
 	"Software": "S5350MGJB1",
-	"ThumbnailImage": "(Binary data 8135 bytes)",
+	"ThumbnailImage": "(Binary data 8135 bytes, use -b option to extract)",
 	"ThumbnailLength": 8135,
 	"ThumbnailOffset": 694,
 	"WhiteBalance": "Auto",

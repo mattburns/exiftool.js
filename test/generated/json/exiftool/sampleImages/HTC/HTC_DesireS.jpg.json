@@ -37,7 +37,7 @@
 	"Model": "HTC Desire S",
 	"PreviewQuality": 85,
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 49896 bytes)",
+	"ThumbnailImage": "(Binary data 49896 bytes, use -b option to extract)",
 	"ThumbnailLength": 49896,
 	"ThumbnailOffset": 716,
 	"XResolution": 72,

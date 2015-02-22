@@ -29,7 +29,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "Android 1.5",
-	"ThumbnailImage": "(Binary data 24168 bytes)",
+	"ThumbnailImage": "(Binary data 24168 bytes, use -b option to extract)",
 	"ThumbnailLength": 24168,
 	"ThumbnailOffset": 626,
 	"WhiteBalance": "Auto",

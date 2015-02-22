@@ -225,7 +225,7 @@
 	"SwitchToRegisteredAFPoint": "Assist + AF",
 	"TargetAperture": 7.1,
 	"TargetExposureTime": "1/102",
-	"ThumbnailImage": "(Binary data 13595 bytes)",
+	"ThumbnailImage": "(Binary data 13595 bytes, use -b option to extract)",
 	"ThumbnailImageValidArea": "0 159 7 112",
 	"ThumbnailLength": 13595,
 	"ThumbnailOffset": 9832,

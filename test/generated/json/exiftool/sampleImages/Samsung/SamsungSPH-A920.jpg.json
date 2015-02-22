@@ -30,7 +30,7 @@
 	"ShutterSpeed": "1/21",
 	"Software": "ES.A920",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 7058 bytes)",
+	"ThumbnailImage": "(Binary data 7058 bytes, use -b option to extract)",
 	"ThumbnailLength": 7058,
 	"ThumbnailOffset": 700,
 	"WhiteBalance": "Auto",

@@ -23,7 +23,7 @@
 	"Make": "MOTOROLA",
 	"Model": "V1075",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 8569 bytes)",
+	"ThumbnailImage": "(Binary data 8569 bytes, use -b option to extract)",
 	"ThumbnailLength": 8569,
 	"ThumbnailOffset": 480,
 	"XResolution": 72,

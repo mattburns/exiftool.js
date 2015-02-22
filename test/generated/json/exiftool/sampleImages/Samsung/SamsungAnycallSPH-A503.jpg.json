@@ -35,7 +35,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "inf",
 	"Software": "ZJ23S",
-	"ThumbnailImage": "(Binary data 35111 bytes)",
+	"ThumbnailImage": "(Binary data 35111 bytes, use -b option to extract)",
 	"ThumbnailLength": 35111,
 	"ThumbnailOffset": 660,
 	"WhiteBalance": "Auto",

@@ -30,7 +30,7 @@
 	"ShutterSpeed": "1/21",
 	"Software": "M6500C-DIVA-40406",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 5481 bytes)",
+	"ThumbnailImage": "(Binary data 5481 bytes, use -b option to extract)",
 	"ThumbnailLength": 5481,
 	"ThumbnailOffset": 574,
 	"WhiteBalance": "Auto",

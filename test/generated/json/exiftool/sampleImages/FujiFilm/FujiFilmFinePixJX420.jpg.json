@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix JX420 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2789 bytes)",
+	"ThumbnailImage": "(Binary data 2789 bytes, use -b option to extract)",
 	"ThumbnailLength": 2789,
 	"ThumbnailOffset": 25776,
 	"Version": "0130",

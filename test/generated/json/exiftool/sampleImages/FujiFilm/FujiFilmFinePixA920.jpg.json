@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A920    Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8444 bytes)",
+	"ThumbnailImage": "(Binary data 8444 bytes, use -b option to extract)",
 	"ThumbnailLength": 8444,
 	"ThumbnailOffset": 1366,
 	"Version": "0130",

@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix REAL 3D W1 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10338 bytes)",
+	"ThumbnailImage": "(Binary data 10338 bytes, use -b option to extract)",
 	"ThumbnailLength": 10338,
 	"ThumbnailOffset": 1456,
 	"Version": "0130",

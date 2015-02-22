@@ -28,7 +28,7 @@
 	"SceneType": "Directly photographed",
 	"SensingMethod": "One-chip color area",
 	"Software": "Digital CameraVL-MX1  Ver1.00",
-	"ThumbnailImage": "(Binary data 3262 bytes)",
+	"ThumbnailImage": "(Binary data 3262 bytes, use -b option to extract)",
 	"ThumbnailLength": 3262,
 	"ThumbnailOffset": 606,
 	"Warning": "[minor] Unrecognized MakerNotes",

@@ -45,7 +45,7 @@
 	"ShutterSpeed": "1/8",
 	"ShutterSpeedValue": "1/8",
 	"Software": "MDV 30 Ware Ver 00.29",
-	"ThumbnailImage": "(Binary data 4502 bytes)",
+	"ThumbnailImage": "(Binary data 4502 bytes, use -b option to extract)",
 	"ThumbnailLength": 4502,
 	"ThumbnailOffset": 1324,
 	"Warning": "[minor] Unrecognized MakerNotes",

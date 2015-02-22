@@ -20,7 +20,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-MV270A",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 4608 bytes)",
+	"ThumbnailImage": "(Binary data 4608 bytes, use -b option to extract)",
 	"ThumbnailLength": 4608,
 	"ThumbnailOffset": 422,
 	"XResolution": 72,

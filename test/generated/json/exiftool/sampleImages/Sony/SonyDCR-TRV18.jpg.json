@@ -34,7 +34,7 @@
 	"PrintIMVersion": "0100",
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/60",
-	"ThumbnailImage": "(Binary data 6261 bytes)",
+	"ThumbnailImage": "(Binary data 6261 bytes, use -b option to extract)",
 	"ThumbnailLength": 6261,
 	"ThumbnailOffset": 763,
 	"XResolution": 72,

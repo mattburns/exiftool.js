@@ -108,7 +108,7 @@
 	"DigitalZoom": "None",
 	"DirectoryIndex": 100,
 	"DriveMode": "Single-frame Shooting",
-	"DustRemovalData": "(Binary data 1024 bytes)",
+	"DustRemovalData": "(Binary data 1024 bytes, use -b option to extract)",
 	"EasyMode": "Full auto",
 	"EncodingProcess": "Baseline DCT, Huffman coding",
 	"ExifByteOrder": "Big-endian (Motorola, MM)",

@@ -46,7 +46,7 @@
 	"ShutterSpeed": "1/30",
 	"ShutterSpeedValue": "1/30",
 	"Software": "0.00.097BQ",
-	"ThumbnailImage": "(Binary data 9348 bytes)",
+	"ThumbnailImage": "(Binary data 9348 bytes, use -b option to extract)",
 	"ThumbnailLength": 9348,
 	"ThumbnailOffset": 986,
 	"WhiteBalance": "Auto",

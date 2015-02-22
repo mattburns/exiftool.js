@@ -58,7 +58,7 @@
 	"ShutterMode": "Auto",
 	"ShutterSpeed": "1/11",
 	"ShutterSpeedValue": "1/11",
-	"ThumbnailImage": "(Binary data 4251 bytes)",
+	"ThumbnailImage": "(Binary data 4251 bytes, use -b option to extract)",
 	"ThumbnailLength": 4251,
 	"ThumbnailOffset": 2158,
 	"TimeCreated": "21:45:09.87",

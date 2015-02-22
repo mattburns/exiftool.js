@@ -35,7 +35,7 @@
 	"ShutterSpeed": "1/125",
 	"ShutterSpeedValue": "1/512",
 	"Software": "T659UVIG9",
-	"ThumbnailImage": "(Binary data 28361 bytes)",
+	"ThumbnailImage": "(Binary data 28361 bytes, use -b option to extract)",
 	"ThumbnailLength": 28361,
 	"ThumbnailOffset": 794,
 	"Warning": "[minor] Unrecognized MakerNotes",

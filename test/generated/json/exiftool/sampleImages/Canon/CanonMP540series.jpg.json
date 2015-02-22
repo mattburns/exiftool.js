@@ -22,7 +22,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"Software": "MP Navigator EX 2.0",
-	"ThumbnailImage": "(Binary data 7303 bytes)",
+	"ThumbnailImage": "(Binary data 7303 bytes, use -b option to extract)",
 	"ThumbnailLength": 7303,
 	"ThumbnailOffset": 480,
 	"WhiteBalance": "Auto",

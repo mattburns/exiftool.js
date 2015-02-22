@@ -89,7 +89,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix Z800EXR Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10564 bytes)",
+	"ThumbnailImage": "(Binary data 10564 bytes, use -b option to extract)",
 	"ThumbnailLength": 10564,
 	"ThumbnailOffset": 1694,
 	"TimeCreated": "12:37:40+09:00",

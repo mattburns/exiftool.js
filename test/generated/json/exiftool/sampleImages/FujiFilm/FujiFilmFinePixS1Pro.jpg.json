@@ -59,7 +59,7 @@
 	"ShutterSpeedValue": "1/45",
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePixS1Pro Ver1.00",
-	"ThumbnailImage": "(Binary data 10384 bytes)",
+	"ThumbnailImage": "(Binary data 10384 bytes, use -b option to extract)",
 	"ThumbnailLength": 10384,
 	"ThumbnailOffset": 1038,
 	"Version": "0130",

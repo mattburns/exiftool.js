@@ -49,7 +49,7 @@
 	"Sharpness": "Sharp",
 	"ShutterSpeed": "1/388",
 	"ShutterSpeedValue": "1/388",
-	"ThumbnailImage": "(Binary data 5425 bytes)",
+	"ThumbnailImage": "(Binary data 5425 bytes, use -b option to extract)",
 	"ThumbnailLength": 5425,
 	"ThumbnailOffset": 1653,
 	"UserComment": "",

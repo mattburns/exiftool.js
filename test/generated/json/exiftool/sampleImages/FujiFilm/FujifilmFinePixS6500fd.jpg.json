@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S6500fd Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9400 bytes)",
+	"ThumbnailImage": "(Binary data 9400 bytes, use -b option to extract)",
 	"ThumbnailLength": 9400,
 	"ThumbnailOffset": 1434,
 	"Version": "0130",

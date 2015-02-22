@@ -22,7 +22,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"Software": "MF Toolbox 4.9.1.1",
-	"ThumbnailImage": "(Binary data 3807 bytes)",
+	"ThumbnailImage": "(Binary data 3807 bytes, use -b option to extract)",
 	"ThumbnailLength": 3807,
 	"ThumbnailOffset": 480,
 	"WhiteBalance": "Auto",

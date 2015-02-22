@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S9200 S9250 S9150 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 1688 bytes)",
+	"ThumbnailImage": "(Binary data 1688 bytes, use -b option to extract)",
 	"ThumbnailLength": 1688,
 	"ThumbnailOffset": 27200,
 	"Version": "0130",

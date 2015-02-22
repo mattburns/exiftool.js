@@ -79,7 +79,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix XP170 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3395 bytes)",
+	"ThumbnailImage": "(Binary data 3395 bytes, use -b option to extract)",
 	"ThumbnailLength": 3395,
 	"ThumbnailOffset": 2564,
 	"Version": "0130",

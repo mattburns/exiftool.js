@@ -40,7 +40,7 @@
 	"ShutterSpeed": "1/20",
 	"ShutterSpeedValue": "1/20",
 	"Software": "F480DXHF5",
-	"ThumbnailImage": "(Binary data 6330 bytes)",
+	"ThumbnailImage": "(Binary data 6330 bytes, use -b option to extract)",
 	"ThumbnailLength": 6330,
 	"ThumbnailOffset": 726,
 	"Warning": "Bad PrintIM size",

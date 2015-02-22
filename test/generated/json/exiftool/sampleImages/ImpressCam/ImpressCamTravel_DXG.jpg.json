@@ -41,7 +41,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/30",
 	"Software": "DVC301 Ver1.18",
-	"ThumbnailImage": "(Binary data 6211 bytes)",
+	"ThumbnailImage": "(Binary data 6211 bytes, use -b option to extract)",
 	"ThumbnailLength": 6211,
 	"ThumbnailOffset": 1061,
 	"UserComment": "",

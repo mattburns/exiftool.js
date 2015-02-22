@@ -52,7 +52,7 @@
 	"Software": "V233-04-07",
 	"SubjectArea": "1296 972 2592 1944",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9869 bytes)",
+	"ThumbnailImage": "(Binary data 9869 bytes, use -b option to extract)",
 	"ThumbnailLength": 9869,
 	"ThumbnailOffset": 901,
 	"WhiteBalance": "Auto",

@@ -51,7 +51,7 @@
 	"ShutterSpeed": "1/60",
 	"ShutterSpeedValue": "1/60",
 	"Software": "Digital Camera FinePix1700Z Ver1.00",
-	"ThumbnailImage": "(Binary data 5280 bytes)",
+	"ThumbnailImage": "(Binary data 5280 bytes, use -b option to extract)",
 	"ThumbnailLength": 5280,
 	"ThumbnailOffset": 886,
 	"XResolution": 72,

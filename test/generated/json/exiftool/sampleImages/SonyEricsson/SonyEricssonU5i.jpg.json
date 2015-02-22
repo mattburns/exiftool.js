@@ -50,7 +50,7 @@
 	"ShutterSpeedValue": "1/50",
 	"Software": "1224-4699_R2AK006\n18-02-10\n\n(c) SonyEricsson",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 5637 bytes)",
+	"ThumbnailImage": "(Binary data 5637 bytes, use -b option to extract)",
 	"ThumbnailLength": 5637,
 	"ThumbnailOffset": 918,
 	"WhiteBalance": "Auto",

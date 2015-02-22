@@ -75,7 +75,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix BIGJOB HD-3W Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3856 bytes)",
+	"ThumbnailImage": "(Binary data 3856 bytes, use -b option to extract)",
 	"ThumbnailLength": 3856,
 	"ThumbnailOffset": 4096,
 	"Version": "0130",

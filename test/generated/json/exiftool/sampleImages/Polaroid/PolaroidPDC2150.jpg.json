@@ -39,7 +39,7 @@
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/47",
 	"Software": "Ver 1.0",
-	"ThumbnailImage": "(Binary data 12490 bytes)",
+	"ThumbnailImage": "(Binary data 12490 bytes, use -b option to extract)",
 	"ThumbnailLength": 12490,
 	"ThumbnailOffset": 981,
 	"Warning": "Invalid PrintIM header",

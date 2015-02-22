@@ -21,7 +21,7 @@
 	"Model": "V601SH",
 	"ModifyDate": "2005:09:19 18:24:00",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 8821 bytes)",
+	"ThumbnailImage": "(Binary data 8821 bytes, use -b option to extract)",
 	"ThumbnailLength": 8821,
 	"ThumbnailOffset": 448,
 	"XResolution": 72,

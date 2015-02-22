@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S4000 Ver0.57",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3469 bytes)",
+	"ThumbnailImage": "(Binary data 3469 bytes, use -b option to extract)",
 	"ThumbnailLength": 3469,
 	"ThumbnailOffset": 27136,
 	"Version": "0130",

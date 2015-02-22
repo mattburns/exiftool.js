@@ -51,7 +51,7 @@
 	"ModifyDate": "2007:08:12 17:39:10",
 	"OffsetSchema": 4148,
 	"Orientation": "Horizontal (normal)",
-	"Padding": "(Binary data 2060 bytes)",
+	"Padding": "(Binary data 2060 bytes, use -b option to extract)",
 	"ProgramMode": 2,
 	"ResolutionUnit": "inches",
 	"SceneCaptureType": "Standard",

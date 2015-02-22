@@ -43,7 +43,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/64",
 	"Software": "M4022S-26AB",
-	"ThumbnailImage": "(Binary data 3946 bytes)",
+	"ThumbnailImage": "(Binary data 3946 bytes, use -b option to extract)",
 	"ThumbnailLength": 3946,
 	"ThumbnailOffset": 1073,
 	"XResolution": 72,

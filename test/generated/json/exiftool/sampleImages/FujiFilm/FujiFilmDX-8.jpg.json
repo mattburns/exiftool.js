@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/512",
 	"ShutterSpeedValue": "1/512",
 	"Software": "Digital Camera DX-8 Ver1.00",
-	"ThumbnailImage": "(Binary data 10700 bytes)",
+	"ThumbnailImage": "(Binary data 10700 bytes, use -b option to extract)",
 	"ThumbnailLength": 10700,
 	"ThumbnailOffset": 868,
 	"XResolution": 72,

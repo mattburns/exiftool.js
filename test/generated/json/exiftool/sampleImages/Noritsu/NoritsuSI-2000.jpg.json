@@ -28,7 +28,7 @@
 	"Model": "SI-2000",
 	"PhotoshopFormat": "Optimised",
 	"PhotoshopQuality": 9,
-	"PhotoshopThumbnail": "(Binary data 1446 bytes)",
+	"PhotoshopThumbnail": "(Binary data 1446 bytes, use -b option to extract)",
 	"ProgressiveScans": "3 Scans",
 	"ResolutionUnit": "inches",
 	"Warning": "Bad InteropOffset SubDirectory start",

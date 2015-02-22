@@ -71,7 +71,7 @@
 	"ShutterSpeedValue": "1/322",
 	"Software": "Microsoft Windows Photo Gallery 6.0.6001.18000",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 5765 bytes)",
+	"ThumbnailImage": "(Binary data 5765 bytes, use -b option to extract)",
 	"ThumbnailLength": 5765,
 	"ThumbnailOffset": 5406,
 	"Warning": "[minor] Adjusted MakerNotes base by -96",

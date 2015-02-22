@@ -20,7 +20,7 @@
 	"Model": "910T",
 	"ModifyDate": "2008:02:26 15:06:09",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 10559 bytes)",
+	"ThumbnailImage": "(Binary data 10559 bytes, use -b option to extract)",
 	"ThumbnailLength": 10559,
 	"ThumbnailOffset": 430,
 	"XResolution": 72,

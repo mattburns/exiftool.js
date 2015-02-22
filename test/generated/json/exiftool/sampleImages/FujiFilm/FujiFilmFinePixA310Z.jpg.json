@@ -74,7 +74,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A310   Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10385 bytes)",
+	"ThumbnailImage": "(Binary data 10385 bytes, use -b option to extract)",
 	"ThumbnailLength": 10385,
 	"ThumbnailOffset": 1264,
 	"Version": "0130",

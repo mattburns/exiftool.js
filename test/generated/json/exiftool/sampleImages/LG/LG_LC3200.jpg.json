@@ -29,7 +29,7 @@
 	"SceneCaptureType": "Standard",
 	"ShutterSpeed": 0,
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 7899 bytes)",
+	"ThumbnailImage": "(Binary data 7899 bytes, use -b option to extract)",
 	"ThumbnailLength": 7899,
 	"ThumbnailOffset": 547,
 	"WhiteBalance": "Auto",

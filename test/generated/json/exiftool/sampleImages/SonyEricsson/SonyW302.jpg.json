@@ -37,7 +37,7 @@
 	"ShutterSpeed": "1/1102",
 	"Software": "EK,A04: 240209 1002",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 21782 bytes)",
+	"ThumbnailImage": "(Binary data 21782 bytes, use -b option to extract)",
 	"ThumbnailLength": 21782,
 	"ThumbnailOffset": 679,
 	"WhiteBalance": "Manual",

@@ -23,7 +23,7 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
-        <h3>sampleImages/Sony/SonyNEX-6.jpg</h3>
+        <h3>node_modules/exiftool.js-dev-dependencies/sampleImages/Sony/SonyNEX-6.jpg</h3>
 <table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
 <tbody>
 <tr>
@@ -78,6 +78,13 @@
 <tr>
 <td>BatteryLevel</td>
 <td class='match'>61%</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BatteryTemperature</td>
+<td class='match'>25.6 C</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -253,13 +260,6 @@
 <tr>
 <td>DynamicRangeOptimizer</td>
 <td class='match'>Auto</td>
-<td class='missing'>-</td>
-<td class='missing'>-</td>
-<td class='missing'>-</td>
-</tr>
-<tr>
-<td>Effect</td>
-<td class='match'>Off</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -755,8 +755,15 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>PictureEffect2</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>PreviewImage</td>
-<td class='match'>(Binary data 616888 bytes)</td>
+<td class='match'>(Binary data 616888 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -951,6 +958,20 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>SonyExposureTime</td>
+<td class='match'>1/183</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SonyFNumber</td>
+<td class='match'>8.8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>SonyImageHeight</td>
 <td class='match'>3264</td>
 <td class='missing'>-</td>
@@ -987,7 +1008,7 @@
 </tr>
 <tr>
 <td>ThumbnailImage</td>
-<td class='match'>(Binary data 9012 bytes)</td>
+<td class='match'>(Binary data 9012 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>

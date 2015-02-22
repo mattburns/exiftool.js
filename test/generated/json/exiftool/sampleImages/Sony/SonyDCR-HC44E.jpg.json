@@ -41,7 +41,7 @@
 	"SceneCaptureType": "Standard",
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/100",
-	"ThumbnailImage": "(Binary data 6014 bytes)",
+	"ThumbnailImage": "(Binary data 6014 bytes, use -b option to extract)",
 	"ThumbnailLength": 6014,
 	"ThumbnailOffset": 826,
 	"WhiteBalance": "Auto",

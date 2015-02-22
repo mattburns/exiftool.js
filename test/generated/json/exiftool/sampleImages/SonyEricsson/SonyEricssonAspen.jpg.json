@@ -24,7 +24,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "M7500BSAAAAAAD3050",
-	"ThumbnailImage": "(Binary data 14770 bytes)",
+	"ThumbnailImage": "(Binary data 14770 bytes, use -b option to extract)",
 	"ThumbnailLength": 14770,
 	"ThumbnailOffset": 620,
 	"WhiteBalance": "Auto",

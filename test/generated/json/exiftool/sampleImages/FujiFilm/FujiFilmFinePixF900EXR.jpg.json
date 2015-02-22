@@ -82,7 +82,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix F900EXR Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8275 bytes)",
+	"ThumbnailImage": "(Binary data 8275 bytes, use -b option to extract)",
 	"ThumbnailLength": 8275,
 	"ThumbnailOffset": 1824,
 	"Version": "0130",

@@ -64,7 +64,7 @@
 	"ShutterSpeedValue": "1/158",
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix2600Zoom Ver3.00",
-	"ThumbnailImage": "(Binary data 10611 bytes)",
+	"ThumbnailImage": "(Binary data 10611 bytes, use -b option to extract)",
 	"ThumbnailLength": 10611,
 	"ThumbnailOffset": 1114,
 	"Version": "0130",

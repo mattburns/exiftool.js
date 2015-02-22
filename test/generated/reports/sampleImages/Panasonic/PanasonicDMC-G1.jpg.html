@@ -23,7 +23,7 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
-        <h3>sampleImages/Panasonic/PanasonicDMC-G1.jpg</h3>
+        <h3>node_modules/exiftool.js-dev-dependencies/sampleImages/Panasonic/PanasonicDMC-G1.jpg</h3>
 <table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
 <tbody>
 <tr>
@@ -45,6 +45,13 @@
 <td class='match'>0.5 0.5</td>
 <td class='missing'>-</td>
 <td class='diff'>0.9783779200408093,0.9799996057574867</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AccessorySerialNumber</td>
+<td class='match'>0000000</td>
+<td class='missing'>-</td>
+<td class='diff'>p³Kk¯¾ÖüßjÚ¯</td>
 <td class='missing'>-</td>
 </tr>
 <tr>
@@ -102,6 +109,13 @@
 <td class='match'>1.460152</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>BracketSettings</td>
+<td class='match'>No Bracket</td>
+<td class='missing'>-</td>
+<td class='diff'>0</td>
 <td class='missing'>-</td>
 </tr>
 <tr>
@@ -211,7 +225,7 @@
 </tr>
 <tr>
 <td>DataDump</td>
-<td class='match'>(Binary data 6152 bytes)</td>
+<td class='match'>(Binary data 6152 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -518,6 +532,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>LongExposureNoiseReduction</td>
+<td class='match'>On</td>
+<td class='missing'>-</td>
+<td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>MacroMode</td>
 <td class='match'>Off</td>
 <td class='missing'>-</td>
@@ -736,7 +757,7 @@
 </tr>
 <tr>
 <td>ThumbnailImage</td>
-<td class='match'>(Binary data 7462 bytes)</td>
+<td class='match'>(Binary data 7462 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>

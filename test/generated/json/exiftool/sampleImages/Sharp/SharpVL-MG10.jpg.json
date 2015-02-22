@@ -43,7 +43,7 @@
 	"ShutterSpeed": "1/60",
 	"ShutterSpeedValue": "1/64",
 	"Software": "DigitalCameraVL-MG10    v1.00",
-	"ThumbnailImage": "(Binary data 3633 bytes)",
+	"ThumbnailImage": "(Binary data 3633 bytes, use -b option to extract)",
 	"ThumbnailLength": 3633,
 	"ThumbnailOffset": 954,
 	"UserComment": "",

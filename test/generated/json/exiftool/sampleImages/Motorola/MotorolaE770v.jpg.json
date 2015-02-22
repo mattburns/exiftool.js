@@ -23,7 +23,7 @@
 	"Make": "MOTOROLA",
 	"Model": "E770v",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 5130 bytes)",
+	"ThumbnailImage": "(Binary data 5130 bytes, use -b option to extract)",
 	"ThumbnailLength": 5130,
 	"ThumbnailOffset": 480,
 	"XResolution": 72,

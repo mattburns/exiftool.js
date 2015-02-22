@@ -33,7 +33,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "ACER Camera",
-	"ThumbnailImage": "(Binary data 10380 bytes)",
+	"ThumbnailImage": "(Binary data 10380 bytes, use -b option to extract)",
 	"ThumbnailLength": 10380,
 	"ThumbnailOffset": 877,
 	"WhiteBalance": "Auto",

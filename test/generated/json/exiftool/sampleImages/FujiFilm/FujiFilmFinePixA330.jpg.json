@@ -74,7 +74,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A330    Ver1.74",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10387 bytes)",
+	"ThumbnailImage": "(Binary data 10387 bytes, use -b option to extract)",
 	"ThumbnailLength": 10387,
 	"ThumbnailOffset": 1266,
 	"Version": "0130",

@@ -9,7 +9,7 @@
 	"ImageWidth": 8,
 	"Make": "SAGEM",
 	"Model": "myX-8",
-	"ThumbnailImage": "(Binary data 17089 bytes)",
+	"ThumbnailImage": "(Binary data 17089 bytes, use -b option to extract)",
 	"ThumbnailLength": 17089,
 	"ThumbnailOffset": 104,
 	"YCbCrSubSampling": "YCbCr4:2:0 (2 2)"

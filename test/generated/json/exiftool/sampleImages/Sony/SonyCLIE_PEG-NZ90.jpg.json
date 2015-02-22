@@ -54,7 +54,7 @@
 	"ShutterSpeedValue": "1/223",
 	"Software": "CLIE Camera S",
 	"SubjectDistance": "0.2 m",
-	"ThumbnailImage": "(Binary data 6658 bytes)",
+	"ThumbnailImage": "(Binary data 6658 bytes, use -b option to extract)",
 	"ThumbnailLength": 6658,
 	"ThumbnailOffset": 1276,
 	"UserComment": "",

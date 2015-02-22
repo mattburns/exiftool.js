@@ -26,7 +26,7 @@
 	"ModifyDate": "2009.02.16",
 	"ShutterSpeed": "1/313",
 	"ShutterSpeedValue": "1/313",
-	"ThumbnailImage": "(Binary data 60501 bytes)",
+	"ThumbnailImage": "(Binary data 60501 bytes, use -b option to extract)",
 	"ThumbnailLength": 60501,
 	"ThumbnailOffset": 452,
 	"WhiteBalance": "Manual",

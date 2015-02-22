@@ -58,7 +58,7 @@
 	"Software": "E0313-0100",
 	"SpecialMode": "Normal, Sequence: 0, Panorama: (none)",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2738 bytes)",
+	"ThumbnailImage": "(Binary data 2738 bytes, use -b option to extract)",
 	"ThumbnailLength": 2738,
 	"ThumbnailOffset": 4165,
 	"UserComment": "",

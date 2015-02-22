@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S8000fd Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 6609 bytes)",
+	"ThumbnailImage": "(Binary data 6609 bytes, use -b option to extract)",
 	"ThumbnailLength": 6609,
 	"ThumbnailOffset": 5120,
 	"Version": "0130",

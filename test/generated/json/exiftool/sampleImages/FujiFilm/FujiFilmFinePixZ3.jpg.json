@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "FinePixViewer Ver.5.0",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9194 bytes)",
+	"ThumbnailImage": "(Binary data 9194 bytes, use -b option to extract)",
 	"ThumbnailLength": 9194,
 	"ThumbnailOffset": 1324,
 	"Version": "0130",

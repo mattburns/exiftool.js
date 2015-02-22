@@ -47,7 +47,7 @@
 	"Software": "ACD Systems Digital Imaging",
 	"SubSecModifyDate": "2007:03:19 16:22:56.406",
 	"SubSecTime": 406,
-	"ThumbnailImage": "(Binary data 8016 bytes)",
+	"ThumbnailImage": "(Binary data 8016 bytes, use -b option to extract)",
 	"ThumbnailLength": 8016,
 	"ThumbnailOffset": 1270,
 	"Warning": "[minor] Unrecognized MakerNotes",

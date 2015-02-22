@@ -23,7 +23,7 @@
 	"ModifyDate": "2000:01:01 19:41:44",
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 3268 bytes)",
+	"ThumbnailImage": "(Binary data 3268 bytes, use -b option to extract)",
 	"ThumbnailLength": 3268,
 	"ThumbnailOffset": 511,
 	"XResolution": 72,

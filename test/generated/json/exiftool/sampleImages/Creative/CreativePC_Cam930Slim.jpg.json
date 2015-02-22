@@ -52,7 +52,7 @@
 	"Sharpness": "Soft",
 	"ShutterSpeed": "1/236",
 	"Software": "3.2.54C",
-	"ThumbnailImage": "(Binary data 6894 bytes)",
+	"ThumbnailImage": "(Binary data 6894 bytes, use -b option to extract)",
 	"ThumbnailLength": 6894,
 	"ThumbnailOffset": 984,
 	"Warning": "[minor] Unrecognized MakerNotes",

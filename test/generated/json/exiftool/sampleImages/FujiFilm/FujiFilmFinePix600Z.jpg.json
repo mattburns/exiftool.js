@@ -51,7 +51,7 @@
 	"ShutterSpeed": "1/239",
 	"ShutterSpeedValue": "1/239",
 	"Software": "Digital Camera FinePix600Z Ver1.00",
-	"ThumbnailImage": "(Binary data 5364 bytes)",
+	"ThumbnailImage": "(Binary data 5364 bytes, use -b option to extract)",
 	"ThumbnailLength": 5364,
 	"ThumbnailOffset": 886,
 	"XResolution": 72,

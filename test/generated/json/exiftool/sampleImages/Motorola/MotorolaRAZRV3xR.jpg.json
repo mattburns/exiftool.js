@@ -23,7 +23,7 @@
 	"Make": "MOTOROLA",
 	"Model": "RAZRV3xR",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 1856 bytes)",
+	"ThumbnailImage": "(Binary data 1856 bytes, use -b option to extract)",
 	"ThumbnailLength": 1856,
 	"ThumbnailOffset": 550,
 	"XResolution": 72,

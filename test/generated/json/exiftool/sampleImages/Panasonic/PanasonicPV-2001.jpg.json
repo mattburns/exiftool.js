@@ -22,7 +22,7 @@
 	"ModifyDate": "2001:08:07 17:06:04",
 	"ResolutionUnit": "inches",
 	"Software": "Ver.1.0",
-	"ThumbnailImage": "(Binary data 2016 bytes)",
+	"ThumbnailImage": "(Binary data 2016 bytes, use -b option to extract)",
 	"ThumbnailLength": 2016,
 	"ThumbnailOffset": 476,
 	"XResolution": 72,

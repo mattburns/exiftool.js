@@ -20,7 +20,7 @@
 	"Make": "DoCoMo",
 	"Model": "P900i",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 4056 bytes)",
+	"ThumbnailImage": "(Binary data 4056 bytes, use -b option to extract)",
 	"ThumbnailLength": 4056,
 	"ThumbnailOffset": 456,
 	"XResolution": 72,

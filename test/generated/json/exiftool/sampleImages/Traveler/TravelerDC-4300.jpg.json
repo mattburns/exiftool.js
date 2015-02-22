@@ -42,7 +42,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/21",
 	"Software": "Traveler V0602-0105",
-	"ThumbnailImage": "(Binary data 6146 bytes)",
+	"ThumbnailImage": "(Binary data 6146 bytes, use -b option to extract)",
 	"ThumbnailLength": 6146,
 	"ThumbnailOffset": 965,
 	"Warning": "Bad MakerNotes offset for tag 0x0002",

@@ -81,7 +81,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S3Pro   Ver2.71",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 9796 bytes)",
+	"ThumbnailImage": "(Binary data 9796 bytes, use -b option to extract)",
 	"ThumbnailLength": 9796,
 	"ThumbnailOffset": 2406,
 	"UserComment": "",

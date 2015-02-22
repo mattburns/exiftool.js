@@ -47,7 +47,7 @@
 	"SensingMethod": "One-chip color area",
 	"ShutterSpeed": "1/250",
 	"Software": "Ver 1.0",
-	"ThumbnailImage": "(Binary data 11487 bytes)",
+	"ThumbnailImage": "(Binary data 11487 bytes, use -b option to extract)",
 	"ThumbnailLength": 11487,
 	"ThumbnailOffset": 1536,
 	"WhiteBalance": "Auto",

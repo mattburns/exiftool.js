@@ -29,7 +29,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/21",
 	"Software": "KE_1433_15.0.1",
-	"ThumbnailImage": "(Binary data 22451 bytes)",
+	"ThumbnailImage": "(Binary data 22451 bytes, use -b option to extract)",
 	"ThumbnailLength": 22451,
 	"ThumbnailOffset": 570,
 	"WhiteBalance": "Manual",

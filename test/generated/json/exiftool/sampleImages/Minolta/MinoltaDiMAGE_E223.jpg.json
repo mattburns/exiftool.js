@@ -43,7 +43,7 @@
 	"ShutterSpeed": "1/726",
 	"ShutterSpeedValue": "1/724",
 	"Software": "Ver.1.00",
-	"ThumbnailImage": "(Binary data 5050 bytes)",
+	"ThumbnailImage": "(Binary data 5050 bytes, use -b option to extract)",
 	"ThumbnailLength": 5050,
 	"ThumbnailOffset": 1331,
 	"Warning": "Invalid PrintIM header",

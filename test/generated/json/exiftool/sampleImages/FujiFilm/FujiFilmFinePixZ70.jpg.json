@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix Z70 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3811 bytes)",
+	"ThumbnailImage": "(Binary data 3811 bytes, use -b option to extract)",
 	"ThumbnailLength": 3811,
 	"ThumbnailOffset": 2548,
 	"Version": "0130",

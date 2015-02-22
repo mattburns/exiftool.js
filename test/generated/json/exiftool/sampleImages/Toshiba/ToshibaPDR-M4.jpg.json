@@ -34,7 +34,7 @@
 	"ShutterSpeed": "1/55",
 	"ShutterSpeedValue": "1/54",
 	"Software": "Digital Camera PDR-M4 Ver1.10",
-	"ThumbnailImage": "(Binary data 6204 bytes)",
+	"ThumbnailImage": "(Binary data 6204 bytes, use -b option to extract)",
 	"ThumbnailLength": 6204,
 	"ThumbnailOffset": 728,
 	"Warning": "[minor] Unrecognized MakerNotes",

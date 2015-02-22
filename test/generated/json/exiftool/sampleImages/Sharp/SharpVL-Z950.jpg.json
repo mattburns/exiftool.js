@@ -47,7 +47,7 @@
 	"ShutterSpeed": "1/30",
 	"ShutterSpeedValue": "1/32",
 	"Software": "DigitalCameraVL-Z950    v1.00",
-	"ThumbnailImage": "(Binary data 2780 bytes)",
+	"ThumbnailImage": "(Binary data 2780 bytes, use -b option to extract)",
 	"ThumbnailLength": 2780,
 	"ThumbnailOffset": 1054,
 	"UserComment": "",

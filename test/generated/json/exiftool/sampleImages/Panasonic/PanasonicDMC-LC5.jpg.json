@@ -11,7 +11,7 @@
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
 	"CompressedBitsPerPixel": 4.1,
 	"CreateDate": "2004:10:09 18:26:49",
-	"DataDump": "(Binary data 16 bytes)",
+	"DataDump": "(Binary data 16 bytes, use -b option to extract)",
 	"DateTimeOriginal": "2004:10:09 18:26:49",
 	"EncodingProcess": "Baseline DCT, Huffman coding",
 	"ExifByteOrder": "Little-endian (Intel, II)",

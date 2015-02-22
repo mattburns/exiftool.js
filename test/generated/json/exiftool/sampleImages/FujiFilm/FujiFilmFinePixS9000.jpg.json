@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S9000   Ver1.02",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 8312 bytes)",
+	"ThumbnailImage": "(Binary data 8312 bytes, use -b option to extract)",
 	"ThumbnailLength": 8312,
 	"ThumbnailOffset": 1354,
 	"Version": "0130",

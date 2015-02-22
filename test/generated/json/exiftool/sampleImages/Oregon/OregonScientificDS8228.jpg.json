@@ -37,7 +37,7 @@
 	"SensingMethod": "One-chip color area",
 	"ShutterSpeed": "1/13",
 	"Software": "RJ23N3 V0.81",
-	"ThumbnailImage": "(Binary data 15231 bytes)",
+	"ThumbnailImage": "(Binary data 15231 bytes, use -b option to extract)",
 	"ThumbnailLength": 15231,
 	"ThumbnailOffset": 622,
 	"XResolution": 72,

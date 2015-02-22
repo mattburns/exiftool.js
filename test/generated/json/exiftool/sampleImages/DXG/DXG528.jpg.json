@@ -61,7 +61,7 @@
 	"SubjectArea": "0 0 0 0",
 	"SubjectDistance": "0 m",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2168 bytes)",
+	"ThumbnailImage": "(Binary data 2168 bytes, use -b option to extract)",
 	"ThumbnailLength": 2168,
 	"ThumbnailOffset": 4237,
 	"UserComment": "",

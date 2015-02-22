@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/28",
 	"ShutterSpeedValue": "1/28",
 	"Software": "Digital Camera PDR-M3 Ver1.00",
-	"ThumbnailImage": "(Binary data 5099 bytes)",
+	"ThumbnailImage": "(Binary data 5099 bytes, use -b option to extract)",
 	"ThumbnailLength": 5099,
 	"ThumbnailOffset": 868,
 	"XResolution": 72,

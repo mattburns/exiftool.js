@@ -58,7 +58,7 @@
 	"Software": "EO334-0100",
 	"SpecialMode": "Normal, Sequence: 0, Panorama: (none)",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2437 bytes)",
+	"ThumbnailImage": "(Binary data 2437 bytes, use -b option to extract)",
 	"ThumbnailLength": 2437,
 	"ThumbnailOffset": 4165,
 	"UserComment": "",

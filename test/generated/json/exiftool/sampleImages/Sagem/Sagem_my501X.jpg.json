@@ -23,7 +23,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"Software": "LS5,KB:",
-	"ThumbnailImage": "(Binary data 12336 bytes)",
+	"ThumbnailImage": "(Binary data 12336 bytes, use -b option to extract)",
 	"ThumbnailLength": 12336,
 	"ThumbnailOffset": 466,
 	"XResolution": 72,

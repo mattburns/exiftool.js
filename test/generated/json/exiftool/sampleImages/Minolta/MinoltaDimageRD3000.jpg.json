@@ -25,7 +25,7 @@
 	"ImageWidth": 8,
 	"LightSource": "Standard Light C",
 	"Make": "Minolta Co.,Ltd.",
-	"MakerNoteMinolta3": "(Binary data 500 bytes)",
+	"MakerNoteMinolta3": "(Binary data 500 bytes, use -b option to extract)",
 	"MeteringMode": "Multi-segment",
 	"Model": "Dimage RD 3000",
 	"ModifyDate": "2002:01:13 05:32:17",

@@ -104,7 +104,7 @@
 	"SubSecTimeOriginal": "000",
 	"SubjectDistanceRange": "Unknown",
 	"TextStamp": "Off",
-	"ThumbnailImage": "(Binary data 6568 bytes)",
+	"ThumbnailImage": "(Binary data 6568 bytes, use -b option to extract)",
 	"ThumbnailLength": 6568,
 	"ThumbnailOffset": 5280,
 	"TimeSincePowerOn": "00:00:00.39",

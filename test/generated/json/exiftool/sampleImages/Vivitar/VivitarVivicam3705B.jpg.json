@@ -44,7 +44,7 @@
 	"ShutterSpeed": "1/20",
 	"Software": "Ver. 1.30V",
 	"SubjectDistanceRange": "Close",
-	"ThumbnailImage": "(Binary data 8560 bytes)",
+	"ThumbnailImage": "(Binary data 8560 bytes, use -b option to extract)",
 	"ThumbnailLength": 8560,
 	"ThumbnailOffset": 1064,
 	"UserComment": "",

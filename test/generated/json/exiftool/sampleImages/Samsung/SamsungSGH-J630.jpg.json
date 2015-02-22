@@ -34,7 +34,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "J630JHHD4",
-	"ThumbnailImage": "(Binary data 5052 bytes)",
+	"ThumbnailImage": "(Binary data 5052 bytes, use -b option to extract)",
 	"ThumbnailLength": 5052,
 	"ThumbnailOffset": 656,
 	"WhiteBalance": "Auto",

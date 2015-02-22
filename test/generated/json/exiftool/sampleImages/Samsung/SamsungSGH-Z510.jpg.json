@@ -31,7 +31,7 @@
 	"ShutterSpeed": "1/21",
 	"Software": "Z510NSFF3",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 11219 bytes)",
+	"ThumbnailImage": "(Binary data 11219 bytes, use -b option to extract)",
 	"ThumbnailLength": 11219,
 	"ThumbnailOffset": 712,
 	"WhiteBalance": "Auto",

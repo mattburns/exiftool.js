@@ -32,7 +32,7 @@
 	"Make": "Acer",
 	"Model": "Liquid Metal",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 42167 bytes)",
+	"ThumbnailImage": "(Binary data 42167 bytes, use -b option to extract)",
 	"ThumbnailLength": 42167,
 	"ThumbnailOffset": 650,
 	"XResolution": 72,

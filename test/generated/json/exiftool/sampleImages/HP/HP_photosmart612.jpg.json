@@ -38,7 +38,7 @@
 	"ShutterSpeedValue": "1/30",
 	"Software": "V3.60",
 	"SubjectDistance": "0.8 m",
-	"ThumbnailImage": "(Binary data 4365 bytes)",
+	"ThumbnailImage": "(Binary data 4365 bytes, use -b option to extract)",
 	"ThumbnailLength": 4365,
 	"ThumbnailOffset": 1042,
 	"XResolution": 72,

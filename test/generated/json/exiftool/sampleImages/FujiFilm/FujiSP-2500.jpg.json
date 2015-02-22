@@ -30,7 +30,7 @@
 	"SceneType": "Directly photographed",
 	"Software": "FDi V4.5 / FRONTIER390-6.6-0E-345",
 	"SpatialFrequencyResponse": 311,
-	"ThumbnailImage": "(Binary data 9743 bytes)",
+	"ThumbnailImage": "(Binary data 9743 bytes, use -b option to extract)",
 	"ThumbnailLength": 9743,
 	"ThumbnailOffset": 720,
 	"Version": "0130",

@@ -77,7 +77,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S1900 Ver1.04",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 4128 bytes)",
+	"ThumbnailImage": "(Binary data 4128 bytes, use -b option to extract)",
 	"ThumbnailLength": 4128,
 	"ThumbnailOffset": 27040,
 	"Version": "0130",

@@ -222,7 +222,7 @@
 	"SuperimposedDisplay": "On",
 	"TargetAperture": 8,
 	"TargetExposureTime": "1/256",
-	"ThumbnailImage": "(Binary data 15305 bytes)",
+	"ThumbnailImage": "(Binary data 15305 bytes, use -b option to extract)",
 	"ThumbnailImageValidArea": "0 159 7 112",
 	"ThumbnailLength": 15305,
 	"ThumbnailOffset": 4590,

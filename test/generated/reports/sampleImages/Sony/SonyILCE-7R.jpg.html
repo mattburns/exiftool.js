@@ -23,7 +23,7 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
-        <h3>sampleImages/Sony/SonyILCE-7R.jpg</h3>
+        <h3>node_modules/exiftool.js-dev-dependencies/sampleImages/Sony/SonyILCE-7R.jpg</h3>
 <table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
 <tbody>
 <tr>
@@ -76,6 +76,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>BatteryTemperature</td>
+<td class='match'>35.0 C</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>BitsPerSample</td>
 <td class='match'>8</td>
 <td class='missing'>-</td>
@@ -98,10 +105,10 @@
 </tr>
 <tr>
 <td>BrightnessValue</td>
-<td class='match'>0.357031249999999</td>
-<td class='diff'>0.35703125</td>
-<td class='diff'>0.35703125</td>
-<td class='diff'>0.35703125</td>
+<td class='match'>0.35703125</td>
+<td class='match'>0.35703125</td>
+<td class='match'>0.35703125</td>
+<td class='match'>0.35703125</td>
 </tr>
 <tr>
 <td>CameraOrientation</td>
@@ -238,13 +245,6 @@
 </tr>
 <tr>
 <td>DynamicRangeOptimizer</td>
-<td class='match'>Off</td>
-<td class='missing'>-</td>
-<td class='missing'>-</td>
-<td class='missing'>-</td>
-</tr>
-<tr>
-<td>Effect</td>
 <td class='match'>Off</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -489,6 +489,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>ImageCount2</td>
+<td class='match'>4950</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>ImageDescription</td>
 <td class='match'>                               </td>
 <td class='diff'></td>
@@ -581,7 +588,7 @@
 </tr>
 <tr>
 <td>LensMount</td>
-<td class='match'>A-Mount</td>
+<td class='match'>A-mount</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -685,6 +692,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>MaxFocalLength</td>
+<td class='match'>24.0 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>MetaVersion</td>
 <td class='match'>DC7303320222000</td>
 <td class='missing'>-</td>
@@ -696,6 +710,13 @@
 <td class='match'>Center-weighted average</td>
 <td class='diff'>CenterWeightedAverage</td>
 <td class='diff'>2</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>MinFocalLength</td>
+<td class='match'>24.0 mm</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
 <td class='missing'>-</td>
 </tr>
 <tr>
@@ -741,8 +762,15 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>PictureEffect2</td>
+<td class='match'>Off</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>PreviewImage</td>
-<td class='match'>(Binary data 1176109 bytes)</td>
+<td class='match'>(Binary data 1176109 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -889,7 +917,7 @@
 </tr>
 <tr>
 <td>SequenceLength</td>
-<td class='match'>1 shot</td>
+<td class='match'>1 file</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -944,6 +972,34 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>SonyDateTime2</td>
+<td class='match'>2013:09:08 05:10:38</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SonyExposureTime</td>
+<td class='match'>0.8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SonyExposureTime2</td>
+<td class='match'>0.8</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SonyFNumber</td>
+<td class='match'>11.3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>SonyImageHeight</td>
 <td class='match'>4912</td>
 <td class='missing'>-</td>
@@ -953,6 +1009,13 @@
 <tr>
 <td>SonyImageWidth</td>
 <td class='match'>7360</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>SonyMaxApertureValue</td>
+<td class='match'>2.1</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -980,7 +1043,7 @@
 </tr>
 <tr>
 <td>ThumbnailImage</td>
-<td class='match'>(Binary data 12805 bytes)</td>
+<td class='match'>(Binary data 12805 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>

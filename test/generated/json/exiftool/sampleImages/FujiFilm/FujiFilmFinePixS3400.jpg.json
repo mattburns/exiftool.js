@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S3400 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 2781 bytes)",
+	"ThumbnailImage": "(Binary data 2781 bytes, use -b option to extract)",
 	"ThumbnailLength": 2781,
 	"ThumbnailOffset": 27136,
 	"Version": "0130",

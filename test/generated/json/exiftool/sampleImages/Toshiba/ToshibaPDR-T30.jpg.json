@@ -54,7 +54,7 @@
 	"ShutterSpeed": "1/45",
 	"ShutterSpeedValue": "1/45",
 	"Software": "DSC PDR-T30 Ver1.05",
-	"ThumbnailImage": "(Binary data 8273 bytes)",
+	"ThumbnailImage": "(Binary data 8273 bytes, use -b option to extract)",
 	"ThumbnailLength": 8273,
 	"ThumbnailOffset": 980,
 	"Warning": "[minor] Unrecognized MakerNotes",

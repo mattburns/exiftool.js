@@ -33,7 +33,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "M6550B-SMAARZ-4.4.80",
-	"ThumbnailImage": "(Binary data 8438 bytes)",
+	"ThumbnailImage": "(Binary data 8438 bytes, use -b option to extract)",
 	"ThumbnailLength": 8438,
 	"ThumbnailOffset": 654,
 	"WhiteBalance": "Auto",

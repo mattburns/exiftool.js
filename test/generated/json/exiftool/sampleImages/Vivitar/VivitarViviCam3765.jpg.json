@@ -43,7 +43,7 @@
 	"ShutterSpeed": "1/666",
 	"ShutterSpeedValue": "1/664",
 	"Software": "1020D",
-	"ThumbnailImage": "(Binary data 4316 bytes)",
+	"ThumbnailImage": "(Binary data 4316 bytes, use -b option to extract)",
 	"ThumbnailLength": 4316,
 	"ThumbnailOffset": 1331,
 	"Warning": "Invalid PrintIM header",

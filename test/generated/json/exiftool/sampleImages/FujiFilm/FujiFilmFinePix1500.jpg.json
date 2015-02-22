@@ -51,7 +51,7 @@
 	"ShutterSpeed": "1/97",
 	"ShutterSpeedValue": "1/97",
 	"Software": "Digital Camera FinePix1500 Ver1.00",
-	"ThumbnailImage": "(Binary data 5700 bytes)",
+	"ThumbnailImage": "(Binary data 5700 bytes, use -b option to extract)",
 	"ThumbnailLength": 5700,
 	"ThumbnailOffset": 886,
 	"XResolution": 72,

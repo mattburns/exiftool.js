@@ -76,7 +76,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A345 Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 7168 bytes)",
+	"ThumbnailImage": "(Binary data 7168 bytes, use -b option to extract)",
 	"ThumbnailLength": 7168,
 	"ThumbnailOffset": 1328,
 	"Version": "0130",

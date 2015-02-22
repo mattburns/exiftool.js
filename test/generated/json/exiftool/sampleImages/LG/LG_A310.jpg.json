@@ -57,7 +57,7 @@
 	"ShutterSpeed": "1/104",
 	"Software": "v714r-72",
 	"SubjectDistanceRange": "Distant",
-	"ThumbnailImage": "(Binary data 6293 bytes)",
+	"ThumbnailImage": "(Binary data 6293 bytes, use -b option to extract)",
 	"ThumbnailLength": 6293,
 	"ThumbnailOffset": 4096,
 	"UserComment": "",

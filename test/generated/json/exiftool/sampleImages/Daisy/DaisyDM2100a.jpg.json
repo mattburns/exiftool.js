@@ -28,7 +28,7 @@
 	"ResolutionUnit": "inches",
 	"SceneType": "Directly photographed",
 	"Software": "Exif Daisy Multimedia   1.00",
-	"ThumbnailImage": "(Binary data 38400 bytes)",
+	"ThumbnailImage": "(Binary data 38400 bytes, use -b option to extract)",
 	"ThumbnailLength": 38400,
 	"ThumbnailOffset": 654,
 	"Warning": "[minor] Unrecognized MakerNotes",

@@ -38,7 +38,7 @@
 	"ShutterSpeed": "1/16",
 	"ShutterSpeedValue": "1/16",
 	"Software": "C5510JVIG2",
-	"ThumbnailImage": "(Binary data 20008 bytes)",
+	"ThumbnailImage": "(Binary data 20008 bytes, use -b option to extract)",
 	"ThumbnailLength": 20008,
 	"ThumbnailOffset": 686,
 	"WhiteBalance": "Auto",

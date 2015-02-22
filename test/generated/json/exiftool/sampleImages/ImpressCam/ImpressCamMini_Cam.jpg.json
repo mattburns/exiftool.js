@@ -41,7 +41,7 @@
 	"SceneType": "Unknown (15)",
 	"ShutterSpeed": "1/811",
 	"Software": "Software version 045",
-	"ThumbnailImage": "(Binary data 7375 bytes)",
+	"ThumbnailImage": "(Binary data 7375 bytes, use -b option to extract)",
 	"ThumbnailLength": 7375,
 	"ThumbnailOffset": 1660,
 	"Warning": "[minor] Unrecognized MakerNotes",

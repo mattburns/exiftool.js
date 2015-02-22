@@ -33,7 +33,7 @@
 	"SceneType": "Directly photographed",
 	"Sharpness": "Normal",
 	"Software": "KU990-MSM6280-V10e-OCT-25-2007-XX",
-	"ThumbnailImage": "(Binary data 16456 bytes)",
+	"ThumbnailImage": "(Binary data 16456 bytes, use -b option to extract)",
 	"ThumbnailLength": 16456,
 	"ThumbnailOffset": 638,
 	"WhiteBalance": "Auto",

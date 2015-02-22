@@ -33,7 +33,7 @@
 	"SceneType": "Directly photographed",
 	"ShutterSpeed": "1/125",
 	"Software": "CE26",
-	"ThumbnailImage": "(Binary data 13303 bytes)",
+	"ThumbnailImage": "(Binary data 13303 bytes, use -b option to extract)",
 	"ThumbnailLength": 13303,
 	"ThumbnailOffset": 1296,
 	"WhiteBalance": "Auto",

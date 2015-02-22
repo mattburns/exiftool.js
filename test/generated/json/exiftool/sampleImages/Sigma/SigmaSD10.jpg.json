@@ -61,7 +61,7 @@
 	"Sharpness": "+1.0",
 	"ShutterSpeed": "1/320",
 	"Software": "SIGMA PhotoPro 2.0.0.1586",
-	"ThumbnailImage": "(Binary data 10534 bytes)",
+	"ThumbnailImage": "(Binary data 10534 bytes, use -b option to extract)",
 	"ThumbnailLength": 10534,
 	"ThumbnailOffset": 315,
 	"WhiteBalance": "Sunlight",

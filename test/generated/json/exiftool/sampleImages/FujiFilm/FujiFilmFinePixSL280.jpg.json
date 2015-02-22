@@ -79,7 +79,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix SL280 Ver1.01",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3757 bytes)",
+	"ThumbnailImage": "(Binary data 3757 bytes, use -b option to extract)",
 	"ThumbnailLength": 3757,
 	"ThumbnailOffset": 27136,
 	"Version": "0130",

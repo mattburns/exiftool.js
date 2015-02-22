@@ -74,7 +74,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix A340    Ver1.19",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10003 bytes)",
+	"ThumbnailImage": "(Binary data 10003 bytes, use -b option to extract)",
 	"ThumbnailLength": 10003,
 	"ThumbnailOffset": 1266,
 	"Version": "0130",

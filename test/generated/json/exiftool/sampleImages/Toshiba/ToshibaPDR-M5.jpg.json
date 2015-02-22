@@ -36,7 +36,7 @@
 	"ShutterSpeed": "1/55",
 	"ShutterSpeedValue": "1/54",
 	"Software": "Digital Camera PDRM5  Ver2.04",
-	"ThumbnailImage": "(Binary data 6124 bytes)",
+	"ThumbnailImage": "(Binary data 6124 bytes, use -b option to extract)",
 	"ThumbnailLength": 6124,
 	"ThumbnailOffset": 740,
 	"Warning": "[minor] Unrecognized MakerNotes",

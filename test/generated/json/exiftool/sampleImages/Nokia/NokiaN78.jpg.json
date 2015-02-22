@@ -45,7 +45,7 @@
 	"SceneCaptureType": "Standard",
 	"ShutterSpeed": "1/15",
 	"ShutterSpeedValue": "1/15",
-	"ThumbnailImage": "(Binary data 2490 bytes)",
+	"ThumbnailImage": "(Binary data 2490 bytes, use -b option to extract)",
 	"ThumbnailLength": 2490,
 	"ThumbnailOffset": 1938,
 	"UserComment": "testomschrijving",

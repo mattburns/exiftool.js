@@ -29,7 +29,7 @@
 	"SceneType": "Directly photographed",
 	"SensingMethod": "One-chip color area",
 	"Software": "Digital Camera VN-EZ1 Ver1.00",
-	"ThumbnailImage": "(Binary data 3633 bytes)",
+	"ThumbnailImage": "(Binary data 3633 bytes, use -b option to extract)",
 	"ThumbnailLength": 3633,
 	"ThumbnailOffset": 606,
 	"XResolution": 72,

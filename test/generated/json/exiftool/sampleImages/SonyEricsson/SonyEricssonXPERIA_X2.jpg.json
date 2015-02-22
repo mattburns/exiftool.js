@@ -38,7 +38,7 @@
 	"SubSecTimeDigitized": "2010:06:04 18:17:21",
 	"SubSecTimeOriginal": "2010:06:04 18:17:21",
 	"SubjectDistance": "2 m",
-	"ThumbnailImage": "(Binary data 33649 bytes)",
+	"ThumbnailImage": "(Binary data 33649 bytes, use -b option to extract)",
 	"ThumbnailLength": 33649,
 	"ThumbnailOffset": 287,
 	"XResolution": 72,

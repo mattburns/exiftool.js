@@ -25,7 +25,7 @@
 	"PrintIMVersion": "0300",
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/21",
-	"ThumbnailImage": "(Binary data 6588 bytes)",
+	"ThumbnailImage": "(Binary data 6588 bytes, use -b option to extract)",
 	"ThumbnailLength": 6588,
 	"ThumbnailOffset": 1892,
 	"Warning": "Suspicious IFD0 offset for YCbCrPositioning",

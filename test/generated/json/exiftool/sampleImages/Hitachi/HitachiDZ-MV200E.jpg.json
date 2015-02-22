@@ -21,7 +21,7 @@
 	"Make": "HITACHI",
 	"Model": "DZ-MV200E",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 3877 bytes)",
+	"ThumbnailImage": "(Binary data 3877 bytes, use -b option to extract)",
 	"ThumbnailLength": 3877,
 	"ThumbnailOffset": 440,
 	"XResolution": 72,

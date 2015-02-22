@@ -73,7 +73,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix2650    Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 10008 bytes)",
+	"ThumbnailImage": "(Binary data 10008 bytes, use -b option to extract)",
 	"ThumbnailLength": 10008,
 	"ThumbnailOffset": 1252,
 	"Version": "0130",

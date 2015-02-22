@@ -39,7 +39,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/8",
 	"Software": "S3370XEJD4",
-	"ThumbnailImage": "(Binary data 10138 bytes)",
+	"ThumbnailImage": "(Binary data 10138 bytes, use -b option to extract)",
 	"ThumbnailLength": 10138,
 	"ThumbnailOffset": 694,
 	"WhiteBalance": "Auto",

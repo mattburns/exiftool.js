@@ -47,7 +47,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/112",
 	"Software": "V1.03US",
-	"ThumbnailImage": "(Binary data 7197 bytes)",
+	"ThumbnailImage": "(Binary data 7197 bytes, use -b option to extract)",
 	"ThumbnailLength": 7197,
 	"ThumbnailOffset": 12242,
 	"Warning": "Invalid MakerNoteSanyo data",

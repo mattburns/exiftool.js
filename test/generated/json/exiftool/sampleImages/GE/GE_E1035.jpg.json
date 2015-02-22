@@ -50,7 +50,7 @@
 	"ShutterSpeed": "1/77",
 	"ShutterSpeedValue": "1/77",
 	"Software": "GIMP 2.6.3",
-	"ThumbnailImage": "(Binary data 9900 bytes)",
+	"ThumbnailImage": "(Binary data 9900 bytes, use -b option to extract)",
 	"ThumbnailLength": 9900,
 	"ThumbnailOffset": 1190,
 	"UserComment": "R:  139 G:  255 B:  189 X:39852 Y:    0 S:    0 Zs:   6 Zp: 115 F:  531 I:    1 ImgVer:08.01.09.10",

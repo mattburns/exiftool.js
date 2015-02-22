@@ -18,7 +18,7 @@
 	"Model": "Elf100",
 	"ModifyDate": "2009:03:25 13:56:06",
 	"ResolutionUnit": "inches",
-	"ThumbnailImage": "(Binary data 3040 bytes)",
+	"ThumbnailImage": "(Binary data 3040 bytes, use -b option to extract)",
 	"ThumbnailLength": 3040,
 	"ThumbnailOffset": 353,
 	"XResolution": 72,

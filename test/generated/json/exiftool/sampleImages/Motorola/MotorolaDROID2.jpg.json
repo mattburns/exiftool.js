@@ -74,7 +74,7 @@
 	"Software": 2.2,
 	"SubjectDistance": "0 m",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 38078 bytes)",
+	"ThumbnailImage": "(Binary data 38078 bytes, use -b option to extract)",
 	"ThumbnailLength": 38078,
 	"ThumbnailOffset": 2872,
 	"UserComment": "",

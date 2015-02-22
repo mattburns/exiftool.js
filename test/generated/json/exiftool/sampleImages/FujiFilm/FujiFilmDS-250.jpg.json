@@ -48,7 +48,7 @@
 	"ShutterSpeed": "1/97",
 	"ShutterSpeedValue": "1/97",
 	"Software": "Digital Camera DS-250 Ver1.00",
-	"ThumbnailImage": "(Binary data 3693 bytes)",
+	"ThumbnailImage": "(Binary data 3693 bytes, use -b option to extract)",
 	"ThumbnailLength": 3693,
 	"ThumbnailOffset": 824,
 	"XResolution": 72,

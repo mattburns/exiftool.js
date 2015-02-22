@@ -28,7 +28,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"Software": "Exif Software Version 1.24",
-	"ThumbnailImage": "(Binary data 19702 bytes)",
+	"ThumbnailImage": "(Binary data 19702 bytes, use -b option to extract)",
 	"ThumbnailLength": 19702,
 	"ThumbnailOffset": 506,
 	"XResolution": 72,

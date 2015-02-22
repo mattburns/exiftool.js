@@ -48,7 +48,7 @@
 	"Sharpness": "Normal",
 	"ShutterSpeed": "1/10",
 	"Software": 1.03,
-	"ThumbnailImage": "(Binary data 5714 bytes)",
+	"ThumbnailImage": "(Binary data 5714 bytes, use -b option to extract)",
 	"ThumbnailLength": 5714,
 	"ThumbnailOffset": 8192,
 	"Warning": "Bad MakerNotes directory",

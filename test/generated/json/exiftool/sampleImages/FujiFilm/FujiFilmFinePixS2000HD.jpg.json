@@ -78,7 +78,7 @@
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix S2000HD Ver1.00",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 3523 bytes)",
+	"ThumbnailImage": "(Binary data 3523 bytes, use -b option to extract)",
 	"ThumbnailLength": 3523,
 	"ThumbnailOffset": 5120,
 	"Version": "0130",

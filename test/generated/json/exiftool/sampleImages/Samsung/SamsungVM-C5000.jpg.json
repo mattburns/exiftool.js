@@ -43,7 +43,7 @@
 	"SensingMethod": "One-chip color area",
 	"ShutterSpeed": "1/250",
 	"Software": "DSC VERSION 1.0",
-	"ThumbnailImage": "(Binary data 16678 bytes)",
+	"ThumbnailImage": "(Binary data 16678 bytes, use -b option to extract)",
 	"ThumbnailLength": 16678,
 	"ThumbnailOffset": 1536,
 	"XResolution": 72,

@@ -61,7 +61,7 @@
 	"ShutterSpeedValue": "1/30",
 	"Software": "Version 1.0100",
 	"SubjectDistanceRange": "Macro",
-	"ThumbnailImage": "(Binary data 6180 bytes)",
+	"ThumbnailImage": "(Binary data 6180 bytes, use -b option to extract)",
 	"ThumbnailLength": 6180,
 	"ThumbnailOffset": 1792,
 	"WhiteBalance": "Flash",

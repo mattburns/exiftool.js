@@ -36,7 +36,7 @@
 	"ShutterSpeed": "1/20",
 	"Software": "R8BF003     prgCXC1250210_GENERIC_W 0.0",
 	"SubjectDistanceRange": "Close",
-	"ThumbnailImage": "(Binary data 3596 bytes)",
+	"ThumbnailImage": "(Binary data 3596 bytes, use -b option to extract)",
 	"ThumbnailLength": 3596,
 	"ThumbnailOffset": 672,
 	"WhiteBalance": "Auto",

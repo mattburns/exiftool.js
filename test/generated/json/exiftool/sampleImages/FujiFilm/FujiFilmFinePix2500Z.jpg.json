@@ -63,7 +63,7 @@
 	"ShutterSpeedValue": "1/97",
 	"SlowSync": "Off",
 	"Software": "Digital Camera FinePix2500Z Ver1.73",
-	"ThumbnailImage": "(Binary data 11005 bytes)",
+	"ThumbnailImage": "(Binary data 11005 bytes, use -b option to extract)",
 	"ThumbnailLength": 11005,
 	"ThumbnailOffset": 1477,
 	"Version": "0130",

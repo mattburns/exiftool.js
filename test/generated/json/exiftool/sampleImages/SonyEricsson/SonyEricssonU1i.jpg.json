@@ -43,7 +43,7 @@
 	"ShutterSpeedValue": "1/1000",
 	"Software": "1218-9500_R1BB041\n06-10-09\n\n(c) Sony Ericsson",
 	"SubjectDistanceRange": "Unknown",
-	"ThumbnailImage": "(Binary data 8106 bytes)",
+	"ThumbnailImage": "(Binary data 8106 bytes, use -b option to extract)",
 	"ThumbnailLength": 8106,
 	"ThumbnailOffset": 780,
 	"WhiteBalance": "Auto",

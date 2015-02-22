@@ -23,12 +23,19 @@
     <div class="container-fluid">
         <h1>exiftool.js coverage report</h1>
         <p>Compare the outputs from <a href= "http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a> against <a href="https://github.com/mattburns/exiftool.js">exiftool.js</a> and <a href="https://github.com/gomfunkel/node-exif">Gomfunkel's node-exif</a></p>
-        <h3>sampleImages/_Other/IMGP1949.JPG</h3>
+        <h3>node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/IMGP1949.JPG</h3>
 <table class='table table-bordered'><thead><tr><th>tag</th><th>exiftool</th><th>exiftool.js</th><th>Gomfunkel</th><th>Redaktor</th></tr></thead>
 <tbody>
 <tr>
 <td>AEAperture</td>
 <td class='match'>11.3</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AEApertureSteps</td>
+<td class='match'>27</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -76,6 +83,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>AEMeteringMode2</td>
+<td class='match'>Multi-segment</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>AEMeteringSegments</td>
 <td class='match'>17.4 19.5 23.9 15.8 16.2 13.9 17.1 14.8 15.2 13.6 15.2 15.1 14.8 14.6 14.6 15.0</td>
 <td class='missing'>-</td>
@@ -99,6 +113,13 @@
 <tr>
 <td>AEProgramMode</td>
 <td class='match'>Landscape</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
+<td>AEWhiteBalance</td>
+<td class='match'>Daylight Fluorescent</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -427,7 +448,7 @@
 </tr>
 <tr>
 <td>DynamicRangeExpansion</td>
-<td class='match'>Off</td>
+<td class='match'>Off; 0; 0; 0</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -651,7 +672,7 @@
 </tr>
 <tr>
 <td>FocusMode</td>
-<td class='match'>AF-S</td>
+<td class='match'>AF-S (Focus-priority)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -923,6 +944,13 @@
 <td class='missing'>-</td>
 </tr>
 <tr>
+<td>LevelIndicator</td>
+<td class='match'>n/a</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+<td class='missing'>-</td>
+</tr>
+<tr>
 <td>LevelOrientation</td>
 <td class='match'>Horizontal (normal)</td>
 <td class='missing'>-</td>
@@ -1092,7 +1120,7 @@
 </tr>
 <tr>
 <td>PreviewImage</td>
-<td class='match'>(Binary data 18032 bytes)</td>
+<td class='match'>(Binary data 18032 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
@@ -1316,7 +1344,7 @@
 </tr>
 <tr>
 <td>ThumbnailImage</td>
-<td class='match'>(Binary data 7389 bytes)</td>
+<td class='match'>(Binary data 7389 bytes, use -b option to extract)</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>
 <td class='missing'>-</td>

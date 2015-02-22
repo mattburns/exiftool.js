@@ -38,7 +38,7 @@
 	"ShutterSpeed": "1/15",
 	"Software": "R1JA013     prgCXC1250791_GENERIC_L 0.0",
 	"SubjectDistanceRange": "Macro",
-	"ThumbnailImage": "(Binary data 7228 bytes)",
+	"ThumbnailImage": "(Binary data 7228 bytes, use -b option to extract)",
 	"ThumbnailLength": 7228,
 	"ThumbnailOffset": 748,
 	"WhiteBalance": "Auto",

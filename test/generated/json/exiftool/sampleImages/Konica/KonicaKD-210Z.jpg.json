@@ -35,7 +35,7 @@
 	"Orientation": "Horizontal (normal)",
 	"ResolutionUnit": "inches",
 	"ShutterSpeed": "1/32",
-	"ThumbnailImage": "(Binary data 4007 bytes)",
+	"ThumbnailImage": "(Binary data 4007 bytes, use -b option to extract)",
 	"ThumbnailLength": 4007,
 	"ThumbnailOffset": 3091,
 	"Warning": "[minor] Unrecognized MakerNotes",
