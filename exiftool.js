@@ -718,7 +718,7 @@
                     if (onComplete)
                         onComplete((oEXIF || {}), theUrl);
                 }
-            })(url))
+            })(url), onComplete({}, url)); // on err, just hit callback with {}
         }
 
         function findEXIFinJPEG(oFile) {
