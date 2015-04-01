@@ -2,8 +2,8 @@
 	"ApertureValue": "3",
 	"ColorSpace": "sRGB",
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
-	"CreateDate": "2010:06:05",
-	"DateTimeOriginal": "2010:06:05",
+	"CreateDate": "2",
+	"DateTimeOriginal": "2",
 	"ExifIFDPointer": "146",
 	"ExifImageHeight": "1536",
 	"ExifImageWidth": "2048",
@@ -14,7 +14,7 @@
 	"ImageDescription": "S",
 	"Make": "LG Electronics",
 	"Model": "GD510",
-	"ModifyDate": "2010:06:05",
+	"ModifyDate": "2",
 	"Orientation": "1",
-	"Software": "LGESW"
+	"Software": "LGE_SW"
 }

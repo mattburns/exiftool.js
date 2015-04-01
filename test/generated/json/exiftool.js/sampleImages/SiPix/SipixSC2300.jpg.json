@@ -15,7 +15,7 @@
 	"Flash": "No Flash",
 	"FlashpixVersion": "0100",
 	"ISO": "100",
-	"ImageDescription": "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+	"ImageDescription": "",
 	"InteroperabilityIFDPointer": "672",
 	"Make": "Sipix Corporation",
 	"MakerNoteIFDPointer": "65,17,0,0,69,65,85,71,1,67,1,66,5,66,0,0",
@@ -25,7 +25,7 @@
 	"RelatedSoundFile": "",
 	"ResolutionUnit": "2",
 	"ShutterSpeedValue": "5.125",
-	"Software": "V1.05916F19",
+	"Software": "V1.05_916F_19",
 	"XResolution": "72",
 	"YCbCrPositioning": "2",
 	"YResolution": "72"
