@@ -385,9 +385,8 @@ var start = function(done) {
     });
 };
 
-
-describe('Very simple parsing test', function(){
-    it('should return Canon', function(done) {
+describe('General usage', function(){
+    it('should parse Make', function(done) {
         exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/Canon/CanonEOS1000D.jpg',
                 function(err, exif) {
             if (err) {
@@ -399,6 +398,61 @@ describe('Very simple parsing test', function(){
     });
 });
 
+describe('For Canon images', function(){
+    it('should find InternalSerialNumber (used to incorrectly be InternalSerialInfo)', function(done) {
+        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/Canon/CanonEOS1000D.jpg',
+                function(err, exif) {
+            if (err) {
+                done(err);
+            }
+            assert.equal('K0012754', exif['InternalSerialNumber']);
+            done();
+        });
+    });
+    it('should zero-pad SerialNumber', function(done) {
+        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/Canon/CanonDigitalRebelXT.jpg',
+                function(err, exif) {
+            if (err) {
+                done(err);
+            }
+            assert.equal('0320131248', exif['SerialNumber']);
+            done();
+        });
+    });
+    it('should not zero-pad InternalSerialNumber', function(done) {
+        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/Canon/CanonEOS1000D.jpg',
+                function(err, exif) {
+            if (err) {
+                done(err);
+            }
+            assert.equal('K0012754', exif['InternalSerialNumber']);
+            done();
+        });
+    });
+    it('should not trim last character from InternalSerialNumber', function(done) {
+        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/Canon/CanonEOS_REBEL_T1i.jpg',
+                function(err, exif) {
+            if (err) {
+                done(err);
+            }
+            assert.equal('Q001423204090227', exif['InternalSerialNumber']);
+            done();
+        });
+    });
+});
+
+describe('For _Other images', function(){
+    it('if SerialNumber not parsed, omit from response (although in this case, we should really be getting a SN)', function(done) {
+        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/vakantie anna frankrijk 094.JPG',
+                function(err, exif) {
+            if (err) {
+                done(err);
+            }
+            assert.equal(null, exif['SerialNumber']);
+            done();
+        });
+    });
+});
 
 describe('Generate all html test reports', function(){
     it('should not explode', function(done) {

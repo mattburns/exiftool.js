@@ -260,7 +260,7 @@
                 MakerNoteTags : {
                     0x000c : "SerialNumber",
                     0xa431 : "SerialNumber",
-                    0x0096 : "InternalSerialInfo",
+                    0x0096 : "InternalSerialNumber",
                     0x0015 : "SerialNumberFormat",
                     0x0028 : "ImageUniqueID"
                 }
@@ -1339,15 +1339,19 @@
 
         function formatSerialNumber(tags, serial) {
 
+            var isSerialNumber = (serial === tags.SerialNumber);
+
             var returnSerial = tidyString(serial);
 
             switch (tags.Make) {
             case "Canon":
-                // if (tags.SerialNumberFormat == 0xa0000000) {
-                if (returnSerial.length > 6) {
-                    returnSerial = pad(returnSerial, "0", 10);
-                } else {
-                    returnSerial = pad(returnSerial, "0", 6);
+                if (isSerialNumber) {
+                    // if (tags.SerialNumberFormat == 0xa0000000) {
+                    if (returnSerial.length > 6) {
+                        returnSerial = pad(returnSerial, "0", 10);
+                    } else {
+                        returnSerial = pad(returnSerial, "0", 6);
+                    }
                 }
                 break;
             case "FUJIFILM":
