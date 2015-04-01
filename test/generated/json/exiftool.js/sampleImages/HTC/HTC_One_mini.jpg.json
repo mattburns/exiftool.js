@@ -30,7 +30,7 @@
 	"GPSLatitudeRef": "N",
 	"GPSLongitude": "1,2,41.3582",
 	"GPSLongitudeRef": "W",
-	"GPSProcessingMethod": "ASCIIGPS",
+	"GPSProcessingMethod": "ASCII",
 	"GPSTimeStamp": "10,51,26",
 	"GainControl": "None",
 	"ISO": "125",

@@ -2,8 +2,8 @@
 	"ApertureValue": "3",
 	"ColorSpace": "sRGB",
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
-	"CreateDate": "2010:11:05",
-	"DateTimeOriginal": "2010:11:05",
+	"CreateDate": "2",
+	"DateTimeOriginal": "2",
 	"ExifIFDPointer": "144",
 	"ExifImageHeight": "1200",
 	"ExifImageWidth": "1600",
@@ -14,6 +14,6 @@
 	"ImageDescription": "ETNA PLUS",
 	"Make": "LG Electronics",
 	"Model": "GT350",
-	"ModifyDate": "2010:11:05",
-	"Software": "LGESW"
+	"ModifyDate": "2",
+	"Software": "LGE_SW"
 }

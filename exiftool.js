@@ -681,6 +681,7 @@
             })
         }
 
+	var _readSize = 100000
         function getExifFromLocalFileUsingNodeFs(fs, url, callback) {
             fs.open(url, 'r', function(err, fd) {
                 if (err) {
@@ -688,24 +689,27 @@
                     callback(err);
                     return;
                 }
-                var buffer = new Buffer(100000);
-                fs.read(fd, buffer, 0, 100000, 0, function(err, num) {
+                var buffer = new Buffer(_readSize);
+                fs.read(fd, buffer, 0, _readSize, 0, function(err, num) {
                     if (err) {
                         callback(err);
                         return;
                     }
 
-                    var binaryResponse = new BinaryFile(buffer
-                            .toString('binary'), 0, 1000000);
-
-                    var oEXIF = findEXIFinJPEG(binaryResponse);
-                    if (callback) {
-                        callback(null, (oEXIF || {}), url);
-                    }
-
+                    getExifFromNodeBuffer(buffer, callback);
                     fs.close(fd);
                 });
             });
+        }
+
+        function getExifFromNodeBuffer(buffer, callback) {
+            var binaryResponse = new BinaryFile(buffer
+                    .toString('binary'), 0, Math.min(buffer.length, _readSize));
+
+            var oEXIF = findEXIFinJPEG(binaryResponse);
+            if (callback) {
+                callback(null, (oEXIF || {}));
+            }
         }
 
         function getExifFromUrl(url, onComplete) {
@@ -977,15 +981,17 @@
                 var iActualOffsetHex = (iStringOffset - iTIFFStart)
                         .toString(16);
 
-                if (strTag == 'SerialNumber'
-                        || strTag == 'InternalSerialNumber') { // TODO: needed
-                    // for Fujifilm
-                    // FinePix E900
-                    // but I'm not
-                    // sure why...
-                    iNumValues++;
-                }
-                return oFile.getStringAt(iStringOffset, iNumValues - 1);
+                var ascii = oFile.getStringAt(iStringOffset, iNumValues);
+                // from perl libimage-exiftool Exif.pm
+                // "truncate at null terminator (shouldn't have a null based on
+                // the EXIF spec, but it seems that few people actually read
+                // the spec)
+                // So read the entire string length and trim off the NULL.
+                // trim trailing spaces must be a reference to
+                // "Note: allow spaces instead of nulls in the ID codes because
+                // it is fairly common for camera manufacturers to get this
+                // wrong"
+                return ascii.replace(/\0.*/, "").replace(/ +$/, "")
                 break;
 
             case 3: // short, 16 bit int
@@ -1515,7 +1521,9 @@
             }
             str = str + "";
 
-            str = str.replace(/[^a-z0-9 \-\/\.\(\)\:\;\,\©\@\\]/gi, '');
+            // list of what to keep
+            str = str.replace(/[^a-z0-9 \!\"\#\$\%\&\'\(\)\*\+\,\-\.\/\:\;\<\=\>\?\@\[\\\]\^\_\`\{\|\}\~\©]/gi,
+                '');
             str = str.replace(/^\s+|\s+$/g, ''); // trim
             if (str.toLowerCase() == "undefined"
                     || str.toLowerCase() == "unknown") {
@@ -1540,6 +1548,7 @@
 
         if (typeof (exports) !== 'undefined') {
             exports.getExifFromLocalFileUsingNodeFs = getExifFromLocalFileUsingNodeFs;
+            exports.getExifFromNodeBuffer = getExifFromNodeBuffer;
         }
 
         if (typeof (jQuery) !== 'undefined') {
@@ -1592,5 +1601,4 @@
             }
         }
     })();
-
 })();

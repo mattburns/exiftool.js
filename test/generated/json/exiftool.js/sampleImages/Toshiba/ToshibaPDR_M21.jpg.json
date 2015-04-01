@@ -15,7 +15,7 @@
 	"Flash": "Flash fired",
 	"FlashpixVersion": "0100",
 	"ISO": "100",
-	"ImageDescription": "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM",
+	"ImageDescription": "",
 	"InteroperabilityIFDPointer": "672",
 	"Make": "Toshiba Corporation",
 	"MakerNoteIFDPointer": "65,17,1,48,69,64,90,71,1,89,5,21,5,31,0,0",
@@ -25,7 +25,7 @@
 	"RelatedSoundFile": "",
 	"ResolutionUnit": "2",
 	"ShutterSpeedValue": "5",
-	"Software": "V1.68916F19",
+	"Software": "V1.68_916F_19",
 	"XResolution": "72",
 	"YCbCrPositioning": "2",
 	"YResolution": "72"

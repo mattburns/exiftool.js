@@ -22,7 +22,7 @@
 	"GPSLatitudeRef": "N",
 	"GPSLongitude": "0,0,0",
 	"GPSLongitudeRef": "E",
-	"GPSMapDatum": "WGS-8",
+	"GPSMapDatum": "WGS-84",
 	"GPSTimeStamp": "0,0,0",
 	"GPSVersionID": "2.2.0.0",
 	"ISO": "200",

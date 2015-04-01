@@ -428,6 +428,30 @@ describe('For Canon images', function(){
     });
 });
 
+describe('dfries bugs', function(){
+    it('should decode mores ascii', function(done) {
+        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/Daisy/DaisyMultimedia.jpg',
+                function(err, exif) {
+            if (err) {
+                done(err);
+            }
+            assert.equal('Exif_JPEG', exif['ImageDescription']);
+            done();
+        });
+    });
+    it('shouldnt drop last char', function(done) {
+        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/DXG/DXG_DZ358.jpg',
+                function(err, exif) {
+            if (err) {
+                done(err);
+            }
+            assert.equal('DXG DZ358', exif['Model']);
+            done();
+        });
+    });
+});
+
+
 describe('For _Other images', function(){
     it('if SerialNumber not parsed, omit from response (although in this case, we should really be getting a SN)', function(done) {
         exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/vakantie anna frankrijk 094.JPG',
