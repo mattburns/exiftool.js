@@ -475,6 +475,27 @@ describe('For _Other images', function(){
     });
 });
 
+describe.skip('Intermittent failures. Proves issue #8, skipping until fixed...', function(){
+    for (var i = 0; i < 100; i++) {
+        it('should always return the same ImageUniqueID. Test ' + i, function(done) {
+            exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/IMG_2705.JPG',
+                    function(err, exif) {
+                assert.equal('285C82E562E84FAFA3BFD2C4CE484D05', exif['ImageUniqueID']);
+                done();
+            });
+        });
+    }
+    for (var i = 0; i < 100; i++) {
+        it('should always return the same SerialNumber. Test ' + i, function(done) {
+            exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/vakantie anna frankrijk 094.JPG',
+                function(err, exif) {
+                assert.equal(null, exif['SerialNumber']);
+                done();
+            });
+        });
+    }
+});
+
 // for faster dev, use : describe.skip('Gen...'
 describe('Generate all html test reports', function(){
     it('should not explode', function(done) {
