@@ -52,9 +52,16 @@ I see no reason why this library can't match (and exceed!) the parsing capabilit
 
 To keep this a small module on npm, the test images are stored in a different repository: https://github.com/mattburns/exiftool.js-dev-dependencies They are fetched when installing this npm module if you pass the --dev flag to fetch devDependencies.
 
+Note that all the test files used to be in this repo which means the history is really big. Avoid a large checkout using:
+
+```
+git clone --depth 1 https://github.com/mattburns/exiftool.js.git
+```
+
 It's easy to see how much your changes are improving this thanks to the coverage report above. To regenerate this simply run:
 
 ```
+npm install exiftool.js-dev-dependencies
 mocha
 ```
 
