@@ -1429,6 +1429,9 @@
         }
 
         function intArrayToHexString(arrayOfInts) {
+            if (typeof arrayOfInts === 'string') {
+                return arrayOfInts; // already a string
+            }
             var response = '';
             for ( var i in arrayOfInts) {
                 response += pad(arrayOfInts[i].toString(16), '0', 2);

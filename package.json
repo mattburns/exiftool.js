@@ -4,7 +4,8 @@
   "description": "A pure javascript implementation of Phil Harvey's excellent exiftool. This extends work started by Jacob Seidelin and aims to support parsing of all the tags that exiftool is capable of.",
   "main": "exiftool.js",
   "devDependencies": {
-    "exiftool.js-dev-dependencies": "0.3.0"
+    "exiftool.js-dev-dependencies": "0.3.0",
+    "mocha": "2.2.1"
   },
   "scripts": {
     "test": "mocha"

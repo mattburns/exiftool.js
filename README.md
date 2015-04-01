@@ -61,8 +61,8 @@ git clone --depth 1 https://github.com/mattburns/exiftool.js.git
 It's easy to see how much your changes are improving this thanks to the coverage report above. To regenerate this simply run:
 
 ```
-npm install exiftool.js-dev-dependencies
-mocha
+npm install
+npm test
 ```
 
 This will thrash every sample image through exiftool.js, and variants of node-exif then generate the report files to compare the output.
@@ -71,7 +71,8 @@ This will thrash every sample image through exiftool.js, and variants of node-ex
 Alternatively, there's a slower version for the paranoid:
 
 ```
-node test/test.js clean
+npm install
+env exiftoolclean=true npm test
 ```
 
 This will do the same thing, but also ensure the json output files generated from the perl exiftool are up to date.

@@ -3,7 +3,7 @@
 var assert = require("assert");
 var walk = require('walk');
 var fs = require('node-fs');
-var sys = require('sys')
+var sys = require('sys');
 var exec = require('child_process').exec;
 
 var exiftoolJS = require('../exiftool.js');
@@ -385,19 +385,6 @@ var start = function(done) {
     });
 };
 
-describe('General usage', function(){
-    it('should parse Make', function(done) {
-        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/Canon/CanonEOS1000D.jpg',
-                function(err, exif) {
-            if (err) {
-                done(err);
-            }
-            assert.equal('Canon', exif['Make']);
-            done();
-        });
-    });
-});
-
 describe('For Canon images', function(){
     it('should find InternalSerialNumber (used to incorrectly be InternalSerialInfo)', function(done) {
         exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/Canon/CanonEOS1000D.jpg',
@@ -452,15 +439,30 @@ describe('For _Other images', function(){
             done();
         });
     });
+    it('Parse imageuniqueid even if its alread a string and not array of ints', function(done) {
+        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/IMG_2705.JPG',
+                function(err, exif) {
+            if (err) {
+                done(err);
+            }
+            assert.equal('285C82E562E84FAFA3BFD2C4CE484D05', exif['ImageUniqueID']);
+            done();
+        });
+    });
 });
 
+// for faster dev, use : describe.skip('Gen...'
 describe('Generate all html test reports', function(){
     it('should not explode', function(done) {
         this.timeout(0); // because it takes ages
-        if (process.argv.length > 2 && process.argv[2] === 'clean') {
+
+        // Pass env variable to do a full clean first (slow!)
+        // eg:
+        //     env exiftoolclean=true mocha
+        if (process.env.exiftoolclean) {
             var child = exec('rm -rf test/generated', function(err, out) {
             	console.log("generated output dir cleaned.");
-                start(done);
+               start(done);
             });
         } else {
             start(done);
