@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Javascript EXIF Reader - exiftool.js
  * Copyright (c) 2008 Jacob Seidelin, cupboy@gmail.com, http://blog.nihilogic.dk/
  * Licensed under the MPL License [http://www.nihilogic.dk/licenses/mpl-license.txt]
@@ -1529,7 +1529,7 @@
                     || str.toLowerCase() == "unknown") {
                 str = "";
             }
-            return str;
+            return str.trim();
         }
 
         function allImagesLoaded() {

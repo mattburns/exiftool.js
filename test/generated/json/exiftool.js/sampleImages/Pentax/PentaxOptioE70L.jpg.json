@@ -1,5 +1,6 @@
 {
 	"ApertureValue": "4.76",
+	"CameraInfo": "4294967295,4294967295,4294967295,4294967295,4294967295",
 	"ColorSpace": "sRGB",
 	"ComponentsConfiguration": "Y, Cb, Cr, -",
 	"CompressedBitsPerPixel": "3.2",
@@ -26,6 +27,7 @@
 	"GainControl": "Low gain up",
 	"ISO": "196",
 	"ImageDescription": "PENTAX DIGITAL CAMERA",
+	"InternalSerialNumber": "4294967295",
 	"InteroperabilityIFDPointer": "7796",
 	"LightSource": "Daylight",
 	"Make": "PENTAX",
