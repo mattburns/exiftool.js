@@ -175,7 +175,7 @@ function writeFileCoverageReport(allExif, image, coverageSummary, callback) {
                 program = programs[j];
 
                 // Coerce into string for comparison
-                if (('' + allExif[program][key]) === ('' + allExif.exiftool[key])) {
+                if (String(allExif[program][key]) === String(allExif.exiftool[key])) {
                     rowHtml += "<td class='match'>" + allExif[program][key] + "</td>\n";
                     if (!coverageSummary.supportedTags) {
                         coverageSummary.supportedTags = {};
