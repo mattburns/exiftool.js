@@ -116,7 +116,17 @@ var createNodeExifCallbackHandler = function (program, callback) {
 };
 
 function extractExifUsingExiftoolJS(imgFile, callback) {
-    exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, imgFile, callback);
+    var fd,
+        buffer,
+        readSize = 100000;
+    fd = fs.openSync(imgFile, 'r');
+    buffer = new Buffer(readSize);
+    fs.readSync(fd, buffer, 0, readSize, 0);
+    fs.closeSync(fd);
+    
+    exiftoolJS.getExifFromNodeBuffer(buffer, callback);
+    
+//    exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, imgFile, callback);
 }
 
 function extractExifUsingGomfunkel(imgFile, callback) {
@@ -463,40 +473,72 @@ describe('dfries bugs', function () {
 
 describe('For _Other images', function () {
     it('if SerialNumber not parsed, omit from response (although in this case, we should really be getting a SN)', function (done) {
-        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/vakantie anna frankrijk 094.JPG',
-                function (err, exif) {
+        var fdVakantie,
+            bufferVakantie,
+            readSize = 100000;
+        fdVakantie = fs.openSync('node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/vakantie anna frankrijk 094.JPG', 'r');
+        bufferVakantie = new Buffer(readSize);
+        fs.readSync(fdVakantie, bufferVakantie, 0, readSize, 0);
+        fs.closeSync(fdVakantie);
+        
+        exiftoolJS.getExifFromNodeBuffer(bufferVakantie,
+            function (err, exif) {
                 assert.equal(null, exif.SerialNumber);
                 done();
             });
     });
     it('Parse imageuniqueid even if its alread a string and not array of ints', function (done) {
-        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/IMG_2705.JPG',
-                function (err, exif) {
+        var fdIMG2705,
+            bufferIMG2705,
+            readSize = 100000;
+        fdIMG2705 = fs.openSync('node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/IMG_2705.JPG', 'r');
+        bufferIMG2705 = new Buffer(readSize);
+        fs.readSync(fdIMG2705, bufferIMG2705, 0, readSize, 0);
+        fs.closeSync(fdIMG2705);
+        
+        exiftoolJS.getExifFromNodeBuffer(bufferIMG2705,
+            function (err, exif) {
                 assert.equal('285C82E562E84FAFA3BFD2C4CE484D05', exif.ImageUniqueID);
                 done();
             });
     });
 });
     
-describe.skip('Intermittent failures. Proves issue #8, skipping until fixed...', function () {
-    var i;
+describe('Intermittent failures. Proves issue #8, skipping until fixed...', function () {
+    var i,
+        readSize = 100000,
+        fdIMG2705,
+        bufferIMG2705,
+        fdVakantie,
+        bufferVakantie;
+    
+    fdIMG2705 = fs.openSync('node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/IMG_2705.JPG', 'r');
+    bufferIMG2705 = new Buffer(readSize);
+    fs.readSync(fdIMG2705, bufferIMG2705, 0, readSize, 0);
+    fs.closeSync(fdIMG2705);
+    
+    fdVakantie = fs.openSync('node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/vakantie anna frankrijk 094.JPG', 'r');
+    bufferVakantie = new Buffer(readSize);
+    fs.readSync(fdVakantie, bufferVakantie, 0, readSize, 0);
+    fs.closeSync(fdVakantie);
+    
     
     function testA(done) {
-        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/IMG_2705.JPG',
-                function (err, exif) {
+        exiftoolJS.getExifFromNodeBuffer(bufferIMG2705,
+            function (err, exif) {
                 assert.equal('285C82E562E84FAFA3BFD2C4CE484D05', exif.ImageUniqueID);
                 done();
             });
     }
     
     function testB(done) {
-        exiftoolJS.getExifFromLocalFileUsingNodeFs(fs, 'node_modules/exiftool.js-dev-dependencies/sampleImages/_Other/vakantie anna frankrijk 094.JPG',
-                function (err, exif) {
+        exiftoolJS.getExifFromNodeBuffer(bufferVakantie,
+            function (err, exif) {
                 assert.equal(null, exif.SerialNumber);
                 done();
             });
     }
-    
+        
     for (i = 0; i < 100; i += 1) {
         it('should always return the same ImageUniqueID. Test ' + i, testA);
     }
