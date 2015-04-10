@@ -60,12 +60,10 @@ You can view exactly how the results from this library fair verses the perl libr
 
 I see no reason why this library can't match (and exceed!) the parsing capabilities of the orginal perl library but I need your help. Please fork this repo, create pull request and issue, whatever. You can just play with making improvements to the code so that the coverage goes up. 
 
-To keep this a small module on npm, the test images are stored in a different repository: https://github.com/mattburns/exiftool.js-dev-dependencies They are fetched when installing this npm module if you pass the --dev flag to fetch devDependencies.
-
-Note that all the test files used to be in this repo which means the history is really big. Avoid a large checkout using:
+Note that all the test files used to be in this repo which means the history is really big. Avoid a large checkout using a `depth` of 1. The test files are now kept in a submodule, so you'll need the `recursive` option.
 
 ```
-git clone --depth 1 https://github.com/mattburns/exiftool.js.git
+git clone --depth 1 --recursive https://github.com/mattburns/exiftool.js.git
 ```
 
 It's easy to see how much your changes are improving this thanks to the coverage report above. To regenerate this simply run:
@@ -87,12 +85,23 @@ env exiftoolclean=true npm test
 
 This will do the same thing, but also ensure the json output files generated from the perl exiftool are up to date.
 
+Because we use a submodule, diff your changes using:
+
+```
+git diff && git submodule foreach 'git diff'
+```
+
+And push using:
+
+```
+git push --recurse-submodules=on-demand
+```
 
 
 Adding more images
 ==================
 
-If you want to test some of your own image files, copy them into the sampleImages/_Other directory in the repository: https://github.com/mattburns/exiftool.js-dev-dependencies Then, if you want to check them in, I have a script (c/o Phil Harvey) that will swap the main image with a small blank white square. This keeps the files small but don't rely on it giving you full anonymity because there may still be thumbnail image data in the file or other personal info in the filesname or other exif tags.
+If you want to test some of your own image files, copy them into the sampleImages/_Other directory. Then, if you want to check them in, I have a script (c/o Phil Harvey) that will swap the main image with a small blank white square. This keeps the files small but don't rely on it giving you full anonymity because there may still be thumbnail image data in the file or other personal info in the filesname or other exif tags.
 
 The script is called `swap_image.pl` but to keep things complicated, I suggest you just run the ant script:
 

@@ -1,1 +1,0 @@
-exports.ExifImage = require('./ExifImage');
