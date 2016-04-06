@@ -326,6 +326,14 @@
                     0x0101 : "SerialNumber"
                 }
             },
+            "OLYMPUS OPTICAL CO.,LTD" : {
+                MakerNoteTags : {
+                    0x101a : "SerialNumber"
+                },
+                HeaderSize : {
+                    "OLYMP" : 8
+                }
+            },
             "Panasonic" : {
                 MakerNoteTags : {
                     0x0025 : "InternalSerialNumber"
