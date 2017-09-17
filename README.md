@@ -11,7 +11,7 @@ Usage
 
 With jQuery:
 
-```
+```js
 $(this).getExifFromUrl(url, function(exif) {
     console.log("Make is : " + exif["Make"]);
 });
@@ -20,7 +20,7 @@ $(this).getExifFromUrl(url, function(exif) {
 
 Or you can read from a local file (like drag and drop):
 
-```
+```js
 var binaryReader = new FileReader();
 binaryReader.onloadend = function() {
     var exif = $(this).findEXIFinJPEG(binaryReader.result);
@@ -32,7 +32,7 @@ binaryReader.readAsBinaryString(file);
 
 Or using node.js (exiftool.js is packaged on npm [here](https://www.npmjs.org/package/exiftool.js)):
 
-```
+```js
 var exiftool = require('exiftool.js');
 var fs = require('fs');
 
@@ -43,7 +43,7 @@ exiftool.getExifFromLocalFileUsingNodeFs(fs, imgFile, function(err, exif) {
 
 Or for node.js if the image is already in a Buffer:
 
-```
+```js
 var exiftool = require('exiftool.js');
 
 exiftool.getExifFromNodeBuffer(buffer, function(err, exif) {
@@ -62,13 +62,13 @@ I see no reason why this library can't match (and exceed!) the parsing capabilit
 
 Note that all the test files used to be in this repo which means the history is really big. Avoid a large checkout using a `depth` of 1. The test files are now kept in a submodule, so you'll need the `recursive` option.
 
-```
+```sh
 git clone --depth 1 --recursive https://github.com/mattburns/exiftool.js.git
 ```
 
 It's easy to see how much your changes are improving this thanks to the coverage report above. To regenerate this simply run:
 
-```
+```sh
 npm install
 npm test
 ```
@@ -78,7 +78,7 @@ This will thrash every sample image through exiftool.js, and variants of node-ex
 
 Alternatively, there's a slower version for the paranoid:
 
-```
+```sh
 npm install
 env exiftoolclean=true npm test
 ```
@@ -87,13 +87,13 @@ This will do the same thing, but also ensure the json output files generated fro
 
 Because we use a submodule, diff your changes using:
 
-```
+```sh
 git diff && git submodule foreach 'git diff'
 ```
 
 And push using:
 
-```
+```sh
 git push --recurse-submodules=on-demand
 ```
 
