@@ -705,7 +705,7 @@
                     }
 
                     getExifFromNodeBuffer(buffer, callback);
-                    fs.close(fd);
+                    fs.close(fd, () => {});
                 });
             });
         }
