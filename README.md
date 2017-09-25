@@ -11,7 +11,7 @@ Usage
 
 Use jQuery:
 
-```
+```js
 $(this).getExifFromUrl(url, function(exif) {
     console.log("Make is : " + exif["Make"]);
 });
@@ -20,7 +20,7 @@ $(this).getExifFromUrl(url, function(exif) {
 
 Or you can read from a local file (like drag and drop)
 
-```
+```js
 var binaryReader = new FileReader();
 binaryReader.onloadend = function() {
     var exif = $(this).findEXIFinJPEG(binaryReader.result);
@@ -39,7 +39,7 @@ You can view exactly how the results from this library fair verses the perl libr
 
 I see no reason why this library can't match (and exceed!) the parsing capabilities of the orginal perl library but I need your help. Please fork this repo, create pull request and issue, whatever. You can just play with making improvements to the code so that the coverage goes up. It's easy to see how much your changes are improving this thanks to the coverage report above. To regenerate this simply run:
 
-```
+```sh
 node testWithNode.js
 ```
 
