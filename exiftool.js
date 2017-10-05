@@ -942,9 +942,8 @@
                     continue;
                 }
 
-                var tmp = readTagValue(oFile, iEntryOffset, iTIFFStart,
-                        iDirStart, bBigEnd, iHeaderSize, iOffsetBase, strTag);
-                oTags[strTag] = tmp;
+              oTags[strTag] = readTagValue(oFile, iEntryOffset, iTIFFStart,
+                  iDirStart, bBigEnd, iHeaderSize, iOffsetBase, strTag);
 
                 if (iEntries > 1000) {
                     return oTags;
