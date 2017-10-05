@@ -1277,12 +1277,12 @@
 
                 if (oMakeInfo.SerialWithinIFD) {
                     var parent = oMakeInfo.SerialWithinIFD;
-                    var oParentIFDTags = readTags(oFile, iTIFFOffset,
-                            oMakerNoteTags[parent],
-                            oMakeInfo.SerialWithinIFDTags, bMakerNoteEndianess,
-                            oMakeInfo.SerialWithinIFDHeaderSize, iOffsetBase);
-                    oMakerNoteTags = oParentIFDTags;
+                    oMakerNoteTags = readTags(oFile, iTIFFOffset,
+                        oMakerNoteTags[parent],
+                        oMakeInfo.SerialWithinIFDTags, bMakerNoteEndianess,
+                        oMakeInfo.SerialWithinIFDHeaderSize, iOffsetBase);
                 }
+
                 if (oMakeInfo.InternalSerialWithinIFDArray) {
                     IFDArray = oMakerNoteTags[oMakeInfo.InternalSerialWithinIFDArray];
                     if (IFDArray) {
