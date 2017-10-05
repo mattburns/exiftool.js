@@ -476,12 +476,11 @@
             0x013F : "PrimaryChromaticities",
             0x0211 : "YCbCrCoefficients",
             0x0214 : "ReferenceBlackWhite",
-            0x0132 : "DateTime",
             0x010E : "ImageDescription",
             0x010F : "Make",
             0x0110 : "Model",
             0x0131 : "Software",
-            0x0132 : "ModifyDate",
+            0x0132 : "ModifyDate", // aka "DateTime", see https://sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.html
             0x013B : "Artist",
             0x8298 : "Copyright",
             0xA431 : "SerialNumber", // for when SerialNumber is in IFD0 directly (BodySerialNumber in EXIF spec)
