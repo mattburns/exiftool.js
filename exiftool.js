@@ -476,12 +476,11 @@
             0x013F : "PrimaryChromaticities",
             0x0211 : "YCbCrCoefficients",
             0x0214 : "ReferenceBlackWhite",
-            0x0132 : "DateTime",
             0x010E : "ImageDescription",
             0x010F : "Make",
             0x0110 : "Model",
             0x0131 : "Software",
-            0x0132 : "ModifyDate",
+            0x0132 : "ModifyDate", // aka "DateTime", see https://sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.html
             0x013B : "Artist",
             0x8298 : "Copyright",
             0xA431 : "SerialNumber", // for when SerialNumber is in IFD0 directly (BodySerialNumber in EXIF spec)
@@ -705,7 +704,7 @@
                     }
 
                     getExifFromNodeBuffer(buffer, callback);
-                    fs.close(fd, () => {});
+                    fs.close(fd, function noop(){});
                 });
             });
         }
@@ -943,9 +942,8 @@
                     continue;
                 }
 
-                var tmp = readTagValue(oFile, iEntryOffset, iTIFFStart,
-                        iDirStart, bBigEnd, iHeaderSize, iOffsetBase, strTag);
-                oTags[strTag] = tmp;
+              oTags[strTag] = readTagValue(oFile, iEntryOffset, iTIFFStart,
+                  iDirStart, bBigEnd, iHeaderSize, iOffsetBase, strTag);
 
                 if (iEntries > 1000) {
                     return oTags;
@@ -1279,12 +1277,12 @@
 
                 if (oMakeInfo.SerialWithinIFD) {
                     var parent = oMakeInfo.SerialWithinIFD;
-                    var oParentIFDTags = readTags(oFile, iTIFFOffset,
-                            oMakerNoteTags[parent],
-                            oMakeInfo.SerialWithinIFDTags, bMakerNoteEndianess,
-                            oMakeInfo.SerialWithinIFDHeaderSize, iOffsetBase);
-                    oMakerNoteTags = oParentIFDTags;
+                    oMakerNoteTags = readTags(oFile, iTIFFOffset,
+                        oMakerNoteTags[parent],
+                        oMakeInfo.SerialWithinIFDTags, bMakerNoteEndianess,
+                        oMakeInfo.SerialWithinIFDHeaderSize, iOffsetBase);
                 }
+
                 if (oMakeInfo.InternalSerialWithinIFDArray) {
                     IFDArray = oMakerNoteTags[oMakeInfo.InternalSerialWithinIFDArray];
                     if (IFDArray) {
