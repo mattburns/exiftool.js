@@ -1,10 +1,21 @@
 exiftool.js
 ===========
 
-A pure javascript implementation of Phil Harvey's excellent [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/). This extends work started by [Jacob Seidelin](http://www.nihilogic.dk/labs/exifjquery/) and aims to support parsing of all the tags that exiftool is capable of. Currently only jpeg is supported.
+A pure javascript implementation of Phil Harvey's excellent [exiftool].
+This extends work started by [Jacob Seidelin] and aims to support parsing
+of all the tags that exiftool is capable of.
+Currently only jpeg is supported.
 
-See how well we're doing in the latest [Coverage report](http://mattburns.github.io/exiftool.js/test/generated/reports/)
+See how well we're doing in the latest [Coverage report]
 
+The current javascript implementation conforms to the [ECMAScript 5.1]
+which should work in older [node.js] versions.
+
+[exiftool]: http://www.sno.phy.queensu.ca/~phil/exiftool/
+[Coverage report]: http://mattburns.github.io/exiftool.js/test/generated/reports/
+[Jacob Seidelin]: http://www.nihilogic.dk/labs/exifjquery/
+[ECMASCript 5.1]: https://www.ecma-international.org/ecma-262/5.1/
+[node.js]: https://nodejs.org
 
 Usage
 =====
