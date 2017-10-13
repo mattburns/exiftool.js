@@ -1,10 +1,21 @@
 exiftool.js
 ===========
 
-A pure javascript implementation of Phil Harvey's excellent [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/). This extends work started by [Jacob Seidelin](http://www.nihilogic.dk/labs/exifjquery/) and aims to support parsing of all the tags that exiftool is capable of. Currently only jpeg is supported.
+A pure javascript implementation of Phil Harvey's excellent [exiftool].
+This extends work started by [Jacob Seidelin] and aims to support parsing
+of all the tags that exiftool is capable of.
+Currently only jpeg is supported.
 
-See how well we're doing in the latest [Coverage report](http://mattburns.github.io/exiftool.js/test/generated/reports/)
+See how well we're doing in the latest [Coverage report]
 
+The current javascript implementation conforms to the [ECMAScript 5.1]
+which should work in older [node.js] versions.
+
+[exiftool]: http://www.sno.phy.queensu.ca/~phil/exiftool/
+[Coverage report]: http://mattburns.github.io/exiftool.js/test/generated/reports/
+[Jacob Seidelin]: http://www.nihilogic.dk/labs/exifjquery/
+[ECMASCript 5.1]: https://www.ecma-international.org/ecma-262/5.1/
+[node.js]: https://nodejs.org
 
 Usage
 =====
@@ -109,3 +120,37 @@ The script is called `swap_image.pl` but to keep things complicated, I suggest y
 ant
 ```
 
+
+Releases and automated changelog
+================================
+
+We use the [generate-chagelog] tool when releasing new versions.
+This gives us the following goodies:
+- automated CHANGELOG generation
+- automated package version numbering (in `package.json`)
+- new git tag for each release
+
+[generate-chagelog]: https://www.npmjs.com/package/generate-changelog
+
+In order to do that, commit messages that should appear in the changelog should
+follow simple formatting rules `type(optional): message`
+(see the [generate-chagelog] for further info)
+
+Example:
+```
+fix(issue #36): duplicate declaration in EXIF.TiffTags 0x0132
+```
+
+**NOTE:** Make sure, your git remote is named 'origin' because our script expects it.
+
+## How to use from CLI
+```sh
+# run this to release a new patch version (e.g. 0.3.2 -> 0.3.3)
+yarn release:patch
+
+# run this to release a new minor version (e.g. 0.3.2 -> 0.4.0)
+yarn release:minor
+
+# run this to release a new major version (e.g. 0.3.2 -> 1.0.0)
+yarn release:major
+```
