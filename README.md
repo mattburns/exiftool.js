@@ -146,10 +146,10 @@ fix(issue #36): duplicate declaration in EXIF.TiffTags 0x0132
 ## How to use from CLI
 ```sh
 # run this to release a new patch version (e.g. 0.3.2 -> 0.3.3)
-yarn release:major
+yarn release:patch
 
 # run this to release a new minor version (e.g. 0.3.2 -> 0.4.0)
-yarn release:major
+yarn release:minor
 
 # run this to release a new major version (e.g. 0.3.2 -> 1.0.0)
 yarn release:major
