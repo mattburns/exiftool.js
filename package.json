@@ -1,11 +1,11 @@
 {
   "name": "exiftool.js",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A pure javascript implementation of Phil Harvey's excellent exiftool. This extends work started by Jacob Seidelin and aims to support parsing of all the tags that exiftool is capable of.",
   "main": "exiftool.js",
   "devDependencies": {
-    "mocha": "2.2.1",
-    "generate-changelog": "^1.5.0"
+    "generate-changelog": "^1.5.0",
+    "mocha": "2.2.1"
   },
   "scripts": {
     "test": "mocha",
