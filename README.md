@@ -124,17 +124,17 @@ ant
 Releases and automated changelog
 ================================
 
-We use the [generate-chagelog] tool when releasing new versions.
+We use the [generate-changelog] tool when releasing new versions.
 This gives us the following goodies:
 - automated CHANGELOG generation
 - automated package version numbering (in `package.json`)
 - new git tag for each release
 
-[generate-chagelog]: https://www.npmjs.com/package/generate-changelog
+[generate-changelog]: https://www.npmjs.com/package/generate-changelog
 
 In order to do that, commit messages that should appear in the changelog should
 follow simple formatting rules `type(optional): message`
-(see the [generate-chagelog] for further info)
+(see the [generate-changelog] for further info)
 
 Example:
 ```
