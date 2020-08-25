@@ -696,7 +696,7 @@
                     callback(err);
                     return;
                 }
-                var buffer = new Buffer(_readSize);
+                var buffer = Buffer.alloc(_readSize);
                 fs.read(fd, buffer, 0, _readSize, 0, function(err, num) {
                     if (err) {
                         callback(err);
